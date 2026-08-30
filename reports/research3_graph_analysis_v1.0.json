@@ -1,0 +1,139 @@
+{
+  "claim_limit": "These results validate deterministic policy behavior only; they are not Gazebo, physical-robot, perception-calibration, or confirmatory evidence.",
+  "development": {
+    "episodes": 400,
+    "maps": 6,
+    "paired_b6_minus_b2": {
+      "completion_difference": {
+        "estimate": 0.25,
+        "lower": 0.1590909090909091,
+        "samples": 2000,
+        "upper": 0.3522727272727273
+      },
+      "critical_risk_difference": {
+        "estimate": -0.25,
+        "lower": -0.3472222222222222,
+        "samples": 2000,
+        "upper": -0.1625
+      }
+    },
+    "paired_blocks": 80,
+    "routes": 10,
+    "systems": {
+      "B1": {
+        "completion_rate": 1.0,
+        "corrupted_completion_rate": 1.0,
+        "corrupted_critical_failure_rate": 0.0,
+        "critical_failure_rate": 0.0,
+        "episodes": 80,
+        "mean_interventions": 0.0
+      },
+      "B2": {
+        "completion_rate": 0.75,
+        "corrupted_completion_rate": 0.6666666666666666,
+        "corrupted_critical_failure_rate": 0.3333333333333333,
+        "critical_failure_rate": 0.25,
+        "episodes": 80,
+        "mean_interventions": 0.0
+      },
+      "B4": {
+        "completion_rate": 0.75,
+        "corrupted_completion_rate": 0.6666666666666666,
+        "corrupted_critical_failure_rate": 0.3333333333333333,
+        "critical_failure_rate": 0.25,
+        "episodes": 80,
+        "mean_interventions": 0.0
+      },
+      "B5": {
+        "completion_rate": 0.75,
+        "corrupted_completion_rate": 0.6666666666666666,
+        "corrupted_critical_failure_rate": 0.3333333333333333,
+        "critical_failure_rate": 0.25,
+        "episodes": 80,
+        "mean_interventions": 0.0
+      },
+      "B6": {
+        "completion_rate": 1.0,
+        "corrupted_completion_rate": 1.0,
+        "corrupted_critical_failure_rate": 0.0,
+        "critical_failure_rate": 0.0,
+        "episodes": 80,
+        "mean_interventions": 0.5
+      }
+    }
+  },
+  "evidence_scope": "deterministic_graph_world_engineering_only",
+  "inputs": {
+    "development": {
+      "path": "reports/graph_development_v1.0.jsonl",
+      "sha256": "4ebbad3e6213bcd1663e8f7123caffd508fecadf0fe0401239974be56f195e31"
+    },
+    "validation": {
+      "path": "reports/graph_validation_v1.0.jsonl",
+      "sha256": "62b7deaf2c4152bd8c0af7b6a29f1b2b5286bbbf58fa695d6dd28e5476f00fa1"
+    }
+  },
+  "schema_version": "research3-graph-analysis/v1",
+  "validation": {
+    "episodes": 160,
+    "maps": 3,
+    "paired_b6_minus_b2": {
+      "completion_difference": {
+        "estimate": 0.25,
+        "lower": 0.1,
+        "samples": 2000,
+        "upper": 0.40625
+      },
+      "critical_risk_difference": {
+        "estimate": -0.25,
+        "lower": -0.40625,
+        "samples": 2000,
+        "upper": -0.09375
+      }
+    },
+    "paired_blocks": 32,
+    "routes": 4,
+    "systems": {
+      "B1": {
+        "completion_rate": 1.0,
+        "corrupted_completion_rate": 1.0,
+        "corrupted_critical_failure_rate": 0.0,
+        "critical_failure_rate": 0.0,
+        "episodes": 32,
+        "mean_interventions": 0.0
+      },
+      "B2": {
+        "completion_rate": 0.75,
+        "corrupted_completion_rate": 0.6666666666666666,
+        "corrupted_critical_failure_rate": 0.3333333333333333,
+        "critical_failure_rate": 0.25,
+        "episodes": 32,
+        "mean_interventions": 0.0
+      },
+      "B4": {
+        "completion_rate": 0.75,
+        "corrupted_completion_rate": 0.6666666666666666,
+        "corrupted_critical_failure_rate": 0.3333333333333333,
+        "critical_failure_rate": 0.25,
+        "episodes": 32,
+        "mean_interventions": 0.0
+      },
+      "B5": {
+        "completion_rate": 0.75,
+        "corrupted_completion_rate": 0.6666666666666666,
+        "corrupted_critical_failure_rate": 0.3333333333333333,
+        "critical_failure_rate": 0.25,
+        "episodes": 32,
+        "mean_interventions": 0.0
+      },
+      "B6": {
+        "completion_rate": 1.0,
+        "corrupted_completion_rate": 1.0,
+        "corrupted_critical_failure_rate": 0.0,
+        "critical_failure_rate": 0.0,
+        "episodes": 32,
+        "mean_interventions": 0.5
+      }
+    }
+  }
+}

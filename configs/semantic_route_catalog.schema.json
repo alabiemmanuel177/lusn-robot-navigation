@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.protocol/language-navigation/semantic-route-catalog-v1.json",
+  "title": "Research 3 semantic route catalogue",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "map_id", "partition", "routes"],
+  "properties": {
+    "schema_version": {"const": "semantic-route-catalog/v1"},
+    "map_id": {"type": "string", "minLength": 1},
+    "partition": {"enum": ["development", "validation", "test"]},
+    "routes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "base_instruction_id", "platform_route_id", "anchor_region_id",
+          "terminal_region_id", "observation_coverage", "branch_index", "side"
+        ],
+        "properties": {
+          "base_instruction_id": {"type": "string", "minLength": 1},
+          "platform_route_id": {"type": "string", "minLength": 1},
+          "anchor_region_id": {"type": "string", "minLength": 1},
+          "terminal_region_id": {"type": "string", "minLength": 1},
+          "prior_risk": {"type": "number", "minimum": 0, "maximum": 1},
+          "observation_coverage": {"type": "number", "minimum": 0, "maximum": 1},
+          "traversability_observed": {"type": "boolean"},
+          "branch_index": {"type": "integer", "minimum": 1},
+          "side": {"enum": ["left", "right"]},
+          "relation": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

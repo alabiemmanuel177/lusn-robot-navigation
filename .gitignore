@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+reports/*.jsonl
+reports/*.jsonl.sha256
+
+
+# Top-level colcon artefacts (the ros_ws/ copies were already ignored)
+/build/
+/install/
+/log/

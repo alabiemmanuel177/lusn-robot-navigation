@@ -1,0 +1,23 @@
+schema_version: qos-contract/v1
+topics:
+  /language_instruction:
+    reliability: reliable
+    durability: transient_local
+    depth: 1
+  /language_hypotheses:
+    reliability: reliable
+    durability: transient_local
+    depth: 1
+  /semantic_observations:
+    reliability: reliable
+    durability: volatile
+    depth: 20
+  /belief_graph:
+    reliability: reliable
+    durability: volatile
+    depth: 2
+  /language_nav/decision:
+    reliability: reliable
+    durability: volatile
+    depth: 10
+

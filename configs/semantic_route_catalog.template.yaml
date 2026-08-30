@@ -1,0 +1,14 @@
+schema_version: semantic-route-catalog/v1
+map_id: dev_00
+partition: development
+routes:
+  - base_instruction_id: base-r010
+    platform_route_id: dev_00_r0
+    anchor_region_id: REPLACE_WITH_STABLE_ANCHOR_REGION_ID
+    terminal_region_id: REPLACE_WITH_STABLE_TERMINAL_REGION_ID
+    prior_risk: 0.0
+    observation_coverage: 0.0
+    traversability_observed: true
+    branch_index: 2
+    side: right
+    relation: past

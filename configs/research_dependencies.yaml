@@ -1,0 +1,39 @@
+schema_version: research-dependencies/v1
+research_1:
+  repository: /home/eao/risk-calibrated-nav
+  status: complete
+  verified_revision: 70d87054f4fd002a23311983a03b9810a038add6
+  role: semantic navigation, localization, traversability, and Nav2 execution
+  required_contract: semantic-observation/v1
+  required_contract_status: provided_ready_for_non_protected_live_capture
+  available_outputs:
+    - frozen_map_and_route_manifests
+    - gazebo_and_nav2_execution
+    - dense_semantic_classes_and_confidence
+    - map_and_odom_risk_grids
+    - landmark_scene_catalogues_9
+    - semantic_route_catalogues_9
+    - landmark_instances_98_across_14_routes
+  bridge:
+    package: extensions/research3_landmark_bridge
+    scenes: configs/landmark_bridge/scenes
+    semantic_routes: configs/landmark_bridge/semantic_routes
+    calibration_status: pending_real_capture_and_human_review
+    protected_test_routes_used: false
+research_2:
+  repository: /home/eao/failure-prediction
+  status: research_in_progress
+  role: independent failure monitoring and recovery trigger
+  required_contract: failure-monitor/v1
+  required_contract_status: not_implemented
+  blockers:
+    - seven_family_live_integrity_matrix
+    - supervisor_reviewed_terminal_event_thresholds
+    - independent_episode_annotations
+    - automatic_human_label_agreement
+research_3:
+  repository: /home/eao/lusn-robot-navigation
+  role: language uncertainty, belief graph, benchmark, and high-level planning
+research_4:
+  repository: /home/eao/scra-robot-navigation
+  role: continual adaptation and forgetting experiments

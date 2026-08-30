@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>language_nav_bringup</name>
+  <version>0.1.0</version>
+  <description>Launch and QoS configuration for language navigation.</description>
+  <maintainer email="emmanuel@example.invalid">Emmanuel Alabi Olasubomi</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>language_interface</exec_depend>
+  <exec_depend>semantic_belief_map</exec_depend>
+  <exec_depend>language_nav_planner</exec_depend>
+  <exec_depend>research3_landmark_bridge</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

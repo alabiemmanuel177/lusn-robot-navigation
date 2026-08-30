@@ -1,0 +1,12 @@
+# These names may occur in raw evaluator records but must never enter a deployed
+# parser, belief update, or planner input.
+fields:
+  - corruption_manifest
+  - corruption_type
+  - correct_grounding
+  - oracle_goal_pose
+  - oracle_route
+  - future_observations
+  - intended_terminal_region
+  - evaluator_label
+

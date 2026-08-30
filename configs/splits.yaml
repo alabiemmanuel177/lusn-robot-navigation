@@ -1,0 +1,24 @@
+protocol_version: "1.0"
+split_version: "research1-aligned-v0.2.0"
+status: "aligned_before_research3_live_execution"
+
+# Research 1 completed with zero-based map IDs. The original Research 3 reservation
+# used one-based IDs for three terminal entries; Protocol 1.0 is reconciled here before
+# any Research 3 live execution or protected-outcome access.
+development_maps: [dev_00, dev_01, dev_02, dev_03, dev_04, dev_05]
+validation_maps: [val_00, val_01, val_02]
+held_out_maps: [test_00, test_01, test_02]
+
+protected_grouping:
+  - map_id
+  - route_id
+  - base_instruction_id
+  - author_group
+  - template_family
+
+evaluator_only_fields:
+  - corruption_manifest
+  - correct_grounding
+  - oracle_goal_pose
+  - oracle_route
+  - future_observations

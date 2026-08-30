@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.protocol/language-navigation/instruction-v1.json",
+  "title": "Language navigation instruction hypotheses",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["instruction_id", "raw_text", "parser_version", "clauses"],
+  "properties": {
+    "instruction_id": {"type": "string", "minLength": 1},
+    "raw_text": {"type": "string", "minLength": 1},
+    "parser_version": {"type": "string", "minLength": 1},
+    "provenance": {"type": "string"},
+    "clauses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["clause_id", "text", "clause_type", "alternatives"],
+        "properties": {
+          "clause_id": {"type": "string"},
+          "text": {"type": "string"},
+          "clause_type": {
+            "enum": ["motion", "landmark", "turn", "topology", "terminal"]
+          },
+          "alternatives": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["probability", "action"],
+              "properties": {
+                "probability": {"type": "number", "minimum": 0, "maximum": 1},
+                "action": {"type": "string"},
+                "target": {"type": ["string", "null"]},
+                "relation": {"type": ["string", "null"]},
+                "attributes": {"type": "object"},
+                "branch_index": {"type": ["integer", "null"], "minimum": 1},
+                "side": {"enum": ["left", "right", null]},
+                "epistemic_strength": {"type": "number", "minimum": 0, "maximum": 1}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

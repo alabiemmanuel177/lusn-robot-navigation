@@ -1,0 +1,372 @@
+{
+  "caution": "Graph-world development results are not confirmatory robot-navigation evidence.",
+  "cells": [
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "ambiguous_reference",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B1"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "attribute_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B1"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "false_inserted_clause",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B1"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "missing_landmark",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B1"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "relation_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B1"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "topology_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B1"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "truthful_original",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B1"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "truthful_paraphrase",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B1"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "ambiguous_reference",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B2"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 0.0,
+      "condition": "attribute_corruption",
+      "critical_failure_rate": 1.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B2"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "false_inserted_clause",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B2"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 0.0,
+      "condition": "missing_landmark",
+      "critical_failure_rate": 1.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B2"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "relation_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B2"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "topology_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B2"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "truthful_original",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B2"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "truthful_paraphrase",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B2"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "ambiguous_reference",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B4"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 0.0,
+      "condition": "attribute_corruption",
+      "critical_failure_rate": 1.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B4"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "false_inserted_clause",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B4"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 0.0,
+      "condition": "missing_landmark",
+      "critical_failure_rate": 1.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B4"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "relation_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B4"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "topology_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B4"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "truthful_original",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B4"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "truthful_paraphrase",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B4"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "ambiguous_reference",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B5"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 0.0,
+      "condition": "attribute_corruption",
+      "critical_failure_rate": 1.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B5"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "false_inserted_clause",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B5"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 0.0,
+      "condition": "missing_landmark",
+      "critical_failure_rate": 1.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B5"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "relation_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B5"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "topology_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B5"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "truthful_original",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B5"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "truthful_paraphrase",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B5"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "ambiguous_reference",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B6"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "attribute_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 2.0,
+      "system_id": "B6"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "false_inserted_clause",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 1.0,
+      "system_id": "B6"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "missing_landmark",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 1.0,
+      "system_id": "B6"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "relation_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B6"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "topology_corruption",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B6"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "truthful_original",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B6"
+    },
+    {
+      "abstention_rate": 0.0,
+      "completion_rate": 1.0,
+      "condition": "truthful_paraphrase",
+      "critical_failure_rate": 0.0,
+      "episodes": 10,
+      "mean_interventions": 0.0,
+      "system_id": "B6"
+    }
+  ],
+  "episodes": 400,
+  "paired_b6_minus_b2": {
+    "blocks": 80,
+    "completion_difference": 0.25,
+    "critical_risk_difference": -0.25
+  },
+  "schema_version": "campaign-summary/v1"
+}

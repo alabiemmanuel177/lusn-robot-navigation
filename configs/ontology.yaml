@@ -1,0 +1,46 @@
+protocol_version: "1.0"
+ontology_version: "0.1.0"
+
+regions:
+  - corridor
+  - junction
+  - doorway
+  - laboratory_entrance
+  - office_entrance
+  - lobby
+
+landmarks:
+  - chair
+  - door
+  - doorway
+  - glass_doors
+  - laboratory_entrance
+  - office_entrance
+  - sign
+
+attributes:
+  color: [red, blue, green, yellow, black, white]
+  material: [glass, wood, metal]
+  ordinal: [first, second, third]
+
+relations:
+  - near
+  - past
+  - beside
+  - before
+  - after
+  - left_of
+  - right_of
+
+actions:
+  - traverse
+  - turn_left
+  - turn_right
+  - stop
+
+epistemic_markers:
+  may: 0.55
+  might: 0.50
+  probably: 0.70
+  default: 0.85
+

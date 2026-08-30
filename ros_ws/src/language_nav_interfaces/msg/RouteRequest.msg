@@ -1,0 +1,5 @@
+string schema_version
+string request_id
+string target_region_id
+string semantic_intent
+float64 maximum_risk

@@ -1,0 +1,10 @@
+protocol_version: "1.0"
+guard_version: "0.1.0"
+hard_route_risk: 0.35
+ignore_clause_reliability: 0.35
+inspect_min_information_gain: 0.18
+abstain_all_routes_risk: 0.70
+max_single_observation_log_odds: 1.25
+top_k_groundings: 3
+nav2_authority_required: true
+
