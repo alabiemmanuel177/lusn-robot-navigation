@@ -1,0 +1,33 @@
+{
+  "campaign_blocker": "Existing catalogue supplies side-of-route visual markers, not independently verified passage choices.",
+  "physical_doorway_topology_certified": false,
+  "required_resolution": "Author and verify a physically faithful doorway/route benchmark, or explicitly change the claim to ordered marker navigation.",
+  "rows": [
+    {
+      "crossed_marker_aperture_either_direction": false,
+      "doorway_entity_id": "dev_00-r010-doorway-2",
+      "run_id": "r3-inspection-dev00-v1"
+    },
+    {
+      "crossed_marker_aperture_either_direction": false,
+      "doorway_entity_id": "dev_00-r010-doorway-2",
+      "run_id": "r3-variant-B1-v1"
+    },
+    {
+      "crossed_marker_aperture_either_direction": false,
+      "doorway_entity_id": "dev_00-r010-doorway-2",
+      "run_id": "r3-variant-B2-v1"
+    },
+    {
+      "crossed_marker_aperture_either_direction": false,
+      "doorway_entity_id": "dev_00-r010-doorway-2",
+      "run_id": "r3-variant-B4-v1"
+    },
+    {
+      "crossed_marker_aperture_either_direction": false,
+      "doorway_entity_id": "dev_00-r010-doorway-2",
+      "run_id": "r3-variant-B5-v1"
+    }
+  ],
+  "schema_version": "research3-doorway-geometry-audit/v1"
+}

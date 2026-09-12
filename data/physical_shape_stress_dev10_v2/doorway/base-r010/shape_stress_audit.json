@@ -1,0 +1,89 @@
+{
+  "association_policy": "unchanged provider category/attribute matching, nearest unused entity, 0.9m XY radius",
+  "base_instruction_id": "base-r010",
+  "center_association_distance_m": 0.58,
+  "claim_scope": "targeted same-material shape stress; not natural error prevalence",
+  "collision_geometry_unchanged": true,
+  "condition_version": "development-material-occlusion-v2",
+  "context_policy": "retain all original chairs, four doorways, signs, rooms and corridor; full-frame capture required",
+  "controlled_material_occlusion": true,
+  "controlled_occlusion": false,
+  "derivative_sha256": {
+    "execution_catalog.json": "c902ab5d02c054d700840463ae11c6c42bca847a147218a05065bcf586c2d2ca",
+    "geometry_audit.json": "c34c1f365c1c0605391b84af2f1552808a09fdee863ff6c73437500414c174a3",
+    "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+    "manifest.json": "99957779c13320f1a6513f250a9e674c7f537cc6d117bef56100f1a937816f30",
+    "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "a1e4f6b69e1be42615dbb6561b4cd283b104e4eefb7ce8a53ad874be08ccd03b",
+    "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+    "world.sdf": "267bcba09a0560ce01073f4f824ef4e1f8f5d2b623bfa7b8c2ddecb8ffcc0ce0"
+  },
+  "false_positive_observed": false,
+  "labels_generated": false,
+  "live_visual_review_completed": false,
+  "map_scene_and_task_ids_unchanged": true,
+  "material_source": "exact copy of original target visual material",
+  "neutral_shell": {
+    "collision_count": 0,
+    "dimension_expansion_m": 0.01,
+    "material_rgba": [
+      0.45,
+      0.45,
+      0.45,
+      1
+    ],
+    "model_name": "stress_neutral_shell_r3geo_base_r010_left_1_doorway",
+    "pose": [
+      4.3,
+      1.2,
+      1.95,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "readable_lettering_models_modified": false,
+    "shell_box_size": [
+      1.51,
+      0.17,
+      0.26
+    ],
+    "source_box_size": [
+      1.5,
+      0.16,
+      0.25
+    ],
+    "source_marker_model": "r3geo_base_r010_left_1_lintel"
+  },
+  "original_elements_unchanged": true,
+  "partition": "development",
+  "protected_content_used": false,
+  "radius_m": 0.25,
+  "readable_source_audit_sha256": "6223c897010bcc357c7831bfdb17de39b72574094564b6bef6518f740704742f",
+  "schema_version": "research3-readable-shape-stress/v1",
+  "shape": "sphere",
+  "shape_footprint_wall_clearance_m": 0.9041708909271516,
+  "shape_model": "stress_shape_r3geo_base_r010_left_1_doorway",
+  "shape_pose": [
+    4.3,
+    0.62,
+    0.25
+  ],
+  "source_directory": "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r010",
+  "source_marker_model": "r3geo_base_r010_left_1_lintel",
+  "source_sha256": {
+    "execution_catalog.json": "36822f48fd474d07947610581961a5e0a05d6bde1bbb8412d68e4b9228d9f980",
+    "geometry_audit.json": "c34c1f365c1c0605391b84af2f1552808a09fdee863ff6c73437500414c174a3",
+    "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+    "manifest.json": "c408eb391d8b01ac96370e2c5521c283c00db3e272f85320ad39427c9c580e1a",
+    "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "a1e4f6b69e1be42615dbb6561b4cd283b104e4eefb7ce8a53ad874be08ccd03b",
+    "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+    "world.sdf": "2e7be91bd8b90837bdb5d2814edbae419a20393a14d3aa451dc7d5d2ce659b29"
+  },
+  "target_category": "doorway",
+  "target_entity_id": "r3geo_base_r010_left_1_doorway",
+  "target_selection": "lexicographically first stable entity ID within requested category",
+  "visual_only": true
+}

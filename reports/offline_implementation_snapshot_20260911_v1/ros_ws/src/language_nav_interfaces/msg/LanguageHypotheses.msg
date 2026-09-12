@@ -1,0 +1,6 @@
+string schema_version
+string instruction_id
+string parser_version
+string hypotheses_json
+uint64 published_at_ns
+

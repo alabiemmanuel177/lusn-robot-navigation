@@ -1,0 +1,10 @@
+{
+  "schema_version": "research3-review-extra-selection/v1",
+  "selection_basis": "explicit_stress_capture_not_confidence_or_correctness",
+  "targets": [
+    {"run_id": "r3-current-v1-stress-chair", "entity_id": "dev_00-r010-blue-chair", "frame": "perception_capture/frame-000.json"},
+    {"run_id": "r3-current-v1-stress-doorway", "entity_id": "r3geo_base_r010_left_1_doorway", "frame": "perception_capture/frame-000.json"},
+    {"run_id": "r3-current-v1-stress-laboratory_entrance", "entity_id": "r3geo_base_r010_left_1_entrance", "frame": "perception_capture/frame-000.json"},
+    {"run_id": "r3-current-v1-stress-office_entrance", "entity_id": "r3geo_base_r010_right_1_entrance", "frame": "perception_capture/frame-000.json"}
+  ]
+}

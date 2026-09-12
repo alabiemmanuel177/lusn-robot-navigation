@@ -1,0 +1,258 @@
+schema_version: landmark-scene/v1
+map_id: test_01
+partition: test
+map_hash: a8da2d97061b1b129461fc79d25976aee36dde647b95a6af3bfc18f2d1a1f96f
+source: research3-route-plan:b4c38cb4d2f1512e21479149c0bfac149dc0f506ff1ab73d2ed3ec7e2fd76c44
+entities:
+- entity_id: test_01-r015-sign
+  region_id: test_01-r015-sign-region
+  category: sign
+  attributes: {}
+  pose:
+    x: 5.0073
+    y: 4.5427
+    yaw: -0.785398
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: &id002
+  - 245
+  - 135
+  - 25
+  route_ids:
+  - test_01_r0
+- entity_id: test_01-r015-door
+  region_id: test_01-r015-door-region
+  category: door
+  attributes: {}
+  pose:
+    x: 4.755
+    y: 3.725
+    yaw: 0.0
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: &id003
+  - 135
+  - 75
+  - 35
+  route_ids:
+  - test_01_r0
+- entity_id: test_01-r015-glass-doors
+  region_id: test_01-r015-glass-doors-region
+  category: glass_doors
+  attributes:
+    material: glass
+  pose:
+    x: 4.755
+    y: 3.325
+    yaw: 0.0
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: &id004
+  - 45
+  - 190
+  - 215
+  route_ids:
+  - test_01_r0
+- entity_id: test_01-r015-green-chair
+  region_id: test_01-r015-anchor-region
+  category: chair
+  attributes:
+    color: green
+  pose:
+    x: 4.5073
+    y: 3.2427
+    yaw: -0.785398
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 40
+  - 180
+  - 70
+  route_ids:
+  - test_01_r0
+- entity_id: test_01-r015-doorway-1
+  region_id: test_01-r015-doorway-1-region
+  category: doorway
+  attributes: {}
+  pose:
+    x: 3.8573
+    y: 2.5927
+    yaw: -0.785398
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: &id001
+  - 150
+  - 55
+  - 190
+  route_ids:
+  - test_01_r0
+- entity_id: test_01-r015-doorway-2
+  region_id: test_01-r015-doorway-2-region
+  category: doorway
+  attributes: {}
+  pose:
+    x: 3.2573
+    y: 1.9927
+    yaw: -0.785398
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: *id001
+  route_ids:
+  - test_01_r0
+- entity_id: test_01-r015-terminal-entity
+  region_id: test_01-r015-terminal
+  category: laboratory_entrance
+  attributes: {}
+  pose:
+    x: 2.3573
+    y: 1.0927
+    yaw: -0.785398
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 215
+  - 45
+  - 145
+  route_ids:
+  - test_01_r0
+- entity_id: test_01-r016-sign
+  region_id: test_01-r016-sign-region
+  category: sign
+  attributes: {}
+  pose:
+    x: 4.955
+    y: 3.775
+    yaw: 0.0
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: *id002
+  route_ids:
+  - test_01_r1
+- entity_id: test_01-r016-door
+  region_id: test_01-r016-door-region
+  category: door
+  attributes: {}
+  pose:
+    x: 5.5927
+    y: 2.7573
+    yaw: 2.356194
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: *id003
+  route_ids:
+  - test_01_r1
+- entity_id: test_01-r016-glass-doors
+  region_id: test_01-r016-glass-doors-region
+  category: glass_doors
+  attributes:
+    material: glass
+  pose:
+    x: 5.0427
+    y: 2.2073
+    yaw: 2.356194
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: *id004
+  route_ids:
+  - test_01_r1
+- entity_id: test_01-r016-yellow-chair
+  region_id: test_01-r016-anchor-region
+  category: chair
+  attributes:
+    color: yellow
+  pose:
+    x: 4.2013
+    y: 1.6487
+    yaw: 2.356194
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 230
+  - 200
+  - 40
+  route_ids:
+  - test_01_r1
+- entity_id: test_01-r016-doorway-1
+  region_id: test_01-r016-doorway-1-region
+  category: doorway
+  attributes: {}
+  pose:
+    x: 3.595
+    y: 0.925
+    yaw: 3.141593
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: *id001
+  route_ids:
+  - test_01_r1
+- entity_id: test_01-r016-doorway-2
+  region_id: test_01-r016-doorway-2-region
+  category: doorway
+  attributes: {}
+  pose:
+    x: 3.545
+    y: 0.125
+    yaw: -3.141593
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: *id001
+  route_ids:
+  - test_01_r1
+- entity_id: test_01-r016-terminal-entity
+  region_id: test_01-r016-terminal
+  category: office_entrance
+  attributes: {}
+  pose:
+    x: 3.995
+    y: -1.225
+    yaw: 3.141593
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 40
+  - 205
+  - 155
+  route_ids:
+  - test_01_r1

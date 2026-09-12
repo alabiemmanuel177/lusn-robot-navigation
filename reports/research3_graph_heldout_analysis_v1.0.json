@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "episodes": 240,
+    "maps": 3,
+    "paired_b6_minus_b2": {
+      "completion_difference": {
+        "estimate": 0.25,
+        "lower": 0.125,
+        "samples": 5000,
+        "upper": 0.375
+      },
+      "critical_risk_difference": {
+        "estimate": -0.25,
+        "lower": -0.375,
+        "samples": 5000,
+        "upper": -0.125
+      }
+    },
+    "paired_blocks": 48,
+    "routes": 6,
+    "systems": {
+      "B1": {
+        "completion_rate": 1.0,
+        "corrupted_completion_rate": 1.0,
+        "corrupted_critical_failure_rate": 0.0,
+        "critical_failure_rate": 0.0,
+        "episodes": 48,
+        "mean_interventions": 0.0
+      },
+      "B2": {
+        "completion_rate": 0.75,
+        "corrupted_completion_rate": 0.6666666666666666,
+        "corrupted_critical_failure_rate": 0.3333333333333333,
+        "critical_failure_rate": 0.25,
+        "episodes": 48,
+        "mean_interventions": 0.0
+      },
+      "B4": {
+        "completion_rate": 0.75,
+        "corrupted_completion_rate": 0.6666666666666666,
+        "corrupted_critical_failure_rate": 0.3333333333333333,
+        "critical_failure_rate": 0.25,
+        "episodes": 48,
+        "mean_interventions": 0.0
+      },
+      "B5": {
+        "completion_rate": 0.75,
+        "corrupted_completion_rate": 0.6666666666666666,
+        "corrupted_critical_failure_rate": 0.3333333333333333,
+        "critical_failure_rate": 0.25,
+        "episodes": 48,
+        "mean_interventions": 0.0
+      },
+      "B6": {
+        "completion_rate": 1.0,
+        "corrupted_completion_rate": 1.0,
+        "corrupted_critical_failure_rate": 0.0,
+        "critical_failure_rate": 0.0,
+        "episodes": 48,
+        "mean_interventions": 0.5
+      }
+    }
+  },
+  "claim_limit": "Held-out graph-world results test the language policy under deterministic authored observations; they are not Gazebo or physical-robot performance.",
+  "evidence_scope": "protected_deterministic_graph_world",
+  "input": {
+    "episodes": 240,
+    "path": "reports/graph_heldout_v1.0.jsonl",
+    "sha256": "432380ae41f3f605c23bf953f5172780a1656c5f50df5565e051757d1a2c73fe"
+  },
+  "protocol_version": "1.1",
+  "schema_version": "research3-graph-heldout-analysis/v1"
+}

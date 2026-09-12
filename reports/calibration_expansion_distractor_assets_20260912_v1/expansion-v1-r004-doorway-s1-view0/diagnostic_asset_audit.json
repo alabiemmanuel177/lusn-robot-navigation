@@ -1,0 +1,56 @@
+{
+  "capture_pose": {
+    "x": 8.3,
+    "y": -0.6,
+    "yaw": 1.5707963267948966
+  },
+  "category": "doorway",
+  "collision_geometry_unchanged": true,
+  "derivative_sha256": {
+    "execution_catalog.json": "eed93fa2da0d1bafef26305013135f13ea7d98a5c9e19c79bff4202cf2261c62",
+    "geometry_audit.json": "c3345f3a48eeca7e46c30e9155f1031b5d82436864b6bd6a7a031a50ba1812cc",
+    "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+    "manifest.json": "0fcb43c633254f6e24a01b3e0b130c1a80e798c17d29d8ae2b9d0f1bb986f0ac",
+    "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "13707a4a7cda4633fd65e1c6b350b0ce8cf738fac70889057eca746085f28c95",
+    "verified_ordered_geometry.json": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67",
+    "world.sdf": "7a69c4ce0e8acd42064996c322a285f4f1479453b5f3d8ca55f78aaa3af5a21c"
+  },
+  "entity_id": "r3geo_base_r004_left_2_doorway",
+  "execution_authorized": false,
+  "false_detection_observed": false,
+  "human_labels_generated": false,
+  "included_in_calibration": false,
+  "map_id": "r3geo_base_r004",
+  "material": "exact_source_marker_copy",
+  "original_sdf_elements_unchanged": true,
+  "panel": "diagnostic_only",
+  "placement_basis": "fixed_camera_ray_distances_using_only_geometry",
+  "primary_candidate_id": "expansion-v1-r004-doorway-s1-view0",
+  "protected_content_used": false,
+  "schema_version": "research3-expansion-diagnostic-asset/v1",
+  "source_marker_model": "r3geo_base_r004_left_2_lintel",
+  "source_sha256": {
+    "execution_catalog.json": "eed93fa2da0d1bafef26305013135f13ea7d98a5c9e19c79bff4202cf2261c62",
+    "geometry_audit.json": "c3345f3a48eeca7e46c30e9155f1031b5d82436864b6bd6a7a031a50ba1812cc",
+    "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+    "manifest.json": "56730a805a90d0574d086a9cf23e815ae4d07f539c0bc827adca3b0ab0793c3b",
+    "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "13707a4a7cda4633fd65e1c6b350b0ce8cf738fac70889057eca746085f28c95",
+    "verified_ordered_geometry.json": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67",
+    "world.sdf": "3f2936cc6b46847b9822ed9fbfb578df189206f62720050bc41da045837fc5a3"
+  },
+  "sphere_pose": [
+    8.3,
+    0.75,
+    0.2
+  ],
+  "sphere_radius_m": 0.2,
+  "stable_ids_unchanged": true,
+  "status": "built_static_checked_visual_preflight_and_approval_pending",
+  "target_xy_offset_m": 0.45,
+  "treatment": "same_colour_nonlandmark_distractor",
+  "wall_clearance_m": 0.8385254915624211
+}

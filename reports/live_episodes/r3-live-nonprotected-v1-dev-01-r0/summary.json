@@ -1,0 +1,19 @@
+{
+  "collision": false,
+  "decision_count": 1886,
+  "duration_wall_s": 90.47301483154297,
+  "eligibility_count": 1,
+  "instruction_completion": false,
+  "monitor_prediction_observed": true,
+  "monitor_state_count": 143,
+  "navigation_success": false,
+  "partition": "development",
+  "protected_test_routes_used": false,
+  "reason": "Nav2 status 6",
+  "route_id": "dev_01_r0",
+  "run_id": "r3-live-nonprotected-v1-dev-01-r0",
+  "schema_version": "research3-live-summary/v1",
+  "timeout": false,
+  "variant_id": "base-r001-truthful_original-s0",
+  "wrong_goal": false
+}

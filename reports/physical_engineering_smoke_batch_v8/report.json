@@ -1,0 +1,148 @@
+{
+  "allow_coexistence_trial": true,
+  "attempts": [
+    {
+      "argv": [
+        "nice",
+        "-n",
+        "15",
+        "python3",
+        "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py",
+        "--world",
+        "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r010",
+        "--variant-id",
+        "base-r010-truthful_original-s0",
+        "--run-id",
+        "r3-eng-smoke-dev10-b5-truthful_original-sim1-v1",
+        "--system-id",
+        "B5",
+        "--ros-domain-id",
+        "89",
+        "--timeout",
+        "90",
+        "--simulation-seed",
+        "1",
+        "--camera-profile",
+        "/home/eao/lusn-robot-navigation/reports/engineering_camera_settings_v1/profiles/base-r010.yaml",
+        "--camera-horizontal-fov",
+        "2.0",
+        "--capture-perception",
+        "--allow-coexistence-trial"
+      ],
+      "condition": "truthful_original",
+      "original_run_id": "r3-eng-smoke-dev10-b5-truthful_original-sim1-v1",
+      "resource_preflight": {
+        "available_memory_kib": 26599888,
+        "cpu_pressure_avg10": 0.44,
+        "load1": 6.82080078125,
+        "logical_cpus": 24,
+        "wall_time": 1789143615.36095
+      },
+      "returncode": 0,
+      "run_id": "r3-eng-smoke-dev10-b5-truthful_original-sim1-v1",
+      "status": "measured_engineering_outcome_retained_not_performance_claim",
+      "summary": {
+        "collision": false,
+        "collision_count": 0,
+        "detector_calibration_transfer_validated": false,
+        "distance_travelled_m": 8.544902074936205,
+        "episode_ended_at_ns": 36459000000,
+        "episode_prediction_count": 41,
+        "episode_started_at_ns": 10182000000,
+        "evidence_scope": "physical_world_engineering_not_comparative_campaign",
+        "expected_terminal_entity_id": "r3geo_base_r010_right_2_entrance",
+        "goal_error_m": 0.2938033424395344,
+        "goal_reached": true,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 730,
+        "infrastructure_failure": false,
+        "instruction_completion": true,
+        "measured_terminal_entity_id": "r3geo_base_r010_right_2_entrance",
+        "measurements_sha256": "299186814f7caf97b6065d9c0aa6df0756de6e198417211774dc89e349e4037d",
+        "nav2_reported_success": true,
+        "navigation_success": true,
+        "nearby_terminal_entity_ids": [
+          "r3geo_base_r010_right_2_entrance"
+        ],
+        "ordered_instruction_score": {
+          "crossing_events": [
+            {
+              "gate_id": "corridor",
+              "trajectory_index": 65.84990447531422
+            },
+            {
+              "gate_id": "past_chair",
+              "trajectory_index": 186.27864088272935
+            },
+            {
+              "gate_id": "second_doorway",
+              "trajectory_index": 668.9500118985666
+            }
+          ],
+          "forbidden_crossings": [],
+          "instruction_completion": true,
+          "matched_gate_ids": [
+            "corridor",
+            "past_chair",
+            "second_doorway"
+          ],
+          "reason": "ordered physical gates and independent terminal identity",
+          "required_gate_ids": [
+            "corridor",
+            "past_chair",
+            "second_doorway"
+          ]
+        },
+        "partition": "development",
+        "protected_test_routes_used": false,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_2",
+        "run_id": "r3-eng-smoke-dev10-b5-truthful_original-sim1-v1",
+        "schema_version": "research3-live-summary/v3",
+        "semantic_outcome_measured": true,
+        "system_id": "B5",
+        "terminal_identity_ambiguous": false,
+        "terminal_identity_correct": true,
+        "terminal_measurement_source": "provider scene ground truth and measured final position",
+        "terminal_radius_m": 1.0,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1.0,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.012712665444345902,
+          "step_limit_m": 0.5,
+          "valid": true
+        },
+        "valid_terminal_outcome": true,
+        "variant_id": "base-r010-truthful_original-s0",
+        "wrong_goal": null
+      },
+      "summary_sha256": "c35618f9e67e2d819285f5af0ff9d8d9b113e1de6625cf7409e36d4778a91297",
+      "supplemental_retry": false,
+      "system_id": "B5"
+    }
+  ],
+  "child_lifetime_lock": true,
+  "full_campaign_completed": false,
+  "halted": false,
+  "historical_zero_overlap_claimed": false,
+  "max_new_dispatches": 1,
+  "not_attempted_count": 0,
+  "original_matrix_run_ids": [
+    "r3-eng-smoke-dev10-b6-truthful_original-sim1-v1",
+    "r3-eng-smoke-dev10-b6-truthful_paraphrase-sim1-v1",
+    "r3-eng-smoke-dev10-b6-ambiguous_reference-sim1-v1",
+    "r3-eng-smoke-dev10-b6-missing_landmark-sim1-v1",
+    "r3-eng-smoke-dev10-b6-relation_corruption-sim1-v1",
+    "r3-eng-smoke-dev10-b6-topology_corruption-sim1-v1",
+    "r3-eng-smoke-dev10-b6-false_inserted_clause-sim1-v1",
+    "r3-eng-smoke-dev10-b1-truthful_original-sim1-v1",
+    "r3-eng-smoke-dev10-b2-truthful_original-sim1-v1",
+    "r3-eng-smoke-dev10-b4-truthful_original-sim1-v1",
+    "r3-eng-smoke-dev10-b5-truthful_original-sim1-v1"
+  ],
+  "plan_sha256": "228eca6db538f8929778a7a51f3a44b2c6ef4300bd67c8d5b556c06636d60ad0",
+  "protected_data_used": false,
+  "schema_version": "research3-physical-engineering-smoke-execution/v1",
+  "scope": "engineering_contract_verification_not_performance_or_confirmatory_campaign"
+}

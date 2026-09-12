@@ -1,0 +1,194 @@
+[INFO] [launch]: All log files can be found below /home/eao/lusn-robot-navigation/ros_ws/log/ros-live/2026-09-07-22-01-42-760026-eao-workstation-1375383
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [failure_monitor-1]: process started with pid [1375418]
+[INFO] [monitor_bridge-2]: process started with pid [1375419]
+[INFO] [landmark_bridge_runner-3]: process started with pid [1375420]
+[INFO] [instruction_node-4]: process started with pid [1375421]
+[INFO] [belief_node-5]: process started with pid [1375422]
+[INFO] [semantic_route_node-6]: process started with pid [1375423]
+[INFO] [nav2_route_adapter-7]: process started with pid [1375424]
+[INFO] [planner_node-8]: process started with pid [1375425]
+[failure_monitor-1] Traceback (most recent call last):
+[failure_monitor-1]   File "/home/eao/failure-prediction/ros_ws/install/failure_monitor/lib/failure_monitor/failure_monitor", line 33, in <module>
+[failure_monitor-1]     sys.exit(load_entry_point('failure-monitor', 'console_scripts', 'failure_monitor')())
+[failure_monitor-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[failure_monitor-1]   File "/home/eao/failure-prediction/ros_ws/build/failure_monitor/failure_monitor/node.py", line 233, in main
+[failure_monitor-1]     node = FailureMonitor()
+[failure_monitor-1]            ^^^^^^^^^^^^^^^^
+[failure_monitor-1]   File "/home/eao/failure-prediction/ros_ws/build/failure_monitor/failure_monitor/node.py", line 109, in __init__
+[failure_monitor-1]     self.core.scorer = Scorer(assets, self.core.feature_groups,
+[failure_monitor-1]                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[failure_monitor-1]   File "/home/eao/failure-prediction/ros_ws/build/failure_monitor/failure_monitor/monitor_core.py", line 562, in __init__
+[failure_monitor-1]     import torch
+[failure_monitor-1] ModuleNotFoundError: No module named 'torch'
+[ERROR] [failure_monitor-1]: process has died [pid 1375418, exit code 1, cmd '/home/eao/failure-prediction/ros_ws/install/failure_monitor/lib/failure_monitor/failure_monitor --ros-args -r __node:=research2_failure_monitor --params-file /tmp/launch_params_sea11vu6'].
+[landmark_bridge_runner-3] [WARN] [1788814903.994972903] [research3_landmark_bridge]: waiting for camera-to-map transform: Lookup would require extrapolation into the past.  Requested time 6.702000 but the earliest data is at time 7.702000, when looking up transform from frame [camera_depth_frame] to frame [map]
+[landmark_bridge_runner-3] [WARN] [1788814951.309060440] [research3_landmark_bridge]: waiting for camera-to-map transform: Lookup would require extrapolation into the future.  Requested time 54.102000 but the latest data is at time 54.001000, when looking up transform from frame [camera_depth_frame] to frame [map]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [planner_node-8]: sending signal 'SIGINT' to process[planner_node-8]
+[INFO] [nav2_route_adapter-7]: sending signal 'SIGINT' to process[nav2_route_adapter-7]
+[INFO] [semantic_route_node-6]: sending signal 'SIGINT' to process[semantic_route_node-6]
+[INFO] [belief_node-5]: sending signal 'SIGINT' to process[belief_node-5]
+[INFO] [instruction_node-4]: sending signal 'SIGINT' to process[instruction_node-4]
+[INFO] [landmark_bridge_runner-3]: sending signal 'SIGINT' to process[landmark_bridge_runner-3]
+[INFO] [monitor_bridge-2]: sending signal 'SIGINT' to process[monitor_bridge-2]
+[planner_node-8] Traceback (most recent call last):
+[planner_node-8]   File "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_planner/lib/language_nav_planner/planner_node", line 33, in <module>
+[planner_node-8]     sys.exit(load_entry_point('language-nav-planner', 'console_scripts', 'planner_node')())
+[planner_node-8]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[planner_node-8]   File "/home/eao/lusn-robot-navigation/ros_ws/build/language_nav_planner/language_nav_planner/node.py", line 252, in main
+[planner_node-8]     rclpy.spin(node)
+[planner_node-8]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+[planner_node-8]     executor.spin_once()
+[planner_node-8]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+[planner_node-8]     self._spin_once_impl(timeout_sec)
+[planner_node-8]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+[planner_node-8]     handler, entity, node = self.wait_for_ready_callbacks(
+[planner_node-8]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[planner_node-8]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+[planner_node-8]     return next(self._cb_iter)
+[planner_node-8]            ^^^^^^^^^^^^^^^^^^^
+[planner_node-8]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in _wait_for_ready_callbacks
+[planner_node-8]     wait_set.wait(timeout_nsec)
+[planner_node-8] KeyboardInterrupt
+[instruction_node-4] Traceback (most recent call last):
+[instruction_node-4]   File "/home/eao/lusn-robot-navigation/ros_ws/install/language_interface/lib/language_interface/instruction_node", line 33, in <module>
+[instruction_node-4]     sys.exit(load_entry_point('language-interface', 'console_scripts', 'instruction_node')())
+[instruction_node-4]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[instruction_node-4]   File "/home/eao/lusn-robot-navigation/ros_ws/build/language_interface/language_interface/node.py", line 35, in main
+[instruction_node-4]     rclpy.spin(node)
+[instruction_node-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+[instruction_node-4]     executor.spin_once()
+[instruction_node-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+[instruction_node-4]     self._spin_once_impl(timeout_sec)
+[instruction_node-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+[belief_node-5] Traceback (most recent call last):
+[belief_node-5]   File "/home/eao/lusn-robot-navigation/ros_ws/install/semantic_belief_map/lib/semantic_belief_map/belief_node", line 33, in <module>
+[belief_node-5]     sys.exit(load_entry_point('semantic-belief-map', 'console_scripts', 'belief_node')())
+[belief_node-5]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[belief_node-5]   File "/home/eao/lusn-robot-navigation/ros_ws/build/semantic_belief_map/semantic_belief_map/node.py", line 70, in main
+[belief_node-5]     rclpy.spin(node)
+[belief_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+[belief_node-5]     executor.spin_once()
+[belief_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+[belief_node-5]     self._spin_once_impl(timeout_sec)
+[belief_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+[belief_node-5]     handler, entity, node = self.wait_for_ready_callbacks(
+[belief_node-5]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[belief_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+[instruction_node-4]     handler, entity, node = self.wait_for_ready_callbacks(
+[instruction_node-4]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[instruction_node-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+[instruction_node-4]     return next(self._cb_iter)
+[instruction_node-4]            ^^^^^^^^^^^^^^^^^^^
+[instruction_node-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in _wait_for_ready_callbacks
+[instruction_node-4]     wait_set.wait(timeout_nsec)
+[instruction_node-4] KeyboardInterrupt
+[belief_node-5]     return next(self._cb_iter)
+[belief_node-5]            ^^^^^^^^^^^^^^^^^^^
+[belief_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in _wait_for_ready_callbacks
+[belief_node-5]     wait_set.wait(timeout_nsec)
+[belief_node-5] KeyboardInterrupt
+[nav2_route_adapter-7] Traceback (most recent call last):
+[nav2_route_adapter-7]   File "/home/eao/lusn-robot-navigation/ros_ws/build/language_nav_runtime/language_nav_runtime/nav2_adapter.py", line 244, in main
+[nav2_route_adapter-7]     rclpy.spin(node)
+[nav2_route_adapter-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+[nav2_route_adapter-7]     executor.spin_once()
+[nav2_route_adapter-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+[nav2_route_adapter-7]     self._spin_once_impl(timeout_sec)
+[nav2_route_adapter-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+[nav2_route_adapter-7]     handler, entity, node = self.wait_for_ready_callbacks(
+[nav2_route_adapter-7]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[nav2_route_adapter-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+[nav2_route_adapter-7]     return next(self._cb_iter)
+[nav2_route_adapter-7]            ^^^^^^^^^^^^^^^^^^^
+[nav2_route_adapter-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in _wait_for_ready_callbacks
+[nav2_route_adapter-7]     wait_set.wait(timeout_nsec)
+[nav2_route_adapter-7] KeyboardInterrupt
+[nav2_route_adapter-7] 
+[nav2_route_adapter-7] During handling of the above exception, another exception occurred:
+[nav2_route_adapter-7] 
+[nav2_route_adapter-7] Traceback (most recent call last):
+[nav2_route_adapter-7]   File "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/language_nav_runtime/nav2_route_adapter", line 33, in <module>
+[nav2_route_adapter-7]     sys.exit(load_entry_point('language-nav-runtime', 'console_scripts', 'nav2_route_adapter')())
+[nav2_route_adapter-7]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[nav2_route_adapter-7]   File "/home/eao/lusn-robot-navigation/ros_ws/build/language_nav_runtime/language_nav_runtime/nav2_adapter.py", line 247, in main
+[nav2_route_adapter-7]     rclpy.shutdown()
+[nav2_route_adapter-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+[nav2_route_adapter-7]     _shutdown(context=context)
+[nav2_route_adapter-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+[nav2_route_adapter-7]     context.shutdown()
+[nav2_route_adapter-7]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+[nav2_route_adapter-7]     self.__context.shutdown()
+[nav2_route_adapter-7] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
+[semantic_route_node-6] Traceback (most recent call last):
+[semantic_route_node-6]   File "/home/eao/lusn-robot-navigation/ros_ws/build/language_nav_runtime/language_nav_runtime/semantic_routes.py", line 74, in main
+[semantic_route_node-6]     rclpy.spin(node)
+[semantic_route_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+[semantic_route_node-6]     executor.spin_once()
+[semantic_route_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+[semantic_route_node-6]     self._spin_once_impl(timeout_sec)
+[semantic_route_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+[semantic_route_node-6]     handler, entity, node = self.wait_for_ready_callbacks(
+[semantic_route_node-6]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[semantic_route_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+[semantic_route_node-6]     return next(self._cb_iter)
+[semantic_route_node-6]            ^^^^^^^^^^^^^^^^^^^
+[semantic_route_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in _wait_for_ready_callbacks
+[semantic_route_node-6]     wait_set.wait(timeout_nsec)
+[semantic_route_node-6] KeyboardInterrupt
+[semantic_route_node-6] 
+[semantic_route_node-6] During handling of the above exception, another exception occurred:
+[semantic_route_node-6] 
+[semantic_route_node-6] Traceback (most recent call last):
+[semantic_route_node-6]   File "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/language_nav_runtime/semantic_route_node", line 33, in <module>
+[semantic_route_node-6]     sys.exit(load_entry_point('language-nav-runtime', 'console_scripts', 'semantic_route_node')())
+[semantic_route_node-6]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[semantic_route_node-6]   File "/home/eao/lusn-robot-navigation/ros_ws/build/language_nav_runtime/language_nav_runtime/semantic_routes.py", line 77, in main
+[semantic_route_node-6]     rclpy.shutdown()
+[semantic_route_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+[semantic_route_node-6]     _shutdown(context=context)
+[semantic_route_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+[semantic_route_node-6]     context.shutdown()
+[semantic_route_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+[semantic_route_node-6]     self.__context.shutdown()
+[semantic_route_node-6] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
+[monitor_bridge-2] Traceback (most recent call last):
+[monitor_bridge-2]   File "/home/eao/lusn-robot-navigation/ros_ws/build/language_nav_runtime/language_nav_runtime/monitor_bridge.py", line 80, in main
+[monitor_bridge-2]     rclpy.spin(node)
+[monitor_bridge-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+[monitor_bridge-2]     executor.spin_once()
+[monitor_bridge-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+[monitor_bridge-2]     self._spin_once_impl(timeout_sec)
+[monitor_bridge-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+[monitor_bridge-2]     handler, entity, node = self.wait_for_ready_callbacks(
+[monitor_bridge-2]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[monitor_bridge-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+[monitor_bridge-2]     return next(self._cb_iter)
+[monitor_bridge-2]            ^^^^^^^^^^^^^^^^^^^
+[monitor_bridge-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in _wait_for_ready_callbacks
+[monitor_bridge-2]     wait_set.wait(timeout_nsec)
+[monitor_bridge-2] KeyboardInterrupt
+[monitor_bridge-2] 
+[monitor_bridge-2] During handling of the above exception, another exception occurred:
+[monitor_bridge-2] 
+[monitor_bridge-2] Traceback (most recent call last):
+[monitor_bridge-2]   File "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/language_nav_runtime/monitor_bridge", line 33, in <module>
+[monitor_bridge-2]     sys.exit(load_entry_point('language-nav-runtime', 'console_scripts', 'monitor_bridge')())
+[monitor_bridge-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[monitor_bridge-2]   File "/home/eao/lusn-robot-navigation/ros_ws/build/language_nav_runtime/language_nav_runtime/monitor_bridge.py", line 83, in main
+[monitor_bridge-2]     rclpy.shutdown()
+[monitor_bridge-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+[monitor_bridge-2]     _shutdown(context=context)
+[monitor_bridge-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+[monitor_bridge-2]     context.shutdown()
+[monitor_bridge-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+[monitor_bridge-2]     self.__context.shutdown()
+[monitor_bridge-2] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
+[ERROR] [belief_node-5]: process has died [pid 1375422, exit code -2, cmd '/home/eao/lusn-robot-navigation/ros_ws/install/semantic_belief_map/lib/semantic_belief_map/belief_node --ros-args -r __node:=semantic_belief_map --params-file /tmp/launch_params_nqrvjuqx'].
+[ERROR] [instruction_node-4]: process has died [pid 1375421, exit code -2, cmd '/home/eao/lusn-robot-navigation/ros_ws/install/language_interface/lib/language_interface/instruction_node --ros-args -r __node:=language_interface --params-file /tmp/launch_params_q2s_xie6'].
+[ERROR] [planner_node-8]: process has died [pid 1375425, exit code -2, cmd '/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_planner/lib/language_nav_planner/planner_node --ros-args -r __node:=language_nav_planner --params-file /tmp/launch_params_eoseyrrv'].
+[ERROR] [semantic_route_node-6]: process has died [pid 1375423, exit code 1, cmd '/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/language_nav_runtime/semantic_route_node --ros-args -r __node:=semantic_route_provider --params-file /tmp/launch_params_joee0xnm'].
+[ERROR] [monitor_bridge-2]: process has died [pid 1375419, exit code 1, cmd '/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/language_nav_runtime/monitor_bridge --ros-args -r __node:=research2_monitor_bridge --params-file /tmp/launch_params_cxmd0im3'].
+[INFO] [landmark_bridge_runner-3]: process has finished cleanly [pid 1375420]
+[ERROR] [nav2_route_adapter-7]: process has died [pid 1375424, exit code 1, cmd '/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/language_nav_runtime/nav2_route_adapter --ros-args -r __node:=nav2_route_adapter --params-file /tmp/launch_params_wqp9uptx'].

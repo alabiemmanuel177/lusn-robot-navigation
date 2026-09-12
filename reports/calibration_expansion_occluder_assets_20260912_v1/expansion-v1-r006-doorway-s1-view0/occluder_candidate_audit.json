@@ -1,0 +1,90 @@
+{
+  "analytic_occluded_fraction": 0.2000000000000001,
+  "area_reference": "projected_convex_silhouette_of_provider_marker_box_not_full_semantic_object",
+  "camera_plane_depth": 1.1212539310035965,
+  "camera_transform_source": "reports/physical_live_episodes/r3-current-v1-r006-laboratory_entrance/perception_capture/frame-000.json",
+  "camera_transform_source_sha256": "8ba390bd635ba12050abe922f85571885d0c6e9ad6283608408d6345d5b0bd71",
+  "capture_pose": {
+    "x": 7.7,
+    "y": 0.6,
+    "yaw": -1.5707963267948966
+  },
+  "category": "doorway",
+  "cut_x": -0.2976021872865391,
+  "derivative_sha256": {
+    "execution_catalog.json": "4b03c26bce258b415975ddc919937fd95b8f3cdcb49d6a096283af2323886b31",
+    "geometry_audit.json": "c5c7df7076118d2a61d2ed2e6fc92a05be8a35644d41dcaa5b0ca6e545695825",
+    "landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+    "manifest.json": "7f4ab883ee4db09d37c99673552bf177bd298b69a6a8d9a816aa2159a2828a0a",
+    "map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "ffe3e07ce2e7950f268e91503e78af1e2e1ab4114cd857ab4641907d09729e90",
+    "verified_ordered_geometry.json": "52cda59e04c68b0bd8b61636501c0f0b7b2a36c545c6d76b77841e375de61894",
+    "world.sdf": "9c7d80d52eb62ef5f76a160e4b2033cea4ccbda97f3f3063fa6959082c1eaae9"
+  },
+  "entity_id": "r3geo_base_r006_right_2_doorway",
+  "execution_authorized": false,
+  "full_object_occlusion_claimed": false,
+  "human_labels_generated": false,
+  "included_in_primary_calibration": false,
+  "map_id": "r3geo_base_r006",
+  "marker_model": "r3geo_base_r006_right_2_lintel",
+  "original_sdf_subtree_unchanged": true,
+  "polygon_normalized_camera": [
+    [
+      -0.4901633075917814,
+      -1.0647156199111665
+    ],
+    [
+      -0.4901024396697277,
+      -1.2205229476545891
+    ],
+    [
+      0.44586702129149214,
+      -1.221433598097858
+    ],
+    [
+      0.44592243672105497,
+      -1.0655101947153025
+    ],
+    [
+      0.40549759454696543,
+      -0.9686718562589072
+    ],
+    [
+      -0.4456062298212439,
+      -0.9680150047965769
+    ]
+  ],
+  "rendered_fraction_verified": false,
+  "requested_fraction": 0.2,
+  "schema_version": "research3-expansion-occluder-candidate/v1",
+  "screen_center": [
+    8.1055353410089,
+    -0.5899240655583875,
+    1.3453572179546072
+  ],
+  "screen_rpy": [
+    -1.57,
+    -1.5964876989849053e-16,
+    -3.140796326794897
+  ],
+  "screen_size": [
+    0.2159099131007094,
+    0.28414659392846303,
+    0.002
+  ],
+  "screen_wall_intersection_checked": false,
+  "source_sha256": {
+    "execution_catalog.json": "4b03c26bce258b415975ddc919937fd95b8f3cdcb49d6a096283af2323886b31",
+    "geometry_audit.json": "c5c7df7076118d2a61d2ed2e6fc92a05be8a35644d41dcaa5b0ca6e545695825",
+    "landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+    "manifest.json": "214812f5ccf5955f90fb225fc5280bb5996efa722a37b095542c0d51df03ad3d",
+    "map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "ffe3e07ce2e7950f268e91503e78af1e2e1ab4114cd857ab4641907d09729e90",
+    "verified_ordered_geometry.json": "52cda59e04c68b0bd8b61636501c0f0b7b2a36c545c6d76b77841e375de61894",
+    "world.sdf": "4d255a16e7c924ef0f4a06a4cba2aa5c491744ead2effc404d42df2bb6ebe70a"
+  },
+  "status": "analytic_candidate_pending_rendered_preflight_and_human_definition_approval"
+}

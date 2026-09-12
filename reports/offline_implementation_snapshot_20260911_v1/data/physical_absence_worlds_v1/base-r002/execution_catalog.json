@@ -1,0 +1,58 @@
+{
+  "map_id": "r3geo_base_r002",
+  "map_sha256": "65a0dd58fc54031e9945db3aec1fae62c23934b919e3020d037057c240d2e08b",
+  "partition": "development",
+  "routes": [
+    {
+      "goal": {
+        "x": 4.3,
+        "y": -2.05,
+        "yaw": -1.5707963267948966
+      },
+      "ordinal": 1,
+      "route_id": "r3geo_base_r002_right_1",
+      "side": "right",
+      "terminal_entity_id": "r3geo_base_r002_right_1_entrance"
+    },
+    {
+      "goal": {
+        "x": 7.9,
+        "y": -2.05,
+        "yaw": -1.5707963267948966
+      },
+      "ordinal": 2,
+      "route_id": "r3geo_base_r002_right_2",
+      "side": "right",
+      "terminal_entity_id": "r3geo_base_r002_right_2_entrance"
+    },
+    {
+      "goal": {
+        "x": 4.3,
+        "y": 2.05,
+        "yaw": 1.5707963267948966
+      },
+      "ordinal": 1,
+      "route_id": "r3geo_base_r002_left_1",
+      "side": "left",
+      "terminal_entity_id": "r3geo_base_r002_left_1_entrance"
+    },
+    {
+      "goal": {
+        "x": 7.9,
+        "y": 2.05,
+        "yaw": 1.5707963267948966
+      },
+      "ordinal": 2,
+      "route_id": "r3geo_base_r002_left_2",
+      "side": "left",
+      "terminal_entity_id": "r3geo_base_r002_left_2_entrance"
+    }
+  ],
+  "schema_version": "research3-physical-route-catalog/v1",
+  "start": {
+    "x": 0.6,
+    "y": 0,
+    "yaw": 0
+  },
+  "world_sha256": "c6675dc2660e65a9f49d0369e52700751f0be8b482f22fb73604c64a743a675d"
+}

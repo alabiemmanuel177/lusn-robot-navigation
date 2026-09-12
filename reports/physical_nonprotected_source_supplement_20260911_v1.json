@@ -1,0 +1,99 @@
+{
+  "archive_sha256": "381fb18f2f70dfe813d1574f6d63f68156a133792b46b1e18cc922e9c8a45d6c",
+  "baseline_provider_environment_member": "reports/engineering_environment_20260911_v2.json",
+  "baseline_provider_environment_sha256": "c3acba9b84436aa2de9d9a4258def048b0e696a5e2bcf728df0ba61afc79fce3",
+  "callback_ast_comparisons": [
+    {
+      "added_methods": [],
+      "baseline_sha256": "8b97fa3992213043fe30d73fad303f1fb4aa03dc6e363f369e05041fbf784a8f",
+      "changed_constructor_bodies": [
+        "Nav2RouteAdapter.__init__"
+      ],
+      "changed_nonconstructor_method_bodies": [],
+      "current_sha256": "8aebc99f860141f40d2cb596302c12c6f3ee1dd522ef0a2732ff8fb4c3312d8e",
+      "path": "ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py",
+      "removed_methods": [],
+      "unchanged_nonconstructor_method_bodies": [
+        "Nav2RouteAdapter._check_inspection_timeout",
+        "Nav2RouteAdapter._goal_pose",
+        "Nav2RouteAdapter._nav_goal_response",
+        "Nav2RouteAdapter._nav_result",
+        "Nav2RouteAdapter._path_goal_response",
+        "Nav2RouteAdapter._path_result",
+        "Nav2RouteAdapter._publish_eligibility",
+        "Nav2RouteAdapter._publish_execution",
+        "Nav2RouteAdapter._start_next_path",
+        "Nav2RouteAdapter._write_record",
+        "Nav2RouteAdapter.on_decision",
+        "Nav2RouteAdapter.on_proposal"
+      ]
+    },
+    {
+      "added_methods": [],
+      "baseline_sha256": "5abf06082801625c52e1bc8d4ba696795ee4f9c57e724749702de20635e0fccf",
+      "changed_constructor_bodies": [
+        "PlannerNode.__init__"
+      ],
+      "changed_nonconstructor_method_bodies": [],
+      "current_sha256": "0bd4e5418315c3a1bcb76cfcce5b27e6ad029ffbce98f1d33e025dfb6538113d",
+      "path": "ros_ws/src/language_nav_planner/language_nav_planner/node.py",
+      "removed_methods": [],
+      "unchanged_nonconstructor_method_bodies": [
+        "PlannerNode._check_monitor_timeout",
+        "PlannerNode._evaluate_latest",
+        "PlannerNode._monitor_fresh",
+        "PlannerNode._publish_abstention",
+        "PlannerNode.on_belief",
+        "PlannerNode.on_eligibility",
+        "PlannerNode.on_hypotheses",
+        "PlannerNode.on_monitor",
+        "PlannerNode.on_proposal"
+      ]
+    },
+    {
+      "added_methods": [],
+      "baseline_sha256": "18a6f7cc27389539927c5b4259a4d3e2f648995b6a70ad044363b5ff3658b809",
+      "changed_constructor_bodies": [
+        "SemanticRouteNode.__init__"
+      ],
+      "changed_nonconstructor_method_bodies": [],
+      "current_sha256": "6e9387661d89de1520279fc22031021cf9b7c3cd9c87bd4ccabcfa4e501df0f5",
+      "path": "ros_ws/src/language_nav_runtime/language_nav_runtime/semantic_routes.py",
+      "removed_methods": [],
+      "unchanged_nonconstructor_method_bodies": [
+        "SemanticRouteNode.on_hypotheses"
+      ]
+    }
+  ],
+  "deployment_eligible": false,
+  "equivalence_approved": false,
+  "limits": [
+    "AST comparison covers method bodies, ignoring positions; not decorators/signatures/imports or shared state.",
+    "Changed constructors need separate empty-authorization/default-branch tests.",
+    "Unchanged method bodies can behave differently when constructor state or dependencies change.",
+    "Provider hashes establish unchanged source bytes versus recorded metadata, not a detection replay.",
+    "No ROS callbacks, real protected input or calibration transfer executed/approved."
+  ],
+  "ordinary_launch": {
+    "baseline_sha256": "d745b2ed5864e8844b42ebfe0e3ce3a729a07ffedc2fa344d2aa735f8cf5c218",
+    "bytes_equal": true,
+    "current_sha256": "d745b2ed5864e8844b42ebfe0e3ce3a729a07ffedc2fa344d2aa735f8cf5c218",
+    "path": "ros_ws/src/language_nav_bringup/launch/live_adapters.launch.py"
+  },
+  "protected_data_used": false,
+  "provider_source_checks": [
+    {
+      "baseline_recorded_sha256": "f9195d8f71b26fe3207a88404fca6e7e199bdd1a8bd750d3a5d0103566057a82",
+      "bytes_match_recorded_hash": true,
+      "current_sha256": "f9195d8f71b26fe3207a88404fca6e7e199bdd1a8bd750d3a5d0103566057a82",
+      "source": "R1:extensions/research3_landmark_bridge/research3_landmark_bridge/core.py"
+    },
+    {
+      "baseline_recorded_sha256": "109ac1581d5e96a724047e6cb454079a11e3735b53f1eebf0ae8b2b1bef079fe",
+      "bytes_match_recorded_hash": true,
+      "current_sha256": "109ac1581d5e96a724047e6cb454079a11e3735b53f1eebf0ae8b2b1bef079fe",
+      "source": "R1:extensions/research3_landmark_bridge/research3_landmark_bridge/node.py"
+    }
+  ],
+  "schema_version": "research3-nonprotected-source-supplement/v1"
+}

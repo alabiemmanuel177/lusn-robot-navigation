@@ -1,0 +1,40 @@
+{
+  "files": {
+    "/home/eao/failure-prediction/configs/alarm_policy.yaml": "eda4b514d7edfb75fccbdd5705ec172c9576a9e4e282e0a0aec2c60774353ccc",
+    "/home/eao/failure-prediction/configs/model_freeze.yaml": "b80b4e8ba92cef6bc6b9d55e0d9949622e244f2eb710b418cddfb645196117c4",
+    "/home/eao/failure-prediction/ros_ws/src/failure_monitor/failure_monitor/monitor_core.py": "6b5c5266a7ce14344a87339030b09deb66861a6f07c7858d19164a62ea8445ff",
+    "/home/eao/failure-prediction/ros_ws/src/failure_monitor/failure_monitor/node.py": "1486b2cb90da0d1113d21137a6b565142929479521af4bcef5a5c798046b158d",
+    "/home/eao/lusn-robot-navigation/configs/landmark_calibration_v1.json": "90ad3edd8173c1b07c80bd1acc1f50cb7342287668db857f7a289a55d32d1c99",
+    "/home/eao/lusn-robot-navigation/configs/live_campaign_v2.yaml": "bd9c4eaa1958e1136e4dc97ca47a5bba890295959e8c0c6f10b53eb6ab2e09dc",
+    "/home/eao/lusn-robot-navigation/reports/live_campaign_v2.analysis.json": "f8b6c8db7549df18e3eb37f00f4a21370dffa46504f928294dc136d5c6b9f0c8",
+    "/home/eao/lusn-robot-navigation/reports/live_campaign_v2.summary.json": "6f8e3622432f81267ca39fcccb57de0d071b665edd65f8d89129d81ede2b048b",
+    "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_planner/language_nav_planner/node.py": "312c2eaa422558c15cf8334e9ebf500d09ae25c32d830925512943d5bb8f30b9",
+    "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_runtime/language_nav_runtime/monitor_bridge.py": "f30922dff26c3fdc67c94f34b9ccb71f1710c232427fe687da831a6c3c99d44a",
+    "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py": "96c11bf02cd132f4c394a47efcdc66b821056a1624c7228ea450b5f02294d101",
+    "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_runtime/language_nav_runtime/semantic_routes.py": "750d93b598596906e624510cbdd24b19b8db25670bc590686b25344bdbee79d2",
+    "/home/eao/lusn-robot-navigation/scripts/run_live_campaign.py": "cee78e0327f7c3c92ede1f537cc3d659676f5579ce49ee6c8e0582aee6092d59",
+    "/home/eao/lusn-robot-navigation/scripts/run_live_episode.py": "3ca3839a9a881347530f060c067cdfac65e69478be12e9fae0d50413ab02d042",
+    "/home/eao/lusn-robot-navigation/src/language_nav/live.py": "7b90f762647329e3332c6e59dd500ad9c88d99ee5d6feca7ee67fb20e2913317"
+  },
+  "frozen_utc": "2026-09-07T21:39:08.723002+00:00",
+  "limitation": "Exact source files are hash-pinned, but Research 2 and Research 3 require clean commits before this can be called a revision-pinned release.",
+  "protected_test_routes_used": false,
+  "repositories": {
+    "research1": {
+      "dirty": false,
+      "path": "/home/eao/risk-calibrated-nav",
+      "revision": "697a7bc86fd2eca62866c614ef7b26b5d810cf84"
+    },
+    "research2": {
+      "dirty": true,
+      "path": "/home/eao/failure-prediction",
+      "revision": "1900fd17f3e46747ec2e23686c5061e827c9667c"
+    },
+    "research3": {
+      "dirty": true,
+      "path": "/home/eao/lusn-robot-navigation",
+      "revision": "560b66b9985b0069b18feee43789f771aca1ff2b"
+    }
+  },
+  "schema_version": "research3-live-provenance/v1"
+}

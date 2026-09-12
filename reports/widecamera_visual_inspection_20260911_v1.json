@@ -1,0 +1,16 @@
+{
+  "schema_version": "research3-machine-visual-inspection/v1",
+  "run_id": "r3-widecamera-dev10-20260911-v1",
+  "inspected_by": "assistant",
+  "human_labels_generated": false,
+  "ready_for_human_review": false,
+  "camera_horizontal_fov_radians": 1.57,
+  "items": [
+    {"frame": "frame-000", "claimed_category": "chair", "pixel": [166.4194, 202.0882], "disposition": "usable_identity_context_pending_review_presentation", "reason": "Recognizable chair back, seat and legs within frame; detector pixel lies on seat. No human correctness verdict supplied."},
+    {"frame": "frame-001", "claimed_category": "chair", "pixel": [148.6398, 197.9042], "disposition": "usable_identity_context_pending_review_presentation", "reason": "Chair back close to left boundary but identity-defining back, seat and legs visible; detector pixel on seat."},
+    {"frame": "frame-002", "claimed_category": "chair", "pixel": [45.7244, 178.0613], "disposition": "withhold", "reason": "Chair back and most of chair now off-screen."},
+    {"frame": "frame-003", "claimed_category": "doorway", "pixel": [94.8062, 37.9988], "disposition": "withhold", "reason": "Detected lintel near top left; full aperture context is not visible."},
+    {"frame": "frame-004", "claimed_category": "doorway", "pixel": [67.2629, 27.3745], "disposition": "withhold", "reason": "Lintel is close to top edge; full doorway not visible."}
+  ],
+  "evidence": "All five raw full RGB frames decoded without alteration and individually viewed. Exact source/observation hashes remain in widecamera_exact_join_20260911_v1.json. This report is visual usability assessment, not human labeling or a consolidated review approval. Coloured entrance plaques still lack visible semantic identification."
+}

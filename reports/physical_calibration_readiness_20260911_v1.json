@@ -1,0 +1,762 @@
+{
+  "blockers": [
+    "missing_export:calibration_samples.jsonl",
+    "missing_export:readiness.json",
+    "missing_export:reviewed_tasks.jsonl",
+    "missing_input:approval",
+    "missing_input:calibration",
+    "missing_input:requirements",
+    "no_accepted_human_binary_labels",
+    "no_exact_reviewed_runtime_bindings",
+    "pending_or_unreviewable_items_retained",
+    "prespecified_coverage_and_confidence_requirements_missing",
+    "single_campaign_fov_binding_required"
+  ],
+  "calibration_fitted_by_this_tool": false,
+  "camera_horizontal_fov": null,
+  "camera_profile_sha256": [],
+  "export_readiness": {
+    "audit_events_retained": 0,
+    "blockers": [
+      "no_accepted_human_binary_labels",
+      "pending_or_unreviewable_items_retained",
+      "prespecified_coverage_and_confidence_requirements_missing"
+    ],
+    "calibration_fitted": false,
+    "calibration_frozen": false,
+    "class_confidence_coverage": [],
+    "excluded": [
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12201000000:dev_01-r001-red-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r001-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12000000000:r3geo_base_r001_left_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r001-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12000000000:r3geo_base_r001_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r001-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:11502000000:r3geo_base_r001_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r001-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r002:v1:11001000000:dev_01-r002-blue-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r002-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r002:v1:10902000000:r3geo_base_r002_left_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r002-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r002:v1:10902000000:r3geo_base_r002_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r002-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r002:v1:12201000000:r3geo_base_r002_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r002-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r003:v1:10701000000:dev_02-r003-green-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r003-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r003:v1:12501000000:r3geo_base_r003_left_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r003-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r003:v1:12501000000:r3geo_base_r003_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r003-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r003:v1:11502000000:r3geo_base_r003_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r003-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r004:v1:12000000000:dev_02-r004-yellow-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r004-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r004:v1:12402000000:r3geo_base_r004_left_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r004-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r004:v1:12402000000:r3geo_base_r004_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r004-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r004:v1:11202000000:r3geo_base_r004_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r004-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r005:v1:14700000000:dev_03-r005-red-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r005-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r005:v1:12402000000:r3geo_base_r005_right_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r005-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r005:v1:12402000000:r3geo_base_r005_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r005-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r005:v1:11901000000:r3geo_base_r005_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r005-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r006:v1:13002000000:dev_03-r006-blue-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r006-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r006:v1:11100000000:r3geo_base_r006_right_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r006-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r006:v1:11100000000:r3geo_base_r006_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r006-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r006:v1:10902000000:r3geo_base_r006_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r006-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r007:v1:10602000000:dev_04-r007-green-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r007-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r007:v1:10902000000:r3geo_base_r007_right_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r007-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r007:v1:10902000000:r3geo_base_r007_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r007-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r007:v1:11202000000:r3geo_base_r007_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r007-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r008:v1:11502000000:dev_04-r008-yellow-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r008-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r008:v1:11502000000:r3geo_base_r008_right_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r008-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r008:v1:11502000000:r3geo_base_r008_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r008-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r008:v1:11001000000:r3geo_base_r008_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r008-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r009:v1:11301000000:dev_05-r009-red-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r009-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r009:v1:10500000000:r3geo_base_r009_left_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r009-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r009:v1:10500000000:r3geo_base_r009_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r009-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r009:v1:11001000000:r3geo_base_r009_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r009-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:11700000000:dev_00-r010-blue-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r010-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:11400000000:r3geo_base_r010_left_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r010-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:11400000000:r3geo_base_r010_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r010-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:11001000000:r3geo_base_r010_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r010-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r011:v1:12102000000:val_01-r011-green-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r011-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r011:v1:11001000000:r3geo_base_r011_left_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r011-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r011:v1:11001000000:r3geo_base_r011_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r011-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r011:v1:10401000000:r3geo_base_r011_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r011-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r012:v1:10602000000:val_01-r012-yellow-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r012-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r012:v1:11700000000:r3geo_base_r012_left_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r012-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r012:v1:11700000000:r3geo_base_r012_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r012-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r012:v1:11502000000:r3geo_base_r012_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r012-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r013:v1:11601000000:val_02-r013-red-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r013-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r013:v1:12501000000:r3geo_base_r013_right_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r013-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r013:v1:12501000000:r3geo_base_r013_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r013-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r013:v1:12300000000:r3geo_base_r013_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r013-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r014:v1:11601000000:val_00-r014-blue-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r014-chair"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r014:v1:10602000000:r3geo_base_r014_right_2_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r014-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r014:v1:10602000000:r3geo_base_r014_right_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r014-laboratory_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r014:v1:11100000000:r3geo_base_r014_left_2_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-stationary-draft-v1-r014-office_entrance"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:10401000000:dev_00-r010-blue-chair",
+        "reason": "pending_human_review",
+        "run_id": "r3-shape-stress-chair-dev10-20260911-v3"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:11601000000:r3geo_base_r010_left_1_doorway",
+        "reason": "pending_human_review",
+        "run_id": "r3-shape-stress-doorway-dev10-20260911-v2"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:10902000000:r3geo_base_r010_left_1_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-shape-stress-laboratory_entrance-dev10-20260911-v2"
+      },
+      {
+        "correct": null,
+        "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:10701000000:r3geo_base_r010_right_1_entrance",
+        "reason": "pending_human_review",
+        "run_id": "r3-shape-stress-office_entrance-dev10-20260911-v2"
+      }
+    ],
+    "excluded_counts": {
+      "pending_human_review": 60
+    },
+    "human_identity_authenticated": false,
+    "inventory_sha256": "eec71599f12689ae8884390df0fde23d841118ef4521460f14539f44bafa1266",
+    "labels_generated": false,
+    "limit": "Rejects explicit synthetic provenance; a typed name does not independently prove human identity.",
+    "map_class_outcomes": [
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r001"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r001"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r001"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r001"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r002"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r002"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r002"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r002"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r003"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r003"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r003"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r003"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r004"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r004"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r004"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r004"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r005"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r005"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r005"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r005"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r006"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r006"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r006"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r006"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r007"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r007"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r007"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r007"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r008"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r008"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r008"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r008"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r009"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r009"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r009"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r009"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r010"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r010"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r010"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r010"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r011"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r011"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r011"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r011"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r012"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r012"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r012"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r012"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r013"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r013"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r013"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r013"
+      },
+      {
+        "category": "chair",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r014"
+      },
+      {
+        "category": "doorway",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r014"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r014"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 0,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r014"
+      }
+    ],
+    "progress_sha256": "15f49b925f398018a873283d48e86955e737ca04244c9b715ad7919418d89f42",
+    "protected_data_used": false,
+    "provider_review_rows": 0,
+    "qa_sha256": "bba6c1697264d7f0f9e2cf325d1d8b5bee91b7060c6311ab16870576d6866da5",
+    "requirements": null,
+    "requirements_sha256": null,
+    "schema_version": "research3-physical-human-export/v1",
+    "status": "blocked",
+    "superseded_events": 0
+  },
+  "frozen": false,
+  "human_identity_authenticated": false,
+  "human_review_verified": false,
+  "input_sha256": {
+    "inventory_sha256": "eec71599f12689ae8884390df0fde23d841118ef4521460f14539f44bafa1266",
+    "progress_sha256": "15f49b925f398018a873283d48e86955e737ca04244c9b715ad7919418d89f42",
+    "qa_sha256": "bba6c1697264d7f0f9e2cf325d1d8b5bee91b7060c6311ab16870576d6866da5"
+  },
+  "limit": "Binding/policy checks do not authenticate typed human identity or establish recall, natural error prevalence, held-out transfer, or out-of-sample calibration efficacy.",
+  "map_ids": [],
+  "passed": false,
+  "protected_labels_used": false,
+  "scene_bindings": [],
+  "scene_sha256": [],
+  "schema_version": "research3-physical-calibration-validation/v1",
+  "status": "blocked_draft",
+  "study_complete": false
+}

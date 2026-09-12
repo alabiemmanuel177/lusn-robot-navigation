@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py", line 591, in <module>
+    main()
+  File "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py", line 581, in main
+    execute(request, variant, catalog, report_dir, args.system_id, args.calibration)
+  File "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py", line 467, in execute
+    raise error
+  File "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py", line 288, in execute
+    problem = nav2_bringup_ready(ActionClient(monitor, NavigateToPose, 'navigate_to_pose'), monitor, 90)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/eao/risk-calibrated-nav/build/experiment_controller/experiment_controller/run_episode.py", line 365, in nav2_bringup_ready
+    if not enable_nav2_sim_time(monitor, timeout_s):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/eao/risk-calibrated-nav/build/experiment_controller/experiment_controller/run_episode.py", line 742, in enable_nav2_sim_time
+    time.sleep(0.05)
+KeyboardInterrupt

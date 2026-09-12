@@ -1,0 +1,13 @@
+string schema_version
+string instruction_id
+string route_id
+string anchor_region_id
+string terminal_region_id
+float64 distance
+float64 prior_risk
+float64 observation_coverage
+bool traversability_observed
+uint32 branch_index
+string side
+string relation
+uint64 proposed_at_ns

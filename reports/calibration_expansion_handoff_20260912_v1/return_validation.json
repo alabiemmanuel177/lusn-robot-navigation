@@ -1,0 +1,1309 @@
+{
+  "calibration_approved": false,
+  "campaign_authorized": false,
+  "readiness": {
+    "audit_events_retained": 60,
+    "blockers": [
+      "global_class_binary_outcome_coverage_incomplete",
+      "class_confidence_coverage_incomplete"
+    ],
+    "calibration_fitted": false,
+    "calibration_frozen": false,
+    "class_confidence_coverage": [
+      {
+        "category": "chair",
+        "count": 0,
+        "high": 0.5,
+        "low": 0
+      },
+      {
+        "category": "chair",
+        "count": 5,
+        "high": 0.8,
+        "low": 0.5
+      },
+      {
+        "category": "chair",
+        "count": 10,
+        "high": 1,
+        "low": 0.8
+      },
+      {
+        "category": "doorway",
+        "count": 0,
+        "high": 0.5,
+        "low": 0
+      },
+      {
+        "category": "doorway",
+        "count": 1,
+        "high": 0.8,
+        "low": 0.5
+      },
+      {
+        "category": "doorway",
+        "count": 14,
+        "high": 1,
+        "low": 0.8
+      },
+      {
+        "category": "laboratory_entrance",
+        "count": 0,
+        "high": 0.5,
+        "low": 0
+      },
+      {
+        "category": "laboratory_entrance",
+        "count": 1,
+        "high": 0.8,
+        "low": 0.5
+      },
+      {
+        "category": "laboratory_entrance",
+        "count": 14,
+        "high": 1,
+        "low": 0.8
+      },
+      {
+        "category": "office_entrance",
+        "count": 0,
+        "high": 0.5,
+        "low": 0
+      },
+      {
+        "category": "office_entrance",
+        "count": 1,
+        "high": 0.8,
+        "low": 0.5
+      },
+      {
+        "category": "office_entrance",
+        "count": 14,
+        "high": 1,
+        "low": 0.8
+      }
+    ],
+    "excluded": [],
+    "excluded_counts": {},
+    "human_identity_authenticated": false,
+    "inventory_sha256": "3f87d9746aab7889e908d6f026a1e34b8cf022cbf923e8dcd98b2662f46be20e",
+    "joint_review_contract": {
+      "accepted_label_bindings": [
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "19bf673d111af82e7c65c623efd46ebb637f1b6c45150bfa904c36da948bc4e9",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12000000000:dev_01-r001-red-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:26.568708+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r001-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "37f61561a9391fb20324127f4f3b9c43ceae66d58b16dc2bf02a256dd209ac1a",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:10500000000:r3geo_base_r001_left_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:27.365207+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r001-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "574e8c1fb68f50b77790d5d92e2740b7d86d1521bde6228d440497a01d826d19",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:10500000000:r3geo_base_r001_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:28.255862+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r001-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "21edd6d4288ca44265588d55e17ff854debc874627ea3277d150f8d67e3d891f",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:11202000000:r3geo_base_r001_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:29.065886+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r001-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "17e6a02c9c8eb9b51019ed2016850f541e3143242a171b579069c0fcff4f7437",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r002:v1:11301000000:dev_01-r002-blue-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:29.858070+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r002-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "3fae129f3376eb5a7796a0b7b2ab89b698b8a289e88e89ff523f1ec7c381c05b",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r002:v1:10902000000:r3geo_base_r002_left_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:30.738438+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r002-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "17301cceb2d1f68f7c70771b49abcaae04f47b4933be0c3f727ba5405ac99419",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r002:v1:10902000000:r3geo_base_r002_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:31.606880+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r002-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "68882b88df0cc9149adb58b6a7df403f1cd6431c3ad2118eb90c169e94bbc28e",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r002:v1:11502000000:r3geo_base_r002_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:32.509125+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r002-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "de5c79f9bdd0ab45e0324fe99a4a43d037808b217ef52439b3a8ab9117273915",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r003:v1:10602000000:dev_02-r003-green-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:33.333674+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r003-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "9a81f71c1327a504381a5e6343fa6f59147fe6e7f6da9acdcb0194122d26b842",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r003:v1:11901000000:r3geo_base_r003_left_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:34.199811+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r003-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "5f1ee9fba585b5057461e8f7e3ad5bda527e95bfbadfcf574f8d847a4f954d2d",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r003:v1:11901000000:r3geo_base_r003_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:35.090089+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r003-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "e8627af09ab06065f6363c21d54b9cc361545fa263242058ed87e951eda16321",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r003:v1:13002000000:r3geo_base_r003_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:35.951407+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r003-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "6edfe669b06239aea3a8e8c6c3297b5c9e6da4c7ba18cc450845f3da73e70abd",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r004:v1:10800000000:dev_02-r004-yellow-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:36.802076+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r004-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "5882f23709ca00a2c330bf33967edafb05f63117cfc11baf243c04fdb1b0b583",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r004:v1:10902000000:r3geo_base_r004_left_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:37.678274+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r004-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "88e62e16c3d4b9a59eb8b84623ab9e34cc2cb58340cc0c1bf73ec4e3f60f6b21",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r004:v1:10902000000:r3geo_base_r004_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:38.562491+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r004-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "a66c09b82f808615629b2ae9edd212d1b3e860204a2ed530e9ecb14a27bf6629",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r004:v1:11700000000:r3geo_base_r004_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:39.434751+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r004-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "0aa20e33edf400001024efd65c10cf6535a75763f96fdae42b7b01eef7cf511b",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r005:v1:10602000000:dev_03-r005-red-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:40.306181+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r005-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "0144606b5f27319250e571ec75a47fb10b8b87e7c062d94e5f4424071545cab1",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r005:v1:11400000000:r3geo_base_r005_right_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:41.258806+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r005-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "0a26beaa28de87799bf0cd9cea4f7d55ff490bb77af9ae98db338d03ea29f8e8",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r005:v1:11400000000:r3geo_base_r005_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:42.195449+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r005-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "1db23d52f8abcaa3d0c9810003c7613b4e4c6baee31314eba9c2067ea1fcf825",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r005:v1:10401000000:r3geo_base_r005_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:43.073061+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r005-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "8af075e08523931d282b1c5cfc03b653a1858f82882101cabebd03945d6e2e19",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r006:v1:10401000000:dev_03-r006-blue-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:43.876466+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r006-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "ffe783b3c1bb167adbfec861fbb0f0119fc9b2d80624dfd59f7d4aeb463078f4",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r006:v1:11202000000:r3geo_base_r006_right_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:44.652354+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r006-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "70d45b0eb1affe1fd1c0a81b3fee7f53a91888e144c9f250ffa69fc4f8e5d658",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r006:v1:11202000000:r3geo_base_r006_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:45.409632+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r006-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "a727356fb49af355bfddb8ff2a2f902e543db722aa7379ee841bc7ff6d622ba8",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r006:v1:11001000000:r3geo_base_r006_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:46.176464+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r006-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "8f56e0908a76399907bd2ef36b7ed69b49fc1bd9d3ba5685d6028bd89073e36f",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r007:v1:11901000000:dev_04-r007-green-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:46.996777+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r007-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "0dc035e52dac680b42225181cf1812d6b8ebdb15c51b313acd5c980e891f7b2d",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r007:v1:11001000000:r3geo_base_r007_right_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:47.747737+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r007-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "4b5dc2da97955643a4679386a0a121efaed0f67fb0552e73cc5e821f15d178c5",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r007:v1:11001000000:r3geo_base_r007_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:48.517893+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r007-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "3b5f847a74311b381a1c8fa788ce469342921f5cd9f487c30b7759fe557fa16e",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r007:v1:11400000000:r3geo_base_r007_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:49.284235+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r007-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "241578d744ac7e23358e5395fb13e4137a22fdfe8ce41b4518507f41ad7b0609",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r008:v1:11601000000:dev_04-r008-yellow-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:50.032097+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r008-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "6cd1bcb319b1277e7f235aa3d25c7626092794a84608bef2470fce91470771d7",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r008:v1:11400000000:r3geo_base_r008_right_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:50.776992+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r008-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "237ff09b7cdce407b83239971f2d43a4290a94b23226b437dfb942db9cf767a8",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r008:v1:11400000000:r3geo_base_r008_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:51.539759+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r008-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "1b57e2cae8ff7309d672474f6851882348532176a67b50a4b20ce1b665ef4aa5",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r008:v1:12801000000:r3geo_base_r008_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:52.318458+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r008-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "44230277205bc66127353eda414e4779f4f43c79f2e6237757317e4c22106b60",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r009:v1:10902000000:dev_05-r009-red-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:53.058994+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r009-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "f709847860c10e6dbebe6e981bf2de59b1842eb9d242bb26d6475596b53f49f8",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r009:v1:12000000000:r3geo_base_r009_left_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:53.836948+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r009-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "f7b4b3e3662ab90528254653e14781d2a5df9f473bc00e370bbb2935a7b5bd82",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r009:v1:12000000000:r3geo_base_r009_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:54.679275+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r009-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "2a2140950965ac5093d378434334033a19fdbc0c9b23951a23d200d6615f65db",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r009:v1:11601000000:r3geo_base_r009_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:55.493666+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r009-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "f140b3577bff23ebc492083117f81694685cede356a987fc0062ff49789874a7",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:11301000000:dev_00-r010-blue-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:56.281897+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r010-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "510e118b42f0c27baa53ffce683a46705d43f02f506b101b3bed45ea2a15205e",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:11700000000:r3geo_base_r010_left_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:57.081297+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r010-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "cd6763dcf1e57a71ca597b3a2a25dc0ad2b9ce92902e78d1469fb917e1ff96df",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:11700000000:r3geo_base_r010_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:57.880164+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r010-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "1dd8b80d7c09645f099219679b91bd5d75e29bdae1708b0b4a3333c62df4de94",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:10800000000:r3geo_base_r010_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:58.644150+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r010-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "e2daf48517126313e0517f8e81b864126cb4a16d5271bc77e90e48e5251e27ae",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r011:v1:10701000000:val_01-r011-green-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:18:59.388382+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r011-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "0106f9dc6a6506d828aba0dea7757d3c9fbc5d71ccb4533892c71bf3752d7c9a",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r011:v1:11301000000:r3geo_base_r011_left_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:00.162997+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r011-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "dc357fd1c3ec1df832a0795c6f95d461a35fcbf119343615b0d01222f04f76ee",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r011:v1:11301000000:r3geo_base_r011_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:00.901358+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r011-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "9ada825456d69e8730b66012da59ca8417871ce1923cdc896d2d644b327fb9ac",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r011:v1:10701000000:r3geo_base_r011_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:01.636997+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r011-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "8b6b2f65a8ab9653224fba637183f761978530b5a45fc843733ffc4036673a47",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r012:v1:10800000000:val_01-r012-yellow-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:02.380308+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r012-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "902d29c84c1fb1026cc57448faf6ac85cc273662b3ef9c7ba07c56b0dcb6ebc7",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r012:v1:10602000000:r3geo_base_r012_left_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:03.126535+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r012-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "6fbc10cffd70b4c89a2d14f3be087132383de27c7e2efd73afb3efcc71f7d27c",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r012:v1:10602000000:r3geo_base_r012_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:03.868936+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r012-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "9eab6fa63427c780029508d6581cb19a7444f254ebc2ff1942b1fba486013747",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r012:v1:11502000000:r3geo_base_r012_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:04.623446+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r012-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "b9de01b72862b5084e48ee980d69ae82623e3651e1782ac960ee6d8d4373f562",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r013:v1:11502000000:val_02-r013-red-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:05.361012+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r013-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "7e0659075a7e35add19645d96d7fa7d60e564a78af45898e9fc3283b9b61c635",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r013:v1:11700000000:r3geo_base_r013_right_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:06.109536+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r013-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "bb68bcb8bb9c252c099c72c3c6a6d6a0a2f096e679bb642ebb4152b3b36ce22d",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r013:v1:11700000000:r3geo_base_r013_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:06.874509+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r013-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "211560c305e8866888b5906b54e28c1b2bd3d8e18f285affb242567d53563eb1",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r013:v1:11400000000:r3geo_base_r013_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:07.654004+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r013-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "370fd57a2465598293304aa6678477256943ef4ec3714e31b2b3e5fc3e0163f7",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r014:v1:12000000000:val_00-r014-blue-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:08.444714+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r014-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "a9443e734155ea0be45fc49310d5177315683b974be03eba154fe162cc16e9d6",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r014:v1:12000000000:r3geo_base_r014_right_2_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:09.248770+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r014-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "3457581a074161c785a9e3d1bc7bf10da464dc559fb038543dffabf8231ea07f",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r014:v1:12000000000:r3geo_base_r014_right_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:10.042242+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r014-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "correct"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "298e95a2c6dd50366bc83f3f150bb5708bfb4b3d38d90668e151476dabe03930",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r014:v1:11001000000:r3geo_base_r014_left_2_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:10.834643+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-r014-office_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "incorrect"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "09a689c5b62ec91a2133d7e8e554f8a3ba3696f1da6a89fba71a935ddd22f0b0",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:10602000000:dev_00-r010-blue-chair",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:11.631532+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-stress-chair"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "incorrect"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "9c155987ed2a481f1acd3123dbabb68e95cbfc63d16c7e855dbf8820bce8c2f1",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:11700000000:r3geo_base_r010_left_1_doorway",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:12.429749+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-stress-doorway"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "incorrect"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "beb2705c21ca6cfb889c6ff82ce386c1a6f89fde8c4ca06c3eed3436db33a0dc",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:10701000000:r3geo_base_r010_left_1_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:13.225781+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-stress-laboratory_entrance"
+        },
+        {
+          "dimension_verdicts": {
+            "category": "correct",
+            "entity_association": "correct",
+            "pose": "incorrect"
+          },
+          "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+          "item_evidence_sha256": "4fe67599c22971024e34423695fe4218b8df70aeb4e810456ee699db638661cd",
+          "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:11001000000:r3geo_base_r010_right_1_entrance",
+          "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+          "recorded_at": "2026-09-12T00:19:14.013055+00:00",
+          "reviewer_id": "Emmanuel Alabi Olasubomi",
+          "run_id": "r3-current-v1-stress-office_entrance"
+        }
+      ],
+      "audit_schema_version": "research3-physical-human-review-audit/v2",
+      "dimensions": [
+        "category",
+        "entity_association",
+        "pose"
+      ],
+      "evidence_sha256": "987b02ef00e09db3567b456abfbf0dd1f194ceafd33587fee2a19af49385a626",
+      "policy_sha256": "72c4e8484d00d501b79a4bebe406f16619948701de91e7becfb1a8202db8dbfa",
+      "schema_version": "research3-joint-calibration-label-contract/v1",
+      "target": "category_and_stable_entity_association_and_pose_under_approved_rubric"
+    },
+    "labels_generated": false,
+    "limit": "Rejects explicit synthetic provenance; a typed name does not independently prove human identity.",
+    "map_class_outcomes": [
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r001"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r001"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r001"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r001"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r002"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r002"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r002"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r002"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r003"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r003"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r003"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r003"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r004"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r004"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r004"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r004"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r005"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r005"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r005"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r005"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r006"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r006"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r006"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r006"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r007"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r007"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r007"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r007"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r008"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r008"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r008"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r008"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r009"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r009"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r009"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r009"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 1,
+        "map_id": "r3geo_base_r010"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 1,
+        "map_id": "r3geo_base_r010"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 1,
+        "map_id": "r3geo_base_r010"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 1,
+        "map_id": "r3geo_base_r010"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r011"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r011"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r011"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r011"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r012"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r012"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r012"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r012"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r013"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r013"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r013"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r013"
+      },
+      {
+        "category": "chair",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r014"
+      },
+      {
+        "category": "doorway",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r014"
+      },
+      {
+        "category": "laboratory_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r014"
+      },
+      {
+        "category": "office_entrance",
+        "correct": 1,
+        "incorrect": 0,
+        "map_id": "r3geo_base_r014"
+      }
+    ],
+    "progress_sha256": "c28cf311588b1218744ac12935c961863fd92cd906fe5ecf839887202f89f1c4",
+    "protected_data_used": false,
+    "provider_review_rows": 60,
+    "qa_sha256": "f4e8f0d1c46b5cf290b4a678c53470f8d6e4bbf210786e5728f8ff69bcbbd0eb",
+    "requirements": {
+      "confidence_bin_edges": [
+        0,
+        0.5,
+        0.8,
+        1
+      ],
+      "minimum_per_class_confidence_bin": 5,
+      "minimum_per_class_outcome": 5,
+      "minimum_per_map_class_total": 1,
+      "outcome_coverage_scope": "global_class",
+      "schema_version": "research3-physical-calibration-coverage/v2",
+      "unreviewable_exclusion_policy": "allow_with_counts"
+    },
+    "requirements_sha256": "ab69b6f686c9275a578ce7ea9b6705ac344289e553280f1ac4e245e143c7d8d9",
+    "schema_version": "research3-physical-human-export/v2",
+    "status": "blocked",
+    "superseded_events": 0
+  },
+  "reviewed_binary_labels": 60,
+  "schema_version": "research3-portable-return-validation/v1"
+}

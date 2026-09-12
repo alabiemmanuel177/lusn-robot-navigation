@@ -1,0 +1,42 @@
+{
+  "amendment_gates_accepted": [
+    "diagnostic_exclusion",
+    "fixed_budget_stopping",
+    "fixed_primary_schedule",
+    "partition_separation",
+    "pilot_only",
+    "rubric_scope",
+    "source_resource_guards",
+    "unchanged_coverage"
+  ],
+  "calibration_approved": false,
+  "campaign_authorized": false,
+  "current_plan_matches_approved_plan": true,
+  "execution_authorized_by_this_package": false,
+  "human_identity_cryptographically_authenticated": false,
+  "new_expansion_observations_in_this_package": 0,
+  "outstanding_gates": [
+    "exact_diagnostic_assets_build_and_static_visual_preflight",
+    "exact_diagnostic_assets_review_before_collection_per_approved_amendment",
+    "execution_input_and_resource_guard_freeze",
+    "development_capture_complete_before_validation_capture",
+    "new_evidence_item_by_item_presentation_checks_and_portable_kit",
+    "new_human_labels_and_separate_calibration_fit_protocol"
+  ],
+  "pilot_calibration_coverage_blockers": [
+    "global_class_binary_outcome_coverage_incomplete",
+    "class_confidence_coverage_incomplete"
+  ],
+  "pilot_in_final_fit_or_validation": false,
+  "pilot_journal_event_counts": {
+    "correct": 56,
+    "incorrect": 4,
+    "unreviewable": 0
+  },
+  "pilot_latest_binary_labels": 60,
+  "reviewer_name": "Emmanuel Alabi Olasubomi",
+  "scheduled_diagnostic_attempts": 80,
+  "scheduled_primary_attempts": 560,
+  "schema_version": "research3-expansion-preparation-handoff/v1",
+  "status": "pilot_and_amendment_verified_collection_not_started"
+}

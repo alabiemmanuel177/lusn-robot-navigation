@@ -1,0 +1,9 @@
+string schema_version
+string request_id
+bool succeeded
+string[] visited_regions
+float64 distance
+bool collision
+bool infrastructure_failure
+string reason
+uint64 completed_at_ns

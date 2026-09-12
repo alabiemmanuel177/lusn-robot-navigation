@@ -1,0 +1,1720 @@
+{
+  "schema_version": "research3-live-measurements/v1",
+  "run_id": "r3-variant-B2-v1",
+  "episode_started_at_ns": 9105000000,
+  "episode_ended_at_ns": 17877000000,
+  "ground_truth_positions": [
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.000195545475601,
+      -0.49999208130929923
+    ],
+    [
+      -1.9986335001044215,
+      -0.4999690504211841
+    ],
+    [
+      -1.99578303910468,
+      -0.4999023567921573
+    ],
+    [
+      -1.992224620547765,
+      -0.49983638350916537
+    ],
+    [
+      -1.9884267335246495,
+      -0.4997706964147973
+    ],
+    [
+      -1.984140695833619,
+      -0.4997076481872972
+    ],
+    [
+      -1.9792257474185164,
+      -0.49965135551370354
+    ],
+    [
+      -1.9739385503236875,
+      -0.49958974280859564
+    ],
+    [
+      -1.9684769865493086,
+      -0.4995206167289589
+    ],
+    [
+      -1.9629382719082344,
+      -0.49944497997627324
+    ],
+    [
+      -1.9570131998724543,
+      -0.4993482522325357
+    ],
+    [
+      -1.9508918227588483,
+      -0.49923606365867174
+    ],
+    [
+      -1.9445401475194484,
+      -0.4991092479199476
+    ],
+    [
+      -1.9378641325537214,
+      -0.4989619699067897
+    ],
+    [
+      -1.9308580084775586,
+      -0.4987957307821107
+    ],
+    [
+      -1.9237576250423072,
+      -0.4986085212963169
+    ],
+    [
+      -1.9162856178622336,
+      -0.49840990484590314
+    ],
+    [
+      -1.9086213207492897,
+      -0.49818291955341515
+    ],
+    [
+      -1.900769665489143,
+      -0.4979316363744741
+    ],
+    [
+      -1.8928654330586798,
+      -0.49765832735163906
+    ],
+    [
+      -1.8848160464165293,
+      -0.49736705304457735
+    ],
+    [
+      -1.8764170481852243,
+      -0.497061211637712
+    ],
+    [
+      -1.8679150031163183,
+      -0.49673221586738214
+    ],
+    [
+      -1.8592212056359758,
+      -0.4963810883139258
+    ],
+    [
+      -1.8501989211891088,
+      -0.4960237571254413
+    ],
+    [
+      -1.8408582223886694,
+      -0.4956432858887526
+    ],
+    [
+      -1.831128938829161,
+      -0.4952451107743911
+    ],
+    [
+      -1.821232355432462,
+      -0.49482596732080214
+    ],
+    [
+      -1.8113610054358626,
+      -0.4944027025570341
+    ],
+    [
+      -1.8012167960670535,
+      -0.4939654610448422
+    ],
+    [
+      -1.7907220114337015,
+      -0.49352841703365763
+    ],
+    [
+      -1.7800949386781182,
+      -0.4930926583432784
+    ],
+    [
+      -1.7694495063373512,
+      -0.4926517811755925
+    ],
+    [
+      -1.758705979563996,
+      -0.4922214826800928
+    ],
+    [
+      -1.7477335978835302,
+      -0.49180784096354985
+    ],
+    [
+      -1.7364882616291721,
+      -0.49139056857902175
+    ],
+    [
+      -1.7250539550399968,
+      -0.4909733197458408
+    ],
+    [
+      -1.7134031878882083,
+      -0.49057559610284823
+    ],
+    [
+      -1.7015378672386212,
+      -0.49019421321909706
+    ],
+    [
+      -1.689381979091997,
+      -0.48983160574158885
+    ],
+    [
+      -1.6770798785610783,
+      -0.48948944603305716
+    ],
+    [
+      -1.664641475820538,
+      -0.4891733502585011
+    ],
+    [
+      -1.6520536288399195,
+      -0.48888541813026476
+    ],
+    [
+      -1.6394289724939104,
+      -0.48863982646082094
+    ],
+    [
+      -1.6268042805206528,
+      -0.4884179774277533
+    ],
+    [
+      -1.6141795432176058,
+      -0.4882277955266297
+    ],
+    [
+      -1.6015535831280132,
+      -0.48807801336625706
+    ],
+    [
+      -1.5889264278445066,
+      -0.48797124109810314
+    ],
+    [
+      -1.5762990217145534,
+      -0.48790030200510914
+    ],
+    [
+      -1.5636714873286626,
+      -0.48786531380561
+    ],
+    [
+      -1.5510435742558313,
+      -0.48786723329888254
+    ],
+    [
+      -1.538414824761137,
+      -0.4879087233575594
+    ],
+    [
+      -1.5257860749136778,
+      -0.48799086245413137
+    ],
+    [
+      -1.5131576441103378,
+      -0.4881128968148111
+    ],
+    [
+      -1.500531870036688,
+      -0.4882596777020798
+    ],
+    [
+      -1.4879101461058142,
+      -0.48842907475779257
+    ],
+    [
+      -1.4752919265998856,
+      -0.4886276164329865
+    ],
+    [
+      -1.4626751685916917,
+      -0.4888691938921518
+    ],
+    [
+      -1.4500587580549258,
+      -0.4891550313876299
+    ],
+    [
+      -1.4374422184030677,
+      -0.4894806450450344
+    ],
+    [
+      -1.4248273302613128,
+      -0.48982751687464665
+    ],
+    [
+      -1.412213719094794,
+      -0.4902031549201619
+    ],
+    [
+      -1.3996010402452448,
+      -0.49060856513616863
+    ],
+    [
+      -1.3869889559000839,
+      -0.4910452314679484
+    ],
+    [
+      -1.374377547936,
+      -0.49151011959899454
+    ],
+    [
+      -1.3617684588335424,
+      -0.4919892136906883
+    ],
+    [
+      -1.3491612847453835,
+      -0.4924914192794352
+    ],
+    [
+      -1.3365566921758316,
+      -0.4930098369539811
+    ],
+    [
+      -1.3239550111281633,
+      -0.49354260420373025
+    ],
+    [
+      -1.31135550898257,
+      -0.4940988589128482
+    ],
+    [
+      -1.298759334376386,
+      -0.4946631327578344
+    ],
+    [
+      -1.2861648132804224,
+      -0.4952531083915592
+    ],
+    [
+      -1.273571417751272,
+      -0.4958671025709487
+    ],
+    [
+      -1.260980170023895,
+      -0.4964885185215214
+    ],
+    [
+      -1.2483914617013165,
+      -0.4971168548884116
+    ],
+    [
+      -1.2358036471870226,
+      -0.49776525767617474
+    ],
+    [
+      -1.2232165660103642,
+      -0.4984280561289715
+    ],
+    [
+      -1.2106343194119522,
+      -0.4990589512107956
+    ],
+    [
+      -1.1980801325552404,
+      -0.49967405853744457
+    ],
+    [
+      -1.1855354210878903,
+      -0.5003037757543988
+    ],
+    [
+      -1.1729913345318197,
+      -0.5009448934241656
+    ],
+    [
+      -1.160429618465738,
+      -0.5015961296339104
+    ],
+    [
+      -1.1478558675104262,
+      -0.5022316615341196
+    ],
+    [
+      -1.1352813908579995,
+      -0.5028599523501175
+    ],
+    [
+      -1.1227072894776717,
+      -0.5034740094843261
+    ],
+    [
+      -1.1101338474851392,
+      -0.5040718702538463
+    ],
+    [
+      -1.0975612684836098,
+      -0.5046515095579162
+    ],
+    [
+      -1.0849887695676985,
+      -0.5052192964474196
+    ],
+    [
+      -1.0724155962301232,
+      -0.5057769536022958
+    ],
+    [
+      -1.0598417643600235,
+      -0.5063208681525879
+    ],
+    [
+      -1.0472673202874145,
+      -0.506848439305352
+    ],
+    [
+      -1.0346922161612868,
+      -0.507359153238161
+    ],
+    [
+      -1.0221164074603328,
+      -0.5078524879334679
+    ],
+    [
+      -1.0095405144403309,
+      -0.5083224546689873
+    ],
+    [
+      -0.9969645796330436,
+      -0.5087700738833391
+    ],
+    [
+      -0.9843879561803535,
+      -0.5092008902553632
+    ],
+    [
+      -0.9718106574598221,
+      -0.5096128943235116
+    ],
+    [
+      -0.9592327115413621,
+      -0.5100050027877676
+    ],
+    [
+      -0.9466532029040775,
+      -0.5103837838477165
+    ],
+    [
+      -0.9340727349841283,
+      -0.5107421911986428
+    ],
+    [
+      -0.9214901117374996,
+      -0.5110897525730124
+    ],
+    [
+      -0.9089050863813839,
+      -0.5114266330578965
+    ],
+    [
+      -0.8963177049105714,
+      -0.5117498074924517
+    ],
+    [
+      -0.8837297820763051,
+      -0.5120481217039443
+    ],
+    [
+      -0.8711406677334663,
+      -0.5123305859001205
+    ],
+    [
+      -0.8585510102947735,
+      -0.5125940671509925
+    ],
+    [
+      -0.8459606259101569,
+      -0.5128428556069643
+    ],
+    [
+      -0.8333686220499539,
+      -0.513084912366354
+    ],
+    [
+      -0.8207781085647219,
+      -0.513297012417714
+    ],
+    [
+      -0.8081870807401972,
+      -0.5135007163787558
+    ],
+    [
+      -0.7955956794426995,
+      -0.5136936282937051
+    ],
+    [
+      -0.7830038359806096,
+      -0.5138767656854404
+    ],
+    [
+      -0.7704105679247357,
+      -0.5140570224799702
+    ],
+    [
+      -0.7578146530276332,
+      -0.5142413290182501
+    ],
+    [
+      -0.74521709273179,
+      -0.5144202996041738
+    ],
+    [
+      -0.7326187160899438,
+      -0.5145891089326318
+    ],
+    [
+      -0.7200202176232955,
+      -0.5147463517631806
+    ],
+    [
+      -0.707419767931397,
+      -0.5149082673449805
+    ],
+    [
+      -0.6948170950642781,
+      -0.515074825818821
+    ],
+    [
+      -0.6822138051141745,
+      -0.515235435625104
+    ],
+    [
+      -0.6696104571624025,
+      -0.5153902831513882
+    ],
+    [
+      -0.6570061700923057,
+      -0.5155493020461985
+    ],
+    [
+      -0.6444023729414156,
+      -0.5157035379900979
+    ],
+    [
+      -0.6317990240601478,
+      -0.5158586441097837
+    ],
+    [
+      -0.6191941903313901,
+      -0.5160291980767975
+    ],
+    [
+      -0.6065881734434359,
+      -0.5162097971216631
+    ],
+    [
+      -0.5939821327461074,
+      -0.5163934851741702
+    ],
+    [
+      -0.5813747839508299,
+      -0.5165921475689635
+    ],
+    [
+      -0.5687663888335457,
+      -0.5168016386051264
+    ],
+    [
+      -0.5561580710944978,
+      -0.5170162507496794
+    ],
+    [
+      -0.5435486610529183,
+      -0.5172474128264142
+    ],
+    [
+      -0.5309372249739377,
+      -0.5175018542436078
+    ],
+    [
+      -0.5183258219575383,
+      -0.5177627957957489
+    ],
+    [
+      -0.5057149387855931,
+      -0.5180315646814054
+    ],
+    [
+      -0.4931044255727335,
+      -0.518312900693872
+    ],
+    [
+      -0.4804922126765565,
+      -0.5186252343285805
+    ],
+    [
+      -0.4678787003928852,
+      -0.5189622585719095
+    ],
+    [
+      -0.45526528279780826,
+      -0.5193137005280308
+    ],
+    [
+      -0.4426522877719076,
+      -0.5196811926892659
+    ],
+    [
+      -0.4300387767436353,
+      -0.520076402394904
+    ],
+    [
+      -0.4174252694729097,
+      -0.5204942284359484
+    ],
+    [
+      -0.4048130992798392,
+      -0.5209262222146267
+    ],
+    [
+      -0.3922021128412839,
+      -0.5213794915623032
+    ],
+    [
+      -0.37959224798518965,
+      -0.5218562388713388
+    ],
+    [
+      -0.36698408564528395,
+      -0.5223530680478665
+    ],
+    [
+      -0.35437715632714534,
+      -0.5228766218403208
+    ],
+    [
+      -0.3417729843533155,
+      -0.5234115820302946
+    ],
+    [
+      -0.32917085153331554,
+      -0.5239710207847537
+    ],
+    [
+      -0.31657007511358015,
+      -0.5245589952996591
+    ],
+    [
+      -0.30397071197856024,
+      -0.5251718915064295
+    ],
+    [
+      -0.29137267652615256,
+      -0.5258090346763357
+    ],
+    [
+      -0.2787758737569736,
+      -0.5264696924586216
+    ],
+    [
+      -0.2661818936174823,
+      -0.527136161088417
+    ],
+    [
+      -0.25359022378592005,
+      -0.527818796760978
+    ],
+    [
+      -0.24100153242240188,
+      -0.5285095538387764
+    ],
+    [
+      -0.22841802424946403,
+      -0.5291853506749492
+    ],
+    [
+      -0.21583867281231747,
+      -0.5298705418172579
+    ],
+    [
+      -0.20326096029128143,
+      -0.5305819656979653
+    ],
+    [
+      -0.1906845648909261,
+      -0.5313092248106065
+    ],
+    [
+      -0.17811159644644184,
+      -0.532021131232701
+    ],
+    [
+      -0.16554109190979613,
+      -0.532732225196765
+    ],
+    [
+      -0.1529725375980401,
+      -0.533440773339261
+    ],
+    [
+      -0.1404050033969271,
+      -0.5341510371703051
+    ],
+    [
+      -0.12783846617096636,
+      -0.5348520243466
+    ],
+    [
+      -0.11527323790661155,
+      -0.5355353089605406
+    ],
+    [
+      -0.10270989509527935,
+      -0.5361952600229828
+    ],
+    [
+      -0.090146124148447,
+      -0.5368499069933825
+    ],
+    [
+      -0.07758139896890277,
+      -0.5374944468470485
+    ],
+    [
+      -0.06501813019956415,
+      -0.5381007998922982
+    ],
+    [
+      -0.05245556108815581,
+      -0.5386797726778113
+    ],
+    [
+      -0.03989241052159993,
+      -0.5392404446677083
+    ],
+    [
+      -0.02732841868100617,
+      -0.5397790180966877
+    ],
+    [
+      -0.014765907591930366,
+      -0.5402719287847109
+    ],
+    [
+      -0.0022031647144740794,
+      -0.5407374771168886
+    ],
+    [
+      0.010360601078009504,
+      -0.5411769931132304
+    ],
+    [
+      0.02292512562103106,
+      -0.5415840027103259
+    ],
+    [
+      0.03548795989201508,
+      -0.5419375578101909
+    ],
+    [
+      0.048047914151789495,
+      -0.5422337205028123
+    ],
+    [
+      0.06060691888326253,
+      -0.5424902966828749
+    ],
+    [
+      0.07316442123968937,
+      -0.5426978225893725
+    ],
+    [
+      0.08571859331694305,
+      -0.5428445828586426
+    ],
+    [
+      0.09827220089686448,
+      -0.5429485057908404
+    ],
+    [
+      0.11082599596304865,
+      -0.5430086848402892
+    ],
+    [
+      0.12338005268030086,
+      -0.5430204496253844
+    ],
+    [
+      0.13593413592326697,
+      -0.5429791249138134
+    ],
+    [
+      0.1484887455154404,
+      -0.5428857606596136
+    ],
+    [
+      0.16104784676645867,
+      -0.5427607307225814
+    ],
+    [
+      0.1736231729118727,
+      -0.5426580950160549
+    ],
+    [
+      0.18620073262695247,
+      -0.5424926379951922
+    ],
+    [
+      0.19878148332385298,
+      -0.5422767694597528
+    ],
+    [
+      0.21136527170913388,
+      -0.5420162809500606
+    ],
+    [
+      0.22394821181494837,
+      -0.5416972159573497
+    ],
+    [
+      0.23653113822145827,
+      -0.5413338810495399
+    ],
+    [
+      0.2491179736330781,
+      -0.5409521867983029
+    ],
+    [
+      0.26170613899872486,
+      -0.5405405111068216
+    ],
+    [
+      0.274294836362677,
+      -0.5401002994094878
+    ],
+    [
+      0.2868841584822571,
+      -0.5396373878733807
+    ],
+    [
+      0.2994754152485137,
+      -0.5391625824883264
+    ],
+    [
+      0.31206632108536053,
+      -0.5386666263520731
+    ],
+    [
+      0.3246581913729078,
+      -0.5381622951848529
+    ],
+    [
+      0.3372521421263745,
+      -0.537684464560841
+    ],
+    [
+      0.34985069973898564,
+      -0.5372021382175927
+    ],
+    [
+      0.36245189610871265,
+      -0.5367112664260772
+    ],
+    [
+      0.37505265865369325,
+      -0.536230543678994
+    ],
+    [
+      0.38765774971894146,
+      -0.5357651412259883
+    ],
+    [
+      0.40026630743836905,
+      -0.5353039254107625
+    ],
+    [
+      0.41287583894542623,
+      -0.5348515887877436
+    ],
+    [
+      0.42548655417299747,
+      -0.5344162315462458
+    ],
+    [
+      0.43808434885010283,
+      -0.5340002764242797
+    ],
+    [
+      0.4506492332717719,
+      -0.5335820961578535
+    ],
+    [
+      0.4631630114623011,
+      -0.5331652091403621
+    ],
+    [
+      0.47565238698863194,
+      -0.5327685234067572
+    ],
+    [
+      0.488093962035914,
+      -0.5324007097203105
+    ],
+    [
+      0.500511852951898,
+      -0.5320558798300112
+    ],
+    [
+      0.5129106532946097,
+      -0.5317245656978667
+    ],
+    [
+      0.5250115196768219,
+      -0.5314084584932676
+    ],
+    [
+      0.5370503228522938,
+      -0.5311123078409962
+    ],
+    [
+      0.5490894768001181,
+      -0.5308320549298724
+    ],
+    [
+      0.5611685145415517,
+      -0.530546965630606
+    ],
+    [
+      0.5732751608574153,
+      -0.5302614408362777
+    ],
+    [
+      0.585385590044226,
+      -0.5299847222271198
+    ],
+    [
+      0.5974831908783852,
+      -0.5297183645424494
+    ],
+    [
+      0.6095474894659971,
+      -0.5294547259842403
+    ],
+    [
+      0.6215950293114039,
+      -0.5291944348492728
+    ],
+    [
+      0.6335493837353328,
+      -0.5289468252939095
+    ],
+    [
+      0.6453526594139064,
+      -0.5286895875952985
+    ],
+    [
+      0.65712768909817,
+      -0.528440072761978
+    ],
+    [
+      0.6687225312954733,
+      -0.5281965282796238
+    ],
+    [
+      0.6801959530489164,
+      -0.5279447826378425
+    ],
+    [
+      0.6916624628866983,
+      -0.527691028623594
+    ],
+    [
+      0.7030747493632339,
+      -0.5274388072616495
+    ],
+    [
+      0.7143235121162527,
+      -0.5271829659101676
+    ],
+    [
+      0.7251867328308045,
+      -0.5269275084048647
+    ],
+    [
+      0.7359400458128791,
+      -0.5266694563863936
+    ],
+    [
+      0.7466210974271907,
+      -0.5263966306724697
+    ],
+    [
+      0.7570464980522686,
+      -0.5261301157899955
+    ],
+    [
+      0.7672332608971948,
+      -0.5258595651228947
+    ],
+    [
+      0.7773757505062426,
+      -0.5255832505121385
+    ],
+    [
+      0.7873602487368732,
+      -0.5253016083528642
+    ],
+    [
+      0.7970574884650828,
+      -0.5250200917538096
+    ],
+    [
+      0.8060617154044568,
+      -0.5247860828406232
+    ]
+  ],
+  "scene_sha256": "30a72b9e20094f6314f1ad60a21d4a182e60282a11237f542f5586969c428e48",
+  "terminal_ground_truth": [
+    {
+      "entity_id": "dev_00-r010-sign",
+      "region_id": "dev_00-r010-sign-region",
+      "category": "sign",
+      "attributes": {},
+      "pose": {
+        "x": -1.375,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        245,
+        135,
+        25
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-door",
+      "region_id": "dev_00-r010-door-region",
+      "category": "door",
+      "attributes": {},
+      "pose": {
+        "x": -1.075,
+        "y": -0.895,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        135,
+        75,
+        35
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-glass-doors",
+      "region_id": "dev_00-r010-glass-doors-region",
+      "category": "glass_doors",
+      "attributes": {
+        "material": "glass"
+      },
+      "pose": {
+        "x": -0.825,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        45,
+        190,
+        215
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-blue-chair",
+      "region_id": "dev_00-r010-anchor-region",
+      "category": "chair",
+      "attributes": {
+        "color": "blue"
+      },
+      "pose": {
+        "x": -0.525,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        40,
+        70,
+        220
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-doorway-1",
+      "region_id": "dev_00-r010-doorway-1-region",
+      "category": "doorway",
+      "attributes": {},
+      "pose": {
+        "x": -0.125,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        150,
+        55,
+        190
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-doorway-2",
+      "region_id": "dev_00-r010-doorway-2-region",
+      "category": "doorway",
+      "attributes": {},
+      "pose": {
+        "x": 0.225,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        150,
+        55,
+        190
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-terminal-entity",
+      "region_id": "dev_00-r010-terminal",
+      "category": "office_entrance",
+      "attributes": {},
+      "pose": {
+        "x": 0.825,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        40,
+        205,
+        155
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    }
+  ],
+  "expected_terminal_region_id": "dev_00-r010-terminal",
+  "collision_count": 0,
+  "predictions": [
+    {
+      "observed_at_ns": 14502000000,
+      "failure_probability": 0.03162594842720785,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 15000000000,
+      "failure_probability": 0.009759560167333788,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 15501000000,
+      "failure_probability": 0.02491720557931025,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 16002000000,
+      "failure_probability": 0.012106409114996395,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 16500000000,
+      "failure_probability": 0.00894275317699112,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 17001000000,
+      "failure_probability": 0.01156744395055451,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 17502000000,
+      "failure_probability": 0.007487122298405326,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:localisation"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "route guard rejected selection",
+      "decided_at_ns": 9105000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 9105000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 9549000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 9549000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 9639000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 9639000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 9708000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 9708000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 9810000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 9810000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 9975000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 9978000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10110000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10110000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10203000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10206000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10263000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10266000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10317000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10320000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10386000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10386000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10467000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10470000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10524000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10524000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10611000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10611000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10683000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10689000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10767000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10767000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10827000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10830000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10914000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10914000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10971000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 10974000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11031000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11031000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11094000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11094000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11172000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11172000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11244000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11247000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11301000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11301000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11397000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11397000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11499000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11502000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11604000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11604000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11799000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11802000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11874000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 11937000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 12054000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 12210000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 12378000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 12468000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 12540000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 12594000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 12636000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 12855000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 12939000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 12996000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 13047000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 13152000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 13242000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 13326000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 13467000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 13557000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 13623000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 14508000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 15009000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 15522000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 16017000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 16515000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 17013000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "single highest-scoring semantic waypoint",
+      "decided_at_ns": 17511000000
+    }
+  ]
+}

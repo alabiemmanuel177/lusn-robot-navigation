@@ -1,0 +1,136 @@
+[INFO] [launch]: All log files can be found below /home/eao/lusn-robot-navigation/ros_ws/log/ros-live/2026-09-07-22-19-15-842774-eao-workstation-1463757
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gz-1]: process started with pid [1463775]
+[INFO] [create-2]: process started with pid [1463776]
+[INFO] [parameter_bridge-3]: process started with pid [1463777]
+[INFO] [robot_state_publisher-4]: process started with pid [1463778]
+[robot_state_publisher-4] [INFO] [1788815955.955384520] [robot_state_publisher]: Robot initialized
+[create-2] [INFO] [1788815955.956020599] [ros_gz_sim]: Requesting list of world names.
+[create-2] [INFO] [1788815956.380766618] [ros_gz_sim]: Entity creation successful.
+[INFO] [create-2]: process has finished cleanly [pid 1463776]
+[parameter_bridge-3] [INFO] [1788815956.963503842] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.963924111] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/joint_states (gz.msgs.Model) -> joint_states (sensor_msgs/msg/JointState)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.964776220] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/odom (gz.msgs.Odometry) -> odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.965172740] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/tf (gz.msgs.Pose_V) -> tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.965536989] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/imu (gz.msgs.IMU) -> imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.965669509] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan (gz.msgs.LaserScan) -> scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.965791739] [ros_gz_bridge]: Creating ROS->GZ Bridge: [cmd_vel (geometry_msgs/msg/Twist) -> /cmd_vel (gz.msgs.Twist)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.966072949] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/image (gz.msgs.Image) -> camera/image (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.966192378] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/depth_image (gz.msgs.Image) -> camera/depth_image (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.966285668] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/camera_info (gz.msgs.CameraInfo) -> camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.966402988] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/segmentation/labels_map (gz.msgs.Image) -> camera/segmentation (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.966496178] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/base_link/sensor/base_contact/contact (gz.msgs.Contacts) -> collision_raw/base_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.966956337] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/wheel_left_link/sensor/wheel_left_contact/contact (gz.msgs.Contacts) -> collision_raw/wheel_left_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.967099287] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/wheel_right_link/sensor/wheel_right_contact/contact (gz.msgs.Contacts) -> collision_raw/wheel_right_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.967223667] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/caster_back_right_link/sensor/caster_back_right_contact/contact (gz.msgs.Contacts) -> collision_raw/caster_back_right_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.967357277] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/caster_back_left_link/sensor/caster_back_left_contact/contact (gz.msgs.Contacts) -> collision_raw/caster_back_left_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.967476067] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/base_scan/sensor/lidar_contact/contact (gz.msgs.Contacts) -> collision_raw/lidar_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.967603287] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/camera_link/sensor/camera_contact/contact (gz.msgs.Contacts) -> collision_raw/camera_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788815956.967716167] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/turtlebot3_waffle/pose (gz.msgs.Pose) -> ground_truth_pose (geometry_msgs/msg/PoseStamped)] (Lazy 0)
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="imu_link"]/sensor[@name="tb3_imu"]/gz_frame_id:/tmp/rcn_waffle.sdf_nxg82v7w.sdf:L70]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="base_scan"]/sensor[@name="hls_lfcd_lds"]/gz_frame_id:/tmp/rcn_waffle.sdf_nxg82v7w.sdf:L165]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="camera_link"]/sensor[@name="rcn_rgbd"]/gz_frame_id:/tmp/rcn_waffle.sdf_nxg82v7w.sdf:L439]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="camera_link"]/sensor[@name="rcn_semantic_labels"]/gz_frame_id:/tmp/rcn_waffle.sdf_nxg82v7w.sdf:L473]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[parameter_bridge-3] [INFO] [1788815966.236070958] [ros_gz_bridge]: Passing message from ROS geometry_msgs/msg/Twist to Gazebo gz.msgs.Twist (showing msg only once per type)
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="imu_link"]/sensor[@name="tb3_imu"]/gz_frame_id:/tmp/rcn_waffle.sdf_8zmq4diy.sdf:L70]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="base_scan"]/sensor[@name="hls_lfcd_lds"]/gz_frame_id:/tmp/rcn_waffle.sdf_8zmq4diy.sdf:L165]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="camera_link"]/sensor[@name="rcn_rgbd"]/gz_frame_id:/tmp/rcn_waffle.sdf_8zmq4diy.sdf:L439]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="camera_link"]/sensor[@name="rcn_semantic_labels"]/gz_frame_id:/tmp/rcn_waffle.sdf_8zmq4diy.sdf:L473]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[robot_state_publisher-4] [WARN] [1788816063.431661071] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816063.933564844] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816064.032477200] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816065.364382229] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816065.572427468] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816066.272806533] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816066.561292551] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816066.747683598] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816066.772703863] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816067.066376373] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816067.105491981] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816067.109605202] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816067.160742302] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816067.389661741] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816067.664368819] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816067.766246090] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816069.276785298] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816069.570079447] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816069.770763294] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816070.100050793] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816070.797862575] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816072.933996546] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816074.410745996] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816075.014706073] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816078.952288952] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816079.657480369] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816081.734442896] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816083.878216430] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816083.948409288] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816084.364309727] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816085.672237418] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816086.271915463] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816086.488842037] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816087.202770356] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816089.111145944] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816089.819447324] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816090.105785858] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816091.114407659] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816092.023355373] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816092.536783839] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816093.524277317] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816094.528322385] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816095.548230222] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816097.735825964] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816097.835886889] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816102.052134460] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816102.450121603] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816103.449523857] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816103.476802794] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816104.556677670] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816104.873435220] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816105.778554660] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816105.874603362] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816106.183907113] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816106.981888724] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816108.372918492] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816108.569606105] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816109.079947680] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816109.792088549] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816109.983477530] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816109.995217098] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816114.731120053] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816115.121975804] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816115.410816041] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816116.949055335] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816118.755030427] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816118.837756092] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816119.257953183] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816119.727633716] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816119.841551996] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816121.043574191] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816121.628025707] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816121.928668622] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816122.455920676] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816122.836610100] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816124.332842463] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816125.435679470] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816125.735912627] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816125.747702068] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816126.175137336] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816126.635902545] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816126.947590545] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816129.759376979] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816129.881330949] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816129.966252905] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816130.354927758] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816130.665020280] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816130.773719459] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816130.971814449] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816131.565823714] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816132.154703067] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816132.348609508] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816133.458383934] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816133.781864388] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-4] [WARN] [1788816134.483510373] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[ERROR] [robot_state_publisher-4]: process has died [pid 1463778, exit code -9, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args --params-file /tmp/launch_params_l5hoaixf'].
+[ERROR] [parameter_bridge-3]: process has died [pid 1463777, exit code -9, cmd '/opt/ros/jazzy/lib/ros_gz_bridge/parameter_bridge --ros-args --params-file /tmp/launch_params_hyd5sve_'].
+[ERROR] [gz-1]: process has died [pid 1463775, exit code -9, cmd 'gz sim -r -s --headless-rendering -v 1 /tmp/r3-live-nonprotected-v1-dev-02-r0.sdf'].

@@ -1,0 +1,44 @@
+[INFO] [launch]: All log files can be found below /home/eao/lusn-robot-navigation/ros_ws/log/ros/2026-09-08-10-50-08-216622-eao-workstation-1309511
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gz-1]: process started with pid [1309526]
+[INFO] [create-2]: process started with pid [1309527]
+[INFO] [parameter_bridge-3]: process started with pid [1309528]
+[INFO] [robot_state_publisher-4]: process started with pid [1309529]
+[create-2] [INFO] [1788861008.342415027] [ros_gz_sim]: Requesting list of world names.
+[robot_state_publisher-4] [INFO] [1788861008.342459657] [robot_state_publisher]: Robot initialized
+[create-2] [INFO] [1788861008.879665988] [ros_gz_sim]: Entity creation successful.
+[INFO] [create-2]: process has finished cleanly [pid 1309527]
+[parameter_bridge-3] [INFO] [1788861009.351133242] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.351546421] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/joint_states (gz.msgs.Model) -> joint_states (sensor_msgs/msg/JointState)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.352530139] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/odom (gz.msgs.Odometry) -> odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.353046918] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/tf (gz.msgs.Pose_V) -> tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.353470077] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/imu (gz.msgs.IMU) -> imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.353614186] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan (gz.msgs.LaserScan) -> scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.353772436] [ros_gz_bridge]: Creating ROS->GZ Bridge: [cmd_vel (geometry_msgs/msg/Twist) -> /cmd_vel (gz.msgs.Twist)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.354130055] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/image (gz.msgs.Image) -> camera/image (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.354272255] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/depth_image (gz.msgs.Image) -> camera/depth_image (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.354371325] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/camera_info (gz.msgs.CameraInfo) -> camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.354493215] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/segmentation/labels_map (gz.msgs.Image) -> camera/segmentation (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.354583144] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/base_link/sensor/base_contact/contact (gz.msgs.Contacts) -> collision_raw/base_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.355169123] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/wheel_left_link/sensor/wheel_left_contact/contact (gz.msgs.Contacts) -> collision_raw/wheel_left_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.355314863] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/wheel_right_link/sensor/wheel_right_contact/contact (gz.msgs.Contacts) -> collision_raw/wheel_right_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.355446013] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/caster_back_right_link/sensor/caster_back_right_contact/contact (gz.msgs.Contacts) -> collision_raw/caster_back_right_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.355584482] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/caster_back_left_link/sensor/caster_back_left_contact/contact (gz.msgs.Contacts) -> collision_raw/caster_back_left_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.355719972] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/base_scan/sensor/lidar_contact/contact (gz.msgs.Contacts) -> collision_raw/lidar_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.355871232] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/default/model/turtlebot3_waffle/link/camera_link/sensor/camera_contact/contact (gz.msgs.Contacts) -> collision_raw/camera_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1788861009.356039751] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/turtlebot3_waffle/pose (gz.msgs.Pose) -> ground_truth_pose (geometry_msgs/msg/PoseStamped)] (Lazy 0)
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="imu_link"]/sensor[@name="tb3_imu"]/gz_frame_id:/tmp/rcn_waffle.sdf_2460n97a.sdf:L70]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="base_scan"]/sensor[@name="hls_lfcd_lds"]/gz_frame_id:/tmp/rcn_waffle.sdf_2460n97a.sdf:L165]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="camera_link"]/sensor[@name="rcn_rgbd"]/gz_frame_id:/tmp/rcn_waffle.sdf_2460n97a.sdf:L439]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gz-1] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="camera_link"]/sensor[@name="rcn_semantic_labels"]/gz_frame_id:/tmp/rcn_waffle.sdf_2460n97a.sdf:L473]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[parameter_bridge-3] [INFO] [1788861023.480440043] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ERROR] [parameter_bridge-3]: process has died [pid 1309528, exit code -11, cmd '/opt/ros/jazzy/lib/ros_gz_bridge/parameter_bridge --ros-args --params-file /tmp/launch_params_cwx1zrd1'].
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [robot_state_publisher-4]: sending signal 'SIGINT' to process[robot_state_publisher-4]
+[INFO] [gz-1]: sending signal 'SIGINT' to process[gz-1]
+[robot_state_publisher-4] [INFO] [1788861024.582627551] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [robot_state_publisher-4]: process has finished cleanly [pid 1309529]
+[ERROR] [gz-1]: process[gz-1] failed to terminate '15' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [gz-1]: sending signal 'SIGTERM' to process[gz-1]
+[ERROR] [gz-1]: process[gz-1] failed to terminate '20.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+[INFO] [gz-1]: sending signal 'SIGKILL' to process[gz-1]

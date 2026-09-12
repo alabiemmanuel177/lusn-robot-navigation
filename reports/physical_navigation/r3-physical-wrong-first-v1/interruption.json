@@ -1,0 +1,10 @@
+{
+  "schema_version": "research3-validation-interruption/v1",
+  "run_id": "r3-physical-wrong-first-v1",
+  "outcome_record_complete": false,
+  "reason": "Superseded attempt was interrupted with SIGINT during ROS lifecycle cleanup after reference validation failure. The original validator wrote its report after cleanup, so no terminal report was persisted.",
+  "measurement_outcome": null,
+  "retained_evidence": "logs/",
+  "replacement_run_id": "r3-physical-wrong-first-v2",
+  "correction": "Validator now persists its result before teardown. This interrupted attempt is not counted as a successful trial."
+}

@@ -1,0 +1,59 @@
+schema_version: landmark-bridge-route-plan/v1
+protected_test_routes_used: true
+benchmark_sha256: bb718b69ccc85ae70b63c014811d24da152050937f34bb2043d6e6b4b8ce8d8e
+prior_protected_graph_access: true
+routes:
+- base_instruction_id: base-r015
+  platform_route_id: test_01_r0
+  map_id: test_01
+  partition: test
+  anchor_entity_id: test_01-r015-green-chair
+  terminal_category: laboratory_entrance
+  terminal_region_id: test_01-r015-terminal
+  chair_color: green
+  side: right
+- base_instruction_id: base-r016
+  platform_route_id: test_01_r1
+  map_id: test_01
+  partition: test
+  anchor_entity_id: test_01-r016-yellow-chair
+  terminal_category: office_entrance
+  terminal_region_id: test_01-r016-terminal
+  chair_color: yellow
+  side: left
+- base_instruction_id: base-r017
+  platform_route_id: test_02_r0
+  map_id: test_02
+  partition: test
+  anchor_entity_id: test_02-r017-red-chair
+  terminal_category: laboratory_entrance
+  terminal_region_id: test_02-r017-terminal
+  chair_color: red
+  side: left
+- base_instruction_id: base-r018
+  platform_route_id: test_02_r1
+  map_id: test_02
+  partition: test
+  anchor_entity_id: test_02-r018-blue-chair
+  terminal_category: office_entrance
+  terminal_region_id: test_02-r018-terminal
+  chair_color: blue
+  side: right
+- base_instruction_id: base-r019
+  platform_route_id: test_00_r0
+  map_id: test_00
+  partition: test
+  anchor_entity_id: test_00-r019-green-chair
+  terminal_category: laboratory_entrance
+  terminal_region_id: test_00-r019-terminal
+  chair_color: green
+  side: left
+- base_instruction_id: base-r020
+  platform_route_id: test_00_r1
+  map_id: test_00
+  partition: test
+  anchor_entity_id: test_00-r020-yellow-chair
+  terminal_category: office_entrance
+  terminal_region_id: test_00-r020-terminal
+  chair_color: yellow
+  side: right

@@ -1,0 +1,14 @@
+{
+  "schema_version": "research3-joint-review-policy/v1",
+  "status": "draft",
+  "protected_data_used": false,
+  "reviewer_type": null,
+  "approved_by": null,
+  "approved_at": null,
+  "category_rule": null,
+  "entity_association_rule": null,
+  "pose_rule": null,
+  "yaw_rule": null,
+  "human_action_required": "A person with experiment-protocol authority must prespecify and approve category, stable association, position acceptance and the treatment of catalogue-supplied yaw. Create a separate approved policy; do not relabel this draft as approval without that decision.",
+  "scope": "Preview only. No judgments may be saved. No tolerances, human labels, calibration approval or deployment eligibility are supplied."
+}

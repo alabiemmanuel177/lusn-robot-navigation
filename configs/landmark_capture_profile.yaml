@@ -1,0 +1,20 @@
+schema_version: landmark-capture-profile/v1
+profile_id: gazebo-headless-rendering-dev-v3
+provider_revision: 697a7bc86fd2eca62866c614ef7b26b5d810cf84
+provider_handoff_revision: 70d87054f4fd002a23311983a03b9810a038add6
+partition_scope:
+- development
+- validation
+protected_test_data: false
+color_tolerance: 18.0
+camera_palette:
+  sign: [128, 97, 42]
+  door: [98, 74, 52]
+  glass_doors:material=glass: [81, 110, 117]
+  chair:color=red: [173, 78, 78]
+  chair:color=blue: [60, 79, 140]
+  chair:color=green: [53, 112, 73]
+  chair:color=yellow: [177, 157, 70]
+  doorway: [138, 86, 154]
+  laboratory_entrance: [172, 83, 144]
+  office_entrance: [78, 168, 148]

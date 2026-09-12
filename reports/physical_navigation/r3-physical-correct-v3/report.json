@@ -1,0 +1,55 @@
+{
+  "candidate_route_id": "r3geo_base_r010_right_2",
+  "collision": false,
+  "collision_count": 0,
+  "distance_travelled_m": 0.0,
+  "error": "reference geometry validation did not pass",
+  "evidence_scope": "reference_navigation_geometry_validation_not_language_policy",
+  "goal_error_m": 7.184507833727415,
+  "ground_truth_positions": [
+    [
+      0.5994816636809607,
+      -1.2424617398496147e-07
+    ],
+    [
+      0.5994816636809607,
+      -1.2424617398496147e-07
+    ],
+    [
+      0.5994816636809607,
+      -1.2424617398496147e-07
+    ],
+    [
+      0.5994816636809607,
+      -1.2424617398496147e-07
+    ]
+  ],
+  "map_sha256": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+  "nav2_success": false,
+  "ordered_score": {
+    "crossing_events": [],
+    "forbidden_crossings": [],
+    "instruction_completion": false,
+    "matched_gate_ids": [],
+    "reason": "ordered physical gates and independent terminal identity",
+    "required_gate_ids": [
+      "corridor",
+      "past_chair",
+      "second_doorway"
+    ]
+  },
+  "passed": false,
+  "protected_test_routes_used": false,
+  "schema_version": "research3-physical-navigation-validation/v1",
+  "terminal_identity": {
+    "expected_terminal_entity_id": "r3geo_base_r010_right_2_entrance",
+    "measured_terminal_entity_id": null,
+    "nearby_terminal_entity_ids": [],
+    "terminal_identity_ambiguous": false,
+    "terminal_identity_correct": null,
+    "terminal_measurement_source": "provider scene ground truth and measured final position",
+    "terminal_radius_m": 1.0
+  },
+  "timeout": false,
+  "world_sha256": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+}

@@ -1,0 +1,61 @@
+{
+  "alpha": 0.05,
+  "assumptions": [
+    "independent world contrasts",
+    "nonzero continuous contrasts",
+    "valid null sign exchangeability",
+    "identical assumed sign probability across worlds",
+    "absolute equally weighted mean test statistic"
+  ],
+  "baseline_completion": null,
+  "conditional_sign_probability_sensitivity": [
+    {
+      "assumed_probability_world_difference_positive": 0.5,
+      "conditional_rejection_probability": 0.03125
+    },
+    {
+      "assumed_probability_world_difference_positive": 0.6,
+      "conditional_rejection_probability": 0.05075199999999999
+    },
+    {
+      "assumed_probability_world_difference_positive": 0.7,
+      "conditional_rejection_probability": 0.11837799999999997
+    },
+    {
+      "assumed_probability_world_difference_positive": 0.8,
+      "conditional_rejection_probability": 0.2622080000000001
+    },
+    {
+      "assumed_probability_world_difference_positive": 0.9,
+      "conditional_rejection_probability": 0.5314420000000001
+    },
+    {
+      "assumed_probability_world_difference_positive": 0.95,
+      "conditional_rejection_probability": 0.7350919062499998
+    },
+    {
+      "assumed_probability_world_difference_positive": 0.97,
+      "conditional_rejection_probability": 0.8329720056579998
+    },
+    {
+      "assumed_probability_world_difference_positive": 0.99,
+      "conditional_rejection_probability": 0.941480149402
+    }
+  ],
+  "configurations": 64,
+  "empirical_power": null,
+  "evidence_scope": "analytic_assumption_sensitivity_not_empirical_power",
+  "five_nonzero_worlds_minimum_p": 0.0625,
+  "limitation": "The +0.10 target does not determine a world-positive probability without a justified data model and evidence.",
+  "method_approved": false,
+  "minimum_two_sided_p": 0.03125,
+  "next_attainable_p_increment": 0.03125,
+  "paired_discordance": null,
+  "protected_outcomes_read": false,
+  "required_common_positive_sign_probability_for_80_percent": 0.9634924835237695,
+  "schema_version": "research3-six-world-signflip-sensitivity/v1",
+  "target_effect_to_sign_probability_mapping_estimated": false,
+  "target_power": 0.8,
+  "world_dependence_estimate": null,
+  "worlds": 6
+}

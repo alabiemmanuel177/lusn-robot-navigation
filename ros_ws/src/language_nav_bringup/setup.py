@@ -19,6 +19,7 @@ setup(
     entry_points={
         "console_scripts": [
             "landmark_bridge_runner = language_nav_bringup.landmark_bridge_runner:main",
+            "heldout_landmark_bridge = language_nav_bringup.heldout_landmark_bridge:main",
         ],
     },
 )

@@ -1,0 +1,42 @@
+{
+  "campaign_authorized": false,
+  "human_review_is_only_remaining_gate": false,
+  "independent_evidence_gates_not_verified_by_this_tool": [
+    "physical_inspection_completion_and_post_completion_fresh_observation",
+    "localization_and_point_goal_characterization_under_frozen_configuration",
+    "nonprotected_condition_and_seed_validation",
+    "new_world_detector_coverage_individual_visual_qa_and_genuine_human_labels",
+    "calibration_fit_and_freeze_without_protected_labels",
+    "scientific_design_approval_and_protocol_freeze",
+    "resource_safe_campaign_execution_and_independent_outcome_audit",
+    "separate_heldout_evaluator_access_control_and_authorization",
+    "complete_source_asset_model_environment_evidence_release_inventory"
+  ],
+  "input_sha256": "0e56b9330e63de6466d69d8643457431ac7d0aa56b340e4118fd633ecbbbb301",
+  "invalid_or_inconsistent_values": [],
+  "limitations": [
+    "Supplied numbers are not an approval, power calculation or valid nuisance estimate.",
+    "This checker does not inspect held-out content, execute experiments or change draft status.",
+    "Evidence gates are prerequisites, not assertions that no partial evidence currently exists."
+  ],
+  "missing_nonprotected_nuisance_estimates": [
+    "power_inputs_requiring_freeze.baseline_completion",
+    "power_inputs_requiring_freeze.paired_discordance",
+    "power_inputs_requiring_freeze.world_intracluster_correlation"
+  ],
+  "missing_scientific_choices": [
+    "analysis_proposals.primary_contrast",
+    "analysis_proposals.multiplicity_policy",
+    "analysis_proposals.confirmatory_inference_method",
+    "power_inputs_requiring_freeze.target_effect",
+    "power_inputs_requiring_freeze.target_power",
+    "power_inputs_requiring_freeze.alpha",
+    "simulator_seed.confirmatory_seed_list",
+    "replication.confirmatory_replications",
+    "power_inputs_requiring_freeze.repetitions_per_world"
+  ],
+  "schema_version": "research3-design-prerequisite-inventory/v1",
+  "scientific_design_approved": false,
+  "status": "draft_not_authorized",
+  "supplied_design_fields_valid_and_complete": false
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "research3-review-ui-visual-check/v1",
+  "inventory": "reports/physical_review_packet_20260911_v1/inventory.json",
+  "scope": "presentation_check_not_human_correctness",
+  "ordinary_source_images_individually_inspected": 42,
+  "ordinary_selected_pixels_checked": 56,
+  "stress_source_images_individually_inspected": 4,
+  "actual_ui_items_checked": [1, 57, 58, 59, 60],
+  "full_original_frames_visible": true,
+  "crosshairs_at_reported_pixels": true,
+  "scene_context_visible": true,
+  "reviewer_identity_entered": false,
+  "verdicts_submitted": 0,
+  "human_labels_generated": false,
+  "correctness_labels_inferred": false,
+  "protected_data_used": false,
+  "notes": "UI screenshots inspected after each image loaded. Selection controls checked; page reset to item 1. Machine presentation QA does not substitute for human review."
+}

@@ -13,3 +13,13 @@ reports/*.jsonl.sha256
 /build/
 /install/
 /log/
+
+# Large capture media, archives and transient state stay out of version control.
+# Small JSON/YAML/MD provenance under reports/ is tracked; media is hash-pinned there.
+reports/landmark_capture/
+reports/physical_live_episodes/
+reports/*.tar.gz
+reports/*.zip
+reports/.research3_physical_execution.lock
+.agents/
+.codex/

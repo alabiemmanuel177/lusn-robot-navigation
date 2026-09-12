@@ -1,0 +1,27 @@
+schema_version: research3-live-campaign/v1
+campaign_id: r3-live-nonprotected-v2
+purpose: non-protected combined Research 1 + Research 2 + Research 3 integration gate
+system: B6
+instruction_condition: truthful_original
+partition_scope: [development, validation]
+protected_test_routes_used: false
+claim_scope: integration and terminal-outcome evidence; not held-out performance
+fixes_since_v1:
+  - execute every guarded route-bearing action, not commit only
+  - enforce one active goal per instruction
+  - cancel active navigation when live monitor risk causes B6 abstention
+routes:
+  - {route_id: dev_00_r0, variant_id: base-r010-truthful_original-s0}
+  - {route_id: dev_01_r0, variant_id: base-r001-truthful_original-s0}
+  - {route_id: dev_01_r1, variant_id: base-r002-truthful_original-s0}
+  - {route_id: dev_02_r0, variant_id: base-r003-truthful_original-s0}
+  - {route_id: dev_02_r1, variant_id: base-r004-truthful_original-s0}
+  - {route_id: dev_03_r0, variant_id: base-r005-truthful_original-s0}
+  - {route_id: dev_03_r1, variant_id: base-r006-truthful_original-s0}
+  - {route_id: dev_04_r0, variant_id: base-r007-truthful_original-s0}
+  - {route_id: dev_04_r1, variant_id: base-r008-truthful_original-s0}
+  - {route_id: dev_05_r0, variant_id: base-r009-truthful_original-s0}
+  - {route_id: val_00_r0, variant_id: base-r014-truthful_original-s0}
+  - {route_id: val_01_r0, variant_id: base-r011-truthful_original-s0}
+  - {route_id: val_01_r1, variant_id: base-r012-truthful_original-s0}
+  - {route_id: val_02_r0, variant_id: base-r013-truthful_original-s0}

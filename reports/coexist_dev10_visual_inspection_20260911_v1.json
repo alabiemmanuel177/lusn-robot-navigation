@@ -1,0 +1,15 @@
+{
+  "schema_version": "research3-machine-visual-inspection/v1",
+  "run_id": "r3-coexist-dev10-20260911-v1",
+  "inspected_by": "assistant",
+  "human_labels_generated": false,
+  "ready_for_human_review": false,
+  "items": [
+    {"frame": "frame-000", "pixel": [54.2065, 174.6814], "claimed_category": "chair", "disposition": "withhold", "reason": "Seat and legs visible at left edge, but chair is cropped and back not visible; insufficient identity context."},
+    {"frame": "frame-001", "pixel": [10.8446, 169.2008], "claimed_category": "chair", "disposition": "withhold", "reason": "Only a narrow seat fragment and leg remain at left border."},
+    {"frame": "frame-002", "pixel": [2.9091, 134.0455], "claimed_category": "laboratory_entrance", "disposition": "withhold", "reason": "Edge-clipped coloured plaque; no visible text or room context establishes laboratory identity."},
+    {"frame": "frame-003", "pixel": [61.7128, 79.0363], "claimed_category": "doorway", "disposition": "withhold", "reason": "Marker lies on purple lintel near left edge; opening and both jambs are not fully visible."},
+    {"frame": "frame-004", "pixel": [43.5826, 66.1128], "claimed_category": "doorway", "disposition": "withhold", "reason": "Same doorway remains partly off-screen; inadequate full-opening context."}
+  ],
+  "evidence": "Exact-join frame hashes retained in coexist_dev10_exact_join_20260911_v1.json; raw RGB decoded without alteration and every full frame viewed individually. These are usability findings, not human detector-correctness labels."
+}

@@ -1,0 +1,15 @@
+{
+  "capture_source_check_scope": "no source change observed at prelaunch and capture-loop checks; not continuous attestation",
+  "capture_source_checks": [],
+  "capture_source_freeze_sha256": null,
+  "collision_count": 0,
+  "complete": true,
+  "context_frames": 1,
+  "frames_captured": 1,
+  "human_labels_generated": false,
+  "motion_commands_sent": false,
+  "navigation_episode": false,
+  "protected_test_routes_used": false,
+  "run_id": "r3-expansion-instrumentation-dev01-preflight-v2",
+  "schema_version": "research3-stationary-capture/v1"
+}

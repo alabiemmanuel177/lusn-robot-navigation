@@ -1,0 +1,21 @@
+{
+  "collisions": 0,
+  "episodes": 2,
+  "evidence_scope": "development_validation_engineering_pilots",
+  "full_instruction_completion_measured": true,
+  "inputs": [
+    {
+      "path": "reports/physical_live_episodes/r3-scan-dev10-20260911-v1/summary.json",
+      "sha256": "347607c0f07eb6a2a8cf1ce4300e8ab5cc077d389a2ddc1c4996e93d33f61eb9"
+    },
+    {
+      "path": "reports/physical_live_episodes/r3-widecamera-dev10-20260911-v1/summary.json",
+      "sha256": "a10d0ac7010a5ffc14ae67264bbfabffeb4e1b3ef04614eae76e422b5c68ad85"
+    }
+  ],
+  "navigation_successes": 2,
+  "schema_version": "research3-measured-live-analysis/v1",
+  "terminal_identity_correct": 2,
+  "terminal_identity_unknown": 0,
+  "timeouts": 0
+}

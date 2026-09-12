@@ -1,0 +1,30 @@
+schema_version: landmark-capture-profile/v1
+profile_id: base-r005-stationary-predicted-palette-draft-v1
+provider_revision: 3821eee3392dbfb6f99452e11233835f03c63c0a
+partition_scope:
+- development
+map_scope:
+- r3geo_base_r005
+purpose: engineering_predicted_palette_not_confidence_calibration
+human_labels_generated: false
+color_tolerance: 10.0
+camera_palette:
+  chair:color=red:
+  - 107
+  - 45
+  - 45
+  doorway:
+  - 78
+  - 44
+  - 87
+  laboratory_entrance:
+  - 92
+  - 42
+  - 76
+  office_entrance:
+  - 39
+  - 90
+  - 79
+chair_prototype_status: predicted_unvalidated_in_this_world
+confidence_calibration_validated: false
+validation_capture_gate: development_capture_validation_required_before_validation_use

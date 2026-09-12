@@ -1,0 +1,246 @@
+{
+  "captured_at_utc": "2026-09-11T15:20:13.423948+00:00",
+  "environment_variables_collected": false,
+  "gpu": {
+    "device": null,
+    "reason": "GPU state not queried; no inference from package installation",
+    "status": "unknown",
+    "utilization": null
+  },
+  "human_labels_generated": false,
+  "installed_files": {
+    "R1:ros_ws/install/research3_landmark_bridge/lib/python3.12/site-packages/research3_landmark_bridge/core.py": {
+      "path": "/home/eao/risk-calibrated-nav/ros_ws/install/research3_landmark_bridge/lib/python3.12/site-packages/research3_landmark_bridge/core.py",
+      "sha256": null,
+      "status": "unavailable"
+    },
+    "R1:ros_ws/install/research3_landmark_bridge/lib/python3.12/site-packages/research3_landmark_bridge/node.py": {
+      "path": "/home/eao/risk-calibrated-nav/ros_ws/install/research3_landmark_bridge/lib/python3.12/site-packages/research3_landmark_bridge/node.py",
+      "sha256": null,
+      "status": "unavailable"
+    },
+    "R3:ros_ws/install/language_nav_planner/lib/python3.12/site-packages/language_nav_planner/node.py": {
+      "bytes": 14296,
+      "path": "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_planner/lib/python3.12/site-packages/language_nav_planner/node.py",
+      "resolved_path": "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_planner/lib/python3.12/site-packages/language_nav_planner/node.py",
+      "sha256": "5abf06082801625c52e1bc8d4ba696795ee4f9c57e724749702de20635e0fccf",
+      "status": "retained_hash_only"
+    },
+    "R3:ros_ws/install/language_nav_runtime/lib/python3.12/site-packages/language_nav_runtime/monitor_bridge.py": {
+      "bytes": 4360,
+      "path": "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/python3.12/site-packages/language_nav_runtime/monitor_bridge.py",
+      "resolved_path": "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/python3.12/site-packages/language_nav_runtime/monitor_bridge.py",
+      "sha256": "54a272552c0259c23e56ffdcb4f74e2b142dde139abaa4ee33cb1c3e2480ee7e",
+      "status": "retained_hash_only"
+    },
+    "R3:ros_ws/install/language_nav_runtime/lib/python3.12/site-packages/language_nav_runtime/nav2_adapter.py": {
+      "bytes": 22890,
+      "path": "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/python3.12/site-packages/language_nav_runtime/nav2_adapter.py",
+      "resolved_path": "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/python3.12/site-packages/language_nav_runtime/nav2_adapter.py",
+      "sha256": "8b97fa3992213043fe30d73fad303f1fb4aa03dc6e363f369e05041fbf784a8f",
+      "status": "retained_hash_only"
+    },
+    "R3:ros_ws/install/language_nav_runtime/lib/python3.12/site-packages/language_nav_runtime/semantic_routes.py": {
+      "bytes": 3583,
+      "path": "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/python3.12/site-packages/language_nav_runtime/semantic_routes.py",
+      "resolved_path": "/home/eao/lusn-robot-navigation/ros_ws/install/language_nav_runtime/lib/python3.12/site-packages/language_nav_runtime/semantic_routes.py",
+      "sha256": "18a6f7cc27389539927c5b4259a4d3e2f648995b6a70ad044363b5ff3658b809",
+      "status": "retained_hash_only"
+    },
+    "R3:ros_ws/install/research3_landmark_bridge/lib/python3.12/site-packages/research3_landmark_bridge/core.py": {
+      "path": "/home/eao/lusn-robot-navigation/ros_ws/install/research3_landmark_bridge/lib/python3.12/site-packages/research3_landmark_bridge/core.py",
+      "sha256": null,
+      "status": "unavailable"
+    },
+    "R3:ros_ws/install/research3_landmark_bridge/lib/python3.12/site-packages/research3_landmark_bridge/node.py": {
+      "path": "/home/eao/lusn-robot-navigation/ros_ws/install/research3_landmark_bridge/lib/python3.12/site-packages/research3_landmark_bridge/node.py",
+      "sha256": null,
+      "status": "unavailable"
+    }
+  },
+  "limitations": [
+    "Versions describe the reporting Python interpreter, not every ROS subprocess.",
+    "ROS versions are from explicit package.xml files; active overlay selection is not inferred.",
+    "Git HEAD does not identify dirty source bytes; selected source/install hashes supplement it.",
+    "Missing known install files remain unavailable; no broad filesystem search is performed."
+  ],
+  "private_package_urls_collected": false,
+  "protected_data_read": false,
+  "python": {
+    "executable": "/usr/bin/python3",
+    "implementation": "CPython",
+    "version": "3.12.3"
+  },
+  "python_packages": {
+    "PyYAML": {
+      "status": "observed",
+      "version": "6.0.1"
+    },
+    "numpy": {
+      "status": "observed",
+      "version": "2.4.4"
+    },
+    "pytest": {
+      "status": "observed",
+      "version": "7.4.4"
+    },
+    "scipy": {
+      "status": "observed",
+      "version": "1.18.0"
+    }
+  },
+  "repositories": {
+    "R1": {
+      "path": "/home/eao/risk-calibrated-nav",
+      "revision": "3821eee3392dbfb6f99452e11233835f03c63c0a",
+      "status": "observed"
+    },
+    "R2": {
+      "path": "/home/eao/failure-prediction",
+      "revision": "1900fd17f3e46747ec2e23686c5061e827c9667c",
+      "status": "observed"
+    },
+    "R3": {
+      "path": "/home/eao/lusn-robot-navigation",
+      "revision": "560b66b9985b0069b18feee43789f771aca1ff2b",
+      "status": "observed"
+    }
+  },
+  "ros_distribution_metadata_root": "/opt/ros/jazzy",
+  "ros_packages": {
+    "geometry_msgs": {
+      "bytes": 1080,
+      "declared_name": "geometry_msgs",
+      "path": "/opt/ros/jazzy/share/geometry_msgs/package.xml",
+      "resolved_path": "/opt/ros/jazzy/share/geometry_msgs/package.xml",
+      "sha256": "879da7003d6d2952701aa23146f0d78096143d5107dd6e775a23e591c2c376a0",
+      "status": "retained_hash_only",
+      "version": "5.3.8"
+    },
+    "nav2_bringup": {
+      "bytes": 1575,
+      "declared_name": "nav2_bringup",
+      "path": "/opt/ros/jazzy/share/nav2_bringup/package.xml",
+      "resolved_path": "/opt/ros/jazzy/share/nav2_bringup/package.xml",
+      "sha256": "b87048bf6eece99e30dcaafcc4a9e8c9e19abe2f57c21e018491af742b4dddcc",
+      "status": "retained_hash_only",
+      "version": "1.3.12"
+    },
+    "nav2_controller": {
+      "bytes": 1117,
+      "declared_name": "nav2_controller",
+      "path": "/opt/ros/jazzy/share/nav2_controller/package.xml",
+      "resolved_path": "/opt/ros/jazzy/share/nav2_controller/package.xml",
+      "sha256": "42912cc11862922eaad84a81a9d5433f42b6827e50db797ab158604746a7a976",
+      "status": "retained_hash_only",
+      "version": "1.3.12"
+    },
+    "nav2_planner": {
+      "bytes": 1046,
+      "declared_name": "nav2_planner",
+      "path": "/opt/ros/jazzy/share/nav2_planner/package.xml",
+      "resolved_path": "/opt/ros/jazzy/share/nav2_planner/package.xml",
+      "sha256": "aed1add784a5ed9eac3aa1550da6da42b0b68f4aadf99baeb6c6d240f477728d",
+      "status": "retained_hash_only",
+      "version": "1.3.12"
+    },
+    "rclpy": {
+      "bytes": 2590,
+      "declared_name": "rclpy",
+      "path": "/opt/ros/jazzy/share/rclpy/package.xml",
+      "resolved_path": "/opt/ros/jazzy/share/rclpy/package.xml",
+      "sha256": "8b15198689491246aa0814024f23da9b63a069872e2872b4aa0ac7b5ef6895d3",
+      "status": "retained_hash_only",
+      "version": "7.1.11"
+    },
+    "ros_gz_sim": {
+      "bytes": 1993,
+      "declared_name": "ros_gz_sim",
+      "path": "/opt/ros/jazzy/share/ros_gz_sim/package.xml",
+      "resolved_path": "/opt/ros/jazzy/share/ros_gz_sim/package.xml",
+      "sha256": "74d42243546aa5687ed7b7c26283dc3ae84728a83752395e228538d2ddf5ea42",
+      "status": "retained_hash_only",
+      "version": "1.0.22"
+    },
+    "sensor_msgs": {
+      "bytes": 1298,
+      "declared_name": "sensor_msgs",
+      "path": "/opt/ros/jazzy/share/sensor_msgs/package.xml",
+      "resolved_path": "/opt/ros/jazzy/share/sensor_msgs/package.xml",
+      "sha256": "00cc932b8a1d2a9064c621bfacab56428a5175afe37269da38ba09361e8a4a5a",
+      "status": "retained_hash_only",
+      "version": "5.3.8"
+    },
+    "tf2_ros": {
+      "bytes": 1168,
+      "declared_name": "tf2_ros",
+      "path": "/opt/ros/jazzy/share/tf2_ros/package.xml",
+      "resolved_path": "/opt/ros/jazzy/share/tf2_ros/package.xml",
+      "sha256": "1f451f1e5551597fe856920054aa2c6157dec8d6a9031c26ea33d8355f8f587d",
+      "status": "retained_hash_only",
+      "version": "0.36.21"
+    }
+  },
+  "runtime_reconstruction_complete": false,
+  "schema_version": "research3-engineering-environment/v1",
+  "scope": "allowlisted metadata and code hashes; not full runtime reconstruction",
+  "source_files": {
+    "R1:extensions/research3_landmark_bridge/research3_landmark_bridge/core.py": {
+      "bytes": 19357,
+      "path": "/home/eao/risk-calibrated-nav/extensions/research3_landmark_bridge/research3_landmark_bridge/core.py",
+      "resolved_path": "/home/eao/risk-calibrated-nav/extensions/research3_landmark_bridge/research3_landmark_bridge/core.py",
+      "sha256": "f9195d8f71b26fe3207a88404fca6e7e199bdd1a8bd750d3a5d0103566057a82",
+      "status": "retained_hash_only"
+    },
+    "R1:extensions/research3_landmark_bridge/research3_landmark_bridge/node.py": {
+      "bytes": 9473,
+      "path": "/home/eao/risk-calibrated-nav/extensions/research3_landmark_bridge/research3_landmark_bridge/node.py",
+      "resolved_path": "/home/eao/risk-calibrated-nav/extensions/research3_landmark_bridge/research3_landmark_bridge/node.py",
+      "sha256": "109ac1581d5e96a724047e6cb454079a11e3735b53f1eebf0ae8b2b1bef079fe",
+      "status": "retained_hash_only"
+    },
+    "R3:ros_ws/src/language_nav_planner/language_nav_planner/node.py": {
+      "bytes": 14296,
+      "path": "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_planner/language_nav_planner/node.py",
+      "resolved_path": "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_planner/language_nav_planner/node.py",
+      "sha256": "5abf06082801625c52e1bc8d4ba696795ee4f9c57e724749702de20635e0fccf",
+      "status": "retained_hash_only"
+    },
+    "R3:ros_ws/src/language_nav_runtime/language_nav_runtime/monitor_bridge.py": {
+      "bytes": 4360,
+      "path": "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_runtime/language_nav_runtime/monitor_bridge.py",
+      "resolved_path": "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_runtime/language_nav_runtime/monitor_bridge.py",
+      "sha256": "54a272552c0259c23e56ffdcb4f74e2b142dde139abaa4ee33cb1c3e2480ee7e",
+      "status": "retained_hash_only"
+    },
+    "R3:ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py": {
+      "bytes": 22890,
+      "path": "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py",
+      "resolved_path": "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py",
+      "sha256": "8b97fa3992213043fe30d73fad303f1fb4aa03dc6e363f369e05041fbf784a8f",
+      "status": "retained_hash_only"
+    },
+    "R3:ros_ws/src/language_nav_runtime/language_nav_runtime/semantic_routes.py": {
+      "bytes": 3583,
+      "path": "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_runtime/language_nav_runtime/semantic_routes.py",
+      "resolved_path": "/home/eao/lusn-robot-navigation/ros_ws/src/language_nav_runtime/language_nav_runtime/semantic_routes.py",
+      "sha256": "18a6f7cc27389539927c5b4259a4d3e2f648995b6a70ad044363b5ff3658b809",
+      "status": "retained_hash_only"
+    },
+    "R3:scripts/physical_perception_capture.py": {
+      "bytes": 14533,
+      "path": "/home/eao/lusn-robot-navigation/scripts/physical_perception_capture.py",
+      "resolved_path": "/home/eao/lusn-robot-navigation/scripts/physical_perception_capture.py",
+      "sha256": "f758a9d47cf2c97398f99c63b4dba38b65f32bb106364b2fc2e7a99e8fc8137c",
+      "status": "retained_hash_only"
+    },
+    "R3:scripts/run_physical_episode.py": {
+      "bytes": 35899,
+      "path": "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py",
+      "resolved_path": "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py",
+      "sha256": "5c8fc88433024d90c0c9023122bd693b8b0d837143e434714ee1168ca09a0550",
+      "status": "retained_hash_only"
+    }
+  },
+  "study_complete": false
+}

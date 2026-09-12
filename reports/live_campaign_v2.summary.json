@@ -1,0 +1,457 @@
+{
+  "all_successful": false,
+  "campaign_complete": true,
+  "campaign_id": "r3-live-nonprotected-v2",
+  "config": "/home/eao/lusn-robot-navigation/configs/live_campaign_v2.yaml",
+  "episode_count": 14,
+  "episodes": [
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-dev-00-r0-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 87,
+      "duration_wall_s": 20.270827531814575,
+      "eligibility_count": 1,
+      "instruction_completion": true,
+      "interventions": [
+        "inspect"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 8,
+      "navigation_success": true,
+      "partition": "development",
+      "protected_test_routes_used": false,
+      "reason": "navigation succeeded",
+      "route_id": "dev_00_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-00-r0-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r010-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-dev-01-r0-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 252,
+      "duration_wall_s": 21.258995532989502,
+      "eligibility_count": 1,
+      "instruction_completion": false,
+      "interventions": [
+        "inspect",
+        "stop_and_abstain"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 12,
+      "navigation_success": false,
+      "partition": "development",
+      "protected_test_routes_used": false,
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "route_id": "dev_01_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-01-r0-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r001-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-dev-01-r1-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 324,
+      "duration_wall_s": 22.88845705986023,
+      "eligibility_count": 1,
+      "instruction_completion": false,
+      "interventions": [
+        "inspect",
+        "stop_and_abstain"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 16,
+      "navigation_success": false,
+      "partition": "development",
+      "protected_test_routes_used": false,
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "route_id": "dev_01_r1",
+      "run_id": "r3-live-nonprotected-v2-dev-01-r1-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r002-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-dev-02-r0-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 67,
+      "duration_wall_s": 16.32545232772827,
+      "eligibility_count": 1,
+      "instruction_completion": false,
+      "interventions": [
+        "inspect",
+        "stop_and_abstain"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 4,
+      "navigation_success": false,
+      "partition": "development",
+      "protected_test_routes_used": false,
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "route_id": "dev_02_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-02-r0-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r003-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-dev-02-r1-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 36,
+      "duration_wall_s": 15.921976089477539,
+      "eligibility_count": 1,
+      "instruction_completion": false,
+      "interventions": [
+        "inspect",
+        "stop_and_abstain"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 2,
+      "navigation_success": false,
+      "partition": "development",
+      "protected_test_routes_used": false,
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "route_id": "dev_02_r1",
+      "run_id": "r3-live-nonprotected-v2-dev-02-r1-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r004-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-dev-03-r0-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 247,
+      "duration_wall_s": 23.960817337036133,
+      "eligibility_count": 1,
+      "instruction_completion": false,
+      "interventions": [
+        "inspect",
+        "stop_and_abstain"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 18,
+      "navigation_success": false,
+      "partition": "development",
+      "protected_test_routes_used": false,
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "route_id": "dev_03_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-03-r0-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r005-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-dev-03-r1-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 326,
+      "duration_wall_s": 24.417131185531616,
+      "eligibility_count": 1,
+      "instruction_completion": false,
+      "interventions": [
+        "inspect",
+        "stop_and_abstain"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 19,
+      "navigation_success": false,
+      "partition": "development",
+      "protected_test_routes_used": false,
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "route_id": "dev_03_r1",
+      "run_id": "r3-live-nonprotected-v2-dev-03-r1-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r006-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-dev-04-r0-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 26,
+      "duration_wall_s": 15.43983006477356,
+      "eligibility_count": 1,
+      "instruction_completion": false,
+      "interventions": [
+        "inspect",
+        "stop_and_abstain"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 2,
+      "navigation_success": false,
+      "partition": "development",
+      "protected_test_routes_used": false,
+      "reason": "monitor-driven abstention: all eligible routes exceed abstention risk",
+      "route_id": "dev_04_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-04-r0-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r007-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-dev-04-r1-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 1058,
+      "duration_wall_s": 98.58713245391846,
+      "eligibility_count": 1,
+      "instruction_completion": true,
+      "interventions": [
+        "inspect"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 165,
+      "navigation_success": true,
+      "partition": "development",
+      "protected_test_routes_used": false,
+      "reason": "navigation succeeded",
+      "route_id": "dev_04_r1",
+      "run_id": "r3-live-nonprotected-v2-dev-04-r1-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r008-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-dev-05-r0-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 68,
+      "duration_wall_s": 16.09672975540161,
+      "eligibility_count": 1,
+      "instruction_completion": false,
+      "interventions": [
+        "inspect",
+        "stop_and_abstain"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 2,
+      "navigation_success": false,
+      "partition": "development",
+      "protected_test_routes_used": false,
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "route_id": "dev_05_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-05-r0-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r009-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-val-00-r0-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 165,
+      "duration_wall_s": 36.06953954696655,
+      "eligibility_count": 1,
+      "instruction_completion": true,
+      "interventions": [
+        "inspect"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 40,
+      "navigation_success": true,
+      "partition": "validation",
+      "protected_test_routes_used": false,
+      "reason": "navigation succeeded",
+      "route_id": "val_00_r0",
+      "run_id": "r3-live-nonprotected-v2-val-00-r0-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r014-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-val-01-r0-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 162,
+      "duration_wall_s": 31.872908353805542,
+      "eligibility_count": 1,
+      "instruction_completion": true,
+      "interventions": [
+        "inspect"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 33,
+      "navigation_success": true,
+      "partition": "validation",
+      "protected_test_routes_used": false,
+      "reason": "navigation succeeded",
+      "route_id": "val_01_r0",
+      "run_id": "r3-live-nonprotected-v2-val-01-r0-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r011-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-val-01-r1-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 162,
+      "duration_wall_s": 15.826166152954102,
+      "eligibility_count": 1,
+      "instruction_completion": false,
+      "interventions": [
+        "inspect",
+        "stop_and_abstain"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 2,
+      "navigation_success": false,
+      "partition": "validation",
+      "protected_test_routes_used": false,
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "route_id": "val_01_r1",
+      "run_id": "r3-live-nonprotected-v2-val-01-r1-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r012-truthful_original-s0",
+      "wrong_goal": false
+    },
+    {
+      "attempts": [
+        {
+          "run_id": "r3-live-nonprotected-v2-val-02-r0-a1",
+          "runner_exit_code": 0,
+          "terminal_summary_written": true
+        }
+      ],
+      "collision": false,
+      "decision_count": 267,
+      "duration_wall_s": 27.764629364013672,
+      "eligibility_count": 1,
+      "instruction_completion": true,
+      "interventions": [
+        "inspect"
+      ],
+      "monitor_prediction_observed": true,
+      "monitor_state_count": 25,
+      "navigation_success": true,
+      "partition": "validation",
+      "protected_test_routes_used": false,
+      "reason": "navigation succeeded",
+      "route_id": "val_02_r0",
+      "run_id": "r3-live-nonprotected-v2-val-02-r0-a1",
+      "runner_exit_code": 0,
+      "schema_version": "research3-live-summary/v1",
+      "timeout": false,
+      "valid_terminal_outcome": true,
+      "variant_id": "base-r013-truthful_original-s0",
+      "wrong_goal": false
+    }
+  ],
+  "monitor_prediction_observed_count": 14,
+  "navigation_success_count": 5,
+  "protected_test_routes_used": false,
+  "schema_version": "research3-live-campaign-summary/v1",
+  "valid_terminal_outcome_count": 14
+}

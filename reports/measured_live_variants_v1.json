@@ -1,0 +1,33 @@
+{
+  "collisions": 0,
+  "episodes": 5,
+  "evidence_scope": "development_validation_engineering_pilots",
+  "full_instruction_completion_measured": false,
+  "inputs": [
+    {
+      "path": "reports/live_episodes/r3-inspection-dev00-v1/summary.json",
+      "sha256": "9bfc14e5bbc71b979319082fd9d1aec037a734d48c3938db005bf020afcb8a15"
+    },
+    {
+      "path": "reports/live_episodes/r3-variant-B1-v1/summary.json",
+      "sha256": "1f7fb2edaf601bcf12a312c77cf9334231e4e34cee5fcef8a11cb4b2c1fbcb1e"
+    },
+    {
+      "path": "reports/live_episodes/r3-variant-B2-v1/summary.json",
+      "sha256": "6c5bedb8d60ef5eddf4acb1dfae8e36879686d4c239fef749333c8931ac57784"
+    },
+    {
+      "path": "reports/live_episodes/r3-variant-B4-v1/summary.json",
+      "sha256": "42a2ed259de3593acaa00411aff94d65e9e45a7eedf69204c7cad6189a84be4d"
+    },
+    {
+      "path": "reports/live_episodes/r3-variant-B5-v1/summary.json",
+      "sha256": "82ca499246b5b689009c1753e31a7381e11c637f6cc18b0d026c12fb745b0d30"
+    }
+  ],
+  "navigation_successes": 4,
+  "schema_version": "research3-measured-live-analysis/v1",
+  "terminal_identity_correct": 4,
+  "terminal_identity_unknown": 1,
+  "timeouts": 0
+}

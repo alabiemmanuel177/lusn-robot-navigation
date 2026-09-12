@@ -1,0 +1,299 @@
+{
+  "comparative_effect_estimates": null,
+  "counts": {
+    "collision": {
+      "false": 3,
+      "true": 0,
+      "unknown": 0
+    },
+    "goal_reached": {
+      "false": 2,
+      "true": 1,
+      "unknown": 0
+    },
+    "instruction_completion": {
+      "false": 1,
+      "true": 2,
+      "unknown": 0
+    },
+    "navigation_success": {
+      "false": 2,
+      "true": 1,
+      "unknown": 0
+    },
+    "terminal_identity_correct": {
+      "false": 1,
+      "true": 2,
+      "unknown": 0
+    },
+    "timeout": {
+      "false": 3,
+      "true": 0,
+      "unknown": 0
+    }
+  },
+  "episodes": [
+    {
+      "collision": false,
+      "collision_count": 0,
+      "distance_travelled_m": 5.88733756659465,
+      "goal_error_m": 0.7321585845004159,
+      "goal_reached": false,
+      "goal_tolerance_m": 0.35,
+      "inputs": {
+        "capture.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v1/capture.json",
+          "sha256": "b33632605c930738a1375226e2b55802ecc08eb0caeee7e2651e07ca7659061b"
+        },
+        "measurements.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v1/measurements.json",
+          "sha256": "b2fb723d770850b2d0a76fa3c0027b2793f4ba8eb1c591aba6a82fe19417b9d9"
+        },
+        "request.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v1/request.json",
+          "sha256": "b91450fc5ff411e74eaaf034824097d1dc875caa6e13967514f038a2491514b9"
+        },
+        "summary.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v1/summary.json",
+          "sha256": "c00ddaea48749338ebfcc939f5e4882680f73dec3e8127ec08effbc8e6f883fa"
+        }
+      },
+      "instruction_completion": false,
+      "nav2_reported_success": false,
+      "navigation_success": false,
+      "ordered_instruction_score": {
+        "crossing_events": [
+          {
+            "gate_id": "corridor",
+            "trajectory_index": 56.55091726747642
+          },
+          {
+            "gate_id": "past_chair",
+            "trajectory_index": 177.25570185598247
+          },
+          {
+            "gate_id": "wrong_doorway_1_1",
+            "trajectory_index": 381.2398302268954
+          }
+        ],
+        "forbidden_crossings": [
+          {
+            "gate_id": "wrong_doorway_1_1",
+            "trajectory_index": 381.2398302268954
+          }
+        ],
+        "instruction_completion": false,
+        "matched_gate_ids": [
+          "corridor",
+          "past_chair"
+        ],
+        "reason": "ordered physical gates and independent terminal identity",
+        "required_gate_ids": [
+          "corridor",
+          "past_chair",
+          "second_doorway"
+        ]
+      },
+      "partition": "development",
+      "route_id": "r3geo_base_r010_left_1",
+      "run_id": "r3-stage1-physical-dev10-v1",
+      "source_revision": "560b66b9985b0069b18feee43789f771aca1ff2b",
+      "source_sha256": {
+        "ros_ws/src/language_nav_planner/language_nav_planner/node.py": "5abf06082801625c52e1bc8d4ba696795ee4f9c57e724749702de20635e0fccf",
+        "ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py": "8dbb8749e94bee40b57893ab9f7d5fa3ba222dab4b792f1a96de161d7345e346",
+        "scripts/run_physical_episode.py": "3252a26615f46dabbc2c2f31d287b29687d35c1b2a86b08da6cfbdb9352c1020",
+        "src/language_nav/benchmark/physical_catalog.py": "593aa26da2ed642bc4c185f2bdd845295ba4d793fcb76bcb5dc1eba3f4641068",
+        "src/language_nav/evaluation/ordered.py": "d0e0a1d0a5a783b1e16ae64a7d0420163e09c7481735544f9e57a5cc6a76fdfc",
+        "src/language_nav/live.py": "0085f58f5c9896c227b9edabf6843a046fc775e44347683b79361c04dc7e735b",
+        "src/language_nav/systems/variants.py": "fcd3abc4ac9c072ded4b9cf3558326e0ba83faf27721073bcfbdc6ef3f83b0a1"
+      },
+      "system_id": "B6",
+      "terminal_identity_correct": false,
+      "timeout": false,
+      "trajectory_quality": {
+        "gap_limit_s": 1.0,
+        "max_gap_s": 0.036,
+        "max_step_m": 0.012640485561012053,
+        "step_limit_m": 0.5,
+        "valid": true
+      },
+      "variant_id": "base-r010-truthful_original-s0"
+    },
+    {
+      "collision": false,
+      "collision_count": 0,
+      "distance_travelled_m": 8.595435096858619,
+      "goal_error_m": 0.31560817859224294,
+      "goal_reached": true,
+      "goal_tolerance_m": 0.35,
+      "inputs": {
+        "capture.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v2/capture.json",
+          "sha256": "dc69a6993a322a8f23997d338ce2a97baaf78ff2c2747cebcdc7d8c5737675ec"
+        },
+        "measurements.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v2/measurements.json",
+          "sha256": "2b25df06c87bb946f8ddc2628bef25874216a5e4d37dd7b85a6a5f4187c39434"
+        },
+        "request.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v2/request.json",
+          "sha256": "c0f18e2c8d251b506b1872603de4d16b3791fc3834df390501d1ba38b04f6f92"
+        },
+        "summary.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v2/summary.json",
+          "sha256": "8faf799cc64f1bb5592e2fa05ba9050358331495fae2b7f02d6b34cde9849960"
+        }
+      },
+      "instruction_completion": true,
+      "nav2_reported_success": true,
+      "navigation_success": true,
+      "ordered_instruction_score": {
+        "crossing_events": [
+          {
+            "gate_id": "corridor",
+            "trajectory_index": 63.93843177657278
+          },
+          {
+            "gate_id": "past_chair",
+            "trajectory_index": 183.97012011480768
+          },
+          {
+            "gate_id": "second_doorway",
+            "trajectory_index": 672.0107353547401
+          }
+        ],
+        "forbidden_crossings": [],
+        "instruction_completion": true,
+        "matched_gate_ids": [
+          "corridor",
+          "past_chair",
+          "second_doorway"
+        ],
+        "reason": "ordered physical gates and independent terminal identity",
+        "required_gate_ids": [
+          "corridor",
+          "past_chair",
+          "second_doorway"
+        ]
+      },
+      "partition": "development",
+      "route_id": "r3geo_base_r010_right_2",
+      "run_id": "r3-stage1-physical-dev10-v2",
+      "source_revision": "560b66b9985b0069b18feee43789f771aca1ff2b",
+      "source_sha256": {
+        "ros_ws/src/language_nav_planner/language_nav_planner/node.py": "5abf06082801625c52e1bc8d4ba696795ee4f9c57e724749702de20635e0fccf",
+        "ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py": "f3e3d0843dda43a2f36fd39afe55c158ba0e24bbbdf490513b79a4c3ace97973",
+        "scripts/run_physical_episode.py": "25a7a04c6c6d6f916cbbd7f84eb1e3f7a482ee8449c004d07a862d10e087cd86",
+        "src/language_nav/benchmark/physical_catalog.py": "593aa26da2ed642bc4c185f2bdd845295ba4d793fcb76bcb5dc1eba3f4641068",
+        "src/language_nav/evaluation/ordered.py": "d0e0a1d0a5a783b1e16ae64a7d0420163e09c7481735544f9e57a5cc6a76fdfc",
+        "src/language_nav/live.py": "0085f58f5c9896c227b9edabf6843a046fc775e44347683b79361c04dc7e735b",
+        "src/language_nav/systems/variants.py": "fcd3abc4ac9c072ded4b9cf3558326e0ba83faf27721073bcfbdc6ef3f83b0a1"
+      },
+      "system_id": "B6",
+      "terminal_identity_correct": true,
+      "timeout": false,
+      "trajectory_quality": {
+        "gap_limit_s": 1.0,
+        "max_gap_s": 0.036,
+        "max_step_m": 0.01272172831742493,
+        "step_limit_m": 0.5,
+        "valid": true
+      },
+      "variant_id": "base-r010-truthful_original-s0"
+    },
+    {
+      "collision": false,
+      "collision_count": 0,
+      "distance_travelled_m": 8.731022715285853,
+      "goal_error_m": 0.39039550894278824,
+      "goal_reached": false,
+      "goal_tolerance_m": 0.35,
+      "inputs": {
+        "capture.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v3/capture.json",
+          "sha256": "739353c377fec9ce60d7d6a0d7e64457ce3d05c781f5bcdb7b94e4c77b253b21"
+        },
+        "measurements.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v3/measurements.json",
+          "sha256": "12280e676b355711a2fb60a2abdf49adf9ae73cc86355a0cc6672ce21bf6386a"
+        },
+        "request.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v3/request.json",
+          "sha256": "b74697d8079f4fac721d2d6299bd8925929cf6eecd974ed72898d4d33e31496d"
+        },
+        "summary.json": {
+          "path": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stage1-physical-dev10-v3/summary.json",
+          "sha256": "660164a647c0242d954e6f780955de7e0bb2691c03c2313ab799cf449d3e14e3"
+        }
+      },
+      "instruction_completion": true,
+      "nav2_reported_success": true,
+      "navigation_success": false,
+      "ordered_instruction_score": {
+        "crossing_events": [
+          {
+            "gate_id": "corridor",
+            "trajectory_index": 64.24687469260334
+          },
+          {
+            "gate_id": "past_chair",
+            "trajectory_index": 184.18034430154054
+          },
+          {
+            "gate_id": "second_doorway",
+            "trajectory_index": 670.2404137479347
+          }
+        ],
+        "forbidden_crossings": [],
+        "instruction_completion": true,
+        "matched_gate_ids": [
+          "corridor",
+          "past_chair",
+          "second_doorway"
+        ],
+        "reason": "ordered physical gates and independent terminal identity",
+        "required_gate_ids": [
+          "corridor",
+          "past_chair",
+          "second_doorway"
+        ]
+      },
+      "partition": "development",
+      "route_id": "r3geo_base_r010_right_2",
+      "run_id": "r3-stage1-physical-dev10-v3",
+      "source_revision": "560b66b9985b0069b18feee43789f771aca1ff2b",
+      "source_sha256": {
+        "ros_ws/src/language_nav_planner/language_nav_planner/node.py": "5abf06082801625c52e1bc8d4ba696795ee4f9c57e724749702de20635e0fccf",
+        "ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py": "f3e3d0843dda43a2f36fd39afe55c158ba0e24bbbdf490513b79a4c3ace97973",
+        "scripts/run_physical_episode.py": "7af74e9fc9498df903bdea0d4566c2741402453b681924f780a76121deea7d49",
+        "src/language_nav/benchmark/physical_catalog.py": "593aa26da2ed642bc4c185f2bdd845295ba4d793fcb76bcb5dc1eba3f4641068",
+        "src/language_nav/evaluation/ordered.py": "d0e0a1d0a5a783b1e16ae64a7d0420163e09c7481735544f9e57a5cc6a76fdfc",
+        "src/language_nav/live.py": "0085f58f5c9896c227b9edabf6843a046fc775e44347683b79361c04dc7e735b",
+        "src/language_nav/systems/variants.py": "fcd3abc4ac9c072ded4b9cf3558326e0ba83faf27721073bcfbdc6ef3f83b0a1"
+      },
+      "system_id": "B6",
+      "terminal_identity_correct": true,
+      "timeout": false,
+      "trajectory_quality": {
+        "gap_limit_s": 1.0,
+        "max_gap_s": 0.036,
+        "max_step_m": 0.012704010414623872,
+        "step_limit_m": 0.5,
+        "valid": true
+      },
+      "variant_id": "base-r010-truthful_original-s0"
+    }
+  ],
+  "evidence_scope": "unpaired_noncomparative_development_validation_engineering",
+  "final_research_release": false,
+  "limitations": [
+    "All supplied failures are retained; counts describe only the supplied pilot inventory.",
+    "Pilot iterations can straddle policy, scheduling and detector changes; not paired repetitions.",
+    "Navigation point accuracy, ordered completion, terminal identity and collisions are separate endpoints.",
+    "No detector accuracy, calibrated confidence, held-out generalization or comparative effect claim.",
+    "Source hashes are recorded subsets, not a complete historical execution environment.",
+    "Shared-host scheduling does not establish timing-comparable campaign conditions."
+  ],
+  "protected_test_routes_used": false,
+  "schema_version": "research3-physical-pilot-analysis/v1"
+}

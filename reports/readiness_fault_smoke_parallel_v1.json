@@ -1,0 +1,13 @@
+{
+  "research_evidence": false,
+  "passed": true,
+  "checks": [
+    "guarded_commit",
+    "malformed_warning_stops",
+    "readiness_cannot_clear_fault",
+    "fresh_prediction_recovers",
+    "replayed_prediction_stops",
+    "future_prediction_stops",
+    "silent_publisher_watchdog_stops"
+  ]
+}

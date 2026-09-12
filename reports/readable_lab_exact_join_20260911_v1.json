@@ -1,0 +1,498 @@
+{
+  "calibration_validated": false,
+  "capture_summary_sha256": "02df290a9b2bcb01a4bb2ac883e0ed6fb9be31c45e5d9be4a29cd51700be672b",
+  "human_labels_generated": false,
+  "joined_for_visual_qa": 4,
+  "map_id": "r3geo_base_r010",
+  "observations": [
+    {
+      "category": "doorway",
+      "frame": "perception_capture/frame-000.json",
+      "frame_sha256": "d2a3753b6a34fca81c33652ad8c014818e2f9895bd4a98085992b6d5d1a0f072",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12402000000:r3geo_base_r010_left_2_doorway",
+      "pixel": {
+        "u": 307.9137635636779,
+        "v": 43.853512278697885
+      },
+      "reasons": [],
+      "status": "awaiting_individual_visual_qa"
+    },
+    {
+      "category": "laboratory_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "frame_sha256": "d2a3753b6a34fca81c33652ad8c014818e2f9895bd4a98085992b6d5d1a0f072",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12402000000:r3geo_base_r010_left_2_entrance",
+      "pixel": {
+        "u": 360.8134328358209,
+        "v": 167.0597014925373
+      },
+      "reasons": [],
+      "status": "awaiting_individual_visual_qa"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12501000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12501000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12600000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12600000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12702000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12702000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12801000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12801000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12900000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:12900000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13002000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13002000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13101000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13101000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13200000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13200000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13302000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13302000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13401000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13401000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "category": "doorway",
+      "frame": "perception_capture/frame-001.json",
+      "frame_sha256": "7cd5c00298658b2b5504a3911a71bbfacf88b1a791afb1212b3844ab6ac5cea6",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13500000000:r3geo_base_r010_left_2_doorway",
+      "pixel": {
+        "u": 307.9137635636779,
+        "v": 43.853512278697885
+      },
+      "reasons": [],
+      "status": "awaiting_individual_visual_qa"
+    },
+    {
+      "category": "laboratory_entrance",
+      "frame": "perception_capture/frame-001.json",
+      "frame_sha256": "7cd5c00298658b2b5504a3911a71bbfacf88b1a791afb1212b3844ab6ac5cea6",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13500000000:r3geo_base_r010_left_2_entrance",
+      "pixel": {
+        "u": 360.8134328358209,
+        "v": 167.0597014925373
+      },
+      "reasons": [],
+      "status": "awaiting_individual_visual_qa"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13602000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13602000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13701000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13701000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13800000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13800000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13902000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:13902000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14001000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14001000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14100000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14100000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14202000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14202000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14301000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14301000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14400000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14400000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14502000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14502000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14601000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14601000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14700000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14700000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14802000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14802000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14901000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:14901000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15000000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15000000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15102000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15102000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15201000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15201000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15300000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15300000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15402000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15402000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15501000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15501000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15600000000:r3geo_base_r010_left_2_doorway",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    },
+    {
+      "observation_id": "research3-landmark-bridge:r3geo_base_r010:v1:15600000000:r3geo_base_r010_left_2_entrance",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame"
+      ],
+      "status": "rejected"
+    }
+  ],
+  "protected_data_used": false,
+  "provider_tasks_sha256": "9648f1e66fbbe0cfc9ad72dbdf2ec15929bb001796a1f142c1e975cb6494aeb0",
+  "rejected": 62,
+  "request_sha256": "af43092c7d331102c0824759d112b5a50de8d0a74d72ab4c9fa6dab0ccfaad47",
+  "run_id": "r3-readable-lab-dev10-20260911-v1",
+  "schema_version": "research3-exact-review-join/v1",
+  "status": "not_authorized_for_human_review"
+}

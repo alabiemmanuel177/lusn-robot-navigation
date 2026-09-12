@@ -1,0 +1,106 @@
+schema_version: research3-calibration-expansion-amendment/v1
+amendment_id: R3-CA-20260911-01
+status: draft_pending_human_approval
+motivation: user_supplied_anonymous_peer_review_dated_2026_09_11
+review_disposition: rubric_supported_calibration_expansion_required
+review_is_individual_label_log: false
+reviewer_identity_authenticated: false
+execution_authorized: false
+calibration_freeze_authorized: false
+protected_access_authorized: false
+
+phase_1:
+  purpose: pilot_rubric_and_distractor_validation_only
+  kit: reports/research3_reviewer_kit_v1.zip
+  kit_sha256: 8146bdfac814a382e696af53b15130554cd74a6cb164fd0b23bcfa76b89d83bd
+  targets: 60
+  individual_reviews_required: true
+  anonymous_narrative_counts_are_verified_labels: false
+  existing_pilot_in_final_fit: false
+  existing_pilot_in_final_validation: false
+  current_collection_preregistered: false
+
+rubric:
+  preserve_kit_rules: true
+  position_reference_consistency_m: 0.35
+  position_boundary_inclusive: true
+  full_object_geometry_accuracy_claimed: false
+  catalogue_yaw_consistency_rad: 0.000001
+  independent_orientation_estimation_claimed: false
+  joint_logic: any_incorrect_else_all_correct_else_unreviewable
+
+coverage:
+  schema_version: research3-physical-calibration-coverage/v2
+  outcome_coverage_scope: global_class
+  minimum_per_map_class_total: 1
+  minimum_per_class_outcome: 5
+  minimum_per_class_confidence_bin: 5
+  confidence_bin_edges: [0, 0.5, 0.8, 1]
+  unreviewable_exclusion_policy: allow_with_counts
+
+phase_2:
+  collection_design: fixed_before_expansion_capture_and_review
+  development_maps: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  validation_maps: [11, 12, 13, 14]
+  classes: [chair, doorway, laboratory_entrance, office_entrance]
+  simulator_seeds: [1, 2]
+  primary_view_offsets_x_m: [0, -0.5, 0.5, 1, 2]
+  primary_attempts: 560
+  primary_panel: unmodified_worlds_with_prespecified_viewpoint_changes
+  view_orientation: face_catalogue_target_except_original_zero_offset_pose
+  repeated_instance_scope: existing_catalogue_instances_only
+  raw_frames_per_attempt: 1
+  capture_timeout_seconds: 90
+  target_sampling: earliest_synchronized_frame_then_exact_prespecified_entity_id
+  confidence_used_to_select_or_discard_observations: false
+  correctness_used_to_select_or_discard_observations: false
+  human_reviewer_can_use_unreviewable: true
+  missing_target: retain_as_nondetection_not_as_negative_probability_label
+  unsafe_pose: retain_as_preflight_infeasible_no_silent_substitution
+  terminal_attempt_retry: never
+  verified_predispatch_infrastructure_retries_max: 1
+  retry_identity: new_attempt_id_with_original_retained
+  statistical_unit: map_and_view_group_not_rgb_pixels_or_repeated_frames
+  seed_repeats_count_as_independent_worlds: false
+  fixed_budget_stopping: complete_schedule_then_audit_no_outcome_chasing
+  unmet_coverage: blocked_new_prospective_amendment_required
+
+diagnostic_panel:
+  included_in_calibration_fit_or_primary_validation: false
+  development_maps: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  classes: [chair, doorway, laboratory_entrance, office_entrance]
+  simulator_seed: 1
+  treatments: [visual_occluder_20_percent_projected_target_area, same_colour_nonlandmark_distractor]
+  attempts: 80
+  collision_geometry_changed: false
+  new_landmark_ids_or_relabelled_catalogue: false
+  asset_and_pose_preflight_required_before_approval: true
+  treatment_recipe_status: specification_only_not_built_or_validated
+  errors_are_natural: false
+  use_to_fill_primary_negative_quota: false
+
+freeze_and_analysis:
+  confidence_function_palette_thresholds_fov_and_association_radius: retain_current_snapshot
+  temperature_changed_to_populate_bins: false
+  scores_manually_lowered_or_labels_injected: false
+  calibration_fit_partition: development_only
+  validation_partition_used_for_fitting_or_model_selection: false
+  coverage_gate_applied_separately_to_development_and_validation: true
+  per_partition_gate_is_proposed_additional_safeguard: true
+  calibration_family_and_hyperparameters: require_separate_prespecified_choice
+  observed_deployment_prevalence_claimed: false
+  distribution_scope: prespecified_equal_map_class_view_mixture
+  no_detection_rate_reported_separately: true
+  engineered_and_unmodified_world_errors_reported_separately: true
+  inherited_covariance_is_empirically_validated: false
+  calibration_is_navigation_benefit: false
+  low_level_costmap_mapping_changed: false
+
+prerequisites:
+  - validated_phase_1_human_return_and_rubric_usability_audit
+  - approved_joint_rubric_and_coverage_policy
+  - fixed_hashed_expansion_manifest_sources_profiles_and_assets
+  - safe_pose_and_diagnostic_visual_asset_preflight
+  - named_human_amendment_approval_before_first_expansion_attempt
+  - development_complete_before_untouched_validation_capture
+  - serial_resource_guard_and_R1_R2_noninterference

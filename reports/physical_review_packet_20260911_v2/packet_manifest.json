@@ -1,0 +1,532 @@
+{
+  "calibration_frozen": false,
+  "directory_gates": [
+    {
+      "map_id": "r3geo_base_r001",
+      "run_id": "r3-current-v1-r001-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r001",
+      "run_id": "r3-current-v1-r001-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r001",
+      "run_id": "r3-current-v1-r001-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r002",
+      "run_id": "r3-current-v1-r002-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r002",
+      "run_id": "r3-current-v1-r002-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r002",
+      "run_id": "r3-current-v1-r002-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r003",
+      "run_id": "r3-current-v1-r003-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r003",
+      "run_id": "r3-current-v1-r003-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r003",
+      "run_id": "r3-current-v1-r003-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r004",
+      "run_id": "r3-current-v1-r004-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r004",
+      "run_id": "r3-current-v1-r004-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r004",
+      "run_id": "r3-current-v1-r004-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r005",
+      "run_id": "r3-current-v1-r005-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r005",
+      "run_id": "r3-current-v1-r005-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r005",
+      "run_id": "r3-current-v1-r005-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r006",
+      "run_id": "r3-current-v1-r006-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r006",
+      "run_id": "r3-current-v1-r006-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r006",
+      "run_id": "r3-current-v1-r006-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r007",
+      "run_id": "r3-current-v1-r007-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r007",
+      "run_id": "r3-current-v1-r007-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r007",
+      "run_id": "r3-current-v1-r007-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r008",
+      "run_id": "r3-current-v1-r008-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r008",
+      "run_id": "r3-current-v1-r008-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r008",
+      "run_id": "r3-current-v1-r008-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r009",
+      "run_id": "r3-current-v1-r009-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r009",
+      "run_id": "r3-current-v1-r009-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r009",
+      "run_id": "r3-current-v1-r009-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_id": "r3-current-v1-r010-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_id": "r3-current-v1-r010-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_id": "r3-current-v1-r010-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r011",
+      "run_id": "r3-current-v1-r011-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r011",
+      "run_id": "r3-current-v1-r011-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r011",
+      "run_id": "r3-current-v1-r011-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r012",
+      "run_id": "r3-current-v1-r012-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r012",
+      "run_id": "r3-current-v1-r012-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r012",
+      "run_id": "r3-current-v1-r012-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r013",
+      "run_id": "r3-current-v1-r013-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r013",
+      "run_id": "r3-current-v1-r013-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r013",
+      "run_id": "r3-current-v1-r013-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r014",
+      "run_id": "r3-current-v1-r014-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r014",
+      "run_id": "r3-current-v1-r014-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r014",
+      "run_id": "r3-current-v1-r014-office_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_id": "r3-current-v1-stress-chair",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_id": "r3-current-v1-stress-doorway",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_id": "r3-current-v1-stress-laboratory_entrance",
+      "status": "nonprotected_request_verified"
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_id": "r3-current-v1-stress-office_entrance",
+      "status": "nonprotected_request_verified"
+    }
+  ],
+  "extra_selection_sha256": "ad4ae5b62485ef62d726c526940c9fe2456a90e3402995b643b91a20e66184a2",
+  "files": {
+    "combined_visual_qa.jsonl": "f4e8f0d1c46b5cf290b4a678c53470f8d6e4bbf210786e5728f8ff69bcbbd0eb",
+    "inventory.json": "a37bc0e7e209f19d5527d37849757eb75f32524d48442fcb4f3a1cdf83894ba8",
+    "sampling_policy.json": "455764e367e7fac41ff6227db5e7cb587d1bbfc7b20b8c1d09f3ffdddc42d35c"
+  },
+  "human_labels_generated": false,
+  "ordinary_targets": 56,
+  "ordinary_views": 42,
+  "plan_sha256": "4a20aa3240d4035d48bdaf3d9300310c74e004c0628103bfac0ba19e65e7fb0a",
+  "protected_data_used": false,
+  "qa_inputs": [
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r001_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "2464bc045c96e86bba4cd138324b9e1db339d008a0c9a6a0038154c32130a4ce"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r001_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "a5a99062b1c33acada34314f72fd35f253f112d8cb89714e7ba6f2546873c37f"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r001_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "3dc8b1b0f2f2de8e38929eb6b3611867f3f4178634d44653c3a179eda70df866"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r002_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "7cf58f26d60977bbd9dc143d6dcf233216b942201aa5419dc7bd500eb9e0b519"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r002_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "8040fa3c97b1dc37aad8867bbf58309b906414c614a4a1bb79e165dc76a4c7d7"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r002_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "4b78748b3a7b0d8abbbf6d2a60702ae12c4331947642eea0cf469a689347123f"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r003_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "1cee030a105c30af31836a349289ddf847c9fe45ebb1ff45b07b44346582b18e"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r003_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "d639e7c2b04df219392b4180ed76e4509487fafed5a39644c0d11d279d32aeb3"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r003_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "ceddcf79600c6c4b9d1002f8fa8ec2d641594f59e47c0d6e97edd46d3ac81568"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r004_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "5f157761df2b677bfb5ed5fccf5c5ea4d3deca82dca752568dca19f140b523d4"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r004_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "41c2214a0a6ec5f4471979f4b8649b1f167880d662478600af58fa0172797ecb"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r004_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "c3ecdb6e9c5d504b8f8cc8d12f44f365f3907d42c4f4a5888b361e94c43bf1a2"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r005_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "88fc6a8e3f7a4a414c523646d11f17666e115a19b2deac4173ee249f5fb95d09"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r005_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "db028f7122594e3c829c8387fae0e06696e07190f42320903b8d66bd0259a434"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r005_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "e5610c81abeb9cfee3cfc04fd1dd808fe44f5414e989d3df500b39b2920c3e59"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r006_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "db54f942638bf79e2444d24bcdd5002fbad96ef712b77b69187ff5f24b506ef0"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r006_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "6342c9ab384635c54072286b26909e7606c595027dfb5d8fe083d4391a9d65e8"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r006_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "58479c7de2def5744d9591b7178958c361c986dc35847f671eae8a095cdd5b6e"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r007_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "06efa36591051f96d671a1341845a47a58ffddf0672da63d1c139dfd069d2da8"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r007_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "cf0f291eb6ecf43cf5ae6f8a0c095d85e266fce0cc0b31364628a9d7f1a63ce6"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r007_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "a789fa69beb875decf18ce340b9aeda0e7be87487e07d87532d63d196812f0a9"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r008_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "f4a3c495b5dfab97d4b8bdae0c5ec089fc80d0cc97121ac0d0b7b3bd2f334bc3"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r008_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "8ea1addae8db76063cc411d314e566f1bf54e64746b103f28b7125e121de8148"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r008_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "0fc89d3807bf672526ffcfc9f17b4e9f65bf276cdd4d3484a203a8237b7d2cb4"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r009_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "65f211f917e0271edf2851870e5d2a742344ca01f4839b7259711bdb7917554a"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r009_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "efcf9f0b70d9638274f74a80a5f0872af2ce607faa6375295c89f5599f9da368"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r009_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "1c3f1b2f9ae11b25a0bce541754a10d2e56aa37c97006438162f93f64ececc20"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r010_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "275bf93e958770f8c50bf3bee94a95ded963c3e9f533a853b373891e34a291c7"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r010_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "45d2844025612b707c2704ac2c245dea8f9e9d48f48fdeba6898b3ec8641e46e"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r010_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "0f9df1987a98fa30f98827a2fe0e425a37fe39bb248c133f2a6359140867929b"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r011_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "cbdebd0581d043bcd9114cac7f79159eee5fc95802e80c0fa02157c6b87d3730"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r011_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "2351ac418f7cbe694e301e3d9f37f2e49106b1b4db3712d6b20ef50695eba9ed"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r011_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "6150c49734c11662292505ca18df01429dacd08a53fe646b9b499e6abff58149"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r012_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "e97f486b889e8676a45c154a4d0bcb61cdfda1767f00fb9dc94dc1bdb79b72e4"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r012_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "bdbb95e5c4c899b579f44168ecdcefc635f784cf920b7ae883de2dd9d85e1fed"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r012_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "86d54d45b11b58e9f3e11656073297d6eb71ce6037f678b519312295b92442af"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r013_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "93d2ea56f70844981cb43c39a2b54633038c523e098df3bbd3f0c11bcf441953"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r013_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "fd3ff6ebe30aef3bbb9f3c0cb3045abd770c88c1e742b0ddd85112d83af39a07"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r013_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "0cb6bdd47876ab9b96efc1b285c970f03ab9c3b67a58f8a5622974b4b9675a6e"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r014_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "2d80f14bdfd0576cac242a9670f3aba39cbd70fb788b45fd251fbc825d8bde44"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r014_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 2,
+      "sha256": "ba3f97047381f293f9a3b46daabe1af99ca76697b6125c02f5299bf624b5afa1"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_r014_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "a696f81da1d9ebef9eb37c30c22d022cd4167bed6c66fc8f50fedaea725f382c"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_stress_chair_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "f3630013a305c78f071a9e829d43e30b6395825c964b3f6994cc732de6d42ce0"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_stress_doorway_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "c0c5ef0074516e88c47874304f80eaa41ec0bc2fe170578e2c629989585c6d47"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_stress_laboratory_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "6e477454750c185924ca9a270e0ce3ca36fc89005f09b7b9683c8925a3ece6c9"
+    },
+    {
+      "path": "/home/eao/lusn-robot-navigation/reports/visual_qa_current_stress_office_entrance_20260911_v1.jsonl",
+      "rows": 1,
+      "sha256": "f3dab80a3ab50deed4e8263837a5719467e47edce3b456ba7ee9e0576bc3490f"
+    }
+  ],
+  "run_directories": [
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r001-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r001-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r001-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r002-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r002-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r002-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r003-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r003-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r003-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r004-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r004-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r004-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r005-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r005-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r005-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r006-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r006-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r006-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r007-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r007-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r007-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r008-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r008-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r008-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r009-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r009-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r009-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r010-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r010-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r010-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r011-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r011-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r011-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r012-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r012-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r012-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r013-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r013-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r013-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r014-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r014-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r014-office_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-stress-chair",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-stress-doorway",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-stress-laboratory_entrance",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-stress-office_entrance"
+  ],
+  "schema_version": "research3-physical-review-packet/v1",
+  "scientific_sampling_design_approved": false,
+  "status": "ready_for_human_review",
+  "study_complete": false,
+  "total_targets": 60,
+  "visual_qa_generated": false
+}

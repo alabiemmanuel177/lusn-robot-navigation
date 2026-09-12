@@ -1,0 +1,177 @@
+schema_version: landmark-scene/v1
+map_id: r3geo_base_r019
+partition: test
+map_hash: 7f8e61bbcb96316e4c0da8eba0b9231df7d3db6d3eee84391ac530080c15a90a
+source: research3-physical-world/v1
+entities:
+- entity_id: test_00-r019-green-chair
+  region_id: r3geo_base_r019_chair_region
+  category: chair
+  attributes:
+    color: green
+  pose:
+    x: 2.2
+    y: 0.7999999999999999
+    yaw: -1.5707963267948966
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 41
+  - 181
+  - 69
+  route_ids:
+  - r3geo_base_r019_right_1
+  - r3geo_base_r019_right_2
+  - r3geo_base_r019_left_1
+  - r3geo_base_r019_left_2
+- entity_id: r3geo_base_r019_right_1_entrance
+  region_id: r3geo_base_r019_right_1_entrance_region
+  category: office_entrance
+  pose:
+    x: 4.98
+    y: -1.5
+  attributes: {}
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 41
+  - 204
+  - 156
+  route_ids:
+  - r3geo_base_r019_right_1
+- entity_id: r3geo_base_r019_right_2_entrance
+  region_id: r3geo_base_r019_right_2_entrance_region
+  category: office_entrance
+  pose:
+    x: 8.83
+    y: -1.5
+  attributes: {}
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 41
+  - 204
+  - 156
+  route_ids:
+  - r3geo_base_r019_right_2
+- entity_id: r3geo_base_r019_left_1_entrance
+  region_id: r3geo_base_r019_left_1_entrance_region
+  category: laboratory_entrance
+  pose:
+    x: 4.98
+    y: 1.5
+  attributes: {}
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 214
+  - 46
+  - 145
+  route_ids:
+  - r3geo_base_r019_left_1
+- entity_id: r3geo_base_r019_left_2_entrance
+  region_id: r3geo_base_r019_left_2_entrance_region
+  category: laboratory_entrance
+  pose:
+    x: 8.83
+    y: 1.5
+  attributes: {}
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 214
+  - 46
+  - 145
+  route_ids:
+  - r3geo_base_r019_left_2
+- entity_id: r3geo_base_r019_right_1_doorway
+  region_id: r3geo_base_r019_right_1_doorway_region
+  category: doorway
+  pose:
+    x: 4.45
+    y: -1.2
+    yaw: 1.5707963267948966
+  attributes: {}
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 153
+  - 51
+  - 191
+  route_ids:
+  - r3geo_base_r019_right_1
+- entity_id: r3geo_base_r019_right_2_doorway
+  region_id: r3geo_base_r019_right_2_doorway_region
+  category: doorway
+  pose:
+    x: 8.3
+    y: -1.2
+    yaw: 1.5707963267948966
+  attributes: {}
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 153
+  - 51
+  - 191
+  route_ids:
+  - r3geo_base_r019_right_2
+- entity_id: r3geo_base_r019_left_1_doorway
+  region_id: r3geo_base_r019_left_1_doorway_region
+  category: doorway
+  pose:
+    x: 4.45
+    y: 1.2
+    yaw: -1.5707963267948966
+  attributes: {}
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 153
+  - 51
+  - 191
+  route_ids:
+  - r3geo_base_r019_left_1
+- entity_id: r3geo_base_r019_left_2_doorway
+  region_id: r3geo_base_r019_left_2_doorway_region
+  category: doorway
+  pose:
+    x: 8.3
+    y: 1.2
+    yaw: -1.5707963267948966
+  attributes: {}
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 153
+  - 51
+  - 191
+  route_ids:
+  - r3geo_base_r019_left_2

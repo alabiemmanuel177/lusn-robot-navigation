@@ -1,0 +1,39 @@
+{
+  "asset_sha256": {
+    "execution_catalog.json": "6bb8d358f04fd8e4f2b483d2cc804b73a663d0b32fcb3de23794d83fc78bf517",
+    "landmark_scene.yaml": "2f01247bea9257b959fad9f7077485654e5a8f51a6a1656bfb6a03d3cb51df89",
+    "manifest.json": "0c98b2ee5f72c329c0553db6aafc9999112ccbfeeae414336199a34377f728dd",
+    "map.pgm": "3dc056b24a3a4396795a131479312d6be28051d4149743b8580e6c4cbe0928f4",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "verified_ordered_geometry.json": "44b25aaf32ecc5e3705e64335a5e9053164756e8f1ceb97ec13f1606ca6e0bb0",
+    "world.sdf": "270cff6f2103bc1a2532a6756a46a3f03e515849f43611d2614e15426cfa62d6"
+  },
+  "base_instruction_id": "base-r011",
+  "execution_authorized": false,
+  "geometry_audit_passed": true,
+  "interpretation": "reference-plane progress is not proof of observing an absent chair",
+  "live_validation_completed": false,
+  "map_policy": "remove_chair_occupancy_for_all_systems",
+  "partition": "validation",
+  "protected_content_used": false,
+  "removed_entity_id": "val_01-r011-green-chair",
+  "removed_models": [
+    "chair_back",
+    "chair_leg_-0.16_-0.16",
+    "chair_leg_-0.16_0.16",
+    "chair_leg_0.16_-0.16",
+    "chair_leg_0.16_0.16",
+    "chair_seat"
+  ],
+  "schema_version": "research3-physical-absence-intervention/v1",
+  "source_sha256": {
+    "execution_catalog.json": "832f49ec9c5480fb688ea6466f6d251a403a0026d8b9c0b66964dfa32912fe86",
+    "landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+    "manifest.json": "e8fb36e5f898f7abc904151eb73a8222b1a7b34652ea08e93677334d79132243",
+    "map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "verified_ordered_geometry.json": "ce8f34854508650e7c13510c854f95864ffd26f5761777a1f9c6936f14fec4f9",
+    "world.sdf": "081fd6311fe2656cc7610ec78aa5d5c837c6beeb1bd17f975d4d53303dd1e2b0"
+  },
+  "task_policy": "retain_original_goals_and_ordered_reference_plane_at_former_chair_location"
+}

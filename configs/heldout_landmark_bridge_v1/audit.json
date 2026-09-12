@@ -1,0 +1,21 @@
+{
+  "claim_limit": "Visual landmark catalogues; physical doorway topology is not certified.",
+  "entities": 42,
+  "files": {
+    "scenes/test_00.yaml": "7824f06659e568ad2ca6ba21234df191c3983472ccbc50837be7e3608167ef5b",
+    "scenes/test_01.yaml": "2674eba47ed28fdc8de08f320545290d36eb3a72836f875fc68b9ec56d10eec6",
+    "scenes/test_02.yaml": "012dae4f2e2bc579c089f2daf4a9c7b974ec8d05de1bb824c3cfedcee6587a86",
+    "semantic_routes/test_00.yaml": "802b59c2ffa487975007af81de2cd0a62141aa12a40f4c1c8bc5710530eba854",
+    "semantic_routes/test_01.yaml": "ad1fadd669c59693e2f459cc1a4d69be8c5752019ce5e1b5f0cc0e1879e9e9d2",
+    "semantic_routes/test_02.yaml": "a4220f114e23b4b07667b7f319266a2d2f58e2a8a2573cb3fdf7777c334f145b"
+  },
+  "map_geometry_modified": false,
+  "prior_protected_graph_access": true,
+  "protected_test_routes_used": true,
+  "provider_builder_sha256": "fbb29fc8a067e43bc87cbcba24b6f65fc08618f397b9066e50f71ebcb61ff150",
+  "routes": 6,
+  "runtime_capture_completed": false,
+  "scene_catalogues": 3,
+  "schema_version": "research3-heldout-catalogue-audit/v1",
+  "semantic_route_catalogues": 3
+}

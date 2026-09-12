@@ -34,6 +34,16 @@ class SemanticRouteCandidate:
     branch_index: int = 2
     side: str = "left"
     relation: str = "past"
+    anchor_observation_id: str = ""
+    anchor_observed_at_ns: int = 0
+    anchor_observation_source: str = ""
+    anchor_observation_sequence: int = -1
+    terminal_observation_id: str = ""
+    terminal_observed_at_ns: int = 0
+    terminal_observation_source: str = ""
+    terminal_observation_sequence: int = -1
+    anchor_x: float | None = None
+    anchor_y: float | None = None
 
 
 @dataclass(frozen=True)
@@ -45,6 +55,9 @@ class SystemInput:
     step_index: int = 0
 
     def __post_init__(self) -> None:
+        route_ids = [candidate.route_id for candidate in self.candidates]
+        if len(route_ids) != len(set(route_ids)):
+            raise ValueError("route hypotheses must have unique route IDs")
         assert_deployable_payload(
             {
                 "instruction_id": self.instruction_id,
@@ -71,6 +84,21 @@ class NavigationVariant(Protocol):
     system_id: str
 
     def decide(self, inputs: SystemInput) -> SystemDecision: ...
+
+
+def _identified_observation(candidate: SemanticRouteCandidate, kind: str) -> bool:
+    """Snapshot evidence is not regional search coverage or an independent view.
+
+    The runtime observation ledger validates freshness/identity before building
+    candidates. Graph-only candidates have no sensor identity and retain their
+    authored evidence weighting.
+    """
+    stamp = getattr(candidate, kind + "_observed_at_ns")
+    sequence = getattr(candidate, kind + "_observation_sequence")
+    return (bool(getattr(candidate, kind + "_observation_id"))
+            and bool(getattr(candidate, kind + "_observation_source"))
+            and type(stamp) is int and stamp > 0
+            and type(sequence) is int and sequence >= 0)
 
 
 def _clauses(inputs: SystemInput):
@@ -116,7 +144,7 @@ class B2DeterministicWaypoints:
 
     def decide(self, inputs: SystemInput) -> SystemDecision:
         _, landmark, _, topology = _clauses(inputs)
-        if landmark is None:
+        if landmark is None or not inputs.candidates:
             return _guard(None, self.system_id, "no landmark clause")
         hypothesis = landmark.alternatives[0]
         topology_hypothesis = topology.alternatives[0] if topology else None
@@ -144,7 +172,7 @@ class _BeliefVariant:
 
     def _belief(self, inputs: SystemInput):
         _, landmark, terminal, topology = _clauses(inputs)
-        if landmark is None:
+        if landmark is None or not inputs.candidates:
             return None, None, terminal, {}
         hypothesis = landmark.alternatives[0]
         topology_hypothesis = topology.alternatives[0] if topology else None
@@ -153,42 +181,57 @@ class _BeliefVariant:
             semantic = self._raw(hypothesis, candidate)
             topology_match = 1.0 if topology_hypothesis and candidate.branch_index == topology_hypothesis.branch_index and candidate.side == topology_hypothesis.side else 0.0
             relation_match = 1.0 if candidate.relation == hypothesis.relation else 0.0
-            raw[candidate.anchor_entity_id] = 0.85 * semantic + 0.10 * topology_match + 0.05 * relation_match
+            # Alternatives may share a physical landmark; belief is over routes.
+            raw[candidate.route_id] = 0.85 * semantic + 0.10 * topology_match + 0.05 * relation_match
         total = sum(raw.values())
         groundings = [
             GroundingCandidate(
-                candidate.anchor_entity_id,
+                candidate.route_id,
                 candidate.region_id,
-                raw[candidate.anchor_entity_id] / total,
+                raw[candidate.route_id] / total,
                 False,
-                raw[candidate.anchor_entity_id],
+                raw[candidate.route_id],
             )
             for candidate in inputs.candidates
         ]
         belief = initialize_belief(groundings, hypothesis.epistemic_strength)
         evidence = []
-        exact_match_exists = False
+        supported_anchors, contradicted_anchors = set(), set()
+        observed_match = any(
+            _identified_observation(candidate, "anchor")
+            and candidate.anchor_category == hypothesis.target
+            and all(candidate.anchor_attributes.get(key) == value for key, value in hypothesis.attributes.items())
+            for candidate in inputs.candidates)
         for candidate in inputs.candidates:
             category_match = candidate.anchor_category == hypothesis.target
             attributes_match = all(candidate.anchor_attributes.get(key) == value for key, value in hypothesis.attributes.items())
             if category_match and attributes_match:
                 kind = EvidenceKind.SUPPORT
-                exact_match_exists = True
             elif category_match:
                 kind = EvidenceKind.CONTRADICTION
             else:
                 continue
+            observed = _identified_observation(candidate, "anchor")
+            direct_conflict = (kind is EvidenceKind.CONTRADICTION and observed
+                               and not observed_match
+                               and candidate.anchor_entity_id not in contradicted_anchors)
             evidence.append(
                 Evidence(
-                    candidate.anchor_entity_id,
+                    candidate.route_id,
                     kind,
                     candidate.semantic_confidence,
-                    candidate.observation_coverage,
-                    affects_clause_reliability=kind is EvidenceKind.SUPPORT,
+                    1.0 if observed else candidate.observation_coverage,
+                    affects_clause_reliability=(kind is EvidenceKind.SUPPORT
+                                                and candidate.anchor_entity_id not in supported_anchors)
+                                               or direct_conflict,
                 )
             )
+            if kind is EvidenceKind.SUPPORT:
+                supported_anchors.add(candidate.anchor_entity_id)
+            elif direct_conflict:
+                contradicted_anchors.add(candidate.anchor_entity_id)
         belief = update_belief(belief, evidence)
-        return belief, hypothesis, terminal, {candidate.anchor_entity_id: candidate for candidate in inputs.candidates}
+        return belief, hypothesis, terminal, {candidate.route_id: candidate for candidate in inputs.candidates}
 
 
 class B4UncalibratedBelief(_BeliefVariant):
@@ -251,12 +294,20 @@ class B6ContradictionAware(_BeliefVariant):
             and all(candidate.anchor_attributes.get(key) == value for key, value in hypothesis.attributes.items())
         ]
         if not exact:
-            # Absence after high coverage is clause-level evidence. Repeating the
-            # bounded update represents two independent viewpoints, not frames.
+            # One snapshot supplies one absence update, never invented viewpoints.
             target_id = max(belief.candidate_probabilities, key=belief.candidate_probabilities.get)
             coverage = max((item.observation_coverage for item in inputs.candidates), default=0.0)
-            absence = [Evidence(target_id, EvidenceKind.EXPECTED_ABSENT, 0.95, coverage)]
-            belief = update_belief(update_belief(belief, absence), absence)
+            observed_attribute_conflict = any(
+                _identified_observation(candidate, "anchor")
+                and candidate.anchor_category == hypothesis.target
+                and not all(candidate.anchor_attributes.get(key) == value for key, value in hypothesis.attributes.items())
+                for candidate in inputs.candidates)
+            # A visible wrong attribute supplies direct counter-evidence, not a
+            # second claim that a searched region lacks the requested landmark.
+            # Zero-coverage absence also must not decay genuine contradiction.
+            if coverage > 0 and not observed_attribute_conflict:
+                absence = [Evidence(target_id, EvidenceKind.EXPECTED_ABSENT, 0.95, coverage)]
+                belief = update_belief(belief, absence)
 
         best_entity = max(belief.candidate_probabilities, key=belief.candidate_probabilities.get)
         clause_route = by_entity[best_entity]
@@ -267,11 +318,10 @@ class B6ContradictionAware(_BeliefVariant):
                     best_entity,
                     EvidenceKind.CONTRADICTION,
                     clause_route.semantic_confidence,
-                    clause_route.observation_coverage,
+                    1.0 if _identified_observation(clause_route, "terminal") else clause_route.observation_coverage,
                 )
             ]
-            for _ in range(2 + 2 * inputs.step_index):
-                belief = update_belief(belief, cross_clause)
+            belief = update_belief(belief, cross_clause)
         assessments = [
             RouteAssessment(
                 candidate.route_id,

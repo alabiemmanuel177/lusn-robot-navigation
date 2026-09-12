@@ -1,0 +1,91 @@
+schema_version: landmark-challenge-campaign/v1
+challenge_id: validation-palette-impostors-v1
+partition: validation
+protected_test_data: false
+online_ground_truth_used: false
+segmentation_labels_used: false
+detector_configuration_changed: false
+design: >-
+  A visual-only neutral occluder hides one registered landmark while an unregistered
+  vertical emissive swatch rendered from the linearized frozen camera-space sRGB palette
+  is placed inside the deployed association radius. This models a palette-like display
+  or light source without changing the detector. Human review, not the challenge
+  specification, supplies verdicts.
+conditions:
+- condition_id: val00-sign-impostor
+  kind: palette_swatch_impostor_with_occlusion
+  route_id: val_00_r0
+  entity_id: val_00-r014-sign
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_size_m: 0.48
+  occluder_offset_m: 0.18
+  occluder_width_m: 1.25
+  occluder_height_m: 2.0
+- condition_id: val00-door-impostor
+  kind: palette_swatch_impostor_with_occlusion
+  route_id: val_00_r0
+  entity_id: val_00-r014-door
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_size_m: 0.48
+  occluder_offset_m: 0.18
+  occluder_width_m: 1.25
+  occluder_height_m: 2.0
+- condition_id: val00-glass-impostor
+  kind: palette_swatch_impostor_with_occlusion
+  route_id: val_00_r0
+  entity_id: val_00-r014-glass-doors
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_size_m: 0.48
+  occluder_offset_m: 0.18
+  occluder_width_m: 1.25
+  occluder_height_m: 2.0
+- condition_id: val00-chair-impostor
+  kind: palette_swatch_impostor_with_occlusion
+  route_id: val_00_r0
+  entity_id: val_00-r014-blue-chair
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_size_m: 0.48
+  occluder_offset_m: 0.18
+  occluder_width_m: 1.25
+  occluder_height_m: 2.0
+- condition_id: val00-doorway-impostor
+  kind: palette_swatch_impostor_with_occlusion
+  route_id: val_00_r0
+  entity_id: val_00-r014-doorway-1
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_size_m: 0.48
+  occluder_offset_m: 0.18
+  occluder_width_m: 1.25
+  occluder_height_m: 2.0
+- condition_id: val00-office-impostor
+  kind: palette_swatch_impostor_with_occlusion
+  route_id: val_00_r0
+  entity_id: val_00-r014-terminal-entity
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_size_m: 0.48
+  occluder_offset_m: 0.18
+  occluder_width_m: 1.25
+  occluder_height_m: 2.0
+- condition_id: val01-laboratory-impostor
+  kind: palette_swatch_impostor_with_occlusion
+  route_id: val_01_r1
+  entity_id: val_01-r012-terminal-entity
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_size_m: 0.48
+  occluder_offset_m: 0.18
+  occluder_width_m: 1.25
+  occluder_height_m: 2.0

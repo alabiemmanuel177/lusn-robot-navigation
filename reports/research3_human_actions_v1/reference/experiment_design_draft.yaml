@@ -1,0 +1,52 @@
+schema_version: research3-physical-experiment-design-draft/v2
+status: draft_not_frozen_not_executable
+supersedes_scope: simulator_seed_and_analysis_design_only
+instruction_seed: 0
+execution_order_seed: 0
+simulator_seed:
+  supported_mechanism: gz_sim_cli_double_dash_seed
+  permitted_explicit_range: [1, 4294967295]
+  engineering_smoke_proposal: [1]
+  confirmatory_seed_list: null
+  runtime_acceptance_verified: false
+  paired_across_systems: true
+  bitwise_determinism_claimed: false
+replication:
+  development_worlds: 10
+  validation_worlds: 4
+  heldout_world_reservations: 6
+  systems: [B1, B2, B4, B5, B6]
+  conditions_per_world: 8
+  one_seed_nonprotected_episode_count: 560
+  one_seed_heldout_reserved_episode_count: 240
+  independent_unit: procedural_world_not_episode
+  seed_repeats_are_within_world: true
+  confirmatory_replications: null
+analysis_proposals:
+  primary_endpoint: independently_measured_ordered_completion
+  primary_contrast: null
+  candidate_contrasts: [B6_minus_B1, B6_minus_B2, B6_minus_B4, B6_minus_B5]
+  world_weighting: equal
+  condition_weighting: equal_eight_prespecified_conditions
+  pairing: world_condition_simulator_seed
+  inference_cluster: world
+  confirmatory_inference_method: null
+  small_cluster_warning: six_heldout_worlds_limit_precision_and_asymptotic_methods
+  secondary_endpoints: [collision, timeout, terminal_identity, goal_error, path_length, inspection, abstention]
+  multiplicity_policy: null
+  unknown_outcome_policy: report_counts_and_world_paired_best_worst_bounds
+  complete_case_analysis: sensitivity_only_never_silent_primary_exclusion
+power_inputs_requiring_freeze:
+  target_effect: null
+  target_power: null
+  alpha: null
+  baseline_completion: null
+  paired_discordance: null
+  world_intracluster_correlation: null
+  repetitions_per_world: null
+ambiguity_policy:
+  retain_original_variant: true
+  interpretation: underspecified_attribute_single_anchor_not_competing_anchor_disambiguation
+  add_distractor_or_change_geometry: requires_explicit_design_decision_before_freeze
+  relabel_historical_results: false
+execution_authorized: false

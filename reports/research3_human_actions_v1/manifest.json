@@ -1,0 +1,25 @@
+{
+  "editable_response": "YOUR_RESPONSE.md",
+  "execution_authorized": false,
+  "files": {
+    "DECISION_GUIDE.md": "c879bc7e9865b06aa34fccb8a235345de40add4ed82b1cf2026599ab009ab6e5",
+    "HUMAN_GATES.md": "25d42b890a1530213b761be81ed492926d834d8219f447971c28ebd70209712e",
+    "README.md": "c842f97ba317123477473fd097f791bf8bccc3de9bb7f198c5298a22f8ca4a02",
+    "reference/accepted_amendment_decision.json": "6ca7987c41d957c6c0ece9b83e82be1c12133ab86b4ef4c12b671f6db103a2a2",
+    "reference/accepted_expansion_amendment.yaml": "993a513692e1d743335596eb013ceab73c99b86181e975148907b47bfabbfe40",
+    "reference/calibration_approval_contract.md": "b9ae4ad0974a91789bdc028cf7154d1bd907a93e0c78a26618879a5281eb5445",
+    "reference/campaign_approval_contract.md": "494eeb9409bdd0955c0e8559e95ac10c2b3ed8560d9f709f2b61c283c559771b",
+    "reference/campaign_draft.yaml": "73e1d8669dd9a69992d0caedefeeac08c9403184f2ffb3abd566ab44e95df8af",
+    "reference/experiment_design_draft.yaml": "0e56b9330e63de6466d69d8643457431ac7d0aa56b340e4118fd633ecbbbb301",
+    "reference/heldout_runtime_contract.md": "0e6d7d58bb6d9cb3bb2d30fbd0a55ca022aedb332a0863bfcd4d472b74644d72",
+    "reference/pilot_receipt.json": "cae50995240848ca4619c3fc5a68239c3fb233c03615bca70c8de20949013f59",
+    "reference/release_approval_contract.md": "443531ca5cdb6af4eb0e5a97e0c0199b957929bc5715b9b7ab18990b65583b65",
+    "reference/sphere_candidates_status.md": "31b575278f27632d2a10b3d2d69b2c5ee32baf25be7212b2a4ee8c335294e99e",
+    "response.template.md": "18401eec07af50aa731d7f17f550837306474bab135239fd8840cbf4009473df",
+    "return_packet.py": "144e1735fc481fc9ed5c40872484a1152be66cba3dd8820fa803e1d18629192d"
+  },
+  "new_observations_included": 0,
+  "packet_id": "research3-human-actions-v1",
+  "schema_version": "research3-human-action-packet/v1",
+  "scope": "decisions_now_and_complete_future_human_gate_register"
+}

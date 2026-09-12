@@ -1,0 +1,17 @@
+{
+  "collisions": 0,
+  "episodes": 1,
+  "evidence_scope": "development_validation_engineering_pilots",
+  "full_instruction_completion_measured": true,
+  "inputs": [
+    {
+      "path": "reports/physical_live_episodes/r3-absence-dev10-20260911-v1/summary.json",
+      "sha256": "ad7ab2b3e7319450df4f794f5eadce036d9992e77f10737d962c3a76f1ae2ba6"
+    }
+  ],
+  "navigation_successes": 1,
+  "schema_version": "research3-measured-live-analysis/v1",
+  "terminal_identity_correct": 1,
+  "terminal_identity_unknown": 0,
+  "timeouts": 0
+}

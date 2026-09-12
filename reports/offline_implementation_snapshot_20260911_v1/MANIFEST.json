@@ -1,0 +1,2015 @@
+{
+  "files": [
+    {
+      "path": "configs/physical_campaign_draft_v1.yaml",
+      "sha256": "73e1d8669dd9a69992d0caedefeeac08c9403184f2ffb3abd566ab44e95df8af"
+    },
+    {
+      "path": "configs/physical_experiment_design_draft_v2.yaml",
+      "sha256": "0e56b9330e63de6466d69d8643457431ac7d0aa56b340e4118fd633ecbbbb301"
+    },
+    {
+      "path": "configs/research_dependencies.yaml",
+      "sha256": "9bcd50a59fcfb8568ea777368f6880a85a226b68e00718a3e01c94ee0dbe6445"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r001/absence_intervention.json",
+      "sha256": "f947bec9bd6e8eba177dc461a8d3e6310b82549b3a8ec9e161af2e655613c4a6"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r001/execution_catalog.json",
+      "sha256": "37d79e0656a45029b73e9eee9fb16b14f06d2faa5b00437bd2c4e703275785df"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r001/geometry_audit.json",
+      "sha256": "bf172bed2b509cd7dd41a94f5663375d83ad20bbb8c6c851404f399a4a16e12c"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r001/landmark_scene.yaml",
+      "sha256": "044d1badbc14073d5b6633e4858823564b1970302233db241c29ad8521c5bfe4"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r001/manifest.json",
+      "sha256": "e8527c1c6a2f4fb56624ec71bc7c222e4b98edbd26492a00ac00a50e68c5257c"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r001/map.pgm",
+      "sha256": "af6a133cb53295c7a2eb31ef975c5e136beb6fb90ee960f39ae42c1dbb451de2"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r001/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r001/ordered_geometry.json",
+      "sha256": "66a4989523a9d478f7ee93c5cbd0fdd669d0a64d6dccd9bfe88cc24d63f42355"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r001/verified_ordered_geometry.json",
+      "sha256": "af8f44a51a962abdee2f335ff8901b92301131cbdab76a01da00e87a24392897"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r001/world.sdf",
+      "sha256": "8f2aacba6401ae59f5b3b4912ec45e7ebe4fa7ac26cd6899d35be6c9fd1a287a"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r002/absence_intervention.json",
+      "sha256": "96efe8190906c16ac940b597c75480047a2798078fc4da2cd9dac34624db99ec"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r002/execution_catalog.json",
+      "sha256": "85d6208dc0af511200bb64b06ebfab4942b5b27f656a1f1906867d649a8de9b9"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r002/geometry_audit.json",
+      "sha256": "43b92a7d9cde3254ae4b0c872a0a1e13a6e7a1b185a960ab59befea0457d10b5"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r002/landmark_scene.yaml",
+      "sha256": "d91850ba53f382a2e31ff2faed7bd25804f11c4031b8b30713eaf2a10c3ef9b5"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r002/manifest.json",
+      "sha256": "8304104051fa5fc78edc2260ebbf3d68d19126e427db37242c30b9b7a8b9d0ad"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r002/map.pgm",
+      "sha256": "65a0dd58fc54031e9945db3aec1fae62c23934b919e3020d037057c240d2e08b"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r002/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r002/ordered_geometry.json",
+      "sha256": "01a356c59402097653b575a42bad65f018d51138725e85eed10670e39b795ea6"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r002/verified_ordered_geometry.json",
+      "sha256": "ffc0cbd2de4b3de04917925ad1432bae1ecc33d4401e1cd9cd3c7e2291983f99"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r002/world.sdf",
+      "sha256": "c6675dc2660e65a9f49d0369e52700751f0be8b482f22fb73604c64a743a675d"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r003/absence_intervention.json",
+      "sha256": "ba3c7692cbfc3d5af5e7d7c4037cb48caa541e7ee57c0d3334e5086beae139a1"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r003/execution_catalog.json",
+      "sha256": "825fc9805ccd9bde930521690e150143040dfb1bb1aae6eda4be44dcd8b9edd9"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r003/geometry_audit.json",
+      "sha256": "423a06abc707e4d5b4019c594e37c6e45c920c9bb80654269fdad1c8a872543d"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r003/landmark_scene.yaml",
+      "sha256": "72ed0814c217b59816d1b4b39ca1e493027153954bc3839aeb96bc96e82375e9"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r003/manifest.json",
+      "sha256": "68e5dea6f0da437ec39147aee6dcf4cbfa45923d208d5bd3ba54c7cd86eb7393"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r003/map.pgm",
+      "sha256": "56356c8182ea8fbc64a3e27c894205e923e94528ac8138bddff2d42902f8b7d3"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r003/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r003/ordered_geometry.json",
+      "sha256": "c3356848185554bd707516a7b7fd7cf5b5452dd49879f2cf6d0c44ebf706f914"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r003/verified_ordered_geometry.json",
+      "sha256": "e99b44db30cea361a2afa60563d8146ea76de5a1a8b3324aedf3ab3ef932033b"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r003/world.sdf",
+      "sha256": "53c45c10d430170ef695bd3a28fbbe3a2d5b3ea07a78260dd8a3e99cf9f5f8c3"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r004/absence_intervention.json",
+      "sha256": "f9d55c2651bd4b5757f6cc787195ae4ca4a30242d4b29ecb2593030a6938b2da"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r004/execution_catalog.json",
+      "sha256": "fdcf55729009777f33fe6fdf57e318aa66a5b44839a18088b3025ffd4c45dcd8"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r004/geometry_audit.json",
+      "sha256": "d43d8f606b88dafa7a7973d36b6f3f27545e9adaa21d88f40fc2193b93238942"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r004/landmark_scene.yaml",
+      "sha256": "bb08161b77f79ef11d7733843111022d72eae1c6d4bf17092c5202a2682c1838"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r004/manifest.json",
+      "sha256": "6e98e3637aefbf1c69dec83ec87cce8e8f9b19b3b18abbd421a83c8b9b4553e0"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r004/map.pgm",
+      "sha256": "0a155a72fcdeb87315ffa44bcd9cd0dccf245c6447cbaf3772375ed4d72b315c"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r004/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r004/ordered_geometry.json",
+      "sha256": "6869d050a105ff736fae401fde679ac21cd571e830b998417dfa181d7afa2c56"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r004/verified_ordered_geometry.json",
+      "sha256": "9d7ed8dd7202e91dbc5f43e41c62b3be36495be6272cf548941651f3f0ecab12"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r004/world.sdf",
+      "sha256": "f68c1c810e3a107aac49b7c0e4a0c69e5ae8cfa5f9cc0e2d5cd68ea8fe5f72f4"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r005/absence_intervention.json",
+      "sha256": "bc4ee59e5216449753ab6229ee1175d25c53e4f3d5078f506d5c1773afcb9f49"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r005/execution_catalog.json",
+      "sha256": "c4183ab646849593c865c990463211241eebecb5f9555e8ff2ad1e8b57d23e89"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r005/geometry_audit.json",
+      "sha256": "e81d35871350b480ecc23cd596b4088d637a562c62b9a7e72bec240dbaaa0816"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r005/landmark_scene.yaml",
+      "sha256": "454047b0c764704d7776f00c0aed25303aa95af6c79c22465257b64551b5e6bb"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r005/manifest.json",
+      "sha256": "bc82207ec65ec726d32feafece4678c8bbc48db51782b4dc20ce28549680dbb5"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r005/map.pgm",
+      "sha256": "1485ee9d245d439c8e572a7a800d8dd5098eafdf112b98f953a3b1447992efca"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r005/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r005/ordered_geometry.json",
+      "sha256": "8b4175c61fd63beb954adffc029cbe993b9e149ab4f9eedcee17c4a79c55f465"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r005/verified_ordered_geometry.json",
+      "sha256": "e43787d2bdc44b6e233357c0ca88dab774eac29ca90772125e919b02c6a80a5a"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r005/world.sdf",
+      "sha256": "eb1ba0e013fdcf8632db20f96d2c5abe06f7db449bdcf6d82c0dc66046bf5aff"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r006/absence_intervention.json",
+      "sha256": "f1949515afedc9e7cd6fc73bbb9c4e19e9c0b922bfed61d37b1007d0126de58a"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r006/execution_catalog.json",
+      "sha256": "a81951eeaa1e90825e2bef092bb2651c84cc2fff4f3c1da5767d4295ffb0d64e"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r006/geometry_audit.json",
+      "sha256": "25b6360079ddfed8b5ad6a399315af3fbe9ace8211f8b28245f6b0f12c6c9f42"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r006/landmark_scene.yaml",
+      "sha256": "24055bb148f91599ba5fce82e0854f129dca13e0ad7b849b534366079793f8bd"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r006/manifest.json",
+      "sha256": "667b1c48aeec362eb1d3ef0e3b6067a0ce1589ae5229fbcd5331be63460e40d4"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r006/map.pgm",
+      "sha256": "5b6c09f294f20cd87d559e3a2ef7dbd78d8785f53c7479d84a9fea3336919202"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r006/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r006/ordered_geometry.json",
+      "sha256": "78b6902a6bf2de742050588d0b2fc86c33744268442944abe08c04acc5df3759"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r006/verified_ordered_geometry.json",
+      "sha256": "6d6b0f5726873443aaaa5ce82b9d7a66a877644cb34b7da29a4bbd643ce38a53"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r006/world.sdf",
+      "sha256": "0891d63d0fe43a83f5b0e68a99223cb4369b2ddc9e0c3854306d779a934b6a6c"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r007/absence_intervention.json",
+      "sha256": "ec8440db0442f857ee5456199365d1bbf207f337ba10e1db93f29c320803e885"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r007/execution_catalog.json",
+      "sha256": "fe7c0224e6a34ba3dc473124ab1c5596e4987738592e255614fae2355ea99825"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r007/geometry_audit.json",
+      "sha256": "c950fda38e82de61ae317d3da3841119839d1fc1ba93a6a294be51ef67d3ae6b"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r007/landmark_scene.yaml",
+      "sha256": "408424df2a80806ee52e0af162951da49bf0ba746651fe1a67a5169e8c6402f0"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r007/manifest.json",
+      "sha256": "84f168f1c4d30ae38bc999ae90e8727ef991dd9f39ffa754dcbdd3cfe381420f"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r007/map.pgm",
+      "sha256": "63f46598cfd06bdbb0d9bf9e4727b840d0c6698baa41f1ae32f9c966defc7303"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r007/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r007/ordered_geometry.json",
+      "sha256": "49f6ce40772c7fb3d5883a9057c35babb4ac0ef71cf1626e644f12d84d15336b"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r007/verified_ordered_geometry.json",
+      "sha256": "0823ac730a829dbfca590e74ef3a5b5e6166cb5389b2ca486785eb70085c59fa"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r007/world.sdf",
+      "sha256": "4a33dc775b60790eefb6656b9f6be1b787375e3aa748a7297e7afe7b1c0ae8cc"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r008/absence_intervention.json",
+      "sha256": "6af13dc52456758c9011427af83f137e11d3e7b39e7feaea81a44962bb24355c"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r008/execution_catalog.json",
+      "sha256": "ad5005e0965993f4b583ff881a37b999bc514165eb8dd5cec605110bc1a46213"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r008/geometry_audit.json",
+      "sha256": "eb3946a7114e4e18562ab71371aa6b0f23cc7469fe3964a43b298e60b1a0b063"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r008/landmark_scene.yaml",
+      "sha256": "13b5f87a0d86821f48c2289cf4449ca117e47f2b7cffa239428f59ca53e87bf7"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r008/manifest.json",
+      "sha256": "15902d425d1c92636bf67937d20e0501e046a2062862cc7a6b0fc389013081a1"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r008/map.pgm",
+      "sha256": "444fe168a93c1f4db33769483e4b326f1960baff6d154ff018195ddceb1ad1ef"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r008/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r008/ordered_geometry.json",
+      "sha256": "757587710614c804eaedc2cd7fb820bd58eb85955993c6bb28b9dfcf436db2b6"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r008/verified_ordered_geometry.json",
+      "sha256": "aa464e1c460f47172d092301f40e19e471a0c0039180fa408ea7221e137f7225"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r008/world.sdf",
+      "sha256": "79a9639fb6f5a630a894be7d673cf128f152148a2248d87e0229072928b15ada"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r009/absence_intervention.json",
+      "sha256": "2d5e9220dabf40dc5c6030252c96c02c351eed4eed3ac2b63c6d36bfa76a8529"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r009/execution_catalog.json",
+      "sha256": "6be7802ca3d51ea16c306716cbb82051e60cfd1afe6b9757dc47dc729501207b"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r009/geometry_audit.json",
+      "sha256": "b4a015b64d1baeb5f4a73256b8653be55d846d8f965f64d0e3d8d3b96fa0337b"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r009/landmark_scene.yaml",
+      "sha256": "a84908f148fe51ac2f49780bd20ca4a92023e1383f8cde74f694652dac2d7373"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r009/manifest.json",
+      "sha256": "0a2b2983b7db6cddc040f15416b756d6465afd9e36ac680febf453d8b43ddb9d"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r009/map.pgm",
+      "sha256": "1b504789e513c106b3255568088c2ea6fd20135cfe8aa638515f843ee36542ef"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r009/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r009/ordered_geometry.json",
+      "sha256": "fa2a4e5b4302684b3ff06f8241923ec6cee921d63cebbf0bb24c19b71bdee774"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r009/verified_ordered_geometry.json",
+      "sha256": "93114b70a65b5605b62950141d46a4465e4818b0f5dff87ead52bad5d9997b2e"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r009/world.sdf",
+      "sha256": "774377fdd7a4e47b8a15f5a905414d7e914e596131acd8fc2dcb33f042fbc998"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r010/absence_intervention.json",
+      "sha256": "ceaad974ffc931980e4259e9605efbb6fa6ef4b698bfdb3bf37daef744380c8d"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r010/execution_catalog.json",
+      "sha256": "df574ea134f20274724e7e6727f926dc29848c7f51d322a0d884482e157b2221"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r010/geometry_audit.json",
+      "sha256": "36261c482cf9834e8187be64502ad730e2a015e754d3e14baca053b6d5a21e5a"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r010/landmark_scene.yaml",
+      "sha256": "6af19dbd153728a2084ce0238a95d623138794ba127cd186546453ebe9c8bf06"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r010/manifest.json",
+      "sha256": "4900c0c8e0fbf1cf9b9c7be3451e8ccd2b70885e607e66f8a6104a301b71da20"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r010/map.pgm",
+      "sha256": "2d77de512545952ccbaa94ab74179a399f4cc3e710b05deacf87ca31b3e3c9b3"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r010/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r010/ordered_geometry.json",
+      "sha256": "1d14e38fe73c5d89c18cf220c2a74535da16e6f2a7b2887a1ad60e847ba5a2da"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r010/verified_ordered_geometry.json",
+      "sha256": "854577c2bab1e48a9a6f4ac41e38c53d1c1d764e4ca0a0eb771c5147f6cf6f63"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r010/world.sdf",
+      "sha256": "1649ea61a9582e63b3da659c0be35b694852435dff5e751b467323a767ff0cfc"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r011/absence_intervention.json",
+      "sha256": "b5389e38433e34ddb5d466df1b7017e21394cce2585d0ae1360b312f3e6436a8"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r011/execution_catalog.json",
+      "sha256": "6bb8d358f04fd8e4f2b483d2cc804b73a663d0b32fcb3de23794d83fc78bf517"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r011/geometry_audit.json",
+      "sha256": "525bfd063947c7325b1f266037e9ba796f6f64298f727928fe48decdd06a1c98"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r011/landmark_scene.yaml",
+      "sha256": "2f01247bea9257b959fad9f7077485654e5a8f51a6a1656bfb6a03d3cb51df89"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r011/manifest.json",
+      "sha256": "0c98b2ee5f72c329c0553db6aafc9999112ccbfeeae414336199a34377f728dd"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r011/map.pgm",
+      "sha256": "3dc056b24a3a4396795a131479312d6be28051d4149743b8580e6c4cbe0928f4"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r011/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r011/ordered_geometry.json",
+      "sha256": "a9d07a3762942e7454c29e5ccf927f168752b2dc8923aaa9dea2dc8c6aa6d8d1"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r011/verified_ordered_geometry.json",
+      "sha256": "44b25aaf32ecc5e3705e64335a5e9053164756e8f1ceb97ec13f1606ca6e0bb0"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r011/world.sdf",
+      "sha256": "270cff6f2103bc1a2532a6756a46a3f03e515849f43611d2614e15426cfa62d6"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r012/absence_intervention.json",
+      "sha256": "1183d4224526bb260c116248f31672720b36b3146723276cdd38deb412a46f31"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r012/execution_catalog.json",
+      "sha256": "c0e83f27b7ceb6274abffba06f2b426b96ce83c474d5fb52aa82e9ec91ab0adc"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r012/geometry_audit.json",
+      "sha256": "2b44cbbc0ba10b6eb480f8e54c4b7c621a82afa01bb6afc90331e7e1988913ce"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r012/landmark_scene.yaml",
+      "sha256": "c8eccf4b65bc86c01e7c21e67b4ac21eccda8b9e27684548c80bf77ce1010b49"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r012/manifest.json",
+      "sha256": "446fa2533705f5007b84ff479787c961ae0c09c91e783669f29ea5a8d1e6028e"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r012/map.pgm",
+      "sha256": "a6957dee665fad325b3459a91db96679e3df8e12e151dadb524249ed7e33c726"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r012/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r012/ordered_geometry.json",
+      "sha256": "47876df02d0f88a748b3aa8562d4c360a70b717880465ca247281b6adbcf9667"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r012/verified_ordered_geometry.json",
+      "sha256": "f8bb4a25048ecaded7348e7cc9ad50e3630172a78acc9773853f3fdce8ed8bc9"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r012/world.sdf",
+      "sha256": "c399400666a87e56965a0a90f84f52cddd2d23a32dfacfbcda6138173982afd9"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r013/absence_intervention.json",
+      "sha256": "38d2cbf638321e967beb61d66ba520e7c8c396bcdeb6718579ee943fd3782423"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r013/execution_catalog.json",
+      "sha256": "8e2ae7f1412ae9c854ecc606a2fcf07fb6e887c430fe4eaf261759e0728db851"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r013/geometry_audit.json",
+      "sha256": "011f438514a18fc124a99607196df9e92da7b7bb58d2e2b67ce6e350e2bda2a2"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r013/landmark_scene.yaml",
+      "sha256": "2b4f5371bdbd9c745d21067bf33ef4b778fc61ac731a673aae0c49a16e159363"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r013/manifest.json",
+      "sha256": "658e57d749faecc3fce4b5b18a5c9ae50ca7d136c6ba6fb9d7e1d1cfa15b4549"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r013/map.pgm",
+      "sha256": "de9c21922ff49e0bbd1bf5dcd451bd405098417b08e4074ab984d205443f1001"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r013/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r013/ordered_geometry.json",
+      "sha256": "a9dc496101decf58a60307be213435dd333798099488e99196bbeca5905d0777"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r013/verified_ordered_geometry.json",
+      "sha256": "18f6e3a0485901e551113cfd2ada7e93f7c9e490a55c2e66bf8801a39b4246a3"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r013/world.sdf",
+      "sha256": "d3fb4bf349670e28bb077c5985a53627c00efe96996c10fe3d19c9a18882a55e"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r014/absence_intervention.json",
+      "sha256": "e29aefd573a9288089935ba90f7467ba414b6295c3cfdf3a9cc839b13849b508"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r014/execution_catalog.json",
+      "sha256": "8f6aff6c8c7c9795c68e743cb19ce0705e3c2f1a8103564dc1321548840c93e0"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r014/geometry_audit.json",
+      "sha256": "61c84af32633dbf9e65a131263a16ff7b8ada5530d6a8259105994cbb46be4dc"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r014/landmark_scene.yaml",
+      "sha256": "09ee47aee24bb96072b8746b046f5a9fcd47a50591bed22843fb051546662a7b"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r014/manifest.json",
+      "sha256": "7ade2593dfdae6df067e588cbac5cbd133f6dd489bfe0ddbacc15a8c1306f49b"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r014/map.pgm",
+      "sha256": "baa8a5c6e4e594419f7a03d53f48ff7e4ecdd0c229149fdb71cd9291039745b8"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r014/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r014/ordered_geometry.json",
+      "sha256": "2971553c275f03a5a69fd36690212d833bf66293aba526038890ad6ec25eadf1"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r014/verified_ordered_geometry.json",
+      "sha256": "c7c9994384bd033965f038476666910bc5d5ca9ffe952c47fe79a75e7114d21b"
+    },
+    {
+      "path": "data/physical_absence_worlds_v1/base-r014/world.sdf",
+      "sha256": "ae9de2cb2ce365c96c8dccb3645c4254571457197f84690e5bed87665b29170a"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r001/execution_catalog.json",
+      "sha256": "794cbfa11ceaf8747d34ad517417c1f8b56c63f3787610097b135579af21d7dd"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r001/geometry_audit.json",
+      "sha256": "25a76c6545c60fdcdb8fd9f5d1247511d6b34b4023ffa1de8df65736e35f21b1"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r001/landmark_scene.yaml",
+      "sha256": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r001/manifest.json",
+      "sha256": "c99853c34d2af1c7047f6d43baf557f626610c425bf672d519d5f51952176103"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r001/map.pgm",
+      "sha256": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r001/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r001/ordered_geometry.json",
+      "sha256": "0c66375df2631c22a9a61841057cbc048d63233369e722c59bea4a560d9ce927"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r001/verified_ordered_geometry.json",
+      "sha256": "472a905de6b5eab64957c70b33f6c290cb33d52b60eb74944d382a2206ca88ea"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r001/world.sdf",
+      "sha256": "b1800857c27e0ec9378da274c0108cbd41b00761b4339940d923478454879068"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r002/execution_catalog.json",
+      "sha256": "6e946452ab5adc59e0480efcd61f00c571f2001c85570eb0a5fc192dff2f573e"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r002/geometry_audit.json",
+      "sha256": "79a0cbff199e412b2f38e002ff20152970844665ca8541e78cadbf51c3273b2f"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r002/landmark_scene.yaml",
+      "sha256": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r002/manifest.json",
+      "sha256": "c38be1af9d1c11ba026f9a161e0890359740bc75c566350bbd9196c0ece2fa72"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r002/map.pgm",
+      "sha256": "62efcc836cbd5f44da42741e05ae38c5f95dfca7ce46967fa17221fa2f4a6ed1"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r002/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r002/ordered_geometry.json",
+      "sha256": "9a30e64e59a672e42b29ec05ed92ebf5df236b02910a366d5e61c86c8a140e2a"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r002/verified_ordered_geometry.json",
+      "sha256": "e82fb2dcc90d52987bf0c9989365c25f22d2cee24bcf521540dac9255f524834"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r002/world.sdf",
+      "sha256": "9736ea49b2b2517437c1a867dddf3909be0a847c7ca3ed8e6ceee49df6b05343"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r003/execution_catalog.json",
+      "sha256": "c668c130c8f283cf372dea51d4635e3bf6615743872819620c9a1514248dd77d"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r003/geometry_audit.json",
+      "sha256": "33f1f13541efc35949afdfb3fedeaf98d82faf4fcdf0aeec096d738c5061853b"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r003/landmark_scene.yaml",
+      "sha256": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r003/manifest.json",
+      "sha256": "03229138b330428806c23b9dc7a6eeaaf2beb39cf5aecad64b12a34bcce5f916"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r003/map.pgm",
+      "sha256": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r003/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r003/ordered_geometry.json",
+      "sha256": "1f60d4fbfbda6dc1c158df8572766bd8406f9d6024039f34b8a1576ea405a427"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r003/verified_ordered_geometry.json",
+      "sha256": "d52c13c67e30c3cbc4b3f0aecd8bf933afa09ee38890b0f982c9888b789ca3f3"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r003/world.sdf",
+      "sha256": "9ceb8d96d492d5446498bcb37a49e3f7d9cf5b832b6f7e613f0ec758e1ebf696"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r004/execution_catalog.json",
+      "sha256": "3c7b1d4b15f8ea24d4026629e2114c9264113369d982d92f232f4c5252a3277e"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r004/geometry_audit.json",
+      "sha256": "c3345f3a48eeca7e46c30e9155f1031b5d82436864b6bd6a7a031a50ba1812cc"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r004/landmark_scene.yaml",
+      "sha256": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r004/manifest.json",
+      "sha256": "ad4d99fb741818dd017a47e103bf15936785a25c603ae2e3d257d424cbe1a3bc"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r004/map.pgm",
+      "sha256": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r004/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r004/ordered_geometry.json",
+      "sha256": "13707a4a7cda4633fd65e1c6b350b0ce8cf738fac70889057eca746085f28c95"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r004/verified_ordered_geometry.json",
+      "sha256": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r004/world.sdf",
+      "sha256": "d1cab934fb11b8815b2341e2650e0aa743f3f0f09b24aa3bfbeb5119b27ecee9"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r005/execution_catalog.json",
+      "sha256": "414f8587685e58eb6967f4baacc220df2c54c74d95acd29577747cc24fcc9ece"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r005/geometry_audit.json",
+      "sha256": "2e2840d573da9f5d81e6fc3801c52b56f932ddcfe1976e72ac4dc97514d7fe7c"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r005/landmark_scene.yaml",
+      "sha256": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r005/manifest.json",
+      "sha256": "6f2503af8bc13af7fcd504a0d472d204c61f85c9553c058fd3e8d188d4050b79"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r005/map.pgm",
+      "sha256": "28124a30a6ef4729ddc2978cef7789f5adcad257c66acccddbebc8543316ae4b"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r005/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r005/ordered_geometry.json",
+      "sha256": "cb8bfe062b4c7e41a54a6f98fab2fbd37f53a7f142921ddf58716fbc4f1e465d"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r005/verified_ordered_geometry.json",
+      "sha256": "3721b05f1a7fb0768c2568eb7dbcade1224f0cfe84e352e0e6ec254e37f1357c"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r005/world.sdf",
+      "sha256": "d03f8c29730a268149f51224c66d34d01eff0c966c4b5a5521b2d9ef2ff68d50"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r006/execution_catalog.json",
+      "sha256": "aaa83f76b808ef4bc82621666749ca282c3611af026fd39862da966f51923e29"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r006/geometry_audit.json",
+      "sha256": "c5c7df7076118d2a61d2ed2e6fc92a05be8a35644d41dcaa5b0ca6e545695825"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r006/landmark_scene.yaml",
+      "sha256": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r006/manifest.json",
+      "sha256": "740ed09be46c6422cfb128164afa49391723a5d42be2a864dca47f134e022092"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r006/map.pgm",
+      "sha256": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r006/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r006/ordered_geometry.json",
+      "sha256": "ffe3e07ce2e7950f268e91503e78af1e2e1ab4114cd857ab4641907d09729e90"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r006/verified_ordered_geometry.json",
+      "sha256": "52cda59e04c68b0bd8b61636501c0f0b7b2a36c545c6d76b77841e375de61894"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r006/world.sdf",
+      "sha256": "359a4f46ac38ee797132388c5fcbc84acfb6a55d5593e8eec0bd7c7071ea47eb"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r007/execution_catalog.json",
+      "sha256": "915487cc4084db394430120bab332585256d44acbddb25b390b7f60d93dbe537"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r007/geometry_audit.json",
+      "sha256": "0408fe18a4042779f03fe10c68fd298368127390e8726b2071aebe231dc89414"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r007/landmark_scene.yaml",
+      "sha256": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r007/manifest.json",
+      "sha256": "54a16bd26ee77bef14a54a718f9a462007ba3c0e92e14e1c57fc8682f85d2c90"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r007/map.pgm",
+      "sha256": "d5a28b6b2639d493e6b9f5aae49d4244e624c30bb1a314a061f3a22754ad1e28"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r007/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r007/ordered_geometry.json",
+      "sha256": "392c57bd06c21261676b906b6334a214442d8b861bec71909a3f330d1e9bd5ca"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r007/verified_ordered_geometry.json",
+      "sha256": "6b969ec5075649c8c8be6f6a887a95effe1d62b40d1f97b03e15941e74347229"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r007/world.sdf",
+      "sha256": "487e38a7178c8aa5c9d99e2ad903285f64ec034bac757b93350e46b7c0f5cb3d"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r008/execution_catalog.json",
+      "sha256": "7d0f093389acd40594a2a3737494a2cca78dc0ce655cdf093ea60c24d42cf74f"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r008/geometry_audit.json",
+      "sha256": "090f9ca39f676652240965ef69f5e6471417e673f1b2659e439ffc1943689b5e"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r008/landmark_scene.yaml",
+      "sha256": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r008/manifest.json",
+      "sha256": "b73172d315fe683f1c063f018f7db2003a9b950a18667c0c61a17727af0a998f"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r008/map.pgm",
+      "sha256": "dcbeaa79f20d76c1bade6288e23b8ac5525dad714a9b42d9bfa6fb5651ff356f"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r008/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r008/ordered_geometry.json",
+      "sha256": "327be3959e3563d30436edecbf0b080830c8892c87b4f36e29763dd3a25e22f9"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r008/verified_ordered_geometry.json",
+      "sha256": "8954c6dcf363579beca7b384e8bec816fa7bb2f301f937f493e9867b51f9d7bd"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r008/world.sdf",
+      "sha256": "45bd4e5ff8b9058cc23ad9018971161c41f197861bfcc3db2b9463f125169df6"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r009/execution_catalog.json",
+      "sha256": "08edd9e3e42a5197695d3b283d97f97fa614225e006220d17c8e8beefccc94e2"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r009/geometry_audit.json",
+      "sha256": "0581812ac53e730ef0cad8d2d6a89115c98c104c0114ff366dedb541bab80da3"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r009/landmark_scene.yaml",
+      "sha256": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r009/manifest.json",
+      "sha256": "8609ac20ecd8928e5d049da252173a9d4d0477951df849e2771f5bb0af68bddc"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r009/map.pgm",
+      "sha256": "7f35575f48f7a68f77b8ca6011ddd99ee0ccc29a1ef8d49c83dd425468aae52e"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r009/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r009/ordered_geometry.json",
+      "sha256": "b916f0c068474e54dec2274dbeae21576c102b51d6017b995937ed381ab36be9"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r009/verified_ordered_geometry.json",
+      "sha256": "e88ef4041d94bdff521a278e35c4b835513fd6debbfdc38326621d577296d3ce"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r009/world.sdf",
+      "sha256": "92225bf0e4c264f60d64c2c8cf9e7f0f30036e11d2ddbc3d52bbb484550f9bbb"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r010/execution_catalog.json",
+      "sha256": "d5813e1c118ce45cd44bf84c471cbdcc9a10bf1effc203be43b2f9bd292315e2"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r010/geometry_audit.json",
+      "sha256": "c34c1f365c1c0605391b84af2f1552808a09fdee863ff6c73437500414c174a3"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r010/landmark_scene.yaml",
+      "sha256": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r010/manifest.json",
+      "sha256": "ad1c079092a34526fc02ac73c61c91c1edaaee29ae17aff7a2a33b8e15c92d5a"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r010/map.pgm",
+      "sha256": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r010/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r010/ordered_geometry.json",
+      "sha256": "a1e4f6b69e1be42615dbb6561b4cd283b104e4eefb7ce8a53ad874be08ccd03b"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r010/verified_ordered_geometry.json",
+      "sha256": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r010/world.sdf",
+      "sha256": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r011/execution_catalog.json",
+      "sha256": "832f49ec9c5480fb688ea6466f6d251a403a0026d8b9c0b66964dfa32912fe86"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r011/geometry_audit.json",
+      "sha256": "6df84b445dc38c7bf570783110ca191cf4ec9f8b840a7502d4cb9d1d736e4f6f"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r011/landmark_scene.yaml",
+      "sha256": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r011/manifest.json",
+      "sha256": "e8fb36e5f898f7abc904151eb73a8222b1a7b34652ea08e93677334d79132243"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r011/map.pgm",
+      "sha256": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r011/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r011/ordered_geometry.json",
+      "sha256": "5020d530963b5d21d3d5d954a823a68e60e2d4a55d412dcdf5d1e3cdc0554e63"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r011/verified_ordered_geometry.json",
+      "sha256": "ce8f34854508650e7c13510c854f95864ffd26f5761777a1f9c6936f14fec4f9"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r011/world.sdf",
+      "sha256": "081fd6311fe2656cc7610ec78aa5d5c837c6beeb1bd17f975d4d53303dd1e2b0"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r012/execution_catalog.json",
+      "sha256": "92c4efc831104db9991fae983b670cff19d47433aef217fed08f6b70a90c36d7"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r012/geometry_audit.json",
+      "sha256": "ca6187d5401cf37c1a3541bebaae5da92d161df53c19876b42f32f35407e4cad"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r012/landmark_scene.yaml",
+      "sha256": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r012/manifest.json",
+      "sha256": "263b89f941591068e20f4f3c8d4a1003690b360a69d0067465a1ceacadf8c15c"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r012/map.pgm",
+      "sha256": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r012/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r012/ordered_geometry.json",
+      "sha256": "d739c68708068007605dedfca407e6b67151bb4a84977cfcee30c42cbe09c06a"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r012/verified_ordered_geometry.json",
+      "sha256": "63b6d553aad66a515e12f8540696de973175e505354779cb7878689bb10f7a6a"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r012/world.sdf",
+      "sha256": "0215618fec2e74c16c905b56f2d3b00197d4e4c1be80ebbee423c5fa05c21db0"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r013/execution_catalog.json",
+      "sha256": "1838d88e75d9441934472a9fab9c954ec0df105975483419a7dc4e8b95b99255"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r013/geometry_audit.json",
+      "sha256": "8c82a3fa092183a3f74c1cb0c51e135b8023b0895d53a8e9ca31dd4d970756d7"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r013/landmark_scene.yaml",
+      "sha256": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r013/manifest.json",
+      "sha256": "fb032cf8cbe124e10f68f78cf67934de5b2c77edf28734c9228e4945c6916a0f"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r013/map.pgm",
+      "sha256": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r013/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r013/ordered_geometry.json",
+      "sha256": "6aa79c0e51c527dddfff3a84538e0413c6b92430d4aa8322f30c406d009b6965"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r013/verified_ordered_geometry.json",
+      "sha256": "c932e43a80491adb76fa5a752119b3d8c9902a298cc0a2fd9de3173e40d50050"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r013/world.sdf",
+      "sha256": "2680aae3d425bf64a302dd086905c8f41f5f7a9c88e55f96ee5e3033ace2c5a1"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r014/execution_catalog.json",
+      "sha256": "593e4766cb7bcb9234d5144a9526d85a652aa0258e3474565f512c4bb51dd797"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r014/geometry_audit.json",
+      "sha256": "9273117f9901bb9378af50c52d98ef6262db82fe8aa07481f0f15198b9d9928b"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r014/landmark_scene.yaml",
+      "sha256": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r014/manifest.json",
+      "sha256": "d309fa63b804b148036ae2ba47fd783ae71c93b71c8e20dec0edca29f7934e20"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r014/map.pgm",
+      "sha256": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r014/map.yaml",
+      "sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r014/ordered_geometry.json",
+      "sha256": "caf2cafa405fec109006aabff8502db51d267bcabc6f5f83c229230df4439d0d"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r014/verified_ordered_geometry.json",
+      "sha256": "181768a3af6273fe87afa70999f95d97b94e1c0d3c2801f360f029261b57a904"
+    },
+    {
+      "path": "data/physical_worlds_v1/base-r014/world.sdf",
+      "sha256": "f242dad6c1e733d9bcb1f787df787657ca1fab6fc44e10bbefee304772318fd6"
+    },
+    {
+      "path": "docs/CONSOLIDATED_REVIEW_HANDOFF.md",
+      "sha256": "6acdd86f48446708036e147076aa196b265322e4773c2c5663eb0fed61e23bd8"
+    },
+    {
+      "path": "docs/OFFLINE_ANALYSIS_RELEASE.md",
+      "sha256": "3e9b9cd73389ab241ec90fd3b895fb574b18ded1b9ffd145ca412d72d0b862be"
+    },
+    {
+      "path": "docs/OFFLINE_COMPLETION_20260911.md",
+      "sha256": "e7f966505fbb1082ddb4953e609c6fa199865925f68e24f0b493e54d2953c503"
+    },
+    {
+      "path": "docs/OFFLINE_EXPERIMENT_DESIGN.md",
+      "sha256": "e670a11503a2f17460a4d20d1baaae431db9ff8b9820bfd72d5c7fc8fadd370c"
+    },
+    {
+      "path": "docs/PHYSICAL_DETECTOR_VALIDATION.md",
+      "sha256": "9478e24dcc81f1e631654509ddc19bf1c0e7ac9f1b2bdeb5326d238200ccd496"
+    },
+    {
+      "path": "docs/PHYSICAL_PROTOCOL_DRAFT.md",
+      "sha256": "0ed59749cf06b773388f2188893276f90c9d9ad37353506fcb69d598909e83ca"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "66666d2576a9f8b8be0ecff42d0b89be8c489b6e29784a39995ee679a7b28b7a"
+    },
+    {
+      "path": "ros_ws/src/language_interface/language_interface/__init__.py",
+      "sha256": "c87bb1b4606ea80daa10350762c853f33a95b8dca57a7c826e58fc247f03be83"
+    },
+    {
+      "path": "ros_ws/src/language_interface/language_interface/node.py",
+      "sha256": "85dd26d7e0ea2c6a3c3e296b20a88961141f2efbce3fbca93fe5cf51b5db06e3"
+    },
+    {
+      "path": "ros_ws/src/language_interface/package.xml",
+      "sha256": "68408f7fe22c13412b02075dc740424fd09bf491f54a4cd43770de9ab223201b"
+    },
+    {
+      "path": "ros_ws/src/language_interface/resource/language_interface",
+      "sha256": "3ae45729369584c2d93748bbbf21f07e68357188e4fab5068d73ab380b4e41e4"
+    },
+    {
+      "path": "ros_ws/src/language_interface/setup.cfg",
+      "sha256": "bade7c8f3acff02cdf079280cb38f89bf6f6482b817dda0bd67870bb77f1a57b"
+    },
+    {
+      "path": "ros_ws/src/language_interface/setup.py",
+      "sha256": "201b189c1883b3e98a3ebc33e6a6fe92c4217101c991691e373a1e9b38f66616"
+    },
+    {
+      "path": "ros_ws/src/language_interface/test/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ros_ws/src/language_interface/test/test_node_import.py",
+      "sha256": "cf222649b70b552fa8bd6b7c42a2599c175dddcaf9a2b4f842a14fad2b869fd3"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/config/qos.yaml",
+      "sha256": "fc3767c776fcdb534ed266197ef30098de45e98992980e3f9227ee9fcd076e00"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/language_nav_bringup/__init__.py",
+      "sha256": "f479df970984c2a5a5578db3c702622aa79cca375fd6e796a956b45324de2aa3"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/language_nav_bringup/landmark_bridge_runner.py",
+      "sha256": "ffefbd8dfd254a57709eaf0ab5871b631e15dadabbf1ba2e5cfc18674d2fad50"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/launch/graph_world.launch.py",
+      "sha256": "f59788cc52583523bef52d97e4736ec75cd69ef4eb037dd633db78de90ceb4e3"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/launch/live_adapters.launch.py",
+      "sha256": "d745b2ed5864e8844b42ebfe0e3ce3a729a07ffedc2fa344d2aa735f8cf5c218"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/launch/physical_sim.launch.py",
+      "sha256": "939c2ec1964d2e34f0636d8139bee147cb0dca3b5b27394548750ec022010269"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/launch/research1_landmarks.launch.py",
+      "sha256": "e08c83118fb090350b5b0d1c3448d7352970299573f848c7b77828f03b47ed4c"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/package.xml",
+      "sha256": "74338dd613b793a7d5d9598bd7b5202681e4355608bfebdcfeae2a5b8079b860"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/resource/language_nav_bringup",
+      "sha256": "7e7961754383d1dedfb53f564f36a725b7c4497d64844e67c937fac754abceaf"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/setup.cfg",
+      "sha256": "c0f86940ad608f03d7520499aea5e7f2b7df63091eac2e2f62dbc23aaa809d91"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/setup.py",
+      "sha256": "4513f3ee8f771195ef3bbedd571f4621eb279c97945a1f1e9c127c0449d8c263"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/test/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ros_ws/src/language_nav_bringup/test/test_launch_source.py",
+      "sha256": "78510959fac224b245089bdcf25b52e1995b4980458f16f7205a46c27bf657c3"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/CMakeLists.txt",
+      "sha256": "98f9e62e1e5be137b6f955203323b5bfb3b34e4512024385c1415e6133403534"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/BeliefGraph.msg",
+      "sha256": "ed24c5e2faf10049554221c6ee19007a33ec48a8dd6b26c090e17c297766b295"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/Contradiction.msg",
+      "sha256": "dcced91935a361c552f7e3bd7b15ec143bf78a02ffe35bc52928aaaeb796bec5"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/FailureMonitorState.msg",
+      "sha256": "11def12b5e579d139bbc9e036c968f4291cd2775a3046c1e62c9d533e47b0313"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/LanguageHypotheses.msg",
+      "sha256": "f36256c01ad6f6b312b47ae750ff8cc92a2381c4d94b7668505aa349c586e656"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/LanguageInstruction.msg",
+      "sha256": "fc21c7dda7cadbdfd11c8e595f4b0fbf6addfcbbe20fd68d51ebc75ecb1ef9ca"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/LanguageNavDecision.msg",
+      "sha256": "04f49d7aa880a7a62b1d076f723cc7cb90c7297de320dfeeddb948da086f0317"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/LanguageNavOutcome.msg",
+      "sha256": "af1a45629291840f97953f39f1c5d33b3a45c759e4dafbfb090f4a42173d9fe7"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/RouteEligibility.msg",
+      "sha256": "1c7b4d0b4bb7942ac5dc937eaa3ae5e5236a2cd5a5dd7b297d95295c55c93a2b"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/RouteExecutionResult.msg",
+      "sha256": "4f1c6b4a714750f5da7d55c8a7683012508527faabd0435a1e6afba6e619b766"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/RouteRequest.msg",
+      "sha256": "b36a37d437e00fcfbc069f4a8b87f3a1ddc244042b8a8f6388f732ed026a00ec"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/SemanticObservation.msg",
+      "sha256": "8a2badbbecd17cff9a176e76a15d7cf9d8e1e7ca6ae18810350f0714d1c083e0"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/msg/SemanticRouteProposal.msg",
+      "sha256": "d8aca516779f5de461e00c5ffb5cb70d571cc33ca2b263ddde5726cbb90add3c"
+    },
+    {
+      "path": "ros_ws/src/language_nav_interfaces/package.xml",
+      "sha256": "44e6d3e5c27523c9388172b051a814fcbc5f520d7bcae0b36d9250f75f83f62e"
+    },
+    {
+      "path": "ros_ws/src/language_nav_planner/language_nav_planner/__init__.py",
+      "sha256": "cecdab3a1a25d1d626727457f7c051b84c591c5fa8685aff75b6ab892fd7a267"
+    },
+    {
+      "path": "ros_ws/src/language_nav_planner/language_nav_planner/node.py",
+      "sha256": "5abf06082801625c52e1bc8d4ba696795ee4f9c57e724749702de20635e0fccf"
+    },
+    {
+      "path": "ros_ws/src/language_nav_planner/package.xml",
+      "sha256": "81e813e6e51dcfac002bf7b5568697c160ed8081cccaf886fd015972732c9109"
+    },
+    {
+      "path": "ros_ws/src/language_nav_planner/resource/language_nav_planner",
+      "sha256": "81696078581ede0739993d0883fd154954a22403291085560bfed74cc97d8e6b"
+    },
+    {
+      "path": "ros_ws/src/language_nav_planner/setup.cfg",
+      "sha256": "f132a953e694adef9229305bf62b7ae7f353badcab72d255373c90abb5b53c03"
+    },
+    {
+      "path": "ros_ws/src/language_nav_planner/setup.py",
+      "sha256": "a7ddb5526a139459c7a55e2fb22be589a732c945720a4afa35474c10d7efaad1"
+    },
+    {
+      "path": "ros_ws/src/language_nav_planner/test/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ros_ws/src/language_nav_planner/test/test_node_import.py",
+      "sha256": "af3d903399d508f8e0c8a5e2142527b1b0d5954e2e5af849260f5d8fddf1c354"
+    },
+    {
+      "path": "ros_ws/src/language_nav_runtime/language_nav_runtime/__init__.py",
+      "sha256": "952073badeade7ee2001011aa1793476599ab8b03c9946886cb2e23d37ed7c6d"
+    },
+    {
+      "path": "ros_ws/src/language_nav_runtime/language_nav_runtime/monitor_bridge.py",
+      "sha256": "54a272552c0259c23e56ffdcb4f74e2b142dde139abaa4ee33cb1c3e2480ee7e"
+    },
+    {
+      "path": "ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py",
+      "sha256": "09c6a138c9a39eb4dcd12d6742874086d58251bbfeaf255fefc343f9444eff9d"
+    },
+    {
+      "path": "ros_ws/src/language_nav_runtime/language_nav_runtime/semantic_routes.py",
+      "sha256": "18a6f7cc27389539927c5b4259a4d3e2f648995b6a70ad044363b5ff3658b809"
+    },
+    {
+      "path": "ros_ws/src/language_nav_runtime/package.xml",
+      "sha256": "7d84989b5c258a0fe660defe4945e926f71494434ce90403023cdd56795c9343"
+    },
+    {
+      "path": "ros_ws/src/language_nav_runtime/resource/language_nav_runtime",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ros_ws/src/language_nav_runtime/setup.cfg",
+      "sha256": "fce3f2353a3746f088708b1432158de4fc2447ddb64a219ee0884c15aaf5789a"
+    },
+    {
+      "path": "ros_ws/src/language_nav_runtime/setup.py",
+      "sha256": "f728916bae5fe2b573475f0ad00bb2ffea88aed69ae6b9572b95e7d1509cbb91"
+    },
+    {
+      "path": "ros_ws/src/language_nav_runtime/test/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ros_ws/src/language_nav_runtime/test/test_node_import.py",
+      "sha256": "70ae026ce7e48255a69c1b023dca683febd9e1a93520d8d12e69e683e1f9d224"
+    },
+    {
+      "path": "ros_ws/src/semantic_belief_map/package.xml",
+      "sha256": "c0477b94df127bb551e15a0cb41253edd83fc2c7f0ef940784af766e08630ed8"
+    },
+    {
+      "path": "ros_ws/src/semantic_belief_map/resource/semantic_belief_map",
+      "sha256": "d2174486638a6d60cd6306fd02f6dcdce0289be9e226f9fdc0a338a8966e590d"
+    },
+    {
+      "path": "ros_ws/src/semantic_belief_map/semantic_belief_map/__init__.py",
+      "sha256": "b61b456e56ceda8aa8e6359cfdb7d0dd1822328232d754859245b7e5c80da11b"
+    },
+    {
+      "path": "ros_ws/src/semantic_belief_map/semantic_belief_map/node.py",
+      "sha256": "5a20309b6a6b2802c5892e176b73ca00331a7fa3fd76dfe11cecca96cebaf52a"
+    },
+    {
+      "path": "ros_ws/src/semantic_belief_map/setup.cfg",
+      "sha256": "34caca4073839c42073f9ca4d273e54ee1b3c6f34e4ccbc5d13dbddbccb2d20a"
+    },
+    {
+      "path": "ros_ws/src/semantic_belief_map/setup.py",
+      "sha256": "d2e427c92fe9f8ec3cb9c984e593d146a407d1f13c349fc7e2ac02c6aec26b7b"
+    },
+    {
+      "path": "ros_ws/src/semantic_belief_map/test/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ros_ws/src/semantic_belief_map/test/test_node_import.py",
+      "sha256": "dd87dd29e065908d5759da655c811964a2a2f6ff90a482d501cbe5188c0396d2"
+    },
+    {
+      "path": "scripts/analyze_graph_results.py",
+      "sha256": "9042836590e76631a7acb462b0c1a0a2e6e92505c517f81b24298de4e3686173"
+    },
+    {
+      "path": "scripts/analyze_heldout_results.py",
+      "sha256": "317313f124f368b11ddcdae51aa0e488212c7a719a7021d30bac3f595dc5bc18"
+    },
+    {
+      "path": "scripts/analyze_live_campaign.py",
+      "sha256": "2d5ca4abe4a034f1645426d83ae45befadf274e2530102a0c7f4f59ab0762195"
+    },
+    {
+      "path": "scripts/analyze_measured_live.py",
+      "sha256": "bb7bdefbb96230b682d2710b9758e3f98bc62f890459959fc95eae9cca384427"
+    },
+    {
+      "path": "scripts/analyze_physical_campaign.py",
+      "sha256": "8e73cc8aca4eb495959ab11390de4703edb257889ca66ae6498d4348677c3cd9"
+    },
+    {
+      "path": "scripts/analyze_physical_pilots.py",
+      "sha256": "0a014475fabacf7a801b89770f8937aa8c84dbf3066b72ef32b496ffa928c3eb"
+    },
+    {
+      "path": "scripts/audit_doorway_geometry.py",
+      "sha256": "c0f8bcb5ac5bebe76a396cfdf5403eda8fc99f6f16801314bdd9fd6c8fb4b163"
+    },
+    {
+      "path": "scripts/build_benchmark_manifest.py",
+      "sha256": "09694c34c7475541432e7b3e9b298f0eb5edbeb793973b070c6338a6d65ec44a"
+    },
+    {
+      "path": "scripts/build_heldout_landmarks.py",
+      "sha256": "9ae86eb8825945047ff5a608dcff241b71ef1a0f779490793b5efcc93fce1ee9"
+    },
+    {
+      "path": "scripts/build_landmark_review_queue.py",
+      "sha256": "730ae39d35021dabea3d4f88edc521706757158d9a3885adb76b74621d12cc5c"
+    },
+    {
+      "path": "scripts/build_landmark_review_queue_v2.py",
+      "sha256": "f9c9a0d1d843396a34f2c1586623a89c38865579b3a15c57a2da8df6d306f7b4"
+    },
+    {
+      "path": "scripts/build_landmark_review_queue_v3.py",
+      "sha256": "6468ca8fe21d00a378918ec41a1cbb4cf788243e19ce7ba6cda6b6ee7bc97549"
+    },
+    {
+      "path": "scripts/build_landmark_review_queue_v4.py",
+      "sha256": "640370b1e4f6da5250721c1ecf874321a200df63cd471a7fcff68c87e2f0101f"
+    },
+    {
+      "path": "scripts/build_landmark_review_queue_v5.py",
+      "sha256": "af1a9658f4f2bd9385ecb08ac124a03c2b721ab92345e13b60b8dcd6c8d08e1f"
+    },
+    {
+      "path": "scripts/build_physical_absence_worlds.py",
+      "sha256": "d20027207d5a21d8e3e1047786dafe62f0520c3e98c7a71c75bc1757a7ff132b"
+    },
+    {
+      "path": "scripts/build_physical_worlds.py",
+      "sha256": "fb4756845e538862de3166310a4acb13be070adbb0168082cf61de9c5995573e"
+    },
+    {
+      "path": "scripts/check_offline_readiness.py",
+      "sha256": "5cd68a36f2901057402ac0f23558ccc070c2819ea884b591b2e488f5fdc3e0b1"
+    },
+    {
+      "path": "scripts/check_research1_integration.py",
+      "sha256": "ff96e903718c1a9e8635370000b3c700b6451e28c045f5c3e692406a8acffb4c"
+    },
+    {
+      "path": "scripts/export_landmark_review_frames.py",
+      "sha256": "d98dba35086051a6967f400ac814355309353315d73a3c9ed1fb06e899380bc3"
+    },
+    {
+      "path": "scripts/export_landmark_review_frames_v2.py",
+      "sha256": "6115e8f1213523f1af4e3ec250a0f5315ce72b948c38d6e75267282bdc21010f"
+    },
+    {
+      "path": "scripts/export_landmark_review_frames_v3.py",
+      "sha256": "adf60877cb3d7a47ca14a7bbc90b49f40599ae9f691415257ae5c27a8adf5a84"
+    },
+    {
+      "path": "scripts/export_landmark_review_frames_v4.py",
+      "sha256": "319fb594feb0316a7c8733076bb488185132b459e0598900998983f224c64c7f"
+    },
+    {
+      "path": "scripts/export_landmark_review_frames_v5.py",
+      "sha256": "de4ca52d802b57aca2542977c71c53fd9b83ab28634ef099558c97c5d1b17a7a"
+    },
+    {
+      "path": "scripts/finalize_landmark_calibration_v3.py",
+      "sha256": "ee0a8f53fe397af3d7746d115ef48fe6aeaefcd1d9248bd3b323a08ae6f2b250"
+    },
+    {
+      "path": "scripts/finalize_landmark_calibration_v4.py",
+      "sha256": "a21350db027612ae60bc5a46bc5dffb0ba7a113285743c3df16da75ff17202f5"
+    },
+    {
+      "path": "scripts/finalize_landmark_calibration_v5.py",
+      "sha256": "24e5a450618f874f791be385b124e99b787d4133fcc5c893f8869ca9277f5ea5"
+    },
+    {
+      "path": "scripts/freeze_landmark_calibration.py",
+      "sha256": "d7211c8cd0b1630dae12b734a93f0c64d7a8750a9b9e5223507909186e5230b2"
+    },
+    {
+      "path": "scripts/freeze_live_provenance.py",
+      "sha256": "62131253caed66836dbf762cf25578f569cae0da979047fc8bf9e01bbf4a1792"
+    },
+    {
+      "path": "scripts/join_physical_review_capture.py",
+      "sha256": "439eb30f95d4589084248cc233f84849fc05e9f6e8391979607e32e03b99cb38"
+    },
+    {
+      "path": "scripts/make_landmark_challenge_world.py",
+      "sha256": "e6272a1edafc0945e1a04edb52b673d9eafd11cfd43325c53833a8d4bf0b707f"
+    },
+    {
+      "path": "scripts/package_offline_implementation.py",
+      "sha256": "ed1524a9ad723aeb2828450922a18dd292a4867fe72ba5964a0227fce995984b"
+    },
+    {
+      "path": "scripts/package_physical_pilots.py",
+      "sha256": "6ea2064b0107478b670be07d4e3c5f96fc950a7f0bbede54ab69d9336d1b99c1"
+    },
+    {
+      "path": "scripts/package_physical_worlds.py",
+      "sha256": "3e017ff65291ce857b9f57475a08a6d0a5751b5df96ddc0a6ea44ae789e04f72"
+    },
+    {
+      "path": "scripts/package_research3.py",
+      "sha256": "768b388f4489df46975131209d561ccea0df386f694e4364ba8bc28a6b1363e9"
+    },
+    {
+      "path": "scripts/physical_perception_capture.py",
+      "sha256": "06be8ba401eb33b38275a2ffb1bd3d2afff082ad579e572e1d53f47e8a80ce93"
+    },
+    {
+      "path": "scripts/physical_seed_preflight.py",
+      "sha256": "a3110c305c7b7b208330c987d59ad2fe2a51d587b49a5fb84e917282e9810ba1"
+    },
+    {
+      "path": "scripts/prepare_consolidated_review.py",
+      "sha256": "e8ca4c1a9d7ef5f0f1d0030205ec5547c42a333a4204d391978010cdc2cf96b8"
+    },
+    {
+      "path": "scripts/prepare_landmark_scene.py",
+      "sha256": "f44c54d4f2b1f4d6b806d10a037600109fe7f21e5600bc8532a2ef802855d751"
+    },
+    {
+      "path": "scripts/prepare_live_comparison.py",
+      "sha256": "a857c1132d0d20e4d2fb421437ca44f906e42f693c1455a1c539abfa63f85818"
+    },
+    {
+      "path": "scripts/prepare_physical_comparison.py",
+      "sha256": "ce749b61f39f3db2bce428ba7c8ee3f30d6f5699d9ee2d32624404e1e7678f4a"
+    },
+    {
+      "path": "scripts/prepare_physical_detector_review.py",
+      "sha256": "a13a164893869484de1bd43a2de48360a2f2b38c8cb86149d4a0a91d8edc4824"
+    },
+    {
+      "path": "scripts/render_perception_capture.py",
+      "sha256": "44c1308a5ed0d8bb83b5ed8a2703a11c3d40473d870975013ec78b45eb0d5ef4"
+    },
+    {
+      "path": "scripts/render_physical_world.py",
+      "sha256": "042d88729f1656b3c3c66f1df1f7e7dd19cf5ac1b4348205aa160cc2194d2594"
+    },
+    {
+      "path": "scripts/ros_env.zsh",
+      "sha256": "713f25cdeb53897ddf83624cc1438cf4a0a120d72dd6be366d67d533e76c8327"
+    },
+    {
+      "path": "scripts/run_graph_campaign.py",
+      "sha256": "ce52195e46f6b27759f37f1e80de497a5ae79f1175aa2ad94cc27f16b05644bc"
+    },
+    {
+      "path": "scripts/run_landmark_capture.py",
+      "sha256": "5b519bb66f89e4998b03b43fe472e3459f48ae672f19de876da71e9ddbdc90c0"
+    },
+    {
+      "path": "scripts/run_live_campaign.py",
+      "sha256": "cee78e0327f7c3c92ede1f537cc3d659676f5579ce49ee6c8e0582aee6092d59"
+    },
+    {
+      "path": "scripts/run_live_contract_smoke.py",
+      "sha256": "2aba34c4926f226f5a16faf5759098e35925690378bb9123867ef3da1c1198f1"
+    },
+    {
+      "path": "scripts/run_live_episode.py",
+      "sha256": "d475e99a354ac4b66f81ac92ec1e6cf3497417140ea51e04ed2ad98f4051dbb5"
+    },
+    {
+      "path": "scripts/run_physical_episode.py",
+      "sha256": "386539a76087f181d5ebe7ad795c9d541641cb6f19b141dd4eeeba9ee1d76241"
+    },
+    {
+      "path": "scripts/run_readiness_fault_smoke.py",
+      "sha256": "d6c1136f5da38e9ea231d8fc5cf4fd36b3876600218c4707a152c105a5ea4094"
+    },
+    {
+      "path": "scripts/serve_landmark_review.py",
+      "sha256": "14b0fa8873ecefe1727b053195e3bfbfff6ecb0ec8b6c2c06f9d99676d3589cb"
+    },
+    {
+      "path": "scripts/start_landmark_human_review.py",
+      "sha256": "b9abd84f5ed26ce0dc432bcd042e5df8f7967b57c51fbf430d64b676cac68148"
+    },
+    {
+      "path": "scripts/validate_heldout_catalogues.py",
+      "sha256": "f60cf8140c335fa834df0d89ff8b8d0f336b04bb5b2470075d071feef05a5ff6"
+    },
+    {
+      "path": "scripts/validate_landmark_human_review.py",
+      "sha256": "27af518691c040b4270a5282eba6bf9813c7a9a364d8ac92d9245900524daff2"
+    },
+    {
+      "path": "scripts/validate_landmark_human_review_v2.py",
+      "sha256": "800b89caa6f34e61801b4f5b71c8cbb09807e616cdbef17dac2eda48bf0716d1"
+    },
+    {
+      "path": "scripts/validate_landmark_human_review_v3.py",
+      "sha256": "e5787bc8e40645e667115060492295d9d24816b85161a2c4da954c97b32c37f7"
+    },
+    {
+      "path": "scripts/validate_landmark_human_review_v4.py",
+      "sha256": "52122d748e4d12ccaaa0b7de47f7d3d8871aa093689079147094a24667fc6353"
+    },
+    {
+      "path": "scripts/validate_landmark_human_review_v5.py",
+      "sha256": "638d42da296fafac2357d3c1b41e7e97a07d91e2ac717521c0ab701a527ff2dd"
+    },
+    {
+      "path": "scripts/validate_live_collision.py",
+      "sha256": "2a28cf906325c32296ccc3b1e8e0527ddd954d8091be17ad796569692047f0fd"
+    },
+    {
+      "path": "scripts/validate_physical_navigation.py",
+      "sha256": "d6c00e1552c2974ad3e9155d85a3392c84b2f8cd6667709ac06b2f38f71fd800"
+    },
+    {
+      "path": "scripts/validate_semantic_catalog.py",
+      "sha256": "7328d821494950e3a27271ec12a7351720f8d526d30a40c02dc673d8ce1e3f27"
+    },
+    {
+      "path": "scripts/verify_physical_release.py",
+      "sha256": "38972d3dbb198603252263b69e0ee6771f14febdda917ea3aa5b2a1b479bd4b8"
+    },
+    {
+      "path": "scripts/verify_physical_world.py",
+      "sha256": "48c6934aa90346f111265b7fc65b873305619fe2d1679ce83ccd54f6ed763be0"
+    },
+    {
+      "path": "src/language_nav/__init__.py",
+      "sha256": "f1effcba5c25ead479d2c5e7dc192e7d290ef01076b2eaff1855346162286009"
+    },
+    {
+      "path": "src/language_nav/adapters/__init__.py",
+      "sha256": "cd0b3f6eeab95a890e66e6231531e30247c5b102f5aa030b8dc7e6127472b746"
+    },
+    {
+      "path": "src/language_nav/adapters/landmark_challenge.py",
+      "sha256": "ff0353a05fdbb763e85002cc5259f1f71eb7a016eaf3cfc43043a9acf79b069f"
+    },
+    {
+      "path": "src/language_nav/adapters/landmark_palette.py",
+      "sha256": "15e1f95d2057466310a5fdd8e523e6c63c90a9ad2ef1b52b6e6d682e94197914"
+    },
+    {
+      "path": "src/language_nav/adapters/nav2.py",
+      "sha256": "2d5221a12cd55a94ff2573383452040cefb67cdb90b30aac01bee4e4fc16313d"
+    },
+    {
+      "path": "src/language_nav/adapters/research1.py",
+      "sha256": "d2aa4a44f873b432e235bf99c0476b9d4157c51998e98fe42ff28c9c3bc7c506"
+    },
+    {
+      "path": "src/language_nav/adapters/research2.py",
+      "sha256": "5f50f98e8eda1459c86315daeeb1f2e6f451847ff28d538be9d6f631143adcd9"
+    },
+    {
+      "path": "src/language_nav/adapters/ros.py",
+      "sha256": "ac6e3e256c890af7fc5293abebe15f59690fc43eb6846cfdb8731b1a4972b063"
+    },
+    {
+      "path": "src/language_nav/adapters/rosbag_replay.py",
+      "sha256": "dfb43a904cc4ebd821256ccb4e38e830d408ad828dc8cb3f1449d46cd6beb58a"
+    },
+    {
+      "path": "src/language_nav/belief/__init__.py",
+      "sha256": "3dc8cad0da2fa229370d9e5b8e75c60d8fe7eeb08b024e1aa0262e928cf73957"
+    },
+    {
+      "path": "src/language_nav/belief/store.py",
+      "sha256": "54217cf06eedfc002f6b7eda9a0800c8fab542331f32f679cf7f09e96b82db13"
+    },
+    {
+      "path": "src/language_nav/belief/update.py",
+      "sha256": "b0fc485af8da51abe7209b88d1bdafb631d2fb67c42e7384442c2306928e87c5"
+    },
+    {
+      "path": "src/language_nav/benchmark/__init__.py",
+      "sha256": "2587f71689e15fffef4bc756e78e5da31efe71a3e7c72a92f6f7a66183f3a39c"
+    },
+    {
+      "path": "src/language_nav/benchmark/annotations.py",
+      "sha256": "8e421f00e558ad86e833fed0bc5751f4393921bac15ea4a35b2f9a689a7a4cc2"
+    },
+    {
+      "path": "src/language_nav/benchmark/corpus.py",
+      "sha256": "3a69a631d1fb6e7bc928611dff50bd06b12717c6e0e15b76933f59c55e6bcd7c"
+    },
+    {
+      "path": "src/language_nav/benchmark/corruptions.py",
+      "sha256": "1adb34250106873b8ad6d311bc144d18efe6b9895bfcbdeb8ce8c568f422e521"
+    },
+    {
+      "path": "src/language_nav/benchmark/paired_trace.py",
+      "sha256": "a2bad1f26b1b0936b1f680612811ea4e5ddfdde3c3d5e95cb1f2623dfa33e260"
+    },
+    {
+      "path": "src/language_nav/benchmark/physical_catalog.py",
+      "sha256": "5b5b2992bd41064322a129f8e4506eca5974fb1bfceff93d2daf18a5cb1679d9"
+    },
+    {
+      "path": "src/language_nav/benchmark/semantic_catalog.py",
+      "sha256": "9f78842c82369d1040784de20b07a1723779e3f55192aef6b44bc6b6db14c24f"
+    },
+    {
+      "path": "src/language_nav/benchmark/splits.py",
+      "sha256": "2bc35aec8661c4c403b8eb16d72d9c6e1fa72f0d78ab13e50b1e0401849500ff"
+    },
+    {
+      "path": "src/language_nav/calibration/__init__.py",
+      "sha256": "f4055745f5d9f0f0e96f7fb9f8c51de88d8d849c724f556fbc515d501e17c7cb"
+    },
+    {
+      "path": "src/language_nav/calibration/calibrators.py",
+      "sha256": "135862f179b0907052f35a4417b1614e229cfb25deca61b7832a56cb772d17ff"
+    },
+    {
+      "path": "src/language_nav/calibration/freeze.py",
+      "sha256": "717e8bca7d23552bb338bd54e1f75d40e79f6f730e6457ab6ba87f5243158d33"
+    },
+    {
+      "path": "src/language_nav/contracts.py",
+      "sha256": "f4473ab24117edf2445d8953d5cdbba63ec0513cd57c8c54805ce31d196e5d48"
+    },
+    {
+      "path": "src/language_nav/evaluation/__init__.py",
+      "sha256": "66a800640575c5f89f033fbb22ebcdd89660c3c2bebec9f2bf5cff9852aa1fc1"
+    },
+    {
+      "path": "src/language_nav/evaluation/campaign.py",
+      "sha256": "7ab5f26ca366ad3c8e5f1936a9b0a3f767bd3d3875616676c1293a6076cac8d1"
+    },
+    {
+      "path": "src/language_nav/evaluation/metrics.py",
+      "sha256": "92d03de06abb9ec119267b71667cfad954d13853c29aaaf8666d866a585feb6c"
+    },
+    {
+      "path": "src/language_nav/evaluation/ordered.py",
+      "sha256": "d0e0a1d0a5a783b1e16ae64a7d0420163e09c7481735544f9e57a5cc6a76fdfc"
+    },
+    {
+      "path": "src/language_nav/evaluation/study.py",
+      "sha256": "9dfb0fb9039c5ca936bb28ebe64ceccc8f2dd337e381614485b5b1a9f70935ea"
+    },
+    {
+      "path": "src/language_nav/geometry.py",
+      "sha256": "da223fae0450c525d8b6d6db193d452f99f3f64113b0c2a50640625d8d748d88"
+    },
+    {
+      "path": "src/language_nav/grounding/__init__.py",
+      "sha256": "292110100a6aa2759d1107afe47499e3923583f2a5d3aeb8b264bcea38c7705c"
+    },
+    {
+      "path": "src/language_nav/grounding/candidates.py",
+      "sha256": "24d29d97ee533f7b9b3c65a5982afc6420518766cb501c0e20c42ea3221a6c64"
+    },
+    {
+      "path": "src/language_nav/grounding/routes.py",
+      "sha256": "414c3535e19ddb8ead6196140462cf21e6c497f610ade3a118e066fd9e937010"
+    },
+    {
+      "path": "src/language_nav/live.py",
+      "sha256": "0085f58f5c9896c227b9edabf6843a046fc775e44347683b79361c04dc7e735b"
+    },
+    {
+      "path": "src/language_nav/live_resources.py",
+      "sha256": "e4c9add0f4dc1107f41c67ae866202b1b0e1e359c6bc13813aa3dfe501803d08"
+    },
+    {
+      "path": "src/language_nav/models.py",
+      "sha256": "4e93518674a8ef61a8eb382567ac9ad604704a4fc185d493f998d21acf4a070b"
+    },
+    {
+      "path": "src/language_nav/parsing/__init__.py",
+      "sha256": "aa19fc3093ceced5e39c6ecb94ae9ef1ee1546eae9bd28c38aec73024d370894"
+    },
+    {
+      "path": "src/language_nav/parsing/rule_based.py",
+      "sha256": "9af66c8f6f2bde0bffe42971636ba0767d04715c8d46d411b01e635a92a710a8"
+    },
+    {
+      "path": "src/language_nav/planning/__init__.py",
+      "sha256": "80dc601cd5e097b542cae16c1da97d0f28722cb73a1a49a6d210e1abdc1a9bc5"
+    },
+    {
+      "path": "src/language_nav/planning/policy.py",
+      "sha256": "312bb8813f3a53e46ab9a00576d2693df706079c16f3569d13be29a7683f1175"
+    },
+    {
+      "path": "src/language_nav/runner/__init__.py",
+      "sha256": "73d6c7287f3dbfb49978a6d8b32c3d948230e166aa218a0b1ad0a684df6c5e34"
+    },
+    {
+      "path": "src/language_nav/runner/episode.py",
+      "sha256": "6814b2e517a2f758a967b8755a411f14970ffde3162f0e22d01aa55b67d433fa"
+    },
+    {
+      "path": "src/language_nav/runner/logging.py",
+      "sha256": "85b2b58bbe2094551ba0734ecc0073e47556295757d8e17013dd4ce5c8dc09a0"
+    },
+    {
+      "path": "src/language_nav/safety.py",
+      "sha256": "3b3d958598e9de3df657d7a42e7afc997c5f8f820c435920f4c12cd90f42edaa"
+    },
+    {
+      "path": "src/language_nav/systems/__init__.py",
+      "sha256": "18652596131cf2cb281b9098137f51986b3155fe1b3e9be477c493e54c00ed07"
+    },
+    {
+      "path": "src/language_nav/systems/variants.py",
+      "sha256": "fcd3abc4ac9c072ded4b9cf3558326e0ba83faf27721073bcfbdc6ef3f83b0a1"
+    },
+    {
+      "path": "src/language_nav/world/__init__.py",
+      "sha256": "07534dfa37a15e2712a452a19b23c5fa69214461c3c48b1d48f394c9b2e674f9"
+    },
+    {
+      "path": "src/language_nav/world/graph_world.py",
+      "sha256": "ed732eebd92d19ae0cff86a64383dcbc6f90ee94ab7fde8ed1126b52287862e5"
+    },
+    {
+      "path": "src/language_nav/world/physical.py",
+      "sha256": "4fa6c43722956daddd449f02a66d279fafa008f203bec0d4f9296f2043b3b380"
+    },
+    {
+      "path": "tests/test_adapters.py",
+      "sha256": "4992ddfa2585e12eaacd8f55156d1e30280a3f5febd4619db8bb3f92882b6011"
+    },
+    {
+      "path": "tests/test_annotations_and_campaign.py",
+      "sha256": "f3043bfe65826707f7cff0c76ee03b29a0be3b767f6ab46f55bd23cdedc73db3"
+    },
+    {
+      "path": "tests/test_belief.py",
+      "sha256": "c033e4d4925669f2b3bd8d063675ff7f56271351c7c7e84468ae36b287a0cd1e"
+    },
+    {
+      "path": "tests/test_belief_store.py",
+      "sha256": "c6a37d7ee4f43909ed2ad8268b8cc3bdd8d05261705af8261227561469d974a4"
+    },
+    {
+      "path": "tests/test_benchmark_corpus.py",
+      "sha256": "ea0a957ae383cf58e39042391940d97dcfb71fe10b0664c6fb281cc795283225"
+    },
+    {
+      "path": "tests/test_calibration.py",
+      "sha256": "0a761d5a02f7d884b3b247d5dc85d23d7384a568ef103776998b3e7db84e9b0b"
+    },
+    {
+      "path": "tests/test_calibration_freeze.py",
+      "sha256": "29be9e4000a23293f57608982a603c3f0088d78e80fa3da6c528190e1631a60a"
+    },
+    {
+      "path": "tests/test_campaign_cli.py",
+      "sha256": "452a0964f2b9e179d15f65741fea5ba02879fbf0d9dce20354aa4fe48386fc5c"
+    },
+    {
+      "path": "tests/test_consolidated_review.py",
+      "sha256": "435c7ab9994d4513bdd1add3b4664e17ab6e32c8fae4d78847f30e9744f69f97"
+    },
+    {
+      "path": "tests/test_contract_validation.py",
+      "sha256": "00e926eba64a1a71b7b6429bb819e3f48bff9cb868895309ce42afd9a3a0597a"
+    },
+    {
+      "path": "tests/test_episode_runner.py",
+      "sha256": "56f9b5cf1ac0241a8a8b5be94ad9326b2f89f950dba123348364fd0ada333988"
+    },
+    {
+      "path": "tests/test_evaluation_extended.py",
+      "sha256": "f57b8b54d14bf8564a53906e50d5962f90a6783fe6eb8a0ba68ace1f7ccb8857"
+    },
+    {
+      "path": "tests/test_exact_review_join.py",
+      "sha256": "beb8ce26b2fa17f4ac678eb69e900111837fbf5893294e9cc9d115095312a713"
+    },
+    {
+      "path": "tests/test_geometry.py",
+      "sha256": "185a25435f80a410c7b753482c91ed468eed6ab185972547dbf549da981b225a"
+    },
+    {
+      "path": "tests/test_graph_world.py",
+      "sha256": "f8c49ce984b1b453eecb9f3fb9ee6b866adca86396d936b5a5829ca2de57cb02"
+    },
+    {
+      "path": "tests/test_grounding.py",
+      "sha256": "ed8bf8178a4941ff043a4b257ac34331f7850299ac9accebff6ed2aa956c3f6b"
+    },
+    {
+      "path": "tests/test_inspection_deadline.py",
+      "sha256": "e4d9294f0940b3f5bc84126926bc2c99283665a69519d57cbcce225731c7288f"
+    },
+    {
+      "path": "tests/test_landmark_challenge.py",
+      "sha256": "5413c1838627cc3764afdabcbbec9858cadcd1a59bfbbb04b9bf208384c00df7"
+    },
+    {
+      "path": "tests/test_landmark_palette.py",
+      "sha256": "d422b5d876ef9c35632f788a1d7e4357a58bd936aec38b1b4ef2b3ed06e0ce5a"
+    },
+    {
+      "path": "tests/test_live_resources.py",
+      "sha256": "79ee45b10f6442c6253dcd4da47aad5410b78826410e1c0f8c3e7b75723df3b4"
+    },
+    {
+      "path": "tests/test_live_runtime.py",
+      "sha256": "6efd58aeb3e281122bf487e236471b6708fd69403529fcfe9673bdf8eb293e3d"
+    },
+    {
+      "path": "tests/test_measured_live_audit.py",
+      "sha256": "a0148b449c84bc82202db5ba943afe76622c98fd46a41665a70bcb81c49503e9"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "sha256": "29ec6319620cffefeb5dcc671b1d86c13f3df2b80f849730fcaa229d1a2b40c2"
+    },
+    {
+      "path": "tests/test_observation_capture.py",
+      "sha256": "c04ad21af12494f362f865cb7ad292bdb9b9080ba76dec6aaa5de0510f6dd211"
+    },
+    {
+      "path": "tests/test_observation_identity.py",
+      "sha256": "372c020523474075b845d47e44e984929e31e0cbc475859ece8671b419b0c4be"
+    },
+    {
+      "path": "tests/test_offline_package.py",
+      "sha256": "e0ecc7cc9622987e705468895a91a246d544ef9544fbfd2060d230f546ff1109"
+    },
+    {
+      "path": "tests/test_ordered_scoring.py",
+      "sha256": "925de6346f96bf58b323379b40555e7566c3c6bd6a877ee71921d7345ab73de0"
+    },
+    {
+      "path": "tests/test_paired_trace.py",
+      "sha256": "5f893e3e68aaa7b682c87b0b2c72eb6a82fb6cea5e2de62fa8d875d47304d889"
+    },
+    {
+      "path": "tests/test_parser.py",
+      "sha256": "a3f7ba2a2e4894ba87d6a51929e26352e74d0cc4c976a65fc4c8a9d0e8ff60e4"
+    },
+    {
+      "path": "tests/test_path_serialization.py",
+      "sha256": "43a75c439b7a1f0855bb017ec70e8985f169a6305a2be24fcdd79bc0b0df4fc9"
+    },
+    {
+      "path": "tests/test_physical_absence.py",
+      "sha256": "a0a5ddeaaea95de681b86c323812ad7957f333bf455c1ddbc9bd9e22f58efb83"
+    },
+    {
+      "path": "tests/test_physical_campaign_analysis.py",
+      "sha256": "be56ad6df488d6855a1de455aeef0e42c2c1b1034cbd73b29be52f699ca61495"
+    },
+    {
+      "path": "tests/test_physical_catalog.py",
+      "sha256": "0dea383e66305181af0dbe5eb72e3a4ab6e950571880c39f471685531ebc04ed"
+    },
+    {
+      "path": "tests/test_physical_comparison.py",
+      "sha256": "2faa71f293799a5c61dfa6b53cc65308f3812bd959f31d10d73a8e6fd668cc53"
+    },
+    {
+      "path": "tests/test_physical_detector_review.py",
+      "sha256": "5f8258537b7923334bcb56d481fa0efe9d802379736383809c3c3d9433a52f22"
+    },
+    {
+      "path": "tests/test_physical_episode_runner.py",
+      "sha256": "69e8607f0a543ee2bada9611eb5236a182b44c57414aef884e570a892f459937"
+    },
+    {
+      "path": "tests/test_physical_pilot_analysis.py",
+      "sha256": "ce0523e5497a47c9549d7060a0ffbbfb6d26aa0d7f0d0b4bd5a99abfb0e42946"
+    },
+    {
+      "path": "tests/test_physical_release.py",
+      "sha256": "4c1e57e06b868afd496eee226ab30928906095ff0b115545e8c2e8fab75e433b"
+    },
+    {
+      "path": "tests/test_physical_seed_preflight.py",
+      "sha256": "ccd5b95695b8fabc9f7b241378db366a0698b5b9dc1d31ed27519e7e477cda16"
+    },
+    {
+      "path": "tests/test_physical_world.py",
+      "sha256": "b97821c99506661678203eb1981a3961e287a21224db7bfb8c7b80641ae845ee"
+    },
+    {
+      "path": "tests/test_policy.py",
+      "sha256": "91f17ab90e93979cb60769e7c30233a4249fef5ce16c9d184315ad96f2508cac"
+    },
+    {
+      "path": "tests/test_research1_adapter.py",
+      "sha256": "25e213105e97a8dfe120d06c0a138c4bfee97ed97353195a2f0c868ef8e449aa"
+    },
+    {
+      "path": "tests/test_ros_scaffold.py",
+      "sha256": "e6383eb6e146001648c1a220a893c8b83dde1964d8af5c2ed90a5e1781621ad9"
+    },
+    {
+      "path": "tests/test_safety.py",
+      "sha256": "c255e53ed05694a2887f1fa3e108ed1484b5f33ca1991b268ba67340f6ba8fdf"
+    },
+    {
+      "path": "tests/test_schema.py",
+      "sha256": "b656986e09fa63faa84bc9ac9e03c3e7e0ec670a8517056b2fbadec07e902843"
+    },
+    {
+      "path": "tests/test_semantic_catalog.py",
+      "sha256": "97299c1e5eb4c06baee1a9e7944defb5fc455a1b194e460f00314200a32090ea"
+    },
+    {
+      "path": "tests/test_semantic_routes.py",
+      "sha256": "6bbaaba9326c27cba6929d1d46f077d3992802bcbc3ba8946335e3ab76c0c1b4"
+    },
+    {
+      "path": "tests/test_splits.py",
+      "sha256": "e79a3ce2fa97ecb5e43faafea3ecf4dbb41ba040fe6cf85e7463d5050d10fcbd"
+    },
+    {
+      "path": "tests/test_stage1_integration.py",
+      "sha256": "78e4c315c84425b1004470fe7cf26382de0a376c6d8fbab0b965ca5123274677"
+    },
+    {
+      "path": "tests/test_study_analysis.py",
+      "sha256": "663bd9cbf5cfb3b553cb171ef95f954db626f4f44a393ee10a01945b1b95de30"
+    },
+    {
+      "path": "tests/test_system_variants.py",
+      "sha256": "1baaef8fa1ec98c5077de901af42bb716f036e1fbc5ae0a1cf04af0bd4a285aa"
+    }
+  ],
+  "limitations": [
+    "No final protocol, calibration labels, live comparative evidence or external dependencies bundled.",
+    "Public benchmark input and runtime environment must be supplied separately; not a standalone study release."
+  ],
+  "schema_version": "research3-local-file-manifest/v1",
+  "scientific_release_complete": false,
+  "scope": "offline implementation and 28 non-protected world assets only"
+}

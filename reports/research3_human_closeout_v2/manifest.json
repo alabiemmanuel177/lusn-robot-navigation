@@ -1,0 +1,20 @@
+{
+  "approved_model_included": false,
+  "engineering_preflight_images": 1,
+  "execution_authorized": false,
+  "files": {
+    "CLASSWISE_CALIBRATION_IMPLEMENTATION.md": "bb0ecfb93e38d226115ae69d521d26fb7bafc9ca52a45224a7239100006ae12e",
+    "HUMAN_GATES.md": "7a1d917445e8882fc7387f3830f3f97935c4953db87905f40a01d307e66e55e2",
+    "README.md": "3fec0f0e52f8c5e747b137061fa1547e0a6d718023dc739bd898a72ba0b48db8",
+    "VALIDATION_DELAYED_RELEASE.md": "d099bed78105789d7f6859f9cdd5c41dcdccc6c9ae26fc54f304e492eee9aea3",
+    "engineering_preflight/capture_summary.json": "0d3e016f750042cd64c1f06744930019f276f24a45d6f03a78a4afeec737aa81",
+    "engineering_preflight/exact-frame.png": "cd1b2f6e84cea96d13b0be9262565412d68957ab51ddcf9fffff9490737a3d72",
+    "reference/campaign_approval_contract.md": "494eeb9409bdd0955c0e8559e95ac10c2b3ed8560d9f709f2b61c283c559771b",
+    "reference/final_release_contract.md": "443531ca5cdb6af4eb0e5a97e0c0199b957929bc5715b9b7ab18990b65583b65",
+    "reference/heldout_approval_contract.md": "0e6d7d58bb6d9cb3bb2d30fbd0a55ca022aedb332a0863bfcd4d472b74644d72"
+  },
+  "new_reviewable_observation_panel_included": false,
+  "packet_id": "research3-human-closeout-v2",
+  "ready_for_new_human_decision": false,
+  "schema_version": "research3-human-closeout-instructions/v2"
+}

@@ -1,0 +1,19 @@
+{
+  "calibration_approved": false,
+  "execution_authorized": false,
+  "files": {
+    "CALIBRATION_METHOD_PROPOSAL_20260912.md": "5532f4b9f3495fc5a8164cbfbdae6d612b58c906b6b222d5659c78e32a46780c",
+    "EXPANSION_IMPLEMENTATION_GATE.md": "88dbb6a19761e21598bd6ccdfd696c438c2915245a401c8bb7066b9933d64780",
+    "PROPOSAL_RESPONSE.md": "68671a1661fcafff458239d558513a8c198c06badce19c7addb8f5d4af8d152c",
+    "README.md": "8cb634703d46537632df50e5066d613ebcbd2ccfd33ee7b577c4b04c57b369cc",
+    "STATISTICAL_METHOD_PROPOSAL_20260912.md": "4d6962f13c7362e8d786677caa0a39aad5cb7990aa84b0e1a4b0055fd699efc6",
+    "VALIDATION_DELAYED_RELEASE.md": "d099bed78105789d7f6859f9cdd5c41dcdccc6c9ae26fc54f304e492eee9aea3",
+    "candidate_source/expansion_sampling.py": "27f79030b40c9ccea406e3c427bda264a0929de9edb8c1dfd91d8fef880df81c",
+    "candidate_source/physical_expansion_capture_candidate.py": "ed5c2773ff1dafef59efa8929ccd62fc2e3304faa442754d2e66abecb034f245",
+    "candidate_source/world_sign_flip_sensitivity.py": "aca854aecff3a27badb0c2205cb82c13912548ebf7b3ef4a01c83dbd413f709b",
+    "seal_validation_review.py": "aec95ab1eebc769ff18b5b9e8e55894cb66071cfcf9813f39f6136a07e7dca5f",
+    "sign_flip_sensitivity.json": "d10c34ce351a77800e38e206516e309ff1520c1a3b5b79c4c289a5dac1bbfec8"
+  },
+  "schema_version": "research3-method-proposal-addendum/v1",
+  "status": "pending_human_review"
+}

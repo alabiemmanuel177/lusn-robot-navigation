@@ -1,0 +1,307 @@
+{
+  "alarm_count": 1,
+  "alarms": [
+    {
+      "alarm": true,
+      "compute_ms": 2.6212220000161324,
+      "decision_index": 15,
+      "decision_time": 25.07,
+      "diagnosed_signal_group": "planning",
+      "group_contributions": {
+        "localisation": 0.0,
+        "motion_and_goal": 2.113740752637386,
+        "perception_confidence": 0.0,
+        "planner_controller": 2.3513833731412888,
+        "raw_sensor": 0.468494040625436
+      },
+      "persistent": true,
+      "raw_score": 0.8182310461997986,
+      "risk_score": 0.23522979288257256,
+      "state": {
+        "immediate_collision_risk": false,
+        "localisation_poor": true,
+        "obstruction_may_be_transient": false,
+        "planning_stale_or_blocked": true,
+        "rear_clearance_m": 0.817735493183136,
+        "relocalisation_available": false,
+        "repeated_recovery_count": 0,
+        "rotation_clearance_m": 0.4493573307991028,
+        "stop_allowed": true,
+        "stopped": true
+      },
+      "threshold": 0.23509196030026114,
+      "warning_id": "r3-measurement-dev00-v1-w001"
+    }
+  ],
+  "assets": {
+    "calibrator": "/home/eao/failure-prediction/reports/calibration/final_v1_seed20260904/p3_causal_tcn.calibrator.json",
+    "calibrator_sha256": "6810746b3671ce30ac75c904c762d323fad8818f97d1ea6ce0d17e8ebb90b1d8",
+    "checkpoint_sha256": "171451f0fa21036a05a5b9eb2181568976e65131fa30f74ad3d0c88f6fea57a6",
+    "cooldown_seconds": 10.0,
+    "engineering_smoke": false,
+    "frozen": true,
+    "model_dir": "/home/eao/failure-prediction/models/final_v1_seed20260904/p3_causal_tcn__seed20260904",
+    "model_freeze": "/home/eao/failure-prediction/configs/model_freeze.yaml",
+    "model_freeze_sha256": "b80b4e8ba92cef6bc6b9d55e0d9949622e244f2eb710b418cddfb645196117c4",
+    "persistence": [
+      2,
+      3
+    ],
+    "threshold": 0.23509196030026114,
+    "threshold_source": "/home/eao/failure-prediction/configs/alarm_policy.yaml"
+  },
+  "buffer": {
+    "dropped_mixed_source": 0,
+    "dropped_out_of_order": 0,
+    "dropped_unknown": 0,
+    "received": 2718
+  },
+  "causal_role": "label_only",
+  "compute_ms": {
+    "max": 17.5251760001629,
+    "median": 7.6775790003011934,
+    "p95": 13.94250369994551
+  },
+  "decision_count": 19,
+  "decisions": [
+    {
+      "alarm": false,
+      "compute_ms": 5.4306670003825275,
+      "decision_index": 0,
+      "decision_time": 17.57,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.37936538457870483,
+      "risk_score": 0.12446600446035908,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 5.422956000074919,
+      "decision_index": 1,
+      "decision_time": 18.07,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.015545930713415146,
+      "risk_score": 0.03343920041381387,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 10.117833000094834,
+      "decision_index": 2,
+      "decision_time": 18.57,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.04904213547706604,
+      "risk_score": 0.051831022231549784,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 8.289054000215401,
+      "decision_index": 3,
+      "decision_time": 19.07,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.007569500245153904,
+      "risk_score": 0.02544856899215454,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 6.944676999864896,
+      "decision_index": 4,
+      "decision_time": 19.57,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.0008490712498314679,
+      "risk_score": 0.011056935712896622,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 8.24961299986171,
+      "decision_index": 5,
+      "decision_time": 20.07,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.0006938900332897902,
+      "risk_score": 0.010234998724704309,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 7.6775790003011934,
+      "decision_index": 6,
+      "decision_time": 20.57,
+      "diagnosed_signal_group": "localisation",
+      "persistent": false,
+      "raw_score": 3.7145346141187474e-05,
+      "risk_score": 0.0033231963650484225,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 12.659293000069738,
+      "decision_index": 7,
+      "decision_time": 21.07,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.00019963280647061765,
+      "risk_score": 0.006346959252303433,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 3.514965999784181,
+      "decision_index": 8,
+      "decision_time": 21.57,
+      "diagnosed_signal_group": "planning",
+      "persistent": false,
+      "raw_score": 0.000586288224440068,
+      "risk_score": 0.009595405967171934,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 2.8278069999032596,
+      "decision_index": 9,
+      "decision_time": 22.07,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.004766998812556267,
+      "risk_score": 0.021349451818373198,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 2.7101130003757135,
+      "decision_index": 10,
+      "decision_time": 22.57,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.028440112248063087,
+      "risk_score": 0.04206970079580415,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 2.9511100001400337,
+      "decision_index": 11,
+      "decision_time": 23.07,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.1066141426563263,
+      "risk_score": 0.07029019097100374,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 17.5251760001629,
+      "decision_index": 12,
+      "decision_time": 23.57,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.4599881172180176,
+      "risk_score": 0.13913097150516648,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 8.322916999986774,
+      "decision_index": 13,
+      "decision_time": 24.07,
+      "diagnosed_signal_group": "planning",
+      "persistent": false,
+      "raw_score": 0.5761137008666992,
+      "risk_score": 0.16220361300537822,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 8.141621999584459,
+      "decision_index": 14,
+      "decision_time": 24.57,
+      "diagnosed_signal_group": "unknown",
+      "persistent": false,
+      "raw_score": 0.833163857460022,
+      "risk_score": 0.24252500598025067,
+      "warning_id": null
+    },
+    {
+      "alarm": true,
+      "compute_ms": 2.6212220000161324,
+      "decision_index": 15,
+      "decision_time": 25.07,
+      "diagnosed_signal_group": "planning",
+      "persistent": true,
+      "raw_score": 0.8182310461997986,
+      "risk_score": 0.23522979288257256,
+      "warning_id": "r3-measurement-dev00-v1-w001"
+    },
+    {
+      "alarm": false,
+      "compute_ms": 13.544428999921365,
+      "decision_index": 16,
+      "decision_time": 25.57,
+      "diagnosed_signal_group": "unknown",
+      "persistent": true,
+      "raw_score": 0.8888444304466248,
+      "risk_score": 0.27749684796258633,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 6.382864999977755,
+      "decision_index": 17,
+      "decision_time": 26.07,
+      "diagnosed_signal_group": "planning",
+      "persistent": true,
+      "raw_score": 0.8050612211227417,
+      "risk_score": 0.22929028438004967,
+      "warning_id": null
+    },
+    {
+      "alarm": false,
+      "compute_ms": 10.479315999873506,
+      "decision_index": 18,
+      "decision_time": 26.57,
+      "diagnosed_signal_group": "planning",
+      "persistent": false,
+      "raw_score": 0.7695625424385071,
+      "risk_score": 0.21510552179269357,
+      "warning_id": null
+    }
+  ],
+  "engineering_smoke": false,
+  "forced_action": null,
+  "grid_start": 12.57,
+  "history_seconds": 5.0,
+  "mission_start": 12.57,
+  "policy_id": "R2",
+  "relocalisation_available": false,
+  "run_id": "r3-measurement-dev00-v1",
+  "schema_version": 1,
+  "state_estimator": {
+    "immediate_collision_front_range_m": 0.3,
+    "localisation_poor_covariance_trace": 0.5,
+    "odom_max_age_seconds": 0.5,
+    "planning_stale_replan_rate_per_s": 1.0,
+    "scan_max_age_seconds": 0.5,
+    "stopped_angular_rads": 0.05,
+    "stopped_linear_mps": 0.01,
+    "transient_obstruction_front_range_m": 1.0
+  },
+  "stride_seconds": 0.5,
+  "subscribed_topics": [
+    "/cmd_vel",
+    "/odom",
+    "/amcl_pose",
+    "/scan",
+    "/plan",
+    "/local_plan",
+    "/research2/features/perception",
+    "/behavior_tree_log"
+  ]
+}

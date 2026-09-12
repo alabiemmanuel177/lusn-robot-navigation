@@ -1,0 +1,3181 @@
+{
+  "campaign_authorized": false,
+  "condition_preflights": 112,
+  "nonprotected_world_count": 14,
+  "protected_content_used": false,
+  "remaining_evidence_gates": [
+    "live_inspection_and_point_goal_validation",
+    "live_seed_and_absence_intervention_validation",
+    "new_world_detector_capture_and_individual_visual_qa",
+    "genuine_human_labels_and_calibration_freeze",
+    "protocol_approval_and_heldout_authorization"
+  ],
+  "rows": [
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "794cbfa11ceaf8747d34ad517417c1f8b56c63f3787610097b135579af21d7dd",
+        "landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+        "manifest.json": "c99853c34d2af1c7047f6d43baf557f626610c425bf672d519d5f51952176103",
+        "map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "472a905de6b5eab64957c70b33f6c290cb33d52b60eb74944d382a2206ca88ea",
+        "world.sdf": "b1800857c27e0ec9378da274c0108cbd41b00761b4339940d923478454879068"
+      },
+      "base_instruction_id": "base-r001",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r001/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "794cbfa11ceaf8747d34ad517417c1f8b56c63f3787610097b135579af21d7dd",
+        "landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+        "manifest.json": "c99853c34d2af1c7047f6d43baf557f626610c425bf672d519d5f51952176103",
+        "map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "472a905de6b5eab64957c70b33f6c290cb33d52b60eb74944d382a2206ca88ea",
+        "world.sdf": "b1800857c27e0ec9378da274c0108cbd41b00761b4339940d923478454879068"
+      },
+      "base_instruction_id": "base-r001",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r001/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "794cbfa11ceaf8747d34ad517417c1f8b56c63f3787610097b135579af21d7dd",
+        "landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+        "manifest.json": "c99853c34d2af1c7047f6d43baf557f626610c425bf672d519d5f51952176103",
+        "map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "472a905de6b5eab64957c70b33f6c290cb33d52b60eb74944d382a2206ca88ea",
+        "world.sdf": "b1800857c27e0ec9378da274c0108cbd41b00761b4339940d923478454879068"
+      },
+      "base_instruction_id": "base-r001",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r001/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "f947bec9bd6e8eba177dc461a8d3e6310b82549b3a8ec9e161af2e655613c4a6",
+        "execution_catalog.json": "37d79e0656a45029b73e9eee9fb16b14f06d2faa5b00437bd2c4e703275785df",
+        "landmark_scene.yaml": "044d1badbc14073d5b6633e4858823564b1970302233db241c29ad8521c5bfe4",
+        "manifest.json": "e8527c1c6a2f4fb56624ec71bc7c222e4b98edbd26492a00ac00a50e68c5257c",
+        "map.pgm": "af6a133cb53295c7a2eb31ef975c5e136beb6fb90ee960f39ae42c1dbb451de2",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "af8f44a51a962abdee2f335ff8901b92301131cbdab76a01da00e87a24392897",
+        "world.sdf": "8f2aacba6401ae59f5b3b4912ec45e7ebe4fa7ac26cd6899d35be6c9fd1a287a"
+      },
+      "base_instruction_id": "base-r001",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r001/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "794cbfa11ceaf8747d34ad517417c1f8b56c63f3787610097b135579af21d7dd",
+        "landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+        "manifest.json": "c99853c34d2af1c7047f6d43baf557f626610c425bf672d519d5f51952176103",
+        "map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "472a905de6b5eab64957c70b33f6c290cb33d52b60eb74944d382a2206ca88ea",
+        "world.sdf": "b1800857c27e0ec9378da274c0108cbd41b00761b4339940d923478454879068"
+      },
+      "base_instruction_id": "base-r001",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r001/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "794cbfa11ceaf8747d34ad517417c1f8b56c63f3787610097b135579af21d7dd",
+        "landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+        "manifest.json": "c99853c34d2af1c7047f6d43baf557f626610c425bf672d519d5f51952176103",
+        "map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "472a905de6b5eab64957c70b33f6c290cb33d52b60eb74944d382a2206ca88ea",
+        "world.sdf": "b1800857c27e0ec9378da274c0108cbd41b00761b4339940d923478454879068"
+      },
+      "base_instruction_id": "base-r001",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r001/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "794cbfa11ceaf8747d34ad517417c1f8b56c63f3787610097b135579af21d7dd",
+        "landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+        "manifest.json": "c99853c34d2af1c7047f6d43baf557f626610c425bf672d519d5f51952176103",
+        "map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "472a905de6b5eab64957c70b33f6c290cb33d52b60eb74944d382a2206ca88ea",
+        "world.sdf": "b1800857c27e0ec9378da274c0108cbd41b00761b4339940d923478454879068"
+      },
+      "base_instruction_id": "base-r001",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r001/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "794cbfa11ceaf8747d34ad517417c1f8b56c63f3787610097b135579af21d7dd",
+        "landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+        "manifest.json": "c99853c34d2af1c7047f6d43baf557f626610c425bf672d519d5f51952176103",
+        "map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "472a905de6b5eab64957c70b33f6c290cb33d52b60eb74944d382a2206ca88ea",
+        "world.sdf": "b1800857c27e0ec9378da274c0108cbd41b00761b4339940d923478454879068"
+      },
+      "base_instruction_id": "base-r001",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r001/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "6e946452ab5adc59e0480efcd61f00c571f2001c85570eb0a5fc192dff2f573e",
+        "landmark_scene.yaml": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3",
+        "manifest.json": "c38be1af9d1c11ba026f9a161e0890359740bc75c566350bbd9196c0ece2fa72",
+        "map.pgm": "62efcc836cbd5f44da42741e05ae38c5f95dfca7ce46967fa17221fa2f4a6ed1",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e82fb2dcc90d52987bf0c9989365c25f22d2cee24bcf521540dac9255f524834",
+        "world.sdf": "9736ea49b2b2517437c1a867dddf3909be0a847c7ca3ed8e6ceee49df6b05343"
+      },
+      "base_instruction_id": "base-r002",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r002/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "6e946452ab5adc59e0480efcd61f00c571f2001c85570eb0a5fc192dff2f573e",
+        "landmark_scene.yaml": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3",
+        "manifest.json": "c38be1af9d1c11ba026f9a161e0890359740bc75c566350bbd9196c0ece2fa72",
+        "map.pgm": "62efcc836cbd5f44da42741e05ae38c5f95dfca7ce46967fa17221fa2f4a6ed1",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e82fb2dcc90d52987bf0c9989365c25f22d2cee24bcf521540dac9255f524834",
+        "world.sdf": "9736ea49b2b2517437c1a867dddf3909be0a847c7ca3ed8e6ceee49df6b05343"
+      },
+      "base_instruction_id": "base-r002",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r002/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "6e946452ab5adc59e0480efcd61f00c571f2001c85570eb0a5fc192dff2f573e",
+        "landmark_scene.yaml": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3",
+        "manifest.json": "c38be1af9d1c11ba026f9a161e0890359740bc75c566350bbd9196c0ece2fa72",
+        "map.pgm": "62efcc836cbd5f44da42741e05ae38c5f95dfca7ce46967fa17221fa2f4a6ed1",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e82fb2dcc90d52987bf0c9989365c25f22d2cee24bcf521540dac9255f524834",
+        "world.sdf": "9736ea49b2b2517437c1a867dddf3909be0a847c7ca3ed8e6ceee49df6b05343"
+      },
+      "base_instruction_id": "base-r002",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r002/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "96efe8190906c16ac940b597c75480047a2798078fc4da2cd9dac34624db99ec",
+        "execution_catalog.json": "85d6208dc0af511200bb64b06ebfab4942b5b27f656a1f1906867d649a8de9b9",
+        "landmark_scene.yaml": "d91850ba53f382a2e31ff2faed7bd25804f11c4031b8b30713eaf2a10c3ef9b5",
+        "manifest.json": "8304104051fa5fc78edc2260ebbf3d68d19126e427db37242c30b9b7a8b9d0ad",
+        "map.pgm": "65a0dd58fc54031e9945db3aec1fae62c23934b919e3020d037057c240d2e08b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ffc0cbd2de4b3de04917925ad1432bae1ecc33d4401e1cd9cd3c7e2291983f99",
+        "world.sdf": "c6675dc2660e65a9f49d0369e52700751f0be8b482f22fb73604c64a743a675d"
+      },
+      "base_instruction_id": "base-r002",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r002/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "6e946452ab5adc59e0480efcd61f00c571f2001c85570eb0a5fc192dff2f573e",
+        "landmark_scene.yaml": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3",
+        "manifest.json": "c38be1af9d1c11ba026f9a161e0890359740bc75c566350bbd9196c0ece2fa72",
+        "map.pgm": "62efcc836cbd5f44da42741e05ae38c5f95dfca7ce46967fa17221fa2f4a6ed1",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e82fb2dcc90d52987bf0c9989365c25f22d2cee24bcf521540dac9255f524834",
+        "world.sdf": "9736ea49b2b2517437c1a867dddf3909be0a847c7ca3ed8e6ceee49df6b05343"
+      },
+      "base_instruction_id": "base-r002",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r002/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "6e946452ab5adc59e0480efcd61f00c571f2001c85570eb0a5fc192dff2f573e",
+        "landmark_scene.yaml": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3",
+        "manifest.json": "c38be1af9d1c11ba026f9a161e0890359740bc75c566350bbd9196c0ece2fa72",
+        "map.pgm": "62efcc836cbd5f44da42741e05ae38c5f95dfca7ce46967fa17221fa2f4a6ed1",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e82fb2dcc90d52987bf0c9989365c25f22d2cee24bcf521540dac9255f524834",
+        "world.sdf": "9736ea49b2b2517437c1a867dddf3909be0a847c7ca3ed8e6ceee49df6b05343"
+      },
+      "base_instruction_id": "base-r002",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r002/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "6e946452ab5adc59e0480efcd61f00c571f2001c85570eb0a5fc192dff2f573e",
+        "landmark_scene.yaml": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3",
+        "manifest.json": "c38be1af9d1c11ba026f9a161e0890359740bc75c566350bbd9196c0ece2fa72",
+        "map.pgm": "62efcc836cbd5f44da42741e05ae38c5f95dfca7ce46967fa17221fa2f4a6ed1",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e82fb2dcc90d52987bf0c9989365c25f22d2cee24bcf521540dac9255f524834",
+        "world.sdf": "9736ea49b2b2517437c1a867dddf3909be0a847c7ca3ed8e6ceee49df6b05343"
+      },
+      "base_instruction_id": "base-r002",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r002/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "6e946452ab5adc59e0480efcd61f00c571f2001c85570eb0a5fc192dff2f573e",
+        "landmark_scene.yaml": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3",
+        "manifest.json": "c38be1af9d1c11ba026f9a161e0890359740bc75c566350bbd9196c0ece2fa72",
+        "map.pgm": "62efcc836cbd5f44da42741e05ae38c5f95dfca7ce46967fa17221fa2f4a6ed1",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e82fb2dcc90d52987bf0c9989365c25f22d2cee24bcf521540dac9255f524834",
+        "world.sdf": "9736ea49b2b2517437c1a867dddf3909be0a847c7ca3ed8e6ceee49df6b05343"
+      },
+      "base_instruction_id": "base-r002",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r002/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "c668c130c8f283cf372dea51d4635e3bf6615743872819620c9a1514248dd77d",
+        "landmark_scene.yaml": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6",
+        "manifest.json": "03229138b330428806c23b9dc7a6eeaaf2beb39cf5aecad64b12a34bcce5f916",
+        "map.pgm": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "d52c13c67e30c3cbc4b3f0aecd8bf933afa09ee38890b0f982c9888b789ca3f3",
+        "world.sdf": "9ceb8d96d492d5446498bcb37a49e3f7d9cf5b832b6f7e613f0ec758e1ebf696"
+      },
+      "base_instruction_id": "base-r003",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r003/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "c668c130c8f283cf372dea51d4635e3bf6615743872819620c9a1514248dd77d",
+        "landmark_scene.yaml": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6",
+        "manifest.json": "03229138b330428806c23b9dc7a6eeaaf2beb39cf5aecad64b12a34bcce5f916",
+        "map.pgm": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "d52c13c67e30c3cbc4b3f0aecd8bf933afa09ee38890b0f982c9888b789ca3f3",
+        "world.sdf": "9ceb8d96d492d5446498bcb37a49e3f7d9cf5b832b6f7e613f0ec758e1ebf696"
+      },
+      "base_instruction_id": "base-r003",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r003/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "c668c130c8f283cf372dea51d4635e3bf6615743872819620c9a1514248dd77d",
+        "landmark_scene.yaml": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6",
+        "manifest.json": "03229138b330428806c23b9dc7a6eeaaf2beb39cf5aecad64b12a34bcce5f916",
+        "map.pgm": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "d52c13c67e30c3cbc4b3f0aecd8bf933afa09ee38890b0f982c9888b789ca3f3",
+        "world.sdf": "9ceb8d96d492d5446498bcb37a49e3f7d9cf5b832b6f7e613f0ec758e1ebf696"
+      },
+      "base_instruction_id": "base-r003",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r003/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "ba3c7692cbfc3d5af5e7d7c4037cb48caa541e7ee57c0d3334e5086beae139a1",
+        "execution_catalog.json": "825fc9805ccd9bde930521690e150143040dfb1bb1aae6eda4be44dcd8b9edd9",
+        "landmark_scene.yaml": "72ed0814c217b59816d1b4b39ca1e493027153954bc3839aeb96bc96e82375e9",
+        "manifest.json": "68e5dea6f0da437ec39147aee6dcf4cbfa45923d208d5bd3ba54c7cd86eb7393",
+        "map.pgm": "56356c8182ea8fbc64a3e27c894205e923e94528ac8138bddff2d42902f8b7d3",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e99b44db30cea361a2afa60563d8146ea76de5a1a8b3324aedf3ab3ef932033b",
+        "world.sdf": "53c45c10d430170ef695bd3a28fbbe3a2d5b3ea07a78260dd8a3e99cf9f5f8c3"
+      },
+      "base_instruction_id": "base-r003",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r003/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "c668c130c8f283cf372dea51d4635e3bf6615743872819620c9a1514248dd77d",
+        "landmark_scene.yaml": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6",
+        "manifest.json": "03229138b330428806c23b9dc7a6eeaaf2beb39cf5aecad64b12a34bcce5f916",
+        "map.pgm": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "d52c13c67e30c3cbc4b3f0aecd8bf933afa09ee38890b0f982c9888b789ca3f3",
+        "world.sdf": "9ceb8d96d492d5446498bcb37a49e3f7d9cf5b832b6f7e613f0ec758e1ebf696"
+      },
+      "base_instruction_id": "base-r003",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r003/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "c668c130c8f283cf372dea51d4635e3bf6615743872819620c9a1514248dd77d",
+        "landmark_scene.yaml": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6",
+        "manifest.json": "03229138b330428806c23b9dc7a6eeaaf2beb39cf5aecad64b12a34bcce5f916",
+        "map.pgm": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "d52c13c67e30c3cbc4b3f0aecd8bf933afa09ee38890b0f982c9888b789ca3f3",
+        "world.sdf": "9ceb8d96d492d5446498bcb37a49e3f7d9cf5b832b6f7e613f0ec758e1ebf696"
+      },
+      "base_instruction_id": "base-r003",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r003/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "c668c130c8f283cf372dea51d4635e3bf6615743872819620c9a1514248dd77d",
+        "landmark_scene.yaml": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6",
+        "manifest.json": "03229138b330428806c23b9dc7a6eeaaf2beb39cf5aecad64b12a34bcce5f916",
+        "map.pgm": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "d52c13c67e30c3cbc4b3f0aecd8bf933afa09ee38890b0f982c9888b789ca3f3",
+        "world.sdf": "9ceb8d96d492d5446498bcb37a49e3f7d9cf5b832b6f7e613f0ec758e1ebf696"
+      },
+      "base_instruction_id": "base-r003",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r003/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "c668c130c8f283cf372dea51d4635e3bf6615743872819620c9a1514248dd77d",
+        "landmark_scene.yaml": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6",
+        "manifest.json": "03229138b330428806c23b9dc7a6eeaaf2beb39cf5aecad64b12a34bcce5f916",
+        "map.pgm": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "d52c13c67e30c3cbc4b3f0aecd8bf933afa09ee38890b0f982c9888b789ca3f3",
+        "world.sdf": "9ceb8d96d492d5446498bcb37a49e3f7d9cf5b832b6f7e613f0ec758e1ebf696"
+      },
+      "base_instruction_id": "base-r003",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r003/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "3c7b1d4b15f8ea24d4026629e2114c9264113369d982d92f232f4c5252a3277e",
+        "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+        "manifest.json": "ad4d99fb741818dd017a47e103bf15936785a25c603ae2e3d257d424cbe1a3bc",
+        "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67",
+        "world.sdf": "d1cab934fb11b8815b2341e2650e0aa743f3f0f09b24aa3bfbeb5119b27ecee9"
+      },
+      "base_instruction_id": "base-r004",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r004/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "3c7b1d4b15f8ea24d4026629e2114c9264113369d982d92f232f4c5252a3277e",
+        "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+        "manifest.json": "ad4d99fb741818dd017a47e103bf15936785a25c603ae2e3d257d424cbe1a3bc",
+        "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67",
+        "world.sdf": "d1cab934fb11b8815b2341e2650e0aa743f3f0f09b24aa3bfbeb5119b27ecee9"
+      },
+      "base_instruction_id": "base-r004",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r004/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "3c7b1d4b15f8ea24d4026629e2114c9264113369d982d92f232f4c5252a3277e",
+        "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+        "manifest.json": "ad4d99fb741818dd017a47e103bf15936785a25c603ae2e3d257d424cbe1a3bc",
+        "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67",
+        "world.sdf": "d1cab934fb11b8815b2341e2650e0aa743f3f0f09b24aa3bfbeb5119b27ecee9"
+      },
+      "base_instruction_id": "base-r004",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r004/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "f9d55c2651bd4b5757f6cc787195ae4ca4a30242d4b29ecb2593030a6938b2da",
+        "execution_catalog.json": "fdcf55729009777f33fe6fdf57e318aa66a5b44839a18088b3025ffd4c45dcd8",
+        "landmark_scene.yaml": "bb08161b77f79ef11d7733843111022d72eae1c6d4bf17092c5202a2682c1838",
+        "manifest.json": "6e98e3637aefbf1c69dec83ec87cce8e8f9b19b3b18abbd421a83c8b9b4553e0",
+        "map.pgm": "0a155a72fcdeb87315ffa44bcd9cd0dccf245c6447cbaf3772375ed4d72b315c",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "9d7ed8dd7202e91dbc5f43e41c62b3be36495be6272cf548941651f3f0ecab12",
+        "world.sdf": "f68c1c810e3a107aac49b7c0e4a0c69e5ae8cfa5f9cc0e2d5cd68ea8fe5f72f4"
+      },
+      "base_instruction_id": "base-r004",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r004/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "3c7b1d4b15f8ea24d4026629e2114c9264113369d982d92f232f4c5252a3277e",
+        "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+        "manifest.json": "ad4d99fb741818dd017a47e103bf15936785a25c603ae2e3d257d424cbe1a3bc",
+        "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67",
+        "world.sdf": "d1cab934fb11b8815b2341e2650e0aa743f3f0f09b24aa3bfbeb5119b27ecee9"
+      },
+      "base_instruction_id": "base-r004",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r004/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "3c7b1d4b15f8ea24d4026629e2114c9264113369d982d92f232f4c5252a3277e",
+        "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+        "manifest.json": "ad4d99fb741818dd017a47e103bf15936785a25c603ae2e3d257d424cbe1a3bc",
+        "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67",
+        "world.sdf": "d1cab934fb11b8815b2341e2650e0aa743f3f0f09b24aa3bfbeb5119b27ecee9"
+      },
+      "base_instruction_id": "base-r004",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r004/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "3c7b1d4b15f8ea24d4026629e2114c9264113369d982d92f232f4c5252a3277e",
+        "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+        "manifest.json": "ad4d99fb741818dd017a47e103bf15936785a25c603ae2e3d257d424cbe1a3bc",
+        "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67",
+        "world.sdf": "d1cab934fb11b8815b2341e2650e0aa743f3f0f09b24aa3bfbeb5119b27ecee9"
+      },
+      "base_instruction_id": "base-r004",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r004/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "3c7b1d4b15f8ea24d4026629e2114c9264113369d982d92f232f4c5252a3277e",
+        "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+        "manifest.json": "ad4d99fb741818dd017a47e103bf15936785a25c603ae2e3d257d424cbe1a3bc",
+        "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67",
+        "world.sdf": "d1cab934fb11b8815b2341e2650e0aa743f3f0f09b24aa3bfbeb5119b27ecee9"
+      },
+      "base_instruction_id": "base-r004",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r004/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "414f8587685e58eb6967f4baacc220df2c54c74d95acd29577747cc24fcc9ece",
+        "landmark_scene.yaml": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf",
+        "manifest.json": "6f2503af8bc13af7fcd504a0d472d204c61f85c9553c058fd3e8d188d4050b79",
+        "map.pgm": "28124a30a6ef4729ddc2978cef7789f5adcad257c66acccddbebc8543316ae4b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "3721b05f1a7fb0768c2568eb7dbcade1224f0cfe84e352e0e6ec254e37f1357c",
+        "world.sdf": "d03f8c29730a268149f51224c66d34d01eff0c966c4b5a5521b2d9ef2ff68d50"
+      },
+      "base_instruction_id": "base-r005",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r005/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "414f8587685e58eb6967f4baacc220df2c54c74d95acd29577747cc24fcc9ece",
+        "landmark_scene.yaml": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf",
+        "manifest.json": "6f2503af8bc13af7fcd504a0d472d204c61f85c9553c058fd3e8d188d4050b79",
+        "map.pgm": "28124a30a6ef4729ddc2978cef7789f5adcad257c66acccddbebc8543316ae4b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "3721b05f1a7fb0768c2568eb7dbcade1224f0cfe84e352e0e6ec254e37f1357c",
+        "world.sdf": "d03f8c29730a268149f51224c66d34d01eff0c966c4b5a5521b2d9ef2ff68d50"
+      },
+      "base_instruction_id": "base-r005",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r005/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "414f8587685e58eb6967f4baacc220df2c54c74d95acd29577747cc24fcc9ece",
+        "landmark_scene.yaml": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf",
+        "manifest.json": "6f2503af8bc13af7fcd504a0d472d204c61f85c9553c058fd3e8d188d4050b79",
+        "map.pgm": "28124a30a6ef4729ddc2978cef7789f5adcad257c66acccddbebc8543316ae4b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "3721b05f1a7fb0768c2568eb7dbcade1224f0cfe84e352e0e6ec254e37f1357c",
+        "world.sdf": "d03f8c29730a268149f51224c66d34d01eff0c966c4b5a5521b2d9ef2ff68d50"
+      },
+      "base_instruction_id": "base-r005",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r005/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "bc4ee59e5216449753ab6229ee1175d25c53e4f3d5078f506d5c1773afcb9f49",
+        "execution_catalog.json": "c4183ab646849593c865c990463211241eebecb5f9555e8ff2ad1e8b57d23e89",
+        "landmark_scene.yaml": "454047b0c764704d7776f00c0aed25303aa95af6c79c22465257b64551b5e6bb",
+        "manifest.json": "bc82207ec65ec726d32feafece4678c8bbc48db51782b4dc20ce28549680dbb5",
+        "map.pgm": "1485ee9d245d439c8e572a7a800d8dd5098eafdf112b98f953a3b1447992efca",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e43787d2bdc44b6e233357c0ca88dab774eac29ca90772125e919b02c6a80a5a",
+        "world.sdf": "eb1ba0e013fdcf8632db20f96d2c5abe06f7db449bdcf6d82c0dc66046bf5aff"
+      },
+      "base_instruction_id": "base-r005",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r005/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "414f8587685e58eb6967f4baacc220df2c54c74d95acd29577747cc24fcc9ece",
+        "landmark_scene.yaml": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf",
+        "manifest.json": "6f2503af8bc13af7fcd504a0d472d204c61f85c9553c058fd3e8d188d4050b79",
+        "map.pgm": "28124a30a6ef4729ddc2978cef7789f5adcad257c66acccddbebc8543316ae4b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "3721b05f1a7fb0768c2568eb7dbcade1224f0cfe84e352e0e6ec254e37f1357c",
+        "world.sdf": "d03f8c29730a268149f51224c66d34d01eff0c966c4b5a5521b2d9ef2ff68d50"
+      },
+      "base_instruction_id": "base-r005",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r005/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "414f8587685e58eb6967f4baacc220df2c54c74d95acd29577747cc24fcc9ece",
+        "landmark_scene.yaml": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf",
+        "manifest.json": "6f2503af8bc13af7fcd504a0d472d204c61f85c9553c058fd3e8d188d4050b79",
+        "map.pgm": "28124a30a6ef4729ddc2978cef7789f5adcad257c66acccddbebc8543316ae4b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "3721b05f1a7fb0768c2568eb7dbcade1224f0cfe84e352e0e6ec254e37f1357c",
+        "world.sdf": "d03f8c29730a268149f51224c66d34d01eff0c966c4b5a5521b2d9ef2ff68d50"
+      },
+      "base_instruction_id": "base-r005",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r005/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "414f8587685e58eb6967f4baacc220df2c54c74d95acd29577747cc24fcc9ece",
+        "landmark_scene.yaml": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf",
+        "manifest.json": "6f2503af8bc13af7fcd504a0d472d204c61f85c9553c058fd3e8d188d4050b79",
+        "map.pgm": "28124a30a6ef4729ddc2978cef7789f5adcad257c66acccddbebc8543316ae4b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "3721b05f1a7fb0768c2568eb7dbcade1224f0cfe84e352e0e6ec254e37f1357c",
+        "world.sdf": "d03f8c29730a268149f51224c66d34d01eff0c966c4b5a5521b2d9ef2ff68d50"
+      },
+      "base_instruction_id": "base-r005",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r005/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "414f8587685e58eb6967f4baacc220df2c54c74d95acd29577747cc24fcc9ece",
+        "landmark_scene.yaml": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf",
+        "manifest.json": "6f2503af8bc13af7fcd504a0d472d204c61f85c9553c058fd3e8d188d4050b79",
+        "map.pgm": "28124a30a6ef4729ddc2978cef7789f5adcad257c66acccddbebc8543316ae4b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "3721b05f1a7fb0768c2568eb7dbcade1224f0cfe84e352e0e6ec254e37f1357c",
+        "world.sdf": "d03f8c29730a268149f51224c66d34d01eff0c966c4b5a5521b2d9ef2ff68d50"
+      },
+      "base_instruction_id": "base-r005",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r005/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "aaa83f76b808ef4bc82621666749ca282c3611af026fd39862da966f51923e29",
+        "landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+        "manifest.json": "740ed09be46c6422cfb128164afa49391723a5d42be2a864dca47f134e022092",
+        "map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "52cda59e04c68b0bd8b61636501c0f0b7b2a36c545c6d76b77841e375de61894",
+        "world.sdf": "359a4f46ac38ee797132388c5fcbc84acfb6a55d5593e8eec0bd7c7071ea47eb"
+      },
+      "base_instruction_id": "base-r006",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r006/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "aaa83f76b808ef4bc82621666749ca282c3611af026fd39862da966f51923e29",
+        "landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+        "manifest.json": "740ed09be46c6422cfb128164afa49391723a5d42be2a864dca47f134e022092",
+        "map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "52cda59e04c68b0bd8b61636501c0f0b7b2a36c545c6d76b77841e375de61894",
+        "world.sdf": "359a4f46ac38ee797132388c5fcbc84acfb6a55d5593e8eec0bd7c7071ea47eb"
+      },
+      "base_instruction_id": "base-r006",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r006/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "aaa83f76b808ef4bc82621666749ca282c3611af026fd39862da966f51923e29",
+        "landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+        "manifest.json": "740ed09be46c6422cfb128164afa49391723a5d42be2a864dca47f134e022092",
+        "map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "52cda59e04c68b0bd8b61636501c0f0b7b2a36c545c6d76b77841e375de61894",
+        "world.sdf": "359a4f46ac38ee797132388c5fcbc84acfb6a55d5593e8eec0bd7c7071ea47eb"
+      },
+      "base_instruction_id": "base-r006",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r006/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "f1949515afedc9e7cd6fc73bbb9c4e19e9c0b922bfed61d37b1007d0126de58a",
+        "execution_catalog.json": "a81951eeaa1e90825e2bef092bb2651c84cc2fff4f3c1da5767d4295ffb0d64e",
+        "landmark_scene.yaml": "24055bb148f91599ba5fce82e0854f129dca13e0ad7b849b534366079793f8bd",
+        "manifest.json": "667b1c48aeec362eb1d3ef0e3b6067a0ce1589ae5229fbcd5331be63460e40d4",
+        "map.pgm": "5b6c09f294f20cd87d559e3a2ef7dbd78d8785f53c7479d84a9fea3336919202",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "6d6b0f5726873443aaaa5ce82b9d7a66a877644cb34b7da29a4bbd643ce38a53",
+        "world.sdf": "0891d63d0fe43a83f5b0e68a99223cb4369b2ddc9e0c3854306d779a934b6a6c"
+      },
+      "base_instruction_id": "base-r006",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r006/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "aaa83f76b808ef4bc82621666749ca282c3611af026fd39862da966f51923e29",
+        "landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+        "manifest.json": "740ed09be46c6422cfb128164afa49391723a5d42be2a864dca47f134e022092",
+        "map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "52cda59e04c68b0bd8b61636501c0f0b7b2a36c545c6d76b77841e375de61894",
+        "world.sdf": "359a4f46ac38ee797132388c5fcbc84acfb6a55d5593e8eec0bd7c7071ea47eb"
+      },
+      "base_instruction_id": "base-r006",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r006/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "aaa83f76b808ef4bc82621666749ca282c3611af026fd39862da966f51923e29",
+        "landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+        "manifest.json": "740ed09be46c6422cfb128164afa49391723a5d42be2a864dca47f134e022092",
+        "map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "52cda59e04c68b0bd8b61636501c0f0b7b2a36c545c6d76b77841e375de61894",
+        "world.sdf": "359a4f46ac38ee797132388c5fcbc84acfb6a55d5593e8eec0bd7c7071ea47eb"
+      },
+      "base_instruction_id": "base-r006",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r006/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "aaa83f76b808ef4bc82621666749ca282c3611af026fd39862da966f51923e29",
+        "landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+        "manifest.json": "740ed09be46c6422cfb128164afa49391723a5d42be2a864dca47f134e022092",
+        "map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "52cda59e04c68b0bd8b61636501c0f0b7b2a36c545c6d76b77841e375de61894",
+        "world.sdf": "359a4f46ac38ee797132388c5fcbc84acfb6a55d5593e8eec0bd7c7071ea47eb"
+      },
+      "base_instruction_id": "base-r006",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r006/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "aaa83f76b808ef4bc82621666749ca282c3611af026fd39862da966f51923e29",
+        "landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+        "manifest.json": "740ed09be46c6422cfb128164afa49391723a5d42be2a864dca47f134e022092",
+        "map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "52cda59e04c68b0bd8b61636501c0f0b7b2a36c545c6d76b77841e375de61894",
+        "world.sdf": "359a4f46ac38ee797132388c5fcbc84acfb6a55d5593e8eec0bd7c7071ea47eb"
+      },
+      "base_instruction_id": "base-r006",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r006/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "915487cc4084db394430120bab332585256d44acbddb25b390b7f60d93dbe537",
+        "landmark_scene.yaml": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e",
+        "manifest.json": "54a16bd26ee77bef14a54a718f9a462007ba3c0e92e14e1c57fc8682f85d2c90",
+        "map.pgm": "d5a28b6b2639d493e6b9f5aae49d4244e624c30bb1a314a061f3a22754ad1e28",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "6b969ec5075649c8c8be6f6a887a95effe1d62b40d1f97b03e15941e74347229",
+        "world.sdf": "487e38a7178c8aa5c9d99e2ad903285f64ec034bac757b93350e46b7c0f5cb3d"
+      },
+      "base_instruction_id": "base-r007",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r007/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "915487cc4084db394430120bab332585256d44acbddb25b390b7f60d93dbe537",
+        "landmark_scene.yaml": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e",
+        "manifest.json": "54a16bd26ee77bef14a54a718f9a462007ba3c0e92e14e1c57fc8682f85d2c90",
+        "map.pgm": "d5a28b6b2639d493e6b9f5aae49d4244e624c30bb1a314a061f3a22754ad1e28",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "6b969ec5075649c8c8be6f6a887a95effe1d62b40d1f97b03e15941e74347229",
+        "world.sdf": "487e38a7178c8aa5c9d99e2ad903285f64ec034bac757b93350e46b7c0f5cb3d"
+      },
+      "base_instruction_id": "base-r007",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r007/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "915487cc4084db394430120bab332585256d44acbddb25b390b7f60d93dbe537",
+        "landmark_scene.yaml": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e",
+        "manifest.json": "54a16bd26ee77bef14a54a718f9a462007ba3c0e92e14e1c57fc8682f85d2c90",
+        "map.pgm": "d5a28b6b2639d493e6b9f5aae49d4244e624c30bb1a314a061f3a22754ad1e28",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "6b969ec5075649c8c8be6f6a887a95effe1d62b40d1f97b03e15941e74347229",
+        "world.sdf": "487e38a7178c8aa5c9d99e2ad903285f64ec034bac757b93350e46b7c0f5cb3d"
+      },
+      "base_instruction_id": "base-r007",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r007/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "ec8440db0442f857ee5456199365d1bbf207f337ba10e1db93f29c320803e885",
+        "execution_catalog.json": "fe7c0224e6a34ba3dc473124ab1c5596e4987738592e255614fae2355ea99825",
+        "landmark_scene.yaml": "408424df2a80806ee52e0af162951da49bf0ba746651fe1a67a5169e8c6402f0",
+        "manifest.json": "84f168f1c4d30ae38bc999ae90e8727ef991dd9f39ffa754dcbdd3cfe381420f",
+        "map.pgm": "63f46598cfd06bdbb0d9bf9e4727b840d0c6698baa41f1ae32f9c966defc7303",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "0823ac730a829dbfca590e74ef3a5b5e6166cb5389b2ca486785eb70085c59fa",
+        "world.sdf": "4a33dc775b60790eefb6656b9f6be1b787375e3aa748a7297e7afe7b1c0ae8cc"
+      },
+      "base_instruction_id": "base-r007",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r007/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "915487cc4084db394430120bab332585256d44acbddb25b390b7f60d93dbe537",
+        "landmark_scene.yaml": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e",
+        "manifest.json": "54a16bd26ee77bef14a54a718f9a462007ba3c0e92e14e1c57fc8682f85d2c90",
+        "map.pgm": "d5a28b6b2639d493e6b9f5aae49d4244e624c30bb1a314a061f3a22754ad1e28",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "6b969ec5075649c8c8be6f6a887a95effe1d62b40d1f97b03e15941e74347229",
+        "world.sdf": "487e38a7178c8aa5c9d99e2ad903285f64ec034bac757b93350e46b7c0f5cb3d"
+      },
+      "base_instruction_id": "base-r007",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r007/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "915487cc4084db394430120bab332585256d44acbddb25b390b7f60d93dbe537",
+        "landmark_scene.yaml": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e",
+        "manifest.json": "54a16bd26ee77bef14a54a718f9a462007ba3c0e92e14e1c57fc8682f85d2c90",
+        "map.pgm": "d5a28b6b2639d493e6b9f5aae49d4244e624c30bb1a314a061f3a22754ad1e28",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "6b969ec5075649c8c8be6f6a887a95effe1d62b40d1f97b03e15941e74347229",
+        "world.sdf": "487e38a7178c8aa5c9d99e2ad903285f64ec034bac757b93350e46b7c0f5cb3d"
+      },
+      "base_instruction_id": "base-r007",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r007/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "915487cc4084db394430120bab332585256d44acbddb25b390b7f60d93dbe537",
+        "landmark_scene.yaml": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e",
+        "manifest.json": "54a16bd26ee77bef14a54a718f9a462007ba3c0e92e14e1c57fc8682f85d2c90",
+        "map.pgm": "d5a28b6b2639d493e6b9f5aae49d4244e624c30bb1a314a061f3a22754ad1e28",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "6b969ec5075649c8c8be6f6a887a95effe1d62b40d1f97b03e15941e74347229",
+        "world.sdf": "487e38a7178c8aa5c9d99e2ad903285f64ec034bac757b93350e46b7c0f5cb3d"
+      },
+      "base_instruction_id": "base-r007",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r007/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "915487cc4084db394430120bab332585256d44acbddb25b390b7f60d93dbe537",
+        "landmark_scene.yaml": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e",
+        "manifest.json": "54a16bd26ee77bef14a54a718f9a462007ba3c0e92e14e1c57fc8682f85d2c90",
+        "map.pgm": "d5a28b6b2639d493e6b9f5aae49d4244e624c30bb1a314a061f3a22754ad1e28",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "6b969ec5075649c8c8be6f6a887a95effe1d62b40d1f97b03e15941e74347229",
+        "world.sdf": "487e38a7178c8aa5c9d99e2ad903285f64ec034bac757b93350e46b7c0f5cb3d"
+      },
+      "base_instruction_id": "base-r007",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r007/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "7d0f093389acd40594a2a3737494a2cca78dc0ce655cdf093ea60c24d42cf74f",
+        "landmark_scene.yaml": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776",
+        "manifest.json": "b73172d315fe683f1c063f018f7db2003a9b950a18667c0c61a17727af0a998f",
+        "map.pgm": "dcbeaa79f20d76c1bade6288e23b8ac5525dad714a9b42d9bfa6fb5651ff356f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8954c6dcf363579beca7b384e8bec816fa7bb2f301f937f493e9867b51f9d7bd",
+        "world.sdf": "45bd4e5ff8b9058cc23ad9018971161c41f197861bfcc3db2b9463f125169df6"
+      },
+      "base_instruction_id": "base-r008",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r008/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "7d0f093389acd40594a2a3737494a2cca78dc0ce655cdf093ea60c24d42cf74f",
+        "landmark_scene.yaml": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776",
+        "manifest.json": "b73172d315fe683f1c063f018f7db2003a9b950a18667c0c61a17727af0a998f",
+        "map.pgm": "dcbeaa79f20d76c1bade6288e23b8ac5525dad714a9b42d9bfa6fb5651ff356f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8954c6dcf363579beca7b384e8bec816fa7bb2f301f937f493e9867b51f9d7bd",
+        "world.sdf": "45bd4e5ff8b9058cc23ad9018971161c41f197861bfcc3db2b9463f125169df6"
+      },
+      "base_instruction_id": "base-r008",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r008/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "7d0f093389acd40594a2a3737494a2cca78dc0ce655cdf093ea60c24d42cf74f",
+        "landmark_scene.yaml": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776",
+        "manifest.json": "b73172d315fe683f1c063f018f7db2003a9b950a18667c0c61a17727af0a998f",
+        "map.pgm": "dcbeaa79f20d76c1bade6288e23b8ac5525dad714a9b42d9bfa6fb5651ff356f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8954c6dcf363579beca7b384e8bec816fa7bb2f301f937f493e9867b51f9d7bd",
+        "world.sdf": "45bd4e5ff8b9058cc23ad9018971161c41f197861bfcc3db2b9463f125169df6"
+      },
+      "base_instruction_id": "base-r008",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r008/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "6af13dc52456758c9011427af83f137e11d3e7b39e7feaea81a44962bb24355c",
+        "execution_catalog.json": "ad5005e0965993f4b583ff881a37b999bc514165eb8dd5cec605110bc1a46213",
+        "landmark_scene.yaml": "13b5f87a0d86821f48c2289cf4449ca117e47f2b7cffa239428f59ca53e87bf7",
+        "manifest.json": "15902d425d1c92636bf67937d20e0501e046a2062862cc7a6b0fc389013081a1",
+        "map.pgm": "444fe168a93c1f4db33769483e4b326f1960baff6d154ff018195ddceb1ad1ef",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "aa464e1c460f47172d092301f40e19e471a0c0039180fa408ea7221e137f7225",
+        "world.sdf": "79a9639fb6f5a630a894be7d673cf128f152148a2248d87e0229072928b15ada"
+      },
+      "base_instruction_id": "base-r008",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r008/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "7d0f093389acd40594a2a3737494a2cca78dc0ce655cdf093ea60c24d42cf74f",
+        "landmark_scene.yaml": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776",
+        "manifest.json": "b73172d315fe683f1c063f018f7db2003a9b950a18667c0c61a17727af0a998f",
+        "map.pgm": "dcbeaa79f20d76c1bade6288e23b8ac5525dad714a9b42d9bfa6fb5651ff356f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8954c6dcf363579beca7b384e8bec816fa7bb2f301f937f493e9867b51f9d7bd",
+        "world.sdf": "45bd4e5ff8b9058cc23ad9018971161c41f197861bfcc3db2b9463f125169df6"
+      },
+      "base_instruction_id": "base-r008",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r008/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "7d0f093389acd40594a2a3737494a2cca78dc0ce655cdf093ea60c24d42cf74f",
+        "landmark_scene.yaml": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776",
+        "manifest.json": "b73172d315fe683f1c063f018f7db2003a9b950a18667c0c61a17727af0a998f",
+        "map.pgm": "dcbeaa79f20d76c1bade6288e23b8ac5525dad714a9b42d9bfa6fb5651ff356f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8954c6dcf363579beca7b384e8bec816fa7bb2f301f937f493e9867b51f9d7bd",
+        "world.sdf": "45bd4e5ff8b9058cc23ad9018971161c41f197861bfcc3db2b9463f125169df6"
+      },
+      "base_instruction_id": "base-r008",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r008/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "7d0f093389acd40594a2a3737494a2cca78dc0ce655cdf093ea60c24d42cf74f",
+        "landmark_scene.yaml": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776",
+        "manifest.json": "b73172d315fe683f1c063f018f7db2003a9b950a18667c0c61a17727af0a998f",
+        "map.pgm": "dcbeaa79f20d76c1bade6288e23b8ac5525dad714a9b42d9bfa6fb5651ff356f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8954c6dcf363579beca7b384e8bec816fa7bb2f301f937f493e9867b51f9d7bd",
+        "world.sdf": "45bd4e5ff8b9058cc23ad9018971161c41f197861bfcc3db2b9463f125169df6"
+      },
+      "base_instruction_id": "base-r008",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r008/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "7d0f093389acd40594a2a3737494a2cca78dc0ce655cdf093ea60c24d42cf74f",
+        "landmark_scene.yaml": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776",
+        "manifest.json": "b73172d315fe683f1c063f018f7db2003a9b950a18667c0c61a17727af0a998f",
+        "map.pgm": "dcbeaa79f20d76c1bade6288e23b8ac5525dad714a9b42d9bfa6fb5651ff356f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8954c6dcf363579beca7b384e8bec816fa7bb2f301f937f493e9867b51f9d7bd",
+        "world.sdf": "45bd4e5ff8b9058cc23ad9018971161c41f197861bfcc3db2b9463f125169df6"
+      },
+      "base_instruction_id": "base-r008",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r008/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "08edd9e3e42a5197695d3b283d97f97fa614225e006220d17c8e8beefccc94e2",
+        "landmark_scene.yaml": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5",
+        "manifest.json": "8609ac20ecd8928e5d049da252173a9d4d0477951df849e2771f5bb0af68bddc",
+        "map.pgm": "7f35575f48f7a68f77b8ca6011ddd99ee0ccc29a1ef8d49c83dd425468aae52e",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e88ef4041d94bdff521a278e35c4b835513fd6debbfdc38326621d577296d3ce",
+        "world.sdf": "92225bf0e4c264f60d64c2c8cf9e7f0f30036e11d2ddbc3d52bbb484550f9bbb"
+      },
+      "base_instruction_id": "base-r009",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r009/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "08edd9e3e42a5197695d3b283d97f97fa614225e006220d17c8e8beefccc94e2",
+        "landmark_scene.yaml": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5",
+        "manifest.json": "8609ac20ecd8928e5d049da252173a9d4d0477951df849e2771f5bb0af68bddc",
+        "map.pgm": "7f35575f48f7a68f77b8ca6011ddd99ee0ccc29a1ef8d49c83dd425468aae52e",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e88ef4041d94bdff521a278e35c4b835513fd6debbfdc38326621d577296d3ce",
+        "world.sdf": "92225bf0e4c264f60d64c2c8cf9e7f0f30036e11d2ddbc3d52bbb484550f9bbb"
+      },
+      "base_instruction_id": "base-r009",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r009/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "08edd9e3e42a5197695d3b283d97f97fa614225e006220d17c8e8beefccc94e2",
+        "landmark_scene.yaml": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5",
+        "manifest.json": "8609ac20ecd8928e5d049da252173a9d4d0477951df849e2771f5bb0af68bddc",
+        "map.pgm": "7f35575f48f7a68f77b8ca6011ddd99ee0ccc29a1ef8d49c83dd425468aae52e",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e88ef4041d94bdff521a278e35c4b835513fd6debbfdc38326621d577296d3ce",
+        "world.sdf": "92225bf0e4c264f60d64c2c8cf9e7f0f30036e11d2ddbc3d52bbb484550f9bbb"
+      },
+      "base_instruction_id": "base-r009",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r009/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "2d5e9220dabf40dc5c6030252c96c02c351eed4eed3ac2b63c6d36bfa76a8529",
+        "execution_catalog.json": "6be7802ca3d51ea16c306716cbb82051e60cfd1afe6b9757dc47dc729501207b",
+        "landmark_scene.yaml": "a84908f148fe51ac2f49780bd20ca4a92023e1383f8cde74f694652dac2d7373",
+        "manifest.json": "0a2b2983b7db6cddc040f15416b756d6465afd9e36ac680febf453d8b43ddb9d",
+        "map.pgm": "1b504789e513c106b3255568088c2ea6fd20135cfe8aa638515f843ee36542ef",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "93114b70a65b5605b62950141d46a4465e4818b0f5dff87ead52bad5d9997b2e",
+        "world.sdf": "774377fdd7a4e47b8a15f5a905414d7e914e596131acd8fc2dcb33f042fbc998"
+      },
+      "base_instruction_id": "base-r009",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r009/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "08edd9e3e42a5197695d3b283d97f97fa614225e006220d17c8e8beefccc94e2",
+        "landmark_scene.yaml": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5",
+        "manifest.json": "8609ac20ecd8928e5d049da252173a9d4d0477951df849e2771f5bb0af68bddc",
+        "map.pgm": "7f35575f48f7a68f77b8ca6011ddd99ee0ccc29a1ef8d49c83dd425468aae52e",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e88ef4041d94bdff521a278e35c4b835513fd6debbfdc38326621d577296d3ce",
+        "world.sdf": "92225bf0e4c264f60d64c2c8cf9e7f0f30036e11d2ddbc3d52bbb484550f9bbb"
+      },
+      "base_instruction_id": "base-r009",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r009/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "08edd9e3e42a5197695d3b283d97f97fa614225e006220d17c8e8beefccc94e2",
+        "landmark_scene.yaml": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5",
+        "manifest.json": "8609ac20ecd8928e5d049da252173a9d4d0477951df849e2771f5bb0af68bddc",
+        "map.pgm": "7f35575f48f7a68f77b8ca6011ddd99ee0ccc29a1ef8d49c83dd425468aae52e",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e88ef4041d94bdff521a278e35c4b835513fd6debbfdc38326621d577296d3ce",
+        "world.sdf": "92225bf0e4c264f60d64c2c8cf9e7f0f30036e11d2ddbc3d52bbb484550f9bbb"
+      },
+      "base_instruction_id": "base-r009",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r009/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "08edd9e3e42a5197695d3b283d97f97fa614225e006220d17c8e8beefccc94e2",
+        "landmark_scene.yaml": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5",
+        "manifest.json": "8609ac20ecd8928e5d049da252173a9d4d0477951df849e2771f5bb0af68bddc",
+        "map.pgm": "7f35575f48f7a68f77b8ca6011ddd99ee0ccc29a1ef8d49c83dd425468aae52e",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e88ef4041d94bdff521a278e35c4b835513fd6debbfdc38326621d577296d3ce",
+        "world.sdf": "92225bf0e4c264f60d64c2c8cf9e7f0f30036e11d2ddbc3d52bbb484550f9bbb"
+      },
+      "base_instruction_id": "base-r009",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r009/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "08edd9e3e42a5197695d3b283d97f97fa614225e006220d17c8e8beefccc94e2",
+        "landmark_scene.yaml": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5",
+        "manifest.json": "8609ac20ecd8928e5d049da252173a9d4d0477951df849e2771f5bb0af68bddc",
+        "map.pgm": "7f35575f48f7a68f77b8ca6011ddd99ee0ccc29a1ef8d49c83dd425468aae52e",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "e88ef4041d94bdff521a278e35c4b835513fd6debbfdc38326621d577296d3ce",
+        "world.sdf": "92225bf0e4c264f60d64c2c8cf9e7f0f30036e11d2ddbc3d52bbb484550f9bbb"
+      },
+      "base_instruction_id": "base-r009",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r009/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "d5813e1c118ce45cd44bf84c471cbdcc9a10bf1effc203be43b2f9bd292315e2",
+        "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+        "manifest.json": "ad1c079092a34526fc02ac73c61c91c1edaaee29ae17aff7a2a33b8e15c92d5a",
+        "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+        "world.sdf": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+      },
+      "base_instruction_id": "base-r010",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r010/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "d5813e1c118ce45cd44bf84c471cbdcc9a10bf1effc203be43b2f9bd292315e2",
+        "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+        "manifest.json": "ad1c079092a34526fc02ac73c61c91c1edaaee29ae17aff7a2a33b8e15c92d5a",
+        "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+        "world.sdf": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+      },
+      "base_instruction_id": "base-r010",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r010/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "d5813e1c118ce45cd44bf84c471cbdcc9a10bf1effc203be43b2f9bd292315e2",
+        "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+        "manifest.json": "ad1c079092a34526fc02ac73c61c91c1edaaee29ae17aff7a2a33b8e15c92d5a",
+        "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+        "world.sdf": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+      },
+      "base_instruction_id": "base-r010",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r010/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "ceaad974ffc931980e4259e9605efbb6fa6ef4b698bfdb3bf37daef744380c8d",
+        "execution_catalog.json": "df574ea134f20274724e7e6727f926dc29848c7f51d322a0d884482e157b2221",
+        "landmark_scene.yaml": "6af19dbd153728a2084ce0238a95d623138794ba127cd186546453ebe9c8bf06",
+        "manifest.json": "4900c0c8e0fbf1cf9b9c7be3451e8ccd2b70885e607e66f8a6104a301b71da20",
+        "map.pgm": "2d77de512545952ccbaa94ab74179a399f4cc3e710b05deacf87ca31b3e3c9b3",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "854577c2bab1e48a9a6f4ac41e38c53d1c1d764e4ca0a0eb771c5147f6cf6f63",
+        "world.sdf": "1649ea61a9582e63b3da659c0be35b694852435dff5e751b467323a767ff0cfc"
+      },
+      "base_instruction_id": "base-r010",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r010/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "d5813e1c118ce45cd44bf84c471cbdcc9a10bf1effc203be43b2f9bd292315e2",
+        "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+        "manifest.json": "ad1c079092a34526fc02ac73c61c91c1edaaee29ae17aff7a2a33b8e15c92d5a",
+        "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+        "world.sdf": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+      },
+      "base_instruction_id": "base-r010",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r010/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "d5813e1c118ce45cd44bf84c471cbdcc9a10bf1effc203be43b2f9bd292315e2",
+        "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+        "manifest.json": "ad1c079092a34526fc02ac73c61c91c1edaaee29ae17aff7a2a33b8e15c92d5a",
+        "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+        "world.sdf": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+      },
+      "base_instruction_id": "base-r010",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r010/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "d5813e1c118ce45cd44bf84c471cbdcc9a10bf1effc203be43b2f9bd292315e2",
+        "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+        "manifest.json": "ad1c079092a34526fc02ac73c61c91c1edaaee29ae17aff7a2a33b8e15c92d5a",
+        "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+        "world.sdf": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+      },
+      "base_instruction_id": "base-r010",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r010/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "d5813e1c118ce45cd44bf84c471cbdcc9a10bf1effc203be43b2f9bd292315e2",
+        "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+        "manifest.json": "ad1c079092a34526fc02ac73c61c91c1edaaee29ae17aff7a2a33b8e15c92d5a",
+        "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+        "world.sdf": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+      },
+      "base_instruction_id": "base-r010",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r010/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "832f49ec9c5480fb688ea6466f6d251a403a0026d8b9c0b66964dfa32912fe86",
+        "landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "manifest.json": "e8fb36e5f898f7abc904151eb73a8222b1a7b34652ea08e93677334d79132243",
+        "map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ce8f34854508650e7c13510c854f95864ffd26f5761777a1f9c6936f14fec4f9",
+        "world.sdf": "081fd6311fe2656cc7610ec78aa5d5c837c6beeb1bd17f975d4d53303dd1e2b0"
+      },
+      "base_instruction_id": "base-r011",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r011/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "832f49ec9c5480fb688ea6466f6d251a403a0026d8b9c0b66964dfa32912fe86",
+        "landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "manifest.json": "e8fb36e5f898f7abc904151eb73a8222b1a7b34652ea08e93677334d79132243",
+        "map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ce8f34854508650e7c13510c854f95864ffd26f5761777a1f9c6936f14fec4f9",
+        "world.sdf": "081fd6311fe2656cc7610ec78aa5d5c837c6beeb1bd17f975d4d53303dd1e2b0"
+      },
+      "base_instruction_id": "base-r011",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r011/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "832f49ec9c5480fb688ea6466f6d251a403a0026d8b9c0b66964dfa32912fe86",
+        "landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "manifest.json": "e8fb36e5f898f7abc904151eb73a8222b1a7b34652ea08e93677334d79132243",
+        "map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ce8f34854508650e7c13510c854f95864ffd26f5761777a1f9c6936f14fec4f9",
+        "world.sdf": "081fd6311fe2656cc7610ec78aa5d5c837c6beeb1bd17f975d4d53303dd1e2b0"
+      },
+      "base_instruction_id": "base-r011",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r011/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "b5389e38433e34ddb5d466df1b7017e21394cce2585d0ae1360b312f3e6436a8",
+        "execution_catalog.json": "6bb8d358f04fd8e4f2b483d2cc804b73a663d0b32fcb3de23794d83fc78bf517",
+        "landmark_scene.yaml": "2f01247bea9257b959fad9f7077485654e5a8f51a6a1656bfb6a03d3cb51df89",
+        "manifest.json": "0c98b2ee5f72c329c0553db6aafc9999112ccbfeeae414336199a34377f728dd",
+        "map.pgm": "3dc056b24a3a4396795a131479312d6be28051d4149743b8580e6c4cbe0928f4",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "44b25aaf32ecc5e3705e64335a5e9053164756e8f1ceb97ec13f1606ca6e0bb0",
+        "world.sdf": "270cff6f2103bc1a2532a6756a46a3f03e515849f43611d2614e15426cfa62d6"
+      },
+      "base_instruction_id": "base-r011",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r011/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "832f49ec9c5480fb688ea6466f6d251a403a0026d8b9c0b66964dfa32912fe86",
+        "landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "manifest.json": "e8fb36e5f898f7abc904151eb73a8222b1a7b34652ea08e93677334d79132243",
+        "map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ce8f34854508650e7c13510c854f95864ffd26f5761777a1f9c6936f14fec4f9",
+        "world.sdf": "081fd6311fe2656cc7610ec78aa5d5c837c6beeb1bd17f975d4d53303dd1e2b0"
+      },
+      "base_instruction_id": "base-r011",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r011/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "832f49ec9c5480fb688ea6466f6d251a403a0026d8b9c0b66964dfa32912fe86",
+        "landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "manifest.json": "e8fb36e5f898f7abc904151eb73a8222b1a7b34652ea08e93677334d79132243",
+        "map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ce8f34854508650e7c13510c854f95864ffd26f5761777a1f9c6936f14fec4f9",
+        "world.sdf": "081fd6311fe2656cc7610ec78aa5d5c837c6beeb1bd17f975d4d53303dd1e2b0"
+      },
+      "base_instruction_id": "base-r011",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r011/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "832f49ec9c5480fb688ea6466f6d251a403a0026d8b9c0b66964dfa32912fe86",
+        "landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "manifest.json": "e8fb36e5f898f7abc904151eb73a8222b1a7b34652ea08e93677334d79132243",
+        "map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ce8f34854508650e7c13510c854f95864ffd26f5761777a1f9c6936f14fec4f9",
+        "world.sdf": "081fd6311fe2656cc7610ec78aa5d5c837c6beeb1bd17f975d4d53303dd1e2b0"
+      },
+      "base_instruction_id": "base-r011",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r011/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "832f49ec9c5480fb688ea6466f6d251a403a0026d8b9c0b66964dfa32912fe86",
+        "landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "manifest.json": "e8fb36e5f898f7abc904151eb73a8222b1a7b34652ea08e93677334d79132243",
+        "map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "ce8f34854508650e7c13510c854f95864ffd26f5761777a1f9c6936f14fec4f9",
+        "world.sdf": "081fd6311fe2656cc7610ec78aa5d5c837c6beeb1bd17f975d4d53303dd1e2b0"
+      },
+      "base_instruction_id": "base-r011",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r011/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "92c4efc831104db9991fae983b670cff19d47433aef217fed08f6b70a90c36d7",
+        "landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "manifest.json": "263b89f941591068e20f4f3c8d4a1003690b360a69d0067465a1ceacadf8c15c",
+        "map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "63b6d553aad66a515e12f8540696de973175e505354779cb7878689bb10f7a6a",
+        "world.sdf": "0215618fec2e74c16c905b56f2d3b00197d4e4c1be80ebbee423c5fa05c21db0"
+      },
+      "base_instruction_id": "base-r012",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r012/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "92c4efc831104db9991fae983b670cff19d47433aef217fed08f6b70a90c36d7",
+        "landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "manifest.json": "263b89f941591068e20f4f3c8d4a1003690b360a69d0067465a1ceacadf8c15c",
+        "map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "63b6d553aad66a515e12f8540696de973175e505354779cb7878689bb10f7a6a",
+        "world.sdf": "0215618fec2e74c16c905b56f2d3b00197d4e4c1be80ebbee423c5fa05c21db0"
+      },
+      "base_instruction_id": "base-r012",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r012/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "92c4efc831104db9991fae983b670cff19d47433aef217fed08f6b70a90c36d7",
+        "landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "manifest.json": "263b89f941591068e20f4f3c8d4a1003690b360a69d0067465a1ceacadf8c15c",
+        "map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "63b6d553aad66a515e12f8540696de973175e505354779cb7878689bb10f7a6a",
+        "world.sdf": "0215618fec2e74c16c905b56f2d3b00197d4e4c1be80ebbee423c5fa05c21db0"
+      },
+      "base_instruction_id": "base-r012",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r012/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "1183d4224526bb260c116248f31672720b36b3146723276cdd38deb412a46f31",
+        "execution_catalog.json": "c0e83f27b7ceb6274abffba06f2b426b96ce83c474d5fb52aa82e9ec91ab0adc",
+        "landmark_scene.yaml": "c8eccf4b65bc86c01e7c21e67b4ac21eccda8b9e27684548c80bf77ce1010b49",
+        "manifest.json": "446fa2533705f5007b84ff479787c961ae0c09c91e783669f29ea5a8d1e6028e",
+        "map.pgm": "a6957dee665fad325b3459a91db96679e3df8e12e151dadb524249ed7e33c726",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "f8bb4a25048ecaded7348e7cc9ad50e3630172a78acc9773853f3fdce8ed8bc9",
+        "world.sdf": "c399400666a87e56965a0a90f84f52cddd2d23a32dfacfbcda6138173982afd9"
+      },
+      "base_instruction_id": "base-r012",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r012/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "92c4efc831104db9991fae983b670cff19d47433aef217fed08f6b70a90c36d7",
+        "landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "manifest.json": "263b89f941591068e20f4f3c8d4a1003690b360a69d0067465a1ceacadf8c15c",
+        "map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "63b6d553aad66a515e12f8540696de973175e505354779cb7878689bb10f7a6a",
+        "world.sdf": "0215618fec2e74c16c905b56f2d3b00197d4e4c1be80ebbee423c5fa05c21db0"
+      },
+      "base_instruction_id": "base-r012",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r012/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "92c4efc831104db9991fae983b670cff19d47433aef217fed08f6b70a90c36d7",
+        "landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "manifest.json": "263b89f941591068e20f4f3c8d4a1003690b360a69d0067465a1ceacadf8c15c",
+        "map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "63b6d553aad66a515e12f8540696de973175e505354779cb7878689bb10f7a6a",
+        "world.sdf": "0215618fec2e74c16c905b56f2d3b00197d4e4c1be80ebbee423c5fa05c21db0"
+      },
+      "base_instruction_id": "base-r012",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r012/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "92c4efc831104db9991fae983b670cff19d47433aef217fed08f6b70a90c36d7",
+        "landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "manifest.json": "263b89f941591068e20f4f3c8d4a1003690b360a69d0067465a1ceacadf8c15c",
+        "map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "63b6d553aad66a515e12f8540696de973175e505354779cb7878689bb10f7a6a",
+        "world.sdf": "0215618fec2e74c16c905b56f2d3b00197d4e4c1be80ebbee423c5fa05c21db0"
+      },
+      "base_instruction_id": "base-r012",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r012/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "92c4efc831104db9991fae983b670cff19d47433aef217fed08f6b70a90c36d7",
+        "landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "manifest.json": "263b89f941591068e20f4f3c8d4a1003690b360a69d0067465a1ceacadf8c15c",
+        "map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "63b6d553aad66a515e12f8540696de973175e505354779cb7878689bb10f7a6a",
+        "world.sdf": "0215618fec2e74c16c905b56f2d3b00197d4e4c1be80ebbee423c5fa05c21db0"
+      },
+      "base_instruction_id": "base-r012",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r012/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "1838d88e75d9441934472a9fab9c954ec0df105975483419a7dc4e8b95b99255",
+        "landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "manifest.json": "fb032cf8cbe124e10f68f78cf67934de5b2c77edf28734c9228e4945c6916a0f",
+        "map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "c932e43a80491adb76fa5a752119b3d8c9902a298cc0a2fd9de3173e40d50050",
+        "world.sdf": "2680aae3d425bf64a302dd086905c8f41f5f7a9c88e55f96ee5e3033ace2c5a1"
+      },
+      "base_instruction_id": "base-r013",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r013/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "1838d88e75d9441934472a9fab9c954ec0df105975483419a7dc4e8b95b99255",
+        "landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "manifest.json": "fb032cf8cbe124e10f68f78cf67934de5b2c77edf28734c9228e4945c6916a0f",
+        "map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "c932e43a80491adb76fa5a752119b3d8c9902a298cc0a2fd9de3173e40d50050",
+        "world.sdf": "2680aae3d425bf64a302dd086905c8f41f5f7a9c88e55f96ee5e3033ace2c5a1"
+      },
+      "base_instruction_id": "base-r013",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r013/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "1838d88e75d9441934472a9fab9c954ec0df105975483419a7dc4e8b95b99255",
+        "landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "manifest.json": "fb032cf8cbe124e10f68f78cf67934de5b2c77edf28734c9228e4945c6916a0f",
+        "map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "c932e43a80491adb76fa5a752119b3d8c9902a298cc0a2fd9de3173e40d50050",
+        "world.sdf": "2680aae3d425bf64a302dd086905c8f41f5f7a9c88e55f96ee5e3033ace2c5a1"
+      },
+      "base_instruction_id": "base-r013",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r013/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "38d2cbf638321e967beb61d66ba520e7c8c396bcdeb6718579ee943fd3782423",
+        "execution_catalog.json": "8e2ae7f1412ae9c854ecc606a2fcf07fb6e887c430fe4eaf261759e0728db851",
+        "landmark_scene.yaml": "2b4f5371bdbd9c745d21067bf33ef4b778fc61ac731a673aae0c49a16e159363",
+        "manifest.json": "658e57d749faecc3fce4b5b18a5c9ae50ca7d136c6ba6fb9d7e1d1cfa15b4549",
+        "map.pgm": "de9c21922ff49e0bbd1bf5dcd451bd405098417b08e4074ab984d205443f1001",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "18f6e3a0485901e551113cfd2ada7e93f7c9e490a55c2e66bf8801a39b4246a3",
+        "world.sdf": "d3fb4bf349670e28bb077c5985a53627c00efe96996c10fe3d19c9a18882a55e"
+      },
+      "base_instruction_id": "base-r013",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r013/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "1838d88e75d9441934472a9fab9c954ec0df105975483419a7dc4e8b95b99255",
+        "landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "manifest.json": "fb032cf8cbe124e10f68f78cf67934de5b2c77edf28734c9228e4945c6916a0f",
+        "map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "c932e43a80491adb76fa5a752119b3d8c9902a298cc0a2fd9de3173e40d50050",
+        "world.sdf": "2680aae3d425bf64a302dd086905c8f41f5f7a9c88e55f96ee5e3033ace2c5a1"
+      },
+      "base_instruction_id": "base-r013",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r013/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "1838d88e75d9441934472a9fab9c954ec0df105975483419a7dc4e8b95b99255",
+        "landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "manifest.json": "fb032cf8cbe124e10f68f78cf67934de5b2c77edf28734c9228e4945c6916a0f",
+        "map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "c932e43a80491adb76fa5a752119b3d8c9902a298cc0a2fd9de3173e40d50050",
+        "world.sdf": "2680aae3d425bf64a302dd086905c8f41f5f7a9c88e55f96ee5e3033ace2c5a1"
+      },
+      "base_instruction_id": "base-r013",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r013/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "1838d88e75d9441934472a9fab9c954ec0df105975483419a7dc4e8b95b99255",
+        "landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "manifest.json": "fb032cf8cbe124e10f68f78cf67934de5b2c77edf28734c9228e4945c6916a0f",
+        "map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "c932e43a80491adb76fa5a752119b3d8c9902a298cc0a2fd9de3173e40d50050",
+        "world.sdf": "2680aae3d425bf64a302dd086905c8f41f5f7a9c88e55f96ee5e3033ace2c5a1"
+      },
+      "base_instruction_id": "base-r013",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r013/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "1838d88e75d9441934472a9fab9c954ec0df105975483419a7dc4e8b95b99255",
+        "landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "manifest.json": "fb032cf8cbe124e10f68f78cf67934de5b2c77edf28734c9228e4945c6916a0f",
+        "map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "c932e43a80491adb76fa5a752119b3d8c9902a298cc0a2fd9de3173e40d50050",
+        "world.sdf": "2680aae3d425bf64a302dd086905c8f41f5f7a9c88e55f96ee5e3033ace2c5a1"
+      },
+      "base_instruction_id": "base-r013",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r013/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "593e4766cb7bcb9234d5144a9526d85a652aa0258e3474565f512c4bb51dd797",
+        "landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "manifest.json": "d309fa63b804b148036ae2ba47fd783ae71c93b71c8e20dec0edca29f7934e20",
+        "map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "181768a3af6273fe87afa70999f95d97b94e1c0d3c2801f360f029261b57a904",
+        "world.sdf": "f242dad6c1e733d9bcb1f787df787657ca1fab6fc44e10bbefee304772318fd6"
+      },
+      "base_instruction_id": "base-r014",
+      "condition": "truthful_original",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r014/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "593e4766cb7bcb9234d5144a9526d85a652aa0258e3474565f512c4bb51dd797",
+        "landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "manifest.json": "d309fa63b804b148036ae2ba47fd783ae71c93b71c8e20dec0edca29f7934e20",
+        "map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "181768a3af6273fe87afa70999f95d97b94e1c0d3c2801f360f029261b57a904",
+        "world.sdf": "f242dad6c1e733d9bcb1f787df787657ca1fab6fc44e10bbefee304772318fd6"
+      },
+      "base_instruction_id": "base-r014",
+      "condition": "truthful_paraphrase",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r014/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "593e4766cb7bcb9234d5144a9526d85a652aa0258e3474565f512c4bb51dd797",
+        "landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "manifest.json": "d309fa63b804b148036ae2ba47fd783ae71c93b71c8e20dec0edca29f7934e20",
+        "map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "181768a3af6273fe87afa70999f95d97b94e1c0d3c2801f360f029261b57a904",
+        "world.sdf": "f242dad6c1e733d9bcb1f787df787657ca1fab6fc44e10bbefee304772318fd6"
+      },
+      "base_instruction_id": "base-r014",
+      "condition": "ambiguous_reference",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r014/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "absence_intervention.json": "e29aefd573a9288089935ba90f7467ba414b6295c3cfdf3a9cc839b13849b508",
+        "execution_catalog.json": "8f6aff6c8c7c9795c68e743cb19ce0705e3c2f1a8103564dc1321548840c93e0",
+        "landmark_scene.yaml": "09ee47aee24bb96072b8746b046f5a9fcd47a50591bed22843fb051546662a7b",
+        "manifest.json": "7ade2593dfdae6df067e588cbac5cbd133f6dd489bfe0ddbacc15a8c1306f49b",
+        "map.pgm": "baa8a5c6e4e594419f7a03d53f48ff7e4ecdd0c229149fdb71cd9291039745b8",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "c7c9994384bd033965f038476666910bc5d5ca9ffe952c47fe79a75e7114d21b",
+        "world.sdf": "ae9de2cb2ce365c96c8dccb3645c4254571457197f84690e5bed87665b29170a"
+      },
+      "base_instruction_id": "base-r014",
+      "condition": "missing_landmark",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_absence_worlds_v1/base-r014/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_absence_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "593e4766cb7bcb9234d5144a9526d85a652aa0258e3474565f512c4bb51dd797",
+        "landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "manifest.json": "d309fa63b804b148036ae2ba47fd783ae71c93b71c8e20dec0edca29f7934e20",
+        "map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "181768a3af6273fe87afa70999f95d97b94e1c0d3c2801f360f029261b57a904",
+        "world.sdf": "f242dad6c1e733d9bcb1f787df787657ca1fab6fc44e10bbefee304772318fd6"
+      },
+      "base_instruction_id": "base-r014",
+      "condition": "attribute_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r014/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "593e4766cb7bcb9234d5144a9526d85a652aa0258e3474565f512c4bb51dd797",
+        "landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "manifest.json": "d309fa63b804b148036ae2ba47fd783ae71c93b71c8e20dec0edca29f7934e20",
+        "map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "181768a3af6273fe87afa70999f95d97b94e1c0d3c2801f360f029261b57a904",
+        "world.sdf": "f242dad6c1e733d9bcb1f787df787657ca1fab6fc44e10bbefee304772318fd6"
+      },
+      "base_instruction_id": "base-r014",
+      "condition": "relation_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r014/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "593e4766cb7bcb9234d5144a9526d85a652aa0258e3474565f512c4bb51dd797",
+        "landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "manifest.json": "d309fa63b804b148036ae2ba47fd783ae71c93b71c8e20dec0edca29f7934e20",
+        "map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "181768a3af6273fe87afa70999f95d97b94e1c0d3c2801f360f029261b57a904",
+        "world.sdf": "f242dad6c1e733d9bcb1f787df787657ca1fab6fc44e10bbefee304772318fd6"
+      },
+      "base_instruction_id": "base-r014",
+      "condition": "topology_corruption",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r014/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    },
+    {
+      "asset_sha256": {
+        "execution_catalog.json": "593e4766cb7bcb9234d5144a9526d85a652aa0258e3474565f512c4bb51dd797",
+        "landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "manifest.json": "d309fa63b804b148036ae2ba47fd783ae71c93b71c8e20dec0edca29f7934e20",
+        "map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "verified_ordered_geometry.json": "181768a3af6273fe87afa70999f95d97b94e1c0d3c2801f360f029261b57a904",
+        "world.sdf": "f242dad6c1e733d9bcb1f787df787657ca1fab6fc44e10bbefee304772318fd6"
+      },
+      "base_instruction_id": "base-r014",
+      "condition": "false_inserted_clause",
+      "launch_argv": [
+        "ros2",
+        "launch",
+        "language_nav_bringup",
+        "physical_sim.launch.py",
+        "world_path:=/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r014/world.sdf",
+        "simulation_seed:=1",
+        "x_pose:=0.6",
+        "y_pose:=0.0",
+        "yaw:=0.0"
+      ],
+      "passed": true,
+      "route_count": 4,
+      "simulation_seed": 1,
+      "world_family": "physical_worlds_v1"
+    }
+  ],
+  "schema_version": "research3-offline-readiness/v1",
+  "scope": "input and command construction checks, not physical or statistical validation",
+  "simulation_launched": false,
+  "source_sha256": {
+    "ros_ws/src/language_nav_bringup/launch/live_adapters.launch.py": "d745b2ed5864e8844b42ebfe0e3ce3a729a07ffedc2fa344d2aa735f8cf5c218",
+    "ros_ws/src/language_nav_bringup/launch/physical_sim.launch.py": "939c2ec1964d2e34f0636d8139bee147cb0dca3b5b27394548750ec022010269",
+    "ros_ws/src/language_nav_planner/language_nav_planner/node.py": "5abf06082801625c52e1bc8d4ba696795ee4f9c57e724749702de20635e0fccf",
+    "ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py": "09c6a138c9a39eb4dcd12d6742874086d58251bbfeaf255fefc343f9444eff9d",
+    "scripts/physical_perception_capture.py": "06be8ba401eb33b38275a2ffb1bd3d2afff082ad579e572e1d53f47e8a80ce93",
+    "scripts/run_physical_episode.py": "e171ee9485c533ca05ec7030cffd910fdec2a983c402a91beca0c8fe22a7b356",
+    "src/language_nav/benchmark/physical_catalog.py": "5b5b2992bd41064322a129f8e4506eca5974fb1bfceff93d2daf18a5cb1679d9",
+    "src/language_nav/evaluation/ordered.py": "d0e0a1d0a5a783b1e16ae64a7d0420163e09c7481735544f9e57a5cc6a76fdfc",
+    "src/language_nav/live.py": "0085f58f5c9896c227b9edabf6843a046fc775e44347683b79361c04dc7e735b",
+    "src/language_nav/live_resources.py": "e4c9add0f4dc1107f41c67ae866202b1b0e1e359c6bc13813aa3dfe501803d08",
+    "src/language_nav/systems/variants.py": "fcd3abc4ac9c072ded4b9cf3558326e0ba83faf27721073bcfbdc6ef3f83b0a1"
+  }
+}

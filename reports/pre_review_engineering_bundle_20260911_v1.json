@@ -1,0 +1,18 @@
+{
+  "schema_version": "research3-engineering-bundle-handoff/v1",
+  "archive": "reports/research3_pre_review_engineering_20260911_v1.tar.gz",
+  "sha256": "381fb18f2f70dfe813d1574f6d63f68156a133792b46b1e18cc922e9c8a45d6c",
+  "archive_bytes": 173600850,
+  "uncompressed_payload_bytes": 469115903,
+  "payload_members": 2220,
+  "explicit_runs": 64,
+  "archive_reopened_and_all_member_checksums_verified": true,
+  "python_verification": {"passed": 639, "sandbox_skipped": 1},
+  "review_server_host_verification": {"passed": 16, "skipped": 0},
+  "scope": "pre-authorized-heldout-runtime engineering snapshot; historical source/evidence baseline",
+  "study_complete": false,
+  "calibration_frozen": false,
+  "human_verdicts_generated": 0,
+  "protected_live_runs_included": false,
+  "subsequent_authorized_heldout_runtime_implementation_included": false
+}

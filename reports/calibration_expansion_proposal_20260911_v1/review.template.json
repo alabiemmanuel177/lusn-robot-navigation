@@ -1,0 +1,47 @@
+{
+  "amendment_sha256": "e90bfac8e2299def252be9ff9ac561c23f4adcf4cf8b076f7061b58e0b0fed8b",
+  "decisions": {
+    "diagnostic_exclusion": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "fixed_budget_stopping": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "fixed_primary_schedule": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "partition_separation": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "pilot_only": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "rubric_scope": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "source_resource_guards": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "unchanged_coverage": {
+      "decision": "pending",
+      "rationale": null
+    }
+  },
+  "grants_execution_by_itself": false,
+  "overall_decision": "pending",
+  "phase_1_return_sha256": null,
+  "phase_1_usability_audit_sha256": null,
+  "plan_sha256": "1c37bc932d904e35e1e03b934b829e3735dc484176489806566cdc259a3a5cf7",
+  "protected_outcomes_consulted": false,
+  "reviewed_at": null,
+  "reviewer_name": null,
+  "reviewer_role": null,
+  "schema_version": "research3-calibration-expansion-review/v1"
+}

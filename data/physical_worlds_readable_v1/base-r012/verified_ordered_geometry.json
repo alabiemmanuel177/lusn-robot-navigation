@@ -1,0 +1,91 @@
+{
+  "base_instruction_id": "base-r012",
+  "forbidden_gate_ids": [
+    "wrong_doorway_-1_1",
+    "wrong_doorway_1_1",
+    "wrong_doorway_1_2"
+  ],
+  "gates": [
+    {
+      "a": [
+        1.2,
+        1.15
+      ],
+      "b": [
+        1.2,
+        -1.15
+      ],
+      "direction": 1,
+      "gate_id": "corridor"
+    },
+    {
+      "a": [
+        2.7,
+        1.15
+      ],
+      "b": [
+        2.7,
+        -1.15
+      ],
+      "direction": 1,
+      "gate_id": "past_chair"
+    },
+    {
+      "a": [
+        7.15,
+        -1.15
+      ],
+      "b": [
+        8.65,
+        -1.15
+      ],
+      "direction": -1,
+      "gate_id": "second_doorway"
+    },
+    {
+      "a": [
+        3.25,
+        -1.15
+      ],
+      "b": [
+        4.75,
+        -1.15
+      ],
+      "direction": -1,
+      "gate_id": "wrong_doorway_-1_1"
+    },
+    {
+      "a": [
+        3.25,
+        1.15
+      ],
+      "b": [
+        4.75,
+        1.15
+      ],
+      "direction": 1,
+      "gate_id": "wrong_doorway_1_1"
+    },
+    {
+      "a": [
+        7.15,
+        1.15
+      ],
+      "b": [
+        8.65,
+        1.15
+      ],
+      "direction": 1,
+      "gate_id": "wrong_doorway_1_2"
+    }
+  ],
+  "geometry_evidence": "geometry_audit.json: SDF aperture/jamb and footprint connectivity verification",
+  "geometry_verified": true,
+  "map_sha256": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+  "required_gate_ids": [
+    "corridor",
+    "past_chair",
+    "second_doorway"
+  ],
+  "schema_version": "ordered-instruction-geometry/v1"
+}

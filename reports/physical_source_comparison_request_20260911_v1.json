@@ -1,0 +1,238 @@
+{
+  "schema_version": "research3-source-comparison-request/v1",
+  "archive_sha256": "381fb18f2f70dfe813d1574f6d63f68156a133792b46b1e18cc922e9c8a45d6c",
+  "baseline_environment_member": "reports/engineering_environment_20260911_v2.json",
+  "current_environment_path": "reports/engineering_environment_20260911_v4.json",
+  "runs": [
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r001-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r001-chair/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r001.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r001-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r001-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r001.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r001-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r001-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r001.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r002-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r002-chair/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r002.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r002-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r002-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r002.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r002-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r002-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r002.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r003-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r003-chair/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r003.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r003-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r003-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r003.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r003-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r003-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r003.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r004-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r004-chair/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r004.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r004-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r004-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r004.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r004-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r004-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r004.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r005-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r005-chair/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r005.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r005-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r005-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r005.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r005-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r005-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r005.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r006-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r006-chair/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r006.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r006-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r006-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r006.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r006-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r006-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r006.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r007-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r007-chair/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r007.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r007-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r007-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r007.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r007-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r007-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r007.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r008-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r008-chair/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r008.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r008-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r008-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r008.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r008-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r008-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r008.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r009-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r009-chair/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r009.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r009-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r009-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r009.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r009-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r009-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r009.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r010-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r010-chair/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r010.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r010-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r010-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r010.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r010-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r010-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/stationary_capture_plan_v1/profiles/base-r010.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r011-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r011-chair/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r011.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r011-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r011-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r011.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r011-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r011-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r011.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r012-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r012-chair/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r012.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r012-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r012-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r012.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r012-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r012-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r012.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r013-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r013-chair/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r013.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r013-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r013-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r013.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r013-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r013-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r013.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r014-chair/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r014-chair/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r014.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r014-laboratory_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r014-laboratory_entrance/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r014.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r014-office_entrance/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-stationary-draft-v1-r014-office_entrance/runtime_scene.yaml",
+      "profile_member": "reports/engineering_camera_settings_v2/profiles/base-r014.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-shape-stress-chair-dev10-20260911-v3/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-shape-stress-chair-dev10-20260911-v3/runtime_scene.yaml",
+      "profile_member": "configs/physical_dev10_camera_profile_v1.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-shape-stress-doorway-dev10-20260911-v2/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-shape-stress-doorway-dev10-20260911-v2/runtime_scene.yaml",
+      "profile_member": "configs/physical_dev10_camera_profile_v1.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-shape-stress-laboratory_entrance-dev10-20260911-v2/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-shape-stress-laboratory_entrance-dev10-20260911-v2/runtime_scene.yaml",
+      "profile_member": "configs/physical_dev10_camera_profile_v1.yaml"
+    },
+    {
+      "request_member": "reports/physical_live_episodes/r3-shape-stress-office_entrance-dev10-20260911-v2/request.json",
+      "scene_member": "reports/physical_live_episodes/r3-shape-stress-office_entrance-dev10-20260911-v2/runtime_scene.yaml",
+      "profile_member": "configs/physical_dev10_camera_profile_v1.yaml"
+    }
+  ]
+}

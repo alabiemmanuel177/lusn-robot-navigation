@@ -1,0 +1,17 @@
+{
+  "collisions": 0,
+  "episodes": 1,
+  "evidence_scope": "development_validation_engineering_pilots",
+  "full_instruction_completion_measured": true,
+  "inputs": [
+    {
+      "path": "reports/physical_live_episodes/r3-stage1-physical-dev10-v2/summary.json",
+      "sha256": "8faf799cc64f1bb5592e2fa05ba9050358331495fae2b7f02d6b34cde9849960"
+    }
+  ],
+  "navigation_successes": 1,
+  "schema_version": "research3-measured-live-analysis/v1",
+  "terminal_identity_correct": 1,
+  "terminal_identity_unknown": 0,
+  "timeouts": 0
+}

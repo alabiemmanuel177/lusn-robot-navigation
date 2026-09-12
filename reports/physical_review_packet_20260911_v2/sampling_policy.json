@@ -1,0 +1,307 @@
+{
+  "policy_id": "fixed-ordinary-frame000-four-classes-plus-explicit-stress-v1",
+  "schema_version": "research3-review-sampling-policy/v1",
+  "selection_basis": "prespecified_capture_views_not_confidence_or_correctness",
+  "targets": [
+    {
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r001-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r001_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r001-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r001-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r001_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r001-office_entrance"
+    },
+    {
+      "entity_id": "dev_01-r002-blue-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r002-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r002_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r002-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r002_left_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r002-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r002_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r002-office_entrance"
+    },
+    {
+      "entity_id": "dev_02-r003-green-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r003-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r003_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r003-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r003_left_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r003-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r003_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r003-office_entrance"
+    },
+    {
+      "entity_id": "dev_02-r004-yellow-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r004-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r004_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r004-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r004_left_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r004-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r004_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r004-office_entrance"
+    },
+    {
+      "entity_id": "dev_03-r005-red-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r005-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r005_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r005-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r005_right_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r005-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r005_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r005-office_entrance"
+    },
+    {
+      "entity_id": "dev_03-r006-blue-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r006-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r006_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r006-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r006_right_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r006-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r006_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r006-office_entrance"
+    },
+    {
+      "entity_id": "dev_04-r007-green-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r007-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r007_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r007-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r007_right_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r007-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r007_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r007-office_entrance"
+    },
+    {
+      "entity_id": "dev_04-r008-yellow-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r008-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r008_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r008-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r008_right_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r008-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r008_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r008-office_entrance"
+    },
+    {
+      "entity_id": "dev_05-r009-red-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r009-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r009_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r009-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r009_left_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r009-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r009_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r009-office_entrance"
+    },
+    {
+      "entity_id": "dev_00-r010-blue-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r010-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r010_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r010-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r010_left_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r010-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r010_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r010-office_entrance"
+    },
+    {
+      "entity_id": "val_01-r011-green-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r011-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r011_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r011-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r011_left_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r011-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r011_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r011-office_entrance"
+    },
+    {
+      "entity_id": "val_01-r012-yellow-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r012-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r012_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r012-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r012_left_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r012-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r012_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r012-office_entrance"
+    },
+    {
+      "entity_id": "val_02-r013-red-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r013-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r013_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r013-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r013_right_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r013-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r013_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r013-office_entrance"
+    },
+    {
+      "entity_id": "val_00-r014-blue-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r014-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r014_right_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r014-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r014_right_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r014-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r014_left_2_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-r014-office_entrance"
+    },
+    {
+      "entity_id": "dev_00-r010-blue-chair",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-stress-chair"
+    },
+    {
+      "entity_id": "r3geo_base_r010_left_1_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-stress-doorway"
+    },
+    {
+      "entity_id": "r3geo_base_r010_left_1_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-stress-laboratory_entrance"
+    },
+    {
+      "entity_id": "r3geo_base_r010_right_1_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "run_id": "r3-current-v1-stress-office_entrance"
+    }
+  ]
+}

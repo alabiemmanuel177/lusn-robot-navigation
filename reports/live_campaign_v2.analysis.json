@@ -1,0 +1,189 @@
+{
+  "calibration_sha256": "90ad3edd8173c1b07c80bd1acc1f50cb7342287668db857f7a289a55d32d1c99",
+  "campaign_complete": true,
+  "campaign_id": "r3-live-nonprotected-v2",
+  "campaign_sha256": "6f8e3622432f81267ca39fcccb57de0d071b665edd65f8d89129d81ede2b048b",
+  "claim_scope": "integration and terminal-outcome evidence; not held-out performance",
+  "collisions": 0,
+  "config_sha256": "bd9c4eaa1958e1136e4dc97ca47a5bba890295959e8c0c6f10b53eb6ab2e09dc",
+  "episode_count": 14,
+  "episodes": [
+    {
+      "navigation_success": true,
+      "partition": "development",
+      "reason": "navigation succeeded",
+      "research2_alarms": 1,
+      "research2_decisions": 19,
+      "research2_sha256": "b710c1fbc407128b80760fae0dca86f12a5e58d4848f35e341fa8b052bb2b639",
+      "research3_sha256": "910472dc47db0680096ccab2b5d713fc5cbef6aa44dabe12e76ebc8dbd5f04f5",
+      "route_id": "dev_00_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-00-r0-a1"
+    },
+    {
+      "navigation_success": false,
+      "partition": "development",
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "research2_alarms": 1,
+      "research2_decisions": 22,
+      "research2_sha256": "bd8929889472cdbe0dac90361310310a5d1d89f73f3dee459e27145e44807bc1",
+      "research3_sha256": "5bb4a466e68ca238716039859d565a550dbf8f6e8f11908f76e43a2ab25aacb4",
+      "route_id": "dev_01_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-01-r0-a1"
+    },
+    {
+      "navigation_success": false,
+      "partition": "development",
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "research2_alarms": 1,
+      "research2_decisions": 25,
+      "research2_sha256": "66b2207c53b6678b5fe4fba291dec554e83b92c460900db06f79232352154740",
+      "research3_sha256": "e92254cb324f6da4039778a2775e8a8d963ef2c539d28f2949d4ab811d22654d",
+      "route_id": "dev_01_r1",
+      "run_id": "r3-live-nonprotected-v2-dev-01-r1-a1"
+    },
+    {
+      "navigation_success": false,
+      "partition": "development",
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "research2_alarms": 1,
+      "research2_decisions": 13,
+      "research2_sha256": "4e2b8d9b79ce7b6fb26afcf744896d324ee871079b6f6292e21714d929e4d087",
+      "research3_sha256": "60e95fbfaf5284837ce0ec1e1ab0da89b742220a3086eb637e3f543e9b21b774",
+      "route_id": "dev_02_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-02-r0-a1"
+    },
+    {
+      "navigation_success": false,
+      "partition": "development",
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "research2_alarms": 1,
+      "research2_decisions": 12,
+      "research2_sha256": "d4dd9137cd823ed6d90c301d632f4ca5f6a4ce34e7e2d241930bbe96190952ee",
+      "research3_sha256": "957350ffc1831b9b97b4cb45e12fc8e9cd68a05b03458832b8890ac0584006f9",
+      "route_id": "dev_02_r1",
+      "run_id": "r3-live-nonprotected-v2-dev-02-r1-a1"
+    },
+    {
+      "navigation_success": false,
+      "partition": "development",
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "research2_alarms": 1,
+      "research2_decisions": 28,
+      "research2_sha256": "58ec27eae29d2137e8ed85ac96903c7a1eecf1015e07617d2a83d72e915ed28a",
+      "research3_sha256": "a06159ca85a36c0bab27b9265c4f7e1ff816b5edd567618ffdf5b49a2a03a1a6",
+      "route_id": "dev_03_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-03-r0-a1"
+    },
+    {
+      "navigation_success": false,
+      "partition": "development",
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "research2_alarms": 1,
+      "research2_decisions": 29,
+      "research2_sha256": "a0f91d130cd632fd4f40604dc038f53e348b5d359ade799e8e198b5092507d96",
+      "research3_sha256": "dd3107f81c8f866b3dd63452c81a6adc25266c423211241c8c8ecabc94995e34",
+      "route_id": "dev_03_r1",
+      "run_id": "r3-live-nonprotected-v2-dev-03-r1-a1"
+    },
+    {
+      "navigation_success": false,
+      "partition": "development",
+      "reason": "monitor-driven abstention: all eligible routes exceed abstention risk",
+      "research2_alarms": 1,
+      "research2_decisions": 11,
+      "research2_sha256": "27fcef2d5d02c5ca3bb2ffba9c195953b237f6b5f59de2ce88ddf13a53bb8a83",
+      "research3_sha256": "b9e55ea0adb098df33dd6fc152e8a09ef4cd5ccc52e39a6570c8cf67269a46b3",
+      "route_id": "dev_04_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-04-r0-a1"
+    },
+    {
+      "navigation_success": true,
+      "partition": "development",
+      "reason": "navigation succeeded",
+      "research2_alarms": 1,
+      "research2_decisions": 175,
+      "research2_sha256": "45b1024a21a1428354788a6d6e54661c6b03e1be31e270cd934b8b46798daba8",
+      "research3_sha256": "c748a82ceeafe40d10a825a24e72aa512061e145d406cf02c5a4a5a7e91d200d",
+      "route_id": "dev_04_r1",
+      "run_id": "r3-live-nonprotected-v2-dev-04-r1-a1"
+    },
+    {
+      "navigation_success": false,
+      "partition": "development",
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "research2_alarms": 1,
+      "research2_decisions": 12,
+      "research2_sha256": "e1291de1dc3dcdb66c1506ab0a873f09fc9a525cce947bc7215afbf4a1795d25",
+      "research3_sha256": "2ebe80e851905bc9d3a3af77a6154b709260ef2fd6abe36b8a2865f9e3d10086",
+      "route_id": "dev_05_r0",
+      "run_id": "r3-live-nonprotected-v2-dev-05-r0-a1"
+    },
+    {
+      "navigation_success": true,
+      "partition": "validation",
+      "reason": "navigation succeeded",
+      "research2_alarms": 1,
+      "research2_decisions": 50,
+      "research2_sha256": "ac217a185c185fc348181a495e96c83726c649bda0e861b61c23a9595076022f",
+      "research3_sha256": "b6580234fc85111e2c148b9952c9d426637b3e480ca36b7c5bf1c22f7859f217",
+      "route_id": "val_00_r0",
+      "run_id": "r3-live-nonprotected-v2-val-00-r0-a1"
+    },
+    {
+      "navigation_success": true,
+      "partition": "validation",
+      "reason": "navigation succeeded",
+      "research2_alarms": 1,
+      "research2_decisions": 42,
+      "research2_sha256": "5da10dfc78740f2bcb2479ba4877ef61dd4559a32a1442c8faab801b48bf3a3c",
+      "research3_sha256": "d7bcb9968c9361f6f9069c4c91e9f9a5ffc38873f204c0cfa7f45639b2bf9918",
+      "route_id": "val_01_r0",
+      "run_id": "r3-live-nonprotected-v2-val-01-r0-a1"
+    },
+    {
+      "navigation_success": false,
+      "partition": "validation",
+      "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+      "research2_alarms": 1,
+      "research2_decisions": 11,
+      "research2_sha256": "221e179095308f11d00cc0d75f5a300ba020b20178c6e2e804c6cb5e520b0ad7",
+      "research3_sha256": "8b01c33e0a80841db228059e4304ac87fcfa09ce199e3f3e69a11c18eedae488",
+      "route_id": "val_01_r1",
+      "run_id": "r3-live-nonprotected-v2-val-01-r1-a1"
+    },
+    {
+      "navigation_success": true,
+      "partition": "validation",
+      "reason": "navigation succeeded",
+      "research2_alarms": 0,
+      "research2_decisions": 34,
+      "research2_sha256": "a3ae46c30cfddb084a742b6ad9ff9d3a913c0db38b5a88e6c74ca5fbacb5a929",
+      "research3_sha256": "426d41693a4678ad9b86b19bb7ee892952c032d27fe7e2e891628198a71a44b5",
+      "route_id": "val_02_r0",
+      "run_id": "r3-live-nonprotected-v2-val-02-r0-a1"
+    }
+  ],
+  "frozen_checkpoint_sha256": [
+    "171451f0fa21036a05a5b9eb2181568976e65131fa30f74ad3d0c88f6fea57a6"
+  ],
+  "initial_action_counts": {
+    "inspect": 14
+  },
+  "monitor_driven_abstentions": 9,
+  "navigation_successes": 5,
+  "partitions": {
+    "development": {
+      "episodes": 10,
+      "navigation_success": 2
+    },
+    "validation": {
+      "episodes": 4,
+      "navigation_success": 3
+    }
+  },
+  "protected_test_routes_used": false,
+  "research2_alarms": 13,
+  "research2_decisions": 483,
+  "schema_version": "research3-live-analysis/v1",
+  "valid_terminal_outcomes": 14
+}

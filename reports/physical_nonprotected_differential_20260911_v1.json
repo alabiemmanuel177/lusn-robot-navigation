@@ -1,0 +1,604 @@
+{
+  "archive_manifest_sha256": "084330ef678944a09633aa07be0a67552d6dcf152c90217d04711caa39713f43",
+  "archive_sha256": "381fb18f2f70dfe813d1574f6d63f68156a133792b46b1e18cc922e9c8a45d6c",
+  "baseline_source_sha256": "5b5b2992bd41064322a129f8e4506eca5974fb1bfceff93d2daf18a5cb1679d9",
+  "catalogue_differential_passed": true,
+  "current_source_sha256": "dd1d4d4dca48dd94136a48e8e5c8b5d42d91657d7723f8196ff32a3f093a668e",
+  "deployment_eligible": false,
+  "equivalence_approved": false,
+  "human_labels_generated": false,
+  "limits": [
+    "Only catalogue, launch-input validation and absent-anchor outputs compared.",
+    "Both isolated source modules use the current shared Python dependencies.",
+    "No ROS callbacks, Gazebo trajectories, provider detections or fresh environment checks executed.",
+    "Source equality/differential tests do not authorize calibration or heldout-world transfer."
+  ],
+  "protected_data_used": false,
+  "rows": [
+    {
+      "baseline_output_sha256": "8aa9754a3ac8d364dc711158e5996b498473f9ce2a533e6ab2e341019451a098",
+      "current_output_sha256": "8aa9754a3ac8d364dc711158e5996b498473f9ce2a533e6ab2e341019451a098",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r001/execution_catalog.json": "794cbfa11ceaf8747d34ad517417c1f8b56c63f3787610097b135579af21d7dd",
+        "data/physical_worlds_v1/base-r001/landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+        "data/physical_worlds_v1/base-r001/map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+        "data/physical_worlds_v1/base-r001/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r001/world.sdf": "b1800857c27e0ec9378da274c0108cbd41b00761b4339940d923478454879068"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r001"
+    },
+    {
+      "baseline_output_sha256": "895a4942b99100f30eb86f13193f18c867853942aa69425678e577e0ddb59394",
+      "current_output_sha256": "895a4942b99100f30eb86f13193f18c867853942aa69425678e577e0ddb59394",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r002/execution_catalog.json": "6e946452ab5adc59e0480efcd61f00c571f2001c85570eb0a5fc192dff2f573e",
+        "data/physical_worlds_v1/base-r002/landmark_scene.yaml": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3",
+        "data/physical_worlds_v1/base-r002/map.pgm": "62efcc836cbd5f44da42741e05ae38c5f95dfca7ce46967fa17221fa2f4a6ed1",
+        "data/physical_worlds_v1/base-r002/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r002/world.sdf": "9736ea49b2b2517437c1a867dddf3909be0a847c7ca3ed8e6ceee49df6b05343"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r002"
+    },
+    {
+      "baseline_output_sha256": "37a73161a520979516d42c06748be631abc38614587eea26f8a615bcbb250183",
+      "current_output_sha256": "37a73161a520979516d42c06748be631abc38614587eea26f8a615bcbb250183",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r003/execution_catalog.json": "c668c130c8f283cf372dea51d4635e3bf6615743872819620c9a1514248dd77d",
+        "data/physical_worlds_v1/base-r003/landmark_scene.yaml": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6",
+        "data/physical_worlds_v1/base-r003/map.pgm": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342",
+        "data/physical_worlds_v1/base-r003/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r003/world.sdf": "9ceb8d96d492d5446498bcb37a49e3f7d9cf5b832b6f7e613f0ec758e1ebf696"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r003"
+    },
+    {
+      "baseline_output_sha256": "059af9e8fafa1ef32843f3bcf8116296a0e49aeca147dcf9395ca7fa969e88c4",
+      "current_output_sha256": "059af9e8fafa1ef32843f3bcf8116296a0e49aeca147dcf9395ca7fa969e88c4",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r004/execution_catalog.json": "3c7b1d4b15f8ea24d4026629e2114c9264113369d982d92f232f4c5252a3277e",
+        "data/physical_worlds_v1/base-r004/landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+        "data/physical_worlds_v1/base-r004/map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+        "data/physical_worlds_v1/base-r004/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r004/world.sdf": "d1cab934fb11b8815b2341e2650e0aa743f3f0f09b24aa3bfbeb5119b27ecee9"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r004"
+    },
+    {
+      "baseline_output_sha256": "60f56e8881b5099e46d7984bf74b54addbaa766aed87e7d0ab6a39764008c111",
+      "current_output_sha256": "60f56e8881b5099e46d7984bf74b54addbaa766aed87e7d0ab6a39764008c111",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r005/execution_catalog.json": "414f8587685e58eb6967f4baacc220df2c54c74d95acd29577747cc24fcc9ece",
+        "data/physical_worlds_v1/base-r005/landmark_scene.yaml": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf",
+        "data/physical_worlds_v1/base-r005/map.pgm": "28124a30a6ef4729ddc2978cef7789f5adcad257c66acccddbebc8543316ae4b",
+        "data/physical_worlds_v1/base-r005/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r005/world.sdf": "d03f8c29730a268149f51224c66d34d01eff0c966c4b5a5521b2d9ef2ff68d50"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r005"
+    },
+    {
+      "baseline_output_sha256": "9997628f83280771c143bfbe6c7ccb145a735798d8aff45473a695f77bc0348d",
+      "current_output_sha256": "9997628f83280771c143bfbe6c7ccb145a735798d8aff45473a695f77bc0348d",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r006/execution_catalog.json": "aaa83f76b808ef4bc82621666749ca282c3611af026fd39862da966f51923e29",
+        "data/physical_worlds_v1/base-r006/landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+        "data/physical_worlds_v1/base-r006/map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+        "data/physical_worlds_v1/base-r006/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r006/world.sdf": "359a4f46ac38ee797132388c5fcbc84acfb6a55d5593e8eec0bd7c7071ea47eb"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r006"
+    },
+    {
+      "baseline_output_sha256": "6f26fe41dff5c8c447f8b0d1d6d843742486ba6dab71d756d5df1a12604564de",
+      "current_output_sha256": "6f26fe41dff5c8c447f8b0d1d6d843742486ba6dab71d756d5df1a12604564de",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r007/execution_catalog.json": "915487cc4084db394430120bab332585256d44acbddb25b390b7f60d93dbe537",
+        "data/physical_worlds_v1/base-r007/landmark_scene.yaml": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e",
+        "data/physical_worlds_v1/base-r007/map.pgm": "d5a28b6b2639d493e6b9f5aae49d4244e624c30bb1a314a061f3a22754ad1e28",
+        "data/physical_worlds_v1/base-r007/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r007/world.sdf": "487e38a7178c8aa5c9d99e2ad903285f64ec034bac757b93350e46b7c0f5cb3d"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r007"
+    },
+    {
+      "baseline_output_sha256": "e163ebf3d60bf7f128cf232ff0d413f5cac379a56f342b027daf03340cbb7680",
+      "current_output_sha256": "e163ebf3d60bf7f128cf232ff0d413f5cac379a56f342b027daf03340cbb7680",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r008/execution_catalog.json": "7d0f093389acd40594a2a3737494a2cca78dc0ce655cdf093ea60c24d42cf74f",
+        "data/physical_worlds_v1/base-r008/landmark_scene.yaml": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776",
+        "data/physical_worlds_v1/base-r008/map.pgm": "dcbeaa79f20d76c1bade6288e23b8ac5525dad714a9b42d9bfa6fb5651ff356f",
+        "data/physical_worlds_v1/base-r008/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r008/world.sdf": "45bd4e5ff8b9058cc23ad9018971161c41f197861bfcc3db2b9463f125169df6"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r008"
+    },
+    {
+      "baseline_output_sha256": "f6a935e834dbbf796e06525e3008f0f9900106e1b7cb29bec0e0b35058c9e306",
+      "current_output_sha256": "f6a935e834dbbf796e06525e3008f0f9900106e1b7cb29bec0e0b35058c9e306",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r009/execution_catalog.json": "08edd9e3e42a5197695d3b283d97f97fa614225e006220d17c8e8beefccc94e2",
+        "data/physical_worlds_v1/base-r009/landmark_scene.yaml": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5",
+        "data/physical_worlds_v1/base-r009/map.pgm": "7f35575f48f7a68f77b8ca6011ddd99ee0ccc29a1ef8d49c83dd425468aae52e",
+        "data/physical_worlds_v1/base-r009/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r009/world.sdf": "92225bf0e4c264f60d64c2c8cf9e7f0f30036e11d2ddbc3d52bbb484550f9bbb"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r009"
+    },
+    {
+      "baseline_output_sha256": "89318aa17f59036b3333745196fff367127731d286ad3972a9c8f2b8d5e14cce",
+      "current_output_sha256": "89318aa17f59036b3333745196fff367127731d286ad3972a9c8f2b8d5e14cce",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r010/execution_catalog.json": "d5813e1c118ce45cd44bf84c471cbdcc9a10bf1effc203be43b2f9bd292315e2",
+        "data/physical_worlds_v1/base-r010/landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+        "data/physical_worlds_v1/base-r010/map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+        "data/physical_worlds_v1/base-r010/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r010/world.sdf": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r010"
+    },
+    {
+      "baseline_output_sha256": "4ee5b92bb8b21c1979a408d1170c78d9a8385e863f41aa56b6dce3c8c0244d39",
+      "current_output_sha256": "4ee5b92bb8b21c1979a408d1170c78d9a8385e863f41aa56b6dce3c8c0244d39",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r011/execution_catalog.json": "832f49ec9c5480fb688ea6466f6d251a403a0026d8b9c0b66964dfa32912fe86",
+        "data/physical_worlds_v1/base-r011/landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "data/physical_worlds_v1/base-r011/map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "data/physical_worlds_v1/base-r011/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r011/world.sdf": "081fd6311fe2656cc7610ec78aa5d5c837c6beeb1bd17f975d4d53303dd1e2b0"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r011"
+    },
+    {
+      "baseline_output_sha256": "877258925d5398f374b066fd950204f2edc2b769be97eca2e9689e60c545c79d",
+      "current_output_sha256": "877258925d5398f374b066fd950204f2edc2b769be97eca2e9689e60c545c79d",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r012/execution_catalog.json": "92c4efc831104db9991fae983b670cff19d47433aef217fed08f6b70a90c36d7",
+        "data/physical_worlds_v1/base-r012/landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "data/physical_worlds_v1/base-r012/map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "data/physical_worlds_v1/base-r012/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r012/world.sdf": "0215618fec2e74c16c905b56f2d3b00197d4e4c1be80ebbee423c5fa05c21db0"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r012"
+    },
+    {
+      "baseline_output_sha256": "2d30eb8612433e3532e1dc6084d20bafaeb7b311fcba4dd44a606a998c430f33",
+      "current_output_sha256": "2d30eb8612433e3532e1dc6084d20bafaeb7b311fcba4dd44a606a998c430f33",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r013/execution_catalog.json": "1838d88e75d9441934472a9fab9c954ec0df105975483419a7dc4e8b95b99255",
+        "data/physical_worlds_v1/base-r013/landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "data/physical_worlds_v1/base-r013/map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "data/physical_worlds_v1/base-r013/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r013/world.sdf": "2680aae3d425bf64a302dd086905c8f41f5f7a9c88e55f96ee5e3033ace2c5a1"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r013"
+    },
+    {
+      "baseline_output_sha256": "fc0aa3235cddc161d8e63ca7c8780edf3a81bbbf1dafc8653c6783a0a935d83d",
+      "current_output_sha256": "fc0aa3235cddc161d8e63ca7c8780edf3a81bbbf1dafc8653c6783a0a935d83d",
+      "input_sha256": {
+        "data/physical_worlds_v1/base-r014/execution_catalog.json": "593e4766cb7bcb9234d5144a9526d85a652aa0258e3474565f512c4bb51dd797",
+        "data/physical_worlds_v1/base-r014/landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "data/physical_worlds_v1/base-r014/map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "data/physical_worlds_v1/base-r014/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_v1/base-r014/world.sdf": "f242dad6c1e733d9bcb1f787df787657ca1fab6fc44e10bbefee304772318fd6"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_v1/base-r014"
+    },
+    {
+      "baseline_output_sha256": "8aa9754a3ac8d364dc711158e5996b498473f9ce2a533e6ab2e341019451a098",
+      "current_output_sha256": "8aa9754a3ac8d364dc711158e5996b498473f9ce2a533e6ab2e341019451a098",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r001/execution_catalog.json": "247c8b423a895ab810f68fd97f2564afd1fa6e96798e1977ec5e77861c80aec3",
+        "data/physical_worlds_readable_v1/base-r001/landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+        "data/physical_worlds_readable_v1/base-r001/map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+        "data/physical_worlds_readable_v1/base-r001/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r001/world.sdf": "92364fb39c02520b856b9226906a1827a367a70e915a432effda2d1d9657c320"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r001"
+    },
+    {
+      "baseline_output_sha256": "895a4942b99100f30eb86f13193f18c867853942aa69425678e577e0ddb59394",
+      "current_output_sha256": "895a4942b99100f30eb86f13193f18c867853942aa69425678e577e0ddb59394",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r002/execution_catalog.json": "312cba01d122633de584013bb4ac7ead1f08bacf42070df712c6e86190538057",
+        "data/physical_worlds_readable_v1/base-r002/landmark_scene.yaml": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3",
+        "data/physical_worlds_readable_v1/base-r002/map.pgm": "62efcc836cbd5f44da42741e05ae38c5f95dfca7ce46967fa17221fa2f4a6ed1",
+        "data/physical_worlds_readable_v1/base-r002/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r002/world.sdf": "c1836acd2866336472d17428cb470c7c21e223367b228bad1b6349e5e592e499"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r002"
+    },
+    {
+      "baseline_output_sha256": "37a73161a520979516d42c06748be631abc38614587eea26f8a615bcbb250183",
+      "current_output_sha256": "37a73161a520979516d42c06748be631abc38614587eea26f8a615bcbb250183",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r003/execution_catalog.json": "00faa017a8aeb7e722d2041fac9490e4dda8bc25109b0b7f1ceb07c945a764e9",
+        "data/physical_worlds_readable_v1/base-r003/landmark_scene.yaml": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6",
+        "data/physical_worlds_readable_v1/base-r003/map.pgm": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342",
+        "data/physical_worlds_readable_v1/base-r003/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r003/world.sdf": "447b77e3b757dd54b80d221a49e2609d5e5b4099e6c2866b97df13b22f61e48f"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r003"
+    },
+    {
+      "baseline_output_sha256": "059af9e8fafa1ef32843f3bcf8116296a0e49aeca147dcf9395ca7fa969e88c4",
+      "current_output_sha256": "059af9e8fafa1ef32843f3bcf8116296a0e49aeca147dcf9395ca7fa969e88c4",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r004/execution_catalog.json": "eed93fa2da0d1bafef26305013135f13ea7d98a5c9e19c79bff4202cf2261c62",
+        "data/physical_worlds_readable_v1/base-r004/landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+        "data/physical_worlds_readable_v1/base-r004/map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+        "data/physical_worlds_readable_v1/base-r004/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r004/world.sdf": "3f2936cc6b46847b9822ed9fbfb578df189206f62720050bc41da045837fc5a3"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r004"
+    },
+    {
+      "baseline_output_sha256": "60f56e8881b5099e46d7984bf74b54addbaa766aed87e7d0ab6a39764008c111",
+      "current_output_sha256": "60f56e8881b5099e46d7984bf74b54addbaa766aed87e7d0ab6a39764008c111",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r005/execution_catalog.json": "52b6c144c34021874a49ef54cd7c1f2e3eb77dea3f3cae3475ab1f91c68bdf3e",
+        "data/physical_worlds_readable_v1/base-r005/landmark_scene.yaml": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf",
+        "data/physical_worlds_readable_v1/base-r005/map.pgm": "28124a30a6ef4729ddc2978cef7789f5adcad257c66acccddbebc8543316ae4b",
+        "data/physical_worlds_readable_v1/base-r005/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r005/world.sdf": "04dd1721261cb8c9196290ba823a1a0047447e00114d0d673e625248882925e0"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r005"
+    },
+    {
+      "baseline_output_sha256": "9997628f83280771c143bfbe6c7ccb145a735798d8aff45473a695f77bc0348d",
+      "current_output_sha256": "9997628f83280771c143bfbe6c7ccb145a735798d8aff45473a695f77bc0348d",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r006/execution_catalog.json": "4b03c26bce258b415975ddc919937fd95b8f3cdcb49d6a096283af2323886b31",
+        "data/physical_worlds_readable_v1/base-r006/landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+        "data/physical_worlds_readable_v1/base-r006/map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+        "data/physical_worlds_readable_v1/base-r006/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r006/world.sdf": "4d255a16e7c924ef0f4a06a4cba2aa5c491744ead2effc404d42df2bb6ebe70a"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r006"
+    },
+    {
+      "baseline_output_sha256": "6f26fe41dff5c8c447f8b0d1d6d843742486ba6dab71d756d5df1a12604564de",
+      "current_output_sha256": "6f26fe41dff5c8c447f8b0d1d6d843742486ba6dab71d756d5df1a12604564de",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r007/execution_catalog.json": "40979c04f958de3969288c96f21e8332df474c5f67cae3f19a548038efb093b8",
+        "data/physical_worlds_readable_v1/base-r007/landmark_scene.yaml": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e",
+        "data/physical_worlds_readable_v1/base-r007/map.pgm": "d5a28b6b2639d493e6b9f5aae49d4244e624c30bb1a314a061f3a22754ad1e28",
+        "data/physical_worlds_readable_v1/base-r007/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r007/world.sdf": "03268a89acc51c332cb94ca20c1bf2bba2c9f8eac2ca5a4a16710b0280e5ca8d"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r007"
+    },
+    {
+      "baseline_output_sha256": "e163ebf3d60bf7f128cf232ff0d413f5cac379a56f342b027daf03340cbb7680",
+      "current_output_sha256": "e163ebf3d60bf7f128cf232ff0d413f5cac379a56f342b027daf03340cbb7680",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r008/execution_catalog.json": "3a25762f9e62adb6cda69b95b6a4d88f481004cc3fce7242c63b946a95985a22",
+        "data/physical_worlds_readable_v1/base-r008/landmark_scene.yaml": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776",
+        "data/physical_worlds_readable_v1/base-r008/map.pgm": "dcbeaa79f20d76c1bade6288e23b8ac5525dad714a9b42d9bfa6fb5651ff356f",
+        "data/physical_worlds_readable_v1/base-r008/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r008/world.sdf": "e32e90af6f89cbb360dd366f2332327f92ad6834b9443eaf5f5fb14512e19c6b"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r008"
+    },
+    {
+      "baseline_output_sha256": "f6a935e834dbbf796e06525e3008f0f9900106e1b7cb29bec0e0b35058c9e306",
+      "current_output_sha256": "f6a935e834dbbf796e06525e3008f0f9900106e1b7cb29bec0e0b35058c9e306",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r009/execution_catalog.json": "4d2d7ce0cffd51579d1c12de4cf661cf9c873095bee8b2a39454a38535a53645",
+        "data/physical_worlds_readable_v1/base-r009/landmark_scene.yaml": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5",
+        "data/physical_worlds_readable_v1/base-r009/map.pgm": "7f35575f48f7a68f77b8ca6011ddd99ee0ccc29a1ef8d49c83dd425468aae52e",
+        "data/physical_worlds_readable_v1/base-r009/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r009/world.sdf": "7c9e3de1da558198220c5ac721ecef3119d13c08059addc3721e585368cb67ce"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r009"
+    },
+    {
+      "baseline_output_sha256": "89318aa17f59036b3333745196fff367127731d286ad3972a9c8f2b8d5e14cce",
+      "current_output_sha256": "89318aa17f59036b3333745196fff367127731d286ad3972a9c8f2b8d5e14cce",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r010/execution_catalog.json": "36822f48fd474d07947610581961a5e0a05d6bde1bbb8412d68e4b9228d9f980",
+        "data/physical_worlds_readable_v1/base-r010/landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+        "data/physical_worlds_readable_v1/base-r010/map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+        "data/physical_worlds_readable_v1/base-r010/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r010/world.sdf": "2e7be91bd8b90837bdb5d2814edbae419a20393a14d3aa451dc7d5d2ce659b29"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r010"
+    },
+    {
+      "baseline_output_sha256": "4ee5b92bb8b21c1979a408d1170c78d9a8385e863f41aa56b6dce3c8c0244d39",
+      "current_output_sha256": "4ee5b92bb8b21c1979a408d1170c78d9a8385e863f41aa56b6dce3c8c0244d39",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r011/execution_catalog.json": "c4525ea6c9f2135588bc0103ef8075a045e4a70ed86f17e5f90f2f9019320504",
+        "data/physical_worlds_readable_v1/base-r011/landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "data/physical_worlds_readable_v1/base-r011/map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "data/physical_worlds_readable_v1/base-r011/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r011/world.sdf": "8432e4bc7a91872088124d7e0a584723d0154aac18110ab551bb7cea469336bd"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r011"
+    },
+    {
+      "baseline_output_sha256": "877258925d5398f374b066fd950204f2edc2b769be97eca2e9689e60c545c79d",
+      "current_output_sha256": "877258925d5398f374b066fd950204f2edc2b769be97eca2e9689e60c545c79d",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r012/execution_catalog.json": "02c023a7bd5f957756994547839d1fd6d7e088ca286a7cd88a66cef03181947b",
+        "data/physical_worlds_readable_v1/base-r012/landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "data/physical_worlds_readable_v1/base-r012/map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "data/physical_worlds_readable_v1/base-r012/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r012/world.sdf": "fd7dcf27a6437691571376defdae56b2b60c97956d4711d72913c0a15486ea8c"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r012"
+    },
+    {
+      "baseline_output_sha256": "2d30eb8612433e3532e1dc6084d20bafaeb7b311fcba4dd44a606a998c430f33",
+      "current_output_sha256": "2d30eb8612433e3532e1dc6084d20bafaeb7b311fcba4dd44a606a998c430f33",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r013/execution_catalog.json": "9ea84d6bd55af7fc2e1fe253e4f55b1a064c10da8ef715e70f182565f242ed79",
+        "data/physical_worlds_readable_v1/base-r013/landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "data/physical_worlds_readable_v1/base-r013/map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "data/physical_worlds_readable_v1/base-r013/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r013/world.sdf": "87e681c4be3347dbdfec381a28e5e928d718f110ffb4906f41b27df02d6df95e"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r013"
+    },
+    {
+      "baseline_output_sha256": "fc0aa3235cddc161d8e63ca7c8780edf3a81bbbf1dafc8653c6783a0a935d83d",
+      "current_output_sha256": "fc0aa3235cddc161d8e63ca7c8780edf3a81bbbf1dafc8653c6783a0a935d83d",
+      "input_sha256": {
+        "data/physical_worlds_readable_v1/base-r014/execution_catalog.json": "59ea05c5424445f22bca41aaaf03e2eac6bafad4b325cc6781b448b3c99bba41",
+        "data/physical_worlds_readable_v1/base-r014/landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "data/physical_worlds_readable_v1/base-r014/map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "data/physical_worlds_readable_v1/base-r014/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_worlds_readable_v1/base-r014/world.sdf": "ddcb501b61cdd73740da53fcf7857f8d445597a38d1d01a82fa5c1b9eedf69dd"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_worlds_readable_v1/base-r014"
+    },
+    {
+      "baseline_output_sha256": "27b6bd736ffd0d9833872b827cd89f7bf9dde4d4fda50c0c7c5a7519a6f3966b",
+      "current_output_sha256": "27b6bd736ffd0d9833872b827cd89f7bf9dde4d4fda50c0c7c5a7519a6f3966b",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r001/absence_intervention.json": "f947bec9bd6e8eba177dc461a8d3e6310b82549b3a8ec9e161af2e655613c4a6",
+        "data/physical_absence_worlds_v1/base-r001/execution_catalog.json": "37d79e0656a45029b73e9eee9fb16b14f06d2faa5b00437bd2c4e703275785df",
+        "data/physical_absence_worlds_v1/base-r001/landmark_scene.yaml": "044d1badbc14073d5b6633e4858823564b1970302233db241c29ad8521c5bfe4",
+        "data/physical_absence_worlds_v1/base-r001/map.pgm": "af6a133cb53295c7a2eb31ef975c5e136beb6fb90ee960f39ae42c1dbb451de2",
+        "data/physical_absence_worlds_v1/base-r001/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r001/world.sdf": "8f2aacba6401ae59f5b3b4912ec45e7ebe4fa7ac26cd6899d35be6c9fd1a287a"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r001"
+    },
+    {
+      "baseline_output_sha256": "6f139e0e4f88d744b3674499689606c89d881fb7391529126576b850ff632770",
+      "current_output_sha256": "6f139e0e4f88d744b3674499689606c89d881fb7391529126576b850ff632770",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r002/absence_intervention.json": "96efe8190906c16ac940b597c75480047a2798078fc4da2cd9dac34624db99ec",
+        "data/physical_absence_worlds_v1/base-r002/execution_catalog.json": "85d6208dc0af511200bb64b06ebfab4942b5b27f656a1f1906867d649a8de9b9",
+        "data/physical_absence_worlds_v1/base-r002/landmark_scene.yaml": "d91850ba53f382a2e31ff2faed7bd25804f11c4031b8b30713eaf2a10c3ef9b5",
+        "data/physical_absence_worlds_v1/base-r002/map.pgm": "65a0dd58fc54031e9945db3aec1fae62c23934b919e3020d037057c240d2e08b",
+        "data/physical_absence_worlds_v1/base-r002/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r002/world.sdf": "c6675dc2660e65a9f49d0369e52700751f0be8b482f22fb73604c64a743a675d"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r002"
+    },
+    {
+      "baseline_output_sha256": "a48ff4627f75456a31940e8cd80c3961489fbdbbefa9009edf248ea9e4ca91fe",
+      "current_output_sha256": "a48ff4627f75456a31940e8cd80c3961489fbdbbefa9009edf248ea9e4ca91fe",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r003/absence_intervention.json": "ba3c7692cbfc3d5af5e7d7c4037cb48caa541e7ee57c0d3334e5086beae139a1",
+        "data/physical_absence_worlds_v1/base-r003/execution_catalog.json": "825fc9805ccd9bde930521690e150143040dfb1bb1aae6eda4be44dcd8b9edd9",
+        "data/physical_absence_worlds_v1/base-r003/landmark_scene.yaml": "72ed0814c217b59816d1b4b39ca1e493027153954bc3839aeb96bc96e82375e9",
+        "data/physical_absence_worlds_v1/base-r003/map.pgm": "56356c8182ea8fbc64a3e27c894205e923e94528ac8138bddff2d42902f8b7d3",
+        "data/physical_absence_worlds_v1/base-r003/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r003/world.sdf": "53c45c10d430170ef695bd3a28fbbe3a2d5b3ea07a78260dd8a3e99cf9f5f8c3"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r003"
+    },
+    {
+      "baseline_output_sha256": "8502f3d968ebfef288f4f5752b609909542d834c09c467b471ef8c962639aa72",
+      "current_output_sha256": "8502f3d968ebfef288f4f5752b609909542d834c09c467b471ef8c962639aa72",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r004/absence_intervention.json": "f9d55c2651bd4b5757f6cc787195ae4ca4a30242d4b29ecb2593030a6938b2da",
+        "data/physical_absence_worlds_v1/base-r004/execution_catalog.json": "fdcf55729009777f33fe6fdf57e318aa66a5b44839a18088b3025ffd4c45dcd8",
+        "data/physical_absence_worlds_v1/base-r004/landmark_scene.yaml": "bb08161b77f79ef11d7733843111022d72eae1c6d4bf17092c5202a2682c1838",
+        "data/physical_absence_worlds_v1/base-r004/map.pgm": "0a155a72fcdeb87315ffa44bcd9cd0dccf245c6447cbaf3772375ed4d72b315c",
+        "data/physical_absence_worlds_v1/base-r004/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r004/world.sdf": "f68c1c810e3a107aac49b7c0e4a0c69e5ae8cfa5f9cc0e2d5cd68ea8fe5f72f4"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r004"
+    },
+    {
+      "baseline_output_sha256": "bcc3b0a79d207c96a95660fd4768384bc7d65619dace21d9b3cac74a3b3897d1",
+      "current_output_sha256": "bcc3b0a79d207c96a95660fd4768384bc7d65619dace21d9b3cac74a3b3897d1",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r005/absence_intervention.json": "bc4ee59e5216449753ab6229ee1175d25c53e4f3d5078f506d5c1773afcb9f49",
+        "data/physical_absence_worlds_v1/base-r005/execution_catalog.json": "c4183ab646849593c865c990463211241eebecb5f9555e8ff2ad1e8b57d23e89",
+        "data/physical_absence_worlds_v1/base-r005/landmark_scene.yaml": "454047b0c764704d7776f00c0aed25303aa95af6c79c22465257b64551b5e6bb",
+        "data/physical_absence_worlds_v1/base-r005/map.pgm": "1485ee9d245d439c8e572a7a800d8dd5098eafdf112b98f953a3b1447992efca",
+        "data/physical_absence_worlds_v1/base-r005/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r005/world.sdf": "eb1ba0e013fdcf8632db20f96d2c5abe06f7db449bdcf6d82c0dc66046bf5aff"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r005"
+    },
+    {
+      "baseline_output_sha256": "b1080254ed07b5457dda06d75523e078b35a3172b66aa38b51587f47799fca0d",
+      "current_output_sha256": "b1080254ed07b5457dda06d75523e078b35a3172b66aa38b51587f47799fca0d",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r006/absence_intervention.json": "f1949515afedc9e7cd6fc73bbb9c4e19e9c0b922bfed61d37b1007d0126de58a",
+        "data/physical_absence_worlds_v1/base-r006/execution_catalog.json": "a81951eeaa1e90825e2bef092bb2651c84cc2fff4f3c1da5767d4295ffb0d64e",
+        "data/physical_absence_worlds_v1/base-r006/landmark_scene.yaml": "24055bb148f91599ba5fce82e0854f129dca13e0ad7b849b534366079793f8bd",
+        "data/physical_absence_worlds_v1/base-r006/map.pgm": "5b6c09f294f20cd87d559e3a2ef7dbd78d8785f53c7479d84a9fea3336919202",
+        "data/physical_absence_worlds_v1/base-r006/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r006/world.sdf": "0891d63d0fe43a83f5b0e68a99223cb4369b2ddc9e0c3854306d779a934b6a6c"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r006"
+    },
+    {
+      "baseline_output_sha256": "cf7c8f117f53b86ff1562906897970f9b9a6b895218518e7ff4ddd8fc7ab047a",
+      "current_output_sha256": "cf7c8f117f53b86ff1562906897970f9b9a6b895218518e7ff4ddd8fc7ab047a",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r007/absence_intervention.json": "ec8440db0442f857ee5456199365d1bbf207f337ba10e1db93f29c320803e885",
+        "data/physical_absence_worlds_v1/base-r007/execution_catalog.json": "fe7c0224e6a34ba3dc473124ab1c5596e4987738592e255614fae2355ea99825",
+        "data/physical_absence_worlds_v1/base-r007/landmark_scene.yaml": "408424df2a80806ee52e0af162951da49bf0ba746651fe1a67a5169e8c6402f0",
+        "data/physical_absence_worlds_v1/base-r007/map.pgm": "63f46598cfd06bdbb0d9bf9e4727b840d0c6698baa41f1ae32f9c966defc7303",
+        "data/physical_absence_worlds_v1/base-r007/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r007/world.sdf": "4a33dc775b60790eefb6656b9f6be1b787375e3aa748a7297e7afe7b1c0ae8cc"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r007"
+    },
+    {
+      "baseline_output_sha256": "1c789fb5dab3158554459464bb652fbeea01fc8390826300a9dfcfbcc3333a17",
+      "current_output_sha256": "1c789fb5dab3158554459464bb652fbeea01fc8390826300a9dfcfbcc3333a17",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r008/absence_intervention.json": "6af13dc52456758c9011427af83f137e11d3e7b39e7feaea81a44962bb24355c",
+        "data/physical_absence_worlds_v1/base-r008/execution_catalog.json": "ad5005e0965993f4b583ff881a37b999bc514165eb8dd5cec605110bc1a46213",
+        "data/physical_absence_worlds_v1/base-r008/landmark_scene.yaml": "13b5f87a0d86821f48c2289cf4449ca117e47f2b7cffa239428f59ca53e87bf7",
+        "data/physical_absence_worlds_v1/base-r008/map.pgm": "444fe168a93c1f4db33769483e4b326f1960baff6d154ff018195ddceb1ad1ef",
+        "data/physical_absence_worlds_v1/base-r008/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r008/world.sdf": "79a9639fb6f5a630a894be7d673cf128f152148a2248d87e0229072928b15ada"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r008"
+    },
+    {
+      "baseline_output_sha256": "b2cfa8a09fe70b9de9b80c89c5024c2b15d5dd4bd7b570ca7f2cc53a68df2d35",
+      "current_output_sha256": "b2cfa8a09fe70b9de9b80c89c5024c2b15d5dd4bd7b570ca7f2cc53a68df2d35",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r009/absence_intervention.json": "2d5e9220dabf40dc5c6030252c96c02c351eed4eed3ac2b63c6d36bfa76a8529",
+        "data/physical_absence_worlds_v1/base-r009/execution_catalog.json": "6be7802ca3d51ea16c306716cbb82051e60cfd1afe6b9757dc47dc729501207b",
+        "data/physical_absence_worlds_v1/base-r009/landmark_scene.yaml": "a84908f148fe51ac2f49780bd20ca4a92023e1383f8cde74f694652dac2d7373",
+        "data/physical_absence_worlds_v1/base-r009/map.pgm": "1b504789e513c106b3255568088c2ea6fd20135cfe8aa638515f843ee36542ef",
+        "data/physical_absence_worlds_v1/base-r009/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r009/world.sdf": "774377fdd7a4e47b8a15f5a905414d7e914e596131acd8fc2dcb33f042fbc998"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r009"
+    },
+    {
+      "baseline_output_sha256": "5011cd368d111974620a125c05c390b20cc0fa968ff6b50035455c166b51cbc3",
+      "current_output_sha256": "5011cd368d111974620a125c05c390b20cc0fa968ff6b50035455c166b51cbc3",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r010/absence_intervention.json": "ceaad974ffc931980e4259e9605efbb6fa6ef4b698bfdb3bf37daef744380c8d",
+        "data/physical_absence_worlds_v1/base-r010/execution_catalog.json": "df574ea134f20274724e7e6727f926dc29848c7f51d322a0d884482e157b2221",
+        "data/physical_absence_worlds_v1/base-r010/landmark_scene.yaml": "6af19dbd153728a2084ce0238a95d623138794ba127cd186546453ebe9c8bf06",
+        "data/physical_absence_worlds_v1/base-r010/map.pgm": "2d77de512545952ccbaa94ab74179a399f4cc3e710b05deacf87ca31b3e3c9b3",
+        "data/physical_absence_worlds_v1/base-r010/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r010/world.sdf": "1649ea61a9582e63b3da659c0be35b694852435dff5e751b467323a767ff0cfc"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r010"
+    },
+    {
+      "baseline_output_sha256": "8e3cee060bee53c251e4ec7c503fc6b17cb21894da2c558b17d1f4fa077e8fb9",
+      "current_output_sha256": "8e3cee060bee53c251e4ec7c503fc6b17cb21894da2c558b17d1f4fa077e8fb9",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r011/absence_intervention.json": "b5389e38433e34ddb5d466df1b7017e21394cce2585d0ae1360b312f3e6436a8",
+        "data/physical_absence_worlds_v1/base-r011/execution_catalog.json": "6bb8d358f04fd8e4f2b483d2cc804b73a663d0b32fcb3de23794d83fc78bf517",
+        "data/physical_absence_worlds_v1/base-r011/landmark_scene.yaml": "2f01247bea9257b959fad9f7077485654e5a8f51a6a1656bfb6a03d3cb51df89",
+        "data/physical_absence_worlds_v1/base-r011/map.pgm": "3dc056b24a3a4396795a131479312d6be28051d4149743b8580e6c4cbe0928f4",
+        "data/physical_absence_worlds_v1/base-r011/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r011/world.sdf": "270cff6f2103bc1a2532a6756a46a3f03e515849f43611d2614e15426cfa62d6"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r011"
+    },
+    {
+      "baseline_output_sha256": "d9da3039d537f82d66e33246dfec70f0a2a262c93ee4d631ee8923f59da940ef",
+      "current_output_sha256": "d9da3039d537f82d66e33246dfec70f0a2a262c93ee4d631ee8923f59da940ef",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r012/absence_intervention.json": "1183d4224526bb260c116248f31672720b36b3146723276cdd38deb412a46f31",
+        "data/physical_absence_worlds_v1/base-r012/execution_catalog.json": "c0e83f27b7ceb6274abffba06f2b426b96ce83c474d5fb52aa82e9ec91ab0adc",
+        "data/physical_absence_worlds_v1/base-r012/landmark_scene.yaml": "c8eccf4b65bc86c01e7c21e67b4ac21eccda8b9e27684548c80bf77ce1010b49",
+        "data/physical_absence_worlds_v1/base-r012/map.pgm": "a6957dee665fad325b3459a91db96679e3df8e12e151dadb524249ed7e33c726",
+        "data/physical_absence_worlds_v1/base-r012/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r012/world.sdf": "c399400666a87e56965a0a90f84f52cddd2d23a32dfacfbcda6138173982afd9"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r012"
+    },
+    {
+      "baseline_output_sha256": "3a78071c05ba2a49fd7e9de94e4337e4e7062eb948fd225749c5857596abad77",
+      "current_output_sha256": "3a78071c05ba2a49fd7e9de94e4337e4e7062eb948fd225749c5857596abad77",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r013/absence_intervention.json": "38d2cbf638321e967beb61d66ba520e7c8c396bcdeb6718579ee943fd3782423",
+        "data/physical_absence_worlds_v1/base-r013/execution_catalog.json": "8e2ae7f1412ae9c854ecc606a2fcf07fb6e887c430fe4eaf261759e0728db851",
+        "data/physical_absence_worlds_v1/base-r013/landmark_scene.yaml": "2b4f5371bdbd9c745d21067bf33ef4b778fc61ac731a673aae0c49a16e159363",
+        "data/physical_absence_worlds_v1/base-r013/map.pgm": "de9c21922ff49e0bbd1bf5dcd451bd405098417b08e4074ab984d205443f1001",
+        "data/physical_absence_worlds_v1/base-r013/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r013/world.sdf": "d3fb4bf349670e28bb077c5985a53627c00efe96996c10fe3d19c9a18882a55e"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r013"
+    },
+    {
+      "baseline_output_sha256": "9adb94637db8bb5b1c24824b6d4bd3d51f75a51667f1de8923932e0d905479db",
+      "current_output_sha256": "9adb94637db8bb5b1c24824b6d4bd3d51f75a51667f1de8923932e0d905479db",
+      "input_sha256": {
+        "data/physical_absence_worlds_v1/base-r014/absence_intervention.json": "e29aefd573a9288089935ba90f7467ba414b6295c3cfdf3a9cc839b13849b508",
+        "data/physical_absence_worlds_v1/base-r014/execution_catalog.json": "8f6aff6c8c7c9795c68e743cb19ce0705e3c2f1a8103564dc1321548840c93e0",
+        "data/physical_absence_worlds_v1/base-r014/landmark_scene.yaml": "09ee47aee24bb96072b8746b046f5a9fcd47a50591bed22843fb051546662a7b",
+        "data/physical_absence_worlds_v1/base-r014/map.pgm": "baa8a5c6e4e594419f7a03d53f48ff7e4ecdd0c229149fdb71cd9291039745b8",
+        "data/physical_absence_worlds_v1/base-r014/map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "data/physical_absence_worlds_v1/base-r014/world.sdf": "ae9de2cb2ce365c96c8dccb3645c4254571457197f84690e5bed87665b29170a"
+      },
+      "outputs_equal": true,
+      "world": "data/physical_absence_worlds_v1/base-r014"
+    }
+  ],
+  "schema_version": "research3-nonprotected-catalog-differential/v1",
+  "synthetic_default_refusals": [
+    {
+      "baseline": "PermissionError",
+      "both_refuse_before_asset_access": true,
+      "current": "PermissionError",
+      "map_id": "r3geo_base_r015",
+      "synthetic_partition": "test"
+    },
+    {
+      "baseline": "PermissionError",
+      "both_refuse_before_asset_access": true,
+      "current": "PermissionError",
+      "map_id": "r3geo_base_r015",
+      "synthetic_partition": "held_out"
+    },
+    {
+      "baseline": "PermissionError",
+      "both_refuse_before_asset_access": true,
+      "current": "PermissionError",
+      "map_id": "r3geo_base_r015",
+      "synthetic_partition": "development"
+    }
+  ],
+  "world_count": 42
+}

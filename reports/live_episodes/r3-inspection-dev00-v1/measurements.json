@@ -1,0 +1,1302 @@
+{
+  "schema_version": "research3-live-measurements/v1",
+  "run_id": "r3-inspection-dev00-v1",
+  "episode_started_at_ns": 7554000000,
+  "episode_ended_at_ns": 13062000000,
+  "ground_truth_positions": [
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.000115556259542,
+      -0.4999855634444948
+    ],
+    [
+      -1.9984496323203,
+      -0.4999381006840589
+    ],
+    [
+      -1.9955637693318922,
+      -0.49985746090359284
+    ],
+    [
+      -1.9922606627326043,
+      -0.4997923896419602
+    ],
+    [
+      -1.9884280148496025,
+      -0.49972515715662835
+    ],
+    [
+      -1.9839306897305686,
+      -0.4996548020763696
+    ],
+    [
+      -1.97888713255905,
+      -0.4995813657372786
+    ],
+    [
+      -1.9736501122856227,
+      -0.49950800866752854
+    ],
+    [
+      -1.968285922048653,
+      -0.4994316692184919
+    ],
+    [
+      -1.9624693342030874,
+      -0.4993343459343852
+    ],
+    [
+      -1.9565191391346914,
+      -0.4992230609939188
+    ],
+    [
+      -1.9504178861309847,
+      -0.49909916573186275
+    ],
+    [
+      -1.9439030897598817,
+      -0.4989573296319287
+    ],
+    [
+      -1.937063439799987,
+      -0.4987988814855481
+    ],
+    [
+      -1.9301709583728863,
+      -0.4986151507495056
+    ],
+    [
+      -1.9230244042898739,
+      -0.498408791316996
+    ],
+    [
+      -1.9156014132367567,
+      -0.4981827839894478
+    ],
+    [
+      -1.9079218107324751,
+      -0.49793673967218816
+    ],
+    [
+      -1.900118520329512,
+      -0.49766417110107614
+    ],
+    [
+      -1.8921371202106656,
+      -0.49736729253077255
+    ],
+    [
+      -1.8838176723683373,
+      -0.49705539677864236
+    ],
+    [
+      -1.8754500350564614,
+      -0.4967196352028629
+    ],
+    [
+      -1.8668556855316127,
+      -0.49636719647411315
+    ],
+    [
+      -1.8579501677555847,
+      -0.4960056739048484
+    ],
+    [
+      -1.8487221507248834,
+      -0.49562373749664185
+    ],
+    [
+      -1.8393813180695662,
+      -0.4952184942768611
+    ],
+    [
+      -1.8297647797414092,
+      -0.49479937532826757
+    ],
+    [
+      -1.8199597971016384,
+      -0.49436542866798777
+    ],
+    [
+      -1.8101533872957931,
+      -0.4939222724977819
+    ],
+    [
+      -1.800192838522223,
+      -0.4934644604320551
+    ],
+    [
+      -1.7900751765443725,
+      -0.4930137670941159
+    ],
+    [
+      -1.7799083565786245,
+      -0.49255971336797744
+    ],
+    [
+      -1.7697280162305509,
+      -0.4921037581131391
+    ],
+    [
+      -1.7594358586140706,
+      -0.4916612597869966
+    ],
+    [
+      -1.7489490441555808,
+      -0.4912248043461633
+    ],
+    [
+      -1.7381688549797736,
+      -0.49078191002069754
+    ],
+    [
+      -1.7273517672190457,
+      -0.490338040226789
+    ],
+    [
+      -1.7163793757446915,
+      -0.4898972344586378
+    ],
+    [
+      -1.7051971043269947,
+      -0.4894715249159563
+    ],
+    [
+      -1.6939905626882967,
+      -0.4890554476396103
+    ],
+    [
+      -1.6825955750235309,
+      -0.4886636515756613
+    ],
+    [
+      -1.6709717189641313,
+      -0.4882869621885549
+    ],
+    [
+      -1.6590857127439915,
+      -0.4879255708048263
+    ],
+    [
+      -1.6471735857060212,
+      -0.48758023912602777
+    ],
+    [
+      -1.6351240920698051,
+      -0.4872619450114793
+    ],
+    [
+      -1.622750808178539,
+      -0.48695555897732734
+    ],
+    [
+      -1.6102769373904593,
+      -0.4866775180244545
+    ],
+    [
+      -1.5976816310362458,
+      -0.4864446299940431
+    ],
+    [
+      -1.5850573218034183,
+      -0.48624883923015305
+    ],
+    [
+      -1.5724265063066896,
+      -0.48610111176881515
+    ],
+    [
+      -1.559794101312085,
+      -0.48598742497342423
+    ],
+    [
+      -1.5471590732153684,
+      -0.48592188049009394
+    ],
+    [
+      -1.5345217807394493,
+      -0.4859026420321306
+    ],
+    [
+      -1.5218838434717175,
+      -0.48592435656852306
+    ],
+    [
+      -1.5092457051263062,
+      -0.48599218645698383
+    ],
+    [
+      -1.4966209675375906,
+      -0.48611539502241113
+    ],
+    [
+      -1.4839906728463348,
+      -0.4862726096394163
+    ],
+    [
+      -1.471358380809514,
+      -0.4864780790028853
+    ],
+    [
+      -1.4587298221468394,
+      -0.4867099687306945
+    ],
+    [
+      -1.4461039851647428,
+      -0.48697330797439276
+    ],
+    [
+      -1.433481200461158,
+      -0.4872791092598373
+    ],
+    [
+      -1.4208601681073059,
+      -0.48763985399644594
+    ],
+    [
+      -1.4082424435494776,
+      -0.48803569396443797
+    ],
+    [
+      -1.395628259215467,
+      -0.48846386498016764
+    ],
+    [
+      -1.3830162663662682,
+      -0.4889355849274633
+    ],
+    [
+      -1.3704067160410964,
+      -0.48944214400501124
+    ],
+    [
+      -1.357800936148117,
+      -0.489967548865861
+    ],
+    [
+      -1.3451981679546048,
+      -0.49052192255931193
+    ],
+    [
+      -1.3325972861459487,
+      -0.4911111609447687
+    ],
+    [
+      -1.3199997134567225,
+      -0.4917142052245652
+    ],
+    [
+      -1.3074072752158667,
+      -0.4923154884517492
+    ],
+    [
+      -1.2948171816274485,
+      -0.4929465091529975
+    ],
+    [
+      -1.282228966144295,
+      -0.4936008465759437
+    ],
+    [
+      -1.2696446148053733,
+      -0.49425099606493356
+    ],
+    [
+      -1.2570621760671252,
+      -0.49492012650461026
+    ],
+    [
+      -1.2444805931582799,
+      -0.4956064562474485
+    ],
+    [
+      -1.2319011089851266,
+      -0.4962883419511825
+    ],
+    [
+      -1.2193240576046935,
+      -0.49696563781049763
+    ],
+    [
+      -1.2067476553720664,
+      -0.49765156446854797
+    ],
+    [
+      -1.1941718927867244,
+      -0.49833608050780676
+    ],
+    [
+      -1.1815978039527548,
+      -0.4990066985131861
+    ],
+    [
+      -1.1690252265556313,
+      -0.4996665241277272
+    ],
+    [
+      -1.1564530382460758,
+      -0.5003230534497394
+    ],
+    [
+      -1.1439694406756942,
+      -0.5009575248959037
+    ],
+    [
+      -1.131450523117376,
+      -0.5015842871346501
+    ],
+    [
+      -1.1189134572358428,
+      -0.5021904942802143
+    ],
+    [
+      -1.1063767373747828,
+      -0.5027862737743367
+    ],
+    [
+      -1.0938466908142694,
+      -0.5033647857740011
+    ],
+    [
+      -1.0813642745311056,
+      -0.503914083358157
+    ],
+    [
+      -1.0688908240272448,
+      -0.5044472094279006
+    ],
+    [
+      -1.0565118367502166,
+      -0.5049500247261515
+    ],
+    [
+      -1.0442074941284185,
+      -0.5054255975106419
+    ],
+    [
+      -1.0320503859259618,
+      -0.5058761618018748
+    ],
+    [
+      -1.019906904043101,
+      -0.5063074822067816
+    ],
+    [
+      -1.0078552510507028,
+      -0.5067086969558157
+    ],
+    [
+      -0.9959762291159721,
+      -0.507083125529979
+    ],
+    [
+      -0.984110277785578,
+      -0.5074336129121504
+    ],
+    [
+      -0.9720977431526774,
+      -0.5077707536536503
+    ],
+    [
+      -0.9599082090796263,
+      -0.5081355067307106
+    ],
+    [
+      -0.9477054042861885,
+      -0.5085119008445405
+    ],
+    [
+      -0.9355118500303737,
+      -0.5088487327394048
+    ],
+    [
+      -0.9233458023089522,
+      -0.5091760443827706
+    ],
+    [
+      -0.911330408974676,
+      -0.5095053745435839
+    ],
+    [
+      -0.8993323436904747,
+      -0.5098086221497482
+    ],
+    [
+      -0.8873635632965678,
+      -0.5101011483394396
+    ],
+    [
+      -0.8754813704256542,
+      -0.5104045013543134
+    ],
+    [
+      -0.8637751442281509,
+      -0.510702787265201
+    ],
+    [
+      -0.8521441701724924,
+      -0.5109991957469007
+    ],
+    [
+      -0.8404769934444019,
+      -0.511310646158154
+    ],
+    [
+      -0.8289676306372361,
+      -0.5116320289396797
+    ],
+    [
+      -0.8176809235961703,
+      -0.5119541535638523
+    ],
+    [
+      -0.8064138821499018,
+      -0.5122904374031466
+    ],
+    [
+      -0.7954137790419052,
+      -0.5126487842901631
+    ],
+    [
+      -0.7846061255456713,
+      -0.5130076028783552
+    ],
+    [
+      -0.773833258564776,
+      -0.5133833997219951
+    ],
+    [
+      -0.7632535771991564,
+      -0.5137800604514565
+    ],
+    [
+      -0.7530533553842385,
+      -0.5141825856207649
+    ],
+    [
+      -0.7431312775567184,
+      -0.5146019828040215
+    ],
+    [
+      -0.7332451929175177,
+      -0.5150380709834542
+    ],
+    [
+      -0.7234538768572346,
+      -0.5154923143591715
+    ],
+    [
+      -0.7143158450078523,
+      -0.5158751479509919
+    ],
+    [
+      -0.706482665253819,
+      -0.5161899105367967
+    ],
+    [
+      -0.6999464032673927,
+      -0.5164863373893095
+    ],
+    [
+      -0.6947057309981224,
+      -0.5167400071932404
+    ],
+    [
+      -0.6907599436505966,
+      -0.5169379595553385
+    ],
+    [
+      -0.688108667190365,
+      -0.5170733163962613
+    ],
+    [
+      -0.6867516996936762,
+      -0.5171423645475829
+    ],
+    [
+      -0.6865577517074647,
+      -0.5171501328870008
+    ],
+    [
+      -0.6865576399752924,
+      -0.5171480780593921
+    ],
+    [
+      -0.6865575842051149,
+      -0.5171470523929041
+    ],
+    [
+      -0.6865575262587937,
+      -0.5171459866878074
+    ],
+    [
+      -0.6865574678065802,
+      -0.5171449116521551
+    ],
+    [
+      -0.6865574113789751,
+      -0.5171438738091976
+    ],
+    [
+      -0.6865574113789751,
+      -0.5171438738091976
+    ],
+    [
+      -0.6865574113789751,
+      -0.5171438738091976
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ],
+    [
+      -0.6865573561436382,
+      -0.5171428578015306
+    ]
+  ],
+  "scene_sha256": "30a72b9e20094f6314f1ad60a21d4a182e60282a11237f542f5586969c428e48",
+  "terminal_ground_truth": [
+    {
+      "entity_id": "dev_00-r010-sign",
+      "region_id": "dev_00-r010-sign-region",
+      "category": "sign",
+      "attributes": {},
+      "pose": {
+        "x": -1.375,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        245,
+        135,
+        25
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-door",
+      "region_id": "dev_00-r010-door-region",
+      "category": "door",
+      "attributes": {},
+      "pose": {
+        "x": -1.075,
+        "y": -0.895,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        135,
+        75,
+        35
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-glass-doors",
+      "region_id": "dev_00-r010-glass-doors-region",
+      "category": "glass_doors",
+      "attributes": {
+        "material": "glass"
+      },
+      "pose": {
+        "x": -0.825,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        45,
+        190,
+        215
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-blue-chair",
+      "region_id": "dev_00-r010-anchor-region",
+      "category": "chair",
+      "attributes": {
+        "color": "blue"
+      },
+      "pose": {
+        "x": -0.525,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        40,
+        70,
+        220
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-doorway-1",
+      "region_id": "dev_00-r010-doorway-1-region",
+      "category": "doorway",
+      "attributes": {},
+      "pose": {
+        "x": -0.125,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        150,
+        55,
+        190
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-doorway-2",
+      "region_id": "dev_00-r010-doorway-2-region",
+      "category": "doorway",
+      "attributes": {},
+      "pose": {
+        "x": 0.225,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        150,
+        55,
+        190
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-terminal-entity",
+      "region_id": "dev_00-r010-terminal",
+      "category": "office_entrance",
+      "attributes": {},
+      "pose": {
+        "x": 0.825,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        40,
+        205,
+        155
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    }
+  ],
+  "expected_terminal_region_id": "dev_00-r010-terminal",
+  "collision_count": 0,
+  "predictions": [
+    {
+      "observed_at_ns": 13002000000,
+      "failure_probability": 0.6240955406056308,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no semantic route proposals",
+      "decided_at_ns": 7557000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "Nav2 or traversability guard rejected every route",
+      "decided_at_ns": 7557000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 7560000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8292000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8295000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8340000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8340000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8388000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8388000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8445000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8445000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8490000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8490000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8538000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8538000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8583000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8583000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8628000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8628000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8676000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8676000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8769000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8769000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8853000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8856000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8961000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 8961000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9063000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9063000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9174000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9174000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9255000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9258000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9366000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9366000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9468000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9468000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9555000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9555000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9684000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9684000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9774000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9774000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9858000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9858000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9960000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 9963000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10056000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10056000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10170000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10170000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10254000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10374000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10467000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10557000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10665000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10770000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10851000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 10962000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 11076000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 11154000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 11259000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 11373000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 11454000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 11562000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 11655000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 11766000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 11853000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 11955000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 12069000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 12165000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 12276000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 12360000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 12462000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 12576000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 12660000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 12762000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 12870000000
+    },
+    {
+      "action": "inspect",
+      "route_id": "dev_00_r0",
+      "reason": "material contradiction with positive information gain",
+      "decided_at_ns": 12951000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no route satisfies the hard risk constraint",
+      "decided_at_ns": 13011000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no route satisfies the hard risk constraint",
+      "decided_at_ns": 13059000000
+    }
+  ]
+}

@@ -1,0 +1,3572 @@
+{
+  "calibration_frozen": false,
+  "coverage": [
+    {
+      "category": "chair",
+      "human_correct": null,
+      "human_incorrect": null,
+      "map_id": "r3geo_base_r001",
+      "ready_items": 1,
+      "recall_coverage": null,
+      "retained_items": 26,
+      "status": "represented_unlabelled"
+    }
+  ],
+  "coverage_complete": true,
+  "detector_performance_validated": false,
+  "human_labels_generated": false,
+  "items": [
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": "perception_capture/frame-000.json",
+      "frame_sha256": "e3380135af2bab0630cc8bb14262e8626304b836d71fa7f5ec617e5af4e95ad3",
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": true,
+      "machine_visual_qa_sha256": "29409897eca5fd80d812824903e07fbcb78ca3b516b317619b12f11f2d555826",
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12201000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "ready_for_human_review",
+      "task_sha256": "7c703763fddb0b84cf501b9025e9f46d5b99956278115a603d0d3b7fd5715759"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "frame_sha256": "e3380135af2bab0630cc8bb14262e8626304b836d71fa7f5ec617e5af4e95ad3",
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12201000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "awaiting_visual_qa",
+      "task_sha256": "59f266bb4108bb5965ed5cb558b96b3229482185d634c419099ab7f0e38c092f"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": "perception_capture/frame-000.json",
+      "frame_sha256": "e3380135af2bab0630cc8bb14262e8626304b836d71fa7f5ec617e5af4e95ad3",
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12201000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "awaiting_visual_qa",
+      "task_sha256": "4683b317e4b7f2e306365e42768edecc8c5f0f2be4c60f506b81436fc144c4a9"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "frame_sha256": "e3380135af2bab0630cc8bb14262e8626304b836d71fa7f5ec617e5af4e95ad3",
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12201000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "awaiting_visual_qa",
+      "task_sha256": "ac3e427b485beb3f1f97ef0654ad1768a38409a6ce2eb67f88b911cc92b33823"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": "perception_capture/frame-000.json",
+      "frame_sha256": "e3380135af2bab0630cc8bb14262e8626304b836d71fa7f5ec617e5af4e95ad3",
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12201000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "awaiting_visual_qa",
+      "task_sha256": "82260c96db83a5692047254fa3136b5efe5411c0c170eb77487a1714326f137b"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12300000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "1d8b1b7a2093eb63f9a7cd0be6233bef66454f58744568055250a99f21eb60d0"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12300000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "889b247586e32ce683b926ca56f84eb6c86f78d83866fee1c991f0f5084b4aae"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12300000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "71103dd25e168c32660fd30f1eb92d75abd71c19f10e5bfc1cf2d9245ffe6179"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12300000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "ac8f9127a5bd323d715263597e140142bb50d7c5170b82e686abb0d69adeb1ae"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12300000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "081c354849bfef40d58b3096bf92a2ebb80e5a19bbc1da889685056c1d80c782"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12402000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "d0c50dbc300c485b6fd03cbef0262052a72158ecb9094291e55d5222524c913b"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12402000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "c5ce84ff7f34eb4fd6fff85c7c336a5279957d1aad58037be741dfa419c5b516"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12402000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "5f1bb5071e9118278eef448e02a7bce1ce161cec04f8d38575b218f22bb8d8a5"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12402000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "cb8a860e0fc9cedb42b39cd92ad246aa05f58448f2d57fd6ac2f822e0db84a17"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12402000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "71f5dca8900ffe35cc44f1054e319bcf8731d791b2ee0cf292d37b9af008d363"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12501000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "07f306fda0e501c801d97f8c29b6405af4e4b8c9937ad7e2ca4f4808a1b424e3"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12501000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "645fb1c02d4164ac97d42b68341da7c77e076a4f8bc7f26a37373b7bcb85a7ff"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12501000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "067cc9adc72ffab0c3483a1f95476985ca40d788d4da9f5c2cff8c7ec6dbfcb4"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12501000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "3d16a6c115ffcc383b96005dc93d303ec39f06a0332fdf55faa568f8261fc4de"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12501000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "3ba1a64e06db0abc415592422f4c6264ae693d56d5960077a2a699b6b3fc9cae"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12600000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "3af1e5533b6e1ac63e4708d24260c0c4eeac95017fd28800332c83e3a287e700"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12600000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "3a2d3e5e74e6bfac49eaa10802c3bc36e59743b81de043c4101adb42618227df"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12600000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "44420a7edf535bb0f0769b268012e8606ad756b91e9fcb9f6b5a8bd8e555d8e8"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12600000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "c6bd0d33543b9ab35104935b3fd9eb8abd2058b42ff2351c4fdcb9e511fa32ca"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12600000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "166cd89d4a6eb65d12703ceac34b8cb9da227f229c81482085c865a5f14b38ee"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12702000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "c7dcf38728261e6a374af3f4be42e25b10b4cd02bf36464268ceadef2e4fe040"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12702000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "4790e64bd120d478326e14fc55e598c131f09c930ec9248caec24b88bffd7a6c"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12702000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "a57f68f1b1b1490da57b97e382658a1bfe6252c09ad59813b17089179908d46c"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12702000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "0291d22f2a39d1b3aa05f432e9b1179a844c304aae360234b130261af7e8e29e"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12702000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "55ead24e6fa3654c6530a8c91844691d92c3d2895ccc1bf86502de742e8e797d"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12801000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "e159210adb18b543875eebb74e115997bb72fe300b557242c0abf62b719fab47"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12801000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "9a3b6f3df98f99385b837ef9c09ccad9a5eeaa94269af4a815a34d68496c4009"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12801000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "f311bbacbe75247332479fba25ec4f92bb9d6ae05a4d6e552b531d2aa4e2bdc5"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12801000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "2551af32b23b402b34cff26bd3a42cb846c1c6a31e94b58f7540dcb2ffa2a96f"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12801000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "de8ef27db7ca135eed298af6561d89456ee5cf15fd7e8cc29339961473a8df9c"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12900000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "3a8aeddd1111213f550c63787c5fd12b10d0d5f8e8d53ac756ca7fff82d3f5ed"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12900000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "3f19ef356b7ff01d78b2c101a55fa168edc36c4d294df791e9df74b3e921daf6"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12900000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "790d68683b46cee830f12e8f1828000de27ee8e0be0e9159eb501fd4c6b98257"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12900000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "c692c4d03533d62ce1c2ab7bcd8fad815cd00ec2db04d1a35788b3dc84564bbd"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:12900000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "5f1ad82752f2ae29aade9eb6da5983a7dca47f12f3445b5faf85f7e58d63383f"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13002000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "47b8150e0edd4e2044bcd73b18628a76319f2841a3f57019fcc5acc4bbd5d094"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13002000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "f38eddb4324b5a3b3d20a606e7fbf81e9b5c1d6cb0e19a75c436ae5fe473cdcd"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13002000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "4faf6846591ed119ffb694dbcb9163f8d4bca5adf9126052a12e2755e2299b92"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13002000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "bec8d6c2fdbf4787a4fc7823dcf48d5f2ecccba5249af94e235a339796dbd34d"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13002000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "61f03e3912860a4017f562b44b25c56daa4a3d9b13d538f77ea1f1abb557a03c"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13101000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "65e118fd2c4b334a41dfc05319603530e3a930fc57264f511afa28b40d935666"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13101000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "59ff126b9dbf05bde987c9948edf3afc47c212508bbccd923cab40898dd4ed9e"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13101000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "a7ff346c4c008f09bb58ae39ec870859f3b7599233ba2e3490755d1d15637b9e"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13101000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "17df9cc54edcedf71d3364b40c386fd81837e665d781f1c9e78e5aa3977dabf9"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13101000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "e2b2452bb0a7b0e460db45bc1093703219352e4fb64485a03de7c2e8dc587b2a"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13200000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "03247ec5e29b24657410618766fd0428f4a4c03fb1ab73d1911eec7b550adc3b"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13200000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "c21c99023d85e98d79ca21d0a87d72dc328692375bab1c8ba414b0fd05db99dd"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13200000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "c0c70cd15df4cedd8bc1997b372b9b5b17f99bdfeae765843c532932dbd625c7"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13200000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "83d29a744ff01ef8afea93367644bc2c9cced94ab99c11a30870f2268416bb44"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13200000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "240eba1f52fa67801ddb0f70465ba3df5fc62c2a63c2f74c461287245fb0be3b"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13302000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "af313c52fa9bfe0237b5504309ef6c3491d56b9e370862079ccb6b64fad3fd19"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13302000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "59ca232bf93f8eea60404f1d3efd8514930f51426d64d5055ffed494a5dd46a3"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13302000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "cbe200ecddbcc16b2ab68f43b17dcec3db22c7f7878121f87a478181792b9ba3"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13302000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "a3c54db0e22b24bf77bc12af24b6b5aabdf977e16bf2b4d205819af32a937fa7"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13302000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "7cdbf319fd8b28648ed302a496a72863e0c248139c5d1c2da0c4bf54552c883d"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13401000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "fd9920ddba31440994c28267054bc024a32581e0499c433a45526e0da40c1702"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13401000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "efa656fc0f8c324c6716f69712e2f6935111bc5effea5f1977eca31698b58876"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13401000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "6cbfe7aa29d13f25c8118e8918094c3365cd21a38786b35c32fe5db625e721df"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13401000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "8c463fb939fd4ad9a86786824eaf5c6b39f0ecdef513a8f4263394e2b44165b6"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13401000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "795dca7b4ca956f8949eb6881a911a5a7daf40d13894841a2f26fb933fba3dbd"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13500000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "a2feca16d6a9632f8deb7d1ee94185b6d9d64bcd0cbb0ce9dba721cc02b520d9"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13500000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "c49496201be84247b274aeff534a61109fec3e9bfa04f80c4826e271fd27d82c"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13500000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "83b6efa3d910d96f98f9a4e30d4191bf0e27eb784bc7cf02b9b3babf3148ee01"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13500000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "ac31c891ea2a9468bdd851a683475b5605d7dc138c6e841ec05d6444fcf722a2"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13500000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "efcce75c0b7b701589fbf96036d2181b048efb26e7133eda889765e34c3bb53a"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13602000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "44c5806907f4271576ae3003584f68f9e8ddf8dbd4423199bef436615efde229"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13602000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "05003ebf05fb59523ff8155305e85b7416d136c1931bbdbddb3f1c9f4408e20d"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13602000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "8d2c1bd6610463063c1c2205124c4be2f524039385e7c9e8b44d0d01fc91c787"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13602000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "f79b673414693f76e626912e8f83127cad91bae68ad8960d345e38271fbf6fde"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13602000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "bffac9ab008cf7e76fecc6ed79404b1142e31f8ccfdcb1ecbd04ef4ffe88825d"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13701000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "4833deb512c910736ebe5535db22aeb90bfac327d9c24ec663858631d189517d"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13701000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "ebdbf31ed5619e2970566604dfbfcb4403c9eec96acf79564e1f4d9f0391e4d5"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13701000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "20a97b6afec5f5a65f487f8e1566fcbc07a9ea1012cc092f3a51f7e273f9047a"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13701000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "b170dc8bb200a1bb93dc1d4185e5340271529f02a51498eca0ae613803df3dd1"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13701000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "80889841b9c273d259f999ede5343f4fafc7d6706b154f8825e66dcaad87991d"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13800000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "3d3f624471bbce07906846ee61b3e18947e49428713fc32f0c4e42564e6a6312"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13800000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "58e412250ea0e294e7e38fee12090348dda4b0608e92202a86e82f342887d8c4"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13800000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "92f3b4572f313677fd19d68065d0a90fd3d9e0f4e2067e122287e33ae66bdfe6"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13800000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "5689a5a40268e66e87f806e75b377631f2a9aab9ed22477a9162fe40cebe807b"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13800000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "be9d0b10ed0baa5f180cc4da667ded47559df4a1836b3c7fd027bc009d5db66f"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13902000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "a6c2a30c89e230ddf57bfeb41d04bd49be8471154a5bc4759d266555bd39963f"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13902000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "bbba6e79163de8a7b551fbc61cffe0274c9e2530ab8018a6d9972245805d0ff6"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13902000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "268cd03baecd7245d2c31e6d81577c1f7544b7ebc2dd4dbc060e421cf7949be9"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13902000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "1d460114ad9cce9a82b7f8cf0d265af2eacf34b2b82c0b39a79feaaacf9963d3"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:13902000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "fc391995abbb7e6e30f29d5a97ce281022f56cde43358d0a08e8d3a5f11c7bb1"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14001000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "c3ca437d5bdb889255291a6ee2594425078f04cdb14e8df941073ed26cd3f717"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14001000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "36088b07cd19bef254518020cdd1c0a2c112a233a4b9aaf675a01de81b920f05"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14001000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "7b3edea6a3982e1d6c85408b0c35adf6960174112c0282f5b2aa047b6f866e4c"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14001000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "472805e2b9c00595d6b33f3eb97f233a3cca5f796ed970189af3ce2ad74b99fc"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14001000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "89f433a00116e1c3658a4df76963aca5ef69b49271027ac1d4a87c167492b441"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14100000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "7c20a89d46da3993ae3271801a46f2842b8462ac924a6a95906f6a91abf2f047"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14100000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "100f93b35845c8091f87da0f875f5ca76578969815a706f8edd3d403b58eeeb5"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14100000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "dda415261be6c601d5c2b4f01d87b3f4dc26d4c51d61dbc528f6976df81cc023"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14100000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "099957805da8d0ad457cbc18c61a882404808ed4cec05bd6a7c339bedab32d14"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14100000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "e080588d602dc2d0b71b8f1583b0d659e7fd4ca794fa784862484a91e504d271"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14202000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "ff1c4b1050e2280898436d8224d32f3ac4c2cb2b4ca80b1f12238eaab7c98185"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14202000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "14abac19f5726eb8dca48d5cf2345dd596a35b2d3c84f7408df4da2bd6620e12"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14202000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "9a926aa852a9b0b05604a6b5cce3d649010bd05b6ffc598c0cd4cee30625b94d"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14202000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "299ed35d49c14bb18df3189caa41e08ab50734e02b996b3d5e7748938bb2e722"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14202000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "cd98091d35967b2960a44bf23ec71e9101ed7fcd0150c3e483fe6e62b4f9d354"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14301000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "72242f33ea40844d8024b950b72b8c869be547955c6d7a166bcbe86a4a598493"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14301000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "03ce748343cc58637528739fd45bda5c2dc106cbe9a1413d409efd98d7b23170"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14301000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "40f104a6f92a97ded80243b2b64f62f7bb8cad06b55ded8bd11a41173e2b838e"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14301000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "709a3d41a7544d43fd67e1efcd1be4e470b6dd69ea7a34171df2784e9d29ca86"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14301000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "943433ffcafd50db8ad484797e82ea2da2b6b748b12671468da750311ea1227b"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14400000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "43c64c09d127ba5b681d3eda815ac70a2cf72d33012adf297f2332b961762cde"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14400000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "753e0f09e07a98a81b5b021568ae954a156f53513a176a1f6a0546f1bb18a989"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14400000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "2dd8499ad55f019f09c7230ec8d58800e753cbdeebd8c6061aca6daad25525cf"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14400000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "11cf833b83d269b44f1c671b34996f84d8fbb025c422a86d04e2f9c979c582e6"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14400000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "c581ff3b34efdaa1a471f8fecc4345f7793a5af3bbf7460ebf6d232e786151c9"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14502000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "334f44a2dac8dbecd86bc7f34bf0371b38144c6ac8eb9e0059122f27e907bf94"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14502000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "8b4d898f42ed317522b4e3e23e58af5e546e8581f99b129d24f838b4c4f877a3"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14502000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "7b0cf208efabed0c1d590c4693b46a928c23aaecf8080502872d1ece8dbd8910"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14502000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "cf1d7677ffc41936e11791848316630f73b97c618e2d1e5f76628ed229f3b851"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14502000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "a07d4bd92af5389b5af51e6f119d286f84137db2bfb0e99a6f5f28be264f7fcb"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14601000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "ee1243ed1732098815d1193713439a51193c246bfc29a87f59a2f10a1c5643be"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14601000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "8aff05570f1e633e11eb4ed9d375c5a65dbe3e2bd312bac9159edcba1dbf6a03"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14601000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "e84952c26e010f48ec15fe48882c769984c6b914c66db6f7a6ab83beffe6fda5"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14601000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "911ee2366e95d95af3f9346d621cc9ce0a5697900f8554157e8c5158a3cef3d6"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14601000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "0f39519808526d0b4864ba8f73683690ecfd74bde0d95a7efd9b250c8bccb3af"
+    },
+    {
+      "category": "chair",
+      "correct": null,
+      "entity_id": "dev_01-r001-red-chair",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14700000000:dev_01-r001-red-chair",
+      "partition": "development",
+      "pixel": {
+        "u": 294.39781775287526,
+        "v": 181.38012385726924
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "3602e1f0a02a603985faf50bff5eb9e81729ee78df28ada8fa01bcf3bd236a27"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14700000000:r3geo_base_r001_left_1_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 387.27155963302755,
+        "v": 129.8440366972477
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "e4dd4587da6447cc7a814e510c48f20ead8547c205ee945da5204e78c20e4adb"
+    },
+    {
+      "category": "laboratory_entrance",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_1_entrance",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14700000000:r3geo_base_r001_left_1_entrance",
+      "partition": "development",
+      "pixel": {
+        "u": 384.5607476635514,
+        "v": 193.57009345794393
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "f3368c8f397e91614c1e9533e653fd391000150d8e534726058d911d477fc63c"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14700000000:r3geo_base_r001_left_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 454.92134831460675,
+        "v": 179.57303370786516
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "57eb1fe73c7df84f7ebf6f7dc4ef811cccaf096b5ce0a0035bd34a383f27d640"
+    },
+    {
+      "category": "doorway",
+      "correct": null,
+      "entity_id": "r3geo_base_r001_right_2_doorway",
+      "frame": null,
+      "frame_sha256": null,
+      "human_review_status": "pending_human_review",
+      "human_reviewer_id": "",
+      "machine_visual_qa_passed": false,
+      "machine_visual_qa_sha256": null,
+      "map_id": "r3geo_base_r001",
+      "observation_id": "research3-landmark-bridge:r3geo_base_r001:v1:14700000000:r3geo_base_r001_right_2_doorway",
+      "partition": "development",
+      "pixel": {
+        "u": 603.4140271493212,
+        "v": 149.0656108597285
+      },
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "reasons": [
+        "missing_or_ambiguous_exact_frame",
+        "individual_machine_visual_qa_missing"
+      ],
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "status": "rejected",
+      "task_sha256": "3fee73f1a44f746c5b9eeec50b50e41b1090280e815a41c3cf60369a796a9d1a"
+    }
+  ],
+  "protected_data_used": false,
+  "qa_input_sha256": "294c71e47e7b4c1f11aba3f2e595538286eb738ebdd6f8ecb7686021150215e6",
+  "ready_items": 1,
+  "rejected_items": 125,
+  "required_classes": [
+    "chair"
+  ],
+  "required_maps": [
+    "r3geo_base_r001"
+  ],
+  "runs": [
+    {
+      "camera_profile_sha256": "dded99e65d6619faf168fdbd9e30ae3758dc6647a125882bf44c73147b0fd7ff",
+      "capture_summary_sha256": "1a23e81d55952951fd4e50db87b42b5898b669712be6100de1bcbd665d4cc01b",
+      "directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stationary-draft-v1-r001-chair",
+      "items": 130,
+      "map_id": "r3geo_base_r001",
+      "map_sha256": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+      "partition": "development",
+      "provider_tasks_sha256": "5dc830d065aa097ecfedff91d98d313fe9fb70411934748c8a5d4e0bcee3c977",
+      "request_sha256": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702",
+      "run_id": "r3-stationary-draft-v1-r001-chair",
+      "runtime_scene_sha256": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+      "source_revision": "560b66b9985b0069b18feee43789f771aca1ff2b",
+      "source_sha256": {
+        "ros_ws/src/language_nav_bringup/launch/live_adapters.launch.py": "d745b2ed5864e8844b42ebfe0e3ce3a729a07ffedc2fa344d2aa735f8cf5c218",
+        "ros_ws/src/language_nav_bringup/launch/physical_sim.launch.py": "7e226dbd5641cfcf3941a2a4396e42672057c73ff6c77ba8f9dee7c9feab1814",
+        "ros_ws/src/language_nav_planner/language_nav_planner/node.py": "5abf06082801625c52e1bc8d4ba696795ee4f9c57e724749702de20635e0fccf",
+        "ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py": "dfba97568613cb0aaa3442172fd5a7bc845d4651a367726dcdd7bbad98c9b08d",
+        "scripts/physical_perception_capture.py": "f758a9d47cf2c97398f99c63b4dba38b65f32bb106364b2fc2e7a99e8fc8137c",
+        "scripts/run_live_episode.py": "2b516cec509a7a899b5ab78e479e54cd65199329a71ae11d5f8e278a79a433cf",
+        "scripts/run_physical_episode.py": "5289ba8d38c444dbddd7f8bdd752e70f93fec37615e29019f09e2afc14865651",
+        "src/language_nav/benchmark/physical_catalog.py": "5b5b2992bd41064322a129f8e4506eca5974fb1bfceff93d2daf18a5cb1679d9",
+        "src/language_nav/capture_view.py": "4f626befa4a2faa0059f64a7a1dfb9cf42da658e80d87dc05e115426b7cb5204",
+        "src/language_nav/evaluation/ordered.py": "d0e0a1d0a5a783b1e16ae64a7d0420163e09c7481735544f9e57a5cc6a76fdfc",
+        "src/language_nav/grounding/routes.py": "414c3535e19ddb8ead6196140462cf21e6c497f610ade3a118e066fd9e937010",
+        "src/language_nav/live.py": "0085f58f5c9896c227b9edabf6843a046fc775e44347683b79361c04dc7e735b",
+        "src/language_nav/live_resources.py": "fc0ad9a3e249c2aeffbe2e64424d67230e9604bd588e48b12b9e88a2c3df4a0c",
+        "src/language_nav/planning/policy.py": "312bb8813f3a53e46ab9a00576d2693df706079c16f3569d13be29a7683f1175",
+        "src/language_nav/systems/variants.py": "bd20a46cb669f2afdc5da4618a1bb5e23552a8b1ee668900adc2c22c37d4f909"
+      },
+      "status": "inventoried"
+    }
+  ],
+  "schema_version": "research3-consolidated-review-inventory/v1",
+  "scope": "QA-attested unlabelled inventory; not accuracy or recall evidence",
+  "status": "partial_human_review_handoff",
+  "study_complete": false,
+  "unmatched_qa": []
+}

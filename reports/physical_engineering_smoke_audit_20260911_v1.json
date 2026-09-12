@@ -1,0 +1,837 @@
+{
+  "aggregate_descriptive_counts_only": {
+    "collisions": 0,
+    "independent_point_goal_success_true": 5,
+    "measured_attempts": 11,
+    "measured_infrastructure_failures": 0,
+    "ordered_completion_true": 9,
+    "timeouts": 0
+  },
+  "all_available_measurement_audits_passed": true,
+  "all_retained_resource_samples_within_limits": true,
+  "all_source_asset_profile_pins_match": true,
+  "attempt_count_including_retry": 12,
+  "attempts": [
+    {
+      "asset_pin_count": 7,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "commanded_goal": [
+        7.5,
+        -2
+      ],
+      "condition": "truthful_original",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b6-truthful_original-sim1-v1",
+      "evidence_sha256": {
+        "measurements.json": "679aab8e0f67511e87f470f2daa7466abbc20b99c628c4e7b2615093f4893b5d",
+        "request.json": "a81d478aae8d891dc7a2880f834509b47b99639298726b4f955f5877d52e8204",
+        "resource_guard.json": "224ff1ac459f42086ae133478c9d02d529764642120306728d1115a30777edb2",
+        "summary.json": "90c440db427cfc5dd6ca19af1e1c550b3686271c0cef5b3a4ce2ba90a71cd8d2"
+      },
+      "final_ground_truth_position": [
+        7.516098875731947,
+        -1.6577486205779057
+      ],
+      "forbidden_crossings": [],
+      "independent_measurement_audit_passed": true,
+      "original_run_id": "r3-eng-smoke-dev10-b6-truthful_original-sim1-v1",
+      "outcome": {
+        "collision": false,
+        "collision_count": 0,
+        "distance_travelled_m": 8.536481892503465,
+        "episode_prediction_count": 40,
+        "goal_error_m": 0.3426298009749867,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 708,
+        "infrastructure_failure": false,
+        "instruction_completion": true,
+        "nav2_reported_success": true,
+        "navigation_success": true,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_2",
+        "terminal_identity_correct": true,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.012789194846011416,
+          "step_limit_m": 0.5,
+          "valid": true
+        }
+      },
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 6.97,
+        "maximum_load1": 8.439453125,
+        "minimum_available_memory_kib": 23389076,
+        "research2_performance_unchanged_proven": false,
+        "samples": 28
+      },
+      "run_id": "r3-eng-smoke-dev10-b6-truthful_original-sim1-v1",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "completed_measured_attempt",
+      "supplemental_retry": false,
+      "system_id": "B6"
+    },
+    {
+      "asset_pin_count": 7,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "commanded_goal": [
+        7.5,
+        -2
+      ],
+      "condition": "truthful_paraphrase",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b6-truthful_paraphrase-sim1-v1",
+      "evidence_sha256": {
+        "measurements.json": "7cdc95c94795af37023f150de21a7241e16098364a86c70f8b7f9322293015c7",
+        "request.json": "80dd15351a97055111077a40d942636d41b04d82dc5e68f2ef036364f4ee2d5a",
+        "resource_guard.json": "d8e937711229cf352685091331385a014bf6c4a02284405f4f19d451bc930862",
+        "summary.json": "f0d70c56239a89de965522c9b05bb9da432e918c672fa91d09df3bef999eadc1"
+      },
+      "final_ground_truth_position": [
+        7.595803953093214,
+        -1.9564504672607452
+      ],
+      "forbidden_crossings": [],
+      "independent_measurement_audit_passed": true,
+      "original_run_id": "r3-eng-smoke-dev10-b6-truthful_paraphrase-sim1-v1",
+      "outcome": {
+        "collision": false,
+        "collision_count": 0,
+        "distance_travelled_m": 8.50990439943165,
+        "episode_prediction_count": 41,
+        "goal_error_m": 0.10523763219539962,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 711,
+        "infrastructure_failure": false,
+        "instruction_completion": true,
+        "nav2_reported_success": true,
+        "navigation_success": true,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_2",
+        "terminal_identity_correct": true,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.012720280252338827,
+          "step_limit_m": 0.5,
+          "valid": true
+        }
+      },
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 6.54,
+        "maximum_load1": 7.74560546875,
+        "minimum_available_memory_kib": 23454448,
+        "research2_performance_unchanged_proven": false,
+        "samples": 28
+      },
+      "run_id": "r3-eng-smoke-dev10-b6-truthful_paraphrase-sim1-v1",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "completed_measured_attempt",
+      "supplemental_retry": false,
+      "system_id": "B6"
+    },
+    {
+      "asset_pin_count": 7,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "commanded_goal": [
+        7.5,
+        -2
+      ],
+      "condition": "ambiguous_reference",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b6-ambiguous_reference-sim1-v1",
+      "evidence_sha256": {
+        "measurements.json": "57db1a053a72b8ce4a0084506e912abd9ec664da28918bc0aea0edc4445f8f88",
+        "request.json": "40979e445deba66389161fc67a957bdf9301033b05a4d8dad902bb7ce53bd65e",
+        "resource_guard.json": "2242a7b5cbfcc3f015c720bfd7a87fe4d6e62dee026cb84be918efd9c64e1aa3",
+        "summary.json": "98ce312784fe89ff5b0fa6e5e69b60eb64e5f2e3d519d7aee658a68f05ae7613"
+      },
+      "final_ground_truth_position": [
+        7.694088316112697,
+        -1.6533374870515225
+      ],
+      "forbidden_crossings": [],
+      "independent_measurement_audit_passed": true,
+      "original_run_id": "r3-eng-smoke-dev10-b6-ambiguous_reference-sim1-v1",
+      "outcome": {
+        "collision": false,
+        "collision_count": 0,
+        "distance_travelled_m": 8.310527877172552,
+        "episode_prediction_count": 40,
+        "goal_error_m": 0.3972973349208567,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 700,
+        "infrastructure_failure": false,
+        "instruction_completion": true,
+        "nav2_reported_success": true,
+        "navigation_success": false,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_2",
+        "terminal_identity_correct": true,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.012735537937928145,
+          "step_limit_m": 0.5,
+          "valid": true
+        }
+      },
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 7.49,
+        "maximum_load1": 7.7880859375,
+        "minimum_available_memory_kib": 23334272,
+        "research2_performance_unchanged_proven": false,
+        "samples": 28
+      },
+      "run_id": "r3-eng-smoke-dev10-b6-ambiguous_reference-sim1-v1",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "completed_measured_attempt",
+      "supplemental_retry": false,
+      "system_id": "B6"
+    },
+    {
+      "asset_pin_count": 8,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "commanded_goal": [
+        7.5,
+        -2
+      ],
+      "condition": "missing_landmark",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b6-missing_landmark-sim1-v1",
+      "evidence_sha256": {
+        "measurements.json": "3c9441a88a2be9bf2632e2d27b9d47c08e06e455346370f976bebc0e76897acd",
+        "request.json": "d8d230455cdb5732a88aec7f7bd68537078ecaf9fc888267587acf8be6a3dfd6",
+        "resource_guard.json": "051f4ce8a9b2785a1e608e1c15e48848e034ff9109cdd1c3a085b3653a6676c9",
+        "summary.json": "d4e80034e7fbfd4c5dea528070b5ca4c927006ffb3d79edc88c64c737e8494bc"
+      },
+      "final_ground_truth_position": [
+        7.55162550304041,
+        -1.891323881524905
+      ],
+      "forbidden_crossings": [],
+      "independent_measurement_audit_passed": true,
+      "original_run_id": "r3-eng-smoke-dev10-b6-missing_landmark-sim1-v1",
+      "outcome": {
+        "collision": false,
+        "collision_count": 0,
+        "distance_travelled_m": 8.33967243413034,
+        "episode_prediction_count": 41,
+        "goal_error_m": 0.12031496702816429,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 720,
+        "infrastructure_failure": false,
+        "instruction_completion": true,
+        "nav2_reported_success": true,
+        "navigation_success": true,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_2",
+        "terminal_identity_correct": true,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.012664978411953317,
+          "step_limit_m": 0.5,
+          "valid": true
+        }
+      },
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 7.04,
+        "maximum_load1": 10.853515625,
+        "minimum_available_memory_kib": 23534796,
+        "research2_performance_unchanged_proven": false,
+        "samples": 28
+      },
+      "run_id": "r3-eng-smoke-dev10-b6-missing_landmark-sim1-v1",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "completed_measured_attempt",
+      "supplemental_retry": false,
+      "system_id": "B6"
+    },
+    {
+      "asset_pin_count": 7,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "commanded_goal": [
+        7.5,
+        -2
+      ],
+      "condition": "relation_corruption",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b6-relation_corruption-sim1-v1",
+      "evidence_sha256": {
+        "measurements.json": "c3409443a505d392e2fd70bd40dda88969c5bea82a9f150738f0b2f6acac8ea7",
+        "request.json": "a2d8620e7210a35c48ef8e383eca4d37718719a219b63a5aaace2a8bd357b63f",
+        "resource_guard.json": "6eab6031a7f788bf72b04a580f6c9634591b1c8067c702b5225371258a7fc091",
+        "summary.json": "3fcb46eb0153a2a63f4dc8d564e3141e5e9948ea6a158252af973179b86725b6"
+      },
+      "final_ground_truth_position": [
+        7.6944140668650345,
+        -1.335297691575117
+      ],
+      "forbidden_crossings": [],
+      "independent_measurement_audit_passed": true,
+      "original_run_id": "r3-eng-smoke-dev10-b6-relation_corruption-sim1-v1",
+      "outcome": {
+        "collision": false,
+        "collision_count": 0,
+        "distance_travelled_m": 8.747922786163725,
+        "episode_prediction_count": 52,
+        "goal_error_m": 0.6925503506752202,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 878,
+        "infrastructure_failure": false,
+        "instruction_completion": true,
+        "nav2_reported_success": true,
+        "navigation_success": false,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_2",
+        "terminal_identity_correct": true,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.01272723777136267,
+          "step_limit_m": 0.5,
+          "valid": true
+        }
+      },
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 6.15,
+        "maximum_load1": 16.12353515625,
+        "minimum_available_memory_kib": 23425864,
+        "research2_performance_unchanged_proven": false,
+        "samples": 34
+      },
+      "run_id": "r3-eng-smoke-dev10-b6-relation_corruption-sim1-v1",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "completed_measured_attempt",
+      "supplemental_retry": false,
+      "system_id": "B6"
+    },
+    {
+      "asset_pin_count": 7,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "commanded_goal": [
+        4.3,
+        -2
+      ],
+      "condition": "topology_corruption",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b6-topology_corruption-sim1-v1",
+      "evidence_sha256": {
+        "measurements.json": "49b82566a2adcdaf7f5e4c42221fdb7f3919f236d540024c57272c5fb45f1f05",
+        "request.json": "7b5b5f8a22a5b69ad3e3ce9df563afa7caee8348b3534e9924409f254dcf3353",
+        "resource_guard.json": "7b8a4bc838ee5bce1fe3fd69a8f00a377aa4084735d761bbc1c773c9f0098669",
+        "summary.json": "e8f940aa4f3119d673d964f8e7916d8fccb3107471da7e051a2e8082c697f3e2"
+      },
+      "final_ground_truth_position": [
+        5.37980202592737,
+        -0.7734691321246704
+      ],
+      "forbidden_crossings": [
+        {
+          "gate_id": "wrong_doorway_-1_1",
+          "trajectory_index": 380.7329488040541
+        }
+      ],
+      "independent_measurement_audit_passed": true,
+      "original_run_id": "r3-eng-smoke-dev10-b6-topology_corruption-sim1-v1",
+      "outcome": {
+        "collision": false,
+        "collision_count": 0,
+        "distance_travelled_m": 6.876145783542145,
+        "episode_prediction_count": 128,
+        "goal_error_m": 1.6341206764030198,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 1928,
+        "infrastructure_failure": false,
+        "instruction_completion": false,
+        "nav2_reported_success": true,
+        "navigation_success": false,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_1",
+        "terminal_identity_correct": false,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.012743338508519044,
+          "step_limit_m": 0.5,
+          "valid": true
+        }
+      },
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 7.21,
+        "maximum_load1": 11.86474609375,
+        "minimum_available_memory_kib": 23423324,
+        "research2_performance_unchanged_proven": false,
+        "samples": 72
+      },
+      "run_id": "r3-eng-smoke-dev10-b6-topology_corruption-sim1-v1",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "completed_measured_attempt",
+      "supplemental_retry": false,
+      "system_id": "B6"
+    },
+    {
+      "asset_pin_count": 7,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "condition": "false_inserted_clause",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b6-false_inserted_clause-sim1-v1",
+      "evidence_sha256": {
+        "failure.json": "856aad9ec5becbab4ff0db916d974cec9e09a93b03205a22665a4c3381d7d78b",
+        "request.json": "b633d59ea6e918749a12fb2967a48f3257340eb6c5c79f2f74be49b7697d3104",
+        "resource_guard.json": "14ac396432e89ea59b0afa439a79f2415aa1efc1d2e15df77a4977cd9979507a"
+      },
+      "independent_measurement_audit_passed": null,
+      "interruption": {
+        "dispatched": false,
+        "error": "",
+        "error_type": "KeyboardInterrupt",
+        "retry_policy": "retain failure; no automatic replacement"
+      },
+      "navigation_outcome_unknown": true,
+      "original_run_id": "r3-eng-smoke-dev10-b6-false_inserted_clause-sim1-v1",
+      "outcome": null,
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 3.97,
+        "maximum_load1": 8.87890625,
+        "minimum_available_memory_kib": 25199992,
+        "research2_performance_unchanged_proven": false,
+        "samples": 2
+      },
+      "run_id": "r3-eng-smoke-dev10-b6-false_inserted_clause-sim1-v1",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "interrupted_setup_original_retained",
+      "supplemental_retry": false,
+      "system_id": "B6"
+    },
+    {
+      "asset_pin_count": 7,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "commanded_goal": [
+        4.3,
+        -2
+      ],
+      "condition": "truthful_original",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b1-truthful_original-sim1-v1",
+      "evidence_sha256": {
+        "measurements.json": "ccb54827a3aaa85a934a815e49a8e7a633ec5b0fafa69e0594d18003b5413df5",
+        "request.json": "8c58b50915129a36275b481ed0d5db991fedbdd74fe7164b95dbb715b5d54d24",
+        "resource_guard.json": "5a18d9957ea9029174efc7f0fdd0377043aeac901d689570b163cdfe3aca8f88",
+        "summary.json": "9b791c39743a6ee7d0697a686bc57130f19a186b69092663922b4e005de029bc"
+      },
+      "final_ground_truth_position": [
+        5.156898415740558,
+        0.08931572258702664
+      ],
+      "forbidden_crossings": [
+        {
+          "gate_id": "wrong_doorway_-1_1",
+          "trajectory_index": 449.3007753438004
+        }
+      ],
+      "independent_measurement_audit_passed": true,
+      "original_run_id": "r3-eng-smoke-dev10-b1-truthful_original-sim1-v1",
+      "outcome": {
+        "collision": false,
+        "collision_count": 0,
+        "distance_travelled_m": 7.699978129463934,
+        "episode_prediction_count": 62,
+        "goal_error_m": 2.258210593268048,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 1016,
+        "infrastructure_failure": false,
+        "instruction_completion": false,
+        "nav2_reported_success": true,
+        "navigation_success": false,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_1",
+        "terminal_identity_correct": null,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.012701204177711983,
+          "step_limit_m": 0.5,
+          "valid": true
+        }
+      },
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 6.69,
+        "maximum_load1": 13.380859375,
+        "minimum_available_memory_kib": 23371728,
+        "research2_performance_unchanged_proven": false,
+        "samples": 39
+      },
+      "run_id": "r3-eng-smoke-dev10-b1-truthful_original-sim1-v1",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "completed_measured_attempt",
+      "supplemental_retry": false,
+      "system_id": "B1"
+    },
+    {
+      "asset_pin_count": 7,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "commanded_goal": [
+        7.5,
+        -2
+      ],
+      "condition": "truthful_original",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b2-truthful_original-sim1-v1",
+      "evidence_sha256": {
+        "measurements.json": "c676c928e2f943737ebb233879b6e58ac38ea88490c9f9e2005eef16f0713b4f",
+        "request.json": "eb5a27ac36851f075b8f1e3b86b7c561c0e3332f591db41110eca900312c553f",
+        "resource_guard.json": "2027503bd0e1606790b41e6153af88b5906e8d0c132b33641c6d1cb5e0bf0545",
+        "summary.json": "b4803f702e8616324537188d241718539794f182f55307f8edc0642861cbe8cd"
+      },
+      "final_ground_truth_position": [
+        7.612421841215091,
+        -1.491321096869062
+      ],
+      "forbidden_crossings": [],
+      "independent_measurement_audit_passed": true,
+      "original_run_id": "r3-eng-smoke-dev10-b2-truthful_original-sim1-v1",
+      "outcome": {
+        "collision": false,
+        "collision_count": 0,
+        "distance_travelled_m": 8.161241702886228,
+        "episode_prediction_count": 39,
+        "goal_error_m": 0.520953833724914,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 681,
+        "infrastructure_failure": false,
+        "instruction_completion": true,
+        "nav2_reported_success": true,
+        "navigation_success": false,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_2",
+        "terminal_identity_correct": true,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.01278775878693373,
+          "step_limit_m": 0.5,
+          "valid": true
+        }
+      },
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 6.78,
+        "maximum_load1": 10.3984375,
+        "minimum_available_memory_kib": 23384596,
+        "research2_performance_unchanged_proven": false,
+        "samples": 27
+      },
+      "run_id": "r3-eng-smoke-dev10-b2-truthful_original-sim1-v1",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "completed_measured_attempt",
+      "supplemental_retry": false,
+      "system_id": "B2"
+    },
+    {
+      "asset_pin_count": 7,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "commanded_goal": [
+        7.5,
+        -2
+      ],
+      "condition": "truthful_original",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b4-truthful_original-sim1-v1",
+      "evidence_sha256": {
+        "measurements.json": "06aceebf5bba4d49522479a9c9fd453ca325ff7ae646ad7d98661d1d1bc44d82",
+        "request.json": "c94e90212c002f0450dc881863f21dbda43b70754be0214878c50c1781f81f63",
+        "resource_guard.json": "d1afa04abc0aff63fd1899840727375ab3c2a43352f445ac16c4decd586c20be",
+        "summary.json": "727396224c72a91fbdfbaf259d4df02d0ae233066667bb5ea0b330c6df8ca5a8"
+      },
+      "final_ground_truth_position": [
+        7.621312186941986,
+        -1.8584110937249927
+      ],
+      "forbidden_crossings": [],
+      "independent_measurement_audit_passed": true,
+      "original_run_id": "r3-eng-smoke-dev10-b4-truthful_original-sim1-v1",
+      "outcome": {
+        "collision": false,
+        "collision_count": 0,
+        "distance_travelled_m": 8.254044317953149,
+        "episode_prediction_count": 39,
+        "goal_error_m": 0.186451240491449,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 680,
+        "infrastructure_failure": false,
+        "instruction_completion": true,
+        "nav2_reported_success": true,
+        "navigation_success": true,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_2",
+        "terminal_identity_correct": true,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.012784744284609887,
+          "step_limit_m": 0.5,
+          "valid": true
+        }
+      },
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 6.65,
+        "maximum_load1": 8.091796875,
+        "minimum_available_memory_kib": 23350116,
+        "research2_performance_unchanged_proven": false,
+        "samples": 27
+      },
+      "run_id": "r3-eng-smoke-dev10-b4-truthful_original-sim1-v1",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "completed_measured_attempt",
+      "supplemental_retry": false,
+      "system_id": "B4"
+    },
+    {
+      "asset_pin_count": 7,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "commanded_goal": [
+        7.5,
+        -2
+      ],
+      "condition": "truthful_original",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b5-truthful_original-sim1-v1",
+      "evidence_sha256": {
+        "measurements.json": "299186814f7caf97b6065d9c0aa6df0756de6e198417211774dc89e349e4037d",
+        "request.json": "598780f68a28df86372cfb9cf26cfa57b50a72b94910285f4d582e0300cd85a3",
+        "resource_guard.json": "cbe1b000710f0e4b410971b8811e99a75fb3bb90a83d932c7d610ccc32e7cabb",
+        "summary.json": "c35618f9e67e2d819285f5af0ff9d8d9b113e1de6625cf7409e36d4778a91297"
+      },
+      "final_ground_truth_position": [
+        7.630508963779561,
+        -1.7367742140256248
+      ],
+      "forbidden_crossings": [],
+      "independent_measurement_audit_passed": true,
+      "original_run_id": "r3-eng-smoke-dev10-b5-truthful_original-sim1-v1",
+      "outcome": {
+        "collision": false,
+        "collision_count": 0,
+        "distance_travelled_m": 8.544902074936205,
+        "episode_prediction_count": 41,
+        "goal_error_m": 0.2938033424395344,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 730,
+        "infrastructure_failure": false,
+        "instruction_completion": true,
+        "nav2_reported_success": true,
+        "navigation_success": true,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_2",
+        "terminal_identity_correct": true,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.012712665444345902,
+          "step_limit_m": 0.5,
+          "valid": true
+        }
+      },
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 2.63,
+        "maximum_load1": 6.82080078125,
+        "minimum_available_memory_kib": 24125184,
+        "research2_performance_unchanged_proven": false,
+        "samples": 29
+      },
+      "run_id": "r3-eng-smoke-dev10-b5-truthful_original-sim1-v1",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "completed_measured_attempt",
+      "supplemental_retry": false,
+      "system_id": "B5"
+    },
+    {
+      "asset_pin_count": 7,
+      "asset_pins_match": true,
+      "camera_profile_matches_plan": true,
+      "camera_profile_sha256": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+      "commanded_goal": [
+        7.5,
+        -2
+      ],
+      "condition": "false_inserted_clause",
+      "directory": "reports/physical_live_episodes/r3-eng-smoke-dev10-b6-false_inserted_clause-sim1-v1-retry-a",
+      "evidence_sha256": {
+        "measurements.json": "0f84c4c8614346741d89b92f0e2532df605de70f3e7efde84af9884c380ac6f2",
+        "request.json": "d56441e50e3dfc03a71c8a37b32ff6e5e01f075102bc0413873df39074f22952",
+        "resource_guard.json": "6f9f6dc59e51e4340bf102b252204e6b60e7a158281c098dd139e8754f1f7a79",
+        "summary.json": "e65eff4c23f65a39ac5e4e2730c91bb7e09ae8f3d97800f52f1f5751e13a587b"
+      },
+      "final_ground_truth_position": [
+        7.568701315053364,
+        -1.530192375231871
+      ],
+      "forbidden_crossings": [],
+      "independent_measurement_audit_passed": true,
+      "original_run_id": "r3-eng-smoke-dev10-b6-false_inserted_clause-sim1-v1",
+      "outcome": {
+        "collision": false,
+        "collision_count": 0,
+        "distance_travelled_m": 8.070354056458234,
+        "episode_prediction_count": 39,
+        "goal_error_m": 0.47480424911781566,
+        "goal_tolerance_m": 0.35,
+        "ground_truth_samples": 686,
+        "infrastructure_failure": false,
+        "instruction_completion": true,
+        "nav2_reported_success": true,
+        "navigation_success": false,
+        "reason": "navigation succeeded",
+        "route_id": "r3geo_base_r010_right_2",
+        "terminal_identity_correct": true,
+        "timeout": false,
+        "trajectory_quality": {
+          "gap_limit_s": 1,
+          "max_gap_s": 0.036,
+          "max_step_m": 0.012649840561556804,
+          "step_limit_m": 0.5,
+          "valid": true
+        }
+      },
+      "resource_guard": {
+        "all_samples_within_configured_limits": true,
+        "coexistence_trial": true,
+        "gpu_headroom_verified": false,
+        "maximum_cpu_pressure_avg10": 1.13,
+        "maximum_load1": 5.70068359375,
+        "minimum_available_memory_kib": 24654296,
+        "research2_performance_unchanged_proven": false,
+        "samples": 27
+      },
+      "run_id": "r3-eng-smoke-dev10-b6-false_inserted_clause-sim1-v1-retry-a",
+      "source_pin_count": 16,
+      "source_pins_match_current_files": true,
+      "source_pins_match_original_plan": true,
+      "status": "completed_measured_attempt",
+      "supplemental_retry": true,
+      "system_id": "B6"
+    }
+  ],
+  "completed_original_attempts": 10,
+  "completed_supplemental_retries": 1,
+  "historical_zero_overlap_claimed": false,
+  "human_labels_generated": false,
+  "interrupted_original_attempts": 1,
+  "interruption_context": {
+    "affected_overlap_not_ruled_out_run_ids": [
+      "r3-eng-smoke-dev10-b6-false_inserted_clause-sim1-v1",
+      "r3-eng-smoke-dev10-b6-topology_corruption-sim1-v1"
+    ],
+    "batch_v3_started_before_survivor_inspection_was_reviewed": true,
+    "correction": "child_inherited_flock_exact_argv_guard_default_one_case_explicit_retry_IDs",
+    "corrective_memory": "memory/2026-09-11-smoke-parent-interruption.md",
+    "external_parent_sigterm_origin": "unknown",
+    "original_false_inserted_attempt_interrupted_before_dispatch": true,
+    "topology_child_survived_batch_v2_parent": "reported_by_root_and_completed_evidence_retained"
+  },
+  "limitations": [
+    "Original interrupted attempt remains unknown, never replaced by retry.",
+    "Raw navigation succeeded reason is Nav2 status, not independent point-goal or ordered completion.",
+    "Goal tolerance remains0.35m; failures retained without threshold tuning.",
+    "Single procedural world and one simulator seed do not establish comparative performance.",
+    "Collision/resource observations do not prove zero impact on Research2 or zero historical R3 overlap.",
+    "All original source files were read-only during this audit."
+  ],
+  "original_case_count": 11,
+  "plan_path": "reports/physical_engineering_smoke_plan_v1.json",
+  "plan_sha256": "228eca6db538f8929778a7a51f3a44b2c6ef4300bd67c8d5b556c06636d60ad0",
+  "protected_data_used": false,
+  "reference_not_counted_as_new_attempt": true,
+  "research2_performance_unchanged_proven": false,
+  "retained_attribute_reference": {
+    "condition": "attribute_corruption",
+    "directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-readable-inspect-dev10-20260911-v2",
+    "scope": "completed_inspection_and_safe_budget_abstention_not_task_success",
+    "sha256": {
+      "measurements.json": "e37031d4ba93dce7cf447758ac027fc9ed6bc51638b71f5547246bca328338e2",
+      "request.json": "5695f2244f9b9363c3178820faa9df3d677d6fcf6ef4d10333388b8e0c8f431f",
+      "summary.json": "6c51f60de0b16b8361f280f6afb5b4f31f37040572269f5ae0f3b1fef53bf5ef"
+    },
+    "system_id": "B6"
+  },
+  "schema_version": "research3-physical-engineering-smoke-audit/v1",
+  "scope": "single_layout_engineering_contract_checks_not_performance_or_confirmatory_campaign",
+  "status": "all_original_cases_accounted_for_with_one_separate_interruption_retry"
+}

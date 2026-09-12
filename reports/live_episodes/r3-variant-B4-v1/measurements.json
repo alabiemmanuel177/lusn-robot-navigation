@@ -1,0 +1,1932 @@
+{
+  "schema_version": "research3-live-measurements/v1",
+  "run_id": "r3-variant-B4-v1",
+  "episode_started_at_ns": 12429000000,
+  "episode_ended_at_ns": 21129000000,
+  "ground_truth_positions": [
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.000465104141926,
+      -0.4999946061636796
+    ],
+    [
+      -1.9994465563435122,
+      -0.4999480454207523
+    ],
+    [
+      -1.9971750641188477,
+      -0.49988635708989904
+    ],
+    [
+      -1.9938280241641568,
+      -0.49980978423325617
+    ],
+    [
+      -1.9902914659616828,
+      -0.4997575251779023
+    ],
+    [
+      -1.985916457817696,
+      -0.49966934998716334
+    ],
+    [
+      -1.9810079558913536,
+      -0.499594304320562
+    ],
+    [
+      -1.97561872759803,
+      -0.49953634073852166
+    ],
+    [
+      -1.9699156984403832,
+      -0.49947243081118853
+    ],
+    [
+      -1.9641073021006916,
+      -0.49939433241388426
+    ],
+    [
+      -1.9580897494351228,
+      -0.4992957644776004
+    ],
+    [
+      -1.9518973444026768,
+      -0.49918755145467186
+    ],
+    [
+      -1.945440478726978,
+      -0.4990540474415391
+    ],
+    [
+      -1.9386876935029822,
+      -0.49889770176428866
+    ],
+    [
+      -1.9318417764137612,
+      -0.4987253964605595
+    ],
+    [
+      -1.924841114232755,
+      -0.49853501921280635
+    ],
+    [
+      -1.9174243561513469,
+      -0.4983273727439957
+    ],
+    [
+      -1.9097845155819972,
+      -0.4980983177017024
+    ],
+    [
+      -1.9017194590363775,
+      -0.49785047126280074
+    ],
+    [
+      -1.8936097854177625,
+      -0.4975763404517953
+    ],
+    [
+      -1.8853385249642793,
+      -0.4972831477936979
+    ],
+    [
+      -1.8768165463773536,
+      -0.4969694400499751
+    ],
+    [
+      -1.868020964408541,
+      -0.49663550747617996
+    ],
+    [
+      -1.8589327970252034,
+      -0.4962821264022419
+    ],
+    [
+      -1.8495269078980288,
+      -0.4959158623842523
+    ],
+    [
+      -1.8398171389238103,
+      -0.4955342800052187
+    ],
+    [
+      -1.8297471312988824,
+      -0.495138615987322
+    ],
+    [
+      -1.8195164918187836,
+      -0.4947299657591818
+    ],
+    [
+      -1.809098679732953,
+      -0.49430499353867663
+    ],
+    [
+      -1.7985460354960816,
+      -0.49386992251053274
+    ],
+    [
+      -1.7878655700533035,
+      -0.493440806172514
+    ],
+    [
+      -1.7769905713147731,
+      -0.4930223008537025
+    ],
+    [
+      -1.7659970906869038,
+      -0.4926032895127381
+    ],
+    [
+      -1.7546862411063602,
+      -0.4921970831397134
+    ],
+    [
+      -1.7430468397715442,
+      -0.49177360047948965
+    ],
+    [
+      -1.7311240051137173,
+      -0.49135855468946155
+    ],
+    [
+      -1.7189689795888174,
+      -0.4909650441142071
+    ],
+    [
+      -1.7065634565077112,
+      -0.49060720869907465
+    ],
+    [
+      -1.694111345154359,
+      -0.49026396853473914
+    ],
+    [
+      -1.6815649565579542,
+      -0.48994196642857885
+    ],
+    [
+      -1.6689491331619255,
+      -0.489653883877651
+    ],
+    [
+      -1.6563220093062014,
+      -0.48940628494718136
+    ],
+    [
+      -1.6436942017847744,
+      -0.489184019043593
+    ],
+    [
+      -1.6310659321961252,
+      -0.4889980318149436
+    ],
+    [
+      -1.6184348101715558,
+      -0.48886593202124135
+    ],
+    [
+      -1.6058027131093828,
+      -0.4887702833676075
+    ],
+    [
+      -1.5931698054395589,
+      -0.48871477407287284
+    ],
+    [
+      -1.58053588881446,
+      -0.48870437294845714
+    ],
+    [
+      -1.567902851252606,
+      -0.4887297159074803
+    ],
+    [
+      -1.555270278904119,
+      -0.4888021139236269
+    ],
+    [
+      -1.54263820885335,
+      -0.48892141361920005
+    ],
+    [
+      -1.530006535096889,
+      -0.48908900339779987
+    ],
+    [
+      -1.5173767305495445,
+      -0.48929463912763205
+    ],
+    [
+      -1.5047503198879228,
+      -0.48952945272909204
+    ],
+    [
+      -1.4921261195236346,
+      -0.4898071972510598
+    ],
+    [
+      -1.4795031628708273,
+      -0.49013244034153114
+    ],
+    [
+      -1.4668815549440128,
+      -0.49050076103895396
+    ],
+    [
+      -1.45426280549203,
+      -0.49089763791588537
+    ],
+    [
+      -1.4416453012616908,
+      -0.4913391996018722
+    ],
+    [
+      -1.429028669381143,
+      -0.4918244499601343
+    ],
+    [
+      -1.41641320767267,
+      -0.4923477046783892
+    ],
+    [
+      -1.403801170097172,
+      -0.49288768955168044
+    ],
+    [
+      -1.3911914925212685,
+      -0.49346082064571445
+    ],
+    [
+      -1.378584166729342,
+      -0.49406540959488987
+    ],
+    [
+      -1.3659802456683956,
+      -0.49469079432630875
+    ],
+    [
+      -1.3533780866698226,
+      -0.4953570125285965
+    ],
+    [
+      -1.340777379753812,
+      -0.4960594202591024
+    ],
+    [
+      -1.3281788603681857,
+      -0.49678641221509495
+    ],
+    [
+      -1.3155842106900257,
+      -0.49752299546259254
+    ],
+    [
+      -1.3029926959382454,
+      -0.49828068702956263
+    ],
+    [
+      -1.2904040987941197,
+      -0.4990621181522902
+    ],
+    [
+      -1.2778178427664066,
+      -0.4998705484789583
+    ],
+    [
+      -1.2652333876430972,
+      -0.5007064082836747
+    ],
+    [
+      -1.252652493076839,
+      -0.5015401946479008
+    ],
+    [
+      -1.2400783522544538,
+      -0.502346132636227
+    ],
+    [
+      -1.2275279725598605,
+      -0.5031492201760539
+    ],
+    [
+      -1.2149697299355864,
+      -0.5039897579865033
+    ],
+    [
+      -1.202408061245345,
+      -0.5048520921240225
+    ],
+    [
+      -1.1898481076541618,
+      -0.5056951231906794
+    ],
+    [
+      -1.1772885462300469,
+      -0.5065372741587642
+    ],
+    [
+      -1.1647307110692307,
+      -0.5073651969129901
+    ],
+    [
+      -1.152174512395667,
+      -0.5081813423489236
+    ],
+    [
+      -1.139619600130955,
+      -0.5089809605449365
+    ],
+    [
+      -1.127065054808191,
+      -0.5097662830808576
+    ],
+    [
+      -1.1145108777323987,
+      -0.5105276614053491
+    ],
+    [
+      -1.1019560274202636,
+      -0.5112725215572008
+    ],
+    [
+      -1.0894005319780187,
+      -0.5119931875850919
+    ],
+    [
+      -1.0768437981612107,
+      -0.5126927351547123
+    ],
+    [
+      -1.0642868612673995,
+      -0.5133561829083026
+    ],
+    [
+      -1.051729148527747,
+      -0.5139909017193279
+    ],
+    [
+      -1.0391696151595786,
+      -0.5146033097005961
+    ],
+    [
+      -1.026608965903662,
+      -0.5151816265969256
+    ],
+    [
+      -1.0140470733770843,
+      -0.5157278953595212
+    ],
+    [
+      -1.0014840050063039,
+      -0.5162400086162783
+    ],
+    [
+      -0.9889177676059177,
+      -0.5167339411535065
+    ],
+    [
+      -0.9763503503189931,
+      -0.5171881766648143
+    ],
+    [
+      -0.9637815626261081,
+      -0.5176076133020365
+    ],
+    [
+      -0.9512115849190035,
+      -0.5179915769070685
+    ],
+    [
+      -0.9386416698174692,
+      -0.5183320097533588
+    ],
+    [
+      -0.9260698987971224,
+      -0.5186465979434327
+    ],
+    [
+      -0.9134963907074098,
+      -0.5189313682575685
+    ],
+    [
+      -0.9009202439987579,
+      -0.5191928949742233
+    ],
+    [
+      -0.888340096697236,
+      -0.5194381697015232
+    ],
+    [
+      -0.8757589280662967,
+      -0.5196451317780174
+    ],
+    [
+      -0.8631772223019715,
+      -0.5198153816226673
+    ],
+    [
+      -0.8505937041982932,
+      -0.5199617784729618
+    ],
+    [
+      -0.838006815178933,
+      -0.520094415172851
+    ],
+    [
+      -0.8254196865992415,
+      -0.5201914293959763
+    ],
+    [
+      -0.8128317326163625,
+      -0.520264056217942
+    ],
+    [
+      -0.8002424301587542,
+      -0.5203162191605993
+    ],
+    [
+      -0.7876524745475056,
+      -0.5203458862506175
+    ],
+    [
+      -0.775062424002928,
+      -0.520351937026674
+    ],
+    [
+      -0.7624700766772965,
+      -0.5203510482391144
+    ],
+    [
+      -0.7498772444608375,
+      -0.5203305008285345
+    ],
+    [
+      -0.7372819007169567,
+      -0.5203059909593267
+    ],
+    [
+      -0.7246829799859438,
+      -0.5202829304438821
+    ],
+    [
+      -0.7120831449458634,
+      -0.5202440589737101
+    ],
+    [
+      -0.6994833853485416,
+      -0.5201880722873781
+    ],
+    [
+      -0.6868824740968074,
+      -0.5201276145083009
+    ],
+    [
+      -0.6742766242058268,
+      -0.5200856743165526
+    ],
+    [
+      -0.6616698576491408,
+      -0.52003596293338
+    ],
+    [
+      -0.6490607836766136,
+      -0.51999155985681
+    ],
+    [
+      -0.6364495698936743,
+      -0.5199540073326953
+    ],
+    [
+      -0.6238357006870338,
+      -0.5199283013175484
+    ],
+    [
+      -0.6112210126049695,
+      -0.5199058466847604
+    ],
+    [
+      -0.5986061023943792,
+      -0.5198900046053756
+    ],
+    [
+      -0.5859910963470646,
+      -0.519883946445239
+    ],
+    [
+      -0.5733722341750163,
+      -0.5199154124170632
+    ],
+    [
+      -0.5607515060221139,
+      -0.5199681856957875
+    ],
+    [
+      -0.5481297852342204,
+      -0.5200390716906813
+    ],
+    [
+      -0.5355096188607128,
+      -0.5201142931810668
+    ],
+    [
+      -0.5228899395621047,
+      -0.5202088160290761
+    ],
+    [
+      -0.5102724767178148,
+      -0.5203117843475331
+    ],
+    [
+      -0.49766243823442996,
+      -0.5203922768621663
+    ],
+    [
+      -0.485056647473277,
+      -0.5204860436903994
+    ],
+    [
+      -0.47244979110619,
+      -0.5206288108587895
+    ],
+    [
+      -0.45984416114755094,
+      -0.5207906830572023
+    ],
+    [
+      -0.44724086673119945,
+      -0.5209609084694142
+    ],
+    [
+      -0.43463906187951135,
+      -0.5211466093341771
+    ],
+    [
+      -0.4220366519004323,
+      -0.5213589006645266
+    ],
+    [
+      -0.40943578268716047,
+      -0.5215741393612101
+    ],
+    [
+      -0.39683780093707266,
+      -0.5217849149790377
+    ],
+    [
+      -0.3842381855785304,
+      -0.5220348514638987
+    ],
+    [
+      -0.3716353705159698,
+      -0.5223071709021583
+    ],
+    [
+      -0.3590328152291497,
+      -0.5225748117702104
+    ],
+    [
+      -0.3464291590783835,
+      -0.5228554762794194
+    ],
+    [
+      -0.333825322959416,
+      -0.5231415161399939
+    ],
+    [
+      -0.32122148140782614,
+      -0.5234336576705333
+    ],
+    [
+      -0.30861847591353664,
+      -0.5237264637770748
+    ],
+    [
+      -0.29601657387781233,
+      -0.5240211579404445
+    ],
+    [
+      -0.2834155735784612,
+      -0.524320764402999
+    ],
+    [
+      -0.2708143679472755,
+      -0.5246351536225271
+    ],
+    [
+      -0.2582161389568627,
+      -0.5249346712706084
+    ],
+    [
+      -0.24562014077468097,
+      -0.5252347721823271
+    ],
+    [
+      -0.2330261014938439,
+      -0.5255351530149981
+    ],
+    [
+      -0.22043379767137306,
+      -0.5258361845544991
+    ],
+    [
+      -0.20784296559624546,
+      -0.526138472756621
+    ],
+    [
+      -0.19525271644678202,
+      -0.5264456325472506
+    ],
+    [
+      -0.1826646755882989,
+      -0.5267399783075807
+    ],
+    [
+      -0.17007818362649618,
+      -0.5270281108869922
+    ],
+    [
+      -0.15749479987098783,
+      -0.5272949887754373
+    ],
+    [
+      -0.14491314184028792,
+      -0.5275521233360567
+    ],
+    [
+      -0.1323325930873413,
+      -0.5277988176598793
+    ],
+    [
+      -0.11975275246256016,
+      -0.5280324241188649
+    ],
+    [
+      -0.10717343406150104,
+      -0.5282512438062025
+    ],
+    [
+      -0.09459489066374872,
+      -0.5284492788712243
+    ],
+    [
+      -0.08201173658804918,
+      -0.5286640320092585
+    ],
+    [
+      -0.06942413223314729,
+      -0.5288786968610812
+    ],
+    [
+      -0.05683502317809318,
+      -0.5290716104882309
+    ],
+    [
+      -0.044246351729715354,
+      -0.5292318404697677
+    ],
+    [
+      -0.03165758150615471,
+      -0.5293689944535046
+    ],
+    [
+      -0.019068207195180303,
+      -0.5294888627601693
+    ],
+    [
+      -0.006478943664839313,
+      -0.5295875928565323
+    ],
+    [
+      0.006110820149579593,
+      -0.5296714120072727
+    ],
+    [
+      0.018704073910743566,
+      -0.529760373879436
+    ],
+    [
+      0.031301590398531004,
+      -0.5298540854165363
+    ],
+    [
+      0.0439002141061044,
+      -0.5299300654318878
+    ],
+    [
+      0.056503839212080006,
+      -0.5300204041633709
+    ],
+    [
+      0.06911695083703744,
+      -0.5301479209661376
+    ],
+    [
+      0.08173419979229986,
+      -0.5302738631200797
+    ],
+    [
+      0.09435280231315475,
+      -0.5303891569135007
+    ],
+    [
+      0.10697188748402676,
+      -0.530497348095271
+    ],
+    [
+      0.11959166149788206,
+      -0.5306124663393924
+    ],
+    [
+      0.13221171642058208,
+      -0.5307380350654254
+    ],
+    [
+      0.14483141905733843,
+      -0.5308752450965256
+    ],
+    [
+      0.15745005882260701,
+      -0.531024088330666
+    ],
+    [
+      0.1700681970272167,
+      -0.5311940231073153
+    ],
+    [
+      0.18268632473612229,
+      -0.5313897930846475
+    ],
+    [
+      0.19530474400157788,
+      -0.5316146496882335
+    ],
+    [
+      0.2079169946597405,
+      -0.5318162379660829
+    ],
+    [
+      0.2205187277842352,
+      -0.5319829217674291
+    ],
+    [
+      0.2331169874377508,
+      -0.5321792421270464
+    ],
+    [
+      0.24571158536829382,
+      -0.5323917204733332
+    ],
+    [
+      0.2583029856302916,
+      -0.5326179827048823
+    ],
+    [
+      0.2708927775336944,
+      -0.53286244254615
+    ],
+    [
+      0.283481386162291,
+      -0.5331176410995644
+    ],
+    [
+      0.29606745961769226,
+      -0.5333668328242229
+    ],
+    [
+      0.30865325144564587,
+      -0.5336226911507547
+    ],
+    [
+      0.3212363567277164,
+      -0.5338577622410637
+    ],
+    [
+      0.3338135467426055,
+      -0.534053008491796
+    ],
+    [
+      0.3463322432481842,
+      -0.534236353604967
+    ],
+    [
+      0.35883182712863143,
+      -0.5344124993061443
+    ],
+    [
+      0.371384308934377,
+      -0.5345569184425029
+    ],
+    [
+      0.3839428493716749,
+      -0.5346847718117963
+    ],
+    [
+      0.3965075434840816,
+      -0.5347886534306482
+    ],
+    [
+      0.409078184434242,
+      -0.5348655423189373
+    ],
+    [
+      0.42164868239356934,
+      -0.5349087430223113
+    ],
+    [
+      0.43422010760230684,
+      -0.534926686308785
+    ],
+    [
+      0.4467917948803768,
+      -0.5349112365540207
+    ],
+    [
+      0.45936253179413183,
+      -0.5348539740773399
+    ],
+    [
+      0.47190772943439535,
+      -0.5347650888880063
+    ],
+    [
+      0.48439272316468074,
+      -0.5346443356625834
+    ],
+    [
+      0.49691605233583624,
+      -0.534482087884254
+    ],
+    [
+      0.5094629463755214,
+      -0.5342790541701505
+    ],
+    [
+      0.5220065514887356,
+      -0.5340443993962578
+    ],
+    [
+      0.5345312289682355,
+      -0.5337601077194911
+    ],
+    [
+      0.5470306946502942,
+      -0.5334338723218673
+    ],
+    [
+      0.5595511832541951,
+      -0.5330912773266602
+    ],
+    [
+      0.5720820554325202,
+      -0.5327152570924232
+    ],
+    [
+      0.5845432690074552,
+      -0.5323205499694095
+    ],
+    [
+      0.5969626957263859,
+      -0.5318885734270122
+    ],
+    [
+      0.6092126808557251,
+      -0.5314219155827306
+    ],
+    [
+      0.6213239300811898,
+      -0.5309287907746247
+    ],
+    [
+      0.6333708477907178,
+      -0.5304078010235619
+    ],
+    [
+      0.6452529650838673,
+      -0.5298625032499282
+    ],
+    [
+      0.6570450521270759,
+      -0.5292979357396761
+    ],
+    [
+      0.6687659384919316,
+      -0.5287078406263486
+    ],
+    [
+      0.680484837198149,
+      -0.5280925522445481
+    ],
+    [
+      0.6920666972650791,
+      -0.527469066930246
+    ],
+    [
+      0.7033860157882106,
+      -0.5268410876034455
+    ],
+    [
+      0.7145741715163524,
+      -0.5262063147911729
+    ],
+    [
+      0.7257265119058897,
+      -0.52555598966795
+    ],
+    [
+      0.7367024466792959,
+      -0.5248957979450162
+    ],
+    [
+      0.7474124471112937,
+      -0.5242325859840582
+    ],
+    [
+      0.7579659671886767,
+      -0.5235598476661122
+    ],
+    [
+      0.7684603176676448,
+      -0.5228720877228724
+    ],
+    [
+      0.778856711431366,
+      -0.5221836934144491
+    ],
+    [
+      0.7889695816154801,
+      -0.521510119115824
+    ]
+  ],
+  "scene_sha256": "30a72b9e20094f6314f1ad60a21d4a182e60282a11237f542f5586969c428e48",
+  "terminal_ground_truth": [
+    {
+      "entity_id": "dev_00-r010-sign",
+      "region_id": "dev_00-r010-sign-region",
+      "category": "sign",
+      "attributes": {},
+      "pose": {
+        "x": -1.375,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        245,
+        135,
+        25
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-door",
+      "region_id": "dev_00-r010-door-region",
+      "category": "door",
+      "attributes": {},
+      "pose": {
+        "x": -1.075,
+        "y": -0.895,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        135,
+        75,
+        35
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-glass-doors",
+      "region_id": "dev_00-r010-glass-doors-region",
+      "category": "glass_doors",
+      "attributes": {
+        "material": "glass"
+      },
+      "pose": {
+        "x": -0.825,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        45,
+        190,
+        215
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-blue-chair",
+      "region_id": "dev_00-r010-anchor-region",
+      "category": "chair",
+      "attributes": {
+        "color": "blue"
+      },
+      "pose": {
+        "x": -0.525,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        40,
+        70,
+        220
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-doorway-1",
+      "region_id": "dev_00-r010-doorway-1-region",
+      "category": "doorway",
+      "attributes": {},
+      "pose": {
+        "x": -0.125,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        150,
+        55,
+        190
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-doorway-2",
+      "region_id": "dev_00-r010-doorway-2-region",
+      "category": "doorway",
+      "attributes": {},
+      "pose": {
+        "x": 0.225,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        150,
+        55,
+        190
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-terminal-entity",
+      "region_id": "dev_00-r010-terminal",
+      "category": "office_entrance",
+      "attributes": {},
+      "pose": {
+        "x": 0.825,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        40,
+        205,
+        155
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    }
+  ],
+  "expected_terminal_region_id": "dev_00-r010-terminal",
+  "collision_count": 0,
+  "predictions": [
+    {
+      "observed_at_ns": 17502000000,
+      "failure_probability": 0.07200748693469143,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 18000000000,
+      "failure_probability": 0.015339970134357244,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 18501000000,
+      "failure_probability": 0.03197025078047805,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 19002000000,
+      "failure_probability": 0.012884364078263806,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 19500000000,
+      "failure_probability": 0.011485144850290233,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 20001000000,
+      "failure_probability": 0.006667057448524423,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 20502000000,
+      "failure_probability": 0.00467849050245945,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:localisation"
+      ]
+    },
+    {
+      "observed_at_ns": 21000000000,
+      "failure_probability": 0.008132167084626515,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11268000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11268000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11385000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11391000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11454000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11460000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "failure monitor unavailable or stale",
+      "decided_at_ns": 11502000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11538000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11538000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11604000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11604000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11670000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11670000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11733000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11733000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "failure monitor unavailable or stale",
+      "decided_at_ns": 11751000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11787000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11787000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11907000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 11910000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "failure monitor unavailable or stale",
+      "decided_at_ns": 12000000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 12021000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 12021000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 12159000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 12159000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "failure monitor unavailable or stale",
+      "decided_at_ns": 12261000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 12300000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 12300000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 12399000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no semantic route proposals",
+      "decided_at_ns": 12429000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "route guard rejected selection",
+      "decided_at_ns": 12429000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "route guard rejected selection",
+      "decided_at_ns": 12429000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "route guard rejected selection",
+      "decided_at_ns": 12429000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 12429000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 12519000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 12525000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 12681000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 12687000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 12735000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 12735000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 12789000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 12792000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 12888000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 12891000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13014000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13014000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13179000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13179000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13269000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13272000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13329000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13332000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13455000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13455000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13653000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13653000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13752000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13755000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13860000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13860000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13920000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 13926000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14007000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14007000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14106000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14109000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14217000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14220000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14334000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14334000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14403000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14403000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14538000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14538000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14637000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14637000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14691000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14694000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14745000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14748000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14814000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 14820000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15012000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15012000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15255000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15258000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15384000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15384000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15489000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15492000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15573000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15573000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15615000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15690000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15735000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15825000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 15951000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 16077000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 16191000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 16296000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 16365000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 16416000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 16497000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 16644000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 16782000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 16860000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 16959000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 17160000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 17307000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 17466000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 17514000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 18009000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 18510000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 19005000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 19521000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 20019000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 20508000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "uncalibrated belief maximum",
+      "decided_at_ns": 21000000000
+    }
+  ]
+}

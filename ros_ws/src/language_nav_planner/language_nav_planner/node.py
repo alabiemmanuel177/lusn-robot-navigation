@@ -2,13 +2,22 @@ import json
 from dataclasses import asdict
 
 import rclpy
-from language_nav.contracts import Pose2D, RouteEligibility as CoreRouteEligibility
+from language_nav.contracts import (
+    FailureMonitorState as CoreFailureMonitorState,
+    MonitorLevel,
+    Pose2D,
+    RouteEligibility as CoreRouteEligibility,
+)
 from language_nav.contracts import SemanticObservationContract
 from language_nav.grounding import SemanticRouteProposal as CoreRouteProposal
 from language_nav.grounding import build_semantic_route_candidates
-from language_nav.systems import B6ContradictionAware, SystemInput
+from language_nav.grounding.routes import ObservationIdentityLedger
+from language_nav.benchmark.physical_catalog import load_physical_runtime_catalog
+from language_nav.systems import build_central_variants, SystemInput
+from language_nav.live import monitor_is_fresh
 from language_nav_interfaces.msg import (
     BeliefGraph,
+    FailureMonitorState,
     LanguageHypotheses,
     LanguageNavDecision,
     RouteEligibility,
@@ -34,16 +43,83 @@ class PlannerNode(Node):
             LanguageHypotheses, "/language_hypotheses", self.on_hypotheses, qos
         )
         self.proposal_subscription = self.create_subscription(
-            SemanticRouteProposal, "/language_nav/route_proposals", self.on_proposal, qos
+            SemanticRouteProposal, "/language_nav/route_proposals", self.on_proposal,
+            QoSProfile(depth=10, reliability=ReliabilityPolicy.RELIABLE,
+                       durability=DurabilityPolicy.TRANSIENT_LOCAL)
         )
         self.eligibility_subscription = self.create_subscription(
             RouteEligibility, "/language_nav/route_eligibility", self.on_eligibility, qos
         )
+        self.monitor_subscription = self.create_subscription(
+            FailureMonitorState, "/failure_monitor_state", self.on_monitor, qos
+        )
+        self.declare_parameter("require_failure_monitor", False)
+        self.declare_parameter("failure_monitor_timeout_s", 3.0)
+        self.declare_parameter("failure_monitor_ready_timeout_s", 120.0)
         self.hypotheses = {}
         self.proposals = {}
         self.eligibility = {}
         self.latest_belief = None
-        self.policy = B6ContradictionAware()
+        self.latest_monitor = None
+        self.observation_ledgers = {}
+        self.accepted_graphs = {}
+        self.declare_parameter("system_id", "B6")
+        self.declare_parameter("physical_catalog", "")
+        physical_path = str(self.get_parameter("physical_catalog").value)
+        from language_nav.physical_heldout_authorization import node_authorization
+        heldout = node_authorization(self)
+        if heldout is not None and not physical_path:
+            raise PermissionError('held-out authorization requires a physical catalogue')
+        self.expected_route_ids = (
+            frozenset(route.route_id for route in load_physical_runtime_catalog(physical_path, heldout_authorization=heldout).execution)
+            if physical_path else frozenset()
+        )
+        variants = {variant.system_id: variant for variant in build_central_variants()}
+        selected_system = str(self.get_parameter("system_id").value)
+        if heldout is not None and selected_system != heldout.episode['system_id']:
+            raise PermissionError('planner system differs from authorized episode')
+        if selected_system not in variants:
+            raise ValueError(f"unsupported system: {selected_system}")
+        self.policy = variants[selected_system]
+        self.monitor_watchdog = self.create_timer(0.25, self._check_monitor_timeout)
+
+    def _monitor_fresh(self):
+        if self.latest_monitor is None:
+            return False
+        parameter = (
+            "failure_monitor_ready_timeout_s"
+            if "no_prediction_yet" in self.latest_monitor.reason_codes
+            else "failure_monitor_timeout_s"
+        )
+        return monitor_is_fresh(
+            self.latest_monitor.observed_at_ns,
+            self.get_clock().now().nanoseconds,
+            float(self.get_parameter(parameter).value),
+        )
+
+    def _check_monitor_timeout(self):
+        # A stopped publisher must cancel motion even if no other topics update.
+        if (self.latest_belief is not None
+                and bool(self.get_parameter("require_failure_monitor").value)
+                and not self._monitor_fresh()):
+            self._publish_abstention(self.latest_belief, "failure monitor unavailable or stale")
+
+    def on_monitor(self, message):
+        try:
+            monitor = CoreFailureMonitorState(
+                schema_version=message.schema_version,
+                level=MonitorLevel(message.level),
+                failure_probability=float(message.failure_probability),
+                reason_codes=tuple(message.reason_codes),
+                observed_at_ns=int(message.observed_at_ns),
+            )
+        except (TypeError, ValueError) as exc:
+            self.get_logger().error(f"rejecting failure monitor state: {exc}")
+            self.latest_monitor = None
+            self._check_monitor_timeout()
+            return
+        self.latest_monitor = monitor
+        self._evaluate_latest()
 
     def on_hypotheses(self, message):
         if message.schema_version != "language-hypotheses/v1" or not message.instruction_id:
@@ -58,6 +134,7 @@ class PlannerNode(Node):
             self.get_logger().error("hypothesis payload identity mismatch")
             return
         self.hypotheses[message.instruction_id] = payload
+        self._evaluate_latest()
 
     def on_proposal(self, message):
         if message.schema_version != "semantic-route-proposal/v1" or not message.instruction_id:
@@ -105,6 +182,21 @@ class PlannerNode(Node):
         if message.schema_version != "belief-graph/v1":
             self.get_logger().error("rejecting unsupported belief graph schema")
             return
+        previous = self.accepted_graphs.get(message.instruction_id)
+        if previous is not None and message.update_index <= previous[0]:
+            if message.update_index == previous[0] and message.graph_json != previous[1]:
+                self._publish_abstention(message, "belief graph identity mutated")
+            return
+        try:
+            observations = _graph_observations(message)
+            ledger = self.observation_ledgers.setdefault(
+                message.instruction_id, ObservationIdentityLedger()
+            )
+            ledger.accept(observations, now_ns=self.get_clock().now().nanoseconds)
+        except (KeyError, TypeError, ValueError) as exc:
+            self._publish_abstention(message, f"invalid belief graph: {exc}")
+            return
+        self.accepted_graphs[message.instruction_id] = (message.update_index, message.graph_json)
         self.latest_belief = message
         self._evaluate_latest()
 
@@ -117,11 +209,11 @@ class PlannerNode(Node):
             self._publish_abstention(message, "no matching language hypotheses")
             return
         try:
-            graph = json.loads(message.graph_json)
-            observations = tuple(
-                _observation(entity_id, payload)
-                for entity_id, payload in graph.get("entities", {}).items()
+            observations = _graph_observations(message)
+            ledger = self.observation_ledgers.setdefault(
+                message.instruction_id, ObservationIdentityLedger()
             )
+            ledger.accept(observations, now_ns=self.get_clock().now().nanoseconds)
         except (KeyError, TypeError, ValueError, json.JSONDecodeError) as exc:
             self._publish_abstention(message, f"invalid belief graph: {exc}")
             return
@@ -133,6 +225,18 @@ class PlannerNode(Node):
         if not proposals:
             self._publish_abstention(message, "no semantic route proposals")
             return
+        if not _route_set_ready(self.expected_route_ids, proposals, self.eligibility):
+            self._publish_abstention(message, "awaiting complete physical route alternatives and Nav2 assessments")
+            return
+        monitor_probability = 0.0
+        if bool(self.get_parameter("require_failure_monitor").value):
+            if self.latest_monitor is None:
+                self._publish_abstention(message, "failure monitor unavailable")
+                return
+            if not self._monitor_fresh():
+                self._publish_abstention(message, "failure monitor state is stale")
+                return
+            monitor_probability = self.latest_monitor.failure_probability
         candidates = build_semantic_route_candidates(
             observations,
             proposals,
@@ -143,7 +247,7 @@ class PlannerNode(Node):
                 instruction_id=message.instruction_id,
                 raw_text=str(hypotheses["raw_text"]),
                 candidates=candidates,
-                monitor_failure_probability=0.0,
+                monitor_failure_probability=monitor_probability,
             )
         )
         output = LanguageNavDecision()
@@ -180,6 +284,23 @@ class PlannerNode(Node):
         self.publisher.publish(output)
 
 
+def _route_set_ready(expected_route_ids, proposals, eligibility):
+    # Assessments with eligible=False count as completed checks, not usable paths.
+    # Do not choose the first asynchronous result before the other alternatives.
+    return not expected_route_ids or (
+        {proposal.route_id for proposal in proposals} == set(expected_route_ids)
+        and set(expected_route_ids).issubset(eligibility)
+    )
+
+
+def _graph_observations(message):
+    graph = json.loads(message.graph_json)
+    if not isinstance(graph, dict) or not isinstance(graph.get("entities"), dict):
+        raise ValueError("belief graph must contain an entity mapping")
+    return tuple(_observation(entity_id, payload)
+                 for entity_id, payload in graph["entities"].items())
+
+
 def _observation(entity_id, payload):
     pose = payload["pose"]
     return SemanticObservationContract(
@@ -204,4 +325,5 @@ def main(args=None):
     node = PlannerNode()
     rclpy.spin(node)
     node.destroy_node()
-    rclpy.shutdown()
+    if rclpy.ok():
+        rclpy.shutdown()

@@ -1,0 +1,23 @@
+{
+  "collision": false,
+  "decision_count": 275,
+  "duration_wall_s": 20.85853123664856,
+  "eligibility_count": 1,
+  "instruction_completion": false,
+  "interventions": [
+    "inspect"
+  ],
+  "monitor_prediction_observed": true,
+  "monitor_state_count": 12,
+  "navigation_success": false,
+  "partition": "development",
+  "protected_test_routes_used": false,
+  "reason": "monitor-driven abstention: no route satisfies the hard risk constraint",
+  "route_id": "dev_01_r0",
+  "run_id": "r3-dev01-monitor-live-v2",
+  "schema_version": "research3-live-summary/v1",
+  "timeout": false,
+  "valid_terminal_outcome": true,
+  "variant_id": "base-r001-truthful_original-s0",
+  "wrong_goal": false
+}

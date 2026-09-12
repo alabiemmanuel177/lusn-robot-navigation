@@ -1,0 +1,102 @@
+schema_version: landmark-challenge-campaign/v1
+challenge_id: validation-identity-spheres-v5
+partition: validation
+protected_test_data: false
+online_ground_truth_used: false
+segmentation_labels_used: false
+detector_configuration_changed: false
+supersedes_review_queues: [v3, v4]
+reason: >-
+  V3 used identity-ambiguous rectangles. The v4 pre-review pilot introduced spheres,
+  but its visual audit found the sign sphere clipped at the image edge. V5 lowers every
+  sphere and uses the narrowest validated occluder so its full curved silhouette and
+  more of the unchanged scene are visible.
+design: >-
+  A visual-only neutral occluder hides the registered marker while an unregistered,
+  collision-free emissive sphere rendered from the frozen camera-space palette is
+  placed inside the unchanged association radius. Human review judges object identity.
+conditions:
+- condition_id: v5-val00-sign-sphere
+  kind: palette_sphere_impostor_with_wide_context
+  route_id: val_00_r0
+  entity_id: val_00-r014-sign
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_radius_m: 0.24
+  impostor_center_height_m: 0.34
+  occluder_offset_m: 0.18
+  occluder_width_m: 0.60
+  occluder_height_m: 1.8
+- condition_id: v5-val00-door-sphere
+  kind: palette_sphere_impostor_with_wide_context
+  route_id: val_00_r0
+  entity_id: val_00-r014-door
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_radius_m: 0.24
+  impostor_center_height_m: 0.34
+  occluder_offset_m: 0.18
+  occluder_width_m: 0.60
+  occluder_height_m: 1.8
+- condition_id: v5-val00-glass-sphere
+  kind: palette_sphere_impostor_with_wide_context
+  route_id: val_00_r0
+  entity_id: val_00-r014-glass-doors
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_radius_m: 0.24
+  impostor_center_height_m: 0.34
+  occluder_offset_m: 0.18
+  occluder_width_m: 0.60
+  occluder_height_m: 1.8
+- condition_id: v5-val00-chair-sphere
+  kind: palette_sphere_impostor_with_wide_context
+  route_id: val_00_r0
+  entity_id: val_00-r014-blue-chair
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_radius_m: 0.24
+  impostor_center_height_m: 0.34
+  occluder_offset_m: 0.18
+  occluder_width_m: 0.60
+  occluder_height_m: 1.8
+- condition_id: v5-val00-doorway-sphere-side1
+  kind: palette_sphere_impostor_with_wide_context
+  route_id: val_00_r0
+  entity_id: val_00-r014-doorway-1
+  view_side: 1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_radius_m: 0.24
+  impostor_center_height_m: 0.34
+  occluder_offset_m: 0.18
+  occluder_width_m: 0.60
+  occluder_height_m: 1.8
+- condition_id: v5-val00-office-sphere
+  kind: palette_sphere_impostor_with_wide_context
+  route_id: val_00_r0
+  entity_id: val_00-r014-terminal-entity
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_radius_m: 0.24
+  impostor_center_height_m: 0.34
+  occluder_offset_m: 0.18
+  occluder_width_m: 0.60
+  occluder_height_m: 1.8
+- condition_id: v5-val01-laboratory-sphere
+  kind: palette_sphere_impostor_with_wide_context
+  route_id: val_01_r0
+  entity_id: val_01-r011-terminal-entity
+  view_side: -1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_radius_m: 0.24
+  impostor_center_height_m: 0.34
+  occluder_offset_m: 0.18
+  occluder_width_m: 0.60
+  occluder_height_m: 1.8

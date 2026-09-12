@@ -1,0 +1,182 @@
+{
+  "collision_geometry_unchanged": true,
+  "derivative_sha256": {
+    "execution_catalog.json": "36822f48fd474d07947610581961a5e0a05d6bde1bbb8412d68e4b9228d9f980",
+    "geometry_audit.json": "c34c1f365c1c0605391b84af2f1552808a09fdee863ff6c73437500414c174a3",
+    "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+    "manifest.json": "c408eb391d8b01ac96370e2c5521c283c00db3e272f85320ad39427c9c580e1a",
+    "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "a1e4f6b69e1be42615dbb6561b4cd283b104e4eefb7ce8a53ad874be08ccd03b",
+    "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+    "world.sdf": "2e7be91bd8b90837bdb5d2814edbae419a20393a14d3aa451dc7d5d2ce659b29"
+  },
+  "live_readability_validated": false,
+  "map_bytes_unchanged": true,
+  "original_elements_unchanged": true,
+  "partition": "development",
+  "prior_geometry_audit_scope": "original world hash; inherited collision proof only",
+  "prior_geometry_audit_sha256": "c34c1f365c1c0605391b84af2f1552808a09fdee863ff6c73437500414c174a3",
+  "protected_content_used": false,
+  "schema_version": "research3-readable-visual-derivative/v1",
+  "signs": [
+    {
+      "collision_count": 0,
+      "front_normal": [
+        1.2246467991473532e-16,
+        1.0,
+        0
+      ],
+      "height_m": 0.3,
+      "model_name": "readable_r3geo_base_r010_right_1_entrance_corridor",
+      "position": [
+        4.3,
+        -1.0999999999999999,
+        1.43
+      ],
+      "text": "OFFICE",
+      "width_m": 1.02,
+      "yaw": 3.141592653589793
+    },
+    {
+      "collision_count": 0,
+      "front_normal": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "height_m": 0.3,
+      "model_name": "readable_r3geo_base_r010_right_1_entrance_room",
+      "position": [
+        4.3,
+        -1.3,
+        1.43
+      ],
+      "text": "OFFICE",
+      "width_m": 1.02,
+      "yaw": 0
+    },
+    {
+      "collision_count": 0,
+      "front_normal": [
+        1.2246467991473532e-16,
+        1.0,
+        0
+      ],
+      "height_m": 0.3,
+      "model_name": "readable_r3geo_base_r010_right_2_entrance_corridor",
+      "position": [
+        7.499999999999999,
+        -1.0999999999999999,
+        1.43
+      ],
+      "text": "OFFICE",
+      "width_m": 1.02,
+      "yaw": 3.141592653589793
+    },
+    {
+      "collision_count": 0,
+      "front_normal": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "height_m": 0.3,
+      "model_name": "readable_r3geo_base_r010_right_2_entrance_room",
+      "position": [
+        7.499999999999999,
+        -1.3,
+        1.43
+      ],
+      "text": "OFFICE",
+      "width_m": 1.02,
+      "yaw": 0
+    },
+    {
+      "collision_count": 0,
+      "front_normal": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "height_m": 0.3,
+      "model_name": "readable_r3geo_base_r010_left_1_entrance_corridor",
+      "position": [
+        4.3,
+        1.0999999999999999,
+        1.43
+      ],
+      "text": "LAB",
+      "width_m": 1.02,
+      "yaw": 0
+    },
+    {
+      "collision_count": 0,
+      "front_normal": [
+        1.2246467991473532e-16,
+        1.0,
+        0
+      ],
+      "height_m": 0.3,
+      "model_name": "readable_r3geo_base_r010_left_1_entrance_room",
+      "position": [
+        4.3,
+        1.3,
+        1.43
+      ],
+      "text": "LAB",
+      "width_m": 1.02,
+      "yaw": 3.141592653589793
+    },
+    {
+      "collision_count": 0,
+      "front_normal": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "height_m": 0.3,
+      "model_name": "readable_r3geo_base_r010_left_2_entrance_corridor",
+      "position": [
+        7.499999999999999,
+        1.0999999999999999,
+        1.43
+      ],
+      "text": "LAB",
+      "width_m": 1.02,
+      "yaw": 0
+    },
+    {
+      "collision_count": 0,
+      "front_normal": [
+        1.2246467991473532e-16,
+        1.0,
+        0
+      ],
+      "height_m": 0.3,
+      "model_name": "readable_r3geo_base_r010_left_2_entrance_room",
+      "position": [
+        7.499999999999999,
+        1.3,
+        1.43
+      ],
+      "text": "LAB",
+      "width_m": 1.02,
+      "yaw": 3.141592653589793
+    }
+  ],
+  "source_directory": "/home/eao/lusn-robot-navigation/data/physical_worlds_v1/base-r010",
+  "source_sha256": {
+    "execution_catalog.json": "d5813e1c118ce45cd44bf84c471cbdcc9a10bf1effc203be43b2f9bd292315e2",
+    "geometry_audit.json": "c34c1f365c1c0605391b84af2f1552808a09fdee863ff6c73437500414c174a3",
+    "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+    "manifest.json": "ad1c079092a34526fc02ac73c61c91c1edaaee29ae17aff7a2a33b8e15c92d5a",
+    "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "a1e4f6b69e1be42615dbb6561b4cd283b104e4eefb7ce8a53ad874be08ccd03b",
+    "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+    "world.sdf": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+  },
+  "task_and_entity_ids_unchanged": true,
+  "visual_only": true
+}

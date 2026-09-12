@@ -1,0 +1,306 @@
+{
+  "color_tolerance": 10.0,
+  "confidence_calibration_frozen": false,
+  "development_evidence": [
+    {
+      "map_id": "r3geo_base_r001",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stationary-draft-v1-r001-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "3c3257d2c1f30a51344cdd1fc57a98c05eb5dcc770d3de895752b9fffc5ab3b6",
+        "perception_capture/frame-000.json": "e3380135af2bab0630cc8bb14262e8626304b836d71fa7f5ec617e5af4e95ad3",
+        "request.json": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r002",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stationary-draft-v1-r002-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "2d80f020a610e9489c85c87566967d0419d7773c99f828544f0e37727703c4c2",
+        "perception_capture/frame-000.json": "2daa9ab6325a00d1fd70bfab028e3839c39ff5f92a6f214b24730abbb7a5c398",
+        "request.json": "d9fa7934fff501c34b9f1772fda3ce26a69d39425ae2d4f61f3899de29c96e3e"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r003",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stationary-draft-v1-r003-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "9d274b53b4b66748529b63aa61ef706879db2c21c0571223130029f120494973",
+        "perception_capture/frame-000.json": "e4c1b1d0c566d48b1a43733b9e019a47e5132d31614ae3e1eb7b62ed82f4642e",
+        "request.json": "31ed0dd6e041ac56c2d0ea8f66ba9b641f333224b628f339097e037f637275dc"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r004",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stationary-draft-v1-r004-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "51504f2b7b61fd3af54ab3b3b0597e499f05c14cc5797f312941bd67c055554a",
+        "perception_capture/frame-000.json": "d1392d3347a8045dee84f78ef6530edcc0ad7231683dddacbb2cc2b87c52b7a2",
+        "request.json": "f28f4f8b3196ddb7898968ec722f3bb47d73c4a2e3228f977ace8a1585da71d9"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-readable-lab-dev10-20260911-v1",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "017e26c83fd121a692240f7c0e71cdab879061a76726429e4ff72242e4894906",
+        "perception_capture/frame-000.json": "d2a3753b6a34fca81c33652ad8c014818e2f9895bd4a98085992b6d5d1a0f072",
+        "request.json": "af43092c7d331102c0824759d112b5a50de8d0a74d72ab4c9fa6dab0ccfaad47"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-readable-office-dev10-20260911-v1",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "28c551ce69f31496154b8e26c5520c3992652bc31f610a0524db1102f60c0620",
+        "perception_capture/frame-000.json": "a2c1e940f7c4ceb5b20d12e3ad2f77ef1f57b48ede2604d7326a086b44a9d1ca",
+        "request.json": "8eb7d35599d2f79cbf4372469c33a62d57e5e8868b148296eb0523af8a78f63d"
+      }
+    }
+  ],
+  "horizontal_fov": 2.0,
+  "human_labels_generated": false,
+  "limitations": [
+    "no_per_map_detector_accuracy_claim",
+    "no_confidence_calibration",
+    "no_human_correct_incorrect_labels",
+    "no_heldout_or_confirmatory_protocol_freeze"
+  ],
+  "profiles": {
+    "r3geo_base_r001": "dc6762ee3dbeb4078091e7335af84f298cad5ada6c81894cfe698ab1888aa17e",
+    "r3geo_base_r002": "9e1084dfc72a76d652551dd64e634e0e4b11c53a0edf08e9569a92a1af50c336",
+    "r3geo_base_r003": "61ebaf76276099516f57a632cdb253ecac3740801c0cc363e0c7729bf92318f4",
+    "r3geo_base_r004": "e9d0e30213451eb09a8559945615ab9754df57166d14cb9ddab1e85a9eeba090",
+    "r3geo_base_r005": "ad549ad85f6e9d440efa246371a903baa459861d153d9bcb2196aa00066cde70",
+    "r3geo_base_r006": "ea98ce97686ac0f7497522273294fe99bac5bdc8fb36fafe20f853427eca2613",
+    "r3geo_base_r007": "6328230ae75f897cd8450ebe460072d579e0b879dc4349d202067ed903d5efb4",
+    "r3geo_base_r008": "55882e0901b473295efba547ba08ddc6e3898cc4418103ca8e5cbc3342e7e868",
+    "r3geo_base_r009": "ff2a083704c1df7c2e4b28e6d119970546c4be7115180a09229a5996882e0a68",
+    "r3geo_base_r010": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+    "r3geo_base_r011": "06f91b67b8de675889c60a6b7ae7faad3a9bf60b6799efb6842d357958e4e8ce",
+    "r3geo_base_r012": "cbd32ff5331fa59ed82623ff9083916bd27dd626927a45288045095b3fff3d2f",
+    "r3geo_base_r013": "bf45dfbc7c84a38376325e64c9efb8d6681cf785c355197097d19773f862011a",
+    "r3geo_base_r014": "8e677c9f726e3d6383dca92ed5d39cca3b8b333ad3107d8b847d2962528eea73"
+  },
+  "protected_data_used": false,
+  "purpose": "engineering_camera_settings_only_not_confidence_calibration_or_experiment_protocol",
+  "schema_version": "research3-engineering-camera-freeze/v2",
+  "source_capture_plan_sha256": "5617221425ff8beee6635dc6eb1596aff329af3ca535f3810ba9d5230c42dbe9",
+  "source_sha256": {
+    "ros_ws/src/language_nav_bringup/launch/live_adapters.launch.py": "d745b2ed5864e8844b42ebfe0e3ce3a729a07ffedc2fa344d2aa735f8cf5c218",
+    "ros_ws/src/language_nav_bringup/launch/physical_sim.launch.py": "7e226dbd5641cfcf3941a2a4396e42672057c73ff6c77ba8f9dee7c9feab1814",
+    "ros_ws/src/language_nav_planner/language_nav_planner/node.py": "5abf06082801625c52e1bc8d4ba696795ee4f9c57e724749702de20635e0fccf",
+    "ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py": "8b97fa3992213043fe30d73fad303f1fb4aa03dc6e363f369e05041fbf784a8f",
+    "scripts/physical_perception_capture.py": "f758a9d47cf2c97398f99c63b4dba38b65f32bb106364b2fc2e7a99e8fc8137c",
+    "scripts/run_live_episode.py": "2b516cec509a7a899b5ab78e479e54cd65199329a71ae11d5f8e278a79a433cf",
+    "scripts/run_physical_episode.py": "13564629bd35079d2be23165c4af9d6312f4eb11c75c51b3ac19edde1b853cae",
+    "scripts/run_stationary_capture_plan.py": "6f58e3497ceb15f52537a42938e67afbbbfa3f088261c4884cead00facca3c89",
+    "src/language_nav/adapters/landmark_palette.py": "15e1f95d2057466310a5fdd8e523e6c63c90a9ad2ef1b52b6e6d682e94197914",
+    "src/language_nav/benchmark/physical_catalog.py": "5b5b2992bd41064322a129f8e4506eca5974fb1bfceff93d2daf18a5cb1679d9",
+    "src/language_nav/camera_configuration.py": "bf1bbdcd6b370bf15eb907e1a24f06bfa2ad377d7b743245494556bec865acb6",
+    "src/language_nav/capture_view.py": "4f626befa4a2faa0059f64a7a1dfb9cf42da658e80d87dc05e115426b7cb5204",
+    "src/language_nav/evaluation/ordered.py": "d0e0a1d0a5a783b1e16ae64a7d0420163e09c7481735544f9e57a5cc6a76fdfc",
+    "src/language_nav/grounding/routes.py": "efd722de38645332600963f7fc4e76764bdf8e1e9f748ffc7fd369ab86025f78",
+    "src/language_nav/live.py": "4b6ca182d0a998888f9f5dc9960834dce10aec5005d879876c0de3ea89775860",
+    "src/language_nav/live_resources.py": "fc0ad9a3e249c2aeffbe2e64424d67230e9604bd588e48b12b9e88a2c3df4a0c",
+    "src/language_nav/planning/policy.py": "312bb8813f3a53e46ab9a00576d2693df706079c16f3569d13be29a7683f1175",
+    "src/language_nav/systems/variants.py": "a1f4549f2612256af0ba980ef7f9dc51566c7640b58a9afdf3b15ff9d655f6c6"
+  },
+  "validation_views": [
+    {
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8308214428190251
+      },
+      "category": "chair",
+      "map_id": "r3geo_base_r011",
+      "world_sha256": {
+        "execution_catalog.json": "c4525ea6c9f2135588bc0103ef8075a045e4a70ed86f17e5f90f2f9019320504",
+        "landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "8432e4bc7a91872088124d7e0a584723d0154aac18110ab551bb7cea469336bd"
+      }
+    },
+    {
+      "capture_pose": {
+        "x": 7.7,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "map_id": "r3geo_base_r011",
+      "world_sha256": {
+        "execution_catalog.json": "c4525ea6c9f2135588bc0103ef8075a045e4a70ed86f17e5f90f2f9019320504",
+        "landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "8432e4bc7a91872088124d7e0a584723d0154aac18110ab551bb7cea469336bd"
+      }
+    },
+    {
+      "capture_pose": {
+        "x": 7.7,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "map_id": "r3geo_base_r011",
+      "world_sha256": {
+        "execution_catalog.json": "c4525ea6c9f2135588bc0103ef8075a045e4a70ed86f17e5f90f2f9019320504",
+        "landmark_scene.yaml": "3b3ca56ba110ee7d95aea16e82b733ccda95afb613bff294002ebbda61c23c9b",
+        "map.pgm": "bad602a749114aa8c3403311e6c834a188ba384b07e9e8ea9291f849e71906fe",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "8432e4bc7a91872088124d7e0a584723d0154aac18110ab551bb7cea469336bd"
+      }
+    },
+    {
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.7853981633974481
+      },
+      "category": "chair",
+      "map_id": "r3geo_base_r012",
+      "world_sha256": {
+        "execution_catalog.json": "02c023a7bd5f957756994547839d1fd6d7e088ca286a7cd88a66cef03181947b",
+        "landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "fd7dcf27a6437691571376defdae56b2b60c97956d4711d72913c0a15486ea8c"
+      }
+    },
+    {
+      "capture_pose": {
+        "x": 7.9,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "map_id": "r3geo_base_r012",
+      "world_sha256": {
+        "execution_catalog.json": "02c023a7bd5f957756994547839d1fd6d7e088ca286a7cd88a66cef03181947b",
+        "landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "fd7dcf27a6437691571376defdae56b2b60c97956d4711d72913c0a15486ea8c"
+      }
+    },
+    {
+      "capture_pose": {
+        "x": 7.9,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "map_id": "r3geo_base_r012",
+      "world_sha256": {
+        "execution_catalog.json": "02c023a7bd5f957756994547839d1fd6d7e088ca286a7cd88a66cef03181947b",
+        "landmark_scene.yaml": "764559158c84f1b1f918737c7208c0dc8d2dd9245031bc556ccbbe97f00dbbf1",
+        "map.pgm": "bb1d7af91e2b12b998b74037433fd893fe2e13b5cb61ea9cf3cda0fe60f4911f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "fd7dcf27a6437691571376defdae56b2b60c97956d4711d72913c0a15486ea8c"
+      }
+    },
+    {
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8086497862079111
+      },
+      "category": "chair",
+      "map_id": "r3geo_base_r013",
+      "world_sha256": {
+        "execution_catalog.json": "9ea84d6bd55af7fc2e1fe253e4f55b1a064c10da8ef715e70f182565f242ed79",
+        "landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "87e681c4be3347dbdfec381a28e5e928d718f110ffb4906f41b27df02d6df95e"
+      }
+    },
+    {
+      "capture_pose": {
+        "x": 8.1,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "map_id": "r3geo_base_r013",
+      "world_sha256": {
+        "execution_catalog.json": "9ea84d6bd55af7fc2e1fe253e4f55b1a064c10da8ef715e70f182565f242ed79",
+        "landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "87e681c4be3347dbdfec381a28e5e928d718f110ffb4906f41b27df02d6df95e"
+      }
+    },
+    {
+      "capture_pose": {
+        "x": 8.1,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "office_entrance",
+      "map_id": "r3geo_base_r013",
+      "world_sha256": {
+        "execution_catalog.json": "9ea84d6bd55af7fc2e1fe253e4f55b1a064c10da8ef715e70f182565f242ed79",
+        "landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "87e681c4be3347dbdfec381a28e5e928d718f110ffb4906f41b27df02d6df95e"
+      }
+    },
+    {
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8308214428190251
+      },
+      "category": "chair",
+      "map_id": "r3geo_base_r014",
+      "world_sha256": {
+        "execution_catalog.json": "59ea05c5424445f22bca41aaaf03e2eac6bafad4b325cc6781b448b3c99bba41",
+        "landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "ddcb501b61cdd73740da53fcf7857f8d445597a38d1d01a82fa5c1b9eedf69dd"
+      }
+    },
+    {
+      "capture_pose": {
+        "x": 8.3,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "map_id": "r3geo_base_r014",
+      "world_sha256": {
+        "execution_catalog.json": "59ea05c5424445f22bca41aaaf03e2eac6bafad4b325cc6781b448b3c99bba41",
+        "landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "ddcb501b61cdd73740da53fcf7857f8d445597a38d1d01a82fa5c1b9eedf69dd"
+      }
+    },
+    {
+      "capture_pose": {
+        "x": 8.3,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "office_entrance",
+      "map_id": "r3geo_base_r014",
+      "world_sha256": {
+        "execution_catalog.json": "59ea05c5424445f22bca41aaaf03e2eac6bafad4b325cc6781b448b3c99bba41",
+        "landmark_scene.yaml": "09840473c243e8569cdc81dbafc05130079add11104aa92e5756272d900c29b4",
+        "map.pgm": "198541e5c57933a7556c993eefba8ff672fba9baae614e8e4fea6b099abe72dc",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "ddcb501b61cdd73740da53fcf7857f8d445597a38d1d01a82fa5c1b9eedf69dd"
+      }
+    }
+  ],
+  "visual_check_attestation": {
+    "development_visual_check_complete": true,
+    "source": "explicit_caller_attestation_not_automatic_QA_or_human_detection_verdict"
+  }
+}

@@ -1,0 +1,142 @@
+schema_version: landmark-scene/v1
+map_id: dev_05
+partition: development
+map_hash: 13a3c6d1428f9dd0e197a0c046633a507cca83dd253a8e8415a930acedf3a697
+source: research3-route-plan:d5df18d03d2e86ce654a0b78fc8ed337d16ede7404b9df1d14c33af6ea80a8b4
+entities:
+- entity_id: dev_05-r009-sign
+  region_id: dev_05-r009-sign-region
+  category: sign
+  attributes: {}
+  pose:
+    x: -3.625
+    y: -0.655
+    yaw: -1.570796
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 128
+  - 97
+  - 42
+  route_ids:
+  - dev_05_r0
+- entity_id: dev_05-r009-door
+  region_id: dev_05-r009-door-region
+  category: door
+  attributes: {}
+  pose:
+    x: -3.275
+    y: -0.655
+    yaw: -1.570796
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 98
+  - 74
+  - 52
+  route_ids:
+  - dev_05_r0
+- entity_id: dev_05-r009-glass-doors
+  region_id: dev_05-r009-glass-doors-region
+  category: glass_doors
+  attributes:
+    material: glass
+  pose:
+    x: -2.975
+    y: -0.655
+    yaw: -1.570796
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 81
+  - 110
+  - 117
+  route_ids:
+  - dev_05_r0
+- entity_id: dev_05-r009-red-chair
+  region_id: dev_05-r009-anchor-region
+  category: chair
+  attributes:
+    color: red
+  pose:
+    x: -2.575
+    y: -0.555
+    yaw: -1.570796
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 173
+  - 78
+  - 78
+  route_ids:
+  - dev_05_r0
+- entity_id: dev_05-r009-doorway-1
+  region_id: dev_05-r009-doorway-1-region
+  category: doorway
+  attributes: {}
+  pose:
+    x: -1.7073
+    y: -0.8073
+    yaw: -2.356194
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: &id001
+  - 138
+  - 86
+  - 154
+  route_ids:
+  - dev_05_r0
+- entity_id: dev_05-r009-doorway-2
+  region_id: dev_05-r009-doorway-2-region
+  category: doorway
+  attributes: {}
+  pose:
+    x: -1.2573
+    y: -1.2573
+    yaw: -2.356194
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb: *id001
+  route_ids:
+  - dev_05_r0
+- entity_id: dev_05-r009-terminal-entity
+  region_id: dev_05-r009-terminal
+  category: laboratory_entrance
+  attributes: {}
+  pose:
+    x: -0.5073
+    y: -2.0073
+    yaw: -2.356194
+  covariance:
+  - 0.04
+  - 0.0
+  - 0.0
+  - 0.04
+  marker_rgb:
+  - 172
+  - 83
+  - 144
+  route_ids:
+  - dev_05_r0
+capture_profile:
+  schema_version: landmark-capture-profile/v1
+  provider_revision: f8eb04378651737ff1cea456cef88ae3e4cb6c6d
+  profile_id: gazebo-headless-rendering-dev-v3

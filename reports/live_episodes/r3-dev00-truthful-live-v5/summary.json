@@ -1,0 +1,19 @@
+{
+  "collision": false,
+  "decision_count": 4,
+  "duration_wall_s": 10.960467100143433,
+  "eligibility_count": 1,
+  "instruction_completion": false,
+  "monitor_prediction_observed": false,
+  "monitor_state_count": 1,
+  "navigation_success": false,
+  "partition": "development",
+  "protected_test_routes_used": false,
+  "reason": "Nav2 status 6",
+  "route_id": "dev_00_r0",
+  "run_id": "r3-dev00-truthful-live-v5",
+  "schema_version": "research3-live-summary/v1",
+  "timeout": false,
+  "variant_id": "base-r010-truthful_original-s0",
+  "wrong_goal": false
+}

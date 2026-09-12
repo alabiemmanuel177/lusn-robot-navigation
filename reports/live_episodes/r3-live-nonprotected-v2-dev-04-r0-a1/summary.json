@@ -1,0 +1,24 @@
+{
+  "collision": false,
+  "decision_count": 26,
+  "duration_wall_s": 15.43983006477356,
+  "eligibility_count": 1,
+  "instruction_completion": false,
+  "interventions": [
+    "inspect",
+    "stop_and_abstain"
+  ],
+  "monitor_prediction_observed": true,
+  "monitor_state_count": 2,
+  "navigation_success": false,
+  "partition": "development",
+  "protected_test_routes_used": false,
+  "reason": "monitor-driven abstention: all eligible routes exceed abstention risk",
+  "route_id": "dev_04_r0",
+  "run_id": "r3-live-nonprotected-v2-dev-04-r0-a1",
+  "schema_version": "research3-live-summary/v1",
+  "timeout": false,
+  "valid_terminal_outcome": true,
+  "variant_id": "base-r007-truthful_original-s0",
+  "wrong_goal": false
+}

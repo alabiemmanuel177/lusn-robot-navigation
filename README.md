@@ -88,15 +88,24 @@ colcon test
 colcon test-result --verbose
 ```
 
-The planner deliberately emits `stop_and_abstain` until a semantic target has a Nav2
-route-eligibility result. Research 2 must still implement `failure-monitor/v1`. The
-canonical repository paths, completion status, and roles are recorded in
+The planner deliberately emits `stop_and_abstain` until a semantic target has both a
+Nav2 route-eligibility result and a current frozen Research 2 state. The live overlay
+bridges Research 2's deployed diagnostics to `failure-monitor/v1`, publishes semantic
+route proposals, asks Nav2 to establish eligibility, enforces one active goal per
+instruction, and cancels that goal if a later monitor update makes B6 abstain. The
+canonical repository paths, hashes, completion status, and roles are recorded in
 `configs/research_dependencies.yaml`.
 
-The landmark provider is now available at pinned Research 1 revision `70d8705`. The
-ready-to-ingest contract, catalogue validation, human-review calibration format, and
-runtime topics are documented in `docs/LANDMARK_HANDOFF.md`. This is provider readiness,
-not live Gazebo evidence or a completed calibration freeze.
+The landmark provider is pinned at Research 1 revision `697a7bc` (handoff base
+`70d8705`). Research 3 has completed non-protected live capture for all 14 benchmark
+route IDs and all 9 development/validation maps. The original and expanded natural
+worksheets are fully reviewed (100 rows; 65 validation detections correct and none
+incorrect). The replacement seven-category v5 challenge is now fully reviewed: all 21
+sphere detections were independently confirmed at their recorded crosshairs and marked
+incorrect. The identity-ambiguous v3 rectangle queue and clipped v4 pilot remain preserved
+but excluded. Calibration is frozen from 86 validation samples (65 correct, 21 incorrect)
+with immutable checksums and an explicit challenge-augmented scope. The workflow and
+limitations are documented in `docs/LANDMARK_HANDOFF.md`.
 
 ## Research 1 compatibility audit
 
@@ -109,18 +118,20 @@ hashes and clean-S0 route status. It denies protected test routes unless a calle
 explicitly opts in. It now verifies the separate landmark producer and its non-protected
 scene/semantic catalogues and exits successfully when the pinned provider is intact.
 
-## Remaining external blockers
+## Combined non-protected live result
 
-- **Landmark evidence:** the Research 1 bridge, derivative worlds and catalogues now exist.
-  Research 3 still needs non-protected live capture, human-reviewed correct/incorrect
-  detections, and a frozen confidence-calibration artifact. Catalogue truth and graph
-  fixture confidence cannot substitute for that evidence.
-- **Research 2 monitor:** combined-system experiments still require
-  `failure-monitor/v1`, frozen operating thresholds and recovery triggers.
-- **Live evidence:** landmark-confidence calibration, rosbag2 paired campaigns and the
-  final freeze require observations from the delivered provider plus the still-pending
-  Research 2 monitor for combined-system claims.
+`configs/live_campaign_v2.yaml` preregisters one truthful B6 integration episode on
+each of the 14 development/validation landmark routes. All 14 produced valid terminal
+outcomes with live frozen Research 2 predictions: five Nav2
+successes and nine monitor-driven abstentions. The create-once validation and
+per-sidecar hashes are in `reports/live_campaign_v2.analysis.json`. This is integration
+evidence, not a held-out performance estimate.
 
-Research 1's maps, Nav2 execution behavior and Gazebo platform are no longer listed as
-blockers. Nothing in the existing graph-world campaign should be presented as a Gazebo
-or physical-robot result.
+The authorized protected graph campaign is complete: 240 episodes, with B6 completing
+48/48 and B2 completing 36/48 cases. Its checksum-verified analysis is
+`reports/research3_graph_heldout_analysis_v1.0.json`. The protected graph partition
+has been accessed. Research 3 still needs live measurement improvements and a
+comparative live campaign. See [the evidence report](docs/RESEARCH3_RESULTS.md) for
+results, measurement limitations and remaining work. Graph results describe authored
+policy cases; the live adapter's placeholder outcome fields do not establish collision
+rates or instruction completion. A reproducible release also needs exact source snapshots.

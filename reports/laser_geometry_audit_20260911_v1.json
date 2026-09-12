@@ -1,0 +1,350 @@
+{
+  "assumptions": [
+    "SDF visual boxes, horizontal laser plane z=0.16 m",
+    "Ground-truth robot yaw; planar sensor offset [-0.064,0] from provider xacro",
+    "No robot self-occlusion, roll/pitch or motion distortion modeled; residuals are diagnostic not a calibration"
+  ],
+  "measurements_sha256": "85cb08162416507839e683ce7cbf08d0f04a51dfb265f9c5060f907e7c07916c",
+  "rows": [
+    {
+      "fraction_within_10cm": 0.9805555555555555,
+      "mean_abs_error_m": 0.023245940031051075,
+      "median_abs_error_m": 0.008082910245687747,
+      "p95_abs_error_m": 0.02565581674897088,
+      "rays": 360,
+      "stamp_s": 12.702
+    },
+    {
+      "fraction_within_10cm": 0.9777777777777777,
+      "mean_abs_error_m": 0.013534256200156629,
+      "median_abs_error_m": 0.007532104870299761,
+      "p95_abs_error_m": 0.027455570430049668,
+      "rays": 360,
+      "stamp_s": 13.302
+    },
+    {
+      "fraction_within_10cm": 0.975,
+      "mean_abs_error_m": 0.021892519233316934,
+      "median_abs_error_m": 0.007434880374021291,
+      "p95_abs_error_m": 0.0292114315448538,
+      "rays": 360,
+      "stamp_s": 13.902
+    },
+    {
+      "fraction_within_10cm": 0.9777777777777777,
+      "mean_abs_error_m": 0.02257265280485471,
+      "median_abs_error_m": 0.008318512777959475,
+      "p95_abs_error_m": 0.029071721863165725,
+      "rays": 360,
+      "stamp_s": 14.502
+    },
+    {
+      "fraction_within_10cm": 0.9805555555555555,
+      "mean_abs_error_m": 0.021198271166897306,
+      "median_abs_error_m": 0.00790099000033806,
+      "p95_abs_error_m": 0.02869912293050712,
+      "rays": 360,
+      "stamp_s": 15.102
+    },
+    {
+      "fraction_within_10cm": 0.9805555555555555,
+      "mean_abs_error_m": 0.01884514219827199,
+      "median_abs_error_m": 0.007107271608483234,
+      "p95_abs_error_m": 0.025100449106582358,
+      "rays": 360,
+      "stamp_s": 15.702
+    },
+    {
+      "fraction_within_10cm": 0.9805555555555555,
+      "mean_abs_error_m": 0.022210034879100046,
+      "median_abs_error_m": 0.007794818573983786,
+      "p95_abs_error_m": 0.030980380960559304,
+      "rays": 360,
+      "stamp_s": 16.302
+    },
+    {
+      "fraction_within_10cm": 0.975,
+      "mean_abs_error_m": 0.018056921863714277,
+      "median_abs_error_m": 0.0079020029107848,
+      "p95_abs_error_m": 0.028641558871553636,
+      "rays": 360,
+      "stamp_s": 16.902
+    },
+    {
+      "fraction_within_10cm": 0.9833333333333333,
+      "mean_abs_error_m": 0.018785523234618153,
+      "median_abs_error_m": 0.007349059656948098,
+      "p95_abs_error_m": 0.02866580368981977,
+      "rays": 360,
+      "stamp_s": 17.502
+    },
+    {
+      "fraction_within_10cm": 0.9777777777777777,
+      "mean_abs_error_m": 0.02143686964444374,
+      "median_abs_error_m": 0.008240730281220743,
+      "p95_abs_error_m": 0.02986766361089928,
+      "rays": 360,
+      "stamp_s": 18.102
+    },
+    {
+      "fraction_within_10cm": 0.9611111111111111,
+      "mean_abs_error_m": 0.039964031335401676,
+      "median_abs_error_m": 0.00867868805092431,
+      "p95_abs_error_m": 0.054601084022994774,
+      "rays": 360,
+      "stamp_s": 18.702
+    },
+    {
+      "fraction_within_10cm": 0.9833333333333333,
+      "mean_abs_error_m": 0.014776429549523412,
+      "median_abs_error_m": 0.00817415605001226,
+      "p95_abs_error_m": 0.03110762019571077,
+      "rays": 360,
+      "stamp_s": 19.302
+    },
+    {
+      "fraction_within_10cm": 0.9888888888888889,
+      "mean_abs_error_m": 0.013669622077035608,
+      "median_abs_error_m": 0.008065696007113043,
+      "p95_abs_error_m": 0.03406679789426708,
+      "rays": 360,
+      "stamp_s": 19.902
+    },
+    {
+      "fraction_within_10cm": 0.9861111111111112,
+      "mean_abs_error_m": 0.015293387645785675,
+      "median_abs_error_m": 0.008943069575719054,
+      "p95_abs_error_m": 0.03836870411642786,
+      "rays": 360,
+      "stamp_s": 20.502
+    },
+    {
+      "fraction_within_10cm": 0.9861111111111112,
+      "mean_abs_error_m": 0.025457657504802583,
+      "median_abs_error_m": 0.008655245011244594,
+      "p95_abs_error_m": 0.03363265608980449,
+      "rays": 360,
+      "stamp_s": 21.102
+    },
+    {
+      "fraction_within_10cm": 0.9777777777777777,
+      "mean_abs_error_m": 0.02804010203655103,
+      "median_abs_error_m": 0.00846694972799722,
+      "p95_abs_error_m": 0.035140939869924316,
+      "rays": 360,
+      "stamp_s": 21.702
+    },
+    {
+      "fraction_within_10cm": 0.9833333333333333,
+      "mean_abs_error_m": 0.02523503039531983,
+      "median_abs_error_m": 0.008904696386696775,
+      "p95_abs_error_m": 0.04409013658217691,
+      "rays": 360,
+      "stamp_s": 22.302
+    },
+    {
+      "fraction_within_10cm": 0.9833333333333333,
+      "mean_abs_error_m": 0.02571818093055296,
+      "median_abs_error_m": 0.009360734093450063,
+      "p95_abs_error_m": 0.039674006675162056,
+      "rays": 360,
+      "stamp_s": 22.902
+    },
+    {
+      "fraction_within_10cm": 0.9888888888888889,
+      "mean_abs_error_m": 0.019695273247569065,
+      "median_abs_error_m": 0.009678917414763788,
+      "p95_abs_error_m": 0.047713533127609134,
+      "rays": 360,
+      "stamp_s": 23.502
+    },
+    {
+      "fraction_within_10cm": 0.9805555555555555,
+      "mean_abs_error_m": 0.03005674437665432,
+      "median_abs_error_m": 0.009874041189840366,
+      "p95_abs_error_m": 0.048013592537055394,
+      "rays": 360,
+      "stamp_s": 24.102
+    },
+    {
+      "fraction_within_10cm": 0.9944444444444445,
+      "mean_abs_error_m": 0.016915641422597702,
+      "median_abs_error_m": 0.008725109590086988,
+      "p95_abs_error_m": 0.04011639740828023,
+      "rays": 360,
+      "stamp_s": 24.702
+    },
+    {
+      "fraction_within_10cm": 0.9861111111111112,
+      "mean_abs_error_m": 0.02848364240027148,
+      "median_abs_error_m": 0.009802693318966771,
+      "p95_abs_error_m": 0.03761620513369737,
+      "rays": 360,
+      "stamp_s": 25.302
+    },
+    {
+      "fraction_within_10cm": 0.9805555555555555,
+      "mean_abs_error_m": 0.02547059505455309,
+      "median_abs_error_m": 0.009923582522200713,
+      "p95_abs_error_m": 0.04211556159056142,
+      "rays": 360,
+      "stamp_s": 25.902
+    },
+    {
+      "fraction_within_10cm": 0.9861111111111112,
+      "mean_abs_error_m": 0.02491278907207381,
+      "median_abs_error_m": 0.00889482803629793,
+      "p95_abs_error_m": 0.038916420489090484,
+      "rays": 360,
+      "stamp_s": 26.502
+    },
+    {
+      "fraction_within_10cm": 0.9888888888888889,
+      "mean_abs_error_m": 0.02206647566239151,
+      "median_abs_error_m": 0.008469565611735952,
+      "p95_abs_error_m": 0.035011296107242365,
+      "rays": 360,
+      "stamp_s": 27.102
+    },
+    {
+      "fraction_within_10cm": 0.9777777777777777,
+      "mean_abs_error_m": 0.028767172690723722,
+      "median_abs_error_m": 0.009665099436918068,
+      "p95_abs_error_m": 0.047159650132316315,
+      "rays": 360,
+      "stamp_s": 27.702
+    },
+    {
+      "fraction_within_10cm": 0.9833333333333333,
+      "mean_abs_error_m": 0.02968377624213347,
+      "median_abs_error_m": 0.008595715504602364,
+      "p95_abs_error_m": 0.04922500001420155,
+      "rays": 360,
+      "stamp_s": 28.302
+    },
+    {
+      "fraction_within_10cm": 0.9833333333333333,
+      "mean_abs_error_m": 0.021823403004043188,
+      "median_abs_error_m": 0.008343990440830895,
+      "p95_abs_error_m": 0.03588583264173261,
+      "rays": 360,
+      "stamp_s": 28.902
+    },
+    {
+      "fraction_within_10cm": 0.9722222222222222,
+      "mean_abs_error_m": 0.036812656941860034,
+      "median_abs_error_m": 0.008860229673601228,
+      "p95_abs_error_m": 0.04563250611844041,
+      "rays": 360,
+      "stamp_s": 29.502
+    },
+    {
+      "fraction_within_10cm": 0.9916666666666667,
+      "mean_abs_error_m": 0.020915496282841447,
+      "median_abs_error_m": 0.008639183551413243,
+      "p95_abs_error_m": 0.03212779807826943,
+      "rays": 360,
+      "stamp_s": 30.102
+    },
+    {
+      "fraction_within_10cm": 0.975,
+      "mean_abs_error_m": 0.027615313870375236,
+      "median_abs_error_m": 0.008310173474008975,
+      "p95_abs_error_m": 0.040642644011332725,
+      "rays": 360,
+      "stamp_s": 30.702
+    },
+    {
+      "fraction_within_10cm": 0.9722222222222222,
+      "mean_abs_error_m": 0.03610510151688906,
+      "median_abs_error_m": 0.009720139016892837,
+      "p95_abs_error_m": 0.0410947003020474,
+      "rays": 360,
+      "stamp_s": 31.302
+    },
+    {
+      "fraction_within_10cm": 0.9777777777777777,
+      "mean_abs_error_m": 0.029191738946662344,
+      "median_abs_error_m": 0.008578111316545955,
+      "p95_abs_error_m": 0.043952125844478745,
+      "rays": 360,
+      "stamp_s": 31.902
+    },
+    {
+      "fraction_within_10cm": 0.9722222222222222,
+      "mean_abs_error_m": 0.030679073358129697,
+      "median_abs_error_m": 0.009226524155415916,
+      "p95_abs_error_m": 0.0498900369187881,
+      "rays": 360,
+      "stamp_s": 32.502
+    },
+    {
+      "fraction_within_10cm": 0.9472222222222222,
+      "mean_abs_error_m": 0.04965720492995608,
+      "median_abs_error_m": 0.01373177081011745,
+      "p95_abs_error_m": 0.11123395304998747,
+      "rays": 360,
+      "stamp_s": 33.102
+    },
+    {
+      "fraction_within_10cm": 0.9722222222222222,
+      "mean_abs_error_m": 0.035691710680820804,
+      "median_abs_error_m": 0.009776782715781418,
+      "p95_abs_error_m": 0.0465284076210263,
+      "rays": 360,
+      "stamp_s": 33.702
+    },
+    {
+      "fraction_within_10cm": 0.9777777777777777,
+      "mean_abs_error_m": 0.024206680499201595,
+      "median_abs_error_m": 0.009925826229144286,
+      "p95_abs_error_m": 0.05019324751123381,
+      "rays": 360,
+      "stamp_s": 34.302
+    },
+    {
+      "fraction_within_10cm": 0.9555555555555556,
+      "mean_abs_error_m": 0.04693149844636235,
+      "median_abs_error_m": 0.01345450637105794,
+      "p95_abs_error_m": 0.08311181221635856,
+      "rays": 360,
+      "stamp_s": 34.902
+    },
+    {
+      "fraction_within_10cm": 0.9861111111111112,
+      "mean_abs_error_m": 0.024065585876054577,
+      "median_abs_error_m": 0.008931353146016008,
+      "p95_abs_error_m": 0.0286546298568162,
+      "rays": 360,
+      "stamp_s": 35.502
+    },
+    {
+      "fraction_within_10cm": 0.9805555555555555,
+      "mean_abs_error_m": 0.025058074124804444,
+      "median_abs_error_m": 0.007422238445135898,
+      "p95_abs_error_m": 0.027504657888936825,
+      "rays": 360,
+      "stamp_s": 36.102
+    },
+    {
+      "fraction_within_10cm": 0.9916666666666667,
+      "mean_abs_error_m": 0.030718434673921886,
+      "median_abs_error_m": 0.008593656935515281,
+      "p95_abs_error_m": 0.03850929919109633,
+      "rays": 360,
+      "stamp_s": 36.702
+    },
+    {
+      "fraction_within_10cm": 1.0,
+      "mean_abs_error_m": 0.009782682481437995,
+      "median_abs_error_m": 0.008016606123862846,
+      "p95_abs_error_m": 0.02380690214721455,
+      "rays": 360,
+      "stamp_s": 37.302
+    }
+  ],
+  "run_id": "r3-scan-dev10-20260911-v1",
+  "runtime_modified": false,
+  "schema_version": "research3-laser-geometry-diagnostic/v1",
+  "world_sha256": "624a37f7795d5cf019b99da65ce0efd579d6e67b32917752027e56725b3e037b"
+}

@@ -1,0 +1,15 @@
+{
+  "historical_capture_snapshot_sha256": "4eb51067c9d067954f4c0264e904993137d1be8e50f49401fc08870c8069056c",
+  "historical_sources_and_provider_unchanged": true,
+  "human_labels_generated": false,
+  "human_scope_record_sha256": "a5a94c337649f44896b85af40dcb1b7c3afbe5010948cf7ec5d10e54fa5c8a34",
+  "instrumentation_sha256": {
+    "scripts/expansion_sampling.py": "e14d1d64d8c8f2a9c4e1c096fd3ac6031a1561c66d5fbb21ddd798649473d13e",
+    "scripts/physical_expansion_capture_candidate.py": "17348f44526ddc14074bd9129c028a84fb835c6e3634fa9e81e45a8d13410385"
+  },
+  "isolated_development_preflight_verified": false,
+  "live_collection_authorized_by_this_snapshot": false,
+  "runtime_integration_verified": false,
+  "schema_version": "research3-expansion-instrumentation-snapshot/v1",
+  "status": "approved_scope_candidate_source_pinned_not_live_verified"
+}

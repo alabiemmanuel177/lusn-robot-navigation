@@ -1,0 +1,1924 @@
+{
+  "schema_version": "research3-live-measurements/v1",
+  "run_id": "r3-variant-B1-v1",
+  "episode_started_at_ns": 9576000000,
+  "episode_ended_at_ns": 18234000000,
+  "ground_truth_positions": [
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.0005183363190366,
+      -0.500000124246168
+    ],
+    [
+      -2.0002695761963136,
+      -0.49997817278982115
+    ],
+    [
+      -1.9988193386446051,
+      -0.49993518242013707
+    ],
+    [
+      -1.9960786239021102,
+      -0.4998662003269299
+    ],
+    [
+      -1.9926354325180873,
+      -0.49980097455093486
+    ],
+    [
+      -1.988796214679376,
+      -0.49972470157427373
+    ],
+    [
+      -1.9840960877763385,
+      -0.49963522219053097
+    ],
+    [
+      -1.9790832049478801,
+      -0.4995702727182702
+    ],
+    [
+      -1.973628767276284,
+      -0.499511123838281
+    ],
+    [
+      -1.9678175329084866,
+      -0.4994410676007733
+    ],
+    [
+      -1.9618435912872927,
+      -0.49935476349606983
+    ],
+    [
+      -1.9557810959248734,
+      -0.4992573572499636
+    ],
+    [
+      -1.9493808644387483,
+      -0.49913232182703654
+    ],
+    [
+      -1.9425918524215195,
+      -0.49898457425734194
+    ],
+    [
+      -1.9357512689401437,
+      -0.49882032598284803
+    ],
+    [
+      -1.9286018764743955,
+      -0.4986370809514994
+    ],
+    [
+      -1.9211552894153827,
+      -0.4984357835888991
+    ],
+    [
+      -1.9134134707774961,
+      -0.49821198229259206
+    ],
+    [
+      -1.9054182489656928,
+      -0.49796688492095187
+    ],
+    [
+      -1.8972380157525315,
+      -0.4976973685059116
+    ],
+    [
+      -1.8888475282714978,
+      -0.4974045685302894
+    ],
+    [
+      -1.8801621922796943,
+      -0.49709482528181226
+    ],
+    [
+      -1.8713528709075609,
+      -0.49676214670001106
+    ],
+    [
+      -1.8623992145484558,
+      -0.49641265051023065
+    ],
+    [
+      -1.8530194062852288,
+      -0.4960515933833022
+    ],
+    [
+      -1.8435782336099662,
+      -0.4956657894548911
+    ],
+    [
+      -1.8339713359864516,
+      -0.49526763336006274
+    ],
+    [
+      -1.82395516892599,
+      -0.4948519552308598
+    ],
+    [
+      -1.8136406808069516,
+      -0.4944142784396309
+    ],
+    [
+      -1.8033576847166894,
+      -0.4939690265372899
+    ],
+    [
+      -1.7930904729359693,
+      -0.4935191282252602
+    ],
+    [
+      -1.7824055471611397,
+      -0.4930691216210343
+    ],
+    [
+      -1.7713772459664332,
+      -0.4926073845136149
+    ],
+    [
+      -1.7602076090230692,
+      -0.49213938994318873
+    ],
+    [
+      -1.7487410963906904,
+      -0.4916618671335789
+    ],
+    [
+      -1.7367917998338367,
+      -0.491167789113214
+    ],
+    [
+      -1.72443102320367,
+      -0.49067322887207426
+    ],
+    [
+      -1.712006649977339,
+      -0.49019027238840024
+    ],
+    [
+      -1.6995171234379454,
+      -0.48970877983195077
+    ],
+    [
+      -1.6869485748303337,
+      -0.48924082618512565
+    ],
+    [
+      -1.6743442821187242,
+      -0.48879828256832064
+    ],
+    [
+      -1.6617346378092903,
+      -0.4883759561457309
+    ],
+    [
+      -1.6491245874166276,
+      -0.4879658607277259
+    ],
+    [
+      -1.6365119030864106,
+      -0.487583779235225
+    ],
+    [
+      -1.6238946943443364,
+      -0.48723726023424024
+    ],
+    [
+      -1.611275654865529,
+      -0.48691370392550243
+    ],
+    [
+      -1.5986532540601632,
+      -0.48662339269888727
+    ],
+    [
+      -1.5860292949328167,
+      -0.4863580199838688
+    ],
+    [
+      -1.573404381177854,
+      -0.4861214695754
+    ],
+    [
+      -1.560776364137711,
+      -0.48592897166919197
+    ],
+    [
+      -1.5481459826855983,
+      -0.4857768934911353
+    ],
+    [
+      -1.5355145128285004,
+      -0.48566011703357076
+    ],
+    [
+      -1.522883277286068,
+      -0.48557722973830747
+    ],
+    [
+      -1.5102523144219817,
+      -0.4855333621016867
+    ],
+    [
+      -1.4976210487967483,
+      -0.48553481893728506
+    ],
+    [
+      -1.4849898113663262,
+      -0.4855793416168648
+    ],
+    [
+      -1.4723587936655405,
+      -0.48566635140208064
+    ],
+    [
+      -1.4597305965934,
+      -0.48577682126156657
+    ],
+    [
+      -1.4471055245675417,
+      -0.4859153161307514
+    ],
+    [
+      -1.4344813246988557,
+      -0.48609918923489587
+    ],
+    [
+      -1.4218583630348665,
+      -0.48632204143809754
+    ],
+    [
+      -1.4092381266776834,
+      -0.4865709550042308
+    ],
+    [
+      -1.3966197696377431,
+      -0.4868567282668478
+    ],
+    [
+      -1.3840009235014867,
+      -0.4871923022808797
+    ],
+    [
+      -1.371384088600937,
+      -0.4875523482513445
+    ],
+    [
+      -1.3587676868441303,
+      -0.48795339113703995
+    ],
+    [
+      -1.3461542539665323,
+      -0.4883691589942828
+    ],
+    [
+      -1.3335423598598433,
+      -0.4888175288149427
+    ],
+    [
+      -1.3209310376287047,
+      -0.48930492339494813
+    ],
+    [
+      -1.3083217332342427,
+      -0.4898136046838096
+    ],
+    [
+      -1.2957139879293014,
+      -0.49035105986114974
+    ],
+    [
+      -1.283108159603361,
+      -0.4909121569722862
+    ],
+    [
+      -1.2705054133986537,
+      -0.4914867254199546
+    ],
+    [
+      -1.2579222256459526,
+      -0.4920696531056075
+    ],
+    [
+      -1.245349631184637,
+      -0.4926765199874397
+    ],
+    [
+      -1.2327653863839576,
+      -0.4933165533365786
+    ],
+    [
+      -1.2201768845507819,
+      -0.4939553195922337
+    ],
+    [
+      -1.207588897853983,
+      -0.49461422511650044
+    ],
+    [
+      -1.1950019913136016,
+      -0.4952966206816822
+    ],
+    [
+      -1.1824183894419995,
+      -0.495974638887258
+    ],
+    [
+      -1.1698381819851493,
+      -0.4966529499001139
+    ],
+    [
+      -1.1572620442273078,
+      -0.4973223641525848
+    ],
+    [
+      -1.1446875314478662,
+      -0.49800759388122323
+    ],
+    [
+      -1.1321145505840413,
+      -0.49869593748350427
+    ],
+    [
+      -1.1195443100501283,
+      -0.49936998276793837
+    ],
+    [
+      -1.1069748429348554,
+      -0.5000464758334741
+    ],
+    [
+      -1.0944069534172662,
+      -0.50070510032063
+    ],
+    [
+      -1.0818406921389034,
+      -0.5013462395854936
+    ],
+    [
+      -1.0692757530264996,
+      -0.5019671249580343
+    ],
+    [
+      -1.0567112579590492,
+      -0.5025734112984149
+    ],
+    [
+      -1.0441476383141357,
+      -0.5031527184735688
+    ],
+    [
+      -1.0315850618602955,
+      -0.5037033858032557
+    ],
+    [
+      -1.0190223308563597,
+      -0.5042328611324897
+    ],
+    [
+      -1.006458868017915,
+      -0.5047408461729881
+    ],
+    [
+      -0.9938950410831521,
+      -0.5052186878601495
+    ],
+    [
+      -0.9813306956088905,
+      -0.5056661731814197
+    ],
+    [
+      -0.9687658052179422,
+      -0.506080613559303
+    ],
+    [
+      -0.9562000496108504,
+      -0.5064630969339541
+    ],
+    [
+      -0.943631552355591,
+      -0.5068259224045332
+    ],
+    [
+      -0.931061195503507,
+      -0.5071556166674608
+    ],
+    [
+      -0.9184894463913409,
+      -0.5074502314349864
+    ],
+    [
+      -0.9059168060226294,
+      -0.5077066195248134
+    ],
+    [
+      -0.8933407641823179,
+      -0.5079443510493197
+    ],
+    [
+      -0.8807628053677965,
+      -0.508148223832049
+    ],
+    [
+      -0.8681835360140836,
+      -0.50831797877741
+    ],
+    [
+      -0.8556022658339151,
+      -0.508460179136513
+    ],
+    [
+      -0.8430197768956329,
+      -0.5085700928386301
+    ],
+    [
+      -0.830435976127986,
+      -0.5086517761473197
+    ],
+    [
+      -0.8178509557304033,
+      -0.5087059950763893
+    ],
+    [
+      -0.8052672559993995,
+      -0.5087192007130581
+    ],
+    [
+      -0.7926837316520204,
+      -0.5087039784008625
+    ],
+    [
+      -0.7800991619742209,
+      -0.508669450430975
+    ],
+    [
+      -0.7675135334665629,
+      -0.5086147235377751
+    ],
+    [
+      -0.7549279662987651,
+      -0.508533622954117
+    ],
+    [
+      -0.7423429565048756,
+      -0.508425221548672
+    ],
+    [
+      -0.7297556055132289,
+      -0.5083087325466376
+    ],
+    [
+      -0.7171667444514574,
+      -0.508176220400796
+    ],
+    [
+      -0.7045778556611578,
+      -0.5080199690505751
+    ],
+    [
+      -0.6919876266812226,
+      -0.507850463735948
+    ],
+    [
+      -0.679396768929989,
+      -0.507663233629157
+    ],
+    [
+      -0.666806277773137,
+      -0.5074549841914529
+    ],
+    [
+      -0.6542131092035405,
+      -0.5072457017727061
+    ],
+    [
+      -0.6416160099839366,
+      -0.5070401801390368
+    ],
+    [
+      -0.6290165150511805,
+      -0.5068284148378511
+    ],
+    [
+      -0.6164153799084137,
+      -0.5066084736168798
+    ],
+    [
+      -0.6038137271973657,
+      -0.5063768100364707
+    ],
+    [
+      -0.5912079090687574,
+      -0.5061588978329525
+    ],
+    [
+      -0.5785977610066317,
+      -0.5059541999295388
+    ],
+    [
+      -0.5659865149252701,
+      -0.505744876801665
+    ],
+    [
+      -0.5533710299343296,
+      -0.5055562901949453
+    ],
+    [
+      -0.5407499368797655,
+      -0.5053956613355628
+    ],
+    [
+      -0.5281239231339959,
+      -0.5052602855038503
+    ],
+    [
+      -0.5154969834400882,
+      -0.5051314829519072
+    ],
+    [
+      -0.5028677089368214,
+      -0.5050283450557176
+    ],
+    [
+      -0.49023711557156174,
+      -0.5049484279446653
+    ],
+    [
+      -0.477608332681819,
+      -0.5048771164377346
+    ],
+    [
+      -0.46497987810505437,
+      -0.5048333795481298
+    ],
+    [
+      -0.45235030587667074,
+      -0.5048302312544921
+    ],
+    [
+      -0.43971981368971713,
+      -0.5048665108937691
+    ],
+    [
+      -0.42709053129008845,
+      -0.5049292096370802
+    ],
+    [
+      -0.41446188746033547,
+      -0.5050279836931874
+    ],
+    [
+      -0.40183391345957337,
+      -0.505164145107747
+    ],
+    [
+      -0.38920699623971533,
+      -0.5053363768068245
+    ],
+    [
+      -0.37658354343946643,
+      -0.505527374710544
+    ],
+    [
+      -0.3639622204440222,
+      -0.5057552471382242
+    ],
+    [
+      -0.3513432661269099,
+      -0.5060157345549818
+    ],
+    [
+      -0.33872634250637046,
+      -0.5063120921914954
+    ],
+    [
+      -0.32611062723271156,
+      -0.506648847973965
+    ],
+    [
+      -0.3134969722752541,
+      -0.5070147788218207
+    ],
+    [
+      -0.30088640149458534,
+      -0.5074008674550547
+    ],
+    [
+      -0.2882783426874235,
+      -0.5078152726799703
+    ],
+    [
+      -0.2756725771499039,
+      -0.508255222785422
+    ],
+    [
+      -0.2630689511241011,
+      -0.5087217042683383
+    ],
+    [
+      -0.250469246920704,
+      -0.509194033793692
+    ],
+    [
+      -0.23787244487713716,
+      -0.5096845400972937
+    ],
+    [
+      -0.2252775481069349,
+      -0.5101994084924415
+    ],
+    [
+      -0.21268480045945737,
+      -0.5107284262604145
+    ],
+    [
+      -0.20009288527623445,
+      -0.511282222106464
+    ],
+    [
+      -0.18750122779958384,
+      -0.5118562536151985
+    ],
+    [
+      -0.1749101951040363,
+      -0.5124426230999697
+    ],
+    [
+      -0.16231999354875623,
+      -0.5130369542366813
+    ],
+    [
+      -0.14973110089299171,
+      -0.5136338224157797
+    ],
+    [
+      -0.13714443250286718,
+      -0.5142258071720774
+    ],
+    [
+      -0.12455853759254387,
+      -0.514828694998554
+    ],
+    [
+      -0.1119739443989951,
+      -0.5154328668539423
+    ],
+    [
+      -0.09938997075311885,
+      -0.5160437633138362
+    ],
+    [
+      -0.08680828973707562,
+      -0.5166416562524413
+    ],
+    [
+      -0.07422756064323231,
+      -0.5172433565445673
+    ],
+    [
+      -0.06164735210188727,
+      -0.5178472439405672
+    ],
+    [
+      -0.04906816838804397,
+      -0.5184445206367728
+    ],
+    [
+      -0.03648964458027118,
+      -0.5190369545347312
+    ],
+    [
+      -0.023911129971898735,
+      -0.5196268154183451
+    ],
+    [
+      -0.011334283673080897,
+      -0.520195566664436
+    ],
+    [
+      0.0012417868145365076,
+      -0.5207552885170731
+    ],
+    [
+      0.013815911004573201,
+      -0.5212921976906444
+    ],
+    [
+      0.02638993187114088,
+      -0.5218232798928787
+    ],
+    [
+      0.038964257481009026,
+      -0.5223455390546317
+    ],
+    [
+      0.05153826219013089,
+      -0.5228493528449211
+    ],
+    [
+      0.06411262430705285,
+      -0.5233395011714757
+    ],
+    [
+      0.07668836195353672,
+      -0.523821492116218
+    ],
+    [
+      0.08926513452447941,
+      -0.5242871298557564
+    ],
+    [
+      0.10184253898300018,
+      -0.5247327300352028
+    ],
+    [
+      0.11442064228446461,
+      -0.5251586469216752
+    ],
+    [
+      0.12699884679458712,
+      -0.5255600631689042
+    ],
+    [
+      0.13957774507120702,
+      -0.5259429904064065
+    ],
+    [
+      0.15215681952147508,
+      -0.5263021567498885
+    ],
+    [
+      0.16473518947692703,
+      -0.5266324500507334
+    ],
+    [
+      0.17731311770023825,
+      -0.526937320970155
+    ],
+    [
+      0.1898910342968113,
+      -0.527220425346069
+    ],
+    [
+      0.20246964548429194,
+      -0.5274851866941085
+    ],
+    [
+      0.21504789900743426,
+      -0.527721660888979
+    ],
+    [
+      0.22762695003143518,
+      -0.5279394433018018
+    ],
+    [
+      0.2402072589905079,
+      -0.528138087488048
+    ],
+    [
+      0.2527881445149758,
+      -0.5283118737755513
+    ],
+    [
+      0.2653693049289962,
+      -0.5284587614514807
+    ],
+    [
+      0.27795072171393836,
+      -0.5285794546339666
+    ],
+    [
+      0.29053442093190546,
+      -0.5286878130364634
+    ],
+    [
+      0.3031216570107658,
+      -0.5287885738476071
+    ],
+    [
+      0.31570992744064064,
+      -0.5288625884996294
+    ],
+    [
+      0.3282991757972436,
+      -0.5289135044826226
+    ],
+    [
+      0.34088874639971,
+      -0.528939197424831
+    ],
+    [
+      0.35343034043193605,
+      -0.5289428705474076
+    ],
+    [
+      0.36598400838777406,
+      -0.5289262999339157
+    ],
+    [
+      0.3785637482130356,
+      -0.5288942660268422
+    ],
+    [
+      0.39114364456246503,
+      -0.5288453281249695
+    ],
+    [
+      0.40365765928351144,
+      -0.5287913273618318
+    ],
+    [
+      0.4161569671997887,
+      -0.5287259014906406
+    ],
+    [
+      0.42866801411642763,
+      -0.528649490258168
+    ],
+    [
+      0.44118252091453874,
+      -0.5285571709790818
+    ],
+    [
+      0.4536541706020568,
+      -0.5284581526724441
+    ],
+    [
+      0.4660956130077939,
+      -0.528351240611218
+    ],
+    [
+      0.47843972375711635,
+      -0.5282376383766075
+    ],
+    [
+      0.49075291616902555,
+      -0.5281160394509611
+    ],
+    [
+      0.5030323553968447,
+      -0.527998366650191
+    ],
+    [
+      0.5151651444144728,
+      -0.5278752598037392
+    ],
+    [
+      0.5272035184695095,
+      -0.5277450626970777
+    ],
+    [
+      0.5392414217731417,
+      -0.527611849755818
+    ],
+    [
+      0.5513451593054243,
+      -0.5274724420583976
+    ],
+    [
+      0.5635203946940233,
+      -0.5273259360600674
+    ],
+    [
+      0.5755451295459265,
+      -0.5271638239123749
+    ],
+    [
+      0.5875220678696987,
+      -0.5270028430071485
+    ],
+    [
+      0.599424631874764,
+      -0.5268358488553342
+    ],
+    [
+      0.6112476990001122,
+      -0.5266617823631166
+    ],
+    [
+      0.6230238340194014,
+      -0.526482618773692
+    ],
+    [
+      0.6347053654074469,
+      -0.5262942943998797
+    ],
+    [
+      0.646298359325495,
+      -0.5261069883913349
+    ],
+    [
+      0.657761324579051,
+      -0.5259074794772888
+    ],
+    [
+      0.6691636108873604,
+      -0.5256990074068701
+    ],
+    [
+      0.6804370496700656,
+      -0.5254916792561967
+    ],
+    [
+      0.6915088182913975,
+      -0.5252729818052538
+    ],
+    [
+      0.7023640574562146,
+      -0.5250499968997014
+    ],
+    [
+      0.7131490848938905,
+      -0.5248206432793276
+    ],
+    [
+      0.7237417329449521,
+      -0.5245826153763299
+    ],
+    [
+      0.7341397214369746,
+      -0.5243346204919744
+    ],
+    [
+      0.7443842159627964,
+      -0.5240836989786565
+    ],
+    [
+      0.7545309635896835,
+      -0.5238256246139739
+    ],
+    [
+      0.7645248169740259,
+      -0.5235572430200565
+    ],
+    [
+      0.7738820701498071,
+      -0.5233282709148133
+    ]
+  ],
+  "scene_sha256": "30a72b9e20094f6314f1ad60a21d4a182e60282a11237f542f5586969c428e48",
+  "terminal_ground_truth": [
+    {
+      "entity_id": "dev_00-r010-sign",
+      "region_id": "dev_00-r010-sign-region",
+      "category": "sign",
+      "attributes": {},
+      "pose": {
+        "x": -1.375,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        245,
+        135,
+        25
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-door",
+      "region_id": "dev_00-r010-door-region",
+      "category": "door",
+      "attributes": {},
+      "pose": {
+        "x": -1.075,
+        "y": -0.895,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        135,
+        75,
+        35
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-glass-doors",
+      "region_id": "dev_00-r010-glass-doors-region",
+      "category": "glass_doors",
+      "attributes": {
+        "material": "glass"
+      },
+      "pose": {
+        "x": -0.825,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        45,
+        190,
+        215
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-blue-chair",
+      "region_id": "dev_00-r010-anchor-region",
+      "category": "chair",
+      "attributes": {
+        "color": "blue"
+      },
+      "pose": {
+        "x": -0.525,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        40,
+        70,
+        220
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-doorway-1",
+      "region_id": "dev_00-r010-doorway-1-region",
+      "category": "doorway",
+      "attributes": {},
+      "pose": {
+        "x": -0.125,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        150,
+        55,
+        190
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-doorway-2",
+      "region_id": "dev_00-r010-doorway-2-region",
+      "category": "doorway",
+      "attributes": {},
+      "pose": {
+        "x": 0.225,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        150,
+        55,
+        190
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    },
+    {
+      "entity_id": "dev_00-r010-terminal-entity",
+      "region_id": "dev_00-r010-terminal",
+      "category": "office_entrance",
+      "attributes": {},
+      "pose": {
+        "x": 0.825,
+        "y": -0.995,
+        "yaw": 1.570796
+      },
+      "covariance": [
+        0.04,
+        0.0,
+        0.0,
+        0.04
+      ],
+      "marker_rgb": [
+        40,
+        205,
+        155
+      ],
+      "route_ids": [
+        "dev_00_r0"
+      ]
+    }
+  ],
+  "expected_terminal_region_id": "dev_00-r010-terminal",
+  "collision_count": 0,
+  "predictions": [
+    {
+      "observed_at_ns": 15000000000,
+      "failure_probability": 0.13635054740277336,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 15501000000,
+      "failure_probability": 0.04318052071311224,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 16002000000,
+      "failure_probability": 0.0817234576352424,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 16500000000,
+      "failure_probability": 0.03168404673379363,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 17001000000,
+      "failure_probability": 0.03164826374075091,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:planning"
+      ]
+    },
+    {
+      "observed_at_ns": 17502000000,
+      "failure_probability": 0.013212591799476765,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:unknown"
+      ]
+    },
+    {
+      "observed_at_ns": 18000000000,
+      "failure_probability": 0.010249556421834154,
+      "reason_codes": [
+        "research2_nominal",
+        "signal_group:planning"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8379000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8379000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8466000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8466000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "failure monitor unavailable or stale",
+      "decided_at_ns": 8502000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8601000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8604000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8697000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8697000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "failure monitor unavailable or stale",
+      "decided_at_ns": 8751000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8814000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8814000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8922000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 8925000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "failure monitor unavailable or stale",
+      "decided_at_ns": 9000000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9015000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9021000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9099000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9102000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9171000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9174000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9243000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9243000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "failure monitor unavailable or stale",
+      "decided_at_ns": 9252000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9291000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9291000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9366000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9366000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9429000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9429000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "failure monitor unavailable or stale",
+      "decided_at_ns": 9501000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9507000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9510000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9528000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "no matching language hypotheses",
+      "decided_at_ns": 9582000000
+    },
+    {
+      "action": "stop_and_abstain",
+      "route_id": "",
+      "reason": "route guard rejected selection",
+      "decided_at_ns": 9585000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 9597000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 9621000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 9621000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 9732000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 9732000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 9816000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 9819000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 9912000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 9912000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10005000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10005000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10116000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10122000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10206000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10206000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10254000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10254000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10326000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10326000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10407000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10410000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10479000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10482000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10545000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10545000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10701000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10701000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10791000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10797000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10845000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10845000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10899000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 10905000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11058000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11064000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11178000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11178000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11259000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11262000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11343000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11346000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11391000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11391000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11484000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11487000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11601000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11604000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11709000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11709000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11901000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11901000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11994000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 11994000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12081000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12084000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12135000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12138000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12162000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12324000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12447000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12513000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12582000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12690000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12813000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12900000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 12960000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 13116000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 13221000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 13308000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 13446000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 13530000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 13626000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 13725000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 13824000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 13923000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 15012000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 15504000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 16005000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 16509000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 17010000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 17505000000
+    },
+    {
+      "action": "commit",
+      "route_id": "dev_00_r0",
+      "reason": "category-only terminal exploration",
+      "decided_at_ns": 18018000000
+    }
+  ]
+}

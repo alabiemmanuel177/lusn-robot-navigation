@@ -1,0 +1,65 @@
+{
+  "schema_version": "research3-human-scientific-decisions/v1",
+  "source": "user_supplied_conversation_response",
+  "packet_id": "research3-human-actions-v1",
+  "packet_zip_sha256": "ecadd4e9334b082dcf249da242aacfcd589d644322ffb5f3d0dd5a115e50f3fb",
+  "reviewer_name": "Emmanuel Alabi Olasubomi",
+  "reviewer_role": "Researcher",
+  "declared_reviewed_at": "2026-09-12T08:58:00+01:00",
+  "declared_timezone_description": "Europe/London / BST UTC+1",
+  "personal_confirmation": true,
+  "identity_independently_authenticated": false,
+  "record_type": "structured_transcription_not_original_signed_file",
+  "decisions": {
+    "D1": {
+      "primary_contrast": "B6_minus_B5",
+      "primary_endpoint": "independently_measured_ordered_completion",
+      "rationale_summary": "Isolate the incremental contradiction-aware policy effect over calibrated fixed-policy B5."
+    },
+    "D2": {
+      "proposal_accepted_without_revision": true,
+      "multiplicity_policy": "one_primary_contrast_other_comparisons_descriptive_exploratory",
+      "world_weighting": "equal",
+      "condition_weighting": "equal_eight_prespecified_conditions",
+      "pairing": "world_condition_simulator_seed",
+      "unknown_outcomes": "counts_and_best_worst_bounds_complete_case_sensitivity_only",
+      "ambiguity_scope": "underspecified_single_anchor_attributes_not_competing_anchor_disambiguation"
+    },
+    "D3": {
+      "target_effect_absolute": 0.10,
+      "target_effect_percentage_points": 10.0,
+      "interpretation": "reviewer_chosen_scientifically_meaningful_ordered_completion_improvement_not_observed_effect"
+    },
+    "D4": {"alpha": 0.05, "alternative": "two_sided", "target_power": 0.80, "achieved_power": null},
+    "D5": {
+      "ambition": "confirmatory_contingent_on_power_feasibility_otherwise_descriptive_exploratory",
+      "method": null,
+      "agent_method_proposal_requested": true,
+      "candidate_methods_requested_for_assessment": ["clustered_permutation", "small_sample_corrected_GEE", "paired_cluster_bootstrap", "wild_cluster_bootstrap", "world_level_sign_flips"],
+      "final_method_approved": false
+    },
+    "D6": {
+      "primary_reviewer": "Emmanuel Alabi Olasubomi",
+      "independent_validation_custodian": null,
+      "validation_excluded_from_model_selection": true,
+      "separate_validation_package": true,
+      "encrypted_delayed_release_workflow_requested": true
+    },
+    "D7": {
+      "development_only_calibration_proposal_requested": true,
+      "required_specification": ["family", "objective_and_loss", "solver", "regularization", "nondetection_handling", "class_grouping", "ECE", "Brier_improvement", "MCE", "acceptance_criteria"],
+      "method_or_model_preapproved": false
+    },
+    "D8": {
+      "additional_required_reviewer": null,
+      "execution_constraint": "serial_low_priority_resource_guarded_preserve_R1_R2",
+      "protected_execution_requires_separate_staged_approval": true
+    }
+  },
+  "deferred": ["rendered_diagnostic_asset_review", "final_sample_size", "simulator_seed_replication_list", "confirmatory_feasibility_status", "exact_inference_method", "exact_calibration_method", "calibration_freeze", "final_results_approval"],
+  "capture_instrumentation_revision_authorized": false,
+  "execution_authorized": false,
+  "protected_access_authorized": false,
+  "calibration_approved": false,
+  "study_complete": false
+}

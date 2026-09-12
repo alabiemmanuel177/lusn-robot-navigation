@@ -1,0 +1,47 @@
+{
+  "amendment_sha256": "993a513692e1d743335596eb013ceab73c99b86181e975148907b47bfabbfe40",
+  "decisions": {
+    "diagnostic_exclusion": {
+      "decision": "accept",
+      "rationale": "Engineered diagnostic attempts (80 attempts) introduce synthetic occluders (20% projected area) and same-colour distractors that do not reflect natural environmental prevalence. Restricting them strictly to diagnostic sensitivity checks and prohibiting them from satisfying primary negative calibration quotas is methodologically essential to prevent distortion of posterior calibration curves."
+    },
+    "fixed_budget_stopping": {
+      "decision": "accept",
+      "rationale": "A fixed prospective schedule of 560 primary attempts without outcome-dependent early stopping, sequential sampling, or post-hoc trial additions is required under pre-registration standards. This eliminates selection bias, p-hacking, and premature stopping on favorable calibration metrics."
+    },
+    "fixed_primary_schedule": {
+      "decision": "accept",
+      "rationale": "The 5-view systematic along-corridor sampling scheme (offsets x, x-0.5, x+0.5, x+1, x+/-2 facing catalogue landmarks) provides rigorous distance and obliquity diversity. The conservative 0.30 m footprint preflight clearance check verified across all 10 development maps (400 attempts) and 4 validation maps (160 attempts) guarantees static geometric clearance before collection without outcome-based data snooping."
+    },
+    "partition_separation": {
+      "decision": "accept",
+      "rationale": "Applying the Calibration Coverage v2 criteria independently and strictly to both the development partition (400 attempts across 10 maps) and the held-out validation partition (160 attempts across 4 maps) guarantees that validation data remains completely untouched during model fitting and hyperparameter selection, preventing data leakage."
+    },
+    "pilot_only": {
+      "decision": "accept",
+      "rationale": "Restricting the 60 pilot observations solely to rubric usability assessment, UI protocol validation, and distractor sensitivity analysis\u2014while formally excluding them from both calibration model fitting and final validation panels\u2014preserves pre-registration integrity and eliminates circular evaluation."
+    },
+    "rubric_scope": {
+      "decision": "accept",
+      "rationale": "The 0.35 m planar reference-point consistency threshold and 1e-6 rad yaw metadata consistency check are verified by Phase 1 empirical data. The scope correctly specifies reference-point consistency rather than claiming full 3D object bounding-box geometry estimation, and the yaw check appropriately verifies metadata copy integrity."
+    },
+    "source_resource_guards": {
+      "decision": "accept",
+      "rationale": "Enforcing serial, low-priority execution with explicit hardware resource guards prevents interference with concurrent Research 1 and Research 2 pipelines, ensuring cluster stability, reproducibility, and system safety."
+    },
+    "unchanged_coverage": {
+      "decision": "accept",
+      "rationale": "Preserving the rigorous Coverage v2 floors (>= 1 per map/class, >= 5 correct and >= 5 incorrect per class, >= 5 per confidence bin [0, 0.5, 0.8, 1]) maintains high scientific standards. Deficits in low-confidence bins must be addressed through systematic multi-view collection rather than relaxing coverage thresholds or manipulating temperature parameters."
+    }
+  },
+  "grants_execution_by_itself": false,
+  "overall_decision": "accept",
+  "phase_1_return_sha256": "24f80c5a553eb15e414ebefa363b55246eefc6a0379609265e7282f7eaec52e0",
+  "phase_1_usability_audit_sha256": "a3aec859e54ee78d0e4b064a6975429359c6ad2f7aa2db94a817b4f267472b4e",
+  "plan_sha256": "d03ae270b491d21ee678a8349c4ff6e3f64772d3e70f09f577cbdc6166c2df7c",
+  "protected_outcomes_consulted": false,
+  "reviewed_at": "2026-09-12T00:24:00Z",
+  "reviewer_name": "Emmanuel Alabi Olasubomi",
+  "reviewer_role": "Researcher",
+  "schema_version": "research3-calibration-expansion-review/v1"
+}

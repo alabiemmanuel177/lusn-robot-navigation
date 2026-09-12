@@ -1,0 +1,28 @@
+schema_version: research3-physical-campaign-draft/v1
+status: draft_not_frozen_not_authorized_for_execution
+systems: [B1, B2, B4, B5, B6]
+instruction_seed: 0
+execution_order_seed: 0
+simulation_seed_status: unresolved_not_assumed_from_instruction_seed
+sample_size_status: one_instruction_seed_engineering_draft_confirmatory_power_unresolved
+world_ids:
+  development: [base-r001, base-r002, base-r003, base-r004, base-r005, base-r006, base-r007, base-r008, base-r009, base-r010]
+  validation: [base-r011, base-r012, base-r013, base-r014]
+  held_out_reserved: [base-r015, base-r016, base-r017, base-r018, base-r019, base-r020]
+execution_gates:
+  stage1_physical_inspection: pending
+  calibration_coverage_new_worlds: pending
+  genuine_human_review_and_calibration_freeze: pending
+  condition_interventions_validated: pending
+  source_asset_model_pins: pending
+  resource_isolation_research2: pending
+  independent_measurement_and_collision_validation: pending
+  protocol_and_sample_size_freeze: pending
+  heldout_evaluator_authorization_and_access_control: pending
+failure_policy:
+  retain_every_attempt: true
+  replace_failed_episodes: false
+  post_dispatch_infrastructure: retain_as_infrastructure_not_silent_exclusion
+  pre_dispatch_infrastructure: retain_attempt_record_with_no_navigation_outcome
+  missing_measurement: unknown_not_success_not_zero
+  recovery_attempts: separate_supplemental_ids_never_replace_original

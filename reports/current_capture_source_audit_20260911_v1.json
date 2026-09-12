@@ -1,0 +1,335 @@
+{
+  "all_46_source_bound": false,
+  "archive_sha256": "db94b72f6430f8823234e70de8e49764449ec73c4d46d6dd9f9a2da1d26cadbc",
+  "calibration_validated": false,
+  "historical_current_source_hashes_not_substituted": true,
+  "human_labels_generated": false,
+  "limit": "Request/archive/checkpoint source bindings only; no continuous attestation, media QA or labels.",
+  "plan_sha256": "8d5e121806fa7e741bdab1d4ace246a0f27321c33435ee23ebfbeac3a19b14d5",
+  "qa_attestations_generated": false,
+  "rows": [
+    {
+      "capture_summary_sha256": "5272f191a9a68351c4c175788b26f0575d3a10b7f704ae799a87dee8ebe767a9",
+      "gaps": [],
+      "request_sha256": "b2dc35ecf037a088087dfc197f92a91f168d2ceb9b0ed8c93f7edcd3981126d9",
+      "run_id": "r3-current-v1-r001-chair",
+      "status": "source_bound_capture"
+    },
+    {
+      "capture_summary_sha256": "86d102878d0d08f73770bf44d82963b070ca21c22e82ac7cb8e553f4b48cf2ac",
+      "gaps": [],
+      "request_sha256": "7833a82f038e7c3511e3e7ec93674c4e6ac6cb98746ad4cd140a0e68fbd27435",
+      "run_id": "r3-current-v1-r001-laboratory_entrance",
+      "status": "source_bound_capture"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r001-office_entrance",
+      "status": "pending"
+    },
+    {
+      "capture_summary_sha256": "1f079a926c45d90f6f63bff064f21d59015e03213a3abc7e428813ad336e4b8a",
+      "gaps": [],
+      "request_sha256": "02949fdd0c17f6cd25fb3b2b63dc6fdda8bb36a1781c7efec02e53f2b1a177da",
+      "run_id": "r3-current-v1-r002-chair",
+      "status": "source_bound_capture"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r002-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r002-office_entrance",
+      "status": "pending"
+    },
+    {
+      "capture_summary_sha256": "2dcf45b953b1446e67689debdf5e22399c81d8dbc26afb47c87f3e94d7c4ef96",
+      "gaps": [],
+      "request_sha256": "0ebb7ab30518035dbe67d396e5d7170ae37dac65348ea45ecb1cc4f63813d7e9",
+      "run_id": "r3-current-v1-r003-chair",
+      "status": "source_bound_capture"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r003-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r003-office_entrance",
+      "status": "pending"
+    },
+    {
+      "capture_summary_sha256": "3eecda60197dbb8f545f12abdad3451191f46f048a382b08c1d1dc7563dac08a",
+      "gaps": [],
+      "request_sha256": "1df711c5221dc2ba8e0219c1e7b6354c39117a7a85739022d482a233fb261a1a",
+      "run_id": "r3-current-v1-r004-chair",
+      "status": "source_bound_capture"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r004-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r004-office_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r005-chair",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r005-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r005-office_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r006-chair",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r006-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r006-office_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r007-chair",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r007-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r007-office_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r008-chair",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r008-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r008-office_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r009-chair",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r009-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r009-office_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r010-chair",
+      "status": "pending"
+    },
+    {
+      "capture_summary_sha256": "9697f76f05861dd2ba682f35602e37dd3053429e21128194450a0a69c0d199e9",
+      "gaps": [],
+      "request_sha256": "36081dc36a147bb0506c7e6d3ee4affe9e639fb352e8802737c41db22555757f",
+      "run_id": "r3-current-v1-r010-laboratory_entrance",
+      "status": "source_bound_capture"
+    },
+    {
+      "capture_summary_sha256": "5e271be2506ebb5ea607553cf249e1df61f15e0532b02f7c9a9828cd5f69fe63",
+      "gaps": [],
+      "request_sha256": "c3d1bab7a5e5195e7e65f85bd6ded72ae7c0717480ab16645caacf18b3259ace",
+      "run_id": "r3-current-v1-r010-office_entrance",
+      "status": "source_bound_capture"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r011-chair",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r011-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r011-office_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r012-chair",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r012-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r012-office_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r013-chair",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r013-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r013-office_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r014-chair",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r014-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-r014-office_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-stress-chair",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-stress-doorway",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-stress-laboratory_entrance",
+      "status": "pending"
+    },
+    {
+      "gaps": [
+        "missing_request"
+      ],
+      "run_id": "r3-current-v1-stress-office_entrance",
+      "status": "pending"
+    }
+  ],
+  "schema_version": "research3-current-capture-source-audit/v1"
+}

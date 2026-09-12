@@ -1,0 +1,24 @@
+schema_version: semantic-route-catalog/v1
+map_id: test_00
+partition: test
+routes:
+- base_instruction_id: base-r019
+  platform_route_id: test_00_r0
+  anchor_region_id: test_00-r019-anchor-region
+  terminal_region_id: test_00-r019-terminal
+  prior_risk: 0.0
+  observation_coverage: 1.0
+  traversability_observed: true
+  branch_index: 2
+  side: left
+  relation: past
+- base_instruction_id: base-r020
+  platform_route_id: test_00_r1
+  anchor_region_id: test_00-r020-anchor-region
+  terminal_region_id: test_00-r020-terminal
+  prior_risk: 0.0
+  observation_coverage: 1.0
+  traversability_observed: true
+  branch_index: 2
+  side: right
+  relation: past

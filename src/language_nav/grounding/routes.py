@@ -7,6 +7,59 @@ from language_nav.contracts import RouteEligibility, SemanticObservationContract
 from language_nav.systems.variants import SemanticRouteCandidate
 
 
+class ObservationIdentityLedger:
+    """Validate snapshot provenance without counting callbacks as new evidence.
+
+    One ledger belongs to one instruction/episode. A newer detector frame is not
+    assumed statistically independent: policies still evaluate a single snapshot.
+    Updates are atomic so an invalid graph cannot partially advance watermarks.
+    """
+
+    def __init__(self, maximum_entities: int = 4096) -> None:
+        if maximum_entities < 1:
+            raise ValueError("observation identity capacity must be positive")
+        self.maximum_entities = maximum_entities
+        self._latest: dict[str, SemanticObservationContract] = {}
+        self.revision = 0
+
+    def accept(self, observations: Iterable[SemanticObservationContract], *, now_ns: int) -> int:
+        pending = dict(self._latest)
+        changed = False
+        entities = set()
+        identities = set()
+        previous_owners = {
+            (item.source, item.observation_id): entity_id
+            for entity_id, item in self._latest.items()
+        }
+        for observation in observations:
+            identity = (observation.source, observation.observation_id)
+            if (not observation.entity_id or not all(identity)
+                    or observation.sequence < 0
+                    or not 0 < observation.observed_at_ns <= now_ns
+                    or observation.entity_id in entities or identity in identities):
+                raise ValueError("invalid, duplicate, or future observation identity")
+            if previous_owners.get(identity, observation.entity_id) != observation.entity_id:
+                raise ValueError("observation identity reassigned to another entity")
+            entities.add(observation.entity_id)
+            identities.add(identity)
+            previous = pending.get(observation.entity_id)
+            if previous is not None:
+                if observation == previous:
+                    continue
+                if (observation.source != previous.source
+                        or observation.observation_id == previous.observation_id
+                        or observation.sequence <= previous.sequence
+                        or observation.observed_at_ns <= previous.observed_at_ns):
+                    raise ValueError("observation identity changed or watermark regressed")
+            pending[observation.entity_id] = observation
+            changed = True
+        if len(pending) > self.maximum_entities:
+            raise ValueError("observation identity capacity exceeded")
+        self._latest = pending
+        self.revision += int(changed)
+        return self.revision
+
+
 @dataclass(frozen=True)
 class SemanticRouteProposal:
     """A topological route whose geometry remains owned by Research 1/Nav2."""
@@ -81,6 +134,16 @@ def build_semantic_route_candidates(
                 branch_index=proposal.branch_index,
                 side=proposal.side,
                 relation=proposal.relation,
+                anchor_observation_id=anchor.observation_id if anchor else "",
+                anchor_observed_at_ns=anchor.observed_at_ns if anchor else 0,
+                anchor_observation_source=anchor.source if anchor else "",
+                anchor_observation_sequence=anchor.sequence if anchor else -1,
+                anchor_x=anchor.pose.x if anchor and anchor.frame_id == "map" else None,
+                anchor_y=anchor.pose.y if anchor and anchor.frame_id == "map" else None,
+                terminal_observation_id=terminal.observation_id if terminal else "",
+                terminal_observed_at_ns=terminal.observed_at_ns if terminal else 0,
+                terminal_observation_source=terminal.source if terminal else "",
+                terminal_observation_sequence=terminal.sequence if terminal else -1,
             )
         )
     return tuple(candidates)

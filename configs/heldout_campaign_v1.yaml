@@ -1,0 +1,17 @@
+schema_version: research3-heldout-campaign/v1
+protocol_version: "1.1"
+partition: held_out
+protected_data: true
+explicit_authorization_required: true
+route_count: 6
+seed_count: 1
+conditions_per_route: 8
+systems: [B1, B2, B4, B5, B6]
+expected_episode_count: 240
+output: reports/graph_heldout_v1.0.jsonl
+analysis: reports/research3_graph_heldout_analysis_v1.0.json
+prerequisites:
+  landmark_calibration_sha256: 90ad3edd8173c1b07c80bd1acc1f50cb7342287668db857f7a289a55d32d1c99
+  nonprotected_live_campaign: r3-live-nonprotected-v2
+  nonprotected_live_terminal_outcomes: 14
+  nonprotected_live_collisions: 0

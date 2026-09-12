@@ -1,0 +1,17 @@
+{
+  "collisions": 0,
+  "episodes": 1,
+  "evidence_scope": "development_validation_engineering_pilots",
+  "full_instruction_completion_measured": true,
+  "inputs": [
+    {
+      "path": "reports/physical_live_episodes/r3-coexist-dev10-20260911-v1/summary.json",
+      "sha256": "af7fdc123ef2e20131775a4dd12b934d11567dee992453885a9b4c7aea17bab5"
+    }
+  ],
+  "navigation_successes": 0,
+  "schema_version": "research3-measured-live-analysis/v1",
+  "terminal_identity_correct": 1,
+  "terminal_identity_unknown": 0,
+  "timeouts": 0
+}

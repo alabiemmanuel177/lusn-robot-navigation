@@ -1,0 +1,27 @@
+schema_version: landmark-challenge-campaign/v1
+challenge_id: validation-palette-impostors-v1b
+partition: validation
+protected_test_data: false
+online_ground_truth_used: false
+segmentation_labels_used: false
+detector_configuration_changed: false
+reason: >-
+  The prespecified val00-doorway-impostor view_side=-1 produced no detector output
+  because the camera was blocked by base-world geometry. This supplemental condition
+  changes only the viewing side; it was defined before any human verdicts.
+design: >-
+  A visual-only neutral occluder hides one registered landmark while an unregistered
+  vertical emissive swatch rendered from the linearized frozen camera-space sRGB palette
+  is placed inside the deployed association radius. Human review supplies verdicts.
+conditions:
+- condition_id: val00-doorway-impostor-side1
+  kind: palette_swatch_impostor_with_occlusion
+  route_id: val_00_r0
+  entity_id: val_00-r014-doorway-1
+  view_side: 1
+  view_distance_m: 1.45
+  impostor_offset_m: 0.55
+  impostor_size_m: 0.48
+  occluder_offset_m: 0.18
+  occluder_width_m: 1.25
+  occluder_height_m: 2.0

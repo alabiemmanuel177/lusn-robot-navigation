@@ -1,0 +1,91 @@
+{
+  "base_instruction_id": "base-r005",
+  "forbidden_gate_ids": [
+    "wrong_doorway_-1_1",
+    "wrong_doorway_1_1",
+    "wrong_doorway_1_2"
+  ],
+  "gates": [
+    {
+      "a": [
+        1.2,
+        1.25
+      ],
+      "b": [
+        1.2,
+        -1.25
+      ],
+      "direction": 1,
+      "gate_id": "corridor"
+    },
+    {
+      "a": [
+        2.7,
+        1.25
+      ],
+      "b": [
+        2.7,
+        -1.25
+      ],
+      "direction": 1,
+      "gate_id": "past_chair"
+    },
+    {
+      "a": [
+        6.75,
+        -1.25
+      ],
+      "b": [
+        8.25,
+        -1.25
+      ],
+      "direction": -1,
+      "gate_id": "second_doorway"
+    },
+    {
+      "a": [
+        3.4000000000000004,
+        -1.25
+      ],
+      "b": [
+        4.9,
+        -1.25
+      ],
+      "direction": -1,
+      "gate_id": "wrong_doorway_-1_1"
+    },
+    {
+      "a": [
+        3.4000000000000004,
+        1.25
+      ],
+      "b": [
+        4.9,
+        1.25
+      ],
+      "direction": 1,
+      "gate_id": "wrong_doorway_1_1"
+    },
+    {
+      "a": [
+        6.75,
+        1.25
+      ],
+      "b": [
+        8.25,
+        1.25
+      ],
+      "direction": 1,
+      "gate_id": "wrong_doorway_1_2"
+    }
+  ],
+  "geometry_evidence": "pending independent occupancy/SDF audit",
+  "geometry_verified": false,
+  "map_sha256": "1485ee9d245d439c8e572a7a800d8dd5098eafdf112b98f953a3b1447992efca",
+  "required_gate_ids": [
+    "corridor",
+    "past_chair",
+    "second_doorway"
+  ],
+  "schema_version": "ordered-instruction-geometry/v1"
+}

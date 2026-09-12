@@ -1,0 +1,92 @@
+{
+  "color_tolerance": 10.0,
+  "confidence_calibration_frozen": false,
+  "development_evidence": [
+    {
+      "map_id": "r3geo_base_r001",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stationary-draft-v1-r001-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "3c3257d2c1f30a51344cdd1fc57a98c05eb5dcc770d3de895752b9fffc5ab3b6",
+        "perception_capture/frame-000.json": "e3380135af2bab0630cc8bb14262e8626304b836d71fa7f5ec617e5af4e95ad3",
+        "request.json": "8b7a1662542a496805d9731cb6cb00278483b5d5d4405e21010d21597f2b5702"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r002",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stationary-draft-v1-r002-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "2d80f020a610e9489c85c87566967d0419d7773c99f828544f0e37727703c4c2",
+        "perception_capture/frame-000.json": "2daa9ab6325a00d1fd70bfab028e3839c39ff5f92a6f214b24730abbb7a5c398",
+        "request.json": "d9fa7934fff501c34b9f1772fda3ce26a69d39425ae2d4f61f3899de29c96e3e"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r003",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stationary-draft-v1-r003-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "9d274b53b4b66748529b63aa61ef706879db2c21c0571223130029f120494973",
+        "perception_capture/frame-000.json": "e4c1b1d0c566d48b1a43733b9e019a47e5132d31614ae3e1eb7b62ed82f4642e",
+        "request.json": "31ed0dd6e041ac56c2d0ea8f66ba9b641f333224b628f339097e037f637275dc"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r004",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-stationary-draft-v1-r004-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "51504f2b7b61fd3af54ab3b3b0597e499f05c14cc5797f312941bd67c055554a",
+        "perception_capture/frame-000.json": "d1392d3347a8045dee84f78ef6530edcc0ad7231683dddacbb2cc2b87c52b7a2",
+        "request.json": "f28f4f8b3196ddb7898968ec722f3bb47d73c4a2e3228f977ace8a1585da71d9"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-readable-lab-dev10-20260911-v1",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "017e26c83fd121a692240f7c0e71cdab879061a76726429e4ff72242e4894906",
+        "perception_capture/frame-000.json": "d2a3753b6a34fca81c33652ad8c014818e2f9895bd4a98085992b6d5d1a0f072",
+        "request.json": "af43092c7d331102c0824759d112b5a50de8d0a74d72ab4c9fa6dab0ccfaad47"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-readable-office-dev10-20260911-v1",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "28c551ce69f31496154b8e26c5520c3992652bc31f610a0524db1102f60c0620",
+        "perception_capture/frame-000.json": "a2c1e940f7c4ceb5b20d12e3ad2f77ef1f57b48ede2604d7326a086b44a9d1ca",
+        "request.json": "8eb7d35599d2f79cbf4372469c33a62d57e5e8868b148296eb0523af8a78f63d"
+      }
+    }
+  ],
+  "horizontal_fov": 2.0,
+  "human_labels_generated": false,
+  "limitations": [
+    "no_per_map_detector_accuracy_claim",
+    "no_confidence_calibration",
+    "no_human_correct_incorrect_labels",
+    "no_heldout_or_confirmatory_protocol_freeze"
+  ],
+  "profiles": {
+    "r3geo_base_r001": "dc6762ee3dbeb4078091e7335af84f298cad5ada6c81894cfe698ab1888aa17e",
+    "r3geo_base_r002": "9e1084dfc72a76d652551dd64e634e0e4b11c53a0edf08e9569a92a1af50c336",
+    "r3geo_base_r003": "61ebaf76276099516f57a632cdb253ecac3740801c0cc363e0c7729bf92318f4",
+    "r3geo_base_r004": "e9d0e30213451eb09a8559945615ab9754df57166d14cb9ddab1e85a9eeba090",
+    "r3geo_base_r005": "ad549ad85f6e9d440efa246371a903baa459861d153d9bcb2196aa00066cde70",
+    "r3geo_base_r006": "ea98ce97686ac0f7497522273294fe99bac5bdc8fb36fafe20f853427eca2613",
+    "r3geo_base_r007": "6328230ae75f897cd8450ebe460072d579e0b879dc4349d202067ed903d5efb4",
+    "r3geo_base_r008": "55882e0901b473295efba547ba08ddc6e3898cc4418103ca8e5cbc3342e7e868",
+    "r3geo_base_r009": "ff2a083704c1df7c2e4b28e6d119970546c4be7115180a09229a5996882e0a68",
+    "r3geo_base_r010": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+    "r3geo_base_r011": "06f91b67b8de675889c60a6b7ae7faad3a9bf60b6799efb6842d357958e4e8ce",
+    "r3geo_base_r012": "cbd32ff5331fa59ed82623ff9083916bd27dd626927a45288045095b3fff3d2f",
+    "r3geo_base_r013": "bf45dfbc7c84a38376325e64c9efb8d6681cf785c355197097d19773f862011a",
+    "r3geo_base_r014": "8e677c9f726e3d6383dca92ed5d39cca3b8b333ad3107d8b847d2962528eea73"
+  },
+  "protected_data_used": false,
+  "purpose": "engineering_camera_settings_only_not_confidence_calibration_or_experiment_protocol",
+  "schema_version": "research3-engineering-camera-freeze/v1",
+  "source_capture_plan_sha256": "5617221425ff8beee6635dc6eb1596aff329af3ca535f3810ba9d5230c42dbe9",
+  "visual_check_attestation": {
+    "development_visual_check_complete": true,
+    "source": "explicit_caller_attestation_not_automatic_QA_or_human_detection_verdict"
+  }
+}

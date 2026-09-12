@@ -1,0 +1,11 @@
+{
+  "decision_count": 4,
+  "final_action": "commit",
+  "final_route_id": "dev_00_r0",
+  "fixture_warning_only": true,
+  "guard_passed": true,
+  "monitor_path": "/research2/warning -> /failure_monitor_state -> B6 risk",
+  "proposal_count": 1,
+  "research_evidence": false,
+  "schema_version": "research3-live-contract-smoke/v1"
+}

@@ -1,0 +1,2823 @@
+{
+  "benchmark_sha256": "bb718b69ccc85ae70b63c014811d24da152050937f34bb2043d6e6b4b8ce8d8e",
+  "episode_count": 560,
+  "episodes": [
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r010-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r010-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r010-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r010-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r010-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r010-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r010-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r010-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r010-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r010-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r010-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r010-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r010-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r010-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r010-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r010-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r010-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r010-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r010-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r010-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r010-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r010-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r010-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r010-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r010-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r010-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r010-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r010-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r010-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r010-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r010-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r010-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r010-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r010-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r010-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r010-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r010-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r010-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r010-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r010-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r001-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r001-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r001-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r001-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r001-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r001-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r001-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r001-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r001-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r001-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r001-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r001-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r001-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r001-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r001-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r001-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r001-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r001-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r001-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r001-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r001-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r001-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r001-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r001-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r001-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r001-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r001-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r001-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r001-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r001-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r001-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r001-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r001-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r001-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r001-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r001-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r001-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r001-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r001-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r001-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r002-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r002-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r002-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r002-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r002-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r002-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r002-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r002-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r002-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r002-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r002-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r002-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r002-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r002-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r002-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r002-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r002-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r002-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r002-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r002-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r002-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r002-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r002-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r002-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r002-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r002-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r002-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r002-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r002-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r002-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r002-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r002-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r002-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r002-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r002-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r002-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r002-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r002-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r002-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r002-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r003-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r003-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r003-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r003-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r003-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r003-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r003-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r003-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r003-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r003-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r003-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r003-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r003-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r003-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r003-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r003-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r003-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r003-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r003-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r003-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r003-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r003-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r003-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r003-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r003-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r003-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r003-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r003-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r003-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r003-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r003-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r003-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r003-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r003-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r003-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r003-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r003-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r003-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r003-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r003-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B1",
+      "variant_id": "base-r004-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B2",
+      "variant_id": "base-r004-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B4",
+      "variant_id": "base-r004-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B5",
+      "variant_id": "base-r004-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B6",
+      "variant_id": "base-r004-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B1",
+      "variant_id": "base-r004-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B2",
+      "variant_id": "base-r004-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B4",
+      "variant_id": "base-r004-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B5",
+      "variant_id": "base-r004-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B6",
+      "variant_id": "base-r004-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B1",
+      "variant_id": "base-r004-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B2",
+      "variant_id": "base-r004-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B4",
+      "variant_id": "base-r004-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B5",
+      "variant_id": "base-r004-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B6",
+      "variant_id": "base-r004-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B1",
+      "variant_id": "base-r004-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B2",
+      "variant_id": "base-r004-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B4",
+      "variant_id": "base-r004-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B5",
+      "variant_id": "base-r004-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B6",
+      "variant_id": "base-r004-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B1",
+      "variant_id": "base-r004-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B2",
+      "variant_id": "base-r004-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B4",
+      "variant_id": "base-r004-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B5",
+      "variant_id": "base-r004-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B6",
+      "variant_id": "base-r004-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B1",
+      "variant_id": "base-r004-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B2",
+      "variant_id": "base-r004-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B4",
+      "variant_id": "base-r004-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B5",
+      "variant_id": "base-r004-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B6",
+      "variant_id": "base-r004-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B1",
+      "variant_id": "base-r004-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B2",
+      "variant_id": "base-r004-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B4",
+      "variant_id": "base-r004-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B5",
+      "variant_id": "base-r004-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B6",
+      "variant_id": "base-r004-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B1",
+      "variant_id": "base-r004-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B2",
+      "variant_id": "base-r004-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B4",
+      "variant_id": "base-r004-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B5",
+      "variant_id": "base-r004-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_02_r1",
+      "system_id": "B6",
+      "variant_id": "base-r004-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B1",
+      "variant_id": "base-r005-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B2",
+      "variant_id": "base-r005-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B4",
+      "variant_id": "base-r005-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B5",
+      "variant_id": "base-r005-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B6",
+      "variant_id": "base-r005-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B1",
+      "variant_id": "base-r005-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B2",
+      "variant_id": "base-r005-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B4",
+      "variant_id": "base-r005-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B5",
+      "variant_id": "base-r005-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B6",
+      "variant_id": "base-r005-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B1",
+      "variant_id": "base-r005-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B2",
+      "variant_id": "base-r005-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B4",
+      "variant_id": "base-r005-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B5",
+      "variant_id": "base-r005-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B6",
+      "variant_id": "base-r005-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B1",
+      "variant_id": "base-r005-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B2",
+      "variant_id": "base-r005-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B4",
+      "variant_id": "base-r005-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B5",
+      "variant_id": "base-r005-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B6",
+      "variant_id": "base-r005-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B1",
+      "variant_id": "base-r005-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B2",
+      "variant_id": "base-r005-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B4",
+      "variant_id": "base-r005-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B5",
+      "variant_id": "base-r005-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B6",
+      "variant_id": "base-r005-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B1",
+      "variant_id": "base-r005-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B2",
+      "variant_id": "base-r005-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B4",
+      "variant_id": "base-r005-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B5",
+      "variant_id": "base-r005-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B6",
+      "variant_id": "base-r005-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B1",
+      "variant_id": "base-r005-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B2",
+      "variant_id": "base-r005-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B4",
+      "variant_id": "base-r005-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B5",
+      "variant_id": "base-r005-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B6",
+      "variant_id": "base-r005-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B1",
+      "variant_id": "base-r005-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B2",
+      "variant_id": "base-r005-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B4",
+      "variant_id": "base-r005-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B5",
+      "variant_id": "base-r005-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_03_r0",
+      "system_id": "B6",
+      "variant_id": "base-r005-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B1",
+      "variant_id": "base-r006-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B2",
+      "variant_id": "base-r006-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B4",
+      "variant_id": "base-r006-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B5",
+      "variant_id": "base-r006-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B6",
+      "variant_id": "base-r006-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B1",
+      "variant_id": "base-r006-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B2",
+      "variant_id": "base-r006-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B4",
+      "variant_id": "base-r006-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B5",
+      "variant_id": "base-r006-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B6",
+      "variant_id": "base-r006-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B1",
+      "variant_id": "base-r006-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B2",
+      "variant_id": "base-r006-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B4",
+      "variant_id": "base-r006-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B5",
+      "variant_id": "base-r006-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B6",
+      "variant_id": "base-r006-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B1",
+      "variant_id": "base-r006-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B2",
+      "variant_id": "base-r006-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B4",
+      "variant_id": "base-r006-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B5",
+      "variant_id": "base-r006-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B6",
+      "variant_id": "base-r006-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B1",
+      "variant_id": "base-r006-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B2",
+      "variant_id": "base-r006-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B4",
+      "variant_id": "base-r006-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B5",
+      "variant_id": "base-r006-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B6",
+      "variant_id": "base-r006-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B1",
+      "variant_id": "base-r006-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B2",
+      "variant_id": "base-r006-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B4",
+      "variant_id": "base-r006-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B5",
+      "variant_id": "base-r006-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B6",
+      "variant_id": "base-r006-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B1",
+      "variant_id": "base-r006-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B2",
+      "variant_id": "base-r006-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B4",
+      "variant_id": "base-r006-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B5",
+      "variant_id": "base-r006-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B6",
+      "variant_id": "base-r006-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B1",
+      "variant_id": "base-r006-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B2",
+      "variant_id": "base-r006-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B4",
+      "variant_id": "base-r006-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B5",
+      "variant_id": "base-r006-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_03_r1",
+      "system_id": "B6",
+      "variant_id": "base-r006-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B1",
+      "variant_id": "base-r007-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B2",
+      "variant_id": "base-r007-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B4",
+      "variant_id": "base-r007-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B5",
+      "variant_id": "base-r007-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B6",
+      "variant_id": "base-r007-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B1",
+      "variant_id": "base-r007-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B2",
+      "variant_id": "base-r007-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B4",
+      "variant_id": "base-r007-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B5",
+      "variant_id": "base-r007-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B6",
+      "variant_id": "base-r007-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B1",
+      "variant_id": "base-r007-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B2",
+      "variant_id": "base-r007-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B4",
+      "variant_id": "base-r007-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B5",
+      "variant_id": "base-r007-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B6",
+      "variant_id": "base-r007-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B1",
+      "variant_id": "base-r007-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B2",
+      "variant_id": "base-r007-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B4",
+      "variant_id": "base-r007-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B5",
+      "variant_id": "base-r007-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B6",
+      "variant_id": "base-r007-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B1",
+      "variant_id": "base-r007-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B2",
+      "variant_id": "base-r007-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B4",
+      "variant_id": "base-r007-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B5",
+      "variant_id": "base-r007-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B6",
+      "variant_id": "base-r007-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B1",
+      "variant_id": "base-r007-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B2",
+      "variant_id": "base-r007-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B4",
+      "variant_id": "base-r007-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B5",
+      "variant_id": "base-r007-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B6",
+      "variant_id": "base-r007-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B1",
+      "variant_id": "base-r007-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B2",
+      "variant_id": "base-r007-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B4",
+      "variant_id": "base-r007-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B5",
+      "variant_id": "base-r007-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B6",
+      "variant_id": "base-r007-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B1",
+      "variant_id": "base-r007-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B2",
+      "variant_id": "base-r007-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B4",
+      "variant_id": "base-r007-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B5",
+      "variant_id": "base-r007-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_04_r0",
+      "system_id": "B6",
+      "variant_id": "base-r007-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B1",
+      "variant_id": "base-r008-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B2",
+      "variant_id": "base-r008-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B4",
+      "variant_id": "base-r008-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B5",
+      "variant_id": "base-r008-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B6",
+      "variant_id": "base-r008-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B1",
+      "variant_id": "base-r008-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B2",
+      "variant_id": "base-r008-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B4",
+      "variant_id": "base-r008-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B5",
+      "variant_id": "base-r008-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B6",
+      "variant_id": "base-r008-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B1",
+      "variant_id": "base-r008-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B2",
+      "variant_id": "base-r008-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B4",
+      "variant_id": "base-r008-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B5",
+      "variant_id": "base-r008-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B6",
+      "variant_id": "base-r008-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B1",
+      "variant_id": "base-r008-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B2",
+      "variant_id": "base-r008-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B4",
+      "variant_id": "base-r008-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B5",
+      "variant_id": "base-r008-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B6",
+      "variant_id": "base-r008-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B1",
+      "variant_id": "base-r008-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B2",
+      "variant_id": "base-r008-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B4",
+      "variant_id": "base-r008-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B5",
+      "variant_id": "base-r008-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B6",
+      "variant_id": "base-r008-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B1",
+      "variant_id": "base-r008-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B2",
+      "variant_id": "base-r008-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B4",
+      "variant_id": "base-r008-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B5",
+      "variant_id": "base-r008-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B6",
+      "variant_id": "base-r008-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B1",
+      "variant_id": "base-r008-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B2",
+      "variant_id": "base-r008-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B4",
+      "variant_id": "base-r008-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B5",
+      "variant_id": "base-r008-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B6",
+      "variant_id": "base-r008-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B1",
+      "variant_id": "base-r008-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B2",
+      "variant_id": "base-r008-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B4",
+      "variant_id": "base-r008-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B5",
+      "variant_id": "base-r008-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_04_r1",
+      "system_id": "B6",
+      "variant_id": "base-r008-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B1",
+      "variant_id": "base-r009-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B2",
+      "variant_id": "base-r009-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B4",
+      "variant_id": "base-r009-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B5",
+      "variant_id": "base-r009-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B6",
+      "variant_id": "base-r009-truthful_original-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B1",
+      "variant_id": "base-r009-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B2",
+      "variant_id": "base-r009-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B4",
+      "variant_id": "base-r009-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B5",
+      "variant_id": "base-r009-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B6",
+      "variant_id": "base-r009-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B1",
+      "variant_id": "base-r009-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B2",
+      "variant_id": "base-r009-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B4",
+      "variant_id": "base-r009-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B5",
+      "variant_id": "base-r009-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B6",
+      "variant_id": "base-r009-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B1",
+      "variant_id": "base-r009-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B2",
+      "variant_id": "base-r009-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B4",
+      "variant_id": "base-r009-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B5",
+      "variant_id": "base-r009-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B6",
+      "variant_id": "base-r009-missing_landmark-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B1",
+      "variant_id": "base-r009-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B2",
+      "variant_id": "base-r009-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B4",
+      "variant_id": "base-r009-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B5",
+      "variant_id": "base-r009-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B6",
+      "variant_id": "base-r009-attribute_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B1",
+      "variant_id": "base-r009-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B2",
+      "variant_id": "base-r009-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B4",
+      "variant_id": "base-r009-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B5",
+      "variant_id": "base-r009-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B6",
+      "variant_id": "base-r009-relation_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B1",
+      "variant_id": "base-r009-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B2",
+      "variant_id": "base-r009-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B4",
+      "variant_id": "base-r009-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B5",
+      "variant_id": "base-r009-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B6",
+      "variant_id": "base-r009-topology_corruption-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B1",
+      "variant_id": "base-r009-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B2",
+      "variant_id": "base-r009-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B4",
+      "variant_id": "base-r009-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B5",
+      "variant_id": "base-r009-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "dev_05_r0",
+      "system_id": "B6",
+      "variant_id": "base-r009-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r014-truthful_original-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r014-truthful_original-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r014-truthful_original-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r014-truthful_original-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r014-truthful_original-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r014-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r014-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r014-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r014-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r014-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r014-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r014-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r014-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r014-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r014-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r014-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r014-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r014-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r014-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r014-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r014-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r014-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r014-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r014-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r014-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r014-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r014-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r014-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r014-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r014-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r014-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r014-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r014-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r014-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r014-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B1",
+      "variant_id": "base-r014-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B2",
+      "variant_id": "base-r014-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B4",
+      "variant_id": "base-r014-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B5",
+      "variant_id": "base-r014-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_00_r0",
+      "system_id": "B6",
+      "variant_id": "base-r014-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r011-truthful_original-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r011-truthful_original-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r011-truthful_original-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r011-truthful_original-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r011-truthful_original-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r011-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r011-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r011-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r011-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r011-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r011-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r011-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r011-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r011-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r011-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r011-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r011-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r011-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r011-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r011-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r011-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r011-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r011-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r011-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r011-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r011-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r011-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r011-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r011-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r011-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r011-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r011-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r011-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r011-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r011-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B1",
+      "variant_id": "base-r011-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B2",
+      "variant_id": "base-r011-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B4",
+      "variant_id": "base-r011-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B5",
+      "variant_id": "base-r011-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_01_r0",
+      "system_id": "B6",
+      "variant_id": "base-r011-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r012-truthful_original-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r012-truthful_original-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r012-truthful_original-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r012-truthful_original-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r012-truthful_original-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r012-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r012-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r012-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r012-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r012-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r012-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r012-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r012-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r012-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r012-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r012-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r012-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r012-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r012-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r012-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r012-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r012-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r012-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r012-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r012-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r012-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r012-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r012-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r012-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r012-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r012-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r012-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r012-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r012-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r012-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B1",
+      "variant_id": "base-r012-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B2",
+      "variant_id": "base-r012-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B4",
+      "variant_id": "base-r012-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B5",
+      "variant_id": "base-r012-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_01_r1",
+      "system_id": "B6",
+      "variant_id": "base-r012-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r013-truthful_original-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r013-truthful_original-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r013-truthful_original-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r013-truthful_original-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r013-truthful_original-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r013-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r013-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r013-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r013-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r013-truthful_paraphrase-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r013-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r013-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r013-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r013-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r013-ambiguous_reference-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r013-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r013-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r013-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r013-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r013-missing_landmark-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r013-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r013-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r013-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r013-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r013-attribute_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r013-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r013-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r013-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r013-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r013-relation_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r013-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r013-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r013-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r013-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r013-topology_corruption-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B1",
+      "variant_id": "base-r013-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B2",
+      "variant_id": "base-r013-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B4",
+      "variant_id": "base-r013-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B5",
+      "variant_id": "base-r013-false_inserted_clause-s0"
+    },
+    {
+      "route_id": "val_02_r0",
+      "system_id": "B6",
+      "variant_id": "base-r013-false_inserted_clause-s0"
+    }
+  ],
+  "execution_gates": [
+    "independent semantic evaluation annotations and scorer validated",
+    "all five live policy variants smoke-tested",
+    "retain all collisions, timeouts and post-dispatch infrastructure failures",
+    "freeze source snapshot and execution order before campaign",
+    "document common monitor guard and single-route catalogue limitations"
+  ],
+  "protected_test_routes_used": false,
+  "route_manifest_sha256": "bd9c4eaa1958e1136e4dc97ca47a5bba890295959e8c0c6f10b53eb6ab2e09dc",
+  "schema_version": "research3-live-comparison-plan/v1",
+  "shared_controls": {
+    "goal_tolerance_m": 0.35,
+    "inspection_budget": 1,
+    "inspection_dwell_s": 2,
+    "wall_timeout_s": 180
+  },
+  "status": "prepared_diagnostic_matrix_not_confirmatory_protocol"
+}
