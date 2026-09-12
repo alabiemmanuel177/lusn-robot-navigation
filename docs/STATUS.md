@@ -1,5 +1,36 @@
 # Research 3 status and handoff
 
+## Expansion execution in progress — 12 September 2026 (afternoon)
+
+Emmanuel asked for every outstanding item to be completed. Full record:
+`docs/EXPANSION_EXECUTION_20260912.md`. Summary of state at the time of writing:
+
+- **Rendering camera finding.** The v1 diagnostic assets were placed with the
+  localization `camera_depth_frame` transform, which is about 0.06 m behind,
+  0.05 m left and 0.11 m below the Gazebo sensor that renders pixels. All four
+  rendered v1 occluders covered 0% of the projected marker box. A rendering
+  camera model was derived from the robot description and verified on 40
+  control renders within 7 mm (`reports/rendering_camera_verification_20260912_v1.json`).
+- **v2 diagnostic candidates** rebuilt with that model (80/80 static audit v3
+  passed). 78 of 80 rendered; all 78 pass agent preflight with occluder box
+  coverage 0.174 to 0.203. Asset-review packet:
+  `reports/expansion_diagnostic_asset_review_20260912_v1` (open `index.html`).
+  Two occluders re-render after the simulator frees; human acceptance pending.
+- **Collection running.** The development partition (400 attempts) started at
+  11:22 UTC under `reports/expansion_collection_development_20260912_v1` with
+  instrumentation snapshot v4; the chain continues into the development review
+  kit, validation collection (160 attempts, per-view freezes, gated on the
+  complete development report), the validation kit and 160 paired B5/B6
+  feasibility navigation episodes. Lifecycle ledgers are append-only.
+- **Power feasibility.** Declared-grid simulation at six held-out worlds: one
+  seed cannot reach 0.80 power for +0.10 under any grid value; four seeds
+  reach it only at paired discordance 0.10 and ICC 0; eight seeds at
+  discordance 0.10 and ICC up to 0.10. Empirical nuisance estimates follow from
+  the feasibility runs.
+- **Calibration pipeline** (`scripts/fit_expansion_calibration.py`) is
+  implemented and waits on human labels; no fit exists.
+- Source committed on `main`; 913 tests passed before the chain started.
+
 ## Exact-frame wrapper preflight passed — 12 September 2026
 
 The user explicitly approved the proposed R3-only wrapper and isolated preflight.

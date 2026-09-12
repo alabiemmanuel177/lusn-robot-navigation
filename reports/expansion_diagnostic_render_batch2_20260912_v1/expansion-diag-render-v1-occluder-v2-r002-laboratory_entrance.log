@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py", line 809, in <module>
+    main()
+  File "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py", line 799, in main
+    execute(request, variant, catalog, report_dir, args.system_id, args.calibration)
+  File "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py", line 602, in execute
+    raise error
+  File "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py", line 437, in execute
+    raise RuntimeError('stationary capture stack process exited')
+RuntimeError: stationary capture stack process exited

@@ -23,3 +23,6 @@ reports/*.zip
 reports/.research3_physical_execution.lock
 .agents/
 .codex/
+
+# Rendered diagnostic packet images are hash-pinned in their manifest.json; keep the bytes out of git.
+reports/expansion_diagnostic_asset_review_*/images/

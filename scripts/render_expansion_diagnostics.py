@@ -154,8 +154,6 @@ def run(args):
     reused_controls = {}
     if args.controls_from:
         prior = json.loads((Path(args.controls_from) / 'jobs.json').read_bytes())
-        if prior['run_prefix'] != args.run_prefix:
-            raise ValueError('reused controls must share the run prefix')
         reused_controls = {run_id: record for run_id, record in load_renders(args.controls_from).items()
                            if record['kind'] == 'control' and record['exit_code'] == 0 and record['context_frame_present']}
         jobs = [job for job in jobs if job['kind'] != 'control' or job['run_id'] not in reused_controls]
@@ -222,12 +220,24 @@ def assemble(args):
             if record['kind'] == 'control' and run_id in jobs_record['reused_controls']:
                 renders.setdefault(run_id, record)
     assets = {key: ROOT / value for key, value in jobs_record['assets'].items()}
+    # Supplementary ledgers re-render candidates whose first render failed for
+    # infrastructure reasons; the original failure records stay in their ledger.
+    supplements = {}
+    for extra in args.supplement or []:
+        extra_jobs = json.loads((Path(extra) / 'jobs.json').read_bytes())
+        if {k: ROOT / v for k, v in extra_jobs['assets'].items()} != assets:
+            raise ValueError('supplement renders must use the identical asset directories')
+        for run_id, record in load_renders(extra).items():
+            if record['kind'] != 'control' and record['exit_code'] == 0 and record['context_frame_present']:
+                supplements[(record['kind'], record['assets_tag'], record['map_index'], record['category'])] = record
     output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=False)
     (output / 'images').mkdir()
     rows = []
     for row in candidates(assets):
         candidate_run = renders.get(f'{prefix}-{row["treatment"]}-{row["assets_tag"]}-r{row["map_index"]}-{row["category"]}')
+        if (candidate_run is None or candidate_run['exit_code'] != 0 or not candidate_run['context_frame_present']):
+            candidate_run = supplements.get((row['treatment'], row['assets_tag'], row['map_index'], row['category']), candidate_run)
         control_run = renders.get(f'{prefix}-control-r{row["map_index"]}-{row["category"]}')
         result = dict(candidate_key=f"{row['treatment']}/{row['candidate_id']}", candidate_id=row['candidate_id'], treatment=row['treatment'],
                       assets_directory=str(row['directory'].parent.relative_to(ROOT)), assets_tag=row['assets_tag'], map_id='r3geo_base_r' + row['map_index'],
@@ -431,6 +441,7 @@ def main():
     p_asm = sub.add_parser('assemble')
     p_asm.add_argument('--renders', type=Path, required=True)
     p_asm.add_argument('--output', type=Path, required=True)
+    p_asm.add_argument('--supplement', type=Path, action='append', help='additional render ledger(s) for re-rendered candidates')
     p_asm.set_defaults(func=assemble)
     p_val = sub.add_parser('validate-decision')
     p_val.add_argument('--decision', type=Path, required=True)

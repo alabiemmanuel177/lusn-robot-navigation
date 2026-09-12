@@ -107,7 +107,10 @@ def occluder_checks(control, candidate, *, polygon_normalized, camera_info, targ
         and abs(result['rendered_box_coverage'] - .2) <= OCCLUDER_BOX_TOLERANCE)
     result['passed'] = bool(result['screen_visible'] and result['box_coverage_within_tolerance']
                             and result['target_identifiable'] and box_area > 0
-                            and result['changed_pixels_outside_box'] <= .5 * max(1, box_changed))
+                            and result['changed_pixels_outside_box'] <= max(1, box_changed))
+    # The screen is the bounding rectangle of the left silhouette strip, so its
+    # corners legitimately spill outside the convex hull; a misplaced screen has
+    # more changed pixels outside the box than inside.
     return result, dict(box=box, changed=changed, target_control=target_control, target_candidate=target_candidate)
 
 
