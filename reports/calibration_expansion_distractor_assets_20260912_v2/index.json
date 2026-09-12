@@ -1,0 +1,251 @@
+{
+  "schema_version": "research3-expansion-diagnostic-preparation/v2",
+  "treatment": "sphere",
+  "plan_sha256": "d03ae270b491d21ee678a8349c4ff6e3f64772d3e70f09f577cbdc6166c2df7c",
+  "camera_model": "research3-rendering-camera-model/v1",
+  "results": [
+    {
+      "candidate_id": "expansion-v1-r001-chair-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "611d8af172648fc67f18fc52380247628e14f192df785e5aecdab24f7e3f2655",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r001-doorway-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "003c0c819a598a3276c71112ec0f4b70c3413d1d6316fd26ec68cef7ecdabddf",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "a438d8ab29e81373835f80b8bd4c9e5491fac09273c1a9b99d3507981aad61a6",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r001-office_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "84d13cd4c90bc5c8b3c5d7e26a90172043feaceb78b35255152f27a13b829ee0",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r002-chair-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "8bf9e435a338e2d65dcb3aabd1150ec7e7393fdc2448254b14f74ca8b239f728",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r002-doorway-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "108aaaaa4638089a1fd6868a42423135d49812ae85137437695868f8beed894d",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "5fe16cfec163ee7bb7a8eb29c050cadf24e47bd51b1eecaf42181222a59d5a54",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r002-office_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "a5b359f6124d54da75ed300447f7817ce5a58c8ae27bc87752aa1ed25298d397",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r003-chair-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "a9b832f278335c6d3a1460f9725d1b027833a8c29cadf43ee3a9ee1552ae3f59",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r003-doorway-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "d3d3532aa825149b9261d24f1327430e08de03622e50d5b3670809be93c97d0b",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "6a06cfc1c594c47bcc38673ede1c9652e1aad415e8990b8128ff1b0ae5cbcdec",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r003-office_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "293bfa0b5212061d99654e8385a29ebbfef8fe00d137fa23a8652d96b27af9f2",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r004-chair-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "d3f10984056a8272736886195d2a09f803d2165e971079dccdf589b89e44aaa6",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r004-doorway-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "079c3e6d5dafadee05b3038859fca0b75a3aeb95cf2c6d5bc148a1cbb97f8e57",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "5088544275d8e85763b8bab7338f601e9cf8d2d03ed98a76e4f4db7d7ae7363e",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r004-office_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "3c3d78ad4263633e92e7692c7f24b7bb7a7cbbc9ca1dad1af9bdf40bdc9dd3a0",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r005-chair-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "93844e25cf4e626a9fc862c8b1edfcf10f904d922c3eda137191c0ee5a2deeae",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r005-doorway-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "dd0603d7f3f5218de2c493957fdd8d97d187a6418d6a4c38f45a82deef9f771f",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "20941850b0e6fe824764113e973fb2b3a89fc010c0523d5617166d014cc03afc",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r005-office_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "b278a357ff3af6dc7badd8e9896e3cfd135c24d0518f03675c0cb3926bdfd206",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r006-chair-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "b4f89c3ea687c056eea4f385ff967d180965f68ef7a1439910fb692f28f59ec6",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r006-doorway-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "a1e27c501bdc7fa51f30f3aefe03c7593bb1d698af31ba5b6fcacde1f959d4e8",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "f40666a8f62dd1d914d8972b98282ab78ee479d91861eb139d1ec04c91bd0c48",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r006-office_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "73cb3b6ede8d1f7196c2915fe0f1eadab33edf35f071660b43a0b49094379db4",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r007-chair-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "bfa5030ff9794bfade31d539f1740994312562ad3b41523b92101c8f2e3a9476",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r007-doorway-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "66c390a41b97c012382717d7cabbc5e30b505b778487662a2f776dd293ba9fd0",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "32569b173bcc803c70ccb50fa20a4fbaa5a3b2453ec136c60177d06b2be4d98b",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r007-office_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "b51ddd1d00f651781de887aa274932e772d2dd42c495f4dcb48427139bb99d94",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r008-chair-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "7d512665298edbee86cf9a45a9900b5d16bfe43c9578b4501e15c551f473b4e7",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r008-doorway-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "68ee023de859550108a99fbbf1e35caf8adbf56786f75a230291d2798e1984c5",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "7f99b99d64cbcb8328ea4715011367ab150adb7933c556c26284584ec92713e5",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r008-office_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "b5e9ae8c5650077aeb654b21c892e51923703ce59328f4ab1b150e9b8f2ae41b",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r009-chair-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "5d56153207440edc40f2cd25859698133b5b7107f23f38b128edaec1aa191bc2",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r009-doorway-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "b5452865ccbbefa8dd1f97916fd3cf676ab19433918471da542d8eabf924bc53",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "81cbe69f1912aba6c90bd280c5ebfd1afef47b735a9f2333e4266d9ab42c7da1",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r009-office_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "8b6e9458cf02701196293a497ee953eeab44df4e63ca9e686e8c49ed2908a226",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r010-chair-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "a810bc53b68cb2ea930f6c41bbe08f757e055d16b65cae472bdaa2b96b40ce81",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r010-doorway-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "6b0f98b89f98bc3673e9b906d760533ee6a6475952235d33105bb5dddd2dca34",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "c3b062ebcd375f432dd22bd21f6407ae5e16fdc1e1b265d56dc24544eb82b171",
+      "analytic_fraction": null
+    },
+    {
+      "candidate_id": "expansion-v1-r010-office_entrance-s1-view0",
+      "status": "candidate_built",
+      "audit_sha256": "e89c4d87bbdb1cbe955264c289278718b615b296bf9e3e0342c71e2764e1a027",
+      "analytic_fraction": null
+    }
+  ],
+  "execution_authorized": false,
+  "rendered_preflight_completed": false,
+  "human_labels_generated": false
+}

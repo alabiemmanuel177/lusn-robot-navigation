@@ -1,0 +1,730 @@
+{
+  "all_rendered_checks_passed": false,
+  "all_static_checks_passed": true,
+  "candidates": 80,
+  "execution_authorized": false,
+  "human_approval_present": false,
+  "rows": [
+    {
+      "audit_sha256": "5ebee767376fcb5ea9794604ae5d33924fbe17004f47cee00b394534ff0cd501",
+      "candidate_id": "expansion-v1-r001-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "b08fff12737f37b233546cd325e33d7a541b4613101e7e64c8cc59334169529a",
+      "candidate_id": "expansion-v1-r001-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "6062c7eb8d0a5b195d12eb8d85ab02af8422edd9da7dc1a79b6d56fbc73f0168",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "b88020f84704bd391ea1e570565bdd6383abfeb43f49cf5ecd09d2fc6dbd5ccf",
+      "candidate_id": "expansion-v1-r001-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "a145da49d3b764bb71be28816ee49fc7c8e55296e35b4b0eb82df50ac73ae0ac",
+      "candidate_id": "expansion-v1-r002-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "9427db51cbd82bf4ea81a6520b227d0e2b9d0088256c0b53b61f2fd08a1e6e25",
+      "candidate_id": "expansion-v1-r002-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "d8d3e3a86bd2a39e2f17b3335aa5797bb079db1bd26bb16b2e63c2eeadc649cc",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "3b165b77c6036afd76fad733503f49723f9199b2fc634d0ff28c1192508e99c2",
+      "candidate_id": "expansion-v1-r002-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "415522999b9854da8e28e7088f24a74c20563e90cfa32543b27a80fbcff1134e",
+      "candidate_id": "expansion-v1-r003-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "bf510e776910e2c0e10b7373256bb468f8a613147493815616ab829f7827fb13",
+      "candidate_id": "expansion-v1-r003-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "f5671bf22d18ce954bda98ad20f924a37b2526af905d8b18ba22ae81e85a66f6",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "bc1e7c67c5b0e810075951d80d25a51177f204be51aee585154a54d114b35b96",
+      "candidate_id": "expansion-v1-r003-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "d794e0400862c3d561edfd7bc1a6322254c2638d0852e20249468da47dcbf405",
+      "candidate_id": "expansion-v1-r004-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "faab628b72949c129099a99455c2f939bfdc37cc99b96c249110c3f2da15dceb",
+      "candidate_id": "expansion-v1-r004-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "b31513b4a55441dcfdcfd86e46952a1f9c0a1cb7b6c7a1a99061c4a735796553",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "13d83eb05447a2955c8d23ffd4172df4f43cff85f389a4391331a70547458d7a",
+      "candidate_id": "expansion-v1-r004-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "256f75b2f7a8cf2b9371f9ef7df3cc41c547643598607c62e4b301ca0de3ae00",
+      "candidate_id": "expansion-v1-r005-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "382a1fab74e6325bea3d6f1da167f3d570b4d44d05bb6536503f6cb615b5b1d5",
+      "candidate_id": "expansion-v1-r005-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "825fe38dc29b3ecbebab259122adfdf9177a7d94a5207c161dc59ff152b31c34",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "7eb21d7bab3921dc7bf61d4fe98e8d3df2f49ccc2e68834573377e9145758834",
+      "candidate_id": "expansion-v1-r005-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "ce6b9d3472bcb24c7c44a759652ce344291324d470c7cdeef6ca2e0dcaacd6ee",
+      "candidate_id": "expansion-v1-r006-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "85927490aa0218e6f7707907f05962008c3b623fd05d168424a4222d30f49058",
+      "candidate_id": "expansion-v1-r006-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "0ca006deeafc47d80b4b5b7ad31bc826ebd1321afd4ea03325ce87d452afa6c3",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "771dcf27b08f3869d7eb2165dc52b5f7f58012d4f1d612f77ad0a8634bdd720f",
+      "candidate_id": "expansion-v1-r006-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "4fcbe09466a1ee7212455125c81384ce5458f3a243af5d5e1e220f851cb6525a",
+      "candidate_id": "expansion-v1-r007-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "da746ed39084f5868357d9c9e133e387c6cd8308555a77e64665489f6f3010e3",
+      "candidate_id": "expansion-v1-r007-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "df378249348524b0137c6b81029bf166daa28e9bce8159679174b7b106fb6d66",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "c1e025b295c39490ead6f0f52dc7e1d1f547de637a8a2eb1b87d0b773fe2ac8b",
+      "candidate_id": "expansion-v1-r007-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "70e120245591675dee5c4e021891941e8a92caaf6db0fb24430732a3bb9f25f9",
+      "candidate_id": "expansion-v1-r008-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "1cbe8c7052437e96ad4241a70505c926c8e7011c67e6ceeb5d5b913e3a5e762b",
+      "candidate_id": "expansion-v1-r008-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "d90ea7bdfc4d94426b254476b254043441e6ef9fdb43410f1d72471c42c45bdb",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "7063d664f66c54dd1066511fc311e9e26b1e69dab5a3312dbd0c424d03e1c180",
+      "candidate_id": "expansion-v1-r008-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "64040bb935beaa05e9d7983fe13dcc0b4838298f7c4110b61e721b01023f2f7c",
+      "candidate_id": "expansion-v1-r009-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "8cc4e02e34eabdcc887879a4ed5878bd3f81ebae318f92395cfd6f1815ec0070",
+      "candidate_id": "expansion-v1-r009-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "883d469e92bb70ec6b262089113b0b85e0def2ce1ea3d7174a83864904dfb3f9",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "2e4fed6abd69abcf48293e855bb98bdf7a0dc08adbd2d430c43c08c6a9a7c0a2",
+      "candidate_id": "expansion-v1-r009-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "a6e421585ac6673070251711452775685448e98a7f1d011ca6ce69b4ed040699",
+      "candidate_id": "expansion-v1-r010-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "b0f530a0a8c066982f0c9bf85931f81fff4a0aa9e8d51aafade9c42208f9e693",
+      "candidate_id": "expansion-v1-r010-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "4d1b02be20572aa6d00ac1c98234b6b1abaea5045c79ceff29bef89b240250ea",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "b965af70155ce716b4a19b9a10552a397ac6f41acb8788e38afe8bdd58c7541c",
+      "candidate_id": "expansion-v1-r010-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "occluder"
+    },
+    {
+      "audit_sha256": "611d8af172648fc67f18fc52380247628e14f192df785e5aecdab24f7e3f2655",
+      "candidate_id": "expansion-v1-r001-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "003c0c819a598a3276c71112ec0f4b70c3413d1d6316fd26ec68cef7ecdabddf",
+      "candidate_id": "expansion-v1-r001-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "a438d8ab29e81373835f80b8bd4c9e5491fac09273c1a9b99d3507981aad61a6",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "84d13cd4c90bc5c8b3c5d7e26a90172043feaceb78b35255152f27a13b829ee0",
+      "candidate_id": "expansion-v1-r001-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "8bf9e435a338e2d65dcb3aabd1150ec7e7393fdc2448254b14f74ca8b239f728",
+      "candidate_id": "expansion-v1-r002-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "108aaaaa4638089a1fd6868a42423135d49812ae85137437695868f8beed894d",
+      "candidate_id": "expansion-v1-r002-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "5fe16cfec163ee7bb7a8eb29c050cadf24e47bd51b1eecaf42181222a59d5a54",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "a5b359f6124d54da75ed300447f7817ce5a58c8ae27bc87752aa1ed25298d397",
+      "candidate_id": "expansion-v1-r002-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "a9b832f278335c6d3a1460f9725d1b027833a8c29cadf43ee3a9ee1552ae3f59",
+      "candidate_id": "expansion-v1-r003-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "d3d3532aa825149b9261d24f1327430e08de03622e50d5b3670809be93c97d0b",
+      "candidate_id": "expansion-v1-r003-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "6a06cfc1c594c47bcc38673ede1c9652e1aad415e8990b8128ff1b0ae5cbcdec",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "293bfa0b5212061d99654e8385a29ebbfef8fe00d137fa23a8652d96b27af9f2",
+      "candidate_id": "expansion-v1-r003-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "d3f10984056a8272736886195d2a09f803d2165e971079dccdf589b89e44aaa6",
+      "candidate_id": "expansion-v1-r004-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "079c3e6d5dafadee05b3038859fca0b75a3aeb95cf2c6d5bc148a1cbb97f8e57",
+      "candidate_id": "expansion-v1-r004-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "5088544275d8e85763b8bab7338f601e9cf8d2d03ed98a76e4f4db7d7ae7363e",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "3c3d78ad4263633e92e7692c7f24b7bb7a7cbbc9ca1dad1af9bdf40bdc9dd3a0",
+      "candidate_id": "expansion-v1-r004-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "93844e25cf4e626a9fc862c8b1edfcf10f904d922c3eda137191c0ee5a2deeae",
+      "candidate_id": "expansion-v1-r005-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "dd0603d7f3f5218de2c493957fdd8d97d187a6418d6a4c38f45a82deef9f771f",
+      "candidate_id": "expansion-v1-r005-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "20941850b0e6fe824764113e973fb2b3a89fc010c0523d5617166d014cc03afc",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "b278a357ff3af6dc7badd8e9896e3cfd135c24d0518f03675c0cb3926bdfd206",
+      "candidate_id": "expansion-v1-r005-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "b4f89c3ea687c056eea4f385ff967d180965f68ef7a1439910fb692f28f59ec6",
+      "candidate_id": "expansion-v1-r006-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "a1e27c501bdc7fa51f30f3aefe03c7593bb1d698af31ba5b6fcacde1f959d4e8",
+      "candidate_id": "expansion-v1-r006-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "f40666a8f62dd1d914d8972b98282ab78ee479d91861eb139d1ec04c91bd0c48",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "73cb3b6ede8d1f7196c2915fe0f1eadab33edf35f071660b43a0b49094379db4",
+      "candidate_id": "expansion-v1-r006-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "bfa5030ff9794bfade31d539f1740994312562ad3b41523b92101c8f2e3a9476",
+      "candidate_id": "expansion-v1-r007-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "66c390a41b97c012382717d7cabbc5e30b505b778487662a2f776dd293ba9fd0",
+      "candidate_id": "expansion-v1-r007-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "32569b173bcc803c70ccb50fa20a4fbaa5a3b2453ec136c60177d06b2be4d98b",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "b51ddd1d00f651781de887aa274932e772d2dd42c495f4dcb48427139bb99d94",
+      "candidate_id": "expansion-v1-r007-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "7d512665298edbee86cf9a45a9900b5d16bfe43c9578b4501e15c551f473b4e7",
+      "candidate_id": "expansion-v1-r008-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "68ee023de859550108a99fbbf1e35caf8adbf56786f75a230291d2798e1984c5",
+      "candidate_id": "expansion-v1-r008-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "7f99b99d64cbcb8328ea4715011367ab150adb7933c556c26284584ec92713e5",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "b5e9ae8c5650077aeb654b21c892e51923703ce59328f4ab1b150e9b8f2ae41b",
+      "candidate_id": "expansion-v1-r008-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "5d56153207440edc40f2cd25859698133b5b7107f23f38b128edaec1aa191bc2",
+      "candidate_id": "expansion-v1-r009-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "b5452865ccbbefa8dd1f97916fd3cf676ab19433918471da542d8eabf924bc53",
+      "candidate_id": "expansion-v1-r009-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "81cbe69f1912aba6c90bd280c5ebfd1afef47b735a9f2333e4266d9ab42c7da1",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "8b6e9458cf02701196293a497ee953eeab44df4e63ca9e686e8c49ed2908a226",
+      "candidate_id": "expansion-v1-r009-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "a810bc53b68cb2ea930f6c41bbe08f757e055d16b65cae472bdaa2b96b40ce81",
+      "candidate_id": "expansion-v1-r010-chair-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "6b0f98b89f98bc3673e9b906d760533ee6a6475952235d33105bb5dddd2dca34",
+      "candidate_id": "expansion-v1-r010-doorway-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "c3b062ebcd375f432dd22bd21f6407ae5e16fdc1e1b265d56dc24544eb82b171",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    },
+    {
+      "audit_sha256": "e89c4d87bbdb1cbe955264c289278718b615b296bf9e3e0342c71e2764e1a027",
+      "candidate_id": "expansion-v1-r010-office_entrance-s1-view0",
+      "execution_authorized": false,
+      "integrity_and_geometry_passed": true,
+      "rendered_visual_preflight_passed": false,
+      "static_issues": [],
+      "treatment": "sphere"
+    }
+  ],
+  "schema_version": "research3-expansion-diagnostic-static-audit/v2"
+}

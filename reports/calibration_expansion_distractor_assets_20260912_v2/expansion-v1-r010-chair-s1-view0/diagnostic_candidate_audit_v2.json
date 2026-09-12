@@ -1,0 +1,178 @@
+{
+  "camera_model": {
+    "centre": [
+      1.3098286954582683,
+      -0.26869843281705996,
+      0.224
+    ],
+    "horizontal_fov": 2.0,
+    "intrinsics": {
+      "height": 480,
+      "k": [
+        205.46963709898583,
+        0.0,
+        320.0,
+        0.0,
+        205.46963709898583,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "width": 640
+    },
+    "model_id": "research3-rendering-camera-model/v1",
+    "rpy": [
+      -1.5707963267948966,
+      -0.0,
+      -0.7621465405869856
+    ]
+  },
+  "capture_pose": {
+    "x": 1.15,
+    "y": -0.3,
+    "yaw": 0.8086497862079111
+  },
+  "category": "chair",
+  "collision_geometry_unchanged": true,
+  "derivative_sha256": {
+    "execution_catalog.json": "36822f48fd474d07947610581961a5e0a05d6bde1bbb8412d68e4b9228d9f980",
+    "geometry_audit.json": "c34c1f365c1c0605391b84af2f1552808a09fdee863ff6c73437500414c174a3",
+    "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+    "manifest.json": "10f0ac5d36a99a0fea072d5d5c33ba95af7fe07f3c70ff54b7bcc17eddaefd0e",
+    "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "a1e4f6b69e1be42615dbb6561b4cd283b104e4eefb7ce8a53ad874be08ccd03b",
+    "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+    "world.sdf": "212d41e1d13df532915fc375a3f89ad75a22a6170180ee7677b0da1b520bd710"
+  },
+  "entity_id": "dev_00-r010-blue-chair",
+  "execution_authorized": false,
+  "full_object_occlusion_claimed": false,
+  "human_labels_generated": false,
+  "included_in_primary_calibration": false,
+  "map_id": "r3geo_base_r010",
+  "marker_model": "chair_seat",
+  "material": "exact_source_marker_copy",
+  "original_sdf_subtree_unchanged": true,
+  "panel": "diagnostic_only",
+  "placement_basis": "fixed ordered map-only offsets; first position clear of walls, camera, target geometry and the projected target silhouette",
+  "placement_candidates_tried": [
+    {
+      "across": 0.0,
+      "along": 0.45,
+      "clearance": 0.6505099948646075,
+      "pixel_centre": [
+        299.4024327253061,
+        245.25895334673035
+      ],
+      "pixel_radius": 44.607384552930895,
+      "reasons": [
+        "target_geometry_clearance",
+        "silhouette_overlap"
+      ],
+      "x": 1.8892859139928748,
+      "y": 0.4744900051353925
+    },
+    {
+      "across": 0.0,
+      "along": 0.55,
+      "clearance": 0.7228455492789647,
+      "pixel_centre": [
+        296.94358139359315,
+        245.88674517610386
+      ],
+      "pixel_radius": 50.16165600732438,
+      "reasons": [
+        "silhouette_overlap"
+      ],
+      "x": 1.8202383393246246,
+      "y": 0.40215445072103534
+    },
+    {
+      "across": 0.0,
+      "along": 0.65,
+      "clearance": 0.7951811036933218,
+      "pixel_centre": [
+        293.81809523607757,
+        246.68474164185253
+      ],
+      "pixel_radius": 57.341013702881654,
+      "reasons": [
+        "silhouette_overlap"
+      ],
+      "x": 1.7511907646563747,
+      "y": 0.32981889630667816
+    },
+    {
+      "across": 0.0,
+      "along": 0.75,
+      "clearance": 0.8675166581076791,
+      "pixel_centre": [
+        289.71235752777574,
+        247.7330150992913
+      ],
+      "pixel_radius": 67.01134012879058,
+      "reasons": [
+        "silhouette_overlap"
+      ],
+      "x": 1.6821431899881247,
+      "y": 0.2574833418923209
+    },
+    {
+      "across": 0.6,
+      "along": 0.45,
+      "clearance": 1.064795442874108,
+      "pixel_centre": [
+        430.87626639356495,
+        245.25895334673035
+      ],
+      "pixel_radius": 39.25518212483715,
+      "reasons": [],
+      "x": 2.323299240479018,
+      "y": 0.060204557125892066
+    }
+  ],
+  "previous_candidate_audit_sha256": "39bedc3a9cb629c20a2e424fc2836fb64e24c288d11dc1ab4cd2e14e9ccf486d",
+  "rendered_fraction_verified": false,
+  "revision": "v2",
+  "revision_reason": "v1 used the localization camera_depth_frame transform instead of the rendering sensor pose",
+  "schema_version": "research3-expansion-diagnostic-candidate/v2",
+  "silhouette_models": [
+    "chair_seat",
+    "chair_back",
+    "chair_leg_-0.16_-0.16",
+    "chair_leg_-0.16_0.16",
+    "chair_leg_0.16_-0.16",
+    "chair_leg_0.16_0.16"
+  ],
+  "silhouette_pixels": 6487,
+  "source_sha256": {
+    "execution_catalog.json": "36822f48fd474d07947610581961a5e0a05d6bde1bbb8412d68e4b9228d9f980",
+    "geometry_audit.json": "c34c1f365c1c0605391b84af2f1552808a09fdee863ff6c73437500414c174a3",
+    "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+    "manifest.json": "c408eb391d8b01ac96370e2c5521c283c00db3e272f85320ad39427c9c580e1a",
+    "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "a1e4f6b69e1be42615dbb6561b4cd283b104e4eefb7ce8a53ad874be08ccd03b",
+    "verified_ordered_geometry.json": "8a972a45f549dd3f4d9d96b4e7a28d771110166a6af5f487231efbe5b236e432",
+    "world.sdf": "2e7be91bd8b90837bdb5d2814edbae419a20393a14d3aa451dc7d5d2ce659b29"
+  },
+  "sphere_pixel_centre": [
+    430.87626639356495,
+    245.25895334673035
+  ],
+  "sphere_pixel_radius": 39.25518212483715,
+  "sphere_pose": [
+    2.323299240479018,
+    0.060204557125892066,
+    0.2
+  ],
+  "sphere_radius_m": 0.2,
+  "status": "built_static_checked_rendered_preflight_and_human_approval_pending",
+  "target_across_offset_m": 0.6,
+  "target_along_offset_m": 0.45,
+  "treatment": "sphere",
+  "treatment_name": "same_colour_nonlandmark_distractor",
+  "wall_clearance_m": 1.064795442874108
+}

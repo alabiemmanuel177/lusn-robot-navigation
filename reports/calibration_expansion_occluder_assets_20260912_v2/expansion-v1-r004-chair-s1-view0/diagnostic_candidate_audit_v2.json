@@ -1,0 +1,149 @@
+{
+  "analytic_occluded_fraction": 0.2,
+  "area_reference": "projected_convex_silhouette_of_provider_marker_box_not_full_semantic_object",
+  "camera_model": {
+    "centre": [
+      1.3098286954582683,
+      -0.26869843281705996,
+      0.224
+    ],
+    "horizontal_fov": 2.0,
+    "intrinsics": {
+      "height": 480,
+      "k": [
+        205.46963709898583,
+        0.0,
+        320.0,
+        0.0,
+        205.46963709898583,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "width": 640
+    },
+    "model_id": "research3-rendering-camera-model/v1",
+    "rpy": [
+      -1.5707963267948966,
+      -0.0,
+      -0.7621465405869856
+    ]
+  },
+  "camera_plane_depth": 0.7635502430507558,
+  "capture_pose": {
+    "x": 1.15,
+    "y": -0.3,
+    "yaw": 0.8086497862079111
+  },
+  "category": "chair",
+  "collision_geometry_unchanged": true,
+  "cut_x": -0.177714945571103,
+  "derivative_sha256": {
+    "execution_catalog.json": "eed93fa2da0d1bafef26305013135f13ea7d98a5c9e19c79bff4202cf2261c62",
+    "geometry_audit.json": "c3345f3a48eeca7e46c30e9155f1031b5d82436864b6bd6a7a031a50ba1812cc",
+    "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+    "manifest.json": "a526c5a7e35a025cccc346e0c16940fb8b9d2aea7c2222144e949eed20af9048",
+    "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "13707a4a7cda4633fd65e1c6b350b0ce8cf738fac70889057eca746085f28c95",
+    "verified_ordered_geometry.json": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67",
+    "world.sdf": "aa10337da01f2608b6db4accee270ffb76321bc446925677b654899249122b48"
+  },
+  "entity_id": "dev_02-r004-yellow-chair",
+  "execution_authorized": false,
+  "full_object_occlusion_claimed": false,
+  "human_labels_generated": false,
+  "included_in_primary_calibration": false,
+  "map_id": "r3geo_base_r004",
+  "marker_model": "chair_seat",
+  "original_sdf_subtree_unchanged": true,
+  "panel": "diagnostic_only",
+  "polygon_normalized_camera": [
+    [
+      -0.2802996294587468,
+      -0.15488363258793716
+    ],
+    [
+      -0.09250646027504736,
+      -0.19802233235612918
+    ],
+    [
+      0.14694861435893847,
+      -0.15643265468887238
+    ],
+    [
+      0.14694861435893847,
+      -0.09849463443373449
+    ],
+    [
+      -0.05170099163559787,
+      -0.08073156073666175
+    ],
+    [
+      -0.2802996294587468,
+      -0.09751932422203453
+    ]
+  ],
+  "polygon_pixels": [
+    [
+      262.4069368561311,
+      208.1761162195839
+    ],
+    [
+      300.9927311779743,
+      199.31242323329138
+    ],
+    [
+      350.1934784645299,
+      207.85783921064643
+    ],
+    [
+      350.1934784645299,
+      219.7623432067033
+    ],
+    [
+      309.377016010976,
+      223.41211551300339
+    ],
+    [
+      262.4069368561311,
+      219.96273984196023
+    ]
+  ],
+  "previous_candidate_audit_sha256": "1e7b63159b46545c8f1c9c41c5b6334eca57640056a5a7c339681aede34fc30c",
+  "rendered_fraction_verified": false,
+  "requested_fraction": 0.2,
+  "revision": "v2",
+  "revision_reason": "v1 used the localization camera_depth_frame transform instead of the rendering sensor pose",
+  "schema_version": "research3-expansion-diagnostic-candidate/v2",
+  "screen_center": [
+    1.7112471793238284,
+    0.4050788259838907,
+    0.33042130141117243
+  ],
+  "screen_rpy": [
+    -1.5707963267948966,
+    -0.0,
+    -0.7621465405869856
+  ],
+  "screen_size": [
+    0.07832856031569538,
+    0.08955739717765504,
+    0.002
+  ],
+  "screen_wall_intersection_checked": true,
+  "source_sha256": {
+    "execution_catalog.json": "eed93fa2da0d1bafef26305013135f13ea7d98a5c9e19c79bff4202cf2261c62",
+    "geometry_audit.json": "c3345f3a48eeca7e46c30e9155f1031b5d82436864b6bd6a7a031a50ba1812cc",
+    "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+    "manifest.json": "56730a805a90d0574d086a9cf23e815ae4d07f539c0bc827adca3b0ab0793c3b",
+    "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "13707a4a7cda4633fd65e1c6b350b0ce8cf738fac70889057eca746085f28c95",
+    "verified_ordered_geometry.json": "ac78c63d0f918961b44a9c2f9d814d2e306477e75ac48531f22c697adb8c9c67",
+    "world.sdf": "3f2936cc6b46847b9822ed9fbfb578df189206f62720050bc41da045837fc5a3"
+  },
+  "status": "built_static_checked_rendered_preflight_and_human_approval_pending",
+  "treatment": "occluder"
+}

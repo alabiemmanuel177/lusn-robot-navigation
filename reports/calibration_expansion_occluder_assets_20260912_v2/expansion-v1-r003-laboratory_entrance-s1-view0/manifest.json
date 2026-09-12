@@ -1,0 +1,315 @@
+{
+  "anchor_entity_id": "dev_02-r003-green-chair",
+  "anchor_pose": [
+    2.2,
+    0.7499999999999999
+  ],
+  "base_instruction_id": "base-r003",
+  "candidates": [
+    {
+      "goal": {
+        "x": 4.45,
+        "y": -1.95,
+        "yaw": -1.5707963267948966
+      },
+      "ordinal": 1,
+      "route_id": "r3geo_base_r003_right_1",
+      "side": "right",
+      "terminal_entity_id": "r3geo_base_r003_right_1_entrance"
+    },
+    {
+      "goal": {
+        "x": 8.1,
+        "y": -1.95,
+        "yaw": -1.5707963267948966
+      },
+      "ordinal": 2,
+      "route_id": "r3geo_base_r003_right_2",
+      "side": "right",
+      "terminal_entity_id": "r3geo_base_r003_right_2_entrance"
+    },
+    {
+      "goal": {
+        "x": 4.45,
+        "y": 1.95,
+        "yaw": 1.5707963267948966
+      },
+      "ordinal": 1,
+      "route_id": "r3geo_base_r003_left_1",
+      "side": "left",
+      "terminal_entity_id": "r3geo_base_r003_left_1_entrance"
+    },
+    {
+      "goal": {
+        "x": 8.1,
+        "y": 1.95,
+        "yaw": 1.5707963267948966
+      },
+      "ordinal": 2,
+      "route_id": "r3geo_base_r003_left_2",
+      "side": "left",
+      "terminal_entity_id": "r3geo_base_r003_left_2_entrance"
+    }
+  ],
+  "canonical_instruction": "Go through the corridor, then continue past the green chair, then take the second doorway on the left, then stop near the laboratory entrance.",
+  "claim_scope": "new Research 3 geometry; no Research 1 clean-route claims inherited",
+  "expected_route_id": "r3geo_base_r003_left_2",
+  "layout": {
+    "corridor_half_width": 1.15,
+    "door_x": [
+      4.45,
+      8.1
+    ],
+    "end_x": 10.1,
+    "opening_width": 1.5,
+    "room_depth": 2.4,
+    "walls": [
+      {
+        "name": "start_wall",
+        "sx": 0.15,
+        "sy": 2.3,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "end_wall",
+        "sx": 0.15,
+        "sy": 2.3,
+        "x": 10.1,
+        "y": 0
+      },
+      {
+        "name": "hall_-1_1",
+        "sx": 3.7,
+        "sy": 0.15,
+        "x": 1.85,
+        "y": -1.15
+      },
+      {
+        "name": "room_-1_1_-1",
+        "sx": 0.15,
+        "sy": 2.4,
+        "x": 3.1500000000000004,
+        "y": -2.3499999999999996
+      },
+      {
+        "name": "room_-1_1_1",
+        "sx": 0.15,
+        "sy": 2.4,
+        "x": 5.75,
+        "y": -2.3499999999999996
+      },
+      {
+        "name": "room_end_-1_1",
+        "sx": 2.6,
+        "sy": 0.15,
+        "x": 4.45,
+        "y": -3.55
+      },
+      {
+        "name": "jamb_-1_1_-1",
+        "sx": 0.55,
+        "sy": 0.15,
+        "x": 3.4250000000000003,
+        "y": -1.15
+      },
+      {
+        "name": "jamb_-1_1_1",
+        "sx": 0.55,
+        "sy": 0.15,
+        "x": 5.475,
+        "y": -1.15
+      },
+      {
+        "name": "hall_-1_2",
+        "sx": 2.1499999999999995,
+        "sy": 0.15,
+        "x": 6.275,
+        "y": -1.15
+      },
+      {
+        "name": "room_-1_2_-1",
+        "sx": 0.15,
+        "sy": 2.4,
+        "x": 6.8,
+        "y": -2.3499999999999996
+      },
+      {
+        "name": "room_-1_2_1",
+        "sx": 0.15,
+        "sy": 2.4,
+        "x": 9.4,
+        "y": -2.3499999999999996
+      },
+      {
+        "name": "room_end_-1_2",
+        "sx": 2.6,
+        "sy": 0.15,
+        "x": 8.1,
+        "y": -3.55
+      },
+      {
+        "name": "jamb_-1_2_-1",
+        "sx": 0.55,
+        "sy": 0.15,
+        "x": 7.074999999999999,
+        "y": -1.15
+      },
+      {
+        "name": "jamb_-1_2_1",
+        "sx": 0.55,
+        "sy": 0.15,
+        "x": 9.125,
+        "y": -1.15
+      },
+      {
+        "name": "hall_end_-1",
+        "sx": 1.25,
+        "sy": 0.15,
+        "x": 9.475,
+        "y": -1.15
+      },
+      {
+        "name": "hall_1_1",
+        "sx": 3.7,
+        "sy": 0.15,
+        "x": 1.85,
+        "y": 1.15
+      },
+      {
+        "name": "room_1_1_-1",
+        "sx": 0.15,
+        "sy": 2.4,
+        "x": 3.1500000000000004,
+        "y": 2.3499999999999996
+      },
+      {
+        "name": "room_1_1_1",
+        "sx": 0.15,
+        "sy": 2.4,
+        "x": 5.75,
+        "y": 2.3499999999999996
+      },
+      {
+        "name": "room_end_1_1",
+        "sx": 2.6,
+        "sy": 0.15,
+        "x": 4.45,
+        "y": 3.55
+      },
+      {
+        "name": "jamb_1_1_-1",
+        "sx": 0.55,
+        "sy": 0.15,
+        "x": 3.4250000000000003,
+        "y": 1.15
+      },
+      {
+        "name": "jamb_1_1_1",
+        "sx": 0.55,
+        "sy": 0.15,
+        "x": 5.475,
+        "y": 1.15
+      },
+      {
+        "name": "hall_1_2",
+        "sx": 2.1499999999999995,
+        "sy": 0.15,
+        "x": 6.275,
+        "y": 1.15
+      },
+      {
+        "name": "room_1_2_-1",
+        "sx": 0.15,
+        "sy": 2.4,
+        "x": 6.8,
+        "y": 2.3499999999999996
+      },
+      {
+        "name": "room_1_2_1",
+        "sx": 0.15,
+        "sy": 2.4,
+        "x": 9.4,
+        "y": 2.3499999999999996
+      },
+      {
+        "name": "room_end_1_2",
+        "sx": 2.6,
+        "sy": 0.15,
+        "x": 8.1,
+        "y": 3.55
+      },
+      {
+        "name": "jamb_1_2_-1",
+        "sx": 0.55,
+        "sy": 0.15,
+        "x": 7.074999999999999,
+        "y": 1.15
+      },
+      {
+        "name": "jamb_1_2_1",
+        "sx": 0.55,
+        "sy": 0.15,
+        "x": 9.125,
+        "y": 1.15
+      },
+      {
+        "name": "hall_end_1",
+        "sx": 1.25,
+        "sy": 0.15,
+        "x": 9.475,
+        "y": 1.15
+      }
+    ]
+  },
+  "map_id": "r3geo_base_r003",
+  "map_metadata_sha256": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+  "map_sha256": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342",
+  "partition": "development",
+  "prior_protected_graph_access": true,
+  "schema_version": "research3-physical-world/v1",
+  "start": {
+    "x": 0.6,
+    "y": 0,
+    "yaw": 0
+  },
+  "terminal_entities": [
+    {
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r003_right_1_entrance",
+      "pose": {
+        "x": 4.98,
+        "y": -1.45
+      },
+      "region_id": "r3geo_base_r003_right_1_entrance_region"
+    },
+    {
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r003_right_2_entrance",
+      "pose": {
+        "x": 8.629999999999999,
+        "y": -1.45
+      },
+      "region_id": "r3geo_base_r003_right_2_entrance_region"
+    },
+    {
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r003_left_1_entrance",
+      "pose": {
+        "x": 4.98,
+        "y": 1.45
+      },
+      "region_id": "r3geo_base_r003_left_1_entrance_region"
+    },
+    {
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r003_left_2_entrance",
+      "pose": {
+        "x": 8.629999999999999,
+        "y": 1.45
+      },
+      "region_id": "r3geo_base_r003_left_2_entrance_region"
+    }
+  ],
+  "world_sha256": "4c66dea9621c817014eb247e09db1c7acf9f7e555fef282bf9251d1ca25f33ef"
+}

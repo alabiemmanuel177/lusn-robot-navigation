@@ -1,0 +1,115 @@
+{
+  "camera_model": {
+    "centre": [
+      7.7940000000000005,
+      -0.46699999999999997,
+      0.224
+    ],
+    "horizontal_fov": 2.0,
+    "intrinsics": {
+      "height": 480,
+      "k": [
+        205.46963709898583,
+        0.0,
+        320.0,
+        0.0,
+        205.46963709898583,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "width": 640
+    },
+    "model_id": "research3-rendering-camera-model/v1",
+    "rpy": [
+      -1.5707963267948966,
+      -0.0,
+      -6.123233995736766e-17
+    ]
+  },
+  "capture_pose": {
+    "x": 7.7,
+    "y": -0.6,
+    "yaw": 1.5707963267948966
+  },
+  "category": "doorway",
+  "collision_geometry_unchanged": true,
+  "derivative_sha256": {
+    "execution_catalog.json": "247c8b423a895ab810f68fd97f2564afd1fa6e96798e1977ec5e77861c80aec3",
+    "geometry_audit.json": "25a76c6545c60fdcdb8fd9f5d1247511d6b34b4023ffa1de8df65736e35f21b1",
+    "landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+    "manifest.json": "100c9847be005f3d575e9a3ab654396751c09a4af9119901d0f27d42e7fe3a23",
+    "map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "0c66375df2631c22a9a61841057cbc048d63233369e722c59bea4a560d9ce927",
+    "verified_ordered_geometry.json": "472a905de6b5eab64957c70b33f6c290cb33d52b60eb74944d382a2206ca88ea",
+    "world.sdf": "3814789df854e3d1850058f3903d1eb4c9b9f56da0fc5aab7cade8b6a1dfa1ef"
+  },
+  "entity_id": "r3geo_base_r001_left_2_doorway",
+  "execution_authorized": false,
+  "full_object_occlusion_claimed": false,
+  "human_labels_generated": false,
+  "included_in_primary_calibration": false,
+  "map_id": "r3geo_base_r001",
+  "marker_model": "r3geo_base_r001_left_2_lintel",
+  "material": "exact_source_marker_copy",
+  "original_sdf_subtree_unchanged": true,
+  "panel": "diagnostic_only",
+  "placement_basis": "fixed ordered map-only offsets; first position clear of walls, camera, target geometry and the projected target silhouette",
+  "placement_candidates_tried": [
+    {
+      "across": 0.0,
+      "along": 0.45,
+      "clearance": 0.8385254915624203,
+      "pixel_centre": [
+        304.1297075700043,
+        244.05198955659463
+      ],
+      "pixel_radius": 34.120755071023474,
+      "reasons": [],
+      "x": 7.7,
+      "y": 0.75
+    }
+  ],
+  "previous_candidate_audit_sha256": "76886d737ac11475d89df28f1bf1aeed25faf4bcc9f4a42a2e1d69162a3d8bcb",
+  "rendered_fraction_verified": false,
+  "revision": "v2",
+  "revision_reason": "v1 used the localization camera_depth_frame transform instead of the rendering sensor pose",
+  "schema_version": "research3-expansion-diagnostic-candidate/v2",
+  "silhouette_models": [
+    "r3geo_base_r001_left_2_lintel",
+    "r3geo_base_r001_left_2_entrance_sign",
+    "readable_r3geo_base_r001_left_2_entrance_corridor",
+    "readable_r3geo_base_r001_left_2_entrance_room"
+  ],
+  "silhouette_pixels": 18798,
+  "source_sha256": {
+    "execution_catalog.json": "247c8b423a895ab810f68fd97f2564afd1fa6e96798e1977ec5e77861c80aec3",
+    "geometry_audit.json": "25a76c6545c60fdcdb8fd9f5d1247511d6b34b4023ffa1de8df65736e35f21b1",
+    "landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+    "manifest.json": "d504f50f5a6ecc3fbe3c77f566514a88083a2d4df8dbec1e1df4771982511cc8",
+    "map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+    "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+    "ordered_geometry.json": "0c66375df2631c22a9a61841057cbc048d63233369e722c59bea4a560d9ce927",
+    "verified_ordered_geometry.json": "472a905de6b5eab64957c70b33f6c290cb33d52b60eb74944d382a2206ca88ea",
+    "world.sdf": "92364fb39c02520b856b9226906a1827a367a70e915a432effda2d1d9657c320"
+  },
+  "sphere_pixel_centre": [
+    304.1297075700043,
+    244.05198955659463
+  ],
+  "sphere_pixel_radius": 34.120755071023474,
+  "sphere_pose": [
+    7.7,
+    0.75,
+    0.2
+  ],
+  "sphere_radius_m": 0.2,
+  "status": "built_static_checked_rendered_preflight_and_human_approval_pending",
+  "target_across_offset_m": 0.0,
+  "target_along_offset_m": 0.45,
+  "treatment": "sphere",
+  "treatment_name": "same_colour_nonlandmark_distractor",
+  "wall_clearance_m": 0.8385254915624203
+}

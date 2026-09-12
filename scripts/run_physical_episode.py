@@ -139,8 +139,11 @@ def physical_simulation_command(request, start):
     seed = request['simulation_seed']
     if type(seed) is not int or not 1 <= seed <= 2**32 - 1:
         raise ValueError('invalid simulator seed')
+    # A pinned diagnostic derivative replaces only the rendered world file; the
+    # deployable catalogue, scene, map and evaluator assets stay the source copies.
+    world_sdf = request.get('diagnostic_world_sdf') or str(Path(request["world_directory"]) / "world.sdf")
     command = ['ros2', 'launch', 'language_nav_bringup', 'physical_sim.launch.py',
-            f'world_path:={Path(request["world_directory"]) / "world.sdf"}',
+            f'world_path:={world_sdf}',
             f'simulation_seed:={seed}', f'x_pose:={start["x"]}',
             f'y_pose:={start["y"]}', f'yaw:={start["yaw"]}']
     if request.get('camera_horizontal_fov') is not None:
@@ -271,6 +274,10 @@ def execute(request, variant, catalog, report_dir, system_id, calibration=None):
             from snapshot_expansion_instrumentation import validate
             if validate(request['expansion_instrumentation_snapshot']) != request['expansion_instrumentation_sha256']:
                 raise ValueError('expansion instrumentation changed during capture')
+        if request.get('diagnostic_derivative'):
+            if (hashlib.sha256(Path(request['diagnostic_world_sdf']).read_bytes()).hexdigest()
+                    != request['diagnostic_derivative']['world_sdf_sha256']):
+                raise ValueError('diagnostic derivative world changed during capture')
         if request.get('capture_source_freeze'):
             actual = validate_capture_source_freeze(request['capture_source_freeze'])
             if actual != request.get('capture_source_freeze_sha256'):
@@ -620,6 +627,12 @@ def main():
     parser.add_argument('--expansion-instrumentation-snapshot',type=Path,
                         help='explicit approved-scope source pin for development expansion preflight')
     parser.add_argument('--capture-entity-id',help='exact prespecified stable entity for expansion capture')
+    parser.add_argument('--development-complete-report',type=Path,
+                        help='complete development expansion collection report; required before validation expansion capture')
+    parser.add_argument('--diagnostic-derivative',type=Path,
+                        help='pinned diagnostic candidate world directory; renders its world.sdf over unchanged source assets')
+    parser.add_argument('--diagnostic-asset-decision',type=Path,
+                        help='human rendered-asset decision; required for diagnostic expansion collection, not for rendering')
     parser.add_argument('--capture-pose', type=float, nargs=3, metavar=('X','Y','YAW'))
     parser.add_argument('--capture-frame-budget', type=int, default=5)
     parser.add_argument('--capture-target-category', action='append',
@@ -638,12 +651,60 @@ def main():
         parser.error('capture frame budget must be 1..20')
     request['capture_frame_budget']=args.capture_frame_budget
     request['capture_only']=args.capture_only
+    if args.diagnostic_derivative:
+        derivative=args.diagnostic_derivative.resolve()
+        if (not args.capture_only or request['partition']!='development' or args.capture_pose is None
+                or len(args.capture_target_category or [])!=1 or args.capture_source_freeze
+                or not args.run_id.startswith('expansion-diag-')):
+            parser.error('diagnostic derivative capture requires development stationary one-target capture and an expansion-diag- run ID')
+        assets=re.fullmatch(r'calibration_expansion_(occluder|distractor)_assets_\d{8}_v\d+',derivative.parent.name)
+        family={'occluder':'occluder','distractor':'sphere'}[assets[1]] if assets else None
+        if family is None or derivative.parent.parent!=(ROOT/'reports').resolve():
+            parser.error('diagnostic derivative must be a pinned candidate asset directory')
+        if assets.group(0).endswith('_v1'):
+            from audit_expansion_diagnostics import check as check_diagnostic_candidate
+            audit_name='occluder_candidate_audit.json' if family=='occluder' else 'diagnostic_asset_audit.json'
+        else:
+            from audit_expansion_diagnostics_v2 import check as check_diagnostic_candidate
+            audit_name='diagnostic_candidate_audit_v2.json'
+        audit_row=check_diagnostic_candidate(derivative,family=='occluder')
+        if audit_row['static_issues']:
+            parser.error('diagnostic derivative has unresolved static issues')
+        match=re.fullmatch(r'expansion-v1-r(0\d\d)-(chair|doorway|laboratory_entrance|office_entrance)-s1-view0',derivative.name)
+        if (args.world.resolve()!=(ROOT/'data/physical_worlds_readable_v1'/('base-r'+match[1])).resolve()
+                or args.capture_target_category[0]!=match[2]):
+            parser.error('diagnostic derivative source world/category mismatch')
+        audit=json.loads((derivative/audit_name).read_bytes())
+        if (any(not math.isclose(audit['capture_pose'][key],value,abs_tol=1e-12) for key,value in zip(('x','y','yaw'),args.capture_pose))
+                or (args.capture_entity_id and audit['entity_id']!=args.capture_entity_id)):
+            parser.error('diagnostic derivative pose/entity differs from bound candidate')
+        request['diagnostic_world_sdf']=str(derivative/'world.sdf')
+        request['diagnostic_derivative']=dict(candidate_id=derivative.name,treatment=family,directory=str(derivative),
+            world_sdf_sha256=audit['derivative_sha256']['world.sdf'],audit_sha256=audit_row['audit_sha256'],
+            entity_id=audit['entity_id'],panel='diagnostic_only',included_in_primary_calibration=False)
+        if args.expansion_instrumentation_snapshot:
+            if not args.diagnostic_asset_decision:
+                parser.error('diagnostic expansion collection requires the human rendered-asset decision')
+            from render_expansion_diagnostics import validate_asset_decision
+            request['diagnostic_asset_decision']=str(args.diagnostic_asset_decision.resolve())
+            request['diagnostic_asset_decision_sha256']=validate_asset_decision(
+                args.diagnostic_asset_decision,candidate_id=derivative.name,treatment=family)
+    elif args.diagnostic_asset_decision:
+        parser.error('asset decision applies only to diagnostic derivative capture')
     if args.expansion_instrumentation_snapshot:
         from snapshot_expansion_instrumentation import validate
-        if (not args.capture_only or request['partition']!='development' or args.capture_source_freeze
+        if (not args.capture_only or request['partition'] not in ('development','validation') or args.capture_source_freeze
                 or args.capture_frame_budget!=1 or len(args.capture_target_category or [])!=1
                 or not args.capture_entity_id or args.capture_pose is None):
-            parser.error('expansion preflight requires development-only one-frame exact-target capture and its own source pin')
+            parser.error('expansion capture requires non-protected one-frame exact-target capture and its own source pin')
+        if request['partition']=='validation':
+            if args.development_complete_report is None or args.camera_settings_freeze is None or args.diagnostic_derivative:
+                parser.error('validation expansion capture requires the complete development collection report and a bound per-view camera freeze')
+            from run_expansion_collection import validate_development_complete_report
+            request['development_complete_report']=str(args.development_complete_report.resolve())
+            request['development_complete_report_sha256']=validate_development_complete_report(args.development_complete_report)
+        elif args.development_complete_report is not None:
+            parser.error('development collection report applies only to validation expansion capture')
         import yaml
         entities=yaml.safe_load((args.world/'landmark_scene.yaml').read_bytes())['entities']
         if len([e for e in entities if e['entity_id']==args.capture_entity_id and e['category']==args.capture_target_category[0]])!=1:
@@ -651,8 +712,8 @@ def main():
         request['expansion_instrumentation_snapshot']=str(args.expansion_instrumentation_snapshot.resolve())
         request['expansion_instrumentation_sha256']=validate(args.expansion_instrumentation_snapshot)
         request['capture_target_entity_id']=args.capture_entity_id
-    elif args.capture_entity_id:
-        parser.error('capture entity selection requires explicit expansion instrumentation')
+    elif args.capture_entity_id or args.development_complete_report:
+        parser.error('capture entity selection and development completion evidence require explicit expansion instrumentation')
     if args.capture_source_freeze:
         if not args.capture_only:
             parser.error('capture source freeze requires stationary capture-only mode')
