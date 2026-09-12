@@ -1,0 +1,2250 @@
+{
+  "all_rendered_checks_passed": false,
+  "candidates": 80,
+  "execution_authorized": false,
+  "human_approval_present": false,
+  "human_labels_generated": false,
+  "measurement_scope": "same-session control versus candidate pixel comparison at the bound pose; agent preflight, not human acceptance",
+  "occluder_definition": "20% of the projected convex silhouette of the provider marker box, not of the whole semantic object",
+  "occluder_passed": 0,
+  "rendered": 8,
+  "rendered_preflight_passed": 3,
+  "rows": [
+    {
+      "analytic_occluded_fraction": 0.20000000000000007,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "1f4c3f68d3f5606600987c0c8b9af80b9e5ef3214ed6cbab180cb88e1dbe0404",
+      "candidate_id": "expansion-v1-r001-chair-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r001-chair-s1-view0",
+      "candidate_world_sdf_sha256": "d6c5c84adf9ace5f5defd1589364c017e5b67087ffd14820ab0d89f8de8c0691",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8086497862079111
+      },
+      "category": "chair",
+      "entity_id": "dev_01-r001-red-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r001",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.19999999999999987,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "580504a67567729267e61e19ee86998d02cc07ed80f533bbc9dc719af4c614bb",
+      "candidate_id": "expansion-v1-r001-doorway-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r001-doorway-s1-view0",
+      "candidate_run": {
+        "context_frame_sha256": "0f65e6707562d581ce58d539553ee38170e5e67bb12b63ab1657d9049324a18f",
+        "request_sha256": "f17b2c4d9583b2d2439243c88cdc511738f229f07c5694c9d7638cf4ef49c5a8",
+        "rgb_sha256": "717cacce6e2ade352a547a3f1609c7e6ab76ec43a23dd032305a09e0d955a9bb",
+        "run_id": "expansion-diag-render-v1-occluder-v1-r001-doorway"
+      },
+      "candidate_world_sdf_sha256": "89023ac45b65672c057b6e4b48f0d6690cfca4915adf0b4908beb6d8371949d3",
+      "capture_pose": {
+        "x": 7.7,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "composite_image": "images/occluder-expansion-v1-r001-doorway-s1-view0.png",
+      "control_pilot_drift": {
+        "changed_fraction": 0.0,
+        "changed_pixels": 0,
+        "comparable": true,
+        "pilot_frame": "reports/physical_live_episodes/r3-current-v1-r001-laboratory_entrance/perception_capture/frame-000.json",
+        "pilot_frame_sha256": "b15a3f8dacbf2a48fea016aad5056a7849ab218105a57270b8481b2ac078ba75"
+      },
+      "control_run": {
+        "context_frame_sha256": "19fc4ebf3d54a8524537a78249a78c69469685ab3ed82c7623e2af134f0bf564",
+        "request_sha256": "d9acae78bb567154356ca909a5f46488314c8650f6b9930746ffa404ab2da76e",
+        "rgb_sha256": "37c5a217f9297961fa9bba7a701612233ecbfed756870b843e248c2ecd4f8901",
+        "run_id": "expansion-diag-render-v1-control-r001-doorway"
+      },
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "issues": [],
+      "map_id": "r3geo_base_r001",
+      "rendered": true,
+      "rendered_checks": {
+        "box_coverage_within_tolerance": false,
+        "box_unchanged_fraction": 0.8877184859358722,
+        "candidate_target_pixels": 3988,
+        "changed_pixels": 2173,
+        "changed_pixels_outside_box": 1203,
+        "control_target_pixels": 4584,
+        "control_target_pixels_in_box": 3174,
+        "control_target_pixels_in_box_covered": 232,
+        "passed": false,
+        "projected_box_pixels": 8639,
+        "rendered_box_coverage": 0.1122815140641278,
+        "screen_visible": true,
+        "target_identifiable": true,
+        "target_pixels_in_box_occluded_fraction": 0.07309388783868935
+      },
+      "rendered_preflight_passed": false,
+      "target_attributes": {},
+      "target_palette_rgb": [
+        78,
+        44,
+        87
+      ],
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000018,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "e6e078a815b85c7d1d4f12b762fd80a136c5387fdfbc7af2a58a946f87486c89",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r001-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "cfd3b6c2cbc062859f3c5bf4fe11497df1cbe50149011d0952bac2d790980ff4",
+      "capture_pose": {
+        "x": 7.7,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r001_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r001",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.1999999999999997,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "85f5906db2ea12ebb261c6fd01f01b35ea015d4a9ffb36ac6e757cc593b2e750",
+      "candidate_id": "expansion-v1-r001-office_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r001-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "8586b1af4cbc0241f7ac96ed0a18945f30cbd0db886d97967f40172973a43df3",
+      "capture_pose": {
+        "x": 7.7,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r001_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r001",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000004,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "110dcd87bb5e787672ff517c88738dfbedfa880fedae77c77d6773394ad0ab9d",
+      "candidate_id": "expansion-v1-r002-chair-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r002-chair-s1-view0",
+      "candidate_world_sdf_sha256": "07b7c8eed5fd52d3414fc808476a9e376aeab230325f8134434343f844aa9e06",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8308214428190251
+      },
+      "category": "chair",
+      "entity_id": "dev_01-r002-blue-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r002",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000026,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "6a3d7723f8e81aead4c3f24310709258e5b3330faabdd64d45e19178d0ffec52",
+      "candidate_id": "expansion-v1-r002-doorway-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r002-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "745067fd3936ae0c39eddf3bd382df30f8b38beb852ae4266eb4d3467af23559",
+      "capture_pose": {
+        "x": 7.9,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r002_left_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r002",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000018,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "b89073ddd5f2a4088e7068681ef1865526f310c7af7388bb7d04114e9371815e",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r002-laboratory_entrance-s1-view0",
+      "candidate_run": {
+        "context_frame_sha256": "e45e68a72e9024953dc788ed56636208b7fc2250764056d8df165f2d022bb27c",
+        "request_sha256": "8ef398e7e2fcc374d2dea8c6f5c970e000bce77bbc6ff0b44e27b11c757fe601",
+        "rgb_sha256": "ee62babbd69bd8457e4587e916bd389044080ff12a31a871e3c80710202729ca",
+        "run_id": "expansion-diag-render-v1-occluder-v1-r002-laboratory_entrance"
+      },
+      "candidate_world_sdf_sha256": "54190e8b2c2fa184c5847b44cbed3f76ad965630af741a6e3ea85fb6b57012ed",
+      "capture_pose": {
+        "x": 7.9,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "composite_image": "images/occluder-expansion-v1-r002-laboratory_entrance-s1-view0.png",
+      "control_pilot_drift": {
+        "changed_fraction": 0.0,
+        "changed_pixels": 0,
+        "comparable": true,
+        "pilot_frame": "reports/physical_live_episodes/r3-current-v1-r002-laboratory_entrance/perception_capture/frame-000.json",
+        "pilot_frame_sha256": "55c959c997612e991b01bfba45f9cf6972039526c9b3092440d1d3a11cf03911"
+      },
+      "control_run": {
+        "context_frame_sha256": "f46115724f5f0b6988ac6ccc7d06a5711b08874439bfe9d7930e2a09b2a99b18",
+        "request_sha256": "eb505e2afe80e9cdc74220aec4b8032412f1d7282936a9f946c5e0f16d9524cc",
+        "rgb_sha256": "6f8d85d34479a3eb63c45356b54764b241836356d816f2ffb83cf8dfad9cbec6",
+        "run_id": "expansion-diag-render-v1-control-r002-laboratory_entrance"
+      },
+      "entity_id": "r3geo_base_r002_left_2_entrance",
+      "issues": [],
+      "map_id": "r3geo_base_r002",
+      "rendered": true,
+      "rendered_checks": {
+        "box_coverage_within_tolerance": false,
+        "box_unchanged_fraction": 1.0,
+        "candidate_target_pixels": 91,
+        "changed_pixels": 252,
+        "changed_pixels_outside_box": 252,
+        "control_target_pixels": 164,
+        "control_target_pixels_in_box": 0,
+        "control_target_pixels_in_box_covered": 0,
+        "passed": false,
+        "projected_box_pixels": 1217,
+        "rendered_box_coverage": 0.0,
+        "screen_visible": false,
+        "target_identifiable": true,
+        "target_pixels_in_box_occluded_fraction": null
+      },
+      "rendered_preflight_passed": false,
+      "target_attributes": {},
+      "target_palette_rgb": [
+        92,
+        42,
+        76
+      ],
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.2000000000000003,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "afa19e3c270a17643bf23d97f89d6a05e1a3a39c638f8ad17758c798eee169db",
+      "candidate_id": "expansion-v1-r002-office_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r002-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "2f39fc87e7e2420c65a2451f2c91aa9083adb8d0515c67f4ace88d0aed486a1f",
+      "capture_pose": {
+        "x": 7.9,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r002_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r002",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000007,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "dd27a15ba90584ec9d1f9c87284a5413c06a390a556f7aacabb294a718c6af24",
+      "candidate_id": "expansion-v1-r003-chair-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r003-chair-s1-view0",
+      "candidate_world_sdf_sha256": "d0781955aff9c78d57ea7c900809930e1b36a5fe5635d99ec951301523e0587a",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.7853981633974481
+      },
+      "category": "chair",
+      "entity_id": "dev_02-r003-green-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r003",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.1999999999999999,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "76387da88b4481f39e04c2bd66a3e5996b0b853e3875c9487d7edbacc1a329bc",
+      "candidate_id": "expansion-v1-r003-doorway-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r003-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "aa6b8673b725da6bb6ec3a6dcf2a9b7e8dd7be72369b6a2cba10ab72f5d8868c",
+      "capture_pose": {
+        "x": 8.1,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r003_left_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r003",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.2,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "42695f3f8ce2d55b5dad7d2fe00f103246f1d67d64301742cb063a027b3654f4",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r003-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "77496501f99f1d7aab2c2e33da4ef2d80d332427af226976455a60d93f2424b2",
+      "capture_pose": {
+        "x": 8.1,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r003_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r003",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000012,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "7a48b8cb39d7a23e335e9f2cc50256ed8de780046cc8a55a6d5d3a60a28dfbcc",
+      "candidate_id": "expansion-v1-r003-office_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r003-office_entrance-s1-view0",
+      "candidate_run": {
+        "context_frame_sha256": "5daa5186db81cceff1938dff62a9333163dafb1e27607537bf1f7e5aa601416d",
+        "request_sha256": "533a8017529f00fc305f2fde2d6ba9fb6cf24f31f7580feaa84a6a7a9e8956eb",
+        "rgb_sha256": "6142e7d97b301e44d13f965b399258590b9fa5446f1e82e723b3f7f78232e400",
+        "run_id": "expansion-diag-render-v1-occluder-v1-r003-office_entrance"
+      },
+      "candidate_world_sdf_sha256": "cdeed485a6df247cbf544463837313d260ac4483c260b6a84a26ae1a033fb719",
+      "capture_pose": {
+        "x": 8.1,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "composite_image": "images/occluder-expansion-v1-r003-office_entrance-s1-view0.png",
+      "control_pilot_drift": {
+        "changed_fraction": 0.0,
+        "changed_pixels": 0,
+        "comparable": true,
+        "pilot_frame": "reports/physical_live_episodes/r3-current-v1-r003-office_entrance/perception_capture/frame-000.json",
+        "pilot_frame_sha256": "c9cb37b7b32c7609d2eea1bbb89c765999e093b483f7a2d82858f3eb46e5542d"
+      },
+      "control_run": {
+        "context_frame_sha256": "85da701ccb8e00043c2228bba4a2e0a4f6e487de71ae7e6d3cdf18a7ec74e968",
+        "request_sha256": "d13b151147da7d4b6ff45dca0b48fea07b1bda85cd85d379f960022a1e88dafe",
+        "rgb_sha256": "ab7dbd8aee5e54c93fc329dfc13c957bcbabb6b2e552b32c10c5bcc984977b9b",
+        "run_id": "expansion-diag-render-v1-control-r003-office_entrance"
+      },
+      "entity_id": "r3geo_base_r003_right_2_entrance",
+      "issues": [],
+      "map_id": "r3geo_base_r003",
+      "rendered": true,
+      "rendered_checks": {
+        "box_coverage_within_tolerance": false,
+        "box_unchanged_fraction": 1.0,
+        "candidate_target_pixels": 1261,
+        "changed_pixels": 287,
+        "changed_pixels_outside_box": 287,
+        "control_target_pixels": 1391,
+        "control_target_pixels_in_box": 776,
+        "control_target_pixels_in_box_covered": 0,
+        "passed": false,
+        "projected_box_pixels": 1359,
+        "rendered_box_coverage": 0.0,
+        "screen_visible": false,
+        "target_identifiable": true,
+        "target_pixels_in_box_occluded_fraction": 0.0
+      },
+      "rendered_preflight_passed": false,
+      "target_attributes": {},
+      "target_palette_rgb": [
+        39,
+        90,
+        79
+      ],
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000007,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "1e7b63159b46545c8f1c9c41c5b6334eca57640056a5a7c339681aede34fc30c",
+      "candidate_id": "expansion-v1-r004-chair-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r004-chair-s1-view0",
+      "candidate_run": {
+        "context_frame_sha256": "9d960915d1f491e313ea9357d67c68a501f1ee285d72529d3ceef25a3e2d30b9",
+        "request_sha256": "4e367ecf4bc0978a9e5a4a5c97db576a1ad920ac865087f81094815025ee44b4",
+        "rgb_sha256": "7b5abcdae5ddfceb23417ee9f2a21b7aaad5cf12e5fa9bb374ebab3e288b4c69",
+        "run_id": "expansion-diag-render-v1-occluder-v1-r004-chair"
+      },
+      "candidate_world_sdf_sha256": "e0a3fe4eab91b1a0d44a2c259dbc51e5358b76b30792831802917412712cd3c2",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8086497862079111
+      },
+      "category": "chair",
+      "composite_image": "images/occluder-expansion-v1-r004-chair-s1-view0.png",
+      "control_pilot_drift": {
+        "changed_fraction": 0.0,
+        "changed_pixels": 0,
+        "comparable": true,
+        "pilot_frame": "reports/physical_live_episodes/r3-current-v1-r004-chair/perception_capture/frame-000.json",
+        "pilot_frame_sha256": "53b3b180d69d9b4567fe68ad042946ec424e908a456c411c838233b595b0e902"
+      },
+      "control_run": {
+        "context_frame_sha256": "a8c0499d7bf56a838c41581248228abe626bb21f904e0860c4d0a44b03385dd0",
+        "request_sha256": "64dbfc68099dc8a18fba7b5258d3f4d74996a3518426a3bfd558ae51df5129f3",
+        "rgb_sha256": "9d1c2007423cdcaa72304cc16342927b6f9ef3a1a340ad359f92a7e5be56c7f2",
+        "run_id": "expansion-diag-render-v1-control-r004-chair"
+      },
+      "entity_id": "dev_02-r004-yellow-chair",
+      "issues": [],
+      "map_id": "r3geo_base_r004",
+      "rendered": true,
+      "rendered_checks": {
+        "box_coverage_within_tolerance": false,
+        "box_unchanged_fraction": 1.0,
+        "candidate_target_pixels": 3391,
+        "changed_pixels": 744,
+        "changed_pixels_outside_box": 744,
+        "control_target_pixels": 3391,
+        "control_target_pixels_in_box": 828,
+        "control_target_pixels_in_box_covered": 0,
+        "passed": false,
+        "projected_box_pixels": 1706,
+        "rendered_box_coverage": 0.0,
+        "screen_visible": false,
+        "target_identifiable": true,
+        "target_pixels_in_box_occluded_fraction": 0.0
+      },
+      "rendered_preflight_passed": false,
+      "target_attributes": {
+        "color": "yellow"
+      },
+      "target_palette_rgb": [
+        110,
+        101,
+        45
+      ],
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000004,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "e99eab865a6c98d700b9c94867d6aa7595d6ad895a027291c3b9a0bbdd145149",
+      "candidate_id": "expansion-v1-r004-doorway-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r004-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "6c03b2c76504a377f3d056f2771b5b9affe600d480cbdaf7deced94edb3dd563",
+      "capture_pose": {
+        "x": 8.3,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r004_left_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r004",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000043,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "efbdee144541e33eaed6e3e405aba512b7390578dcf6f284df0d289641cb9f8e",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r004-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "8380e41a34486e97bebd897bd295d4023548e8fc203b8f43b7e637b1564c4b85",
+      "capture_pose": {
+        "x": 8.3,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r004_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r004",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.1999999999999999,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "fd0010824ce9e473367b69004405e659fe30ecab92e1aea2956873cca3e7a529",
+      "candidate_id": "expansion-v1-r004-office_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r004-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "d97057f4b39cbcae2d8ac23b6bd81f9d1eac20cb8f994f9d96af760b31b792e8",
+      "capture_pose": {
+        "x": 8.3,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r004_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r004",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000004,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "a065ffd84d32f94510495fe0f2005a3f7dcdde5dfe03f7d1da30dc10b19779a8",
+      "candidate_id": "expansion-v1-r005-chair-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r005-chair-s1-view0",
+      "candidate_world_sdf_sha256": "c3a5c95da44610508e436715d3abf3e960383ab2cf8f40cd409940e030252e45",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8308214428190251
+      },
+      "category": "chair",
+      "entity_id": "dev_03-r005-red-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r005",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000007,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "edf91ebebdde08795f3564897f30005b0fd6db212ce60486c125d4082c6dab0f",
+      "candidate_id": "expansion-v1-r005-doorway-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r005-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "e8c8d6134b9494565e8bb55d724c159e71006c0ea29931e524f55a8551130a50",
+      "capture_pose": {
+        "x": 7.5,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r005_right_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r005",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000026,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "9280f20bee06b09ccab7acc604201b2b393de26637825e12298ed3f1c54062a8",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r005-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "271d188fe21c99e08fa9f84211ae8f3f655f533b8409703ad0ac2f4774bd6f6c",
+      "capture_pose": {
+        "x": 7.5,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r005_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r005",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000004,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "ae8628dd3f055b84bfbc71e37a507264da1b0a734c0a51435ca392bf7154e03e",
+      "candidate_id": "expansion-v1-r005-office_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r005-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "d84705cbd186b756d0f473292eeebeff137bfada73f1f6675cb0b24e4f466d3b",
+      "capture_pose": {
+        "x": 7.5,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r005_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r005",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.1999999999999999,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "ffd09f964719f7a2a3ab516782c14c156b6e6910d2c4953d2dc84f8fcc380605",
+      "candidate_id": "expansion-v1-r006-chair-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r006-chair-s1-view0",
+      "candidate_world_sdf_sha256": "47cbad7e6c6dc406e344ece80bbfe9e8c8239fac7edae4a9ac208791e3a26a11",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.7853981633974481
+      },
+      "category": "chair",
+      "entity_id": "dev_03-r006-blue-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r006",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.2000000000000001,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "f8b211cc059e51af7837cff79041be2b74fe07079c92e60ef90a981d4758468b",
+      "candidate_id": "expansion-v1-r006-doorway-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r006-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "9c7d80d52eb62ef5f76a160e4b2033cea4ccbda97f3f3063fa6959082c1eaae9",
+      "capture_pose": {
+        "x": 7.7,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r006_right_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r006",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000032,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "e9e32e77d0cdc198b9d93e32134f04fa643955f9be302128dca65d0bee046122",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r006-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "ae5766aa1e41ccece030ec7215d96816312e091fb8a581f543f851c804e622ef",
+      "capture_pose": {
+        "x": 7.7,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r006_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r006",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.1999999999999999,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "1067c9f0e845a6b73b4a37d5b277edc5db8a50fecce2423f72621ed2ed56f34f",
+      "candidate_id": "expansion-v1-r006-office_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r006-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "499759b192430c4670aa98a00a93bf9304fa8aeabd6ce86660339cdeeb92fb6c",
+      "capture_pose": {
+        "x": 7.7,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r006_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r006",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000007,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "76dc0610413998381c136f7d9ff65002faf9a69fd579f3dd5da96639368c58e4",
+      "candidate_id": "expansion-v1-r007-chair-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r007-chair-s1-view0",
+      "candidate_world_sdf_sha256": "9cd8d8ce14cbedfd5edaf79031daaa55cc8bcff35d32b7e13efed0c6e0372e22",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8086497862079111
+      },
+      "category": "chair",
+      "entity_id": "dev_04-r007-green-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r007",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.19999999999999993,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "fab96514c2375ed586eb5177f6b79440cc38f2aab11b8f2e1c422ccad193efe6",
+      "candidate_id": "expansion-v1-r007-doorway-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r007-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "1075e1c041746da0c68f43a3ab2ab9bd0bcd35423c68d189c0b883341588b5f8",
+      "capture_pose": {
+        "x": 7.9,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r007_right_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r007",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.19999999999999887,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "4aa93907b8b6e7956e54b529cad92d921d0a55e87ce2becdb01fbda75b3f4c2e",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r007-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "3b2b6715b9705d7038e14faa5185b03a4899a9be9d38f8d8adaaec736af57702",
+      "capture_pose": {
+        "x": 7.9,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r007_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r007",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000057,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "500cbc4dcd3c9c6b760704951700f094ee982a6502ce8fb10c55db1bd995996a",
+      "candidate_id": "expansion-v1-r007-office_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r007-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "4b5e4825bacd683ec03aa0b1c189f1c10df9a120c5e7a8108fb6f104d1bb8419",
+      "capture_pose": {
+        "x": 7.9,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r007_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r007",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000004,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "d579caf21639465b92d08201ea210a615e9f94bafe7637c9c55f0c86b9052b27",
+      "candidate_id": "expansion-v1-r008-chair-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r008-chair-s1-view0",
+      "candidate_world_sdf_sha256": "b19c5849691187e9937a5be3a1a6256796e5082398715717980374b531b23ea7",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8308214428190251
+      },
+      "category": "chair",
+      "entity_id": "dev_04-r008-yellow-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r008",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000007,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "0542da8c333adddef4f683d6b6562578a02307bb0c31ca77ec309aa4f758868f",
+      "candidate_id": "expansion-v1-r008-doorway-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r008-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "209e892afb17f81e9704cc50a32006cb9bc414614a57de13033de9b9609afcae",
+      "capture_pose": {
+        "x": 8.1,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r008_right_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r008",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.1999999999999997,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "a7373bf4808ac0e575ae7198a8dea74a2a99f9f6525240b7720e7c650baf826e",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r008-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "609e00dbca869379825444570816525c07c2ab3f05a599012facba795b61eae4",
+      "capture_pose": {
+        "x": 8.1,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r008_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r008",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.19999999999999996,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "dea8f8d9b657bcd904a2cca6ef1a3d26c18b23fe6cdb920e62dbb6bf19d0dfa8",
+      "candidate_id": "expansion-v1-r008-office_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r008-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "ba497463d50a6ebc4b10162ee57c38042a6fb2c6ecfd35c7801bb60326b3e8a5",
+      "capture_pose": {
+        "x": 8.1,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r008_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r008",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000007,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "da561450421b49fd6218fdc295fa362bd7786aad409f5a65f46eb76d61630ac7",
+      "candidate_id": "expansion-v1-r009-chair-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r009-chair-s1-view0",
+      "candidate_world_sdf_sha256": "26cc7372a764c797103a8bd969b5e3bb442f6fefc80e3c44cfa8bcb03f3b8937",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.7853981633974481
+      },
+      "category": "chair",
+      "entity_id": "dev_05-r009-red-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r009",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.19999999999999987,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "75963d72a558ab36522c6f044494fe89a29ec616c3e6077238106e6d0232f290",
+      "candidate_id": "expansion-v1-r009-doorway-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r009-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "36cd79f6fff62918993163a9b9b19f5e86b7ff14c97de31c85a741d2385e4069",
+      "capture_pose": {
+        "x": 8.3,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r009_left_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r009",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000032,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "0792a8617de25b91caf5f30fbb1a511bd1c563e02d2e70aaf81c199ced48c2ec",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r009-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "4223ba3729cbcfb49bca9f7ee773070ce4ed038136f7c70f42fe3640809b0035",
+      "capture_pose": {
+        "x": 8.3,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r009_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r009",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.2000000000000006,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "9c37dbcf8869a41fdc3e4528191fc7b3731b3b6da0ad2f7c88be1d4058ce24b0",
+      "candidate_id": "expansion-v1-r009-office_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r009-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "a46ddfcc7f651e951ce3bf7a4cd49a1da39c6d0ae24e7d9856f40a4ded4c635d",
+      "capture_pose": {
+        "x": 8.3,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r009_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r009",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.20000000000000007,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "331ee6ebf9d2415b568365bb1f79de435c3c27280a9210482f1e44131dc6d525",
+      "candidate_id": "expansion-v1-r010-chair-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r010-chair-s1-view0",
+      "candidate_world_sdf_sha256": "79c92c45da9a6ae04c6a60e822f10830bd25b82bdf79f709e3057708ec8e3161",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8086497862079111
+      },
+      "category": "chair",
+      "entity_id": "dev_00-r010-blue-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r010",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.19999999999999998,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "94b6098ebf05ca55542b2ab4e213d3cc49832d155e98c8f743d3ee255d551327",
+      "candidate_id": "expansion-v1-r010-doorway-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r010-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "e2b867f645ecf8f835b1bf4fab4146e844763cbdef6c8f3071c4d82e42769abc",
+      "capture_pose": {
+        "x": 7.5,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r010_left_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r010",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.19999999999999987,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "fa4896560af7d68ac53b3515d40222cb172ffe896a1fac3add7da2cb91243544",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r010-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "9bac20dbeb8d6f77edba65e560ff01717f728a991d774fe7fe185098f5670e9b",
+      "capture_pose": {
+        "x": 7.5,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r010_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r010",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": 0.2000000000000001,
+      "assets_directory": "reports/calibration_expansion_occluder_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "fd946e482a7f1531999d4ebe64246fd3c123afab2e2e8ad656b4ab181e1ab6bf",
+      "candidate_id": "expansion-v1-r010-office_entrance-s1-view0",
+      "candidate_key": "occluder/expansion-v1-r010-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "74655e5bd1faacd6a36355cfec9960edbab3678fbfbfebb30c1144997e63d8ed",
+      "capture_pose": {
+        "x": 7.5,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r010_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r010",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "occluder"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "b197f5547badfa80d7b71d862563f7d6e7bceb66faaba4c7d2b72de0d15190f0",
+      "candidate_id": "expansion-v1-r001-chair-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r001-chair-s1-view0",
+      "candidate_world_sdf_sha256": "acdad8a50b98ba7946084907fe0b5abad488601e08e1596d0bdea6d2989b6891",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8086497862079111
+      },
+      "category": "chair",
+      "entity_id": "dev_01-r001-red-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r001",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "76886d737ac11475d89df28f1bf1aeed25faf4bcc9f4a42a2e1d69162a3d8bcb",
+      "candidate_id": "expansion-v1-r001-doorway-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r001-doorway-s1-view0",
+      "candidate_run": {
+        "context_frame_sha256": "231581bddba81120d12957172eca90875fc2c7d1f0bf6307e704a6143229fd4f",
+        "request_sha256": "570979fba3bfee1e29aaa535807959cce39f67b25b9082217af7f7b8a7c91bfe",
+        "rgb_sha256": "2c0934941ba2726b5139e9179c5329118aa504e0cf92b7fbea10ee25bee6c27b",
+        "run_id": "expansion-diag-render-v1-sphere-v1-r001-doorway"
+      },
+      "candidate_world_sdf_sha256": "3814789df854e3d1850058f3903d1eb4c9b9f56da0fc5aab7cade8b6a1dfa1ef",
+      "capture_pose": {
+        "x": 7.7,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "composite_image": "images/sphere-expansion-v1-r001-doorway-s1-view0.png",
+      "control_pilot_drift": {
+        "changed_fraction": 0.0,
+        "changed_pixels": 0,
+        "comparable": true,
+        "pilot_frame": "reports/physical_live_episodes/r3-current-v1-r001-laboratory_entrance/perception_capture/frame-000.json",
+        "pilot_frame_sha256": "b15a3f8dacbf2a48fea016aad5056a7849ab218105a57270b8481b2ac078ba75"
+      },
+      "control_run": {
+        "context_frame_sha256": "19fc4ebf3d54a8524537a78249a78c69469685ab3ed82c7623e2af134f0bf564",
+        "request_sha256": "d9acae78bb567154356ca909a5f46488314c8650f6b9930746ffa404ab2da76e",
+        "rgb_sha256": "37c5a217f9297961fa9bba7a701612233ecbfed756870b843e248c2ecd4f8901",
+        "run_id": "expansion-diag-render-v1-control-r001-doorway"
+      },
+      "entity_id": "r3geo_base_r001_left_2_doorway",
+      "issues": [],
+      "map_id": "r3geo_base_r001",
+      "rendered": true,
+      "rendered_checks": {
+        "candidate_components": 172,
+        "candidate_target_pixels": 6290,
+        "changed_pixels": 3654,
+        "control_target_pixels": 4584,
+        "control_target_pixels_covered": 0,
+        "control_target_pixels_retained": 4584,
+        "passed": true,
+        "sphere_and_target_disjoint": true,
+        "sphere_pixels": 1683,
+        "sphere_visible": true,
+        "target_identifiable": true,
+        "target_retained_fraction": 1.0
+      },
+      "rendered_preflight_passed": true,
+      "target_attributes": {},
+      "target_palette_rgb": [
+        78,
+        44,
+        87
+      ],
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "eb29db001d20d00a9a9d2f21e277a8cfb36a809581d627eac34d397389df8243",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r001-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "e4216364e825f4eef188b62fd2121a9abc6772ccf1d4ea657a56e48e0c11c7a7",
+      "capture_pose": {
+        "x": 7.7,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r001_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r001",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "9783251b244ad424903cf00ae9042c9e4a6404f15fda4f721418ec1e361fa6e9",
+      "candidate_id": "expansion-v1-r001-office_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r001-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "a628cbaef648c932b3c51fd79b7c2e132f32da00d96367822ae7555cecb77554",
+      "capture_pose": {
+        "x": 7.7,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r001_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r001",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "14ed3dcf6f03f6e6ecd7885980463888fed33abe505a0fef9609b08a376f8c6f",
+      "candidate_id": "expansion-v1-r002-chair-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r002-chair-s1-view0",
+      "candidate_world_sdf_sha256": "962c7e8e226caaa132adf120b18d3a538b90968f1672b64e2047162bbf78bff4",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8308214428190251
+      },
+      "category": "chair",
+      "entity_id": "dev_01-r002-blue-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r002",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "a465e4a6dc20cdf5ef34788a28b5cd7907641cb61ce67d728cee745b14c8c9e5",
+      "candidate_id": "expansion-v1-r002-doorway-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r002-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "38ca5f0bf7e63237bb62de81ec41da73b1c90f3d0ec5810cb6b3ed982fe6ce43",
+      "capture_pose": {
+        "x": 7.9,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r002_left_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r002",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "0b676a98af0c9424a2f4ef39c73d3670ca377894132f6b3926a84d4346ff4587",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r002-laboratory_entrance-s1-view0",
+      "candidate_run": {
+        "context_frame_sha256": "335c43ac1b3128b940ef2b7c5c818c4fef55af1714800ff50caa78647c837166",
+        "request_sha256": "e472fd02e3b413407703b99d5f73d3dac04b83ef9c64d798637b42117d001e86",
+        "rgb_sha256": "c7e6e6ea77a5487846fa240544375edd4ac16de416a6864e0844d0e7ff7dfe44",
+        "run_id": "expansion-diag-render-v1-sphere-v1-r002-laboratory_entrance"
+      },
+      "candidate_world_sdf_sha256": "fcc50e9c5fe58bfa0dd9221756d36874d427b33e638a53caa38426d30cc2b3cc",
+      "capture_pose": {
+        "x": 7.9,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "composite_image": "images/sphere-expansion-v1-r002-laboratory_entrance-s1-view0.png",
+      "control_pilot_drift": {
+        "changed_fraction": 0.0,
+        "changed_pixels": 0,
+        "comparable": true,
+        "pilot_frame": "reports/physical_live_episodes/r3-current-v1-r002-laboratory_entrance/perception_capture/frame-000.json",
+        "pilot_frame_sha256": "55c959c997612e991b01bfba45f9cf6972039526c9b3092440d1d3a11cf03911"
+      },
+      "control_run": {
+        "context_frame_sha256": "f46115724f5f0b6988ac6ccc7d06a5711b08874439bfe9d7930e2a09b2a99b18",
+        "request_sha256": "eb505e2afe80e9cdc74220aec4b8032412f1d7282936a9f946c5e0f16d9524cc",
+        "rgb_sha256": "6f8d85d34479a3eb63c45356b54764b241836356d816f2ffb83cf8dfad9cbec6",
+        "run_id": "expansion-diag-render-v1-control-r002-laboratory_entrance"
+      },
+      "entity_id": "r3geo_base_r002_left_2_entrance",
+      "issues": [],
+      "map_id": "r3geo_base_r002",
+      "rendered": true,
+      "rendered_checks": {
+        "candidate_components": 2,
+        "candidate_target_pixels": 1332,
+        "changed_pixels": 2187,
+        "control_target_pixels": 164,
+        "control_target_pixels_covered": 0,
+        "control_target_pixels_retained": 164,
+        "passed": true,
+        "sphere_and_target_disjoint": true,
+        "sphere_pixels": 1168,
+        "sphere_visible": true,
+        "target_identifiable": true,
+        "target_retained_fraction": 1.0
+      },
+      "rendered_preflight_passed": true,
+      "target_attributes": {},
+      "target_palette_rgb": [
+        92,
+        42,
+        76
+      ],
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "5755f3e666e2d4b138a8358377acbe42c0d21a3143757ebe49f76f8c2c5acd0b",
+      "candidate_id": "expansion-v1-r002-office_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r002-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "3d7851a3ced6cf7b1716f3aec9f609520ccf30f7f362eccdc36db95680dfb3be",
+      "capture_pose": {
+        "x": 7.9,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r002_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r002",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "39c1a6dc9c1ac7e37875a79d81cc11b0b7dd2e78d4a6213ccdcb149f5ac97df3",
+      "candidate_id": "expansion-v1-r003-chair-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r003-chair-s1-view0",
+      "candidate_world_sdf_sha256": "c1b181628d670bf00b21ea4f468ec30606105b95285a80c73b7f14eb97357417",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.7853981633974481
+      },
+      "category": "chair",
+      "entity_id": "dev_02-r003-green-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r003",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "e5d0963e7e6021db1a1ee8b45cfb7bf34d8d44ea244c32530ac35879b8f54fde",
+      "candidate_id": "expansion-v1-r003-doorway-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r003-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "687783951a36b39c2817e98e0946cb4ac8531cd5bc5617b088ad6aa9d92fb3e8",
+      "capture_pose": {
+        "x": 8.1,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r003_left_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r003",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "220765e6b0852212d129d307fc92181892fe54cab31a4a7f773fc8d7219f89af",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r003-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "89671a8353f9b9ec90f662eb8113d5c32e671ce8e2c0646e4c7d76913e5a0009",
+      "capture_pose": {
+        "x": 8.1,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r003_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r003",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "d3009df9500f5c9afcfdd8990a9a19b87f3f28ad0083dc7d396379b7bcc3bf77",
+      "candidate_id": "expansion-v1-r003-office_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r003-office_entrance-s1-view0",
+      "candidate_run": {
+        "context_frame_sha256": "5e77c548e0aca1cf3023b9fdc617fc72001ab13e9d8d926f3bdd367728cedd81",
+        "request_sha256": "7084fe9e39a3711b22f7f6859db15a6db84e60209d5ca9ed82374015e8445742",
+        "rgb_sha256": "dca9c2c363ec110370b7fb4332f2ded57a0e7cc1d2072ad273aad03cb99c2f10",
+        "run_id": "expansion-diag-render-v1-sphere-v1-r003-office_entrance"
+      },
+      "candidate_world_sdf_sha256": "e76361d4f40839a098fecfd708182b59c91e489a5b8dff307ef037c7549dc6ba",
+      "capture_pose": {
+        "x": 8.1,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "composite_image": "images/sphere-expansion-v1-r003-office_entrance-s1-view0.png",
+      "control_pilot_drift": {
+        "changed_fraction": 0.0,
+        "changed_pixels": 0,
+        "comparable": true,
+        "pilot_frame": "reports/physical_live_episodes/r3-current-v1-r003-office_entrance/perception_capture/frame-000.json",
+        "pilot_frame_sha256": "c9cb37b7b32c7609d2eea1bbb89c765999e093b483f7a2d82858f3eb46e5542d"
+      },
+      "control_run": {
+        "context_frame_sha256": "85da701ccb8e00043c2228bba4a2e0a4f6e487de71ae7e6d3cdf18a7ec74e968",
+        "request_sha256": "d13b151147da7d4b6ff45dca0b48fea07b1bda85cd85d379f960022a1e88dafe",
+        "rgb_sha256": "ab7dbd8aee5e54c93fc329dfc13c957bcbabb6b2e552b32c10c5bcc984977b9b",
+        "run_id": "expansion-diag-render-v1-control-r003-office_entrance"
+      },
+      "entity_id": "r3geo_base_r003_right_2_entrance",
+      "issues": [],
+      "map_id": "r3geo_base_r003",
+      "rendered": true,
+      "rendered_checks": {
+        "candidate_components": 2,
+        "candidate_target_pixels": 3142,
+        "changed_pixels": 2581,
+        "control_target_pixels": 1391,
+        "control_target_pixels_covered": 0,
+        "control_target_pixels_retained": 1391,
+        "passed": true,
+        "sphere_and_target_disjoint": true,
+        "sphere_pixels": 1751,
+        "sphere_visible": true,
+        "target_identifiable": true,
+        "target_retained_fraction": 1.0
+      },
+      "rendered_preflight_passed": true,
+      "target_attributes": {},
+      "target_palette_rgb": [
+        39,
+        90,
+        79
+      ],
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "be4c7e2f0b44af2dd7af7ffa41a634aa4c29c0b7dffdd02db1631340a72e99cf",
+      "candidate_id": "expansion-v1-r004-chair-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r004-chair-s1-view0",
+      "candidate_run": {
+        "context_frame_sha256": "22fcc6d9dd09e459a6026a52e15b10ea3461ad1e738195802dca105ab861a8cc",
+        "request_sha256": "7bb4a171cef6e45028ef9810580aa12a409a511e612126e5bd9b87ec8dcb56e5",
+        "rgb_sha256": "f5db51371a1ded27dbc9c297da3bd5a5465bdc35747b570a2bcbf08f1cfe7da4",
+        "run_id": "expansion-diag-render-v1-sphere-v1-r004-chair"
+      },
+      "candidate_world_sdf_sha256": "45ee0bdd82abe54167b17951198fbc48f4183a289c15cef96b042f5a47864071",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8086497862079111
+      },
+      "category": "chair",
+      "composite_image": "images/sphere-expansion-v1-r004-chair-s1-view0.png",
+      "control_pilot_drift": {
+        "changed_fraction": 0.0,
+        "changed_pixels": 0,
+        "comparable": true,
+        "pilot_frame": "reports/physical_live_episodes/r3-current-v1-r004-chair/perception_capture/frame-000.json",
+        "pilot_frame_sha256": "53b3b180d69d9b4567fe68ad042946ec424e908a456c411c838233b595b0e902"
+      },
+      "control_run": {
+        "context_frame_sha256": "a8c0499d7bf56a838c41581248228abe626bb21f904e0860c4d0a44b03385dd0",
+        "request_sha256": "64dbfc68099dc8a18fba7b5258d3f4d74996a3518426a3bfd558ae51df5129f3",
+        "rgb_sha256": "9d1c2007423cdcaa72304cc16342927b6f9ef3a1a340ad359f92a7e5be56c7f2",
+        "run_id": "expansion-diag-render-v1-control-r004-chair"
+      },
+      "entity_id": "dev_02-r004-yellow-chair",
+      "issues": [],
+      "map_id": "r3geo_base_r004",
+      "rendered": true,
+      "rendered_checks": {
+        "candidate_components": 3,
+        "candidate_target_pixels": 3626,
+        "changed_pixels": 6289,
+        "control_target_pixels": 3391,
+        "control_target_pixels_covered": 323,
+        "control_target_pixels_retained": 3068,
+        "passed": false,
+        "sphere_and_target_disjoint": true,
+        "sphere_pixels": 555,
+        "sphere_visible": true,
+        "target_identifiable": true,
+        "target_retained_fraction": 0.9047478619876143
+      },
+      "rendered_preflight_passed": false,
+      "target_attributes": {
+        "color": "yellow"
+      },
+      "target_palette_rgb": [
+        110,
+        101,
+        45
+      ],
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "0cc845fd6a7ffc87fcc8c187e56ed7975fba3f01c3a4038857fc0f3c0ef5898b",
+      "candidate_id": "expansion-v1-r004-doorway-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r004-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "7a69c4ce0e8acd42064996c322a285f4f1479453b5f3d8ca55f78aaa3af5a21c",
+      "capture_pose": {
+        "x": 8.3,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r004_left_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r004",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "ad5216196f4436f81b7e3779ed1fa8815de4103824947cb688739f485659e434",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r004-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "8a83adf6de1334a0486a55f61bfe4e58562eddd1da5a9bcabe3551a7f1f10d33",
+      "capture_pose": {
+        "x": 8.3,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r004_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r004",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "5a63945510756ace93ad05811ce548a224e0b05ea6de9b0d57eed19f8fbbaa96",
+      "candidate_id": "expansion-v1-r004-office_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r004-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "06aacb91ca85d3aa5d96f496238160d7f61b74b70ca33497416524ea4651370c",
+      "capture_pose": {
+        "x": 8.3,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r004_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r004",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "b5ef83d7fc7c37a9d6b19bec1ae20374b64b47ff10cde7da8ca0e99e7d0e8977",
+      "candidate_id": "expansion-v1-r005-chair-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r005-chair-s1-view0",
+      "candidate_world_sdf_sha256": "da83fe287ccf4f0ea14cd436c12bef83b4f7071332ca40507be228aabcf44edd",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8308214428190251
+      },
+      "category": "chair",
+      "entity_id": "dev_03-r005-red-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r005",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "f14344e8776ed968a1beaac2f437c5cae6b14429b9ae98dbae80d4a66c78aeb7",
+      "candidate_id": "expansion-v1-r005-doorway-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r005-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "7c4b28eae62d94edf99eb0319989e92a804b6364fcec05663183831e60190998",
+      "capture_pose": {
+        "x": 7.5,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r005_right_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r005",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "4ef5e038c4aacdcf90a76c29ff2eafae44192efeefdcbe33fb3b2528e3dad3e6",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r005-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "e5e3da40149d4201ee8b5eb1489061d341204d2610d4288b9b63038bfb3a1255",
+      "capture_pose": {
+        "x": 7.5,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r005_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r005",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "3614f48733409ca70a737a7c37aee7ccbef86c6b60390646edbe1aba71275c5d",
+      "candidate_id": "expansion-v1-r005-office_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r005-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "8de665b4f834efcb5035a34e8bd4970bca9c918e1e5f2321a2e77bf69086f9aa",
+      "capture_pose": {
+        "x": 7.5,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r005_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r005",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "2955a5538927b630d505c8b366805cf23bc337b71c0abcfcc28fcbf8f2fb5eb8",
+      "candidate_id": "expansion-v1-r006-chair-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r006-chair-s1-view0",
+      "candidate_world_sdf_sha256": "c6cc9c12053952aa51fa497456fe041bd4d0d60e74ca360b6e3ac413745178e0",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.7853981633974481
+      },
+      "category": "chair",
+      "entity_id": "dev_03-r006-blue-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r006",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "f7f6868faef6663f9228e9ca6176efdbf05bba6dd3acb9ac93f9c45e6ace6b0b",
+      "candidate_id": "expansion-v1-r006-doorway-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r006-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "0787ba64df9d3aa39735ebf1e9c0a1e4310113b887808f9d62a0aab00df1201a",
+      "capture_pose": {
+        "x": 7.7,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r006_right_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r006",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "79f8f5695067feadc9c25226bf441db1181e00725e8e31b33bfeece466391528",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r006-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "72c199fb8c52093c236e26989220eb5c713b75a1c4d9e0e2371a8541533d769c",
+      "capture_pose": {
+        "x": 7.7,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r006_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r006",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "67f643ad257bf64fcf0ab29932f68ce89c259a1a9b79365241d7ccc22d1a906c",
+      "candidate_id": "expansion-v1-r006-office_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r006-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "fe62a363a49e4a59b5fd199dde5b7f247977d91a8734b45e464f7cb8b7695fb5",
+      "capture_pose": {
+        "x": 7.7,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r006_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r006",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "d897623a5ef3e30f0a565e5bd71ee741385e3e333161ec509e93b37152389d5b",
+      "candidate_id": "expansion-v1-r007-chair-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r007-chair-s1-view0",
+      "candidate_world_sdf_sha256": "97d94505a70fecf8aad9c0271349e9f587981746e3f7e9853b81b8722f5902df",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8086497862079111
+      },
+      "category": "chair",
+      "entity_id": "dev_04-r007-green-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r007",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "d7fb7fad03e76bd27267d9ca4e05e75442d539d157ba42f862b52b2dd33473cf",
+      "candidate_id": "expansion-v1-r007-doorway-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r007-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "4bdce90a309cc4315ad31990d39615c1beb595c996fb33bcc42045aab7b59854",
+      "capture_pose": {
+        "x": 7.9,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r007_right_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r007",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "b09a188c3f84de7934124818fd51c9cc9f771db7538d282cf4c97c66b3b5efd3",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r007-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "d1244896a79d43a849c6e7336832668211ee0a266a50e6ef7fbbc87320173c86",
+      "capture_pose": {
+        "x": 7.9,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r007_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r007",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "b147e29955cadf71c2338d1cda44be92fca328bfd86918b1818450d85aa866cf",
+      "candidate_id": "expansion-v1-r007-office_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r007-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "79c8691d36d8dd06330aea7cf401db285cdf05387263800774314202a5055d6d",
+      "capture_pose": {
+        "x": 7.9,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r007_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r007",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "5692f5579612a0b371907b90e56b397b046444ce9b263643917c578c823d2412",
+      "candidate_id": "expansion-v1-r008-chair-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r008-chair-s1-view0",
+      "candidate_world_sdf_sha256": "88a411c1c358192f96bdab348855a2ee0ffaa807dbb2f4e68480eec927751f4c",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8308214428190251
+      },
+      "category": "chair",
+      "entity_id": "dev_04-r008-yellow-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r008",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "5702d7bf0b8be98be4f62eb4e30f5fb9d029425eca9ebea5fa23180512706fcc",
+      "candidate_id": "expansion-v1-r008-doorway-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r008-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "c9a119e2f1508f92ce01b0eb877ef7ba3d53af5bd38e444587d05a2960001b1c",
+      "capture_pose": {
+        "x": 8.1,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r008_right_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r008",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "fb92b80f9332da90951b1b75948df2436e0ba2f3776d0816e4af06b42b1bb059",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r008-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "6069833226c3b399fee7fc7bf0f6e4682a1dab989a0dfa0570be84e5ac0a9bd1",
+      "capture_pose": {
+        "x": 8.1,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r008_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r008",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "3666abd600dae758ecce6b0ac3c681e15a3a830c94cfbaa880652b83bcbfddf0",
+      "candidate_id": "expansion-v1-r008-office_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r008-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "1725c991bd3b26f6b63bcc522887e03d58b5c34f7742aa4d017efd56b9187870",
+      "capture_pose": {
+        "x": 8.1,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r008_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r008",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "379c2ebad8bd2401b3a811002c24c5a1cbd20285a447041e29bbb6ceb6744809",
+      "candidate_id": "expansion-v1-r009-chair-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r009-chair-s1-view0",
+      "candidate_world_sdf_sha256": "0261cbf5023ed94af23bcf3b5bfedfe951b20a39e3652ba8829e308e89b3617e",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.7853981633974481
+      },
+      "category": "chair",
+      "entity_id": "dev_05-r009-red-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r009",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "46f9b53b6cb377e7092a7d70887e354029b75145fd18ad9ede92fdf8e5c9f173",
+      "candidate_id": "expansion-v1-r009-doorway-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r009-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "b9213244f98536a28305f98ea782896040999db99a9e02849616295b272e6db2",
+      "capture_pose": {
+        "x": 8.3,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r009_left_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r009",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "4c5b375258199ec60735c3170efe45bb03b0ae0c94c7c3e5e28f858144c28c72",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r009-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "efaf3e150890ba6923b86258f4b925de0791d20f87cb058b8c224deb9c06f8b9",
+      "capture_pose": {
+        "x": 8.3,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r009_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r009",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "bf7b4c97c7a1139bd711ca5e35d44fc9deb0421c31469b90f8975a19d6b2da53",
+      "candidate_id": "expansion-v1-r009-office_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r009-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "e4ebfc85eb90b7c10feb8995044fa3c13597906f714de7b83d803c8599b36593",
+      "capture_pose": {
+        "x": 8.3,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r009_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r009",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "39bedc3a9cb629c20a2e424fc2836fb64e24c288d11dc1ab4cd2e14e9ccf486d",
+      "candidate_id": "expansion-v1-r010-chair-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r010-chair-s1-view0",
+      "candidate_world_sdf_sha256": "c7d9f9f449fb848c69f86aa056908e4e0c3b5b1143f8dcde77930c6bcf048876",
+      "capture_pose": {
+        "x": 1.15,
+        "y": -0.3,
+        "yaw": 0.8086497862079111
+      },
+      "category": "chair",
+      "entity_id": "dev_00-r010-blue-chair",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r010",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "c18eeb894821ba97de99865eeb35cfc30656faf9a5e9c28428ddf0afc17be460",
+      "candidate_id": "expansion-v1-r010-doorway-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r010-doorway-s1-view0",
+      "candidate_world_sdf_sha256": "bd7692248795e9951c125b5d5b5bc69f80263d6c1ae1ff0f14ffc345f9c8dfb7",
+      "capture_pose": {
+        "x": 7.5,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "doorway",
+      "entity_id": "r3geo_base_r010_left_2_doorway",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r010",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "6001efdefc7473ba1239dfcb07f4d4e3ec3883c87fb8bf478d20f043defbb33b",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r010-laboratory_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "f66e272c796ac0b921f5f0101bb1e6f7d649bbe24243604f4883666b07ddf526",
+      "capture_pose": {
+        "x": 7.5,
+        "y": -0.6,
+        "yaw": 1.5707963267948966
+      },
+      "category": "laboratory_entrance",
+      "entity_id": "r3geo_base_r010_left_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r010",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    },
+    {
+      "analytic_occluded_fraction": null,
+      "assets_directory": "reports/calibration_expansion_distractor_assets_20260912_v1",
+      "assets_tag": "v1",
+      "audit_sha256": "86abc17006fb269f0d919b0dd1ff26203ec749f63dcd6f6299f7c7a197ac2886",
+      "candidate_id": "expansion-v1-r010-office_entrance-s1-view0",
+      "candidate_key": "sphere/expansion-v1-r010-office_entrance-s1-view0",
+      "candidate_world_sdf_sha256": "df968147aa21041b5a5c350af96a34184d60fb0b7f201d5c06b684acc7b42566",
+      "capture_pose": {
+        "x": 7.5,
+        "y": 0.6,
+        "yaw": -1.5707963267948966
+      },
+      "category": "office_entrance",
+      "entity_id": "r3geo_base_r010_right_2_entrance",
+      "issues": [
+        "candidate_render_missing"
+      ],
+      "map_id": "r3geo_base_r010",
+      "rendered": false,
+      "rendered_checks": null,
+      "rendered_preflight_passed": false,
+      "treatment": "sphere"
+    }
+  ],
+  "schema_version": "research3-expansion-diagnostic-render-audit/v1",
+  "sphere_passed": 3,
+  "thresholds": {
+    "change_tolerance": 8,
+    "mask_tolerance": 12,
+    "occluder_box_coverage_tolerance": 0.06,
+    "sphere_min_target_retained": 0.97
+  }
+}

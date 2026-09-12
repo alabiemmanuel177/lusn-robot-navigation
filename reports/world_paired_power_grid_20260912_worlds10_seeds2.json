@@ -1,0 +1,1102 @@
+{
+  "alpha": 0.05,
+  "any_grid_point_reaches_target": true,
+  "conditions": 8,
+  "evidence_scope": "declared-grid simulation; not achieved study power; nuisance values are inputs unless an estimate file is bound",
+  "generator": "world logit random effect (variance from ICC on the logistic scale), paired Bernoulli with prescribed margins and discordance, equal condition and seed weights, exact sign-flip test",
+  "grid": [
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003052785613173647,
+        "rate": 0.019
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.0032799390238234627,
+        "rate": 0.978
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003052785613173647,
+        "rate": 0.019
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.006462816723379983,
+        "rate": 0.908
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003524893615415932,
+        "rate": 0.0255
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.009695333929267212,
+        "rate": 0.749
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0036567574434189644,
+        "rate": 0.0275
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.010658306619721539,
+        "rate": 0.651
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003783500363420096,
+        "rate": 0.0295
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.011001795308039502,
+        "rate": 0.589
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0036567574434189644,
+        "rate": 0.0275
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.011138918259867068,
+        "rate": 0.457
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003752265982043384,
+        "rate": 0.029
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.011137947521873139,
+        "rate": 0.4565
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003875499967746097,
+        "rate": 0.031
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.011052143457266558,
+        "rate": 0.4245
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0039056209493497957,
+        "rate": 0.0315
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.010661842007833357,
+        "rate": 0.3495
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0039056209493497957,
+        "rate": 0.0315
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.010816601823123564,
+        "rate": 0.3735
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0040524066923249445,
+        "rate": 0.034
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.010603719866160178,
+        "rate": 0.3415
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.3,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003783500363420096,
+        "rate": 0.0295
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.009989988738732391,
+        "rate": 0.2755
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.002890588175441116,
+        "rate": 0.017
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.003013117156700015,
+        "rate": 0.9815
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003524893615415932,
+        "rate": 0.0255
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.005686376262612245,
+        "rate": 0.9305
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0034910600109422352,
+        "rate": 0.025
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.009950276378071114,
+        "rate": 0.728
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003965081966365891,
+        "rate": 0.0325
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.010729859039148651,
+        "rate": 0.6405
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003524893615415932,
+        "rate": 0.0255
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.011046967909793166,
+        "rate": 0.577
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003351939736928455,
+        "rate": 0.023
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.01106053796160024,
+        "rate": 0.427
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.004248161366991607,
+        "rate": 0.0375
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.011174614087296258,
+        "rate": 0.484
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003558370413546066,
+        "rate": 0.026
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.010967930524944073,
+        "rate": 0.403
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003752265982043384,
+        "rate": 0.029
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.010285523807760107,
+        "rate": 0.304
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.004459694496263169,
+        "rate": 0.0415
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.010749273231246845,
+        "rate": 0.3625
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0036889022757454555,
+        "rate": 0.028
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.010468995892634595,
+        "rate": 0.3245
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.5,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.004193313129257103,
+        "rate": 0.0365
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.009424409795843983,
+        "rate": 0.231
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.002890588175441116,
+        "rate": 0.017
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.003316153645415119,
+        "rate": 0.9775
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0031304951684997056,
+        "rate": 0.02
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.006587260432076448,
+        "rate": 0.904
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.002932042803234632,
+        "rate": 0.0175
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.009989988738732391,
+        "rate": 0.7245
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0033873108803297047,
+        "rate": 0.0235
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.010742852274884916,
+        "rate": 0.6385
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0036242930345103167,
+        "rate": 0.027
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.011030814793114786,
+        "rate": 0.5815
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.00381444622455213,
+        "rate": 0.03
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.011160863541859115,
+        "rate": 0.4705
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.004109440351191388,
+        "rate": 0.035
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.011157419056394719,
+        "rate": 0.468
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003965081966365891,
+        "rate": 0.0325
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.011028961873177366,
+        "rate": 0.418
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.004165573189850348,
+        "rate": 0.036
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.01056181802532121,
+        "rate": 0.336
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0039354796403996304,
+        "rate": 0.032
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.01072328657641863,
+        "rate": 0.3585
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.004137617067830226,
+        "rate": 0.0355
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.010573404134903763,
+        "rate": 0.3375
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.6,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.004165573189850348,
+        "rate": 0.036
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.010006772706522319,
+        "rate": 0.277
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0033873108803297047,
+        "rate": 0.0235
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.002972877394041,
+        "rate": 0.982
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0027622228367747597,
+        "rate": 0.0155
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.007106475919891659,
+        "rate": 0.886
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.002890588175441116,
+        "rate": 0.017
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.009232442797006652,
+        "rate": 0.782
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003783500363420096,
+        "rate": 0.0295
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.010588667291023928,
+        "rate": 0.6605
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0039354796403996304,
+        "rate": 0.032
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.010913930318634071,
+        "rate": 0.6085
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003752265982043384,
+        "rate": 0.029
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.011173092678394824,
+        "rate": 0.518
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0036242930345103167,
+        "rate": 0.027
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.011176560293757645,
+        "rate": 0.487
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.00381444622455213,
+        "rate": 0.03
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.011050429855892486,
+        "rate": 0.424
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0035915003828483716,
+        "rate": 0.0265
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.010940543862167,
+        "rate": 0.397
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003752265982043384,
+        "rate": 0.029
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.010696488909918056,
+        "rate": 0.3545
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.004248161366991607,
+        "rate": 0.0375
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.010699883176932354,
+        "rate": 0.355
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.7,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0037207358143249033,
+        "rate": 0.0285
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.01058106209224764,
+        "rate": 0.3385
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.00316857617866448,
+        "rate": 0.0205
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.0034568591235397466,
+        "rate": 0.9755
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0031304951684997056,
+        "rate": 0.02
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.007051808278732484,
+        "rate": 0.888
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0025328837320335094,
+        "rate": 0.013
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.008985926496472138,
+        "rate": 0.7975
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0034910600109422352,
+        "rate": 0.025
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.010622240818207805,
+        "rate": 0.656
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0034910600109422352,
+        "rate": 0.025
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.01056955533596376,
+        "rate": 0.663
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.00342227994179319,
+        "rate": 0.024
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.010534318914861084,
+        "rate": 0.6675
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0034910600109422352,
+        "rate": 0.025
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.011153693334496874,
+        "rate": 0.4655
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003456859123539749,
+        "rate": 0.0245
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.011125415722569651,
+        "rate": 0.5495
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0038451105315712316,
+        "rate": 0.0305
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.011136965475388706,
+        "rate": 0.544
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0040524066923249445,
+        "rate": 0.034
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.01113597211742199,
+        "rate": 0.4555
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.004485309353879618,
+        "rate": 0.042
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.011176263910627739,
+        "rate": 0.4865
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.8,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0037207358143249033,
+        "rate": 0.0285
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.011174250534152167,
+        "rate": 0.4835
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.002890588175441116,
+        "rate": 0.017
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.003491060010942237,
+        "rate": 0.975
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0028057084666800293,
+        "rate": 0.016
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.006648157639526908,
+        "rate": 0.902
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0029728773940409987,
+        "rate": 0.018
+      },
+      "paired_discordance": 0.1,
+      "power": {
+        "monte_carlo_se": 0.008228540271518392,
+        "rate": 0.8385
+      },
+      "reaches_target_power": true,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.00342227994179319,
+        "rate": 0.024
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.010603719866160178,
+        "rate": 0.6585
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0032061659345704488,
+        "rate": 0.021
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.009832497139587684,
+        "rate": 0.738
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.0036567574434189644,
+        "rate": 0.0275
+      },
+      "paired_discordance": 0.2,
+      "power": {
+        "monte_carlo_se": 0.009576951498258723,
+        "rate": 0.758
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003783500363420096,
+        "rate": 0.0295
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.010625905843738688,
+        "rate": 0.6555
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003456859123539749,
+        "rate": 0.0245
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.010422067932996791,
+        "rate": 0.681
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003558370413546066,
+        "rate": 0.026
+      },
+      "paired_discordance": 0.3,
+      "power": {
+        "monte_carlo_se": 0.010275967107771414,
+        "rate": 0.697
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.004302194207610809,
+        "rate": 0.0385
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.010719981343267347,
+        "rate": 0.642
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.0
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003994433626936364,
+        "rate": 0.033
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.010651197115817544,
+        "rate": 0.652
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.1
+    },
+    {
+      "baseline_completion": 0.85,
+      "ceiling_limited": false,
+      "null_size": {
+        "monte_carlo_se": 0.003351939736928455,
+        "rate": 0.023
+      },
+      "paired_discordance": 0.4,
+      "power": {
+        "monte_carlo_se": 0.010592450141492288,
+        "rate": 0.66
+      },
+      "reaches_target_power": false,
+      "world_icc": 0.3
+    }
+  ],
+  "max_power": 0.982,
+  "method_approved": false,
+  "minimum_attainable_two_sided_p": 0.001953125,
+  "monte_carlo_seed": 20260912,
+  "nuisance_estimates": null,
+  "protected_outcomes_read": false,
+  "rejection_possible_at_alpha": true,
+  "replications": 2000,
+  "schema_version": "research3-world-paired-power-simulation/v1",
+  "seeds": 2,
+  "target_effect": 0.1,
+  "target_power": 0.8,
+  "worlds": 10
+}

@@ -1,0 +1,1376 @@
+{
+  "all_verified": true,
+  "camera_offset_base_frame_m": [
+    0.133,
+    -0.094,
+    0.224
+  ],
+  "max_abs_residual_m": 0.006775207538167238,
+  "model_id": "research3-rendering-camera-model/v1",
+  "renders": 40,
+  "rows": [
+    {
+      "depth_floor_height": 0.22620603115068283,
+      "depth_floor_height_std": 0.003911558322423473,
+      "depth_pitch_slope": 0.004067986550288718,
+      "depth_x": 1.3148354771541628,
+      "depth_y": -0.2753173539306406,
+      "floor_pixels": 114324,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r001-chair/perception_capture/frame-000.json",
+      "height_residual": 0.0022060311506828245,
+      "localization_transform_offset_from_model_m": [
+        -0.08542171380381358,
+        -0.006937637264306129,
+        -0.10700000000000003
+      ],
+      "localization_transform_translation": {
+        "x": 1.2244069816544547,
+        "y": -0.2756360700813661,
+        "z": 0.11699999999999998
+      },
+      "map_id": "r3geo_base_r001",
+      "max_abs_residual_m": 0.006618921113580645,
+      "model_centre": [
+        1.3098286954582683,
+        -0.26869843281705996,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r001-chair",
+      "verified": true,
+      "x_faces_used": 5,
+      "x_residual": 0.005006781695894524,
+      "y_faces_used": 2,
+      "y_residual": -0.006618921113580645
+    },
+    {
+      "depth_floor_height": 0.22651867034999407,
+      "depth_floor_height_std": 0.0038584813961144177,
+      "depth_pitch_slope": 0.003461048574487392,
+      "depth_x": 7.7974282705520475,
+      "depth_y": -0.4731549170270913,
+      "floor_pixels": 126090,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r001-doorway/perception_capture/frame-000.json",
+      "height_residual": 0.002518670349994062,
+      "localization_transform_offset_from_model_m": [
+        -0.05699999999973482,
+        -0.06400000000003714,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.737000000000266,
+        "y": -0.5310000000000371,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r001",
+      "max_abs_residual_m": 0.006154917027091311,
+      "model_centre": [
+        7.7940000000000005,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r001-doorway",
+      "verified": true,
+      "x_faces_used": 10,
+      "x_residual": 0.0034282705520469747,
+      "y_faces_used": 2,
+      "y_residual": -0.006154917027091311
+    },
+    {
+      "depth_floor_height": 0.22653518124577532,
+      "depth_floor_height_std": 0.003853835268881161,
+      "depth_pitch_slope": 0.003467815539817388,
+      "depth_x": 7.79739849951324,
+      "depth_y": -0.47315649155381045,
+      "floor_pixels": 126036,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r001-laboratory_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0025351812457753142,
+      "localization_transform_offset_from_model_m": [
+        -0.05699999999973393,
+        -0.06400000000003714,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.7370000000002666,
+        "y": -0.5310000000000371,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r001",
+      "max_abs_residual_m": 0.006156491553810484,
+      "model_centre": [
+        7.7940000000000005,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r001-laboratory_entrance",
+      "verified": true,
+      "x_faces_used": 10,
+      "x_residual": 0.00339849951323945,
+      "y_faces_used": 2,
+      "y_residual": -0.006156491553810484
+    },
+    {
+      "depth_floor_height": 0.2264340465155395,
+      "depth_floor_height_std": 0.003842355485480307,
+      "depth_pitch_slope": 0.0035955361787062563,
+      "depth_x": 7.602608182213463,
+      "depth_y": 0.47315881851948527,
+      "floor_pixels": 121899,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r001-office_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0024340465155394952,
+      "localization_transform_offset_from_model_m": [
+        0.057000000000268614,
+        0.06400000000003814,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.6630000000002685,
+        "y": 0.5310000000000381,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r001",
+      "max_abs_residual_m": 0.0061588185194852985,
+      "model_centre": [
+        7.606,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r001-office_entrance",
+      "verified": true,
+      "x_faces_used": 11,
+      "x_residual": -0.003391817786536855,
+      "y_faces_used": 2,
+      "y_residual": 0.0061588185194852985
+    },
+    {
+      "depth_floor_height": 0.2262268916528409,
+      "depth_floor_height_std": 0.003902023490912302,
+      "depth_pitch_slope": 0.004004774565055872,
+      "depth_x": 1.3146257897830476,
+      "depth_y": -0.27193795706373175,
+      "floor_pixels": 114783,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r002-chair/perception_capture/frame-000.json",
+      "height_residual": 0.002226891652840901,
+      "localization_transform_offset_from_model_m": [
+        -0.0852469124512174,
+        -0.008829717862205377,
+        -0.10700000000000003
+      ],
+      "localization_transform_translation": {
+        "x": 1.2238485493928635,
+        "y": -0.2739924673877699,
+        "z": 0.11699999999999998
+      },
+      "map_id": "r3geo_base_r002",
+      "max_abs_residual_m": 0.006775207538167238,
+      "model_centre": [
+        1.3090954618440809,
+        -0.2651627495255645,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r002-chair",
+      "verified": true,
+      "x_faces_used": 5,
+      "x_residual": 0.005530327938966684,
+      "y_faces_used": 2,
+      "y_residual": -0.006775207538167238
+    },
+    {
+      "depth_floor_height": 0.22651833391835502,
+      "depth_floor_height_std": 0.0038357908134396953,
+      "depth_pitch_slope": 0.0034812433101232302,
+      "depth_x": 7.997385841530556,
+      "depth_y": -0.4732890269189125,
+      "floor_pixels": 126230,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r002-doorway/perception_capture/frame-000.json",
+      "height_residual": 0.0025183339183550146,
+      "localization_transform_offset_from_model_m": [
+        -0.05699999999985206,
+        -0.06400000000003714,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.937000000000149,
+        "y": -0.5310000000000371,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r002",
+      "max_abs_residual_m": 0.0062890269189125325,
+      "model_centre": [
+        7.994000000000001,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r002-doorway",
+      "verified": true,
+      "x_faces_used": 10,
+      "x_residual": 0.0033858415305552114,
+      "y_faces_used": 2,
+      "y_residual": -0.0062890269189125325
+    },
+    {
+      "depth_floor_height": 0.2265266546364494,
+      "depth_floor_height_std": 0.0038607074979607556,
+      "depth_pitch_slope": 0.0034713178555808967,
+      "depth_x": 7.9973723019142255,
+      "depth_y": -0.473279855949676,
+      "floor_pixels": 126228,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r002-laboratory_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0025266546364493825,
+      "localization_transform_offset_from_model_m": [
+        -0.05699999999985206,
+        -0.06400000000003714,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.937000000000149,
+        "y": -0.5310000000000371,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r002",
+      "max_abs_residual_m": 0.006279855949676005,
+      "model_centre": [
+        7.994000000000001,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r002-laboratory_entrance",
+      "verified": true,
+      "x_faces_used": 10,
+      "x_residual": 0.0033723019142248845,
+      "y_faces_used": 2,
+      "y_residual": -0.006279855949676005
+    },
+    {
+      "depth_floor_height": 0.22645800100666064,
+      "depth_floor_height_std": 0.003854341024233292,
+      "depth_pitch_slope": 0.0036432769956274685,
+      "depth_x": 7.802573085664081,
+      "depth_y": 0.47330393849121705,
+      "floor_pixels": 122150,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r002-office_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0024580010066606317,
+      "localization_transform_offset_from_model_m": [
+        0.057000000000150486,
+        0.06400000000003803,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.8630000000001505,
+        "y": 0.531000000000038,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r002",
+      "max_abs_residual_m": 0.006303938491217076,
+      "model_centre": [
+        7.806,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r002-office_entrance",
+      "verified": true,
+      "x_faces_used": 12,
+      "x_residual": -0.003426914335919129,
+      "y_faces_used": 2,
+      "y_residual": 0.006303938491217076
+    },
+    {
+      "depth_floor_height": 0.2262015112615967,
+      "depth_floor_height_std": 0.003909816669542888,
+      "depth_pitch_slope": 0.004051173573052935,
+      "depth_x": 1.3154626747981455,
+      "depth_y": -0.27900766538164423,
+      "floor_pixels": 113846,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r003-chair/perception_capture/frame-000.json",
+      "height_residual": 0.002201511261596706,
+      "localization_transform_offset_from_model_m": [
+        -0.08555992052352246,
+        -0.004949747468324162,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 1.2249533188058237,
+        "y": -0.27737258300204887,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r003",
+      "max_abs_residual_m": 0.006584829847919527,
+      "model_centre": [
+        1.3105132393293462,
+        -0.2724228355337247,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r003-chair",
+      "verified": true,
+      "x_faces_used": 6,
+      "x_residual": 0.004949435468799335,
+      "y_faces_used": 2,
+      "y_residual": -0.006584829847919527
+    },
+    {
+      "depth_floor_height": 0.22652458992233795,
+      "depth_floor_height_std": 0.003833191037861646,
+      "depth_pitch_slope": 0.0034776262916777156,
+      "depth_x": 8.197452131355265,
+      "depth_y": -0.47304928603768687,
+      "floor_pixels": 125888,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r003-doorway/perception_capture/frame-000.json",
+      "height_residual": 0.0025245899223379498,
+      "localization_transform_offset_from_model_m": [
+        -0.0569999999992703,
+        -0.06400000000003703,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.137000000000729,
+        "y": -0.531000000000037,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r003",
+      "max_abs_residual_m": 0.006049286037686896,
+      "model_centre": [
+        8.193999999999999,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r003-doorway",
+      "verified": true,
+      "x_faces_used": 8,
+      "x_residual": 0.003452131355265564,
+      "y_faces_used": 2,
+      "y_residual": -0.006049286037686896
+    },
+    {
+      "depth_floor_height": 0.22652088224841488,
+      "depth_floor_height_std": 0.003852843318596365,
+      "depth_pitch_slope": 0.003469796808026248,
+      "depth_x": 8.197531405791825,
+      "depth_y": -0.47304706017856524,
+      "floor_pixels": 125870,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r003-laboratory_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.002520882248414874,
+      "localization_transform_offset_from_model_m": [
+        -0.0569999999992703,
+        -0.06400000000003703,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.137000000000729,
+        "y": -0.531000000000037,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r003",
+      "max_abs_residual_m": 0.006047060178565267,
+      "model_centre": [
+        8.193999999999999,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r003-laboratory_entrance",
+      "verified": true,
+      "x_faces_used": 8,
+      "x_residual": 0.003531405791825648,
+      "y_faces_used": 2,
+      "y_residual": -0.006047060178565267
+    },
+    {
+      "depth_floor_height": 0.2264239885221891,
+      "depth_floor_height_std": 0.0038650373193265175,
+      "depth_pitch_slope": 0.003620951160137544,
+      "depth_x": 8.002609095633467,
+      "depth_y": 0.4730199781957037,
+      "floor_pixels": 121659,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r003-office_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0024239885221890856,
+      "localization_transform_offset_from_model_m": [
+        0.057000000000726914,
+        0.06400000000003814,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.063000000000727,
+        "y": 0.5310000000000381,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r003",
+      "max_abs_residual_m": 0.006019978195703712,
+      "model_centre": [
+        8.006,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r003-office_entrance",
+      "verified": true,
+      "x_faces_used": 11,
+      "x_residual": -0.0033909043665332206,
+      "y_faces_used": 2,
+      "y_residual": 0.006019978195703712
+    },
+    {
+      "depth_floor_height": 0.2262321054367151,
+      "depth_floor_height_std": 0.003920654216292908,
+      "depth_pitch_slope": 0.00398356389633697,
+      "depth_x": 1.315264443665987,
+      "depth_y": -0.27541150504768314,
+      "floor_pixels": 114255,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r004-chair/perception_capture/frame-000.json",
+      "height_residual": 0.0022321054367150928,
+      "localization_transform_offset_from_model_m": [
+        -0.08542171380381358,
+        -0.006937637264306129,
+        -0.10700000000000003
+      ],
+      "localization_transform_translation": {
+        "x": 1.2244069816544547,
+        "y": -0.2756360700813661,
+        "z": 0.11699999999999998
+      },
+      "map_id": "r3geo_base_r004",
+      "max_abs_residual_m": 0.006713072230623174,
+      "model_centre": [
+        1.3098286954582683,
+        -0.26869843281705996,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r004-chair",
+      "verified": true,
+      "x_faces_used": 5,
+      "x_residual": 0.005435748207718749,
+      "y_faces_used": 2,
+      "y_residual": -0.006713072230623174
+    },
+    {
+      "depth_floor_height": 0.22651130750840065,
+      "depth_floor_height_std": 0.0038393171549072217,
+      "depth_pitch_slope": 0.0034929034117432752,
+      "depth_x": 8.39756863548257,
+      "depth_y": -0.47321604775056053,
+      "floor_pixels": 126082,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r004-doorway/perception_capture/frame-000.json",
+      "height_residual": 0.0025113075084006453,
+      "localization_transform_offset_from_model_m": [
+        -0.056999999999439055,
+        -0.06400000000003703,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.337000000000561,
+        "y": -0.531000000000037,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r004",
+      "max_abs_residual_m": 0.0062160477505605605,
+      "model_centre": [
+        8.394,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r004-doorway",
+      "verified": true,
+      "x_faces_used": 7,
+      "x_residual": 0.003568635482569249,
+      "y_faces_used": 2,
+      "y_residual": -0.0062160477505605605
+    },
+    {
+      "depth_floor_height": 0.2265167296492697,
+      "depth_floor_height_std": 0.0038395485638577304,
+      "depth_pitch_slope": 0.0034557033316481274,
+      "depth_x": 8.397537279759401,
+      "depth_y": -0.47319747840402454,
+      "floor_pixels": 126035,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r004-laboratory_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.002516729649269689,
+      "localization_transform_offset_from_model_m": [
+        -0.056999999999439055,
+        -0.06400000000003703,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.337000000000561,
+        "y": -0.531000000000037,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r004",
+      "max_abs_residual_m": 0.00619747840402457,
+      "model_centre": [
+        8.394,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r004-laboratory_entrance",
+      "verified": true,
+      "x_faces_used": 7,
+      "x_residual": 0.003537279759401102,
+      "y_faces_used": 2,
+      "y_residual": -0.00619747840402457
+    },
+    {
+      "depth_floor_height": 0.22642586656351782,
+      "depth_floor_height_std": 0.0038493627056308153,
+      "depth_pitch_slope": 0.003593076107894778,
+      "depth_x": 8.202419213113057,
+      "depth_y": 0.4732828002223023,
+      "floor_pixels": 121924,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r004-office_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0024258665635178145,
+      "localization_transform_offset_from_model_m": [
+        0.05700000000055816,
+        0.06400000000003803,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.26300000000056,
+        "y": 0.531000000000038,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r004",
+      "max_abs_residual_m": 0.0062828002223023205,
+      "model_centre": [
+        8.206000000000001,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r004-office_entrance",
+      "verified": true,
+      "x_faces_used": 8,
+      "x_residual": -0.0035807868869444093,
+      "y_faces_used": 2,
+      "y_residual": 0.0062828002223023205
+    },
+    {
+      "depth_floor_height": 0.2262418897303445,
+      "depth_floor_height_std": 0.0038969707317989275,
+      "depth_pitch_slope": 0.004037027944188865,
+      "depth_x": 1.3140354879637248,
+      "depth_y": -0.27182961083007906,
+      "floor_pixels": 114767,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r005-chair/perception_capture/frame-000.json",
+      "height_residual": 0.002241889730344504,
+      "localization_transform_offset_from_model_m": [
+        -0.0852469124512174,
+        -0.008829717862205377,
+        -0.10700000000000003
+      ],
+      "localization_transform_translation": {
+        "x": 1.2238485493928635,
+        "y": -0.2739924673877699,
+        "z": 0.11699999999999998
+      },
+      "map_id": "r3geo_base_r005",
+      "max_abs_residual_m": 0.006666861304514549,
+      "model_centre": [
+        1.3090954618440809,
+        -0.2651627495255645,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r005-chair",
+      "verified": true,
+      "x_faces_used": 6,
+      "x_residual": 0.004940026119643948,
+      "y_faces_used": 2,
+      "y_residual": -0.006666861304514549
+    },
+    {
+      "depth_floor_height": 0.22644962803614208,
+      "depth_floor_height_std": 0.0038586739755281456,
+      "depth_pitch_slope": 0.0035696283798038776,
+      "depth_x": 7.4023608131297,
+      "depth_y": 0.47331653918465444,
+      "floor_pixels": 122196,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r005-doorway/perception_capture/frame-000.json",
+      "height_residual": 0.002449628036142071,
+      "localization_transform_offset_from_model_m": [
+        0.05700000000060079,
+        0.06400000000003803,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.4630000000006005,
+        "y": 0.531000000000038,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r005",
+      "max_abs_residual_m": 0.006316539184654468,
+      "model_centre": [
+        7.406,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r005-doorway",
+      "verified": true,
+      "x_faces_used": 10,
+      "x_residual": -0.0036391868702994046,
+      "y_faces_used": 2,
+      "y_residual": 0.006316539184654468
+    },
+    {
+      "depth_floor_height": 0.22646075000633578,
+      "depth_floor_height_std": 0.003842944608642791,
+      "depth_pitch_slope": 0.0035890087862059665,
+      "depth_x": 7.402496357664596,
+      "depth_y": 0.47334109475569414,
+      "floor_pixels": 122234,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r005-laboratory_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.002460750006335777,
+      "localization_transform_offset_from_model_m": [
+        0.05700000000060079,
+        0.06400000000003803,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.4630000000006005,
+        "y": 0.531000000000038,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r005",
+      "max_abs_residual_m": 0.0063410947556941655,
+      "model_centre": [
+        7.406,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r005-laboratory_entrance",
+      "verified": true,
+      "x_faces_used": 11,
+      "x_residual": -0.0035036423354037893,
+      "y_faces_used": 2,
+      "y_residual": 0.0063410947556941655
+    },
+    {
+      "depth_floor_height": 0.22653065279904028,
+      "depth_floor_height_std": 0.003842966508733819,
+      "depth_pitch_slope": 0.0034902526380459447,
+      "depth_x": 7.597452808469887,
+      "depth_y": -0.4733395007145269,
+      "floor_pixels": 126250,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r005-office_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0025306527990402727,
+      "localization_transform_offset_from_model_m": [
+        -0.05699999999940175,
+        -0.06400000000003714,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.5370000000005986,
+        "y": -0.5310000000000371,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r005",
+      "max_abs_residual_m": 0.0063395007145269355,
+      "model_centre": [
+        7.594,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r005-office_entrance",
+      "verified": true,
+      "x_faces_used": 9,
+      "x_residual": 0.0034528084698868255,
+      "y_faces_used": 2,
+      "y_residual": -0.0063395007145269355
+    },
+    {
+      "depth_floor_height": 0.22621353736915706,
+      "depth_floor_height_std": 0.003915284607644115,
+      "depth_pitch_slope": 0.0040336873503344604,
+      "depth_x": 1.315294870313109,
+      "depth_y": -0.27900242676927384,
+      "floor_pixels": 113829,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r006-chair/perception_capture/frame-000.json",
+      "height_residual": 0.0022135373691570537,
+      "localization_transform_offset_from_model_m": [
+        -0.08555992052352268,
+        -0.004949747468324162,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 1.2249533188058235,
+        "y": -0.27737258300204887,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r006",
+      "max_abs_residual_m": 0.0065795912355491315,
+      "model_centre": [
+        1.3105132393293462,
+        -0.2724228355337247,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r006-chair",
+      "verified": true,
+      "x_faces_used": 6,
+      "x_residual": 0.004781630983762941,
+      "y_faces_used": 2,
+      "y_residual": -0.0065795912355491315
+    },
+    {
+      "depth_floor_height": 0.22642680123283532,
+      "depth_floor_height_std": 0.0038423861539775804,
+      "depth_pitch_slope": 0.0036099253280161476,
+      "depth_x": 7.6025568174332685,
+      "depth_y": 0.4730280187108105,
+      "floor_pixels": 121669,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r006-doorway/perception_capture/frame-000.json",
+      "height_residual": 0.002426801232835313,
+      "localization_transform_offset_from_model_m": [
+        0.057000000000268614,
+        0.06400000000003814,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.6630000000002685,
+        "y": 0.5310000000000381,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r006",
+      "max_abs_residual_m": 0.006028018710810545,
+      "model_centre": [
+        7.606,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r006-doorway",
+      "verified": true,
+      "x_faces_used": 11,
+      "x_residual": -0.003443182566731373,
+      "y_faces_used": 2,
+      "y_residual": 0.006028018710810545
+    },
+    {
+      "depth_floor_height": 0.22642680123283532,
+      "depth_floor_height_std": 0.0038423861539775804,
+      "depth_pitch_slope": 0.0036099253280161476,
+      "depth_x": 7.6025568174332685,
+      "depth_y": 0.4730280187108105,
+      "floor_pixels": 121669,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r006-laboratory_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.002426801232835313,
+      "localization_transform_offset_from_model_m": [
+        0.057000000000268614,
+        0.06400000000003814,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.6630000000002685,
+        "y": 0.5310000000000381,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r006",
+      "max_abs_residual_m": 0.006028018710810545,
+      "model_centre": [
+        7.606,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r006-laboratory_entrance",
+      "verified": true,
+      "x_faces_used": 11,
+      "x_residual": -0.003443182566731373,
+      "y_faces_used": 2,
+      "y_residual": 0.006028018710810545
+    },
+    {
+      "depth_floor_height": 0.2265204503409723,
+      "depth_floor_height_std": 0.0038498192217793163,
+      "depth_pitch_slope": 0.0034890548432148435,
+      "depth_x": 7.797245777363316,
+      "depth_y": -0.4729659295597954,
+      "floor_pixels": 125890,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r006-office_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0025204503409722856,
+      "localization_transform_offset_from_model_m": [
+        -0.05699999999973482,
+        -0.06400000000003714,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.737000000000266,
+        "y": -0.5310000000000371,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r006",
+      "max_abs_residual_m": 0.005965929559795413,
+      "model_centre": [
+        7.7940000000000005,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r006-office_entrance",
+      "verified": true,
+      "x_faces_used": 11,
+      "x_residual": 0.0032457773633156606,
+      "y_faces_used": 2,
+      "y_residual": -0.005965929559795413
+    },
+    {
+      "depth_floor_height": 0.22621327048654621,
+      "depth_floor_height_std": 0.003913122814614274,
+      "depth_pitch_slope": 0.0039957794790470855,
+      "depth_x": 1.3153701258094668,
+      "depth_y": -0.2754504906841223,
+      "floor_pixels": 114301,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r007-chair/perception_capture/frame-000.json",
+      "height_residual": 0.0022132704865462094,
+      "localization_transform_offset_from_model_m": [
+        -0.08542171380381358,
+        -0.0069376372643060735,
+        -0.10700000000000003
+      ],
+      "localization_transform_translation": {
+        "x": 1.2244069816544547,
+        "y": -0.27563607008136604,
+        "z": 0.11699999999999998
+      },
+      "map_id": "r3geo_base_r007",
+      "max_abs_residual_m": 0.006752057867062344,
+      "model_centre": [
+        1.3098286954582683,
+        -0.26869843281705996,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r007-chair",
+      "verified": true,
+      "x_faces_used": 5,
+      "x_residual": 0.005541430351198473,
+      "y_faces_used": 2,
+      "y_residual": -0.006752057867062344
+    },
+    {
+      "depth_floor_height": 0.22644354956711327,
+      "depth_floor_height_std": 0.003875694182016359,
+      "depth_pitch_slope": 0.0036279862381249253,
+      "depth_x": 7.80262333856784,
+      "depth_y": 0.47319249305208116,
+      "floor_pixels": 121897,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r007-doorway/perception_capture/frame-000.json",
+      "height_residual": 0.0024435495671132623,
+      "localization_transform_offset_from_model_m": [
+        0.057000000000150486,
+        0.06400000000003803,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.8630000000001505,
+        "y": 0.531000000000038,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r007",
+      "max_abs_residual_m": 0.006192493052081194,
+      "model_centre": [
+        7.806,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r007-doorway",
+      "verified": true,
+      "x_faces_used": 11,
+      "x_residual": -0.0033766614321599775,
+      "y_faces_used": 2,
+      "y_residual": 0.006192493052081194
+    },
+    {
+      "depth_floor_height": 0.22643203010137883,
+      "depth_floor_height_std": 0.0038673608434753514,
+      "depth_pitch_slope": 0.0035737211641735525,
+      "depth_x": 7.802600179501899,
+      "depth_y": 0.47312029659780885,
+      "floor_pixels": 121891,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r007-laboratory_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0024320301013788237,
+      "localization_transform_offset_from_model_m": [
+        0.057000000000150486,
+        0.06400000000003803,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.8630000000001505,
+        "y": 0.531000000000038,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r007",
+      "max_abs_residual_m": 0.006120296597808883,
+      "model_centre": [
+        7.806,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r007-laboratory_entrance",
+      "verified": true,
+      "x_faces_used": 11,
+      "x_residual": -0.0033998204981013913,
+      "y_faces_used": 2,
+      "y_residual": 0.006120296597808883
+    },
+    {
+      "depth_floor_height": 0.2265253456062523,
+      "depth_floor_height_std": 0.003843140762782584,
+      "depth_pitch_slope": 0.0034917963763182944,
+      "depth_x": 7.9974381326731985,
+      "depth_y": -0.47318332174246247,
+      "floor_pixels": 126064,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r007-office_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0025253456062522828,
+      "localization_transform_offset_from_model_m": [
+        -0.05699999999985206,
+        -0.06400000000003714,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.937000000000149,
+        "y": -0.5310000000000371,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r007",
+      "max_abs_residual_m": 0.0061833217424625,
+      "model_centre": [
+        7.994000000000001,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r007-office_entrance",
+      "verified": true,
+      "x_faces_used": 10,
+      "x_residual": 0.0034381326731978135,
+      "y_faces_used": 2,
+      "y_residual": -0.0061833217424625
+    },
+    {
+      "depth_floor_height": 0.22621315329026928,
+      "depth_floor_height_std": 0.003900488972454683,
+      "depth_pitch_slope": 0.004005476026074336,
+      "depth_x": 1.3141933729150534,
+      "depth_y": -0.27187727764007374,
+      "floor_pixels": 114809,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r008-chair/perception_capture/frame-000.json",
+      "height_residual": 0.0022131532902692763,
+      "localization_transform_offset_from_model_m": [
+        -0.0852469124512174,
+        -0.008829717862205377,
+        -0.10700000000000003
+      ],
+      "localization_transform_translation": {
+        "x": 1.2238485493928635,
+        "y": -0.2739924673877699,
+        "z": 0.11699999999999998
+      },
+      "map_id": "r3geo_base_r008",
+      "max_abs_residual_m": 0.006714528114509233,
+      "model_centre": [
+        1.3090954618440809,
+        -0.2651627495255645,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r008-chair",
+      "verified": true,
+      "x_faces_used": 7,
+      "x_residual": 0.005097911070972572,
+      "y_faces_used": 2,
+      "y_residual": -0.006714528114509233
+    },
+    {
+      "depth_floor_height": 0.2264253540836349,
+      "depth_floor_height_std": 0.0038378446033668443,
+      "depth_pitch_slope": 0.0036002964797165688,
+      "depth_x": 8.0023125152413,
+      "depth_y": 0.4733812056970228,
+      "floor_pixels": 122142,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r008-doorway/perception_capture/frame-000.json",
+      "height_residual": 0.0024253540836348952,
+      "localization_transform_offset_from_model_m": [
+        0.057000000000726914,
+        0.06400000000003814,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.063000000000727,
+        "y": 0.5310000000000381,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r008",
+      "max_abs_residual_m": 0.006381205697022829,
+      "model_centre": [
+        8.006,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r008-doorway",
+      "verified": true,
+      "x_faces_used": 8,
+      "x_residual": -0.003687484758700066,
+      "y_faces_used": 2,
+      "y_residual": 0.006381205697022829
+    },
+    {
+      "depth_floor_height": 0.2264469085168423,
+      "depth_floor_height_std": 0.0038569413108875523,
+      "depth_pitch_slope": 0.003579725749235986,
+      "depth_x": 8.002193786128359,
+      "depth_y": 0.4733953795087153,
+      "floor_pixels": 122112,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r008-laboratory_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.002446908516842289,
+      "localization_transform_offset_from_model_m": [
+        0.057000000000726914,
+        0.06400000000003814,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.063000000000727,
+        "y": 0.5310000000000381,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r008",
+      "max_abs_residual_m": 0.0063953795087153265,
+      "model_centre": [
+        8.006,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r008-laboratory_entrance",
+      "verified": true,
+      "x_faces_used": 8,
+      "x_residual": -0.003806213871641262,
+      "y_faces_used": 2,
+      "y_residual": 0.0063953795087153265
+    },
+    {
+      "depth_floor_height": 0.22651832035665714,
+      "depth_floor_height_std": 0.0038489023511232806,
+      "depth_pitch_slope": 0.003462299303364969,
+      "depth_x": 8.197469021337358,
+      "depth_y": -0.4734125321045534,
+      "floor_pixels": 126250,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r008-office_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.002518320356657139,
+      "localization_transform_offset_from_model_m": [
+        -0.0569999999992703,
+        -0.06400000000003703,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.137000000000729,
+        "y": -0.531000000000037,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r008",
+      "max_abs_residual_m": 0.006412532104553448,
+      "model_centre": [
+        8.193999999999999,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r008-office_entrance",
+      "verified": true,
+      "x_faces_used": 7,
+      "x_residual": 0.0034690213373593792,
+      "y_faces_used": 2,
+      "y_residual": -0.006412532104553448
+    },
+    {
+      "depth_floor_height": 0.22621557641032167,
+      "depth_floor_height_std": 0.003914306448209133,
+      "depth_pitch_slope": 0.003998715904277587,
+      "depth_x": 1.3157575845482297,
+      "depth_y": -0.2790787704231769,
+      "floor_pixels": 113881,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r009-chair/perception_capture/frame-000.json",
+      "height_residual": 0.0022155764103216624,
+      "localization_transform_offset_from_model_m": [
+        -0.08555992052352268,
+        -0.004949747468324162,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 1.2249533188058235,
+        "y": -0.27737258300204887,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r009",
+      "max_abs_residual_m": 0.006655934889452209,
+      "model_centre": [
+        1.3105132393293462,
+        -0.2724228355337247,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r009-chair",
+      "verified": true,
+      "x_faces_used": 5,
+      "x_residual": 0.005244345218883506,
+      "y_faces_used": 2,
+      "y_residual": -0.006655934889452209
+    },
+    {
+      "depth_floor_height": 0.22650445558745763,
+      "depth_floor_height_std": 0.0038465826244591023,
+      "depth_pitch_slope": 0.0034907913986752135,
+      "depth_x": 8.397523102699836,
+      "depth_y": -0.47304437058639026,
+      "floor_pixels": 125882,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r009-doorway/perception_capture/frame-000.json",
+      "height_residual": 0.002504455587457627,
+      "localization_transform_offset_from_model_m": [
+        -0.056999999999439055,
+        -0.06400000000003703,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.337000000000561,
+        "y": -0.531000000000037,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r009",
+      "max_abs_residual_m": 0.006044370586390291,
+      "model_centre": [
+        8.394,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r009-doorway",
+      "verified": true,
+      "x_faces_used": 7,
+      "x_residual": 0.0035231026998356896,
+      "y_faces_used": 2,
+      "y_residual": -0.006044370586390291
+    },
+    {
+      "depth_floor_height": 0.22651929857570496,
+      "depth_floor_height_std": 0.0038444382011297656,
+      "depth_pitch_slope": 0.003461260988949069,
+      "depth_x": 8.397595058578409,
+      "depth_y": -0.4730535565276815,
+      "floor_pixels": 125890,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r009-laboratory_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.002519298575704959,
+      "localization_transform_offset_from_model_m": [
+        -0.056999999999439055,
+        -0.06400000000003703,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.337000000000561,
+        "y": -0.531000000000037,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r009",
+      "max_abs_residual_m": 0.006053556527681525,
+      "model_centre": [
+        8.394,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r009-laboratory_entrance",
+      "verified": true,
+      "x_faces_used": 7,
+      "x_residual": 0.003595058578408583,
+      "y_faces_used": 2,
+      "y_residual": -0.006053556527681525
+    },
+    {
+      "depth_floor_height": 0.22644127606087233,
+      "depth_floor_height_std": 0.0038495925187475404,
+      "depth_pitch_slope": 0.0035710585397287714,
+      "depth_x": 8.202388249982869,
+      "depth_y": 0.4730585979271418,
+      "floor_pixels": 121646,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r009-office_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.002441276060872327,
+      "localization_transform_offset_from_model_m": [
+        0.05700000000055816,
+        0.06400000000003803,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 8.26300000000056,
+        "y": 0.531000000000038,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r009",
+      "max_abs_residual_m": 0.006058597927141807,
+      "model_centre": [
+        8.206000000000001,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r009-office_entrance",
+      "verified": true,
+      "x_faces_used": 8,
+      "x_residual": -0.0036117500171322092,
+      "y_faces_used": 2,
+      "y_residual": 0.006058597927141807
+    },
+    {
+      "depth_floor_height": 0.22622723337861866,
+      "depth_floor_height_std": 0.003930939521062259,
+      "depth_pitch_slope": 0.003988013929440859,
+      "depth_x": 1.3148672268710049,
+      "depth_y": -0.2752944928729419,
+      "floor_pixels": 114300,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r010-chair/perception_capture/frame-000.json",
+      "height_residual": 0.0022272333786186593,
+      "localization_transform_offset_from_model_m": [
+        -0.08542171380381358,
+        -0.006937637264306129,
+        -0.10700000000000003
+      ],
+      "localization_transform_translation": {
+        "x": 1.2244069816544547,
+        "y": -0.2756360700813661,
+        "z": 0.11699999999999998
+      },
+      "map_id": "r3geo_base_r010",
+      "max_abs_residual_m": 0.006596060055881925,
+      "model_centre": [
+        1.3098286954582683,
+        -0.26869843281705996,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r010-chair",
+      "verified": true,
+      "x_faces_used": 5,
+      "x_residual": 0.00503853141273658,
+      "y_faces_used": 2,
+      "y_residual": -0.006596060055881925
+    },
+    {
+      "depth_floor_height": 0.2265244470531142,
+      "depth_floor_height_std": 0.0038630765344586844,
+      "depth_pitch_slope": 0.0035016944755278576,
+      "depth_x": 7.597401867801644,
+      "depth_y": -0.4731413596328171,
+      "floor_pixels": 126077,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r010-doorway/perception_capture/frame-000.json",
+      "height_residual": 0.0025244470531141927,
+      "localization_transform_offset_from_model_m": [
+        -0.05699999999940175,
+        -0.06400000000003714,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.5370000000005986,
+        "y": -0.5310000000000371,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r010",
+      "max_abs_residual_m": 0.006141359632817145,
+      "model_centre": [
+        7.594,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r010-doorway",
+      "verified": true,
+      "x_faces_used": 10,
+      "x_residual": 0.0034018678016440873,
+      "y_faces_used": 2,
+      "y_residual": -0.006141359632817145
+    },
+    {
+      "depth_floor_height": 0.2265355276129898,
+      "depth_floor_height_std": 0.0038728157379160693,
+      "depth_pitch_slope": 0.003494681842612875,
+      "depth_x": 7.597402885210237,
+      "depth_y": -0.4731725778216908,
+      "floor_pixels": 126044,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r010-laboratory_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0025355276129898074,
+      "localization_transform_offset_from_model_m": [
+        -0.05699999999940175,
+        -0.06400000000003714,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.5370000000005986,
+        "y": -0.5310000000000371,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r010",
+      "max_abs_residual_m": 0.006172577821690839,
+      "model_centre": [
+        7.594,
+        -0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r010-laboratory_entrance",
+      "verified": true,
+      "x_faces_used": 10,
+      "x_residual": 0.0034028852102370166,
+      "y_faces_used": 2,
+      "y_residual": -0.006172577821690839
+    },
+    {
+      "depth_floor_height": 0.22644671937829636,
+      "depth_floor_height_std": 0.003859210454792542,
+      "depth_pitch_slope": 0.0035715082196926574,
+      "depth_x": 7.402610744941755,
+      "depth_y": 0.4731609054309583,
+      "floor_pixels": 122094,
+      "frame": "reports/physical_live_episodes/expansion-diag-render-v1-control-r010-office_entrance/perception_capture/frame-000.json",
+      "height_residual": 0.0024467193782963526,
+      "localization_transform_offset_from_model_m": [
+        0.05700000000060079,
+        0.06400000000003803,
+        -0.10700000000000001
+      ],
+      "localization_transform_translation": {
+        "x": 7.4630000000006005,
+        "y": 0.531000000000038,
+        "z": 0.11699999999999999
+      },
+      "map_id": "r3geo_base_r010",
+      "max_abs_residual_m": 0.006160905430958319,
+      "model_centre": [
+        7.406,
+        0.46699999999999997,
+        0.224
+      ],
+      "model_id": "research3-rendering-camera-model/v1",
+      "run_id": "expansion-diag-render-v1-control-r010-office_entrance",
+      "verified": true,
+      "x_faces_used": 11,
+      "x_residual": -0.0033892550582450554,
+      "y_faces_used": 2,
+      "y_residual": 0.006160905430958319
+    }
+  ],
+  "schema_version": "research3-rendering-camera-verification/v1",
+  "scope": "depth-derived camera position per control render; evidence for the placement model, not a detector claim",
+  "verified_renders": 40
+}

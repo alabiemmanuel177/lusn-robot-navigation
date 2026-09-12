@@ -85,7 +85,9 @@ def occluder_checks(control, candidate, *, polygon_normalized, camera_info, targ
     box_area = int(box.sum())
     box_changed = int((box & changed).sum())
     control_in_box = int((box & target_control).sum())
-    candidate_in_box = int((box & target_candidate).sum())
+    covered_in_box = int((box & target_control & changed).sum())
+    # Occlusion is measured as rendered change over the control's pixels, not
+    # palette re-membership, which flickers at the tolerance boundary on shaded faces.
     result = dict(
         projected_box_pixels=box_area,
         rendered_box_coverage=(box_changed / box_area) if box_area else None,
@@ -94,10 +96,12 @@ def occluder_checks(control, candidate, *, polygon_normalized, camera_info, targ
         control_target_pixels=int(target_control.sum()),
         candidate_target_pixels=int(target_candidate.sum()),
         control_target_pixels_in_box=control_in_box,
-        candidate_target_pixels_in_box=candidate_in_box,
-        target_pixels_in_box_occluded_fraction=(1 - candidate_in_box / control_in_box) if control_in_box else None,
+        control_target_pixels_in_box_covered=covered_in_box,
+        target_pixels_in_box_occluded_fraction=(covered_in_box / control_in_box) if control_in_box else None,
+        box_unchanged_fraction=(1 - box_changed / box_area) if box_area else None,
         screen_visible=bool(box_changed >= 50),
-        target_identifiable=bool(target_candidate.sum() >= 100 and target_candidate.sum() >= .5 * max(1, target_control.sum())),
+        target_identifiable=bool(box_area > 0 and box_changed <= .5 * box_area
+                                 and (target_control.sum() - (target_control & changed).sum()) >= 50),
     )
     result['box_coverage_within_tolerance'] = (result['rendered_box_coverage'] is not None
         and abs(result['rendered_box_coverage'] - .2) <= OCCLUDER_BOX_TOLERANCE)
@@ -112,7 +116,8 @@ def sphere_checks(control, candidate, *, target_rgb):
     target_control = colour_mask(control, target_rgb)
     target_candidate = colour_mask(candidate, target_rgb)
     sphere = changed & target_candidate
-    retained = int((target_control & target_candidate).sum())
+    covered = int((target_control & changed).sum())
+    retained = int(target_control.sum()) - covered
     labels, sizes = components(target_candidate)
     control_labels = set(int(v) for v in np.unique(labels[target_control & (labels > 0)]))
     sphere_labels = set(int(v) for v in np.unique(labels[sphere & (labels > 0)]))
@@ -122,6 +127,7 @@ def sphere_checks(control, candidate, *, target_rgb):
         control_target_pixels=int(target_control.sum()),
         candidate_target_pixels=int(target_candidate.sum()),
         control_target_pixels_retained=retained,
+        control_target_pixels_covered=covered,
         target_retained_fraction=(retained / int(target_control.sum())) if target_control.sum() else None,
         candidate_components=len(sizes),
         sphere_visible=bool(sphere.sum() >= 100),
