@@ -1,5 +1,9 @@
 # Research 3: remaining human actions
 
+> **14 September 2026 update.** The rendered asset packet, both review kits and
+> the feasibility evidence now exist; see the top of `docs/STATUS.md` for paths.
+> Section 1 below is now actionable; sections 2 and 3 follow your returns.
+
 Packet: research3-human-closeout-v2. Prepared 12 September 2026.
 
 ## What to do with this packet now

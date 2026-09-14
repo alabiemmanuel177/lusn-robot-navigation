@@ -59,13 +59,16 @@ sphere leaves 100% of the control target pixels unchanged and forms a separate
 same-colour component). Two occluder renders (`r002 laboratory_entrance`,
 `r009 chair`) failed for infrastructure reasons (stack exit, transform not
 settling) and are queued for re-rendering after the collection chain releases
-the simulator; their failure records are retained. The assembled packet
-`reports/expansion_diagnostic_asset_review_20260912_v1` (ZIP alongside) is the
-asset-review deliverable: `index.html` with control, candidate-with-overlays
-and changed-pixel images for every rendered candidate, `rendered_audit.json`
-with the pixel measurements, `manifest.json` and `DECISIONS.template.json`. A
-second packet adding the two re-rendered candidates will reuse the identical
-78 render bytes, so only the two new cards need inspection.
+the simulator; their failure records are retained. Both re-rendered successfully on 14 September. The complete packet
+`reports/expansion_diagnostic_asset_review_20260914_v2` (ZIP alongside,
+manifest SHA-256 `6d21d134f964b81d6bdf337276ac75e2bcafbc43ceff1a348480b093ece7fb28`)
+is the asset-review deliverable: all 80 candidates rendered and passing the
+agent preflight (occluder box coverage 0.174 to 0.203), `index.html` with
+control, candidate-with-overlays and changed-pixel images, `rendered_audit.json`
+with the pixel measurements, `manifest.json` and `DECISIONS.template.json`.
+234 of its 240 images are byte-identical to the earlier 78-candidate packet;
+only the six images for the two re-rendered occluders are new. Decisions must
+bind to the v2 manifest hash.
 
 Agent preflight thresholds (not acceptance criteria): occluder rendered box
 coverage within 0.06 of 0.20, screen visible, at most half the changed pixels
@@ -160,11 +163,49 @@ With one seed the six-world test cannot reach the target under any grid
 value: per-world differences move in steps of 1/8 and rejection needs all six
 signs to agree. The null size is conservative (at most 0.03) because of ties.
 Four or more seeds per world reach 0.80 only when paired discordance is about
-0.10 and worlds barely differ. The empirical discordance and ICC come from
-the paired B5/B6 development runs (`scripts/run_feasibility_navigation.py`,
-160 episodes, `reports/feasibility_navigation_20260912_v1`); the report's
-`nuisance_estimates` are to be bound into the simulation before Emmanuel
-decides final sample size and confirmatory versus descriptive status.
+0.10 and worlds barely differ.
+
+**Empirical nuisance estimates (14 September).** The 160 paired B5/B6
+development episodes (`scripts/run_feasibility_navigation.py`,
+`reports/feasibility_navigation_20260912_v1/report.json`; one simulator seed,
+no calibration artifact, matching the retained engineering smoke
+configuration) measured 159 episodes and one infrastructure failure. Seven
+measured episodes have no valid ordered-completion outcome, leaving 72
+complete pairs over all ten worlds.
+
+| Quantity | Value |
+| --- | ---: |
+| B5 ordered completion (baseline) | 0.847 |
+| B6 ordered completion | 0.736 |
+| Mean paired difference B6 − B5 | −0.111 |
+| Paired discordance | 0.139 |
+| World ICC of paired differences | −0.13 (treated as 0) |
+| Collisions, timeouts | 0, 0 |
+
+The difference is concentrated in one condition: under attribute corruption
+B5 completed 9 of 10 worlds and B6 none, because B6 abstains; under topology
+corruption neither completed; the other six conditions differ by at most one
+world. This is engineering evidence from truthful-instruction development
+worlds with uncalibrated confidence, not a held-out or confirmatory result,
+and it does not establish the sign of the eventual contrast.
+
+Bound simulation at the empirical point (baseline 0.85, discordance 0.14,
+ICC 0; `reports/world_paired_power_bound_20260914_seeds*.json`, estimates in
+`reports/feasibility_nuisance_20260914_v1.json`):
+
+| Seeds per world | Power at +0.10 | Null size |
+| --- | ---: | ---: |
+| 1 | 0.05 | 0.002 |
+| 2 | 0.22 | 0.004 |
+| 4 | 0.60 | 0.009 |
+| 8 | 0.90 | 0.011 |
+
+At six held-out worlds the +0.10 target reaches 0.80 power only with about
+eight simulator seeds per world (48 world-seed blocks, 8 conditions and 5
+systems each: 1,920 episodes), and the test remains conservative. Emmanuel
+decides final sample size and confirmatory versus descriptive status from
+these numbers; a descriptive designation before held-out access is the
+fallback the P1 decision names.
 
 ## 6a. Collection outcome (14 September)
 

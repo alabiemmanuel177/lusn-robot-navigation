@@ -1,0 +1,411 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Diagnostic asset review</title>
+<style>body{font-family:system-ui;margin:1.5rem;background:#181818;color:#eee}.card{border:1px solid #444;padding:.75rem;margin-bottom:1rem}
+img{max-width:100%;image-rendering:pixelated}.status{float:right;padding:.1rem .5rem;border-radius:.3rem;background:#555}
+.pass .status{background:#2a6}.check .status{background:#c83}.not-rendered .status{background:#a33}small{color:#aaa;font-weight:normal}</style></head>
+<body><h1>Rendered diagnostic candidates: 80 (80 rendered)</h1>
+<p>Left image: same-session control render of the unmodified source world. Middle: candidate render with overlays
+(yellow: projected provider marker box silhouette for occluders; cyan: target palette pixels; magenta: sphere pixels).
+Right: pixels that changed between control and candidate. The occluder definition is 20% of the projected provider
+marker box silhouette, not 20% of the whole chair or entrance. Agent measurements are preflight evidence only; your
+accept/revise/reject decision per candidate goes in DECISIONS.template.json.</p>
+<section class="card pass">
+<h2>occluder/expansion-v1-r001-chair-s1-view0 <small>occluder · chair · dev_01-r001-red-chair</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r001-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1588</li><li>rendered_box_coverage: 0.19458438287153654</li><li>changed_pixels: 504</li><li>changed_pixels_outside_box: 195</li><li>control_target_pixels: 3391</li><li>candidate_target_pixels: 3289</li><li>control_target_pixels_in_box: 716</li><li>control_target_pixels_in_box_covered: 23</li><li>target_pixels_in_box_occluded_fraction: 0.03212290502793296</li><li>box_unchanged_fraction: 0.8054156171284634</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.2 · candidate world.sdf sha256 e58b0743c16ea286…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r001-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r001_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r001-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 9970</li><li>rendered_box_coverage: 0.18134403209628885</li><li>changed_pixels: 2002</li><li>changed_pixels_outside_box: 194</li><li>control_target_pixels: 4584</li><li>candidate_target_pixels: 3862</li><li>control_target_pixels_in_box: 4230</li><li>control_target_pixels_in_box_covered: 599</li><li>target_pixels_in_box_occluded_fraction: 0.14160756501182034</li><li>box_unchanged_fraction: 0.8186559679037111</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999998 · candidate world.sdf sha256 f6068a65b4bc0fd1…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r001-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r001_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r001-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1361</li><li>rendered_box_coverage: 0.18001469507714915</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 7</li><li>control_target_pixels: 134</li><li>candidate_target_pixels: 82</li><li>control_target_pixels_in_box: 100</li><li>control_target_pixels_in_box_covered: 45</li><li>target_pixels_in_box_occluded_fraction: 0.45</li><li>box_unchanged_fraction: 0.8199853049228508</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000012 · candidate world.sdf sha256 79266bb669e23f51…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r001-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r001_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r001-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1394</li><li>rendered_box_coverage: 0.17360114777618366</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 10</li><li>control_target_pixels: 1289</li><li>candidate_target_pixels: 1040</li><li>control_target_pixels_in_box: 1253</li><li>control_target_pixels_in_box_covered: 242</li><li>target_pixels_in_box_occluded_fraction: 0.1931364724660814</li><li>box_unchanged_fraction: 0.8263988522238164</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000026 · candidate world.sdf sha256 2b92fb07dc87d894…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r002-chair-s1-view0 <small>occluder · chair · dev_01-r002-blue-chair</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r002-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1493</li><li>rendered_box_coverage: 0.20294708640321502</li><li>changed_pixels: 483</li><li>changed_pixels_outside_box: 180</li><li>control_target_pixels: 3314</li><li>candidate_target_pixels: 3211</li><li>control_target_pixels_in_box: 709</li><li>control_target_pixels_in_box_covered: 22</li><li>target_pixels_in_box_occluded_fraction: 0.031029619181946404</li><li>box_unchanged_fraction: 0.797052913596785</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999998 · candidate world.sdf sha256 4f62540e2ca34921…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r002-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r002_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r002-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 9306</li><li>rendered_box_coverage: 0.1809585213840533</li><li>changed_pixels: 1862</li><li>changed_pixels_outside_box: 178</li><li>control_target_pixels: 3957</li><li>candidate_target_pixels: 3381</li><li>control_target_pixels_in_box: 3608</li><li>control_target_pixels_in_box_covered: 506</li><li>target_pixels_in_box_occluded_fraction: 0.1402439024390244</li><li>box_unchanged_fraction: 0.8190414786159467</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999987 · candidate world.sdf sha256 af84606f89457de8…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r002-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r002_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r002-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1288</li><li>rendered_box_coverage: 0.18944099378881987</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 8</li><li>control_target_pixels: 164</li><li>candidate_target_pixels: 81</li><li>control_target_pixels_in_box: 129</li><li>control_target_pixels_in_box_covered: 76</li><li>target_pixels_in_box_occluded_fraction: 0.5891472868217055</li><li>box_unchanged_fraction: 0.8105590062111802</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.2 · candidate world.sdf sha256 359f5e3d18845672…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r002-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r002_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r002-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1320</li><li>rendered_box_coverage: 0.18333333333333332</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 10</li><li>control_target_pixels: 1253</li><li>candidate_target_pixels: 1004</li><li>control_target_pixels_in_box: 1218</li><li>control_target_pixels_in_box_covered: 242</li><li>target_pixels_in_box_occluded_fraction: 0.1986863711001642</li><li>box_unchanged_fraction: 0.8166666666666667</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000015 · candidate world.sdf sha256 cca5d439642c0007…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r003-chair-s1-view0 <small>occluder · chair · dev_02-r003-green-chair</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r003-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1735</li><li>rendered_box_coverage: 0.20230547550432276</li><li>changed_pixels: 572</li><li>changed_pixels_outside_box: 221</li><li>control_target_pixels: 4730</li><li>candidate_target_pixels: 4245</li><li>control_target_pixels_in_box: 1598</li><li>control_target_pixels_in_box_covered: 349</li><li>target_pixels_in_box_occluded_fraction: 0.21839799749687108</li><li>box_unchanged_fraction: 0.7976945244956772</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999998 · candidate world.sdf sha256 b31e849714867b5c…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r003-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r003_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r003-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 9249</li><li>rendered_box_coverage: 0.1986160666017948</li><li>changed_pixels: 2009</li><li>changed_pixels_outside_box: 172</li><li>control_target_pixels: 4924</li><li>candidate_target_pixels: 4175</li><li>control_target_pixels_in_box: 4557</li><li>control_target_pixels_in_box_covered: 648</li><li>target_pixels_in_box_occluded_fraction: 0.1421988150098749</li><li>box_unchanged_fraction: 0.8013839333982052</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.1999999999999998 · candidate world.sdf sha256 06d2091fd469a7f2…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r003-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r003_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r003-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1470</li><li>rendered_box_coverage: 0.1761904761904762</li><li>changed_pixels: 266</li><li>changed_pixels_outside_box: 7</li><li>control_target_pixels: 135</li><li>candidate_target_pixels: 81</li><li>control_target_pixels_in_box: 102</li><li>control_target_pixels_in_box_covered: 47</li><li>target_pixels_in_box_occluded_fraction: 0.46078431372549017</li><li>box_unchanged_fraction: 0.8238095238095238</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000034 · candidate world.sdf sha256 4c66dea9621c8170…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r003-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r003_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r003-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1470</li><li>rendered_box_coverage: 0.18503401360544217</li><li>changed_pixels: 286</li><li>changed_pixels_outside_box: 14</li><li>control_target_pixels: 1391</li><li>candidate_target_pixels: 1114</li><li>control_target_pixels_in_box: 1357</li><li>control_target_pixels_in_box_covered: 272</li><li>target_pixels_in_box_occluded_fraction: 0.20044215180545322</li><li>box_unchanged_fraction: 0.8149659863945579</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999946 · candidate world.sdf sha256 c25b0b70f662901b…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r004-chair-s1-view0 <small>occluder · chair · dev_02-r004-yellow-chair</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r004-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1588</li><li>rendered_box_coverage: 0.19458438287153654</li><li>changed_pixels: 504</li><li>changed_pixels_outside_box: 195</li><li>control_target_pixels: 3391</li><li>candidate_target_pixels: 3289</li><li>control_target_pixels_in_box: 716</li><li>control_target_pixels_in_box_covered: 23</li><li>target_pixels_in_box_occluded_fraction: 0.03212290502793296</li><li>box_unchanged_fraction: 0.8054156171284634</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.2 · candidate world.sdf sha256 aa10337da01f2608…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r004-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r004_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r004-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 9970</li><li>rendered_box_coverage: 0.18134403209628885</li><li>changed_pixels: 2002</li><li>changed_pixels_outside_box: 194</li><li>control_target_pixels: 4585</li><li>candidate_target_pixels: 3938</li><li>control_target_pixels_in_box: 4231</li><li>control_target_pixels_in_box_covered: 599</li><li>target_pixels_in_box_occluded_fraction: 0.14157409595840226</li><li>box_unchanged_fraction: 0.8186559679037111</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999984 · candidate world.sdf sha256 04efeb04f25132e0…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r004-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r004_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r004-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1361</li><li>rendered_box_coverage: 0.18001469507714915</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 7</li><li>control_target_pixels: 134</li><li>candidate_target_pixels: 82</li><li>control_target_pixels_in_box: 100</li><li>control_target_pixels_in_box_covered: 45</li><li>target_pixels_in_box_occluded_fraction: 0.45</li><li>box_unchanged_fraction: 0.8199853049228508</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000012 · candidate world.sdf sha256 506b555c668bcae6…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r004-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r004_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r004-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1394</li><li>rendered_box_coverage: 0.17360114777618366</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 10</li><li>control_target_pixels: 1289</li><li>candidate_target_pixels: 1040</li><li>control_target_pixels_in_box: 1253</li><li>control_target_pixels_in_box_covered: 242</li><li>target_pixels_in_box_occluded_fraction: 0.1931364724660814</li><li>box_unchanged_fraction: 0.8263988522238164</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999996 · candidate world.sdf sha256 e2a08e59606e4f1e…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r005-chair-s1-view0 <small>occluder · chair · dev_03-r005-red-chair</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r005-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1493</li><li>rendered_box_coverage: 0.20294708640321502</li><li>changed_pixels: 483</li><li>changed_pixels_outside_box: 180</li><li>control_target_pixels: 3314</li><li>candidate_target_pixels: 3211</li><li>control_target_pixels_in_box: 709</li><li>control_target_pixels_in_box_covered: 22</li><li>target_pixels_in_box_occluded_fraction: 0.031029619181946404</li><li>box_unchanged_fraction: 0.797052913596785</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999998 · candidate world.sdf sha256 592b68947074cf1c…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r005-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r005_right_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r005-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 9306</li><li>rendered_box_coverage: 0.1809585213840533</li><li>changed_pixels: 1862</li><li>changed_pixels_outside_box: 178</li><li>control_target_pixels: 9220</li><li>candidate_target_pixels: 7471</li><li>control_target_pixels_in_box: 8487</li><li>control_target_pixels_in_box_covered: 1684</li><li>target_pixels_in_box_occluded_fraction: 0.19842111464592907</li><li>box_unchanged_fraction: 0.8190414786159467</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999987 · candidate world.sdf sha256 f594d85918e065f8…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r005-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r005_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r005-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1320</li><li>rendered_box_coverage: 0.18333333333333332</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 10</li><li>control_target_pixels: 1253</li><li>candidate_target_pixels: 1004</li><li>control_target_pixels_in_box: 1218</li><li>control_target_pixels_in_box_covered: 242</li><li>target_pixels_in_box_occluded_fraction: 0.1986863711001642</li><li>box_unchanged_fraction: 0.8166666666666667</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000015 · candidate world.sdf sha256 70d559ec8bd2be42…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r005-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r005_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r005-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1288</li><li>rendered_box_coverage: 0.18944099378881987</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 8</li><li>control_target_pixels: 164</li><li>candidate_target_pixels: 81</li><li>control_target_pixels_in_box: 129</li><li>control_target_pixels_in_box_covered: 76</li><li>target_pixels_in_box_occluded_fraction: 0.5891472868217055</li><li>box_unchanged_fraction: 0.8105590062111802</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.2 · candidate world.sdf sha256 67d6657a4eb0d7b9…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r006-chair-s1-view0 <small>occluder · chair · dev_03-r006-blue-chair</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r006-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1735</li><li>rendered_box_coverage: 0.20230547550432276</li><li>changed_pixels: 572</li><li>changed_pixels_outside_box: 221</li><li>control_target_pixels: 3544</li><li>candidate_target_pixels: 3417</li><li>control_target_pixels_in_box: 758</li><li>control_target_pixels_in_box_covered: 29</li><li>target_pixels_in_box_occluded_fraction: 0.03825857519788918</li><li>box_unchanged_fraction: 0.7976945244956772</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999998 · candidate world.sdf sha256 5b408d459186c63b…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r006-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r006_right_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r006-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 9249</li><li>rendered_box_coverage: 0.1986160666017948</li><li>changed_pixels: 2009</li><li>changed_pixels_outside_box: 172</li><li>control_target_pixels: 9561</li><li>candidate_target_pixels: 7659</li><li>control_target_pixels_in_box: 9194</li><li>control_target_pixels_in_box_covered: 1837</li><li>target_pixels_in_box_occluded_fraction: 0.19980422014357188</li><li>box_unchanged_fraction: 0.8013839333982052</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.1999999999999998 · candidate world.sdf sha256 df23b0e3e76d0094…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r006-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r006_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r006-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1470</li><li>rendered_box_coverage: 0.18503401360544217</li><li>changed_pixels: 286</li><li>changed_pixels_outside_box: 14</li><li>control_target_pixels: 1391</li><li>candidate_target_pixels: 1114</li><li>control_target_pixels_in_box: 1357</li><li>control_target_pixels_in_box_covered: 272</li><li>target_pixels_in_box_occluded_fraction: 0.20044215180545322</li><li>box_unchanged_fraction: 0.8149659863945579</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.2000000000000001 · candidate world.sdf sha256 474b8d05c7a3d713…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r006-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r006_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r006-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1470</li><li>rendered_box_coverage: 0.1761904761904762</li><li>changed_pixels: 266</li><li>changed_pixels_outside_box: 7</li><li>control_target_pixels: 135</li><li>candidate_target_pixels: 81</li><li>control_target_pixels_in_box: 102</li><li>control_target_pixels_in_box_covered: 47</li><li>target_pixels_in_box_occluded_fraction: 0.46078431372549017</li><li>box_unchanged_fraction: 0.8238095238095238</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000034 · candidate world.sdf sha256 4542bfd72f065979…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r007-chair-s1-view0 <small>occluder · chair · dev_04-r007-green-chair</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r007-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1588</li><li>rendered_box_coverage: 0.19458438287153654</li><li>changed_pixels: 504</li><li>changed_pixels_outside_box: 195</li><li>control_target_pixels: 4487</li><li>candidate_target_pixels: 4052</li><li>control_target_pixels_in_box: 1449</li><li>control_target_pixels_in_box_covered: 309</li><li>target_pixels_in_box_occluded_fraction: 0.21325051759834368</li><li>box_unchanged_fraction: 0.8054156171284634</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.2 · candidate world.sdf sha256 9d7ba228981ca0d5…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r007-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r007_right_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r007-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 9970</li><li>rendered_box_coverage: 0.18134403209628885</li><li>changed_pixels: 2002</li><li>changed_pixels_outside_box: 194</li><li>control_target_pixels: 9657</li><li>candidate_target_pixels: 7788</li><li>control_target_pixels_in_box: 9303</li><li>control_target_pixels_in_box_covered: 1808</li><li>target_pixels_in_box_occluded_fraction: 0.1943459099215307</li><li>box_unchanged_fraction: 0.8186559679037111</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999984 · candidate world.sdf sha256 a1e7f5e546b4e3c4…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r007-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r007_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r007-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1394</li><li>rendered_box_coverage: 0.17360114777618366</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 10</li><li>control_target_pixels: 1289</li><li>candidate_target_pixels: 1040</li><li>control_target_pixels_in_box: 1253</li><li>control_target_pixels_in_box_covered: 242</li><li>target_pixels_in_box_occluded_fraction: 0.1931364724660814</li><li>box_unchanged_fraction: 0.8263988522238164</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000004 · candidate world.sdf sha256 d1a2f500ce23886f…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r007-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r007_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r007-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1361</li><li>rendered_box_coverage: 0.18001469507714915</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 7</li><li>control_target_pixels: 134</li><li>candidate_target_pixels: 82</li><li>control_target_pixels_in_box: 100</li><li>control_target_pixels_in_box_covered: 45</li><li>target_pixels_in_box_occluded_fraction: 0.45</li><li>box_unchanged_fraction: 0.8199853049228508</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.1999999999999998 · candidate world.sdf sha256 3d761e31b20ad85c…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r008-chair-s1-view0 <small>occluder · chair · dev_04-r008-yellow-chair</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r008-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1493</li><li>rendered_box_coverage: 0.20294708640321502</li><li>changed_pixels: 483</li><li>changed_pixels_outside_box: 180</li><li>control_target_pixels: 3314</li><li>candidate_target_pixels: 3211</li><li>control_target_pixels_in_box: 709</li><li>control_target_pixels_in_box_covered: 22</li><li>target_pixels_in_box_occluded_fraction: 0.031029619181946404</li><li>box_unchanged_fraction: 0.797052913596785</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999998 · candidate world.sdf sha256 ad3f037d4c80eab8…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r008-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r008_right_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r008-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 9306</li><li>rendered_box_coverage: 0.1809585213840533</li><li>changed_pixels: 1862</li><li>changed_pixels_outside_box: 178</li><li>control_target_pixels: 8836</li><li>candidate_target_pixels: 7087</li><li>control_target_pixels_in_box: 8487</li><li>control_target_pixels_in_box_covered: 1684</li><li>target_pixels_in_box_occluded_fraction: 0.19842111464592907</li><li>box_unchanged_fraction: 0.8190414786159467</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000007 · candidate world.sdf sha256 3e1020c9ea1c7f13…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r008-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r008_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r008-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1320</li><li>rendered_box_coverage: 0.18333333333333332</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 10</li><li>control_target_pixels: 1253</li><li>candidate_target_pixels: 1004</li><li>control_target_pixels_in_box: 1218</li><li>control_target_pixels_in_box_covered: 242</li><li>target_pixels_in_box_occluded_fraction: 0.1986863711001642</li><li>box_unchanged_fraction: 0.8166666666666667</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999987 · candidate world.sdf sha256 7cd50711e88e5646…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r008-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r008_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r008-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1288</li><li>rendered_box_coverage: 0.18944099378881987</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 8</li><li>control_target_pixels: 164</li><li>candidate_target_pixels: 81</li><li>control_target_pixels_in_box: 129</li><li>control_target_pixels_in_box_covered: 76</li><li>target_pixels_in_box_occluded_fraction: 0.5891472868217055</li><li>box_unchanged_fraction: 0.8105590062111802</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000015 · candidate world.sdf sha256 fa5592c47b436cfd…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r009-chair-s1-view0 <small>occluder · chair · dev_05-r009-red-chair</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r009-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1735</li><li>rendered_box_coverage: 0.20230547550432276</li><li>changed_pixels: 572</li><li>changed_pixels_outside_box: 221</li><li>control_target_pixels: 3544</li><li>candidate_target_pixels: 3417</li><li>control_target_pixels_in_box: 758</li><li>control_target_pixels_in_box_covered: 29</li><li>target_pixels_in_box_occluded_fraction: 0.03825857519788918</li><li>box_unchanged_fraction: 0.7976945244956772</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999998 · candidate world.sdf sha256 ae429f45fd6cc7fb…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r009-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r009_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r009-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 9249</li><li>rendered_box_coverage: 0.1986160666017948</li><li>changed_pixels: 2009</li><li>changed_pixels_outside_box: 172</li><li>control_target_pixels: 4858</li><li>candidate_target_pixels: 4150</li><li>control_target_pixels_in_box: 4491</li><li>control_target_pixels_in_box_covered: 648</li><li>target_pixels_in_box_occluded_fraction: 0.14428857715430862</li><li>box_unchanged_fraction: 0.8013839333982052</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.1999999999999998 · candidate world.sdf sha256 05dfc76e582bb95f…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r009-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r009_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r009-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1470</li><li>rendered_box_coverage: 0.1761904761904762</li><li>changed_pixels: 266</li><li>changed_pixels_outside_box: 7</li><li>control_target_pixels: 135</li><li>candidate_target_pixels: 81</li><li>control_target_pixels_in_box: 102</li><li>control_target_pixels_in_box_covered: 47</li><li>target_pixels_in_box_occluded_fraction: 0.46078431372549017</li><li>box_unchanged_fraction: 0.8238095238095238</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000034 · candidate world.sdf sha256 8bbcf173153e1b8d…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r009-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r009_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r009-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1470</li><li>rendered_box_coverage: 0.18503401360544217</li><li>changed_pixels: 286</li><li>changed_pixels_outside_box: 14</li><li>control_target_pixels: 1391</li><li>candidate_target_pixels: 1114</li><li>control_target_pixels_in_box: 1357</li><li>control_target_pixels_in_box_covered: 272</li><li>target_pixels_in_box_occluded_fraction: 0.20044215180545322</li><li>box_unchanged_fraction: 0.8149659863945579</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999946 · candidate world.sdf sha256 2b73b835004aa821…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r010-chair-s1-view0 <small>occluder · chair · dev_00-r010-blue-chair</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r010-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1588</li><li>rendered_box_coverage: 0.19458438287153654</li><li>changed_pixels: 504</li><li>changed_pixels_outside_box: 195</li><li>control_target_pixels: 3391</li><li>candidate_target_pixels: 3289</li><li>control_target_pixels_in_box: 716</li><li>control_target_pixels_in_box_covered: 23</li><li>target_pixels_in_box_occluded_fraction: 0.03212290502793296</li><li>box_unchanged_fraction: 0.8054156171284634</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.2 · candidate world.sdf sha256 3e848b9fbeaa3c08…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r010-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r010_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r010-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 9970</li><li>rendered_box_coverage: 0.18134403209628885</li><li>changed_pixels: 2002</li><li>changed_pixels_outside_box: 194</li><li>control_target_pixels: 4612</li><li>candidate_target_pixels: 3873</li><li>control_target_pixels_in_box: 4258</li><li>control_target_pixels_in_box_covered: 599</li><li>target_pixels_in_box_occluded_fraction: 0.14067637388445278</li><li>box_unchanged_fraction: 0.8186559679037111</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.19999999999999987 · candidate world.sdf sha256 bce15bf9e7d858e7…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r010-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r010_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r010-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1361</li><li>rendered_box_coverage: 0.18001469507714915</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 7</li><li>control_target_pixels: 134</li><li>candidate_target_pixels: 82</li><li>control_target_pixels_in_box: 100</li><li>control_target_pixels_in_box_covered: 45</li><li>target_pixels_in_box_occluded_fraction: 0.45</li><li>box_unchanged_fraction: 0.8199853049228508</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.1999999999999998 · candidate world.sdf sha256 a1c0e0431a9208c7…</p></details>
+</section><section class="card pass">
+<h2>occluder/expansion-v1-r010-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r010_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/occluder-expansion-v1-r010-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1394</li><li>rendered_box_coverage: 0.17360114777618366</li><li>changed_pixels: 252</li><li>changed_pixels_outside_box: 10</li><li>control_target_pixels: 1289</li><li>candidate_target_pixels: 1040</li><li>control_target_pixels_in_box: 1253</li><li>control_target_pixels_in_box_covered: 242</li><li>target_pixels_in_box_occluded_fraction: 0.1931364724660814</li><li>box_unchanged_fraction: 0.8263988522238164</li><li>screen_visible: true</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: 0.20000000000000004 · candidate world.sdf sha256 1985ccb212583dfa…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r001-chair-s1-view0 <small>sphere · chair · dev_01-r001-red-chair</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r001-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 7174</li><li>sphere_pixels: 633</li><li>control_target_pixels: 3391</li><li>candidate_target_pixels: 4024</li><li>control_target_pixels_retained: 3391</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 3</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 d3fac214611f2f34…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r001-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r001_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r001-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 3654</li><li>sphere_pixels: 1683</li><li>control_target_pixels: 4584</li><li>candidate_target_pixels: 6265</li><li>control_target_pixels_retained: 4584</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 168</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 3814789df854e3d1…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r001-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r001_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r001-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2338</li><li>sphere_pixels: 1257</li><li>control_target_pixels: 134</li><li>candidate_target_pixels: 1391</li><li>control_target_pixels_retained: 134</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 e4216364e825f4ee…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r001-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r001_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r001-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2407</li><li>sphere_pixels: 1637</li><li>control_target_pixels: 1289</li><li>candidate_target_pixels: 2926</li><li>control_target_pixels_retained: 1289</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 a628cbaef648c932…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r002-chair-s1-view0 <small>sphere · chair · dev_01-r002-blue-chair</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r002-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 6561</li><li>sphere_pixels: 575</li><li>control_target_pixels: 3314</li><li>candidate_target_pixels: 3889</li><li>control_target_pixels_retained: 3314</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 3</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 b6b9bfa6adf2c371…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r002-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r002_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r002-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 3366</li><li>sphere_pixels: 1560</li><li>control_target_pixels: 3957</li><li>candidate_target_pixels: 5479</li><li>control_target_pixels_retained: 3957</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 133</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 38ca5f0bf7e63237…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r002-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r002_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r002-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2187</li><li>sphere_pixels: 1170</li><li>control_target_pixels: 164</li><li>candidate_target_pixels: 1334</li><li>control_target_pixels_retained: 164</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 3c7fcd1e0a659344…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r002-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r002_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r002-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2255</li><li>sphere_pixels: 1525</li><li>control_target_pixels: 1253</li><li>candidate_target_pixels: 2778</li><li>control_target_pixels_retained: 1253</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 b397f5201bc4640c…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r003-chair-s1-view0 <small>sphere · chair · dev_02-r003-green-chair</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r003-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 7858</li><li>sphere_pixels: 6588</li><li>control_target_pixels: 4730</li><li>candidate_target_pixels: 11318</li><li>control_target_pixels_retained: 4730</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 efdde701b6bbd573…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r003-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r003_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r003-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 3987</li><li>sphere_pixels: 1833</li><li>control_target_pixels: 4924</li><li>candidate_target_pixels: 6708</li><li>control_target_pixels_retained: 4924</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 181</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 687783951a36b39c…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r003-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r003_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r003-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2502</li><li>sphere_pixels: 1346</li><li>control_target_pixels: 135</li><li>candidate_target_pixels: 1481</li><li>control_target_pixels_retained: 135</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 89671a8353f9b9ec…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r003-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r003_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r003-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2581</li><li>sphere_pixels: 1754</li><li>control_target_pixels: 1391</li><li>candidate_target_pixels: 3145</li><li>control_target_pixels_retained: 1391</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 e76361d4f40839a0…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r004-chair-s1-view0 <small>sphere · chair · dev_02-r004-yellow-chair</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r004-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 7174</li><li>sphere_pixels: 581</li><li>control_target_pixels: 3391</li><li>candidate_target_pixels: 3972</li><li>control_target_pixels_retained: 3391</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 4</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 1fbb441557c0cca5…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r004-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r004_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r004-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 3654</li><li>sphere_pixels: 1685</li><li>control_target_pixels: 4585</li><li>candidate_target_pixels: 6300</li><li>control_target_pixels_retained: 4585</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 152</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 7a69c4ce0e8acd42…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r004-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r004_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r004-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2338</li><li>sphere_pixels: 1259</li><li>control_target_pixels: 134</li><li>candidate_target_pixels: 1393</li><li>control_target_pixels_retained: 134</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 8a83adf6de1334a0…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r004-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r004_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r004-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2407</li><li>sphere_pixels: 1634</li><li>control_target_pixels: 1289</li><li>candidate_target_pixels: 2923</li><li>control_target_pixels_retained: 1289</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 06aacb91ca85d3aa…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r005-chair-s1-view0 <small>sphere · chair · dev_03-r005-red-chair</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r005-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 6561</li><li>sphere_pixels: 583</li><li>control_target_pixels: 3314</li><li>candidate_target_pixels: 3897</li><li>control_target_pixels_retained: 3314</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 3</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 d620450740eb5906…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r005-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r005_right_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r005-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 3366</li><li>sphere_pixels: 2097</li><li>control_target_pixels: 9220</li><li>candidate_target_pixels: 11317</li><li>control_target_pixels_retained: 9220</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 3</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 7c4b28eae62d94ed…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r005-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r005_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r005-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2255</li><li>sphere_pixels: 1520</li><li>control_target_pixels: 1253</li><li>candidate_target_pixels: 2773</li><li>control_target_pixels_retained: 1253</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 f038938ec8802d23…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r005-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r005_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r005-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2187</li><li>sphere_pixels: 1174</li><li>control_target_pixels: 164</li><li>candidate_target_pixels: 1338</li><li>control_target_pixels_retained: 164</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 3</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 8fdb1bc20a3287ca…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r006-chair-s1-view0 <small>sphere · chair · dev_03-r006-blue-chair</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r006-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 7858</li><li>sphere_pixels: 682</li><li>control_target_pixels: 3544</li><li>candidate_target_pixels: 4226</li><li>control_target_pixels_retained: 3544</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 4</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 59d65b360a6a2291…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r006-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r006_right_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r006-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 3987</li><li>sphere_pixels: 2486</li><li>control_target_pixels: 9561</li><li>candidate_target_pixels: 12047</li><li>control_target_pixels_retained: 9561</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 0787ba64df9d3aa3…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r006-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r006_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r006-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2581</li><li>sphere_pixels: 1752</li><li>control_target_pixels: 1391</li><li>candidate_target_pixels: 3143</li><li>control_target_pixels_retained: 1391</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 72c199fb8c52093c…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r006-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r006_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r006-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2502</li><li>sphere_pixels: 1350</li><li>control_target_pixels: 135</li><li>candidate_target_pixels: 1485</li><li>control_target_pixels_retained: 135</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 fe62a363a49e4a59…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r007-chair-s1-view0 <small>sphere · chair · dev_04-r007-green-chair</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r007-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 7174</li><li>sphere_pixels: 5966</li><li>control_target_pixels: 4487</li><li>candidate_target_pixels: 10453</li><li>control_target_pixels_retained: 4487</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 15fcff3591bb4dba…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r007-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r007_right_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r007-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 3654</li><li>sphere_pixels: 2277</li><li>control_target_pixels: 9657</li><li>candidate_target_pixels: 11934</li><li>control_target_pixels_retained: 9657</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 4bdce90a309cc431…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r007-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r007_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r007-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2407</li><li>sphere_pixels: 1631</li><li>control_target_pixels: 1289</li><li>candidate_target_pixels: 2920</li><li>control_target_pixels_retained: 1289</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 d1244896a79d43a8…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r007-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r007_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r007-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2338</li><li>sphere_pixels: 1259</li><li>control_target_pixels: 134</li><li>candidate_target_pixels: 1393</li><li>control_target_pixels_retained: 134</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 79c8691d36d8dd06…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r008-chair-s1-view0 <small>sphere · chair · dev_04-r008-yellow-chair</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r008-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 6561</li><li>sphere_pixels: 530</li><li>control_target_pixels: 3314</li><li>candidate_target_pixels: 3844</li><li>control_target_pixels_retained: 3314</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 4</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 c790d9bb1e518c1a…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r008-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r008_right_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r008-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 3366</li><li>sphere_pixels: 2104</li><li>control_target_pixels: 8836</li><li>candidate_target_pixels: 10940</li><li>control_target_pixels_retained: 8836</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 c9a119e2f1508f92…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r008-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r008_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r008-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2255</li><li>sphere_pixels: 1520</li><li>control_target_pixels: 1253</li><li>candidate_target_pixels: 2773</li><li>control_target_pixels_retained: 1253</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 0fb6dab9d88c8818…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r008-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r008_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r008-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2187</li><li>sphere_pixels: 1173</li><li>control_target_pixels: 164</li><li>candidate_target_pixels: 1337</li><li>control_target_pixels_retained: 164</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 3</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 5be889acc26eed0d…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r009-chair-s1-view0 <small>sphere · chair · dev_05-r009-red-chair</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r009-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 7858</li><li>sphere_pixels: 673</li><li>control_target_pixels: 3544</li><li>candidate_target_pixels: 4217</li><li>control_target_pixels_retained: 3544</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 4</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 278fa69125ec9331…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r009-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r009_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r009-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 3987</li><li>sphere_pixels: 1831</li><li>control_target_pixels: 4858</li><li>candidate_target_pixels: 6714</li><li>control_target_pixels_retained: 4858</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 186</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 b9213244f98536a2…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r009-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r009_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r009-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2502</li><li>sphere_pixels: 1349</li><li>control_target_pixels: 135</li><li>candidate_target_pixels: 1484</li><li>control_target_pixels_retained: 135</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 3</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 efaf3e150890ba69…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r009-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r009_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r009-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2581</li><li>sphere_pixels: 1753</li><li>control_target_pixels: 1391</li><li>candidate_target_pixels: 3144</li><li>control_target_pixels_retained: 1391</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 e4ebfc85eb90b7c1…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r010-chair-s1-view0 <small>sphere · chair · dev_00-r010-blue-chair</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r010-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 7174</li><li>sphere_pixels: 627</li><li>control_target_pixels: 3391</li><li>candidate_target_pixels: 4018</li><li>control_target_pixels_retained: 3391</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 3</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 212d41e1d13df532…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r010-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r010_left_2_doorway</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r010-doorway-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 3654</li><li>sphere_pixels: 1683</li><li>control_target_pixels: 4612</li><li>candidate_target_pixels: 6290</li><li>control_target_pixels_retained: 4612</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 172</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 bd7692248795e995…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r010-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r010_left_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r010-laboratory_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2338</li><li>sphere_pixels: 1256</li><li>control_target_pixels: 134</li><li>candidate_target_pixels: 1390</li><li>control_target_pixels_retained: 134</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 f66e272c796ac0b9…</p></details>
+</section><section class="card pass">
+<h2>sphere/expansion-v1-r010-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r010_right_2_entrance</small> <span class="status">PASS</span></h2>
+<img src="images/sphere-expansion-v1-r010-office_entrance-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 2407</li><li>sphere_pixels: 1635</li><li>control_target_pixels: 1289</li><li>candidate_target_pixels: 2924</li><li>control_target_pixels_retained: 1289</li><li>control_target_pixels_covered: 0</li><li>target_retained_fraction: 1.0</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: true</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 df968147aa21041b…</p></details>
+</section></body></html>

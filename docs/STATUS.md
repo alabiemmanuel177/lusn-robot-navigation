@@ -1,5 +1,31 @@
 # Research 3 status and handoff
 
+## Automated chain complete; human gates open — 14 September 2026, 13:40 UTC
+
+Everything the agent could run without new human decisions has run. Full
+record: `docs/EXPANSION_EXECUTION_20260912.md`. Deliverables:
+
+1. **Diagnostic asset review (80/80 rendered):**
+   `reports/expansion_diagnostic_asset_review_20260914_v2/index.html`. Decide
+   accept/revise/reject per candidate and the occluder definition; return
+   `DECISIONS.json` bound to the v2 manifest hash. The earlier 78-candidate
+   packet is superseded.
+2. **Development review kit (397 targets):**
+   `reports/expansion_review_development_20260914_v1/research3_expansion_development_review_kit.zip`.
+3. **Validation review kit (160 targets, withheld return):**
+   `reports/expansion_review_validation_20260914_v1/research3_expansion_validation_review_kit.zip`.
+4. **Feasibility evidence:** 160 paired B5/B6 development episodes; B5 0.847
+   and B6 0.736 ordered completion, paired discordance 0.139, world ICC about 0.
+   Power for +0.10 at six held-out worlds: 0.05 (1 seed), 0.22 (2), 0.60 (4),
+   0.90 (8). Sample size and confirmatory status are Emmanuel's decision.
+5. **Calibration pipeline** waits on the development return
+   (`scripts/fit_expansion_calibration.py develop`), then the freeze decision,
+   key release and `validate`.
+
+Collections: development 400/400 (399 emitted, 1 infrastructure failure, 2
+completed attempts with bytes lost in a host restart), validation 160/160
+emitted, all under instrumentation snapshot v7 after v4/v6 transform races.
+
 ## Development collection complete; validation running — 14 September 2026
 
 The 400-attempt development expansion schedule is complete under instrumentation

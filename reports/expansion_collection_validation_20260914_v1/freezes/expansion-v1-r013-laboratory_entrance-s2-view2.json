@@ -1,0 +1,194 @@
+{
+  "color_tolerance": 10.0,
+  "confidence_calibration_frozen": false,
+  "derived_from_freeze_sha256": "dc3850b67e7e32467abdf7f6d6de4f2ed409068ad462dd14fb90ab0d9aef9990",
+  "development_evidence": [
+    {
+      "map_id": "r3geo_base_r001",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r001-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "f983e2a15cf29d4ea663e97574ee764a1680f01607bc6a8709a09fb21d03fb89",
+        "perception_capture/frame-000.json": "e92a0a924735877860611dafe6e45536cf230469c8f9c187b779e21868112056",
+        "request.json": "b2dc35ecf037a088087dfc197f92a91f168d2ceb9b0ed8c93f7edcd3981126d9"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r002",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r002-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "614dd5df4b7a22bce0f69faa47ee892abb4f164794adfcb2ebb17fcec46ac46d",
+        "perception_capture/frame-000.json": "df02f9f080bb3fa60bc9a70ef8418b2e7d5f01bc129b8fc2a664ec6879d203e4",
+        "request.json": "02949fdd0c17f6cd25fb3b2b63dc6fdda8bb36a1781c7efec02e53f2b1a177da"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r003",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r003-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "7a8350341a72579e4cdea605bbfb27f0b6174bc61ee75fc13234b79740682d3f",
+        "perception_capture/frame-000.json": "01495752ae707bd111c5f2e2b93db3b51c644b3a6ce297df8cee47cd756bad64",
+        "request.json": "0ebb7ab30518035dbe67d396e5d7170ae37dac65348ea45ecb1cc4f63813d7e9"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r004",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r004-chair",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "dd071d1cd61f291dcf30d036638fc58fb73a6fa0a75fae29bf7ff88fc18d1a36",
+        "perception_capture/frame-000.json": "53b3b180d69d9b4567fe68ad042946ec424e908a456c411c838233b595b0e902",
+        "request.json": "1df711c5221dc2ba8e0219c1e7b6354c39117a7a85739022d482a233fb261a1a"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r010-laboratory_entrance",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "3f38dfc49dd9ea2dcd5310d0098a4223364eff1f4921e5c8bb81958e90fff952",
+        "perception_capture/frame-000.json": "9afb0dcc61f9019cb500a35866f3c32962e2d0a69256068052bf05f1b1e48bd6",
+        "request.json": "36081dc36a147bb0506c7e6d3ee4affe9e639fb352e8802737c41db22555757f"
+      }
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "run_directory": "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-current-v1-r010-office_entrance",
+      "sha256": {
+        "perception_capture/frame-000-rgb.bin": "8a4850fec1f628d40d6a92896340ebd116469534a5dd05a9829e84f726a168f9",
+        "perception_capture/frame-000.json": "c9ad56462e5debae4b0ec22d1231159c1bb1c90c8f478dd79b43eecdf052d67d",
+        "request.json": "c3d1bab7a5e5195e7e65f85bd6ded72ae7c0717480ab16645caacf18b3259ace"
+      }
+    }
+  ],
+  "expansion_candidate_id": "expansion-v1-r013-laboratory_entrance-s2-view2",
+  "horizontal_fov": 2.0,
+  "human_labels_generated": false,
+  "limitations": [
+    "no_per_map_detector_accuracy_claim",
+    "no_confidence_calibration",
+    "no_human_correct_incorrect_labels",
+    "no_heldout_or_confirmatory_protocol_freeze"
+  ],
+  "per_view_binding": "one validation view per freeze, as the accepted amendment permits",
+  "profiles": {
+    "r3geo_base_r001": "dc6762ee3dbeb4078091e7335af84f298cad5ada6c81894cfe698ab1888aa17e",
+    "r3geo_base_r002": "9e1084dfc72a76d652551dd64e634e0e4b11c53a0edf08e9569a92a1af50c336",
+    "r3geo_base_r003": "61ebaf76276099516f57a632cdb253ecac3740801c0cc363e0c7729bf92318f4",
+    "r3geo_base_r004": "e9d0e30213451eb09a8559945615ab9754df57166d14cb9ddab1e85a9eeba090",
+    "r3geo_base_r005": "ad549ad85f6e9d440efa246371a903baa459861d153d9bcb2196aa00066cde70",
+    "r3geo_base_r006": "ea98ce97686ac0f7497522273294fe99bac5bdc8fb36fafe20f853427eca2613",
+    "r3geo_base_r007": "6328230ae75f897cd8450ebe460072d579e0b879dc4349d202067ed903d5efb4",
+    "r3geo_base_r008": "55882e0901b473295efba547ba08ddc6e3898cc4418103ca8e5cbc3342e7e868",
+    "r3geo_base_r009": "ff2a083704c1df7c2e4b28e6d119970546c4be7115180a09229a5996882e0a68",
+    "r3geo_base_r010": "a3cc53824a1f2f2eb6cb877e8e55373f63c720d1630a1e247fa1a0c9fc9c898f",
+    "r3geo_base_r011": "06f91b67b8de675889c60a6b7ae7faad3a9bf60b6799efb6842d357958e4e8ce",
+    "r3geo_base_r012": "cbd32ff5331fa59ed82623ff9083916bd27dd626927a45288045095b3fff3d2f",
+    "r3geo_base_r013": "bf45dfbc7c84a38376325e64c9efb8d6681cf785c355197097d19773f862011a",
+    "r3geo_base_r014": "8e677c9f726e3d6383dca92ed5d39cca3b8b333ad3107d8b847d2962528eea73"
+  },
+  "protected_data_used": false,
+  "purpose": "engineering_camera_settings_only_not_confidence_calibration_or_experiment_protocol",
+  "schema_version": "research3-engineering-camera-freeze/v2",
+  "source_capture_plan_sha256": "4a20aa3240d4035d48bdaf3d9300310c74e004c0628103bfac0ba19e65e7fb0a",
+  "source_sha256": {
+    "ros_ws/src/language_interface/language_interface/node.py": "85dd26d7e0ea2c6a3c3e296b20a88961141f2efbce3fbca93fe5cf51b5db06e3",
+    "ros_ws/src/language_nav_bringup/language_nav_bringup/landmark_bridge_runner.py": "ffefbd8dfd254a57709eaf0ab5871b631e15dadabbf1ba2e5cfc18674d2fad50",
+    "ros_ws/src/language_nav_bringup/launch/live_adapters.launch.py": "d745b2ed5864e8844b42ebfe0e3ce3a729a07ffedc2fa344d2aa735f8cf5c218",
+    "ros_ws/src/language_nav_bringup/launch/physical_sim.launch.py": "7e226dbd5641cfcf3941a2a4396e42672057c73ff6c77ba8f9dee7c9feab1814",
+    "ros_ws/src/language_nav_interfaces/msg/BeliefGraph.msg": "ed24c5e2faf10049554221c6ee19007a33ec48a8dd6b26c090e17c297766b295",
+    "ros_ws/src/language_nav_interfaces/msg/Contradiction.msg": "dcced91935a361c552f7e3bd7b15ec143bf78a02ffe35bc52928aaaeb796bec5",
+    "ros_ws/src/language_nav_interfaces/msg/FailureMonitorState.msg": "11def12b5e579d139bbc9e036c968f4291cd2775a3046c1e62c9d533e47b0313",
+    "ros_ws/src/language_nav_interfaces/msg/LanguageHypotheses.msg": "f36256c01ad6f6b312b47ae750ff8cc92a2381c4d94b7668505aa349c586e656",
+    "ros_ws/src/language_nav_interfaces/msg/LanguageInstruction.msg": "fc21c7dda7cadbdfd11c8e595f4b0fbf6addfcbbe20fd68d51ebc75ecb1ef9ca",
+    "ros_ws/src/language_nav_interfaces/msg/LanguageNavDecision.msg": "04f49d7aa880a7a62b1d076f723cc7cb90c7297de320dfeeddb948da086f0317",
+    "ros_ws/src/language_nav_interfaces/msg/LanguageNavOutcome.msg": "af1a45629291840f97953f39f1c5d33b3a45c759e4dafbfb090f4a42173d9fe7",
+    "ros_ws/src/language_nav_interfaces/msg/RouteEligibility.msg": "1c7b4d0b4bb7942ac5dc937eaa3ae5e5236a2cd5a5dd7b297d95295c55c93a2b",
+    "ros_ws/src/language_nav_interfaces/msg/RouteExecutionResult.msg": "4f1c6b4a714750f5da7d55c8a7683012508527faabd0435a1e6afba6e619b766",
+    "ros_ws/src/language_nav_interfaces/msg/RouteRequest.msg": "b36a37d437e00fcfbc069f4a8b87f3a1ddc244042b8a8f6388f732ed026a00ec",
+    "ros_ws/src/language_nav_interfaces/msg/SemanticObservation.msg": "8a2badbbecd17cff9a176e76a15d7cf9d8e1e7ca6ae18810350f0714d1c083e0",
+    "ros_ws/src/language_nav_interfaces/msg/SemanticRouteProposal.msg": "d8aca516779f5de461e00c5ffb5cb70d571cc33ca2b263ddde5726cbb90add3c",
+    "ros_ws/src/language_nav_planner/language_nav_planner/node.py": "0bd4e5418315c3a1bcb76cfcce5b27e6ad029ffbce98f1d33e025dfb6538113d",
+    "ros_ws/src/language_nav_runtime/language_nav_runtime/monitor_bridge.py": "54a272552c0259c23e56ffdcb4f74e2b142dde139abaa4ee33cb1c3e2480ee7e",
+    "ros_ws/src/language_nav_runtime/language_nav_runtime/nav2_adapter.py": "8aebc99f860141f40d2cb596302c12c6f3ee1dd522ef0a2732ff8fb4c3312d8e",
+    "ros_ws/src/language_nav_runtime/language_nav_runtime/semantic_routes.py": "6e9387661d89de1520279fc22031021cf9b7c3cd9c87bd4ccabcfa4e501df0f5",
+    "ros_ws/src/semantic_belief_map/semantic_belief_map/node.py": "5a20309b6a6b2802c5892e176b73ca00331a7fa3fd76dfe11cecca96cebaf52a",
+    "scripts/physical_perception_capture.py": "f758a9d47cf2c97398f99c63b4dba38b65f32bb106364b2fc2e7a99e8fc8137c",
+    "scripts/run_live_episode.py": "2b516cec509a7a899b5ab78e479e54cd65199329a71ae11d5f8e278a79a433cf",
+    "scripts/run_physical_episode.py": "4ac27984bf816a3521ec5c8d349a609972fdf939b571b890e6fd0eec38648404",
+    "scripts/run_stationary_capture_plan.py": "6f58e3497ceb15f52537a42938e67afbbbfa3f088261c4884cead00facca3c89",
+    "src/language_nav/__init__.py": "f1effcba5c25ead479d2c5e7dc192e7d290ef01076b2eaff1855346162286009",
+    "src/language_nav/adapters/__init__.py": "cd0b3f6eeab95a890e66e6231531e30247c5b102f5aa030b8dc7e6127472b746",
+    "src/language_nav/adapters/landmark_challenge.py": "ff0353a05fdbb763e85002cc5259f1f71eb7a016eaf3cfc43043a9acf79b069f",
+    "src/language_nav/adapters/landmark_palette.py": "15e1f95d2057466310a5fdd8e523e6c63c90a9ad2ef1b52b6e6d682e94197914",
+    "src/language_nav/adapters/nav2.py": "2d5221a12cd55a94ff2573383452040cefb67cdb90b30aac01bee4e4fc16313d",
+    "src/language_nav/adapters/research1.py": "d2aa4a44f873b432e235bf99c0476b9d4157c51998e98fe42ff28c9c3bc7c506",
+    "src/language_nav/adapters/research2.py": "5f50f98e8eda1459c86315daeeb1f2e6f451847ff28d538be9d6f631143adcd9",
+    "src/language_nav/adapters/ros.py": "ac6e3e256c890af7fc5293abebe15f59690fc43eb6846cfdb8731b1a4972b063",
+    "src/language_nav/adapters/rosbag_replay.py": "dfb43a904cc4ebd821256ccb4e38e830d408ad828dc8cb3f1449d46cd6beb58a",
+    "src/language_nav/belief/__init__.py": "3dc8cad0da2fa229370d9e5b8e75c60d8fe7eeb08b024e1aa0262e928cf73957",
+    "src/language_nav/belief/store.py": "54217cf06eedfc002f6b7eda9a0800c8fab542331f32f679cf7f09e96b82db13",
+    "src/language_nav/belief/update.py": "b0fc485af8da51abe7209b88d1bdafb631d2fb67c42e7384442c2306928e87c5",
+    "src/language_nav/benchmark/__init__.py": "2587f71689e15fffef4bc756e78e5da31efe71a3e7c72a92f6f7a66183f3a39c",
+    "src/language_nav/benchmark/annotations.py": "8e421f00e558ad86e833fed0bc5751f4393921bac15ea4a35b2f9a689a7a4cc2",
+    "src/language_nav/benchmark/corpus.py": "3a69a631d1fb6e7bc928611dff50bd06b12717c6e0e15b76933f59c55e6bcd7c",
+    "src/language_nav/benchmark/corruptions.py": "1adb34250106873b8ad6d311bc144d18efe6b9895bfcbdeb8ce8c568f422e521",
+    "src/language_nav/benchmark/paired_trace.py": "a2bad1f26b1b0936b1f680612811ea4e5ddfdde3c3d5e95cb1f2623dfa33e260",
+    "src/language_nav/benchmark/physical_catalog.py": "dd1d4d4dca48dd94136a48e8e5c8b5d42d91657d7723f8196ff32a3f093a668e",
+    "src/language_nav/benchmark/semantic_catalog.py": "9f78842c82369d1040784de20b07a1723779e3f55192aef6b44bc6b6db14c24f",
+    "src/language_nav/benchmark/splits.py": "2bc35aec8661c4c403b8eb16d72d9c6e1fa72f0d78ab13e50b1e0401849500ff",
+    "src/language_nav/calibration/__init__.py": "f4055745f5d9f0f0e96f7fb9f8c51de88d8d849c724f556fbc515d501e17c7cb",
+    "src/language_nav/calibration/calibrators.py": "135862f179b0907052f35a4417b1614e229cfb25deca61b7832a56cb772d17ff",
+    "src/language_nav/calibration/freeze.py": "717e8bca7d23552bb338bd54e1f75d40e79f6f730e6457ab6ba87f5243158d33",
+    "src/language_nav/camera_configuration.py": "bc29983f66c3a5ef2a4fd6843845436710682bbabed0f80b5bd27eb2f27bf396",
+    "src/language_nav/campaign_authorization.py": "61ac57b50c1dc29dbdb4e9d0a42764b4ae3c529066ddef96f66cfc691d77fb53",
+    "src/language_nav/capture_view.py": "4f626befa4a2faa0059f64a7a1dfb9cf42da658e80d87dc05e115426b7cb5204",
+    "src/language_nav/contracts.py": "f4473ab24117edf2445d8953d5cdbba63ec0513cd57c8c54805ce31d196e5d48",
+    "src/language_nav/evaluation/__init__.py": "66a800640575c5f89f033fbb22ebcdd89660c3c2bebec9f2bf5cff9852aa1fc1",
+    "src/language_nav/evaluation/campaign.py": "7ab5f26ca366ad3c8e5f1936a9b0a3f767bd3d3875616676c1293a6076cac8d1",
+    "src/language_nav/evaluation/metrics.py": "92d03de06abb9ec119267b71667cfad954d13853c29aaaf8666d866a585feb6c",
+    "src/language_nav/evaluation/ordered.py": "d0e0a1d0a5a783b1e16ae64a7d0420163e09c7481735544f9e57a5cc6a76fdfc",
+    "src/language_nav/evaluation/study.py": "9dfb0fb9039c5ca936bb28ebe64ceccc8f2dd337e381614485b5b1a9f70935ea",
+    "src/language_nav/geometry.py": "da223fae0450c525d8b6d6db193d452f99f3f64113b0c2a50640625d8d748d88",
+    "src/language_nav/grounding/__init__.py": "292110100a6aa2759d1107afe47499e3923583f2a5d3aeb8b264bcea38c7705c",
+    "src/language_nav/grounding/candidates.py": "24d29d97ee533f7b9b3c65a5982afc6420518766cb501c0e20c42ea3221a6c64",
+    "src/language_nav/grounding/routes.py": "efd722de38645332600963f7fc4e76764bdf8e1e9f748ffc7fd369ab86025f78",
+    "src/language_nav/live.py": "4b6ca182d0a998888f9f5dc9960834dce10aec5005d879876c0de3ea89775860",
+    "src/language_nav/live_resources.py": "fc0ad9a3e249c2aeffbe2e64424d67230e9604bd588e48b12b9e88a2c3df4a0c",
+    "src/language_nav/models.py": "4e93518674a8ef61a8eb382567ac9ad604704a4fc185d493f998d21acf4a070b",
+    "src/language_nav/parsing/__init__.py": "aa19fc3093ceced5e39c6ecb94ae9ef1ee1546eae9bd28c38aec73024d370894",
+    "src/language_nav/parsing/rule_based.py": "9af66c8f6f2bde0bffe42971636ba0767d04715c8d46d411b01e635a92a710a8",
+    "src/language_nav/physical_asset_authorization.py": "227f6fd5be6d4b96581e26ee3183538fc92f50571c26b89792cd98c8231ebbc1",
+    "src/language_nav/physical_heldout_authorization.py": "369ecfba7cd6c12e751521e32ed441e08ec1a8af0709e8bfd13d49a9062d4693",
+    "src/language_nav/planning/__init__.py": "80dc601cd5e097b542cae16c1da97d0f28722cb73a1a49a6d210e1abdc1a9bc5",
+    "src/language_nav/planning/policy.py": "312bb8813f3a53e46ab9a00576d2693df706079c16f3569d13be29a7683f1175",
+    "src/language_nav/runner/__init__.py": "73d6c7287f3dbfb49978a6d8b32c3d948230e166aa218a0b1ad0a684df6c5e34",
+    "src/language_nav/runner/episode.py": "6814b2e517a2f758a967b8755a411f14970ffde3162f0e22d01aa55b67d433fa",
+    "src/language_nav/runner/logging.py": "85b2b58bbe2094551ba0734ecc0073e47556295757d8e17013dd4ce5c8dc09a0",
+    "src/language_nav/safety.py": "3b3d958598e9de3df657d7a42e7afc997c5f8f820c435920f4c12cd90f42edaa",
+    "src/language_nav/systems/__init__.py": "18652596131cf2cb281b9098137f51986b3155fe1b3e9be477c493e54c00ed07",
+    "src/language_nav/systems/variants.py": "a1f4549f2612256af0ba980ef7f9dc51566c7640b58a9afdf3b15ff9d655f6c6",
+    "src/language_nav/world/__init__.py": "07534dfa37a15e2712a452a19b23c5fa69214461c3c48b1d48f394c9b2e674f9",
+    "src/language_nav/world/graph_world.py": "ed732eebd92d19ae0cff86a64383dcbc6f90ee94ab7fde8ed1126b52287862e5",
+    "src/language_nav/world/physical.py": "7185c8dd6ff69520b1b79e20afaf0214f34106444bd247cda8d72f08122781c6"
+  },
+  "validation_views": [
+    {
+      "capture_pose": {
+        "x": 8.6,
+        "y": 0.6,
+        "yaw": -1.5565115842075004
+      },
+      "category": "laboratory_entrance",
+      "map_id": "r3geo_base_r013",
+      "world_sha256": {
+        "execution_catalog.json": "9ea84d6bd55af7fc2e1fe253e4f55b1a064c10da8ef715e70f182565f242ed79",
+        "landmark_scene.yaml": "b5cf4411a05c31e940e01f6a2062289b313ac121dd24f826960249553f6d809c",
+        "map.pgm": "8fa8a5431bedef56f371c262a201b437b6674f31bc9bdb49483945bff943978b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "87e681c4be3347dbdfec381a28e5e928d718f110ffb4906f41b27df02d6df95e"
+      }
+    }
+  ],
+  "visual_check_attestation": {
+    "development_visual_check_complete": true,
+    "source": "explicit_caller_attestation_not_automatic_QA_or_human_detection_verdict"
+  }
+}
