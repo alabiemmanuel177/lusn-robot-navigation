@@ -20,9 +20,15 @@ targets. Automated pixel checks passed on all 1,139 emissions. Follow the kit
 README: preview, approve the rebound rubric, review, return the ZIP.
 
 Validation collection (160 attempts, one v2 camera freeze per view, gated on the
-complete development report) started 10:17 UTC; its sealed-return kit, the
-paired B5/B6 feasibility episodes and the two outstanding occluder re-renders
-follow in the same detached chain (`reports/expansion_chain_20260914/`).
+complete development report) completed at 11:20 UTC: 160 of 160 emitted, no
+failures. **Validation review kit ready:**
+`reports/expansion_review_validation_20260914_v1/research3_expansion_validation_review_kit.zip`
+(159 MB, SHA-256 `6665d7c9f7ec1ef0e2940ea28cf65edcd561d7f8b2a28ceecbdaaffa5600519d`),
+160 targets. Review it in a separate sitting, seal the return with your own key
+as its README and `docs/VALIDATION_DELAYED_RELEASE.md` describe, and send only
+the sealed envelope. The paired B5/B6 feasibility episodes (160) and the two
+outstanding occluder re-renders follow in the same detached chain
+(`reports/expansion_chain_20260914/`).
 
 Earlier snapshots v4 and v6 failed on exact-stamp transform races; v7 gates
 arming on a provider transform-readiness file. Details:
