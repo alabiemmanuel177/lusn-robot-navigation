@@ -25,6 +25,32 @@ import prepare_consolidated_review as consolidated  # noqa: E402
 import portable_physical_review as portable  # noqa: E402
 
 
+def evidence_integrity(run, attempt):
+    """Reasons the retained evidence of an attempt no longer verifies; empty when intact."""
+    problems = []
+    request = run / 'request.json'
+    if not request.exists() or sha_file(request) != attempt['request_sha256']:
+        problems.append('request_missing_or_changed')
+    if attempt['status'] == 'emitted':
+        for name in ('perception_capture/summary.json', 'perception_capture/frame-000.json',
+                     'perception_capture/observation_index.json', 'landmark_review_tasks.jsonl', 'expansion_attempt.json'):
+            path = run / name
+            if not path.exists() or path.stat().st_size == 0:
+                problems.append('empty_or_missing:' + name)
+        try:
+            frame = json.loads((run / 'perception_capture/frame-000.json').read_bytes())
+            for kind in ('rgb', 'depth'):
+                raw = (run / 'perception_capture' / frame[kind]['file']).read_bytes()
+                if sha_file(run / 'perception_capture' / frame[kind]['file']) != frame[kind]['sha256'] or len(raw) != frame[kind]['bytes']:
+                    problems.append('image_checksum_mismatch:' + kind)
+        except (OSError, ValueError, KeyError):
+            problems.append('frame_record_unreadable')
+        if attempt.get('attempt_sha256') and (run / 'expansion_attempt.json').exists() \
+                and sha_file(run / 'expansion_attempt.json') != attempt['attempt_sha256']:
+            problems.append('attempt_record_changed')
+    return sorted(set(problems))
+
+
 def build(report_path, output, *, partition):
     report = json.loads(Path(report_path).read_bytes())
     plan, plan_sha, _ = load_plan()
@@ -37,13 +63,17 @@ def build(report_path, output, *, partition):
     qa_rows, checks, targets, accounting = [], [], [], []
     for attempt in report['attempts']:
         run = RUNS / attempt['run_id']
-        if sha_file(run / 'request.json') != attempt['request_sha256']:
-            raise ValueError('attempt evidence changed: ' + attempt['run_id'])
         row = rows[attempt['candidate_id']]
+        integrity = evidence_integrity(run, attempt)
         accounting.append(dict(candidate_id=attempt['candidate_id'], run_id=attempt['run_id'], status=attempt['status'],
                                map_id=row['map_id'], category=row['category'], entity_id=row['entity_id'],
                                view_group=row['view_group'], seed=row['seed'], selected_entity=attempt['selected_entity'],
-                               review_target=attempt['status'] == 'emitted'))
+                               evidence_integrity=integrity,
+                               review_target=attempt['status'] == 'emitted' and not integrity))
+        if integrity:
+            # The attempt happened and its ledger record stands, but its retained
+            # bytes no longer verify; it cannot be reviewed and is not re-run.
+            continue
         if attempt['status'] != 'emitted':
             continue
         if attempt['selected_entity'] != row['entity_id']:
@@ -74,6 +104,8 @@ def build(report_path, output, *, partition):
         schema_version='research3-expansion-attempt-accounting/v1', partition=partition, plan_sha256=plan_sha,
         collection_report_sha256=sha_file(report_path), scheduled=report['scheduled'], accounted=report['accounted'],
         status_counts=report['status_counts'], review_targets=len(targets),
+        evidence_unrecoverable=[dict(candidate_id=a['candidate_id'], run_id=a['run_id'], ledger_status=a['status'],
+                                     reasons=a['evidence_integrity']) for a in accounting if a['evidence_integrity']],
         selected_ready=inventory.get('selected_ready_items'), selected_missing=inventory.get('selected_missing'),
         rows=accounting, human_labels_generated=False,
         note='nondetections, ambiguous emissions and infrastructure failures are retained here and are not calibration rows'))
