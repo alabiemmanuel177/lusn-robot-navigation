@@ -36,9 +36,10 @@ def reviewed_rows(rows, partition, maps):
                 or type(row.get('correct')) is not bool
                 or not isinstance(row.get('observation_id'), str) or not row['observation_id']):
             raise ValueError('only bound human-reviewed binary primary rows in the exact partition are eligible')
-        if row['observation_id'] in ids:
+        identity = (row.get('run_id'), row['observation_id']) if row.get('run_id') else row['observation_id']
+        if identity in ids:
             raise ValueError('duplicate observation identity')
-        ids.add(row['observation_id'])
+        ids.add(identity)
         probability(row.get('probability'), 1.)
     return rows
 

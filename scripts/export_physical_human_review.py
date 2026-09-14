@@ -158,11 +158,12 @@ def export_payload(inventory, qa, progress, requirements=None, *, evidence=None,
         rows = [json.loads(line) for line in
                 (run / 'landmark_review_tasks.jsonl').read_text().splitlines() if line.strip()]
         original = next(row for row in rows if row['observation_id'] == item['observation_id'])
-        # Provider normalization requires globally unique IDs, unlike the UI's
-        # run-scoped IDs. Never rename a collision into an invented observation.
-        if original['observation_id'] in ids:
+        # Provider normalization scopes review targets by run and observation ID.
+        # Run-scoped IDs distinguish multi-view/seed captures without inventing IDs.
+        target_key = (item['run_id'], original['observation_id'])
+        if target_key in ids:
             raise ValueError('provider export requires globally unique observation IDs')
-        ids.add(original['observation_id'])
+        ids.add(target_key)
         row = {**original, 'review_status': 'human_verified',
                'reviewer_id': event['reviewer_id'], 'correct': int(event['correct'])}
         reviewed.append(row)

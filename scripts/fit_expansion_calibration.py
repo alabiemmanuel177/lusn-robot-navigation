@@ -70,11 +70,14 @@ def labelled_rows(kit_root, return_zip, partition):
         os.chdir(previous)
     plan, plan_sha, _ = load_plan()
     by_run = {row['candidate_id']: row for row in plan['rows'] if row['partition'] == partition}
-    bindings = {b['observation_id']: b for b in readiness['joint_review_contract']['accepted_label_bindings']}
+    bindings = readiness['joint_review_contract']['accepted_label_bindings']
+    if len(bindings) != len(reviewed):
+        raise ValueError('reviewed tasks count does not match accepted label bindings count')
     rows = []
-    for task in reviewed:
-        binding = bindings[task['observation_id']]
-        plan_row = by_run.get(binding['run_id'])
+    for task, binding in zip(reviewed, bindings, strict=True):
+        if task['observation_id'] != binding['observation_id']:
+            raise ValueError('observation ID mismatch between reviewed task and binding')
+        plan_row = by_run.get(binding['run_id'].removesuffix('-retry1'))
         if plan_row is None or plan_row['entity_id'] != task['entity_id'] or plan_row['category'] != task['category']:
             raise ValueError('reviewed label is not the prespecified entity of its attempt: ' + binding['run_id'])
         rows.append(dict(partition=partition, panel='primary_expansion', reviewer_type='human',
