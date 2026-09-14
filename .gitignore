@@ -26,3 +26,4 @@ reports/.research3_physical_execution.lock
 
 # Rendered diagnostic packet images are hash-pinned in their manifest.json; keep the bytes out of git.
 reports/expansion_diagnostic_asset_review_*/images/
+reports/expansion_chain_20260914/chain.log

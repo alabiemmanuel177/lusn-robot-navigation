@@ -401,7 +401,7 @@ def execute(request, variant, catalog, report_dir, system_id, calibration=None):
             stack.launch('capture_provider',command)
             if request.get('expansion_instrumentation_snapshot'):
                 # Readiness uses discovered endpoints, not a successful detection.
-                ready_deadline=time.monotonic()+20
+                ready_deadline=time.monotonic()+40
                 while True:
                     check_resources()
                     ready_topics=all(any(endpoint.node_name=='research3_landmark_bridge'
@@ -410,11 +410,13 @@ def execute(request, variant, catalog, report_dir, system_id, calibration=None):
                     provider_pub=any(endpoint.node_name=='research3_landmark_bridge'
                         for endpoint in recorder.get_publishers_info_by_topic('/semantic_observations'))
                     tf_ready=transforms.can_transform('map','base_link',monitor.get_clock().now())
-                    if ready_topics and provider_pub and tf_ready and monitor.amcl_converged():break
+                    provider_tf_ready=(report_dir/'provider_tf_ready.json').exists()
+                    if ready_topics and provider_pub and tf_ready and provider_tf_ready and monitor.amcl_converged():break
                     if time.monotonic()>ready_deadline:raise RuntimeError('expansion provider/readiness preflight timed out')
                     if any(proc.poll() is not None for _,proc in stack.procs):raise RuntimeError('stack exited before arming')
                     time.sleep(.1)
                 recorder.arm(dict(localization_converged=True,provider_ready=True,transforms_ready=True,
+                                  provider_transform_ready=True,
                                   isolated_domain_verified=True,source_snapshot_sha256=request['expansion_instrumentation_sha256']))
             context_recorder = PhysicalPerceptionCapture(report_dir/'context_capture',
                 max_frames=request.get('capture_frame_budget',5), interval_s=1.,

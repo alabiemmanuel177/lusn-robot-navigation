@@ -145,6 +145,8 @@ def classify(run_dir):
     failure = run_dir / 'failure.json'
     armed = (run_dir / 'perception_capture/armed.json').exists()
     provider_started = (run_dir / 'provider_frame_started.json').exists()
+    completion = run_dir / 'provider_frame_completion.json'
+    provider_failed = completion.exists() and json.loads(completion.read_bytes()).get('status') == 'failed'
     if attempt.exists():
         record = json.loads(attempt.read_bytes())
         reasons = record.get('reasons', [])
@@ -153,9 +155,10 @@ def classify(run_dir):
         # transform record was missing while the provider did process it.
         return dict(status=record['status'], reasons=reasons, armed=armed,
                     selected_entity=(record.get('selected_observation') or {}).get('entity_id'),
-                    attempt_sha256=sha_file(attempt), provider_started=provider_started,
+                    attempt_sha256=sha_file(attempt), provider_started=provider_started, provider_failed=provider_failed,
                     predispatch=(record['status'] == 'infrastructure_failure'
-                                 and (not provider_started or (bool(reasons) and set(reasons) <= RETRYABLE_REASONS))))
+                                 and (not provider_started or provider_failed
+                                      or (bool(reasons) and set(reasons) <= RETRYABLE_REASONS))))
     if failure.exists():
         record = json.loads(failure.read_bytes())
         return dict(status='infrastructure_failure', reasons=[record.get('error', 'failure')], armed=armed,
@@ -217,7 +220,9 @@ def execute(args):
         # A retained retryable infrastructure failure on the first attempt may
         # still use its single retry when the run resumes.
         for record in started:
-            if (record['status'] == 'infrastructure_failure' and record.get('predispatch') and record['attempt_index'] == 0
+            # Re-classify from the retained directory so the current retry rules apply.
+            if (record['status'] == 'infrastructure_failure' and record['attempt_index'] == 0
+                    and classify(record['run_directory']).get('predispatch')
                     and not any(r['candidate_id'] == record['candidate_id'] and r['attempt_index'] == 1 for r in started)):
                 done.discard(record['candidate_id'])
     else:
@@ -267,7 +272,14 @@ def execute(args):
                 argv = list(argvs[row['candidate_id']])
                 argv[argv.index('--run-id') + 1] = run_id
                 started = dt.datetime.now(dt.timezone.utc).isoformat()
-                with (directory / f'{run_id}.log').open('x') as log:
+                log_path = directory / f'{run_id}.log'
+                sequence = 1
+                while log_path.exists():
+                    # A rejected launch that retained nothing may be relaunched under
+                    # its original ID; its executor log gets a new sequence number.
+                    sequence += 1
+                    log_path = directory / f'{run_id}.launch{sequence}.log'
+                with log_path.open('x') as log:
                     code = run_owned(argv, log)
                 outcome = classify(RUNS / run_id)
                 retry = (outcome['status'] == 'infrastructure_failure' and outcome.get('predispatch') and attempt_index == 0)
