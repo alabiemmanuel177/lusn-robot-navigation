@@ -84,14 +84,25 @@ candidate is refused by the runner without an accepting decision.
 
 `scripts/run_expansion_collection.py` runs one partition of the accepted
 560-row plan (hash-bound to Emmanuel's amendment decision) serially through
-the owned runner with instrumentation snapshot v4
-(`reports/expansion_instrumentation_snapshot_20260912_v4`), which pins the
-revised runner. Each attempt uses its candidate ID as its immutable run ID,
+the owned runner with a pinned instrumentation snapshot. Snapshot v4 pinned the
+revised runner; the first attempts under it failed on exact-stamp transform
+races (the collector looked up the camera transform immediately, and the
+provider wrapper's own transform buffer could start after the frame stamp, so
+its lookup failed "into the past"). Snapshot v6 bounded both waits; snapshot
+v7 (`reports/expansion_instrumentation_snapshot_20260914_v7`) adds a positive
+readiness file written by the wrapper once its buffer holds the camera-to-map
+chain at the current simulated time, and the runner arms only after it
+exists. Snapshot changes on a resumed schedule are recorded in the lifecycle
+directory, and every attempt's request pins the snapshot it ran under. Each
+attempt uses its candidate ID as its immutable run ID,
 the exact prespecified entity, camera profile hash, FOV 2.0, seed and pose
 from the plan. Research 2 idleness and host headroom are checked before every
 attempt; the exclusive execution lock is held for the whole partition. One
-new-ID retry is permitted only for infrastructure failure before arming; the
-original is retained. The schedule halts only after three consecutive
+new-ID retry is permitted only for an infrastructure failure with no provider
+outcome (never armed, provider never started, provider raised before any
+detection outcome, or only the collector's own transform record missing); the
+original is retained and listed. Launches the runner rejected before creating
+a directory retained nothing and are listed separately, not counted as attempts. The schedule halts only after three consecutive
 infrastructure failures, never on outcome. `report.json` accounts for every
 scheduled attempt by status (emitted, nondetection, ambiguous emissions,
 infrastructure failure).
