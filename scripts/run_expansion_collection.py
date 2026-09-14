@@ -201,6 +201,8 @@ def execute(args):
             raise PermissionError('validation collection requires the complete development report')
         development_report = Path(args.development_complete_report).resolve()
         validate_development_complete_report(development_report)
+    if args.resume and not (directory / 'planned.json').exists():
+        args.resume = False  # nothing to resume: start the schedule fresh
     if args.resume:
         planned = json.loads((directory / 'planned.json').read_bytes())
         if planned['plan_sha256'] != plan_sha or planned['partition'] != args.partition:
@@ -317,7 +319,14 @@ def write_report(directory, rows, plan_sha, snapshot_sha, partition):
         if record['attempt_index'] == 1:
             final[record['candidate_id']] = record
     counts = {status: sum(1 for r in final.values() if r['status'] == status) for status in TERMINAL}
+    unrecoverable = []
+    for record in final.values():
+        request = Path(record['run_directory']) / 'request.json'
+        if not request.exists() or request.stat().st_size == 0 or sha_file(request) != record['request_sha256']:
+            unrecoverable.append(dict(candidate_id=record['candidate_id'], run_id=record['run_id'], ledger_status=record['status'],
+                                      reason='retained request record missing, empty or changed after the attempt (host restart before flush)'))
     report = dict(schema_version=REPORT_SCHEMA, partition=partition, plan_sha256=plan_sha,
+                  evidence_unrecoverable=unrecoverable,
                   snapshot_sha256=snapshot_sha, scheduled=len(rows), accounted=len(final),
                   attempts_including_retries=len(attempts), status_counts=counts,
                   retryable_reasons=sorted(RETRYABLE_REASONS),
@@ -355,10 +364,17 @@ def validate_development_complete_report(path):
     attempts = report['attempts']
     if len(attempts) != 400 or len({a['candidate_id'] for a in attempts}) != 400:
         raise ValueError('development report must account for every scheduled attempt exactly once')
+    listed = {row['run_id'] for row in report.get('evidence_unrecoverable', [])}
     for attempt in attempts:
         run_dir = RUNS / attempt['run_id']
-        if not run_dir.resolve().is_relative_to(RUNS.resolve()) or sha_file(run_dir / 'request.json') != attempt['request_sha256']:
+        if not run_dir.resolve().is_relative_to(RUNS.resolve()):
+            raise ValueError('development attempt outside owned reports: ' + attempt['run_id'])
+        request = run_dir / 'request.json'
+        intact = request.exists() and request.stat().st_size > 0 and sha_file(request) == attempt['request_sha256']
+        if not intact and attempt['run_id'] not in listed:
             raise ValueError('development attempt evidence changed: ' + attempt['run_id'])
+        if intact and attempt['run_id'] in listed:
+            raise ValueError('intact attempt wrongly listed as unrecoverable: ' + attempt['run_id'])
     return sha(raw)
 
 

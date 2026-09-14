@@ -8,11 +8,11 @@ SNAP=reports/expansion_instrumentation_snapshot_20260914_v7/snapshot.json
 log "chain: STAGE development collection (resume under v7)"
 python3 scripts/run_expansion_collection.py --snapshot $SNAP --partition development --lifecycle-directory reports/expansion_collection_development_20260912_v1 --execute --resume --accept-snapshot-change "v7: provider transform-readiness file gates arming; provider-failed frames are retryable; after v4/v6 transform races"
 log "chain: STAGE development review kit"
-python3 scripts/build_expansion_review_kit.py --report reports/expansion_collection_development_20260912_v1/report.json --partition development --output reports/expansion_review_development_20260914_v1
+[ -f reports/expansion_review_development_20260914_v1/research3_expansion_development_review_kit.zip ] || python3 scripts/build_expansion_review_kit.py --report reports/expansion_collection_development_20260912_v1/report.json --partition development --output reports/expansion_review_development_20260914_v1
 log "chain: STAGE validation collection"
-python3 scripts/run_expansion_collection.py --snapshot $SNAP --partition validation --lifecycle-directory reports/expansion_collection_validation_20260914_v1 --development-complete-report reports/expansion_collection_development_20260912_v1/report.json --execute
+python3 scripts/run_expansion_collection.py --snapshot $SNAP --partition validation --lifecycle-directory reports/expansion_collection_validation_20260914_v1 --development-complete-report reports/expansion_collection_development_20260912_v1/report.json --execute --resume
 log "chain: STAGE validation review kit"
-python3 scripts/build_expansion_review_kit.py --report reports/expansion_collection_validation_20260914_v1/report.json --partition validation --output reports/expansion_review_validation_20260914_v1
+[ -f reports/expansion_review_validation_20260914_v1/research3_expansion_validation_review_kit.zip ] || python3 scripts/build_expansion_review_kit.py --report reports/expansion_collection_validation_20260914_v1/report.json --partition validation --output reports/expansion_review_validation_20260914_v1
 log "chain: STAGE feasibility navigation"
 python3 scripts/run_feasibility_navigation.py --lifecycle-directory reports/feasibility_navigation_20260912_v1 --execute --resume
 log "chain: STAGE re-render two failed occluder candidates"
