@@ -161,8 +161,6 @@ def run_frame_provider(output):
                     original.publish(message)
                     emissions.append(base.message_to_ordereddict(message))
             self.publisher=RecordingPublisher()
-            self.first_seen=None
-            self.transform_wait_s=10.0
             self.create_timer(.05,self.process_retained)
 
         def process_retained(self):
@@ -173,19 +171,12 @@ def run_frame_provider(output):
                 raw=frame_path.read_bytes();frame=json.loads(raw)
             except (json.JSONDecodeError,FileNotFoundError):return
             # Waiting for transform availability is independent of detections.
-            # The wait is bounded: after it, the unchanged provider computation
-            # runs anyway and its own transform lookup decides between a
-            # recorded failure and a completed frame; the frame never changes.
             stamp=frame['rgb_stamp_ns']
             when=base.Time(nanoseconds=stamp)
-            if self.first_seen is None:self.first_seen=time.monotonic()
-            transform_ready=self.tf_buffer.can_transform('map',frame['rgb']['frame_id'],when)
-            if not transform_ready and time.monotonic()-self.first_seen<self.transform_wait_s:return
+            if not self.tf_buffer.can_transform('map',frame['rgb']['frame_id'],when):return
             self.claimed=True
             audit=dict(schema_version='research3-exact-frame-processing/v1',status='started',
                        frame_stamp_ns=stamp,frame_sha256=hashlib.sha256(raw).hexdigest(),
-                       transform_available_before_processing=bool(transform_ready),
-                       transform_wait_s=round(time.monotonic()-self.first_seen,3),
                        observations=[],human_labels_generated=False)
             base._json_once(output/'provider_frame_started.json',audit)
             try:

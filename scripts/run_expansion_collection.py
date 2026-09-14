@@ -36,6 +36,11 @@ CANDIDATE = re.compile(r'expansion-v1-r(00[1-9]|01[0-4])-(chair|doorway|laborato
 REPORT_SCHEMA = 'research3-expansion-collection-report/v1'
 TERMINAL = ('emitted', 'nondetection', 'ambiguous_emissions', 'infrastructure_failure')
 MAX_CONSECUTIVE_INFRASTRUCTURE_FAILURES = 3
+# Infrastructure causes verified from retained records that precede any provider
+# outcome: nothing armed, or the collector's own exact-stamp transform lookup
+# raced the transform data. These qualify for the single new-ID retry the
+# amendment permits; provider outcomes (emitted, nondetection, ambiguous) never do.
+RETRYABLE_REASONS = frozenset({'transform_invalid'})
 
 
 def sha(raw: bytes) -> str:
@@ -139,11 +144,18 @@ def classify(run_dir):
     attempt = run_dir / 'expansion_attempt.json'
     failure = run_dir / 'failure.json'
     armed = (run_dir / 'perception_capture/armed.json').exists()
+    provider_started = (run_dir / 'provider_frame_started.json').exists()
     if attempt.exists():
         record = json.loads(attempt.read_bytes())
-        return dict(status=record['status'], reasons=record.get('reasons', []), armed=armed,
+        reasons = record.get('reasons', [])
+        # Retryable only when no provider outcome exists for the frame: the
+        # provider never began processing it, or only the collector's own
+        # transform record was missing while the provider did process it.
+        return dict(status=record['status'], reasons=reasons, armed=armed,
                     selected_entity=(record.get('selected_observation') or {}).get('entity_id'),
-                    attempt_sha256=sha_file(attempt))
+                    attempt_sha256=sha_file(attempt), provider_started=provider_started,
+                    predispatch=(record['status'] == 'infrastructure_failure'
+                                 and (not provider_started or (bool(reasons) and set(reasons) <= RETRYABLE_REASONS))))
     if failure.exists():
         record = json.loads(failure.read_bytes())
         return dict(status='infrastructure_failure', reasons=[record.get('error', 'failure')], armed=armed,
@@ -157,6 +169,16 @@ def existing_attempts(directory):
     if not path.exists():
         return []
     return [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+
+
+def started_attempts(directory):
+    """Ledger records whose run directory exists; a launch the runner rejected before
+    creating anything retained no evidence and is not a consumed attempt."""
+    return [record for record in existing_attempts(directory) if Path(record['run_directory']).exists()]
+
+
+def launch_rejections(directory):
+    return [record for record in existing_attempts(directory) if not Path(record['run_directory']).exists()]
 
 
 def execute(args):
@@ -178,9 +200,26 @@ def execute(args):
         validate_development_complete_report(development_report)
     if args.resume:
         planned = json.loads((directory / 'planned.json').read_bytes())
-        if planned['plan_sha256'] != plan_sha or planned['snapshot_sha256'] != snapshot_sha or planned['partition'] != args.partition:
+        if planned['plan_sha256'] != plan_sha or planned['partition'] != args.partition:
             raise ValueError('resume must continue the identical planned schedule')
-        done = {record['candidate_id'] for record in existing_attempts(directory) if record['status'] in TERMINAL and record.get('final')}
+        if planned['snapshot_sha256'] != snapshot_sha:
+            if not args.accept_snapshot_change:
+                raise ValueError('resume with a different instrumentation snapshot requires --accept-snapshot-change and a reason')
+            with (directory / 'snapshot_changes.jsonl').open('a') as stream:
+                stream.write(json.dumps(dict(previous_sha256=planned['snapshot_sha256'], new_sha256=snapshot_sha,
+                                             new_path=str(snapshot), reason=args.accept_snapshot_change,
+                                             at_utc=dt.datetime.now(dt.timezone.utc).isoformat()), sort_keys=True) + '\n')
+        started = started_attempts(directory)
+        done = set()
+        for record in started:
+            if record['status'] in TERMINAL and record.get('final'):
+                done.add(record['candidate_id'])
+        # A retained retryable infrastructure failure on the first attempt may
+        # still use its single retry when the run resumes.
+        for record in started:
+            if (record['status'] == 'infrastructure_failure' and record.get('predispatch') and record['attempt_index'] == 0
+                    and not any(r['candidate_id'] == record['candidate_id'] and r['attempt_index'] == 1 for r in started)):
+                done.discard(record['candidate_id'])
     else:
         directory.mkdir(parents=True, exist_ok=False)
         (directory / 'freezes').mkdir()
@@ -215,9 +254,12 @@ def execute(args):
         for row in rows:
             if row['candidate_id'] in done:
                 continue
-            if args.limit is not None and len([1 for r in existing_attempts(directory) if r.get('final')]) >= args.limit:
+            if args.limit is not None and len([1 for r in started_attempts(directory) if r.get('final')]) >= args.limit:
                 break
             for attempt_index, run_id in enumerate((row['candidate_id'], row['candidate_id'] + '-retry1')):
+                if attempt_index == 0 and (RUNS / run_id).exists():
+                    # Resumed retry of a retained first attempt: keep the original directory.
+                    continue
                 if (RUNS / run_id).exists():
                     raise FileExistsError(f'run directory already exists: {run_id}; no overwrite')
                 require_research2_idle()
@@ -252,18 +294,32 @@ def execute(args):
 
 def write_report(directory, rows, plan_sha, snapshot_sha, partition):
     directory = Path(directory)
-    attempts = existing_attempts(directory)
-    final = {record['candidate_id']: record for record in attempts if record.get('final')}
+    attempts = started_attempts(directory)
+    final = {}
+    for record in attempts:
+        # The last record per candidate is authoritative: a resumed retry
+        # supersedes its retained first attempt for accounting only.
+        if record.get('final') or record['attempt_index'] == 0:
+            final[record['candidate_id']] = record
+    for record in attempts:
+        if record['attempt_index'] == 1:
+            final[record['candidate_id']] = record
     counts = {status: sum(1 for r in final.values() if r['status'] == status) for status in TERMINAL}
     report = dict(schema_version=REPORT_SCHEMA, partition=partition, plan_sha256=plan_sha,
                   snapshot_sha256=snapshot_sha, scheduled=len(rows), accounted=len(final),
                   attempts_including_retries=len(attempts), status_counts=counts,
+                  retryable_reasons=sorted(RETRYABLE_REASONS),
                   complete=len(final) == len(rows) and all(r['status'] in TERMINAL for r in final.values()),
                   attempts=[dict(candidate_id=r['candidate_id'], run_id=r['run_id'], status=r['status'],
                                  request_sha256=r['request_sha256'], attempt_sha256=r['attempt_sha256'],
-                                 selected_entity=r['selected_entity']) for r in attempts if r.get('final')],
+                                 selected_entity=r['selected_entity']) for r in final.values()],
                   retries=[dict(candidate_id=r['candidate_id'], run_id=r['run_id'], reasons=r['reasons'])
-                           for r in attempts if not r.get('final')],
+                           for r in attempts if r['attempt_index'] == 0 and r['candidate_id'] in final
+                           and final[r['candidate_id']]['attempt_index'] == 1],
+                  snapshot_changes=[json.loads(line) for line in (directory / 'snapshot_changes.jsonl').read_text().splitlines()]
+                  if (directory / 'snapshot_changes.jsonl').exists() else [],
+                  launch_rejections=[dict(run_id=r['run_id'], reasons=r['reasons'], started_at_utc=r['started_at_utc'])
+                                     for r in launch_rejections(directory)],
                   human_labels_generated=False, calibration_fitted=False, execution_scope='nonprotected_expansion_collection',
                   written_at_utc=dt.datetime.now(dt.timezone.utc).isoformat())
     path = directory / 'report.json'
@@ -307,6 +363,7 @@ def main():
     parser.add_argument('--freeze-template', type=Path, default=FREEZE_TEMPLATE)
     parser.add_argument('--execute', action='store_true')
     parser.add_argument('--resume', action='store_true')
+    parser.add_argument('--accept-snapshot-change', help='reason for continuing a resumed schedule under a newer instrumentation pin')
     parser.add_argument('--limit', type=int, help='stop after this many final attempts in this session (preflight use)')
     args = parser.parse_args()
     execute(args)

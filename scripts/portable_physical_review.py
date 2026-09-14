@@ -234,7 +234,7 @@ def build_kit(repo, output, *, packet_directory=None, partition=None):
             source = Path(run['directory']).resolve()
             if source.parent != (repo / 'reports/physical_live_episodes').resolve():
                 raise ValueError('unexpected source run')
-            if not re.fullmatch(r'expansion-v1-r(00[1-9]|01[0-4])-(chair|doorway|laboratory_entrance|office_entrance)-s[12]-view[0-4]',run['run_id']):
+            if not re.fullmatch(r'expansion-v1-r(00[1-9]|01[0-4])-(chair|doorway|laboratory_entrance|office_entrance)-s[12]-view[0-4](-retry1)?',run['run_id']):
                 raise ValueError('only prespecified primary expansion IDs may enter this kit')
             request = json.loads((source / 'request.json').read_bytes())
             number = int(run['run_id'].split('-r')[1][:3])

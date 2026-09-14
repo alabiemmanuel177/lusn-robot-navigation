@@ -1,0 +1,17 @@
+{
+  "execution_authorized": false,
+  "files": {
+    "DECISIONS.template.json": "cd4c30f9418e5478f26805ad542d56cb13013cee143776114a4a32717fb430c0",
+    "README.md": "f7132e972ab100b636672e6176127bc4be2183487ebd8592114cc91b990b57d7",
+    "images/occluder-expansion-v1-r001-chair-s1-view0.candidate.png": "4b2ad66e97abdcee99c1d8ac58b1cb2e91091eccfc1b05d73e15d595e3bc20ba",
+    "images/occluder-expansion-v1-r001-chair-s1-view0.control.png": "cd0b2a230e4fe78390556853536c7725092fe98da7c20faf813512d4cc902a6b",
+    "images/occluder-expansion-v1-r001-chair-s1-view0.png": "87fa85db5bfec5b3a01bdc8e14d39d65eba2cbf10f16d8414ea3360d4a0e4a84",
+    "images/sphere-expansion-v1-r001-chair-s1-view0.candidate.png": "0da9c4cdebbb31a2154f751f2208197dd011ca559f86810c17a93051b011d815",
+    "images/sphere-expansion-v1-r001-chair-s1-view0.control.png": "cd0b2a230e4fe78390556853536c7725092fe98da7c20faf813512d4cc902a6b",
+    "images/sphere-expansion-v1-r001-chair-s1-view0.png": "ac287607a72c7b2913735d13be59dff56554097b4dcd029d75b71c36574dc60c",
+    "index.html": "51fa1cc10f72b0c8c2b465d01483e2efa2468a62777015ea2fe9a2b49dab328a",
+    "rendered_audit.json": "902b23aa6fc1b3eb59142dec037246f0c87fdc88bef514f581a5e57223243b24"
+  },
+  "human_labels_generated": false,
+  "schema_version": "research3-expansion-diagnostic-render-packet/v1"
+}

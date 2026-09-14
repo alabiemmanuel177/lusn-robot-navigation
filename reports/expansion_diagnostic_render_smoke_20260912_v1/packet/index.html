@@ -1,0 +1,411 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Diagnostic asset review</title>
+<style>body{font-family:system-ui;margin:1.5rem;background:#181818;color:#eee}.card{border:1px solid #444;padding:.75rem;margin-bottom:1rem}
+img{max-width:100%;image-rendering:pixelated}.status{float:right;padding:.1rem .5rem;border-radius:.3rem;background:#555}
+.pass .status{background:#2a6}.check .status{background:#c83}.not-rendered .status{background:#a33}small{color:#aaa;font-weight:normal}</style></head>
+<body><h1>Rendered diagnostic candidates: 80 (2 rendered)</h1>
+<p>Left image: same-session control render of the unmodified source world. Middle: candidate render with overlays
+(yellow: projected provider marker box silhouette for occluders; cyan: target palette pixels; magenta: sphere pixels).
+Right: pixels that changed between control and candidate. The occluder definition is 20% of the projected provider
+marker box silhouette, not 20% of the whole chair or entrance. Agent measurements are preflight evidence only; your
+accept/revise/reject decision per candidate goes in DECISIONS.template.json.</p>
+<section class="card check">
+<h2>occluder/expansion-v1-r001-chair-s1-view0 <small>occluder · chair · dev_01-r001-red-chair</small> <span class="status">CHECK</span></h2>
+<img src="images/occluder-expansion-v1-r001-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>projected_box_pixels: 1706</li><li>rendered_box_coverage: 0.0</li><li>changed_pixels: 744</li><li>changed_pixels_outside_box: 744</li><li>control_target_pixels: 3391</li><li>candidate_target_pixels: 3391</li><li>control_target_pixels_in_box: 828</li><li>candidate_target_pixels_in_box: 828</li><li>target_pixels_in_box_occluded_fraction: 0.0</li><li>screen_visible: false</li><li>target_identifiable: true</li><li>box_coverage_within_tolerance: false</li><li>passed: false</li></ul>
+<p>analytic occluded fraction: 0.20000000000000007 · candidate world.sdf sha256 d6c5c84adf9ace5f…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r001-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r001_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.19999999999999987 · candidate world.sdf sha256 89023ac45b65672c…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r001-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r001_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000018 · candidate world.sdf sha256 cfd3b6c2cbc06285…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r001-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r001_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.1999999999999997 · candidate world.sdf sha256 8586b1af4cbc0241…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r002-chair-s1-view0 <small>occluder · chair · dev_01-r002-blue-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000004 · candidate world.sdf sha256 07b7c8eed5fd52d3…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r002-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r002_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000026 · candidate world.sdf sha256 745067fd3936ae0c…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r002-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r002_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000018 · candidate world.sdf sha256 54190e8b2c2fa184…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r002-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r002_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.2000000000000003 · candidate world.sdf sha256 2f39fc87e7e2420c…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r003-chair-s1-view0 <small>occluder · chair · dev_02-r003-green-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000007 · candidate world.sdf sha256 d0781955aff9c78d…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r003-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r003_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.1999999999999999 · candidate world.sdf sha256 aa6b8673b725da6b…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r003-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r003_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.2 · candidate world.sdf sha256 77496501f99f1d7a…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r003-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r003_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000012 · candidate world.sdf sha256 cdeed485a6df247c…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r004-chair-s1-view0 <small>occluder · chair · dev_02-r004-yellow-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000007 · candidate world.sdf sha256 e0a3fe4eab91b1a0…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r004-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r004_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000004 · candidate world.sdf sha256 6c03b2c76504a377…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r004-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r004_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000043 · candidate world.sdf sha256 8380e41a34486e97…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r004-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r004_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.1999999999999999 · candidate world.sdf sha256 d97057f4b39cbcae…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r005-chair-s1-view0 <small>occluder · chair · dev_03-r005-red-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000004 · candidate world.sdf sha256 c3a5c95da4461050…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r005-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r005_right_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000007 · candidate world.sdf sha256 e8c8d6134b949456…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r005-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r005_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000026 · candidate world.sdf sha256 271d188fe21c99e0…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r005-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r005_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000004 · candidate world.sdf sha256 d84705cbd186b756…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r006-chair-s1-view0 <small>occluder · chair · dev_03-r006-blue-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.1999999999999999 · candidate world.sdf sha256 47cbad7e6c6dc406…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r006-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r006_right_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.2000000000000001 · candidate world.sdf sha256 9c7d80d52eb62ef5…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r006-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r006_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000032 · candidate world.sdf sha256 ae5766aa1e41ccec…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r006-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r006_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.1999999999999999 · candidate world.sdf sha256 499759b192430c46…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r007-chair-s1-view0 <small>occluder · chair · dev_04-r007-green-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000007 · candidate world.sdf sha256 9cd8d8ce14cbedfd…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r007-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r007_right_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.19999999999999993 · candidate world.sdf sha256 1075e1c041746da0…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r007-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r007_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.19999999999999887 · candidate world.sdf sha256 3b2b6715b9705d70…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r007-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r007_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000057 · candidate world.sdf sha256 4b5e4825bacd683e…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r008-chair-s1-view0 <small>occluder · chair · dev_04-r008-yellow-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000004 · candidate world.sdf sha256 b19c5849691187e9…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r008-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r008_right_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000007 · candidate world.sdf sha256 209e892afb17f81e…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r008-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r008_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.1999999999999997 · candidate world.sdf sha256 609e00dbca869379…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r008-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r008_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.19999999999999996 · candidate world.sdf sha256 ba497463d50a6ebc…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r009-chair-s1-view0 <small>occluder · chair · dev_05-r009-red-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000007 · candidate world.sdf sha256 26cc7372a764c797…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r009-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r009_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.19999999999999987 · candidate world.sdf sha256 36cd79f6fff62918…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r009-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r009_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000032 · candidate world.sdf sha256 4223ba3729cbcfb4…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r009-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r009_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.2000000000000006 · candidate world.sdf sha256 a46ddfcc7f651e95…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r010-chair-s1-view0 <small>occluder · chair · dev_00-r010-blue-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.20000000000000007 · candidate world.sdf sha256 79c92c45da9a6ae0…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r010-doorway-s1-view0 <small>occluder · doorway · r3geo_base_r010_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.19999999999999998 · candidate world.sdf sha256 e2b867f645ecf8f8…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r010-laboratory_entrance-s1-view0 <small>occluder · laboratory_entrance · r3geo_base_r010_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.19999999999999987 · candidate world.sdf sha256 9bac20dbeb8d6f77…</p></details>
+</section><section class="card not-rendered">
+<h2>occluder/expansion-v1-r010-office_entrance-s1-view0 <small>occluder · office_entrance · r3geo_base_r010_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: 0.2000000000000001 · candidate world.sdf sha256 74655e5bd1faacd6…</p></details>
+</section><section class="card check">
+<h2>sphere/expansion-v1-r001-chair-s1-view0 <small>sphere · chair · dev_01-r001-red-chair</small> <span class="status">CHECK</span></h2>
+<img src="images/sphere-expansion-v1-r001-chair-s1-view0.png" loading="lazy">
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>changed_pixels: 6289</li><li>sphere_pixels: 601</li><li>control_target_pixels: 3391</li><li>candidate_target_pixels: 3672</li><li>control_target_pixels_retained: 3068</li><li>target_retained_fraction: 0.9047478619876143</li><li>candidate_components: 2</li><li>sphere_visible: true</li><li>sphere_and_target_disjoint: true</li><li>target_identifiable: true</li><li>passed: false</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 acdad8a50b98ba79…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r001-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r001_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 3814789df854e3d1…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r001-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r001_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 e4216364e825f4ee…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r001-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r001_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 a628cbaef648c932…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r002-chair-s1-view0 <small>sphere · chair · dev_01-r002-blue-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 962c7e8e226caaa1…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r002-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r002_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 38ca5f0bf7e63237…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r002-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r002_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 fcc50e9c5fe58bfa…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r002-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r002_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 3d7851a3ced6cf7b…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r003-chair-s1-view0 <small>sphere · chair · dev_02-r003-green-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 c1b181628d670bf0…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r003-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r003_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 687783951a36b39c…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r003-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r003_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 89671a8353f9b9ec…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r003-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r003_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 e76361d4f40839a0…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r004-chair-s1-view0 <small>sphere · chair · dev_02-r004-yellow-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 45ee0bdd82abe541…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r004-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r004_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 7a69c4ce0e8acd42…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r004-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r004_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 8a83adf6de1334a0…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r004-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r004_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 06aacb91ca85d3aa…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r005-chair-s1-view0 <small>sphere · chair · dev_03-r005-red-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 da83fe287ccf4f0e…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r005-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r005_right_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 7c4b28eae62d94ed…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r005-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r005_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 e5e3da40149d4201…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r005-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r005_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 8de665b4f834efcb…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r006-chair-s1-view0 <small>sphere · chair · dev_03-r006-blue-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 c6cc9c12053952aa…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r006-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r006_right_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 0787ba64df9d3aa3…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r006-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r006_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 72c199fb8c52093c…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r006-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r006_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 fe62a363a49e4a59…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r007-chair-s1-view0 <small>sphere · chair · dev_04-r007-green-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 97d94505a70fecf8…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r007-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r007_right_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 4bdce90a309cc431…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r007-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r007_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 d1244896a79d43a8…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r007-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r007_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 79c8691d36d8dd06…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r008-chair-s1-view0 <small>sphere · chair · dev_04-r008-yellow-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 88a411c1c358192f…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r008-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r008_right_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 c9a119e2f1508f92…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r008-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r008_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 6069833226c3b399…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r008-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r008_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 1725c991bd3b26f6…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r009-chair-s1-view0 <small>sphere · chair · dev_05-r009-red-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 0261cbf5023ed94a…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r009-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r009_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 b9213244f98536a2…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r009-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r009_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 efaf3e150890ba69…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r009-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r009_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 e4ebfc85eb90b7c1…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r010-chair-s1-view0 <small>sphere · chair · dev_00-r010-blue-chair</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 c7d9f9f449fb848c…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r010-doorway-s1-view0 <small>sphere · doorway · r3geo_base_r010_left_2_doorway</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 bd7692248795e995…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r010-laboratory_entrance-s1-view0 <small>sphere · laboratory_entrance · r3geo_base_r010_left_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 f66e272c796ac0b9…</p></details>
+</section><section class="card not-rendered">
+<h2>sphere/expansion-v1-r010-office_entrance-s1-view0 <small>sphere · office_entrance · r3geo_base_r010_right_2_entrance</small> <span class="status">NOT RENDERED</span></h2>
+
+<details><summary>agent preflight measurements (not a verdict)</summary><ul><li>candidate_render_missing</li><li>control_render_missing</li></ul>
+<p>analytic occluded fraction: null · candidate world.sdf sha256 df968147aa21041b…</p></details>
+</section></body></html>

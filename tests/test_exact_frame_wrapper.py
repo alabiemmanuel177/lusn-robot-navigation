@@ -26,7 +26,8 @@ def wrapper(tmp_path, *, failure=False):
             if failure:raise RuntimeError('synthetic processing exception')
     def write(path,value):
         with path.open('x') as stream:json.dump(value,stream)
-    namespace=dict(LandmarkObservationNode=Provider,output=tmp_path,json=json,hashlib=hashlib,
+    import time
+    namespace=dict(LandmarkObservationNode=Provider,output=tmp_path,json=json,hashlib=hashlib,time=time,
         base=NS(Time=lambda **kw:kw,_json_once=write,message_to_ordereddict=vars),
         Image=lambda:NS(header=NS(stamp=NS(),frame_id='')),CameraInfo=lambda:NS(),
         set_message_fields=lambda obj,fields:obj.__dict__.update(fields))
@@ -72,3 +73,17 @@ def test_completion_binding_and_missing_delivery(mutation,expected):
         frame_present=True,synchronization_valid=True,transform_valid=True,
         observation_window_complete=True,interrupted=False,processing_evidence=audit,frame_sha256='a'*64)
     assert result['status']==expected
+
+
+def test_transform_wait_is_bounded_then_processing_proceeds(tmp_path, monkeypatch):
+    node=wrapper(tmp_path);node.tf_buffer=NS(can_transform=lambda *a:False)
+    clock=[0.0]
+    import time as _time
+    monkeypatch.setattr(_time,'monotonic',lambda:clock[0])
+    node.process_retained()
+    assert not node.calls and not (tmp_path/'provider_frame_started.json').exists()
+    clock[0]=node.transform_wait_s+.1
+    node.process_retained()
+    assert len(node.calls)==1
+    audit=json.loads((tmp_path/'provider_frame_started.json').read_text())
+    assert audit['transform_available_before_processing'] is False and audit['transform_wait_s']>=node.transform_wait_s
