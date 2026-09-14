@@ -1,5 +1,33 @@
 # Research 3 status and handoff
 
+## Development collection complete; validation running — 14 September 2026
+
+The 400-attempt development expansion schedule is complete under instrumentation
+snapshot v7: 399 emitted, 0 nondetections, 1 infrastructure failure with its
+single retry used (`reports/expansion_collection_development_20260912_v1/report.json`).
+The host restarted twice on the morning of 14 September (07:17 and 07:38 UTC);
+two attempts completed just before the second restart lost their retained bytes
+before flush and are listed as `evidence_unrecoverable` in the report and the
+kit accounting. They are not re-run.
+
+**Development review kit ready:** `reports/expansion_review_development_20260914_v1/`
+(`research3_expansion_development_review_kit.zip`, 395 MB, SHA-256
+`ec2fcb32bd534c46fc2d9032cecbf478ae9f15de37ca24c1f2a45fec283e769e`).
+397 review targets (99 chair, 98 doorway, 100 laboratory entrance, 100 office
+entrance; 37 to 40 per map), each the assigned entity's emission from the exact
+retained frame; 742 other emissions in the same frames are inventoried but not
+targets. Automated pixel checks passed on all 1,139 emissions. Follow the kit
+README: preview, approve the rebound rubric, review, return the ZIP.
+
+Validation collection (160 attempts, one v2 camera freeze per view, gated on the
+complete development report) started 10:17 UTC; its sealed-return kit, the
+paired B5/B6 feasibility episodes and the two outstanding occluder re-renders
+follow in the same detached chain (`reports/expansion_chain_20260914/`).
+
+Earlier snapshots v4 and v6 failed on exact-stamp transform races; v7 gates
+arming on a provider transform-readiness file. Details:
+`docs/EXPANSION_EXECUTION_20260912.md`.
+
 ## Expansion execution in progress — 12 September 2026 (afternoon)
 
 Emmanuel asked for every outstanding item to be completed. Full record:

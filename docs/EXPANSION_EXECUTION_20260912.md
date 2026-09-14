@@ -166,6 +166,15 @@ the paired B5/B6 development runs (`scripts/run_feasibility_navigation.py`,
 `nuisance_estimates` are to be bound into the simulation before Emmanuel
 decides final sample size and confirmatory versus descriptive status.
 
+## 6a. Collection outcome (14 September)
+
+Development: 400 of 400 accounted, 399 emitted, 0 nondetections, 1
+infrastructure failure after its retry. Two completed attempts lost their
+retained bytes when the host restarted (07:38 UTC) before the page cache was
+flushed; they are listed as unrecoverable in the report and kit accounting,
+excluded from review, and not re-run under the fixed budget. The development
+review kit holds 397 targets covering every map and class.
+
 ## 7. What remains with Emmanuel
 
 1. Diagnostic asset decision on the v2 packet.
