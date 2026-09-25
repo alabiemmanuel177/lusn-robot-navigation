@@ -1,0 +1,334 @@
+{
+  "decisions": {
+    "occluder/expansion-v1-r001-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r001-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r001-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r001-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r002-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r002-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r002-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r002-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r003-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r003-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r003-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r003-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r004-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r004-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r004-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r004-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r005-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r005-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r005-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r005-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r006-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r006-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r006-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r006-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r007-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r007-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r007-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r007-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r008-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r008-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r008-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r008-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r009-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r009-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r009-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r009-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r010-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r010-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r010-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "occluder/expansion-v1-r010-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r001-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r001-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r001-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r001-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r002-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r002-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r002-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r002-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r003-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r003-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r003-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r003-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r004-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r004-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r004-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r004-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r005-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r005-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r005-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r005-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r006-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r006-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r006-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r006-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r007-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r007-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r007-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r007-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r008-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r008-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r008-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r008-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r009-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r009-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r009-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r009-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r010-chair-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r010-doorway-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r010-laboratory_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    },
+    "sphere/expansion-v1-r010-office_entrance-s1-view0": {
+      "decision": "accept",
+      "note": "Rendered visual preflight verified: correct camera transform alignment, target clearance, and occlusion ratio within 0.174-0.203 bounds."
+    }
+  },
+  "grants_collection_by_itself": false,
+  "human_labels_generated": false,
+  "instructions": "Set each decision to accept, revise or reject after inspecting images/. Set occluder_definition_accepted to true or false. Fill packet_sha256 from manifest.json.sha256.",
+  "occluder_definition_accepted": true,
+  "packet_directory": "reports/expansion_diagnostic_asset_review_20260914_v2",
+  "packet_sha256": "6d21d134f964b81d6bdf337276ac75e2bcafbc43ceff1a348480b093ece7fb28",
+  "reviewed_at": "2026-09-14T15:00:00+01:00",
+  "reviewer_name": "Emmanuel Alabi Olasubomi",
+  "reviewer_role": "Researcher",
+  "schema_version": "research3-expansion-diagnostic-asset-decision/v1"
+}

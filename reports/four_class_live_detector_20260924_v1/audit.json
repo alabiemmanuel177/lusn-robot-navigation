@@ -1,0 +1,55 @@
+{
+  "accuracy_estimated": false,
+  "calibration_eligible": false,
+  "candidate_admitted": false,
+  "completed_frames": 80,
+  "counts": {
+    "background": 280,
+    "chair": 20,
+    "doorway": 144,
+    "laboratory_entrance": 69,
+    "office_entrance": 59,
+    "sign": 220,
+    "unresolved": 2245
+  },
+  "raw_score_bins": {
+    "background": [
+      260,
+      20,
+      0
+    ],
+    "chair": [
+      0,
+      0,
+      20
+    ],
+    "doorway": [
+      144,
+      0,
+      0
+    ],
+    "laboratory_entrance": [
+      69,
+      0,
+      0
+    ],
+    "office_entrance": [
+      59,
+      0,
+      0
+    ],
+    "sign": [
+      181,
+      39,
+      0
+    ],
+    "unresolved": [
+      2245,
+      0,
+      0
+    ]
+  },
+  "reconstruction_passed": true,
+  "report_sha256": "e4872b5738c03a60fb1beccfc8c89541a5eeeaba6f554829e9b8fb1ed90a8288",
+  "retained_source_failures": 0
+}

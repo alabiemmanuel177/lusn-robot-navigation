@@ -1,0 +1,13 @@
+{
+  "schema_version": "research3-method-scope-approval/v1",
+  "source": "explicit_user_message_in_current_conversation",
+  "user_statement": "I approve the world-specific sign-layout approach and Finish the four-class perception readiness",
+  "recorded_at_utc": "2026-09-24T07:37:18Z",
+  "timestamp_meaning": "agent recording time, not a reviewer-authored signature timestamp",
+  "decision": "approve_authored_readable_sign_reference_candidate_scope",
+  "proposal": "docs/REFERENCE_METHOD_DECISION_20260924.md",
+  "authorizes_four_class_development_readiness_work": true,
+  "approves_human_observation_labels": false,
+  "approves_fitted_model_or_calibration": false,
+  "authorizes_validation_release_or_protected_campaign": false
+}

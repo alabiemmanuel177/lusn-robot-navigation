@@ -1,0 +1,51 @@
+{
+  "schema_version": "research3-closure-authority/v1",
+  "recorded_at": "2026-09-26T00:04:47+01:00",
+  "reviewer_name": "Emmanuel Alabi Olasubomi",
+  "reviewer_role": "Researcher",
+  "timezone": "Africa/Lagos",
+  "decision_scope": "Option 2: Narrow the study scope to descriptive and exploratory feasibility",
+  "decision_text": "Formally close Research 3 under the descriptive and exploratory feasibility scope. Retain the frozen hybrid candidate (reports/hybrid_score_candidate_20260925_v1/candidate.json) as an exploratory candidate.",
+  "frozen_hybrid_candidate": {
+    "path": "reports/hybrid_score_candidate_20260925_v1/candidate.json",
+    "sha256": "b9de70b9c8a829d3177bc4b709fc4e53966f9e5df8e75b3d2c8882730a559b45",
+    "status": "exploratory_candidate_only",
+    "runtime_admitted": false,
+    "calibration_validated": false
+  },
+  "scientific_and_engineering_findings": {
+    "structural_ocr_support_limitation": {
+      "finding": "Frozen upstream thresholding (text_score >= 0.5) in RapidOCR mathematically truncates input support to [0.5, 1.0], preventing three-bin [0, 0.5) calibration for entrance classes under Coverage v2.",
+      "audit_path": "reports/hybrid_score_candidate_20260925_v1/ocr_support_audit.json",
+      "audit_sha256": "7d712ff84d82d48099d22da62e61a1ab6b78d4d9e1b5c69ebedb878036d0da42",
+      "configured_ocr_threshold": 0.5,
+      "entrance_attainable_support": [0.5, 1.0],
+      "maximum_low_bin_emissions": 0,
+      "required_low_bin_emissions": 5
+    },
+    "wave_s_clean_view_saturation": {
+      "finding": "Grounding DINO and RapidOCR achieve 100% precision on chairs and signage across 261 views, with geometric localization error strictly isolated to doorway portal void penetration (20 correct, 6 incorrect).",
+      "total_scoreable_emissions": 287,
+      "total_correct": 281,
+      "total_incorrect": 6,
+      "unreviewable": 0,
+      "class_breakdown": {
+        "chair": {"correct": 99, "incorrect": 0, "precision": 1.0},
+        "laboratory_entrance": {"correct": 84, "incorrect": 0, "precision": 1.0},
+        "office_entrance": {"correct": 78, "incorrect": 0, "precision": 1.0},
+        "doorway": {"correct": 20, "incorrect": 6, "precision": 0.7692307692307693}
+      },
+      "doorway_error_mechanism": "Geometric localization error isolated to doorway portal void penetration where depth rays traverse the open portal void rather than striking jamb boundaries."
+    }
+  },
+  "operational_constraints": {
+    "wave_c_scheduled": false,
+    "wave_v_scheduled": false,
+    "claim_validated_four_class_runtime_calibration": false,
+    "research3_status": "formally_closed"
+  },
+  "resolved_blockers": {
+    "B03": "Resolved under descriptive and exploratory feasibility deliverable: structural OCR truncation and clean-view saturation demonstrated; no further unviable sampling waves scheduled.",
+    "B09": "Resolved under descriptive and exploratory feasibility deliverable: final closure formally recorded, audit reports packaged, and Research 3 terminated without invalid calibration claims."
+  }
+}

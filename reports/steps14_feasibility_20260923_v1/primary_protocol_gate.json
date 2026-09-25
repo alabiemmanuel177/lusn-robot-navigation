@@ -1,0 +1,22 @@
+{
+  "blockers": [
+    "independent_transform_and_reference_point_accuracy_not_established",
+    "four_class_joint_detector_feasibility_not_established",
+    "joint_confidence_contract_and_calibration_compatibility_not_established",
+    "exact_revised_primary_distribution_and_schedule_not_approved"
+  ],
+  "coverage_floors_unchanged": true,
+  "evidence_sha256": {
+    "camera.json": "1e9ca52ef134eac6c9c816cff81f6c00f6fa2ff43d77a501caf350abfc95119f",
+    "detector_score_audit.json": "7cbede1b36aa0d80a43e77919ff32788335757dfb03351c8d3423e7b4f5d50ab",
+    "independent_audit.json": "d043c3454d1d06e638f076753bfc0cbab0bb49b1c7139294d28abdb4826f4b54",
+    "plan.json": "e7af1f009da16d6dda12faf76eb1c381f9933ba1af399efb5f1d66def159921b",
+    "transform_candidate_audit.json": "9c82561dd43d8005643d1958b64f69b26ad40006fa2ed184af99b2ff13b8e697"
+  },
+  "execution_allowed": false,
+  "primary_attempts_authorized": 0,
+  "protocol_document_sha256": "2a8a1ec05b7b2c8d4fb0dc4b51e7f1003c014bf81465691ccfcfa78d4fb5be19",
+  "schema_version": "research3-primary-redesign-readiness/v1",
+  "scientific_freeze": false,
+  "validation_release_allowed": false
+}

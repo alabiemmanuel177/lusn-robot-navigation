@@ -11,6 +11,21 @@ from language_nav.camera_configuration import capture_source_snapshot, capture_p
 
 ROOT=Path(__file__).resolve().parents[1]
 FILES=('scripts/expansion_sampling.py','scripts/physical_expansion_capture_candidate.py')
+GUARD='src/language_nav/live_resources.py'
+GUARD_BEFORE='fc0ad9a3e249c2aeffbe2e64424d67230e9604bd588e48b12b9e88a2c3df4a0c'
+GUARD_AFTER='a484706b8133c95a8c4f2ae90677a5246513d6d9e77eb7d8e6117cf1347df9aa'
+
+
+def guard_approval():
+    raw=(ROOT/'reports/resource_guard_repair_approval_20260922.json').read_bytes()
+    record=json.loads(raw)
+    if (record.get('schema_version')!='research3-resource-guard-repair-approval/v1'
+            or record.get('authorized') is not True or record.get('source_path')!=GUARD
+            or record.get('before_sha256')!=GUARD_BEFORE or record.get('after_sha256')!=GUARD_AFTER
+            or record.get('replace_failed_attempt') is not False
+            or record.get('protected_access') is not False):
+        raise ValueError('exact resource guard repair approval required')
+    return hashlib.sha256(raw).hexdigest()
 
 
 def validate(path):
@@ -29,10 +44,13 @@ def validate(path):
     wrapper=(ROOT/'reports/human_wrapper_decision_20260912_v1/decision_record.json').read_bytes()
     if hashlib.sha256(wrapper).hexdigest()!=record.get('wrapper_scope_sha256'):
         raise ValueError('wrapper scope binding changed')
+    if record['source_sha256'].get(GUARD)==GUARD_AFTER:
+        if record.get('resource_guard_repair_approval_sha256')!=guard_approval():
+            raise ValueError('resource guard repair approval binding changed')
     return hashlib.sha256(raw).hexdigest()
 
 
-def snapshot(output):
+def snapshot(output, resource_guard_repair=False):
     output=Path(output)
     if output.exists():raise FileExistsError(output)
     approval_path=ROOT/'reports/human_method_decisions_20260912_v1/decision_record.json'
@@ -47,7 +65,14 @@ def snapshot(output):
     current=capture_source_snapshot();provider=capture_provider_snapshot()
     changed={name for name in set(current)|set(old['source_sha256'])
              if current.get(name)!=old['source_sha256'].get(name)}
-    if changed-{'scripts/run_physical_episode.py'}:
+    allowed={'scripts/run_physical_episode.py'}
+    guard_binding=None
+    if resource_guard_repair:
+        guard_binding=guard_approval()
+        if old['source_sha256'].get(GUARD)!=GUARD_BEFORE or current.get(GUARD)!=GUARD_AFTER:
+            raise ValueError('resource guard revision differs from approved patch')
+        allowed.add(GUARD)
+    if changed-allowed:
         raise ValueError('revision exceeds capture runner orchestration scope')
     if provider!=old['provider_source_snapshot']:raise ValueError('provider invariant changed')
     payload={name:(ROOT/name).read_bytes() for name in FILES}
@@ -64,6 +89,8 @@ def snapshot(output):
             'historical_archive_preserved':True,'provider_unchanged':True,
             'runtime_integration_verified':False,'isolated_development_preflight_verified':False,
             'live_collection_authorized_by_this_snapshot':False,'human_labels_generated':False}
+    if guard_binding:
+        record['resource_guard_repair_approval_sha256']=guard_binding
     output.mkdir(parents=True,exist_ok=False)
     for name,raw in payload.items():
         path=output/name;path.parent.mkdir(parents=True,exist_ok=True)
@@ -77,4 +104,6 @@ def snapshot(output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',type=Path,required=True)
-    print(json.dumps(snapshot(p.parse_args().output),indent=2))
+    p.add_argument('--resource-guard-repair',action='store_true')
+    args=p.parse_args()
+    print(json.dumps(snapshot(args.output,args.resource_guard_repair),indent=2))

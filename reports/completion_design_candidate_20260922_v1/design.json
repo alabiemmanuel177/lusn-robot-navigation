@@ -1,0 +1,101 @@
+{
+  "ambiguity_policy": {
+    "add_distractor_or_change_geometry": "requires_explicit_design_decision_before_freeze",
+    "interpretation": "underspecified_attribute_single_anchor_not_competing_anchor_disambiguation",
+    "relabel_historical_results": false,
+    "retain_original_variant": true
+  },
+  "analysis_proposals": {
+    "candidate_contrasts": [
+      "B6_minus_B1",
+      "B6_minus_B2",
+      "B6_minus_B4",
+      "B6_minus_B5"
+    ],
+    "candidate_method_for_human_final_review": "exact_two_sided_world_level_sign_flip_mean_paired_difference",
+    "complete_case_analysis": "sensitivity_only_never_silent_primary_exclusion",
+    "condition_weighting": "equal_eight_prespecified_conditions",
+    "confirmatory_inference_method": null,
+    "inference_cluster": "world",
+    "multiplicity_policy": "one_primary_contrast_other_comparisons_descriptive_exploratory",
+    "pairing": "world_condition_simulator_seed",
+    "primary_contrast": "B6_minus_B5",
+    "primary_endpoint": "independently_measured_ordered_completion",
+    "secondary_endpoints": [
+      "collision",
+      "timeout",
+      "terminal_identity",
+      "goal_error",
+      "path_length",
+      "inspection",
+      "abstention"
+    ],
+    "small_cluster_warning": "six_heldout_worlds_limit_precision_and_asymptotic_methods",
+    "unknown_outcome_policy": "report_counts_and_world_paired_best_worst_bounds",
+    "world_weighting": "equal"
+  },
+  "execution_authorized": false,
+  "execution_order_seed": 0,
+  "input_sha256": {
+    "configs/physical_experiment_design_draft_v2.yaml": "0e56b9330e63de6466d69d8643457431ac7d0aa56b340e4118fd633ecbbbb301",
+    "reports/feasibility_nuisance_20260914_v1.json": "911d06a99e3419dec57e13ae198b030b8276945e2f942ce44f0f436c74b45d12",
+    "reports/human_decisions_20260912_v1/decision_record.json": "1de95018728b726af3c4c85c362edb2e7dad79619e35d0c647553844bb1d6508"
+  },
+  "instruction_seed": 0,
+  "nuisance_evidence_scope": {
+    "calibration_used": null,
+    "complete_pairs": 72,
+    "incomplete_pairs": 8,
+    "limitations": [
+      "uncalibrated development feasibility, not future calibrated-model estimates",
+      "negative ICC estimate is retained, not silently clipped or treated as proof of independence",
+      "Monte Carlo sensitivity is not achieved power; no seed count selected or approved"
+    ],
+    "scheduled_pairs": 80,
+    "scope": "nonprotected development engineering runs, one simulator seed, uncalibrated confidence; not confirmatory"
+  },
+  "power_inputs_requiring_freeze": {
+    "alpha": 0.05,
+    "baseline_completion": 0.8472222222222222,
+    "paired_discordance": 0.1388888888888889,
+    "repetitions_per_world": null,
+    "target_effect": 0.1,
+    "target_power": 0.8,
+    "world_intracluster_correlation": -0.1330955120155941
+  },
+  "replication": {
+    "conditions_per_world": 8,
+    "confirmatory_replications": null,
+    "development_worlds": 10,
+    "heldout_world_reservations": 6,
+    "independent_unit": "procedural_world_not_episode",
+    "one_seed_heldout_reserved_episode_count": 240,
+    "one_seed_nonprotected_episode_count": 560,
+    "seed_repeats_are_within_world": true,
+    "systems": [
+      "B1",
+      "B2",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "validation_worlds": 4
+  },
+  "schema_version": "research3-physical-experiment-design-draft/v2",
+  "simulator_seed": {
+    "bitwise_determinism_claimed": false,
+    "confirmatory_seed_list": null,
+    "engineering_smoke_proposal": [
+      1
+    ],
+    "paired_across_systems": true,
+    "permitted_explicit_range": [
+      1,
+      4294967295
+    ],
+    "runtime_acceptance_verified": false,
+    "supported_mechanism": "gz_sim_cli_double_dash_seed"
+  },
+  "status": "draft_not_frozen_not_executable",
+  "supersedes_scope": "simulator_seed_and_analysis_design_only"
+}

@@ -1,0 +1,111 @@
+{
+  "camera_info": {
+    "binning_x": 0,
+    "binning_y": 0,
+    "d": [],
+    "distortion_model": "plumb_bob",
+    "header": {
+      "frame_id": "jsc_test_camera",
+      "stamp": {
+        "nanosec": 10000000,
+        "sec": 1
+      }
+    },
+    "height": 32,
+    "k": [
+      100.0,
+      0.0,
+      16.0,
+      0.0,
+      100.0,
+      16.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "p": [
+      100.0,
+      0.0,
+      16.0,
+      0.0,
+      0.0,
+      100.0,
+      16.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "r": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "roi": {
+      "do_rectify": false,
+      "height": 0,
+      "width": 0,
+      "x_offset": 0,
+      "y_offset": 0
+    },
+    "width": 32
+  },
+  "camera_to_map": {
+    "child_frame_id": "jsc_test_camera",
+    "header": {
+      "frame_id": "map",
+      "stamp": {
+        "nanosec": 20000000,
+        "sec": 1
+      }
+    },
+    "transform": {
+      "rotation": {
+        "w": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  },
+  "capture_uuid": "2179d5eb-c4cf-4090-b83a-3895bd55a014",
+  "depth": {
+    "bytes": 4096,
+    "encoding": "32FC1",
+    "file": "frame-000-depth.bin",
+    "frame_id": "jsc_test_camera",
+    "height": 32,
+    "is_bigendian": 0,
+    "sha256": "8dbe6bea5b329593e33668434e9ff515f49215dd88d1e923ef3e04d9b25fa2f1",
+    "step": 128,
+    "width": 32
+  },
+  "depth_stamp_ns": 1020000000,
+  "index": 0,
+  "rgb": {
+    "bytes": 3072,
+    "encoding": "rgb8",
+    "file": "frame-000-rgb.bin",
+    "frame_id": "jsc_test_camera",
+    "height": 32,
+    "is_bigendian": 0,
+    "sha256": "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293",
+    "step": 96,
+    "width": 32
+  },
+  "rgb_stamp_ns": 1020000000,
+  "sync_difference_ns": 0,
+  "transform_error": null
+}

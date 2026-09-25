@@ -18,6 +18,7 @@ import argparse
 import datetime as dt
 import hashlib
 import json
+import math
 import os
 from pathlib import Path
 import sys
@@ -46,6 +47,48 @@ def write_once(path, payload):
     with Path(path).open('x') as stream:
         json.dump(payload, stream, indent=2, sort_keys=True, allow_nan=False)
         stream.write('\n')
+
+
+def development_model_ready(model):
+    """Numerical eligibility only; a separate genuine human freeze is required."""
+    if (model.get('schema_version')!='research3-expansion-development-calibration-candidate/v1'
+            or model.get('status')!='numerical_candidate_not_frozen'
+            or model.get('partition')!='development'
+            or model.get('method')!='classwise_temperature_scaling_p2'
+            or model.get('coverage',{}).get('passed') is not True
+            or model.get('validation_used') is not False
+            or model.get('pilot_or_diagnostic_rows_included') is not False
+            or model.get('export_readiness',{}).get('blockers')!=[]):
+        return False
+    classes=model.get('classes')
+    if not isinstance(classes,dict) or set(classes)!=set(classwise.CLASSES):return False
+    for record in classes.values():
+        if not isinstance(record,dict):return False
+        temperature=record.get('temperature')
+        if (type(temperature) not in (int,float) or not math.isfinite(temperature)
+                or temperature not in classwise.GRID):return False
+    return True
+
+
+def freeze_next_action(model):
+    if not development_model_ready(model):
+        return 'Do not freeze this blocked candidate and do not release the validation key; resolve development evidence/coverage blockers under the approved protocol.'
+    return 'Human review of this exact development candidate is required before any freeze or validation-key release; numerical eligibility is not approval.'
+
+
+def require_evaluation_gate(gate,model_sha256,protocol_sha256):
+    """Use the same human-freeze status and protocol binding as the sealing tool."""
+    if (gate.get('schema_version')!='research3-validation-release-gate/v1'
+            or gate.get('status')!='approved_development_model_frozen'
+            or gate.get('reviewer_type')!='human'
+            or not isinstance(gate.get('approved_by'),str) or not gate['approved_by'].strip()
+            or portable.NONHUMAN.search(gate['approved_by'])
+            or gate.get('validation_used_for_fitting_or_selection') is not False
+            or gate.get('development_model_sha256')!=model_sha256
+            or gate.get('calibration_protocol_sha256')!=protocol_sha256):
+        raise PermissionError('human-approved release gate bound to the exact model and protocol required')
+    date=dt.datetime.fromisoformat(gate.get('approved_at','').replace('Z','+00:00'))
+    if date.tzinfo is None:raise ValueError('timezone-aware release decision required')
 
 
 def labelled_rows(kit_root, return_zip, partition):
@@ -125,17 +168,21 @@ def develop(args):
     if fit['classes']:
         artifact['full_grid_objectives'] = {c: v['objectives'] for c, v in fit['classes'].items()}
     write_once(output / 'development_calibration_candidate.json', artifact)
-    proposal = dict(schema_version='research3-expansion-development-freeze-proposal/v1', status='proposed_not_frozen',
+    eligible=development_model_ready(artifact)
+    proposal = dict(schema_version='research3-expansion-development-freeze-proposal/v1',
+                    status='proposed_not_frozen' if eligible else 'blocked_not_eligible_for_freeze',
                     development_model_sha256=sha_file(output / 'development_calibration_candidate.json'),
                     fit_status=fit['status'], coverage_passed=fit['coverage']['passed'], coverage_deficits=fit['coverage']['deficits'],
                     export_blockers=readiness['blockers'],
                     temperatures=({c: v['temperature'] for c, v in fit['classes'].items()} if fit['classes'] else None),
                     provenance=artifact['provenance'],
-                    human_decision_required='approve or reject this exact development freeze before releasing the validation key',
+                    human_decision_required=freeze_next_action(artifact),
                     release_gate_template=dict(schema_version='research3-validation-release-gate/v1', status='pending',
+                                               reviewer_type='human',sealed_validation_sha256=None,
+                                               validation_used_for_fitting_or_selection=False,
                                                development_model_sha256=sha_file(output / 'development_calibration_candidate.json'),
                                                calibration_protocol_sha256=sha_file(PROTOCOL_DOC), approved_by='', approved_at='',
-                                               protected_outcomes_consulted=False, validation_results_inspected=False),
+                                               protected_outcomes_consulted=False, validation_results_inspected=False) if eligible else None,
                     human_labels_generated=False, calibration_frozen=False)
     write_once(output / 'development_freeze_proposal.json', proposal)
     print(json.dumps({k: proposal[k] for k in ('fit_status', 'coverage_passed', 'coverage_deficits', 'export_blockers', 'temperatures')}))
@@ -145,12 +192,13 @@ def validate(args):
     output = Path(args.output).resolve()
     output.mkdir(parents=True, exist_ok=False)
     model = json.loads(Path(args.development_model).read_bytes())
-    if model.get('classes') is None or model.get('partition') != 'development':
+    if not development_model_ready(model):
         raise ValueError('fitted development model required')
     gate = json.loads(Path(args.release_gate).read_bytes())
-    if (gate.get('schema_version') != 'research3-validation-release-gate/v1' or gate.get('status') != 'approved'
-            or gate.get('development_model_sha256') != sha_file(args.development_model) or not gate.get('approved_by', '').strip()):
-        raise PermissionError('human-approved release gate bound to this exact development model required')
+    protocol_sha=sha_file(PROTOCOL_DOC)
+    if model.get('provenance',{}).get('protocol_doc_sha256')!=protocol_sha:
+        raise ValueError('development candidate protocol binding changed')
+    require_evaluation_gate(gate,sha_file(args.development_model),protocol_sha)
     rows, readiness, validation, plan_sha = labelled_rows(args.kit, args.return_zip, 'validation')
     temperatures = {c: v['temperature'] for c, v in model['classes'].items()}
     evaluation = classwise.evaluate(rows, 'validation', VAL_MAPS, temperatures)

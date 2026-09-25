@@ -1,0 +1,120 @@
+{
+  "driver_config": "/home/eao/lusn-robot-navigation/reports/joint_score_wave_s_assets_20260924_v3/driver_config.json",
+  "driver_config_sha256": "da1f086f3104910d48f5d864b5b9d402e2fffcb6251542255b3b3beb0b6597a8",
+  "preflight_only": true,
+  "primary_eligible": false,
+  "slots": [
+    {
+      "acquisition_class": "chair",
+      "attempt_id": "preflight-chair",
+      "capture_directory": "/home/eao/lusn-robot-navigation/reports/joint_score_wave_s_gazebo_preflight_20260924_v2/view-00",
+      "frame": "/home/eao/lusn-robot-navigation/reports/joint_score_wave_s_gazebo_preflight_20260924_v2/view-00/frame-000.json",
+      "slot": {
+        "acquisition_class": "chair",
+        "attempt_id": "jsc-v1-S-r3geo_base_r001-chair-s101-v0",
+        "capture_pose": {
+          "x": 1.15,
+          "y": -0.3,
+          "yaw": 0.8086497862079111
+        },
+        "execution_authorized": false,
+        "execution_manifest_sha256": null,
+        "human_label": null,
+        "map_id": "r3geo_base_r001",
+        "partition": "development",
+        "pose_source_attempt_id": "expansion-v1-r001-chair-s1-view0",
+        "seed": 101,
+        "view": 0,
+        "view_group": "base-r001-chair-view0",
+        "wave": "S",
+        "world_directory": "data/physical_worlds_readable_v1/base-r001"
+      },
+      "source_index": 0,
+      "status": "ready"
+    },
+    {
+      "acquisition_class": "doorway",
+      "attempt_id": "preflight-doorway",
+      "capture_directory": "/home/eao/lusn-robot-navigation/reports/joint_score_wave_s_gazebo_preflight_20260924_v2/view-01",
+      "frame": "/home/eao/lusn-robot-navigation/reports/joint_score_wave_s_gazebo_preflight_20260924_v2/view-01/frame-000.json",
+      "slot": {
+        "acquisition_class": "doorway",
+        "attempt_id": "jsc-v1-S-r3geo_base_r001-doorway-s101-v0",
+        "capture_pose": {
+          "x": 7.7,
+          "y": -0.6,
+          "yaw": 1.5707963267948966
+        },
+        "execution_authorized": false,
+        "execution_manifest_sha256": null,
+        "human_label": null,
+        "map_id": "r3geo_base_r001",
+        "partition": "development",
+        "pose_source_attempt_id": "expansion-v1-r001-doorway-s1-view0",
+        "seed": 101,
+        "view": 0,
+        "view_group": "base-r001-doorway-view0",
+        "wave": "S",
+        "world_directory": "data/physical_worlds_readable_v1/base-r001"
+      },
+      "source_index": 1,
+      "status": "ready"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "attempt_id": "preflight-laboratory_entrance",
+      "capture_directory": "/home/eao/lusn-robot-navigation/reports/joint_score_wave_s_gazebo_preflight_20260924_v2/view-02",
+      "frame": "/home/eao/lusn-robot-navigation/reports/joint_score_wave_s_gazebo_preflight_20260924_v2/view-02/frame-000.json",
+      "slot": {
+        "acquisition_class": "laboratory_entrance",
+        "attempt_id": "jsc-v1-S-r3geo_base_r001-laboratory_entrance-s101-v0",
+        "capture_pose": {
+          "x": 7.7,
+          "y": -0.6,
+          "yaw": 1.5707963267948966
+        },
+        "execution_authorized": false,
+        "execution_manifest_sha256": null,
+        "human_label": null,
+        "map_id": "r3geo_base_r001",
+        "partition": "development",
+        "pose_source_attempt_id": "expansion-v1-r001-laboratory_entrance-s1-view0",
+        "seed": 101,
+        "view": 0,
+        "view_group": "base-r001-laboratory_entrance-view0",
+        "wave": "S",
+        "world_directory": "data/physical_worlds_readable_v1/base-r001"
+      },
+      "source_index": 2,
+      "status": "ready"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "attempt_id": "preflight-office_entrance",
+      "capture_directory": "/home/eao/lusn-robot-navigation/reports/joint_score_wave_s_gazebo_preflight_20260924_v2/view-03",
+      "frame": "/home/eao/lusn-robot-navigation/reports/joint_score_wave_s_gazebo_preflight_20260924_v2/view-03/frame-000.json",
+      "slot": {
+        "acquisition_class": "office_entrance",
+        "attempt_id": "jsc-v1-S-r3geo_base_r001-office_entrance-s101-v0",
+        "capture_pose": {
+          "x": 7.7,
+          "y": 0.6,
+          "yaw": -1.5707963267948966
+        },
+        "execution_authorized": false,
+        "execution_manifest_sha256": null,
+        "human_label": null,
+        "map_id": "r3geo_base_r001",
+        "partition": "development",
+        "pose_source_attempt_id": "expansion-v1-r001-office_entrance-s1-view0",
+        "seed": 101,
+        "view": 0,
+        "view_group": "base-r001-office_entrance-view0",
+        "wave": "S",
+        "world_directory": "data/physical_worlds_readable_v1/base-r001"
+      },
+      "source_index": 3,
+      "status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "startup_infrastructure_failure",
+  "error": "KeyError: grounding-dino-text-prenet",
+  "phase": "AutoConfig construction before model loading or frame inference",
+  "dispatched_frames": 0,
+  "nondetections": 0,
+  "candidate_admitted": false,
+  "next_action": "separate version using an official compatible checkpoint revision; retain this plan unchanged"
+}

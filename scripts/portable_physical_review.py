@@ -125,25 +125,51 @@ def check_acceptance(root, out):
     return policy, req
 
 
+def pilot_human_screen(reviewed, readiness):
+    categories = ('chair', 'doorway', 'laboratory_entrance', 'office_entrance')
+    counts = {c: {'correct': 0, 'incorrect': 0} for c in categories}
+    for row in reviewed:
+        if row['category'] not in counts or row['correct'] not in (0, 1):
+            raise ValueError('invalid verified pilot outcome')
+        counts[row['category']]['correct' if row['correct'] else 'incorrect'] += 1
+    pending = readiness['excluded_counts'].get('pending_human_review', 0)
+    unreviewable = readiness['excluded_counts'].get('human_unreviewable', 0)
+    return dict(class_outcomes=counts, pending=pending, unreviewable=unreviewable,
+                all_selected_items_reviewed=pending == 0,
+                correctness_screen_passed=pending == 0 and all(n >= 2 for c in counts.values() for n in c.values()),
+                calibration_eligible=False, primary_collection_authorized=False,
+                unreviewable_counted_as_incorrect=False)
+
+
 def check_review(root, out):
-    verify_kit(root)
+    manifest = verify_kit(root)
     check_acceptance(root, out)
     reviewed, samples, readiness = export_payload(root / 'inventory.json', root / 'qa.jsonl',
         out / 'progress.jsonl', json.loads((out / 'requirements.json').read_bytes()),
         evidence=root / 'evidence.json', policy=out / 'policy.json')
-    return {'schema_version': 'research3-portable-return-validation/v1',
+    result = {'schema_version': 'research3-portable-return-validation/v1',
         'reviewed_binary_labels': len(reviewed), 'readiness': readiness,
         'calibration_approved': False, 'campaign_authorized': False}
+    if manifest.get('dataset_role') == 'design_feasibility':
+        result['pilot_human_screen'] = pilot_human_screen(reviewed, readiness)
+        readiness['coverage_diagnostic_status'] = readiness['status']
+        readiness['status'] = 'design_only_not_calibration_eligible'
+        result.update(dataset_role='design_feasibility', calibration_eligible=False,
+                      note='Generic Coverage v2 diagnostics do not promote design labels to calibration data.')
+    return result
 
 
 def return_review(root, destination):
     out = root / 'review_output'
     result = check_review(root, out)
     files = {name: (out / name).read_bytes() for name in RETURN_NAMES - {'return_manifest.json'}}
-    files['return_manifest.json'] = encoded({'schema_version': 'research3-portable-review-return/v1',
+    return_manifest = {'schema_version': 'research3-portable-review-return/v1',
         'kit_sha256': sha((root / 'kit_manifest.json').read_bytes()),
         'files': {name: sha(raw) for name, raw in files.items()},
-        'complete_or_calibrated_claimed': False})
+        'complete_or_calibrated_claimed': False}
+    if result.get('dataset_role') == 'design_feasibility':
+        return_manifest.update(dataset_role='design_feasibility', calibration_eligible=False)
+    files['return_manifest.json'] = encoded(return_manifest)
     with zipfile.ZipFile(destination, 'x', compression=zipfile.ZIP_DEFLATED) as archive:
         for name, raw in files.items():
             archive.writestr(name, raw)
@@ -151,7 +177,7 @@ def return_review(root, destination):
 
 
 def validate_return(root, source):
-    verify_kit(root)
+    kit_manifest = verify_kit(root)
     with zipfile.ZipFile(source) as archive:
         if set(archive.namelist()) != RETURN_NAMES or len(archive.namelist()) != len(RETURN_NAMES):
             raise ValueError('unexpected or duplicate return members')
@@ -159,6 +185,9 @@ def validate_return(root, source):
             raise ValueError('oversized return')
         files = {name: archive.read(name) for name in RETURN_NAMES}
     manifest = json.loads(files.pop('return_manifest.json'))
+    if kit_manifest.get('dataset_role') == 'design_feasibility' and (
+            manifest.get('dataset_role') != 'design_feasibility' or manifest.get('calibration_eligible') is not False):
+        raise ValueError('design-only return scope missing or promoted')
     if (manifest.get('schema_version') != 'research3-portable-review-return/v1'
             or manifest.get('kit_sha256') != sha((root / 'kit_manifest.json').read_bytes())
             or manifest.get('files') != {name: sha(raw) for name, raw in files.items()}):
@@ -213,8 +242,53 @@ records, not generated answers. Confidence is not a correctness verdict.
 '''
 
 
-def build_kit(repo, output, *, packet_directory=None, partition=None):
+def design_scope(plan_path, partition):
+    """Explicit exploratory mode; never admit pilot IDs through the primary gate."""
+    if partition != 'development':
+        raise ValueError('design review requires development partition')
+    raw = Path(plan_path).read_bytes()
+    plan = json.loads(raw)
+    if (plan.get('exploratory') is not True or plan.get('calibration_eligible') is not False
+            or plan.get('protected_access') is not False or plan.get('scheduled') != 96
+            or len(plan.get('rows', [])) != 96):
+        raise ValueError('exact design-only 96-assignment plan required')
+    rows = {}
+    for row in plan['rows']:
+        name = row.get('candidate_id', '')
+        if (not re.fullmatch(r'r3-ca-v1-r(001|006)-(chair|doorway|laboratory_entrance|office_entrance)-[dv][0-9]+-y[01]-light(080|090|100)-s17', name)
+                or name in rows or row.get('partition') != 'development'
+                or row.get('map_id') != 'r3geo_base_r' + name.split('-r')[1][:3]
+                or row.get('calibration_eligible') is not False):
+            raise ValueError('nonprotected class-aware design identity required')
+        rows[name] = row
+    return raw, rows
+
+
+def validate_design_packet(packet, design, inventory):
+    audit = json.loads((packet / 'pilot_audit.json').read_bytes())
+    records = audit.get('rows', [])
+    if (audit.get('integrity_passed') is not True or audit.get('automatic_feasibility_passed') is not True
+            or audit.get('plan_sha256') != sha(design[0]) or audit.get('scheduled') != 96
+            or len(records) != 96 or {r.get('candidate_id') for r in records} != set(design[1])
+            or audit.get('calibration_eligible') is not False):
+        raise ValueError('complete exact design audit and confidence screen required')
+    emitted = {r['candidate_id'] for r in records if r['status'] == 'emitted'}
+    runs = [r['run_id'] for r in inventory['runs']]
+    if not emitted or len(runs) != len(set(runs)) or set(runs) != emitted:
+        raise ValueError('every design emission must be retained in the review packet')
+    expected_targets = [{'run_id': name, 'entity_id': design[1][name]['entity_id'],
+                         'frame': 'perception_capture/frame-000.json'} for name in sorted(emitted)]
+    policy = inventory.get('sampling_policy', {})
+    if (policy.get('policy_id') != 'class-aware-design-all-emissions-v1'
+            or sorted(policy.get('targets', []), key=lambda r: r['run_id']) != expected_targets):
+        raise ValueError('exact all-emission design sampling policy required')
+
+
+def build_kit(repo, output, *, packet_directory=None, partition=None, design_plan=None):
     repo = Path(repo).resolve()
+    if design_plan is not None and packet_directory is None:
+        raise ValueError('design plan requires explicit packet')
+    design = design_scope(design_plan, partition) if design_plan is not None else None
     if packet_directory is None and partition is not None:
         raise ValueError('partition requires an explicit expansion packet')
     packet = (Path(packet_directory).resolve() if packet_directory is not None
@@ -226,6 +300,8 @@ def build_kit(repo, output, *, packet_directory=None, partition=None):
             raise ValueError('packet must be inside owned reports')
     inv = json.loads((packet / 'inventory.json').read_bytes())
     qa = (packet / 'combined_visual_qa.jsonl').read_bytes()
+    if design is not None:
+        validate_design_packet(packet, design, inv)
     if packet_directory is not None:
         if not inv['runs']:
             raise ValueError('no actual expansion captures to package')
@@ -234,7 +310,10 @@ def build_kit(repo, output, *, packet_directory=None, partition=None):
             source = Path(run['directory']).resolve()
             if source.parent != (repo / 'reports/physical_live_episodes').resolve():
                 raise ValueError('unexpected source run')
-            if not re.fullmatch(r'expansion-v1-r(00[1-9]|01[0-4])-(chair|doorway|laboratory_entrance|office_entrance)-s[12]-view[0-4](-retry1)?',run['run_id']):
+            if design is not None:
+                if run['run_id'] not in design[1]:
+                    raise ValueError('run outside exact design plan')
+            elif not re.fullmatch(r'expansion-v1-r(00[1-9]|01[0-4])-(chair|doorway|laboratory_entrance|office_entrance)-s[12]-view[0-4](-retry1)?',run['run_id']):
                 raise ValueError('only prespecified primary expansion IDs may enter this kit')
             request = json.loads((source / 'request.json').read_bytes())
             number = int(run['run_id'].split('-r')[1][:3])
@@ -244,6 +323,13 @@ def build_kit(repo, output, *, packet_directory=None, partition=None):
                     or request.get('run_id') != run['run_id']
                     or request.get('protected_test_routes_used') is not False):
                 raise ValueError('mixed, protected or inconsistent packet identity')
+            if design is not None:
+                assigned = design[1][run['run_id']]
+                if (request.get('distance_lighting_pilot', {}).get('plan_sha256') != sha(design[0])
+                        or request.get('capture_target_entity_id') != assigned['entity_id']
+                        or request.get('capture_target_categories') != [assigned['category']]
+                        or request.get('simulation_seed') != 17 or request.get('capture_only') is not True):
+                    raise ValueError('design request binding mismatch')
     original = ORIGINAL_CONSOLIDATE([r['directory'] for r in inv['runs']],
         [json.loads(line) for line in qa.splitlines()], required_maps=inv['required_maps'],
         required_classes=inv['required_classes'], sampling_policy=inv['sampling_policy'])
@@ -273,7 +359,24 @@ def build_kit(repo, output, *, packet_directory=None, partition=None):
     files['inventory.json'] = encoded(inv)
     files['qa.jsonl'] = qa
     packet_proposal = proposal()
-    if packet_directory is not None:
+    if design is not None:
+        files['design_plan.json'] = design[0]
+        for name in ('attempt_accounting.json', 'machine_visual_qa_report.json', 'pilot_audit.json'):
+            files[name] = (packet / name).read_bytes()
+        packet_proposal['dataset_role'] = 'design_feasibility'
+        packet_proposal['calibration_eligible'] = False
+        packet_proposal['design_plan_sha256'] = sha(design[0])
+        packet_proposal['pilot_correctness_screen'] = {'correct_per_class': 2, 'incorrect_per_class': 2}
+        packet_proposal['rationale']['stress'] = 'Fresh class-aware acquisition feasibility pilot; no engineered negative labels.'
+        packet_proposal['limitations'] = [
+            'Design-only observations are excluded from primary calibration fitting and validation.',
+            'The design was informed by earlier failed pilots; this is exploratory, not independent confirmation.',
+            'Review all selected emissions. Nondetections and infrastructure failures are not incorrect labels.',
+            'Machine image checks do not establish identity or correctness. Use unreviewable when evidence is insufficient.',
+            'Pilot feasibility needs two correct and two incorrect joint human outcomes per class; a deficit remains a deficit.',
+            'The primary Coverage v2 floors remain unchanged and cannot be satisfied with this pilot.',
+            'This return does not approve primary collection, a calibrated model, validation release or protected execution.']
+    elif packet_directory is not None:
         packet_proposal['expansion_partition'] = partition
         packet_proposal['rationale']['stress'] = 'Pilot and engineered diagnostic observations are excluded from this primary expansion kit.'
         packet_proposal['limitations'] = [
@@ -291,7 +394,19 @@ def build_kit(repo, output, *, packet_directory=None, partition=None):
         'decisions': {k: {'decision': 'pending', 'replacement': None, 'rationale': None}
                       for k in (*RULES, 'coverage', 'primary_reviewer')}})
     readme = README
-    if packet_directory is not None:
+    if design is not None:
+        readme = readme.replace('60', str(inv['selected_ready_items']))
+        readme = ('# DESIGN-ONLY PILOT — NOT PRIMARY CALIBRATION DATA\n\n'
+                  'Judge the actual object category, specific instance and reference-point consistency. '
+                  'Do not judge from colour alone, confidence, or a machine attestation. '
+                  'Choose unreviewable whenever the image/context does not support a judgment. '
+                  'Review every selected emission; do not manufacture negatives to fill a quota.\n\n'
+                  'This fresh panel follows earlier failed exploratory designs. Its labels test acquisition '
+                  'feasibility only and cannot be used to fit or validate calibration. The pilot screen asks '
+                  'for two correct and two incorrect joint outcomes per class, without changing primary '
+                  'Coverage v2. If it fails, report failure. Your rubric acceptance and labels do not '
+                  'approve primary execution, models, validation release or held-out access.\n\n' + readme)
+    elif packet_directory is not None:
         readme = readme.replace('60', str(len(inv['items'])))
         readme += ('\n## Expansion partition boundary\n\nThis kit contains only the ' + partition +
                    ' primary panel. Keep its return separate from other panels. '
@@ -339,7 +454,10 @@ def build_kit(repo, output, *, packet_directory=None, partition=None):
         'files': {name: sha(raw) for name, raw in files.items()},
         'targets': len(evidence['items']), 'runs': len(inv['runs']),
         'human_labels_generated': False, 'approved': False, 'publicly_hosted': False}
-    if packet_directory is not None:
+    if design is not None:
+        manifest.update(dataset_role='design_feasibility', calibration_eligible=False,
+                        design_plan_sha256=sha(design[0]), diagnostic_or_pilot_included=True)
+    elif packet_directory is not None:
         manifest.update(expansion_partition=partition, diagnostic_or_pilot_included=False,
                         protects_validation_from_model_selection_by_itself=False)
     files['kit_manifest.json'] = encoded(manifest)
@@ -361,6 +479,7 @@ def main():
     parser.add_argument('--packet-directory', type=Path,
                         help='explicit new primary expansion packet; requires --partition')
     parser.add_argument('--partition', choices=('development', 'validation'))
+    parser.add_argument('--design-plan', type=Path, help='explicit design-only class-aware pilot mode, never primary')
     parser.add_argument('--name', default='')
     parser.add_argument('--role', choices=('Researcher', 'Supervisor'), default='Researcher')
     parser.add_argument('--accept-proposal', action='store_true')
@@ -368,7 +487,7 @@ def main():
     if args.command == 'build':
         if args.output is None: parser.error('--output required')
         print(json.dumps(build_kit(args.repo, args.output, packet_directory=args.packet_directory,
-                                  partition=args.partition), indent=2)); return
+                                  partition=args.partition, design_plan=args.design_plan), indent=2)); return
     root = Path(__file__).resolve().parent
     os.chdir(root); activate(); verify_kit(root)
     if args.command == 'approve':

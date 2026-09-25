@@ -1,0 +1,19 @@
+{
+  "boxes_retained": 93,
+  "calibration_eligible": false,
+  "completed_frames": 23,
+  "human_labels_generated": false,
+  "measured_transform_validated": false,
+  "plan_sha256": "91736dceac0c1fe4c6ab6581dc6b55ec10e702d9d54d7086336064f6a644e2ee",
+  "results_sha256": "36c48611636018e55ce7892442e776f99f7f56d2d88b3b3cf5c91fe0548f83d0",
+  "retained_source_failures": 1,
+  "runtime_admitted": false,
+  "scheduled_slots": 24,
+  "status_counts": {
+    "non_navigation_visual_hypothesis": 10,
+    "unassociated": 23,
+    "unique_geometric_candidate": 34,
+    "unresolved_multiple_surfaces": 26
+  },
+  "validation_or_protected_data_used": false
+}

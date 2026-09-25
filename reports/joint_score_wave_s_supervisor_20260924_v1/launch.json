@@ -1,0 +1,13 @@
+{
+  "attempts": 400,
+  "capture_workers": 1,
+  "constraint": "Accepted protocol and bound execution manifest require serial collection.",
+  "detector_cpu_threads": 4,
+  "execution_approval_file_sha256": "f34093fe5dd0b2c2098bdf78b1586431c77562ab99854a860b5df50972e69bb9",
+  "execution_manifest_file_sha256": "fb3453168633c0cee87447b47dd7b1a42909cc0bb38801d1f9608ba05f297c4e",
+  "ocr_cpu_threads": 1,
+  "pid": 3976936,
+  "started_at": 1790265626.759972,
+  "supervisor_sha256": "5ae444fc90fde6275b723e4dd1cf8692fdb244c3f9715c2c272cb39697b49b48",
+  "user_instruction": "Proceed and use as much workers as resources permit, no more stalling go ahead please"
+}

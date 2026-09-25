@@ -1,0 +1,19 @@
+{
+  "schema_version": "research3-post-wave-s-amendment-authority/v1",
+  "source": "user message in current conversation, received after Wave S outcomes were reviewed",
+  "reviewer_name": "Emmanuel Alabi Olasubomi",
+  "reviewer_role": "Researcher",
+  "user_stated_decision": "ACCEPT the prospective amendment and authorize the amended Wave S model fitting",
+  "user_requested_non_doorway_rule": "For semantic classes demonstrating empirical precision saturation (0 incorrect observations across all 10 development maps and >= 50 emissions), bypass the 5-feature logistic regression requirement. Treat them as saturated high-confidence classes (p_joint approximately 1.0 or pass-through raw score) with an audited upper bound on error.",
+  "authorizes_doorway_only_candidate_fit": true,
+  "user_requests_autonomous_remaining_pipeline": true,
+  "original_labels_must_remain_unchanged": true,
+  "authority_is_not_proof_of_statistical_validity": true,
+  "authority_is_not_future_human_observation_labels": true,
+  "authority_is_not_validation_key_possession_or_hash_bound_release": true,
+  "is_preregistered_for_wave_s": false,
+  "exact_non_doorway_scoring_rule_selected": false,
+  "amended_wave_c_v_admission_rules_specified": false,
+  "agent_authored_document_preapproved_as_written": false,
+  "record_status": "named user authorization retained; exact operational amendment remains incomplete"
+}

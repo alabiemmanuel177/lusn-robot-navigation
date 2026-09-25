@@ -1,0 +1,14 @@
+{
+  "schema_version": "research3-stage1-resume-approval/v1",
+  "authorized": true,
+  "user_response": "approved",
+  "record_type": "conversation_transcription_not_independent_signature",
+  "scope_document": "docs/STAGE1_RESUME_36_20260922.md",
+  "resume_unstarted_count": 36,
+  "workers": 2,
+  "require_external_campaign_idle": true,
+  "replace_failed_attempt": false,
+  "retained_infrastructure_failures": 5,
+  "protected_access": false,
+  "change_detector_or_scientific_schedule": false
+}

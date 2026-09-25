@@ -1,0 +1,21 @@
+{
+  "calibration_eligible": false,
+  "checkpoint_sha256": "ac4f8c4b88af6d963118cbf40ad93176d092abbedfcb752601ae1866352656e6",
+  "device": "cpu",
+  "elapsed_s": 91.3359215259552,
+  "frames": 141,
+  "human_labels_generated": false,
+  "learned_logit_scale": 100.00000762939453,
+  "live_runtime_modified": false,
+  "plan_sha256": "0ef2b9e9d77bd6b7b364f24bca567bb4a696b2c834b8ad22aa41dd155b52e591",
+  "protected_or_validation_data_read": false,
+  "runtime_versions": {
+    "Pillow": "12.3.0",
+    "open_clip_torch": "3.2.0",
+    "torch": "2.8.0+cpu",
+    "torchvision": "0.23.0+cpu"
+  },
+  "threads": 1,
+  "vectors": 1410,
+  "vectors_sha256": "dfadc6edb488d3288451a182ce96d26cbf5e9cf668abc3be29e410b46f1eb764"
+}

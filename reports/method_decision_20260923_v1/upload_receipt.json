@@ -1,0 +1,16 @@
+{
+  "schema_version": "research3-packet-upload-status/v1",
+  "uploaded": true,
+  "status": "published_after_explicit_followup_authorization",
+  "supersedes": "upload_status.json",
+  "authorization": "followup_authorization.json",
+  "repository_private": true,
+  "release_url": "https://github.com/alabiemmanuel177/lusn-robot-navigation/releases/tag/research3-method-decision-20260923-v1",
+  "verified_remote_sha256": {
+    "research3_method_decision_20260923_v1.zip": "6db1ee423fb3d88abe33705c5c36e97d867bdff9e98b1e2ab4e7723bc7e310bc",
+    "research3_offline_candidates_20260923_v1.zip": "646079e730a8135b024d099e1cf21bf0186cda6a50cd4475827c6b85ece58b66"
+  },
+  "source_committed_or_pushed": false,
+  "repository_visibility_changed": false,
+  "protected_or_validation_data_uploaded": false
+}

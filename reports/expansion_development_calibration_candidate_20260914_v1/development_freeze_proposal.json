@@ -1,0 +1,48 @@
+{
+  "calibration_frozen": false,
+  "coverage_deficits": [
+    "chair/bin/0",
+    "chair/outcome/false",
+    "doorway/bin/0",
+    "doorway/bin/1",
+    "doorway/outcome/false",
+    "laboratory_entrance/bin/0",
+    "laboratory_entrance/bin/1",
+    "laboratory_entrance/outcome/false",
+    "office_entrance/bin/0",
+    "office_entrance/bin/1",
+    "office_entrance/outcome/false"
+  ],
+  "coverage_passed": false,
+  "development_model_sha256": "3524e0416a702369cdec2d83c97b9aa7caf34e598db189bca5a670590e868dd0",
+  "export_blockers": [
+    "global_class_binary_outcome_coverage_incomplete",
+    "class_confidence_coverage_incomplete"
+  ],
+  "fit_status": "coverage_blocked",
+  "human_decision_required": "approve or reject this exact development freeze before releasing the validation key",
+  "human_labels_generated": false,
+  "provenance": {
+    "amendment_sha256": "993a513692e1d743335596eb013ceab73c99b86181e975148907b47bfabbfe40",
+    "classwise_module_sha256": "f11fc37a2427937b03832567f8e1831c09ac8f718fb9864fe17311e6c3060b69",
+    "collection_report_sha256": "4a3f2bd3a8fb8ab6968569dfd264b013b8544b2bf0bfcc35582d6ca46a42b7ee",
+    "kit_manifest_sha256": "3bb1c28edb661426be4bf985e7e17fe6de199644bac55209803cb52f70f22c61",
+    "plan_sha256": "d03ae270b491d21ee678a8349c4ff6e3f64772d3e70f09f577cbdc6166c2df7c",
+    "protocol_doc_sha256": "5532f4b9f3495fc5a8164cbfbdae6d612b58c906b6b222d5659c78e32a46780c",
+    "return_sha256": "397ec0708b8a96c20e75f03f5bb4cccdee03b78e5cc691f3f03e6edb4a6837ed",
+    "snapshot_sha256": "1e727ad75f0cd093d9422e26d23484506f2050895033cfc390f962c8e09dd496"
+  },
+  "release_gate_template": {
+    "approved_at": "",
+    "approved_by": "",
+    "calibration_protocol_sha256": "5532f4b9f3495fc5a8164cbfbdae6d612b58c906b6b222d5659c78e32a46780c",
+    "development_model_sha256": "3524e0416a702369cdec2d83c97b9aa7caf34e598db189bca5a670590e868dd0",
+    "protected_outcomes_consulted": false,
+    "schema_version": "research3-validation-release-gate/v1",
+    "status": "pending",
+    "validation_results_inspected": false
+  },
+  "schema_version": "research3-expansion-development-freeze-proposal/v1",
+  "status": "proposed_not_frozen",
+  "temperatures": null
+}

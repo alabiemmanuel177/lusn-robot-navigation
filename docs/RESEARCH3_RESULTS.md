@@ -1,6 +1,93 @@
 # Research 3 evidence report
 
-Updated 8 September 2026. Research 3 is not yet a completed live comparative study.
+## Final Closure: Descriptive and Exploratory Feasibility Deliverable — 26 September 2026
+
+On 26 September 2026, Emmanuel Alabi Olasubomi (Researcher, Africa/Lagos) formally
+authorized Option 2: narrow the study scope to descriptive and exploratory feasibility,
+bringing Research 3 to complete, final termination.
+Authority record: `reports/research3_closure_authority_20260926.json`.
+
+### Closure Scope & Policy Decisions
+- **Deliverable**: Research 3 is formally concluded under a descriptive and exploratory
+  feasibility scope rather than a validated four-class runtime calibration study.
+- **Candidate Status**: The frozen hybrid candidate
+  (`reports/hybrid_score_candidate_20260925_v1/candidate.json`,
+  SHA-256 `b9de70b9c8a829d3177bc4b709fc4e53966f9e5df8e75b3d2c8882730a559b45`)
+  is retained strictly as an exploratory feasibility candidate.
+- **No Further Collection**: Wave C (calibration) and Wave V (validation) are not
+  scheduled or launched.
+- **No Runtime Calibration Claim**: Validated four-class runtime calibration is not
+  claimed.
+- **Blocker Resolution**: Blockers B03 and B09 are formally resolved under this
+  descriptive deliverable.
+
+---
+
+## Core Scientific & Engineering Findings
+
+### 1. Structural OCR Support Truncation Limitation
+A foundational finding of this research is the structural impossibility of populating
+low-confidence bins under frozen upstream OCR filtering:
+- **Upstream Filtering**: Pinned RapidOCR internal filtering strictly enforces
+  `text_score >= 0.5` (`rapidocr_onnxruntime/main.py`). Text proposals below 0.5
+  are discarded upstream before detection outputs are emitted.
+- **Localizer Propagation**: The entrance localizer copies the retained text score
+  directly to `raw_score` without transformation.
+- **Pass-through Score Support**: Under identity pass-through, entrance input scores
+  are mathematically truncated to the half-open interval $[0.5, 1.0]$.
+- **Coverage v2 Incompatibility**: Pre-registered Coverage v2 admission requires at
+  least 5 scoreable emissions in the $[0, 0.5)$ bin for each class. For both
+  `laboratory_entrance` and `office_entrance`, the maximum attainable emissions in
+  $[0, 0.5)$ is identically zero.
+- **Boundary Verification**: This structural barrier was verified through source audits
+  and synthetic boundary testing against the actual OCR filter
+  (`reports/hybrid_score_candidate_20260925_v1/ocr_support_audit.json`).
+- **Conclusion**: Unchanged collection waves (Wave C / Wave V) cannot overcome this
+  frozen upstream threshold. Initiating further collection waves under this stack
+  would be scientifically futile.
+
+### 2. Wave S Clean-View Precision Saturation & Error Localization
+Wave S executed a fixed serial 400-attempt supervisor protocol across all 10
+development environments (`r3geo_base_r001` through `r010`):
+- **Execution & Yield**: 398 successful simulator captures, 2 Nav2 lifecycle failures;
+  287 scoreable emissions, 72 detector/depth abstentions, 39 intact-frame nondetections.
+- **Human Verification**: All 287 scoreable emissions were evaluated across category,
+  physical instance identity, and planar reference localization ($\le 0.35\text{ m}$):
+  281 correct, 6 incorrect, 0 unreviewable
+  (`reports/wave_s_review_receipt_20260924_v1.json`).
+- **Clean-View Precision Saturation**: Grounding DINO and RapidOCR achieved **100% precision**
+  across all 261 views of chairs and signage:
+  - `chair`: 99 correct, 0 incorrect (100.0% precision across 99 views).
+  - `laboratory_entrance`: 84 correct, 0 incorrect (100.0% precision across 84 views).
+  - `office_entrance`: 78 correct, 0 incorrect (100.0% precision across 78 views).
+- **Geometric Localization Error Isolation**: All 6 incorrect outcomes occurred
+  exclusively in the `doorway` class:
+  - `doorway`: 20 correct, 6 incorrect (76.9% precision across 26 views).
+  - **Error Mechanism**: Geometric failure occurred exclusively when depth rays traversed
+    the open doorway portal void rather than reflecting off the door jamb boundaries,
+    displacing the inferred planar reference point beyond the $0.35\text{ m}$ tolerance.
+- **Calibration Impact**: Zero negative outcomes across 261 emissions for three classes
+  prohibited fitting multi-class supervised logistic models under the pre-registered
+  outcome floor ($\ge 5$ incorrect required per class).
+
+---
+
+## Exploratory Hybrid Candidate Specification
+
+The frozen hybrid candidate (`reports/hybrid_score_candidate_20260925_v1/candidate.json`)
+provides a benchmark exploratory baseline:
+- **Doorway Model**: 5-feature regularized logistic regression fitted via deterministic
+  global Hessian Lipschitz bound solver on 26 valid Wave S doorway emissions
+  (`reports/wave_s_doorway_amendment_candidate_20260924_v1.json`). Features: intercept,
+  raw logit, valid depth fraction, relative depth IQR, reference distance scaled.
+- **Chair & Signage Models**: Direct identity pass-through of original detector/OCR
+  matching scores, explicitly designated as uncalibrated matching scores.
+- **Validation Status**: Retained as an exploratory feasibility artifact; not admitted
+  for runtime robot navigation.
+
+---
+
+## Historical Evidence Archive (Prior Phases)
 
 ## Authorized held-out graph campaign
 
@@ -82,22 +169,15 @@ physical stopping distance. The watchdog uses ROS time and does not address a
 stalled simulation clock. All 68 Python tests passed; modified ROS Python sources
 compiled. These repairs do not retroactively validate the old campaign.
 
-## Remaining work
+## Final Disposition of Remaining Work — Formal Closure
 
-1. Complete semantic outcome measurement and campaign analysis for v2 summaries;
-   verify collision handling with contact evidence and retain raw trajectory evidence.
-   Travelled distance, positional goal checks, timeout retention and in-window
-   prediction counts are implemented and pilot-tested as described above.
-2. Validate distinct inspection behavior and live risk/freshness handling before
-   claiming the full guarded policy is evaluated in Gazebo.
-3. Freeze a live comparative protocol and run the required systems and instruction
-   conditions. The current live campaign contains only truthful B6 instructions.
-4. Supply held-out scene and semantic-route catalogues for live evaluation. The
-   Research 1 provider currently contains six development and three validation
-   catalogues and no test catalogues. Graph access authorization does not supply
-   these missing assets. Any new live test design must disclose prior graph access.
-5. Archive the exact consumed Research 2 and Research 3 source snapshots and model
-   assets for a reproducible release; existing worktrees are dirty.
+Under the formal authorization of Option 2 by Emmanuel Alabi Olasubomi on 26 September 2026,
+Research 3 is formally concluded and terminated under the descriptive and exploratory
+feasibility scope. Consequently:
+- Items 1–5 from the historical 8 September remaining-work list are closed without further
+  live executions.
+- Waves C and V are not launched.
+- The hybrid candidate is preserved as an exploratory candidate only, without runtime
+  admission.
+- Research 3 reaches final termination.
 
-Items 1–3 are implementation and experimental work, not a request for more human
-landmark labels. The completed human review and frozen calibration remain usable.

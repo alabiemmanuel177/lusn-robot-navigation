@@ -1,0 +1,46 @@
+{
+  "action": "do not launch an unchanged campaign as a solution to this structural gate failure",
+  "attainable_entrance_input_support": [
+    0.5,
+    1.0
+  ],
+  "conclusion": "unchanged entrance filter plus raw-score pass-through cannot satisfy original C/V low-bin coverage",
+  "configured_text_score": 0.5,
+  "filter_rule": "retains score >= text_score",
+  "human_labels_generated": false,
+  "localization_rule": "entrance raw_score copies retained OCR text score",
+  "low_bin_upper_exclusive": true,
+  "maximum_low_bin_emissions": 0,
+  "model_inference_run": false,
+  "required_low_bin": [
+    0,
+    0.5
+  ],
+  "required_low_bin_emissions": 5,
+  "retained_scores": [
+    0.5,
+    0.500000001,
+    0.8,
+    1.0
+  ],
+  "role": "synthetic boundary test and inspected-source support analysis; not capture or labels",
+  "schema_version": "research3-hybrid-ocr-support-audit/v1",
+  "source_sha256": {
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/main.py": "156c49e683fddd26f04280f391f882b857a74d2f020497870f7dd8d850ed5a2c",
+    "/home/eao/lusn-robot-navigation/reports/joint_score_wave_s_primary_inference_20260924_v1/ocr/plan.json": "b41459f67fb54aecacd1ddeeab9ef1f6d7c461341ff226f9308e612fc83e2404",
+    "/home/eao/lusn-robot-navigation/scripts/audit_hybrid_ocr_support.py": "445d765cf52afd0475a414dc8582b17391f08d3d6a56f082fb20cfe9b1f2bd0e",
+    "/home/eao/lusn-robot-navigation/scripts/four_class_perception_candidate.py": "0b780dada4be8f896e5a9190ab6bf89f10121991465f2d21210def5fefcf6438",
+    "/home/eao/lusn-robot-navigation/scripts/hybrid_score_candidate.py": "b78489e0a7c70da7a9fc867b7a2fe181badd7961ee04a6654c8a6e46fea74427",
+    "/home/eao/lusn-robot-navigation/scripts/run_entrance_context_candidate.py": "0b79e6b69474f712f9d4dc5cbfe6384579d173e5e9e8f98bcca6d15647857dbd"
+  },
+  "synthetic_inputs": [
+    0.0,
+    0.1,
+    0.499999999,
+    0.5,
+    0.500000001,
+    0.8,
+    1.0
+  ],
+  "upstream_rule": "identity pass-through"
+}

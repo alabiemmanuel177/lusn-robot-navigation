@@ -1,0 +1,812 @@
+{
+  "calibration_eligible": false,
+  "input_sha256": {
+    "/home/eao/lusn-robot-navigation/.research_models/grounding-dino-tiny/a2bb814dd30d776dcf7e30523b00659f4f141c71/README.md": "cf46f74c7b6850f1d5cbe406028324d8798148726016d46a69a365b4a2d3e89f",
+    "/home/eao/lusn-robot-navigation/.research_models/grounding-dino-tiny/a2bb814dd30d776dcf7e30523b00659f4f141c71/added_tokens.json": "909e96cb32d92ce728a01bc99850cbba26196d74115c17ebeb019275412588f2",
+    "/home/eao/lusn-robot-navigation/.research_models/grounding-dino-tiny/a2bb814dd30d776dcf7e30523b00659f4f141c71/config.json": "eec82c5ab66e16df12a9a212e68ac011779927c2536cf9078658e35d85f0c67a",
+    "/home/eao/lusn-robot-navigation/.research_models/grounding-dino-tiny/a2bb814dd30d776dcf7e30523b00659f4f141c71/model.safetensors": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+    "/home/eao/lusn-robot-navigation/.research_models/grounding-dino-tiny/a2bb814dd30d776dcf7e30523b00659f4f141c71/preprocessor_config.json": "8454179ba95e2ad22947835aad7b45862a601fc0055ab88bf1ee70892d3aea60",
+    "/home/eao/lusn-robot-navigation/.research_models/grounding-dino-tiny/a2bb814dd30d776dcf7e30523b00659f4f141c71/special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+    "/home/eao/lusn-robot-navigation/.research_models/grounding-dino-tiny/a2bb814dd30d776dcf7e30523b00659f4f141c71/tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+    "/home/eao/lusn-robot-navigation/.research_models/grounding-dino-tiny/a2bb814dd30d776dcf7e30523b00659f4f141c71/tokenizer_config.json": "d40ab645b68211910b9170d22433d43186a6ec8ee6fd10ba170524b25bf4fb56",
+    "/home/eao/lusn-robot-navigation/.research_models/grounding-dino-tiny/a2bb814dd30d776dcf7e30523b00659f4f141c71/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/__init__.py": "25e7859135d306af5eb626086e2211a9b4da01cff1327beb0fb2298dcba33a51",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/cal_rec_boxes/__init__.py": "485d5bca0cd84c80ea4576ff4ed5e906828851b287c581c746a9a272a7ce945c",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/cal_rec_boxes/main.py": "d7cf9cb01f189a873cef9897150e379085608f9908a7288857ea2599ff7eee76",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_cls/__init__.py": "aeaf19b49fb6b5a361547544e7cb98972dd0b6756e9ad320d9fe7008891ae9b2",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_cls/text_cls.py": "ead555ddeb7a8a0da067f4d2f9e2760e93db9e46d906888e0522277dda6620c8",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_cls/utils.py": "a6d3debaaf21b092731b20a249b816512070b8e932db7b0f15d5536dcda2328a",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_det/__init__.py": "8f33f181e76809c609ead8f5d44afed1e83f74e752239c0f30ca961fdf152e63",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_det/text_detect.py": "fc9d63ba47940d3e5bfefe6738f310b583cd4de4708fefe114fce11236f2c199",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_det/utils.py": "0b3405390c37c7d6f0c9c7099eeec36b050b8e0dee7659fbd82a73bcbd265cd0",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_rec/__init__.py": "989f6e9e87508f91cdfc496c7c4ef7580bbb6cc1a0f87a90e139029d10970de0",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_rec/text_recognize.py": "48d8656d11403d09b2ed32b65a686906b9502ca1a4e16a3934d91b35129d032a",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_rec/utils.py": "4a1dc2e8602d12374b12124bbe99a1b42080d72a337799760beaf0d51a32ca90",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/config.yaml": "bf94a1da4cba828e67b1d61e27cee14d9e7da27c9f272e04048a17e41ae97332",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/main.py": "156c49e683fddd26f04280f391f882b857a74d2f020497870f7dd8d850ed5a2c",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/models/ch_PP-OCRv4_det_infer.onnx": "d2a7720d45a54257208b1e13e36a8479894cb74155a5efe29462512d42f49da9",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/models/ch_PP-OCRv4_rec_infer.onnx": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/models/ch_ppocr_mobile_v2.0_cls_infer.onnx": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/__init__.py": "2623808f8f540452cc02951858cb65ef5dacd615b5409ec6c970bc375b1f946d",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/infer_engine.py": "3e402c95026ab793533b0de296b0b7e897ad50618d089b2b2214bd90833c3f29",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/load_image.py": "2335171bf0574b56fc4d6d7261bd9bf0dc955db6cec3b5aaf060d345256e65a4",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/logger.py": "2efcad9f0f7afb77c6734d9ec2fcce60f3045b3e6ce7e4752f69ed9e1e647f17",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/parse_parameters.py": "a59078f844649e9b08638345a32cd3981a27fd731f4f844a1155f850cb7a6c9e",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/process_img.py": "c54bfd7cb592e40c7be9042fce4a40e5fa5359e8c11a26c3492534065f42f236",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/vis_res.py": "5225cfd945fd99968cfe2883960949e043d760a8d0dab92ec912e98b01e42205",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r001/landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r001/world.sdf": "92364fb39c02520b856b9226906a1827a367a70e915a432effda2d1d9657c320",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/schedule.json": "86b5457ab1bcbd0324241c3e07281a3e515f1e0cac9e2f4563292ade8235f0d5",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/bridge.yaml": "1014ecfe9ba32ab40d865ad36cb3bbd5e9a5f2c0b320cc43282b4bcc46da0e90",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-000-depth.bin": "8264c7500c980ded51736a38c33ec3a79c6552b6a5f96670137ff2987dcefd84",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-000-rgb.bin": "0b668ae534fed0c5863323adcb96a148d8ef6f80ae4927591de9dc8511a06fe1",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-000.json": "f7ee516ce04c937e4fa4e4963d8a6a8707e87d866d2106a1b62a4e6dd20aaf5c",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-001-depth.bin": "80b54fecb15f660ffaa28e775e4777d29d603b09a5112bbd7e1466a435ce0620",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-001-rgb.bin": "f05e15ce6f9d71b199e2483b6e7cf48c1dc61c3cb5bcbcaf6eb9917c9030b627",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-001.json": "84ad8c6f433357af4c168e81ae6bb57047e4c91ca2d5ed928700b25e7e6b9428",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-002-depth.bin": "49279fd5818943f3cb39597d0da2ec8fb42baef802d6c29d6808592a032836e9",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-002-rgb.bin": "0b8a7dc71b095c021e69dd8089ade665975340a7ca4fc37bbc7033bbdb234834",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-002.json": "6dc30f622b1b5974253d9e5c942584ce400fb2843c815720f4fb8487f9ea3cd3",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-003-depth.bin": "21b0a1267c6f010c0f1472fe810b1e98733b6102fdc79c74b848819421c202c0",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-003-rgb.bin": "d1cc243cead1588fa52b1fc878cf3f610a465fdc95cd0721d6881b1bd2e34673",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-003.json": "6bdd8449f818692c5f511ad0f1ca2bd1f30d7c626848093981c5bf2d3a627f70",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-004-depth.bin": "1ae544cf8be8773e4d2d5e82b2ccd6a97bb649d5e9edbaf4e2803288cc61d390",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-004-rgb.bin": "3c1c7646da5ad9c6581a1758a34c6c938aae0c17f290a7a8de6970ea0ef339b8",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-004.json": "6d15e618b014648f8cd99f9206c32bfce2fddaddab3f8af238fd50c2329fc29c",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-005-depth.bin": "43540c525b824ae35ee825cbee299eee1053e4290356a077ed90145ea95f93ab",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-005-rgb.bin": "4bf370e9185e9df30004aaf0a17875b309a7ae7a7c6164d60f283839fba8b4d1",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-005.json": "cac391340543b3ea8530007e9ffb36e3f9b81fcbcdfa169493634156868217c9",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-006-depth.bin": "82521f55abb157278418e8429733100837184a63b06dcedd6d959186af51246a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-006-rgb.bin": "2249cc85955042356c34994511a3a5be93dfcf49b9b64618d150fa5d558335ee",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-006.json": "3192876ce2fe510eee89bfeff71d4a845480cbdae0f96d9e79ff9916394b431c",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-007-depth.bin": "ad16c3f9ae94a17a78a75e676dc19da96d09d68f7ff83d90c458cb4959cd2d75",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-007-rgb.bin": "1f7f3cb8cff875d67aae0f84b4f67330fd6287b3c0ebb5cd450ccebdd238a6da",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-007.json": "371ddcf0ae8eea2eeb4e1d5cca1ecfbca316a749b90be46d173a75eb3b147766",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-008-depth.bin": "b90329b9b7fc22f119d49502a2fef7a4f5a136e842a7b095edcfff10905a69ae",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-008-rgb.bin": "0f2ac185a4100234270b8babbba4dc26216a03f5819787b5bc384b805c8b6a15",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-008.json": "347259ec606c46f1f7ff1b8538650835e43b1a930e590a91c02fc7f0e218e978",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-009-depth.bin": "2d3b82dedb2b007ac3f03421bf602edf286dcb7cceb9e4968612d04c9e4d63f9",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-009-rgb.bin": "0535d9e15a766816db4103cb8a7fd30d36ff00933c1c5906ecc280fe851fb0bc",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-009.json": "684b1eedafd3e6bde6ce20b49a9013bc6d57396a5cb92ae9b599c4a3432cec70",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-010-depth.bin": "61be7ab6d0bf67e6060293a1bce33eddfb3d45d307816b4810a32376cd4226ef",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-010-rgb.bin": "107eb44a057cf7780af16bf2d0d30e4bedc754a4660a91dcffac0663b8c8dee5",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-010.json": "d67bbaf7acf0df947a2d09150945866f7bb01548816b427f8ba722b7c3823eb1",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-011-depth.bin": "99eac10369b6eb4456103bb01ce1e2e8f62b98c88554ef9dca227b7b2b81b08a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-011-rgb.bin": "54af696669246b27be7bce6f2074168553c5e778ee9499dcddeb6af625fce12c",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-011.json": "bc9b098da04b4a863aacb765e59330b8c8db4bc28dd1efeda57fe478dab5dc14",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-012-depth.bin": "0284ae044418c95e63fe12e002dd8d078fec2dc22bfa4c15012a81f452c106d7",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-012-rgb.bin": "4f79e8c85851f71abf502d161414dac74f648af31289afe1230654d21778e762",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-012.json": "fccc3d131108877533b45c226fb85cf869e6d34d2072817c476024f7d028a121",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-013-depth.bin": "426b8420d73c139319cbab986d072bcf0c2b918bc25a4a813090d89047ee954a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-013-rgb.bin": "e5a7e5f1ee87da1133e7fb7e2fc856357d5cf6f86f5aec499fa05cf1dae0f432",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-013.json": "dda4b0c10a9362fc3123d44b3db19eeba4dc6e8a530ab08f90eec495370dbdd0",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-014-depth.bin": "6062a6ff3bb7601897dccfc7c1f99b63ed70f79278ce4c2e782a1a51ac0dcc58",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-014-rgb.bin": "88b93b8bcc5d016f827f01e628fc812303ad2af1c246f9d3220467e800c2b14a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-014.json": "d407d8f9cdc172e7e9331dac33fc9ecf08468e59bbc439ccbcf0d1e51f88b999",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-015-depth.bin": "0af0090b25ea76ad8d0f6ae0289f9c294de7d4c2e798d10bfd40833fd1f0b755",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-015-rgb.bin": "b1fe02597680a58df97f80895f05aa0cc6055318fbf8d8c02d46fe618eba879d",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-015.json": "8bfd208c6d2c3afadcf12526d3f873dbf2c6652293c3d0f9155564a9e9c3ac0d",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-016-depth.bin": "1f3f1463dd7e45456c71b085fa37b0189de43d65c3bcf829a486e7d586fb9817",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-016-rgb.bin": "bb29f9be3e11f1480976b0e39ef0ef5309cff062d6b5e31d2544dfbe38d29cdb",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-016.json": "952f45bee4a3ca587d2eec8e5cf2dc3fa56e143aafaa41340f09588f22006b43",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-017-depth.bin": "9ef1772df955904ca0277b313a7a2a37c3caa046af5220da4428b25b8e8bd999",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-017-rgb.bin": "37c2fdb4f89d2d7a02344033f71c876f3ccef88476f5ed6f86ef7cdb467cd559",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-017.json": "660580310e784def30d086f479c5e026639974193d8fb65fb904ea2863154dc5",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-018-depth.bin": "bba679ce5c84be621e9ec1a21aed76d5ee3e85120c166f07bbd306adee210300",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-018-rgb.bin": "64647b03f229c7f926712dd1314123c1071bd70f1f6621dc0b44d6c125dc3055",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-018.json": "537540077e2f33bbcd7dc27e8aa3640e0192bd51f8e512fce2149d7994ebb80e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-019-depth.bin": "f138c5716e97221ba0a76595f32c0749436d955bfe1ddeb35905c05867d9aab8",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-019-rgb.bin": "55d1815841a9dbe74179581db16a7c866ff5428cc736667e518d0ed2a721bbf1",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-019.json": "495b51f56715a169e159d7a7091fcd32d8fefaa6b9322e192e2e9572bc838ef8",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/episode/request.json": "99aae6d5be02f966b476ea53e4829635201b00c40139f2eeafeaeedb13fcdc02",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/plan.json": "10e0d9f36166bdba07db0ae7bfcd1e721b1f8266a835f71fffb09769a7e1668a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/robot.sdf": "60d40c05d1eeee290b660d5af179fdd68bbbf5f9f6474d0007689bc94c70c088",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-00-chair/robot.urdf": "a999d957b95c226646a15f1ed38f2cf14554919ea417172f461077a8fc6e878e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/bridge.yaml": "1014ecfe9ba32ab40d865ad36cb3bbd5e9a5f2c0b320cc43282b4bcc46da0e90",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-000-depth.bin": "cff713366a7b4d97c004cef052a2ddd222897859c13eeb4b8637f19e48df7f28",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-000-rgb.bin": "3ca20fc53013d45b9e4db87e740ff77fa5b95af24e6fc89927c2637bcedc0021",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-000.json": "298038413e1cc8da34f48df1bc6638d21a5959724b7a7ce90bb9f092b2bb9d1b",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-001-depth.bin": "b3c2aecf95d52c1c5a2d18672823801c908a0f41cfb0397678569bb5b136fbd5",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-001-rgb.bin": "c0c4b0888dfec49774a3345369ce9515e84d85abee154733ff072f67e4785e09",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-001.json": "390df66ba8aac0c1f352ffffefdde39ccac679eb159fddc4ef7b84e171ec3f2f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-002-depth.bin": "c7f2e78f10fb3de13ead7a34fb76d0aa2bddbea0b14bb78736da1351e7ae7bf0",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-002-rgb.bin": "759fc7a139b06dd15b3a632845736e440c1a88ae2c9e954b59a924ddfe030659",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-002.json": "5ee0f6052ae9db41875dd8df4843074d25ae9c024234bafa384cdc43e2769812",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-003-depth.bin": "50d85bfb6be53ada91a9316b0fb39d841739f3d634870a4156e09ac2c5775ff7",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-003-rgb.bin": "856c98953791d73620aa0f8f0dcf9f8e1beee56d17fc0eba4e68a543f94474c9",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-003.json": "f84fde920973083540bb31984829a4499c498b72ff71327544103bb6dbea4a6b",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-004-depth.bin": "5393c8dce3743c0dfd2a537d2f1cd038e1f998afeecf1a3ba3bda57d4c7a73de",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-004-rgb.bin": "5499b91e7cef5413634d3c1b71dcc442019f680f904945a89347c1c00446d102",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-004.json": "d0a9e0a8c59515cb3dedd1a2360989bd60f77fc2065bd471d571e6419a98207f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-005-depth.bin": "36d7ecaf5903af020e00c5c8bbd258588aab487458038a419e7c75062493f594",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-005-rgb.bin": "32fda166d5d9d07c68ef39380211b3ae8434d1e921762675316420a2de0a6a0c",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-005.json": "d3f045b8818079ecf23650643bde93a3210ce263ba21d08acd6c96ab65ce02ed",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-006-depth.bin": "3a274c218060d5d5735a324f753855888d57ee42cbd1443e9b68bb4d42294d31",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-006-rgb.bin": "10ce6d4cb43bbe334dee0064b51886bf54dde13f52bf02162668cfaaa4a558dc",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-006.json": "c7df73b24fd2940ca12eab5e3f738b9711fc12d46e409ac8d10d93ba21187b1e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-007-depth.bin": "dcb0ce0fa57669ba7a5a9739b8e4fa2f9b7238f7ead5a6901fcb85310494c39a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-007-rgb.bin": "401d70e1668babd4ba29bc5a29e512b7c96236041adb850134fbf81ae0b48b4f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-007.json": "5a078601852193b708d59b9bcdf0fffa6d112c77ca143028eabaf1152a3b5b59",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-008-depth.bin": "124b517dd9b96c26399b9cc3be038a7f77c2004d3a29ac4acffb6c9859d2c73f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-008-rgb.bin": "500a314c4c010913d77a605a376de60af730861830a8dc2d10619fa633f718e6",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-008.json": "af485c24de5d972dba486088843115326200053097e690a2331f42ce17d1225e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-009-depth.bin": "ac9ac63c6d2d3677c67c80318b6181da37c62e1fcc8a816a685261a1daed512f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-009-rgb.bin": "a56fcacbeb2208c04bc7a3da22ac6e6c5e5c62ee4b399ed96c0c410057c45fc5",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-009.json": "e9aeec44bdca2e08b92e67d61d9edd38d96d81c57dff010b90e4ff171ab30bb8",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-010-depth.bin": "c75ba6446fd824869f4d324bca229e05620a085e1f5b4a17f34c58d698acd689",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-010-rgb.bin": "df61ed41173538aa8381e6d4c1a87f61dbbc1765eed70a576027c70813fa2745",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-010.json": "9b2dc9cad40300e34bb323e861a3430412c1875af481be74f05764f176aea12f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-011-depth.bin": "ff4c5ae2d388702efab51c9c40b69c15feee64a8e78ffaf85d4775da3c904539",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-011-rgb.bin": "68207322eed379599c319e90a3acceccd3b2e47e9ead680a47cf7ec2fe9f28ac",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-011.json": "8f7219d5367984c0e9701bda242cda5e40fdf2cee46f7a23e3a6cd39ca22b257",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-012-depth.bin": "d8f765bf934afb9c1f38bd1e9ff91223482f0620f60f2de9fc5dced030397526",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-012-rgb.bin": "e8e830c701eae594ccf2bd76bd0771fdba387de01edd9a16b53b5f74da908432",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-012.json": "9f2c5a51f9e8b5f79b4335c2fd7f6d5aeea7f3eb60299d376ad726a73d53c99d",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-013-depth.bin": "feb8d35faf5625e5a199c66ca3378bf24867e4778cb951db92edbd9d7083c495",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-013-rgb.bin": "58e4997c5cbbffc4b482b63eec10a7c7620027d6683b2a6d7342b241c6bd35a0",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-013.json": "093e9ea0fa3ec54475c1c129bca8a0554b16f90b7d47d065396eff68d2dc237e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-014-depth.bin": "25c96538a06dc8547aef201594f75322cbe8feeabc160e78eb26a78df67780cb",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-014-rgb.bin": "0821764e3678e9313bdfb5eede7510de7c937cc6375becb45ad02aae02044d5a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-014.json": "99717aa7aa86592e35ea7d844f31e554ce1955f64cacf9221d09cb5a2e59d121",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-015-depth.bin": "d773b1e78db2540d6b355e55e2e921e9a228d705f8a8fe56490b99af289de5b8",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-015-rgb.bin": "06a4d86d2c20075d51eac008e6b7a89e8d5d2ad0662345810d7de1901649be2b",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-015.json": "15d9f44742a868cc2f25b2b31628e43192322b605e495fe8b82e55de8cddde7c",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-016-depth.bin": "8bc1bed693639513c2a0d798b90e4a72cd2ca925510b3a0ed5140c9fb8ecac2e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-016-rgb.bin": "68aaeabc57675d2e02019076c64bad05fafb2b066222639c86eb79e64f4f78a0",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-016.json": "04599b270cdf1f64e9fe4d9d0adfd03fd86e9faa509abc683c07975bedc96437",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-017-depth.bin": "277657a4f74f3695fa164e719218850d511b8b903d5381fe88468142011192ef",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-017-rgb.bin": "e61c8c9d6375fce18659af5b7cf6e3a6b762649273611d117a7bfa3d48c19577",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-017.json": "680234dbf46239c842fc2b57b4db874681a3f35371dae63064d5ba113d79f0db",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-018-depth.bin": "0d13a372ddfdb95d0916682f00acaa1a1da4d92f209f563882d4868a17e35df5",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-018-rgb.bin": "1be35c040d399da4703ec1110e748d92556b3faf2a66d5faed67cd5d6f12511b",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-018.json": "eae13fa4b9bac63423f7531a2ff717b34fb49fcd1c1115586739a29f0f770b5d",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-019-depth.bin": "0cdccd963972899e08c7e051d2ffacb22e992d80486193d8ebbba91e779840ff",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-019-rgb.bin": "3c86cf4dcc09694c6b6dc89783e6a90ca978410acfef769f3e1a72d770ba21c5",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-019.json": "6d43b5ac361ae93fc49a357aeaba2770a64d4e88fbbb41310d5f53dee5a61810",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/request.json": "8c8d94cb6730119e0ddfd212357cbdeedd412d3281a03ee82e6e3bf3cd1dc332",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/plan.json": "a057a6a6277fea5172e4b07379840b5c3f78de65f7a017a29bcb433d8c43a19b",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/robot.sdf": "60d40c05d1eeee290b660d5af179fdd68bbbf5f9f6474d0007689bc94c70c088",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-01-doorway/robot.urdf": "a999d957b95c226646a15f1ed38f2cf14554919ea417172f461077a8fc6e878e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/bridge.yaml": "1014ecfe9ba32ab40d865ad36cb3bbd5e9a5f2c0b320cc43282b4bcc46da0e90",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-000-depth.bin": "2e23332793f33ef840cd82a7d6f9285c4446746faf27e3a93cd2288a110a297e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-000-rgb.bin": "3197e90a69a7c47bf3df5bd246eba524a9172d10191a6415134d53a25c3b255d",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-000.json": "fd15ea5175f51964ba06c6e29d5d85efaee19c151e108e3800096eb9f4e88bb9",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-001-depth.bin": "19b5eb1608f4d7b2ab15eaa0701fa364e7c364ae49a4be76a4addfa5b10890d5",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-001-rgb.bin": "a54c21ff64abb9e8dccfb5c62b8e6af80f44e63e938c92d10fa5e658e3d21757",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-001.json": "851970e3f4f7a36ef0522467f002731596e6d1faece48e1228e1550ae8314e98",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-002-depth.bin": "5551eaa41712af31fc898aeb79ba1d12e602a9d0c995b4bb09cb12465c43c454",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-002-rgb.bin": "3152523cadf0fc10e75d28fe169b45b462d8aeffa31a3cc0c1eb112c4f27d2ad",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-002.json": "13ab8a3d1b2b2a152d61a2c6c4c3f273c4e4fb84ef2b7e5dd0d5d55c7ef42cd4",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-003-depth.bin": "2705a946005ef80f82dd82ccaa53d359ebcc9f3328e3bbcc3a61c710c47cae88",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-003-rgb.bin": "d8ab37d2153e8cf3ec8084dc28c7a7e46782ad8b91421c945b9fa15823f9ea01",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-003.json": "78f576fe41ab8fb715cfa5b0ac80cb73bb01f575f18cbe51bd3d5f3a4d16a1c1",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-004-depth.bin": "4132fa342b600284db0f5b7910ac910460aa25ed9b468ffc113cf98717023c60",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-004-rgb.bin": "874e656843e3ca32700e2a6879a62ebfa6f4a6dcbe95369853de8b6dfdf33490",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-004.json": "322838949d201200f0af00d6713398d4da49c80a47cbf22f07e01d4779fa1b57",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-005-depth.bin": "135b04b281a025ab38fbe6f280d1ce3d913b729bb8c2ff1c2adbcc26f08db665",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-005-rgb.bin": "4e1fd089a92d0e9b7b2081c27ae3a84d9c289049583c06970e0eed99c1d231f8",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-005.json": "3f3aa7286c279a8008d322f800ea665e170f04422eab31e36d75a885137b87bb",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-006-depth.bin": "ebe6f4a99a3b75f674b69bf7b14e0eca6b05f8a0313c1886e6628ff94d70e86f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-006-rgb.bin": "49069a5707feb2f8e9875ec71ee3a55fbd879968906acb1686e5cd03467b05f3",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-006.json": "ba2252a1b7718f4f31297e1e7220a48993ee6a153c71fc0e9af9830113df83bb",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-007-depth.bin": "96674f5eec6f72c99ecac35c95ea4dfb36cf5405f83bbddc90ecf985ee77fae8",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-007-rgb.bin": "7bd0c02949817b19f153fa8465414b72ddd42a66f6eb7ddae477a862b33a51ae",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-007.json": "d29b4164ed23c9332275607440c47e0ffdbb6d45cd79a6a41408821c82ff1845",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-008-depth.bin": "cb25e8e485ace3d039c78f70be7aaaa3fd25225ae3f5aaa513b2d18d4467ca72",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-008-rgb.bin": "c98947880070177e59ef9d9e570cec8e0bdb357098764cf5d11cf8e60d3925c4",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-008.json": "0008df7bab96b97f6033681d1a7e8fe7d2669faafdaaca9c3aecc378321905d6",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-009-depth.bin": "c496050c84cfde731ec7ecdd27d78ae76eba6ca8526bb78cf715fac4e8f37091",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-009-rgb.bin": "2a8e914749d91342a56b01d3ba37965e1e2e3acaf2680391f4a3c21b48ba26f2",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-009.json": "069e25dca9d13fa10add521db7cb2c250209c1efcc6695b3e977f5a87a7a72bb",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-010-depth.bin": "124b517dd9b96c26399b9cc3be038a7f77c2004d3a29ac4acffb6c9859d2c73f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-010-rgb.bin": "500a314c4c010913d77a605a376de60af730861830a8dc2d10619fa633f718e6",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-010.json": "38f10be5034f2f8f00e775e2f4ce48498840b66a0bc11fe0cfc788d6092bae7b",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-011-depth.bin": "1df3ae8f3ee9ca9e0471d0c5533ef995dfac59f1b5321785334a0a6e1c9decee",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-011-rgb.bin": "5f60753550fc109f4a53031ef2bba2d5738657b3a9259bad6e2524bf2e43441f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-011.json": "129326e0efa01b7255b5ec4ca74c33c2cd43cc31e97ce928d43031e95d3987b2",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-012-depth.bin": "7b05e8fb736eb0c6bc3da1153c9a3b3df86dddbb21ea6013e503449807c60300",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-012-rgb.bin": "fd6e386fbdf5b2a37e6e5a614b502eb62174e50b0c91d7de0440dbd676e35866",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-012.json": "2c8df1227e1ec2b4464746cd39a230e9fc16f3d0eb4548de2dc40eb22551691f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-013-depth.bin": "0b662d0bd224de43ded8cf645b6081db2a538fa72b858c0fe2f6a9e736c55ade",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-013-rgb.bin": "58d88b4dc9259fed03d34ef71f5848c819b6d697d94cc22bb49ed432b964c1c9",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-013.json": "3ab67c925c30e4a3ea23a0fca4c68d7b831c8a087754cd8ee70e5ba761d11981",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-014-depth.bin": "b4ef9689781c04f1cada22465a73376057e3f6424119d72beed34c4a15862b2d",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-014-rgb.bin": "79c9a9e77e85ed8cd71f48be89715aa248fb0c4346fe3b7c0813a6bac3194e7c",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-014.json": "c7725be9a0fd9fd83d7c52dc5486cb5f8db863344bf042533a739e3cdf02917f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-015-depth.bin": "c75ba6446fd824869f4d324bca229e05620a085e1f5b4a17f34c58d698acd689",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-015-rgb.bin": "df61ed41173538aa8381e6d4c1a87f61dbbc1765eed70a576027c70813fa2745",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-015.json": "cb58766e67bcffb827b0a43012a91a78402a0397b0d235359d5155adfd2352de",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-016-depth.bin": "fe9aafdbb1acc9ea37bdaf22805af963db52922cabeeffda79dfe58fcdd415a4",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-016-rgb.bin": "1950a418b6bc92d7fda861f2a326c0741395b5b999534d7248456f7e6eeec15a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-016.json": "874e9d7e03957dc3436ed2e93b8a9c0a3246a4b354e5a767a298d7382c0e059d",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-017-depth.bin": "54f2e660a65ba6d0497dc3af9e3c30577d882358f0a582d52c98f1cde3cdbf7a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-017-rgb.bin": "40456e370c987f317dd97751dc54b1437e5cba57dda83f33c7a27b782e5f656c",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-017.json": "3f1b9220c1e10e32769793cb65ab7b70098eb99e85ada7fa619fd97a15dc081b",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-018-depth.bin": "6d2b41152595b4dbe81a4f3ac2840f6aa68f3685ab5336ef1a7096a679d7b864",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-018-rgb.bin": "e7404e59f893aebdcef98399618c45ca2fd2ea89b897372d4b8e8ab5381b8d33",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-018.json": "f8339b5bb21398d1883c920dae948e24582a85afb4f4ee837e7d56ef493f9cb8",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-019-depth.bin": "26f17a929783576bc1785f4a2669111852df58ddda9bb62e6cad8f6ffcfd1268",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-019-rgb.bin": "a5f80652a975e0272203673dea5673003684808f4bcda85915119623b623ba72",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-019.json": "f0bca0f7dbdaf2e46385e0fa27d527f0f24278284c105f19696ac4c96293821a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/request.json": "4d8b32e7eb84c7d2b1a36e0461ed6ac1ecc3de515750abe40aa410c9144000d3",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/plan.json": "2c04253a505aaa6b7bfd18a67f9b6a14a2cb6294a28c41b15a378ec29f824239",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/robot.sdf": "60d40c05d1eeee290b660d5af179fdd68bbbf5f9f6474d0007689bc94c70c088",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/robot.urdf": "a999d957b95c226646a15f1ed38f2cf14554919ea417172f461077a8fc6e878e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/bridge.yaml": "1014ecfe9ba32ab40d865ad36cb3bbd5e9a5f2c0b320cc43282b4bcc46da0e90",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-000-depth.bin": "0606d491c5c75a4ace12988ff1f6ae6f037f9427db0cb2194c7cffd33078ddec",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-000-rgb.bin": "fb8eb13d4d1a2998caf2c6d8400913d41c3d9d734faa432b06337e5992321509",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-000.json": "2730378c6b66f89ec5f2f52168cd028e4b6c68570fd3781b787d44545799e534",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-001-depth.bin": "1e567c6018adbc9cb92dceaf48689c934e0073ac6bc0d45f6cb98caa27e54e10",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-001-rgb.bin": "d6d39e50ea19b728c8bb6a124b009fda7f474f682b6db2156f965aca5b466d42",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-001.json": "4019b0490b1938dca93325a21c7d6dd4a82f069b91cd6e15b0e7b8d9834c4010",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-002-depth.bin": "4b8bad834f1b08a28aef39c392918ba7b68b301f2f91750df45c8370cbc5c775",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-002-rgb.bin": "77c97ac7129078915300a29ca5c228a62e3da7951a2a01aa07b94b0fb54fb63f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-002.json": "4bebd8a0c0a1b2c7f11def62720b6932825323b5ac42492d611cd3278ab4c488",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-003-depth.bin": "8d03725b07e5c97697b7d4ae8beba43bed41b1e3aad6728c4af34f638e390b9d",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-003-rgb.bin": "7c60a9b866533270e0df08e93ddab69b05a889ee4c10de96c826fb0103667710",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-003.json": "39aab96be2f8d9d9398f33700ed9d28a31d2477884730f3416e83b81e43b72b7",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-004-depth.bin": "d8e2aac525903d02362dcfd72d6b19f4aebb93ec1d6ec20f241cfc3ec76d14b0",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-004-rgb.bin": "9f405676c7a855abb482c234d7a1fd4dbcb866e4c4043cef5ec6a77e57550ed7",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-004.json": "4c81fd50cbdcfc0bd997e88388e2cc85180befd5c17e98f26f7f114b5b1e3596",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-005-depth.bin": "fd0aa63e3b6040ea84daa931b2d8d3d70c411270b4f92f8550ce7495899710f5",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-005-rgb.bin": "dc78cf8057b9891435e96c63928b5198902288dc8dd7fd94b01abc27354ac157",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-005.json": "6f32ddcb7e9abd7f578e5f29aadd300d804d24b57413a0479c8eb6fc232a7bb7",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-006-depth.bin": "0522641c3d80ffe3ad589f7d4f17b089bd7ff37ad9146e37afb5460f00023ff2",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-006-rgb.bin": "e00d9624e32c3d0515e0bd9e935a88697d00fb49acb462750414a178367109e0",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-006.json": "82d7f2cf4facbb16fb8c417bd1c1ea1953a0ccc8accbc6f188251fe4ef789b7b",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-007-depth.bin": "fc403c9be0f685024a7795d180bde8752f70d184fa569bd54b563e971e4627df",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-007-rgb.bin": "edc645c56dab56b44a120b0a6aa2be7a95a6b597b6e44726d675e6fb29a5f7bc",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-007.json": "10c27f79c2d4a1cb511d503350bf1121a8b800e8668dc026a7bfc53880ce4421",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-008-depth.bin": "f4516d826399bc53a44d17907e193872d6462f4083bdd0ba7ce6bd6b950e08a7",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-008-rgb.bin": "bef57f36828d35b3e59f5b1dc8f85e55de006b868e694f49cc11ffe20a33ddbd",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-008.json": "ee043fcdfdd29137da5bde8e28afae97fb949d1e0c99c1129d8b8c80e0bc66e8",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-009-depth.bin": "28bc37b673f8aa60d20546e8eca7dc6bf4edeed901026ed3524c9447cd726d3e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-009-rgb.bin": "58e13a04af2d5e406fe04a92edbb1ef913558856be3c3443990401344a064b90",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-009.json": "80a45607fc6afac4fb0886c2d56b69145333d2f44e513986e9cadaad7fd528b7",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-010-depth.bin": "2ff54a44e2e61e215d889e5f1c8091607126f6d2b6035153bf904ffba1cdde3e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-010-rgb.bin": "f32b0fcbf77e3466ecb1aa634a7ce98741296ba4be29ab3ce1af967814ab32a2",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-010.json": "78d6cd939f21941deb18e62838eb6bbad3d3026ff32dbea4737a345da2c67554",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-011-depth.bin": "119e6030f72946420af1b7baf0ca00d56ab1298ccf6c7628a0e5072947cc4286",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-011-rgb.bin": "7b2330d37d6850c73d598864a9021c746264f148257dbc5bf651b48979cd356f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-011.json": "1050e7c2cea41ca326509c1fbe8ad7e3499ae00577e04b0d3f64b3e60fd96a1c",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-012-depth.bin": "1ef92ae75aa72474be7bb394ad7d71043f6b788faf8e6d6f7397a84841a1e6ce",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-012-rgb.bin": "99d1511d0a0e4b3ae8154a5f864d25323eb95e0f89970573dc68b13eb18533fa",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-012.json": "ab68960f569582bac7b0d1a0cdd6f25ad32b32ca23425934b234e7a6ae290d46",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-013-depth.bin": "536bd8de24476297cd1d591a363778b7f367504cfc38f231488a5ec5f757612c",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-013-rgb.bin": "a91efb861352a41ae4bfedcee14a9ba99ed7bf06edd66343ab37b1d0a8bed64f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-013.json": "0648db5405d2c0b90e9a4a4a9ae7f583569dc2c51c899f41f9e9637b36d7739f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-014-depth.bin": "995db3f7e897b0de264f2087767666ccbcbb2b4035986eec8550f3cce32edbab",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-014-rgb.bin": "c3832602ce08f524d5139f0e752921a7162d375c84d6531bce5030da1b827660",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-014.json": "2be7c00ae288c626412de94802705343d40c5d4474162e0569aedfea89f27e83",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-015-depth.bin": "25983ea75f75c28f0127e4dc291f697e4c56776af42ebf36f10e4af325f8fcfa",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-015-rgb.bin": "a414fde5722c17cc4079ec7f7148a206acec6d2ca56ae83930f8073eb8fbd7c7",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-015.json": "2787208d3f79e00e9dd36c5f137c6ccddf239ebfd83b6f356b304f28016c7b7d",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-016-depth.bin": "566031adcc05a4149b308efd79e1451f43d10188d4f239a40613e1da98254776",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-016-rgb.bin": "d234911c575ae9cf83e2d456de0958154a987e62218b974ffca6a40600c7af05",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-016.json": "687085d0eeb567728b6d72b447f0e0b46c8790634df5cb6ca5b8ea14c5b5689b",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-017-depth.bin": "96b2c622ddb8f6b545db07073593ed30dfabac5c415d4fd22b1e03156f36dada",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-017-rgb.bin": "7b8cb8ca32c08fa239cca7e42037c218d8584e8b16d374a8ace52c1c0c20b86f",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-017.json": "5cf2d160134a88db17f44a97b5785672cfa76695e69784fecd5d1cd78f3067a4",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-018-depth.bin": "1ad1bef6c1e31b6308218d24fea2d03ee1320bf7daa224b434b95dbc298ecf18",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-018-rgb.bin": "65966cb45a6009d8de7a29d4d02c2d4447fc99a7a1b6a4e5789f691fcfa08729",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-018.json": "0b26290002ec834e78072c46d7031b5e890d25ce3b2ebacaa540b0fd5d1e5a5a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-019-depth.bin": "ec3b89b5b21348e89ec9401981a72db9d67dc6cb3ae72cb74372c56b72a0d091",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-019-rgb.bin": "cc016c82fd1dec984c0a95b38593641ea91b874e1147d43c24c5eb815b045132",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-019.json": "40c92dc44de78bb5df4bc6ce9d07c3dde67324631d256358b3544230e778fe74",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/request.json": "de85f3302608ab3ef90cf7604dfaf36eada452fb020c73fd278c9299663b3cfb",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/plan.json": "339de124f72d53142b1b24cbd490240bc0d690152b324e7f727d7de42b5369a9",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/robot.sdf": "60d40c05d1eeee290b660d5af179fdd68bbbf5f9f6474d0007689bc94c70c088",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_capture_20260924_v1/view-03-office_entrance/robot.urdf": "a999d957b95c226646a15f1ed38f2cf14554919ea417172f461077a8fc6e878e",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_detector_20260924_v1/audit.json": "34027c42fb8923778efda6bc17300a98604e3d6f2e7c11bc8071d7bb91e06b89",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_detector_20260924_v1/plan.json": "d2dd20aaf845ae98c16c5d4a0d14fe5519b101976f50546466a70352a670768a",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_detector_20260924_v1/results.jsonl": "08739b4e0f48de356d20c0178c4b1fbfbe84bd7837d32a191117e84702b85db4",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_ocr_20260924_v1/results.jsonl": "5600677f49b5f078383dbb910912d46fba0988d87f637b74149f15423708e4f2",
+    "/home/eao/lusn-robot-navigation/reports/grounding_candidate_assets_20260923_v3.json": "36b11d04d173606d38aae13edf06b1ff2ec1d833278edfd4066900ceadf35681",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/expansion-v1-r001-chair-s1-view0/request.json": "9160c60945911a89672abd876bfdce3a5c23bbf4cdb7bd550746222c9a68a4a7",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/expansion-v1-r001-doorway-s1-view0/request.json": "ea3b2e92d76f4ae9ef3cc95d57a910a2abaf141adf1e0a8c395159271328a3a2",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/expansion-v1-r001-laboratory_entrance-s1-view0/request.json": "a57a38252be72ace8d13bc4392055355e133a736bf1560b0840a6fc4674e8f0a",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/expansion-v1-r001-office_entrance-s1-view0/request.json": "d3600e63820bdec3d3b93f16f66c90abfe8b4437885e6b707aa7108bc8a406e1",
+    "/home/eao/lusn-robot-navigation/reports/world_specific_method_approval_20260924.json": "2797d19309c21f539347a1803dbe8f5c481233d44522c9afc5db7da6ab9e0211",
+    "/home/eao/lusn-robot-navigation/scripts/bound_pose_observer_v2.py": "b3953e56507426df5bb6045c2bfd482c3320f01b7fb1152f4e5d52f289e44a5c",
+    "/home/eao/lusn-robot-navigation/scripts/bound_pose_sim.launch.py": "af324b18e4f96af657d024a3dff4178ba5a25c365d2e6ff43137fea53c632dc5",
+    "/home/eao/lusn-robot-navigation/scripts/candidate_pose_validation.py": "9474a253841bbfd5f87705ff6d4fee8c88093deb85de778ed4c1b624a19d336b",
+    "/home/eao/lusn-robot-navigation/scripts/candidate_rendering_transform.py": "2b7deaac7f2212acf8609bcfa8c2e0e59e75e099addd75a10b12a009d1bc5d83",
+    "/home/eao/lusn-robot-navigation/scripts/entrance_context_candidate.py": "44d629a93b7c906297da8a10cc5a9c0d2640436d357977901e0dde132f19b975",
+    "/home/eao/lusn-robot-navigation/scripts/expansion_camera_model.py": "fdef54c225daaf5f3e0edeadf6226e9382606b0789fb657f5d138b1dd17a88de",
+    "/home/eao/lusn-robot-navigation/scripts/four_class_broad_detector_engine.py": "54372733a5a8ba5b999a2e5297a70a8384392c2ec503bdecc71e0af4bb987478",
+    "/home/eao/lusn-robot-navigation/scripts/four_class_perception_candidate.py": "0b780dada4be8f896e5a9190ab6bf89f10121991465f2d21210def5fefcf6438",
+    "/home/eao/lusn-robot-navigation/scripts/integrate_four_class_live.py": "4d79895cbee5cc4c81ee0353c357324b9c10cfe1f1fc1c2001bb59a52c093868",
+    "/home/eao/lusn-robot-navigation/scripts/run_entrance_context_candidate.py": "0b79e6b69474f712f9d4dc5cbfe6384579d173e5e9e8f98bcca6d15647857dbd",
+    "/home/eao/lusn-robot-navigation/scripts/run_four_class_live_capture.py": "c33f4e80221d07991e10e874b4c718bb40000420795155256bd3fc3a1d52ece9",
+    "/home/eao/lusn-robot-navigation/scripts/run_four_class_live_detector.py": "8938e17af03fe6cfd8e2c0e82c82eaec341ee177686da3d8f5ae2b80d7c7ea4b",
+    "/home/eao/lusn-robot-navigation/scripts/run_four_class_readiness_ocr.py": "e8a1e2573246152b333df659c48fbd8b5a17b39e55cfc0cd286a452a4271f997",
+    "/home/eao/lusn-robot-navigation/scripts/run_live_episode.py": "2b516cec509a7a899b5ab78e479e54cd65199329a71ae11d5f8e278a79a433cf",
+    "/home/eao/lusn-robot-navigation/scripts/run_physical_episode.py": "4ac27984bf816a3521ec5c8d349a609972fdf939b571b890e6fd0eec38648404",
+    "/home/eao/risk-calibrated-nav/src/robot_description/urdf/rcn_waffle.sdf.xacro": "e6b96bbcc242bba70b12edcefecb422d94e19bd4a3990636977d36451ed4d171",
+    "/home/eao/risk-calibrated-nav/src/simulation_worlds/config/bridge.yaml": "1014ecfe9ba32ab40d865ad36cb3bbd5e9a5f2c0b320cc43282b4bcc46da0e90",
+    "/opt/ros/jazzy/share/nav2_minimal_tb3_sim/urdf/turtlebot3_waffle.urdf": "a999d957b95c226646a15f1ed38f2cf14554919ea417172f461077a8fc6e878e"
+  },
+  "slots": [
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-000.json",
+      "source_index": 0,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-001.json",
+      "source_index": 1,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-002.json",
+      "source_index": 2,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-003.json",
+      "source_index": 3,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-004.json",
+      "source_index": 4,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-005.json",
+      "source_index": 5,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-006.json",
+      "source_index": 6,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-007.json",
+      "source_index": 7,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-008.json",
+      "source_index": 8,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-009.json",
+      "source_index": 9,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-010.json",
+      "source_index": 10,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-011.json",
+      "source_index": 11,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-012.json",
+      "source_index": 12,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-013.json",
+      "source_index": 13,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-014.json",
+      "source_index": 14,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-015.json",
+      "source_index": 15,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-016.json",
+      "source_index": 16,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-017.json",
+      "source_index": 17,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-018.json",
+      "source_index": 18,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "chair",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-00-chair/episode/context_capture/frame-019.json",
+      "source_index": 19,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-000.json",
+      "source_index": 20,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-001.json",
+      "source_index": 21,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-002.json",
+      "source_index": 22,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-003.json",
+      "source_index": 23,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-004.json",
+      "source_index": 24,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-005.json",
+      "source_index": 25,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-006.json",
+      "source_index": 26,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-007.json",
+      "source_index": 27,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-008.json",
+      "source_index": 28,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-009.json",
+      "source_index": 29,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-010.json",
+      "source_index": 30,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-011.json",
+      "source_index": 31,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-012.json",
+      "source_index": 32,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-013.json",
+      "source_index": 33,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-014.json",
+      "source_index": 34,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-015.json",
+      "source_index": 35,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-016.json",
+      "source_index": 36,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-017.json",
+      "source_index": 37,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-018.json",
+      "source_index": 38,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "doorway",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-01-doorway/episode/context_capture/frame-019.json",
+      "source_index": 39,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-000.json",
+      "source_index": 40,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-001.json",
+      "source_index": 41,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-002.json",
+      "source_index": 42,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-003.json",
+      "source_index": 43,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-004.json",
+      "source_index": 44,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-005.json",
+      "source_index": 45,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-006.json",
+      "source_index": 46,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-007.json",
+      "source_index": 47,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-008.json",
+      "source_index": 48,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-009.json",
+      "source_index": 49,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-010.json",
+      "source_index": 50,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-011.json",
+      "source_index": 51,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-012.json",
+      "source_index": 52,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-013.json",
+      "source_index": 53,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-014.json",
+      "source_index": 54,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-015.json",
+      "source_index": 55,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-016.json",
+      "source_index": 56,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-017.json",
+      "source_index": 57,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-018.json",
+      "source_index": 58,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "laboratory_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-02-laboratory_entrance/episode/context_capture/frame-019.json",
+      "source_index": 59,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-000.json",
+      "source_index": 60,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-001.json",
+      "source_index": 61,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-002.json",
+      "source_index": 62,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-003.json",
+      "source_index": 63,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-004.json",
+      "source_index": 64,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-005.json",
+      "source_index": 65,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-006.json",
+      "source_index": 66,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-007.json",
+      "source_index": 67,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-008.json",
+      "source_index": 68,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-009.json",
+      "source_index": 69,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-010.json",
+      "source_index": 70,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-011.json",
+      "source_index": 71,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-012.json",
+      "source_index": 72,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-013.json",
+      "source_index": 73,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-014.json",
+      "source_index": 74,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-015.json",
+      "source_index": 75,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-016.json",
+      "source_index": 76,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-017.json",
+      "source_index": 77,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-018.json",
+      "source_index": 78,
+      "status": "ready"
+    },
+    {
+      "acquisition_category": "office_entrance",
+      "frame": "reports/four_class_live_capture_20260924_v1/view-03-office_entrance/episode/context_capture/frame-019.json",
+      "source_index": 79,
+      "status": "ready"
+    }
+  ],
+  "transform_source": "recorded exact-time localization TF with source-bound static rendering correction; no evaluator truth input"
+}

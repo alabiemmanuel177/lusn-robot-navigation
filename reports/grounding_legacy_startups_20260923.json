@@ -1,0 +1,10 @@
+{
+  "dispatched_frames": 0,
+  "perceptual_nondetections": 0,
+  "failures": [
+    {"revision": "25b0b43915cfc9e5dcb573031e99514eb7838d57", "stage": "AutoConfig", "error": "KeyError: grounding-dino-text-prenet"},
+    {"revision": "e08274d3760f8fcfc53dcbb9ca3ed0a29fa9c40e", "stage": "strict checkpoint load preflight", "error": "legacy in_proj_weight/in_proj_bias attention keys incompatible with installed split-projection model; missing/unexpected keys rejected"}
+  ],
+  "model_or_frame_outcomes_used_to_choose_revision": false,
+  "next_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71"
+}

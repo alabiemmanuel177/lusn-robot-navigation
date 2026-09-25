@@ -29,7 +29,7 @@ def research2_execution_pids(proc_root=Path('/proc'), root=Path('/home/eao/failu
             continue
         try:
             args = (entry / 'cmdline').read_bytes().decode(errors='replace').split('\0')
-        except FileNotFoundError:  # A process exiting during inspection is normal.
+        except (FileNotFoundError, ProcessLookupError):  # A process exiting during inspection is normal.
             continue
         except PermissionError as exc:
             raise RuntimeError('cannot establish Research 2 idleness: process visibility denied') from exc

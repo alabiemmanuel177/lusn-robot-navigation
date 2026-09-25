@@ -1,0 +1,12 @@
+{
+  "all_inputs_unchanged": true,
+  "all_localizations_reconstruct": true,
+  "audit_source_sha256": "e0c87871f555d6813a60334a6aeadcbb2a93da55574ef0ebf562add49b900c65",
+  "identity_or_calibration_certified": false,
+  "maximum_reference_distance_m": 0.028073963737152905,
+  "minimum_reference_distance_m": 0.003324430532237753,
+  "observations": 10,
+  "plan_sha256": "45ef53ee10c76aeda0c2d966d1512a943367ff00e29cba0dac020235132f7bb2",
+  "results_sha256": "91ce089b4ee3fefd05b2ed60a26fc146480c62bc639ed17ac1da7064840122fb",
+  "uses_authored_reference_prior": true
+}

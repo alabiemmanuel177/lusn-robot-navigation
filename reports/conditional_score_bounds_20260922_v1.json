@@ -1,0 +1,57 @@
+{
+  "assumptions": [
+    "emitted component meets min_pixels=18; support saturates at 72",
+    "unchanged provider association radius .9 and temperature 1",
+    "conditional on colour score staying above the stated floor; not guaranteed on unseen views"
+  ],
+  "calibration_eligible": false,
+  "classes": {
+    "chair": {
+      "conditional_confidence_floor_at_observed_error": 0.11627734965860417,
+      "conditional_confidence_floor_at_pose_acceptance_radius": 0.10919082665246908,
+      "future_color_floor_guaranteed": false,
+      "necessary_error_m_for_low_bin_at_minimum_support": -9.134719010940268,
+      "observed_emissions": 11,
+      "observed_maximum_reference_error_m": 0.17801406911197373,
+      "observed_minimum_color_score": 0.02020410288672881
+    },
+    "doorway": {
+      "conditional_confidence_floor_at_observed_error": 0.5556215079251755,
+      "conditional_confidence_floor_at_pose_acceptance_radius": 0.5326153322493409,
+      "future_color_floor_guaranteed": false,
+      "necessary_error_m_for_low_bin_at_minimum_support": 0.5122758963692232,
+      "observed_emissions": 18,
+      "observed_maximum_reference_error_m": 0.2355339644777247,
+      "observed_minimum_color_score": 0.8917468245269452
+    },
+    "laboratory_entrance": {
+      "conditional_confidence_floor_at_observed_error": 0.5715603432260088,
+      "conditional_confidence_floor_at_pose_acceptance_radius": 0.5358338443937204,
+      "future_color_floor_guaranteed": false,
+      "necessary_error_m_for_low_bin_at_minimum_support": 0.5272185326419669,
+      "observed_emissions": 8,
+      "observed_maximum_reference_error_m": 0.17331235158785768,
+      "observed_minimum_color_score": 0.8983715493524262
+    },
+    "office_entrance": {
+      "conditional_confidence_floor_at_observed_error": 0.5751168755657955,
+      "conditional_confidence_floor_at_pose_acceptance_radius": 0.5390622162531852,
+      "future_color_floor_guaranteed": false,
+      "necessary_error_m_for_low_bin_at_minimum_support": 0.5420276917021436,
+      "observed_emissions": 12,
+      "observed_maximum_reference_error_m": 0.17275729164898077,
+      "observed_minimum_color_score": 0.9050165686171907
+    }
+  },
+  "formula": "p=(0.45*s+0.55*c)*(1-d/3), s>=0.25, 0<=d<=0.9, provider T=1",
+  "human_labels_generated": false,
+  "illustrative_color_floor": 0.89,
+  "illustrative_error_needed_m": 0.5083056478405319,
+  "illustrative_pose_consistent_floor": 0.5317666666666667,
+  "input_sha256": "0e5c50cfda954f65175529041796f436d8a5d03b2d3d855e3ebb3ea33bfacd4f",
+  "new_observations_generated": false,
+  "protected_data_read": false,
+  "provider_core_sha256": "f9195d8f71b26fe3207a88404fca6e7e199bdd1a8bd750d3a5d0103566057a82",
+  "schema_version": "research3-conditional-score-support-bounds/v1",
+  "source_sha256": "5f58db1179a728414ef2d28a948f1c7f3515ec765f786325326b89904ee781b2"
+}

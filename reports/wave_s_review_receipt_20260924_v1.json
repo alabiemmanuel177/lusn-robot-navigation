@@ -1,0 +1,30 @@
+{
+  "schema_version": "research3-wave-s-review-receipt/v1",
+  "observation_review_sha256": "2277fd0fb84720ac3a6453ca8d4bcf14b86ea13c90d9b28150ec10b081209dcc",
+  "observation_review_mirrors_identical": true,
+  "observation_review_structurally_valid": true,
+  "evidence_and_emission_bindings_valid": true,
+  "reviewer_name": "Emmanuel Alabi Olasubomi",
+  "reviewer_attestation_is_not_independent_identity_authentication": true,
+  "review_rows": 287,
+  "joint_correct": 281,
+  "joint_incorrect": 6,
+  "joint_unreviewable": 0,
+  "class_counts": {
+    "chair": {"correct": 99, "incorrect": 0, "binary_map_cells": 10, "outcome_floor_passed": false},
+    "doorway": {"correct": 20, "incorrect": 6, "binary_map_cells": 10, "outcome_floor_passed": true},
+    "laboratory_entrance": {"correct": 84, "incorrect": 0, "binary_map_cells": 10, "outcome_floor_passed": false},
+    "office_entrance": {"correct": 78, "incorrect": 0, "binary_map_cells": 10, "outcome_floor_passed": false}
+  },
+  "required_per_class": {"correct": 5, "incorrect": 5, "binary_map_cells": 10},
+  "new_protocol_return_sha256": "b3f5b5c4644bc70ddbc8120d44828e9f63638891e51119b8e613766a3d38cd18",
+  "new_protocol_return_mirrors_identical": true,
+  "new_protocol_return_structurally_valid": false,
+  "new_protocol_return_error": "reviewer_name and reviewer_role are null",
+  "existing_named_protocol_authority": "reports/joint_score_protocol_20260924_v1/review_decision_CONVERSATION_FINAL.json",
+  "existing_named_protocol_authority_still_valid": true,
+  "model_fitted": false,
+  "wave_c_or_v_started": false,
+  "status": "blocked_by_preregistered_wave_s_outcome_floors",
+  "next_decision": "Preserve fixed-budget failure. Any recovery collection or method change needs a separately prospective amendment, not changed labels, relaxed floors or post-hoc top-ups."
+}

@@ -1,0 +1,43 @@
+{
+  "approves_unseen_labels_or_models": false,
+  "authorizes_validation_release_or_protected_access": false,
+  "decisions": {
+    "class_specific_depth_features": {
+      "decision": "accept",
+      "rationale": "Replacing the prototype underspecified depth feature with physically grounded, class-specific depth support geometry is methodologically sound and necessary. For chairs, sampling valid depth in the central 40% ROI before computing the IQR and median on the 0.10 m near-depth band eliminates clutter from background walls. For doorways, sampling valid pixels exclusively from the pinned 15% jamb strips (with 15% vertical trimming) directly addresses the geometry of open portals\u2014avoiding false rejections caused by measuring through the void of the doorway itself\u2014while preserving existing jamb-disagreement gates. For laboratory and office entrances, computing statistics on the central 40% ROI of the OCR quadrilateral prior to reference conversion ensures measurements are anchored to the physical sign plaque rather than adjacent wall boundaries. Enforcing finite depth bounds strictly in (0.05, 12.0) m, prohibiting zero-imputation or cross-class borrowing for missing depth statistics, and restricting the association residual to an operational distance normalized by 0.9 m strictly preserves model validity without leaking ground-truth simulator labels, entity IDs, or catalogue yaw."
+    },
+    "duplicate_and_missingness_rules": {
+      "decision": "accept",
+      "rationale": "The protocol establishes an exhaustive, mathematically coherent missingness taxonomy that rigorously separates infrastructure failure, intact-frame nondetection, depth/template abstention, unassociated proposals, ambiguous associations, duplicate-instance abstentions, scoreable emissions, and human-unreviewable observations. Crucially, nondetections and abstentions are never imputed as p=0 or negative labels, preventing the conflation of detector recall with emission-conditional calibration. Grouping localized proposals by (frame, visual class, claimed entity ID) and abstaining on the entire group when multiple proposals claim the same entity is a sound, conservative rule that eliminates cherry-picking or heuristic bias. Furthermore, retaining all attempts in denominators, enforcing serial low-priority single-frame capture with explicit 90-second timeouts, and accounting for intra-wave and cross-wave duplicate content ensures that empirical coverage and loss metrics remain completely free of survivorship and repetition bias."
+    },
+    "fixed_learning_solver_and_failure_policy": {
+      "decision": "accept",
+      "rationale": "The upstream score learner employs an independent binary logistic model per class with a fixed 5-element feature vector and fixed L2 regularization (penalty 0.01/2 * sum(beta_j^2), including intercept). The solver is completely deterministic, utilizing zero initialization and a provably convergent step size derived from the global Hessian spectral Lipschitz bound (1 / (0.25 * sum(w_i * ||x_i||^2) + 0.01)) with an infinity-norm gradient tolerance of 1e-8 up to 20,000 iterations. Stratified weighting across development maps, view groups, and accepted emissions guarantees balanced representation. Most importantly, the protocol establishes a strict pre-registered failure policy: nonconvergence, missing classes, or failure to meet the outcome floors (>= 1 binary emission in each of 10 map cells, >= 5 correct and >= 5 incorrect per class) immediately halts the pipeline without solver fallback, parameter tuning, or post-hoc resampling. Leave-one-map-out diagnostics on Wave S provide transparent generalization assessment without allowing fold-level feedback to contaminate the model."
+    },
+    "fixed_three_wave_budget": {
+      "decision": "accept",
+      "rationale": "The prospective schedule allocates a fixed, non-adaptive budget of 960 total attempts partitioned into three strictly disjoint waves: Wave S (400 attempts across development maps r001\u2013r010, seeds 101/102) for supervised score learning; Wave C (400 attempts across development maps r001\u2013r010, seeds 201/202) for P2 temperature calibration; and Wave V (160 attempts across held-out validation maps r011\u2013r014, seeds 301/302) for calibration validation. Pre-registering the exact 960 rows in schedule.json with predetermined corridor offset views (0\u20134) and static 0.30 m footprint clearance preflights completely eliminates outcome-dependent stopping, sequential sampling, and seed shopping. Holding out validation worlds r011\u2013r014 and strictly quarantining benchmark worlds r015\u2013r020 protects inferential validity. The protocol properly treats this budget as an engineering ceiling rather than an adequacy guarantee, requiring explicit declaration of failure if diversity or coverage floors are not met."
+    },
+    "joint_probability_as_p2_raw_input": {
+      "decision": "accept",
+      "rationale": "Formally redefining the input to downstream P2 calibration and Coverage v2 from raw detector/OCR matching scores to the learned probability of joint category, instance, and planar reference correctness (p_joint) is a necessary and justified scientific amendment. Raw DINO cosine similarities and OCR character confidences measure semantic text-image similarity, not the operational probability of physical instance identification and reference-point localization within <= 0.35 m. Monotonic single-parameter temperature scaling is mathematically incapable of adjusting for distance-dependent degradation or geometric association residuals. Modeling p_joint upstream directly addresses this structural mismatch. Scientific integrity is preserved because raw matching scores and their bin distributions remain audited side-by-side in all reporting, and the protocol explicitly rejects treating score learning as an automatic pass of coverage gates."
+    },
+    "staged_human_review_and_validation_custody": {
+      "decision": "accept",
+      "rationale": "Enforcing a strictly staged, multi-round human review process is methodologically necessary to prevent data leakage and circular evaluation. Upstream score models must be trained and frozen on Wave S human verdicts before Wave C captures can be calibrated, and development calibration must be frozen before Wave V validation begins. Blinding human reviewers to raw, joint, and calibrated probabilities during review of category, instance, and reference-point consistency (<= 0.35 m) prevents confirmation bias, while requiring all dimensions to be correct for a joint-correct verdict ensures conservative ground-truth assignment. The cryptographic delayed-release mechanism for Wave V (custody of plaintext and keys with delayed AES-256-GCM release bound to artifact hashes) guarantees uncompromised validation data. Finally, explicitly separating protocol review from execution authorization and model admission ensures robust governance throughout the pipeline."
+    },
+    "unchanged_p2_gates": {
+      "decision": "accept",
+      "rationale": "Preserving all original P2 calibration parameters and gates without relaxation is vital for scientific rigor. The scalar temperature family q = sigmoid(logit(p)/T), exhaustive 1,001-point log-spaced grid G, deterministic tie-breaking, and numerical bounds remain identical to the accepted proposal. Crucially, the Coverage v2 admission floors (>= 1 binary observation per map/class, >= 5 correct and >= 5 incorrect per class, and >= 5 observations per confidence bin [0, 0.5), [0.5, 0.8), [0.8, 1.0]) are evaluated strictly on untempered p_joint. This prevents using temperature scaling to artificially inflate bin counts. Preserving point-estimate admission criteria (macro Brier improvement > 1e-12, no class Brier degradation > 1e-12, macro ECE and max MCE degradation <= 1e-12) ensures that the new score learner must demonstrate demonstrable empirical improvement on held-out validation data before admission to runtime."
+    }
+  },
+  "grants_execution_by_itself": false,
+  "overall_decision": "accept",
+  "protocol_id": "R3-JSC-20260924-01",
+  "protocol_sha256": "179a20e5c3b8d94bfe195548ca97184dd9846a0716ad361adccdea90147c98be",
+  "reviewed_at": "2026-09-24T14:35:23+01:00",
+  "reviewer_name": null,
+  "reviewer_role": null,
+  "schedule_sha256": "1fb142087cc38822f8d74769cd92c1a5cd0bbd89effbdf8c55c729eadf410c96",
+  "schema_version": "research3-joint-score-protocol-review/v1"
+}

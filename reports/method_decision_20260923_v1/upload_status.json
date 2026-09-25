@@ -1,0 +1,18 @@
+{
+  "schema_version": "research3-packet-upload-status/v1",
+  "uploaded": false,
+  "status": "blocked_by_auto_review",
+  "destination": "https://github.com/alabiemmanuel177/lusn-robot-navigation",
+  "repository_verified_private": true,
+  "proposed_release_tag": "research3-method-decision-20260923-v1",
+  "payloads": [
+    "reports/research3_method_decision_20260923_v1.zip",
+    "reports/research3_offline_candidates_20260923_v1.zip"
+  ],
+  "reason": "Publishing research evidence and image artifacts requires explicit authorization for this payload and destination; auto-review did not establish ownership/authority from historical context.",
+  "risk": "Transfers research images and evidence to an external GitHub repository.",
+  "workaround_attempted": false,
+  "source_committed_or_pushed": false,
+  "repository_visibility_changed": false,
+  "approval_requested": "Authorize these two exact ZIPs to the existing private repository as the named prerelease."
+}

@@ -1,0 +1,72 @@
+{
+  "assumptions": {
+    "association_radius_m": 0.9,
+    "min_pixels": 18,
+    "temperature": 1
+  },
+  "attempted": 397,
+  "classes": {
+    "chair": {
+      "all_scores_match": true,
+      "all_support_saturated": true,
+      "count": 99,
+      "idealized_depth_for_72_pixels_median_m": 9.950735938318594,
+      "idealized_depth_for_72_pixels_min_m": 8.386251213139566,
+      "max_score_residual": 1.1102230246251565e-16,
+      "minimum_color_score": 0.16964954012690409
+    },
+    "doorway": {
+      "all_scores_match": true,
+      "all_support_saturated": true,
+      "count": 98,
+      "idealized_depth_for_72_pixels_median_m": 11.644227449420494,
+      "idealized_depth_for_72_pixels_min_m": 8.935728421552787,
+      "max_score_residual": 1.1102230246251565e-16,
+      "minimum_color_score": 0.9128935919179066
+    },
+    "laboratory_entrance": {
+      "all_scores_match": true,
+      "all_support_saturated": true,
+      "count": 100,
+      "idealized_depth_for_72_pixels_median_m": 3.698230927092513,
+      "idealized_depth_for_72_pixels_min_m": 2.1494636075677627,
+      "max_score_residual": 1.1102230246251565e-16,
+      "minimum_color_score": 0.9002758625945192
+    },
+    "office_entrance": {
+      "all_scores_match": true,
+      "all_support_saturated": true,
+      "count": 100,
+      "idealized_depth_for_72_pixels_median_m": 7.1376536228250185,
+      "idealized_depth_for_72_pixels_min_m": 2.1452454922234048,
+      "max_score_residual": 1.1102230246251565e-16,
+      "minimum_color_score": 0.8903564167685757
+    }
+  },
+  "completed": 397,
+  "depth_estimate_scope": "inverse-square pixel-area heuristic at fixed orientation; not a verified pose, visibility, reachable distance or prediction of errors",
+  "elapsed_seconds": 4.848265019001701,
+  "failures": [],
+  "headroom_after": {
+    "available_memory_kib": 25521476,
+    "cpu_pressure_avg10": 1.43,
+    "load1": 3.9794921875,
+    "logical_cpus": 24,
+    "wall_time": 1790001970.279062
+  },
+  "headroom_before": {
+    "available_memory_kib": 26067780,
+    "cpu_pressure_avg10": 1.11,
+    "load1": 3.5419921875,
+    "logical_cpus": 24,
+    "wall_time": 1790001965.4294355
+  },
+  "human_labels_generated": false,
+  "labels_sha256": "3615213a863689d904dc764ae2c94ad38d71cbb34babbad6233a5cf074b95a22",
+  "nice": 19,
+  "provider_core_sha256": "f9195d8f71b26fe3207a88404fca6e7e199bdd1a8bd750d3a5d0103566057a82",
+  "schema_version": "research3-stage1-offline-score-reconstruction/v1",
+  "simulator_launched": false,
+  "validation_read": false,
+  "workers": 4
+}

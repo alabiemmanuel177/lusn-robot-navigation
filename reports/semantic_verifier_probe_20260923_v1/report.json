@@ -1,0 +1,27 @@
+{
+  "calibration_eligible": false,
+  "checkpoint_sha256": "ac4f8c4b88af6d963118cbf40ad93176d092abbedfcb752601ae1866352656e6",
+  "device": "cpu",
+  "elapsed_s": 18.789589405059814,
+  "human_labels_generated": false,
+  "journal_sha256": "cb60803c1fe2597ee8345f0a4730c97bb92cf568de49ac44e989abf430628aad",
+  "learned_logit_scale": 100.00000762939453,
+  "learned_scale_changed": false,
+  "live_provider_modified": false,
+  "next_gate": "inspect_semantic_evidence_and_define_prospective_method_before_any_runtime_integration",
+  "observations": 119,
+  "plan_sha256": "815ade2b5bac548a1a7cb105e16cc3b22f7fe06b97af2157aea5ae3d2a080dc0",
+  "primary_or_validation_data_used": false,
+  "protected_data_used": false,
+  "runtime_versions": {
+    "Pillow": "12.3.0",
+    "numpy": "2.5.2",
+    "open_clip_torch": "3.2.0",
+    "safetensors": "0.8.0",
+    "torch": "2.8.0+cpu",
+    "torchvision": "0.23.0+cpu"
+  },
+  "schema_version": "research3-semantic-verifier-probe-report/v1",
+  "threads": 1,
+  "view_outputs": 238
+}

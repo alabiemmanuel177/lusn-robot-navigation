@@ -1,0 +1,1516 @@
+{
+  "bounds": {
+    "arms": {
+      "B5": {
+        "correct": 65,
+        "known": 76,
+        "lower_completion": 0.8125,
+        "scheduled": 80,
+        "unknown": 4,
+        "upper_completion": 0.8625
+      },
+      "B6": {
+        "correct": 56,
+        "known": 76,
+        "lower_completion": 0.7,
+        "scheduled": 80,
+        "unknown": 4,
+        "upper_completion": 0.75
+      }
+    },
+    "complete_pair_mean_difference": -0.1111111111111111,
+    "complete_pairs": 72,
+    "confidence_interval": false,
+    "incomplete_pairs": 8,
+    "lower_contrast": -0.1625,
+    "lower_discordance": 0.125,
+    "missing_attempt_records": 0,
+    "scheduled_pairs": 80,
+    "scope": "identification bounds for fixed recorded engineering outcomes, not population inference",
+    "upper_contrast": -0.0625,
+    "upper_discordance": 0.225,
+    "weighting": "equal worlds, equal eight conditions within worlds, one fixed seed",
+    "worlds": [
+      {
+        "lower_contrast": -0.125,
+        "lower_discordance": 0.125,
+        "slots": [
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_original",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_paraphrase",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "ambiguous_reference",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "missing_landmark",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": false,
+            "condition": "attribute_corruption",
+            "lower_contrast": -1,
+            "lower_discordance": 1,
+            "upper_contrast": -1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "relation_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": false,
+            "b6": false,
+            "condition": "topology_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "false_inserted_clause",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          }
+        ],
+        "upper_contrast": -0.125,
+        "upper_discordance": 0.125,
+        "world": "base-r001"
+      },
+      {
+        "lower_contrast": -0.25,
+        "lower_discordance": 0.125,
+        "slots": [
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_original",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_paraphrase",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "ambiguous_reference",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "missing_landmark",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": false,
+            "condition": "attribute_corruption",
+            "lower_contrast": -1,
+            "lower_discordance": 1,
+            "upper_contrast": -1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": null,
+            "condition": "relation_corruption",
+            "lower_contrast": -1,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 1
+          },
+          {
+            "b5": false,
+            "b6": false,
+            "condition": "topology_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "false_inserted_clause",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          }
+        ],
+        "upper_contrast": -0.125,
+        "upper_discordance": 0.25,
+        "world": "base-r002"
+      },
+      {
+        "lower_contrast": -0.125,
+        "lower_discordance": 0.125,
+        "slots": [
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_original",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_paraphrase",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "ambiguous_reference",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "missing_landmark",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": false,
+            "condition": "attribute_corruption",
+            "lower_contrast": -1,
+            "lower_discordance": 1,
+            "upper_contrast": -1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": null,
+            "b6": true,
+            "condition": "relation_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": false,
+            "b6": false,
+            "condition": "topology_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "false_inserted_clause",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          }
+        ],
+        "upper_contrast": 0.0,
+        "upper_discordance": 0.25,
+        "world": "base-r003"
+      },
+      {
+        "lower_contrast": -0.125,
+        "lower_discordance": 0.125,
+        "slots": [
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_original",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_paraphrase",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "ambiguous_reference",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "missing_landmark",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": false,
+            "condition": "attribute_corruption",
+            "lower_contrast": -1,
+            "lower_discordance": 1,
+            "upper_contrast": -1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "relation_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": false,
+            "b6": false,
+            "condition": "topology_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "false_inserted_clause",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          }
+        ],
+        "upper_contrast": -0.125,
+        "upper_discordance": 0.125,
+        "world": "base-r004"
+      },
+      {
+        "lower_contrast": -0.25,
+        "lower_discordance": 0.125,
+        "slots": [
+          {
+            "b5": true,
+            "b6": null,
+            "condition": "truthful_original",
+            "lower_contrast": -1,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_paraphrase",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "ambiguous_reference",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "missing_landmark",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": false,
+            "condition": "attribute_corruption",
+            "lower_contrast": -1,
+            "lower_discordance": 1,
+            "upper_contrast": -1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "relation_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": false,
+            "b6": false,
+            "condition": "topology_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "false_inserted_clause",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          }
+        ],
+        "upper_contrast": -0.125,
+        "upper_discordance": 0.25,
+        "world": "base-r005"
+      },
+      {
+        "lower_contrast": -0.125,
+        "lower_discordance": 0.0,
+        "slots": [
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_original",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_paraphrase",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "ambiguous_reference",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "missing_landmark",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": null,
+            "b6": false,
+            "condition": "attribute_corruption",
+            "lower_contrast": -1,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "relation_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": false,
+            "b6": false,
+            "condition": "topology_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "false_inserted_clause",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          }
+        ],
+        "upper_contrast": 0.0,
+        "upper_discordance": 0.125,
+        "world": "base-r006"
+      },
+      {
+        "lower_contrast": -0.125,
+        "lower_discordance": 0.125,
+        "slots": [
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_original",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_paraphrase",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "ambiguous_reference",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "missing_landmark",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": false,
+            "condition": "attribute_corruption",
+            "lower_contrast": -1,
+            "lower_discordance": 1,
+            "upper_contrast": -1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "relation_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": false,
+            "b6": false,
+            "condition": "topology_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "false_inserted_clause",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          }
+        ],
+        "upper_contrast": -0.125,
+        "upper_discordance": 0.125,
+        "world": "base-r007"
+      },
+      {
+        "lower_contrast": -0.25,
+        "lower_discordance": 0.25,
+        "slots": [
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_original",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": null,
+            "condition": "truthful_paraphrase",
+            "lower_contrast": -1,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": null,
+            "condition": "ambiguous_reference",
+            "lower_contrast": -1,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "missing_landmark",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": false,
+            "condition": "attribute_corruption",
+            "lower_contrast": -1,
+            "lower_discordance": 1,
+            "upper_contrast": -1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "relation_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": false,
+            "b6": false,
+            "condition": "topology_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": false,
+            "b6": true,
+            "condition": "false_inserted_clause",
+            "lower_contrast": 1,
+            "lower_discordance": 1,
+            "upper_contrast": 1,
+            "upper_discordance": 1
+          }
+        ],
+        "upper_contrast": 0.0,
+        "upper_discordance": 0.5,
+        "world": "base-r008"
+      },
+      {
+        "lower_contrast": -0.125,
+        "lower_discordance": 0.125,
+        "slots": [
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_original",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_paraphrase",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "ambiguous_reference",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": null,
+            "b6": true,
+            "condition": "missing_landmark",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": false,
+            "condition": "attribute_corruption",
+            "lower_contrast": -1,
+            "lower_discordance": 1,
+            "upper_contrast": -1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "relation_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": false,
+            "b6": false,
+            "condition": "topology_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "false_inserted_clause",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          }
+        ],
+        "upper_contrast": 0.0,
+        "upper_discordance": 0.25,
+        "world": "base-r009"
+      },
+      {
+        "lower_contrast": -0.125,
+        "lower_discordance": 0.125,
+        "slots": [
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_original",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "truthful_paraphrase",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "ambiguous_reference",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "missing_landmark",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": false,
+            "condition": "attribute_corruption",
+            "lower_contrast": -1,
+            "lower_discordance": 1,
+            "upper_contrast": -1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": null,
+            "b6": true,
+            "condition": "relation_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 1,
+            "upper_discordance": 1
+          },
+          {
+            "b5": false,
+            "b6": false,
+            "condition": "topology_corruption",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          },
+          {
+            "b5": true,
+            "b6": true,
+            "condition": "false_inserted_clause",
+            "lower_contrast": 0,
+            "lower_discordance": 0,
+            "upper_contrast": 0,
+            "upper_discordance": 0
+          }
+        ],
+        "upper_contrast": 0.0,
+        "upper_discordance": 0.25,
+        "world": "base-r010"
+      }
+    ]
+  },
+  "calibration_used": false,
+  "confirmatory_inference": false,
+  "endpoint_policy": "Use raw independently recorded ordered completion for existing nuisance evidence; do not reinterpret a measured failure as success or impute unknowns.",
+  "failures": [],
+  "input_sha256": {
+    "planned.json": "58283fbc6bbd82478723afb266aa7adda3bb38f15039bdc975dffff2057d3232",
+    "report.json": "0b934fa4c37b1a2c04b78079ea65a37eadd1e92408a312409e719f56de93322d"
+  },
+  "integrity_passed": true,
+  "measured_false_with_unknown_terminal_identity": [
+    "r3-feas-nav-v1-r001-attribute_corruption-b6-s1",
+    "r3-feas-nav-v1-r006-attribute_corruption-b6-s1",
+    "r3-feas-nav-v1-r004-topology_corruption-b6-s1",
+    "r3-feas-nav-v1-r004-topology_corruption-b5-s1",
+    "r3-feas-nav-v1-r005-attribute_corruption-b6-s1",
+    "r3-feas-nav-v1-r009-attribute_corruption-b6-s1",
+    "r3-feas-nav-v1-r010-attribute_corruption-b6-s1",
+    "r3-feas-nav-v1-r007-attribute_corruption-b6-s1",
+    "r3-feas-nav-v1-r005-topology_corruption-b5-s1",
+    "r3-feas-nav-v1-r004-attribute_corruption-b6-s1",
+    "r3-feas-nav-v1-r003-attribute_corruption-b6-s1",
+    "r3-feas-nav-v1-r002-attribute_corruption-b6-s1",
+    "r3-feas-nav-v1-r008-attribute_corruption-b6-s1"
+  ],
+  "protected_outcomes_read": false,
+  "raw_trajectory_semantics_recomputed": false,
+  "schema_version": "research3-navigation-feasibility-audit/v1",
+  "source_sha256": "eb811de37c677f0a46c783dc19ac8cb86f498c030230aed4a6836b085f1bbc98",
+  "verified": [
+    {
+      "run_id": "r3-feas-nav-v1-r009-ambiguous_reference-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-ambiguous_reference-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-attribute_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-attribute_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-missing_landmark-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-missing_landmark-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-ambiguous_reference-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-ambiguous_reference-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-attribute_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-attribute_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-topology_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-topology_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-attribute_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-attribute_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-relation_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-relation_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-truthful_paraphrase-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-truthful_paraphrase-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-false_inserted_clause-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-false_inserted_clause-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-ambiguous_reference-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-ambiguous_reference-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-missing_landmark-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-missing_landmark-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-topology_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-topology_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-relation_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-relation_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-truthful_original-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-truthful_original-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-missing_landmark-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-missing_landmark-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-attribute_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-attribute_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-attribute_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-attribute_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-attribute_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-attribute_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-relation_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-relation_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-false_inserted_clause-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-false_inserted_clause-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-truthful_original-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-truthful_original-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-topology_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-topology_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-ambiguous_reference-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-ambiguous_reference-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-ambiguous_reference-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-ambiguous_reference-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-missing_landmark-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-missing_landmark-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-truthful_paraphrase-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-truthful_paraphrase-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-relation_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-relation_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-false_inserted_clause-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-false_inserted_clause-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-truthful_original-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-truthful_original-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-relation_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-relation_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-ambiguous_reference-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-ambiguous_reference-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-topology_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-topology_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-relation_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-relation_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-ambiguous_reference-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-ambiguous_reference-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-relation_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-relation_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-ambiguous_reference-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-ambiguous_reference-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-false_inserted_clause-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-false_inserted_clause-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-topology_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-topology_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-false_inserted_clause-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-false_inserted_clause-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-missing_landmark-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-missing_landmark-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-false_inserted_clause-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-false_inserted_clause-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-attribute_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-attribute_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-missing_landmark-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-missing_landmark-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-truthful_paraphrase-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-truthful_paraphrase-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-relation_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-relation_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-missing_landmark-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-missing_landmark-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-relation_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-relation_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-missing_landmark-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-missing_landmark-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-truthful_original-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-truthful_original-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-truthful_original-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-truthful_original-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-ambiguous_reference-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-ambiguous_reference-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-truthful_paraphrase-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-truthful_paraphrase-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-topology_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-topology_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-truthful_paraphrase-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r009-truthful_paraphrase-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-truthful_paraphrase-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-truthful_paraphrase-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-attribute_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-attribute_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-topology_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-topology_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-relation_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-relation_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-topology_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-topology_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-missing_landmark-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-missing_landmark-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-topology_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r006-topology_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-false_inserted_clause-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-false_inserted_clause-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-truthful_paraphrase-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-truthful_paraphrase-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-truthful_original-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-truthful_original-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-false_inserted_clause-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-false_inserted_clause-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-truthful_paraphrase-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-truthful_paraphrase-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-missing_landmark-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r001-missing_landmark-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-topology_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-topology_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-attribute_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-attribute_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-ambiguous_reference-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r004-ambiguous_reference-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-truthful_original-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r007-truthful_original-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-attribute_corruption-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-attribute_corruption-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-truthful_paraphrase-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-truthful_paraphrase-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-false_inserted_clause-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r008-false_inserted_clause-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-false_inserted_clause-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-false_inserted_clause-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-truthful_original-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r005-truthful_original-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-truthful_original-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r002-truthful_original-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-truthful_original-b5-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r010-truthful_original-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-truthful_paraphrase-b6-s1",
+      "summary_verified": true
+    },
+    {
+      "run_id": "r3-feas-nav-v1-r003-truthful_paraphrase-b5-s1",
+      "summary_verified": true
+    }
+  ]
+}

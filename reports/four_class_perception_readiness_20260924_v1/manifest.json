@@ -1,0 +1,206 @@
+{
+  "calibrated_runtime_admitted": false,
+  "calibration_coverage_certified": false,
+  "candidate_version": "four-class-v3-supported-depth-band",
+  "created_at": "2026-09-24T08:12:27.055194+00:00",
+  "deferred_capture_exact_tf_frames": 20,
+  "engineering_readiness_passed": true,
+  "external_publication_performed": false,
+  "frozen_v8_sha256": "6b7bc9e5dd4f5289af88ee4524db3544d277eeeb6a0685177b12c128ef6fb49a",
+  "human_identity_accuracy_verified": false,
+  "input_sha256": {
+    "docs/FOUR_CLASS_PERCEPTION_READINESS_20260924.md": "8f69002340ab3392e3084f657dd063e6253a9c8b111038f84f04f049b8c968ec",
+    "docs/FOUR_CLASS_READINESS_PROTOCOL_20260924.md": "e963cf1208d3ccf5b0e61c66379e7fb150e9357e31838d6f60d2c0b3fb65c4c0",
+    "reports/four_class_broad_integration_20260924_v3/audit.json": "5cd2f6d7e79a8bf27880a48918e85e1fc757b6f46f660a70d6bfeb3d3209ae66",
+    "reports/four_class_broad_integration_20260924_v3/plan.json": "33496e3733058056949054c00402c5fcf8a1c20283bb3bba7318e4a9fc1a1d94",
+    "reports/four_class_broad_integration_20260924_v3/results.json": "0a84a781d920f6e1151fb344675470881b4dfc6317122acb335be76e59675f52",
+    "reports/four_class_deferred_capture_20260924_v1/independent_audit.json": "0cbe1dd546d68eec9c1b45aa07d7394e689bbc2dcb0aca52637444c2671fc381",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-000.json": "314a4b9df72589f449c21634bb60880865772dd39925ebc71b75e32cd62e65cc",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-001.json": "d082f9ecbb503703e804fdd467dc94abba54946406e8a10178e0ba6584adbfcb",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-002.json": "0b88805f8ac3aa91053dc14e2c7702890313259df9a07ec84ca68aa08a2e2e4d",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-003.json": "ebf9de3ca013049bbc33a2907524dcbea552cce29f6f95fa37e4210256f73d4f",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-004.json": "8e036bbe210f99d29eac2c58bccda5ab11295c81fc11636758dfaac084d7117d",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-005.json": "210ae2b86707f4b8cf95e56beeabf9a871f8a1f0aa7cc37da058ee9655133bf3",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-006.json": "7f4d2294004d0331360ed6993b143a14db1aa9df6d3e09d4eb73b2b60cef3b90",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-007.json": "8f25a041d54b9ca99d8620105dd1a6291f13bc5e3a610ca170cd05776bef3230",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-008.json": "b0a3cda4be067ac704b9780bc9290e23271429949fd8e49c8f5771e125e17dbd",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-009.json": "606b2c42686b46bd477defa6065f9f47d4a358e3fa9cc3136bb7aadda51b0a13",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-010.json": "ee13e832d938e7e3f0338273bad9e8a3f99f7458229ff6b02ac29ad4a9fce53e",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-011.json": "56c6153cfe16991c7af4b77734757cfed8d41d2745e1af6793f21bb8b397e3af",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-012.json": "2109c4ac06fe0fa2bd47c4a43b5eca06d1a7fcb4aa3b21be009c64cc1c44785a",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-013.json": "063f280eeaccc3f85737dc23202783c1109c447377f4eb0a119b86538889c3da",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-014.json": "b956133de4913b629e31ccfa2eac50d4154ed9ee8da6666d840649f85834dc73",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-015.json": "3979a3c2c9264fefae0a7c9c51fad89b84a80063d5e665adc7ee69a8619c0c49",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-016.json": "e06703ebc0419bb7aa1e8b3475b784a4c5b69f59398aed23db53a381e6726adf",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-017.json": "5775e20bc8d5fadcf1f18a615c58dc1c87a3fa7931e60c7eaf6e6be0fe9d675c",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-018.json": "79c169e62e050fbe6aa68333f4ef3a9662618c76182fb9940ae513c90c38f3ef",
+    "reports/four_class_deferred_capture_20260924_v1/view-00-chair/episode/context_capture/frame-019.json": "df5d4499c8191d56e0c868d0c623dce26f35a673268e503c38453a1cbc57d881",
+    "reports/four_class_live_integration_20260924_v3/audit.json": "0cf689867c5bd7eb844c1fc6611eec073209866dc634f417100a3039b6b023f1",
+    "reports/four_class_live_integration_20260924_v3/plan.json": "b7edb8b9861c03fa49008b9ae602770bfafc278096865f2dfcde5e44aacb2805",
+    "reports/four_class_live_integration_20260924_v3/results.json": "94a8e7010350e7f45f2edf108e9206981c139cd28efead1778aabd45aa4db0cc",
+    "reports/four_class_readiness_integration_20260924_v3/audit.json": "45a39ad667cea9fbf599442ee0c5d8364e3bdec5e46a927d19640274c32e9d6b",
+    "reports/four_class_readiness_integration_20260924_v3/plan.json": "642cb731c1482b4a1873921fbf1f205d66c217210edf6b1db9a8d2560070f18d",
+    "reports/four_class_readiness_integration_20260924_v3/results.json": "8adc8af334595d7d5aa5abaa4fd7e38a77958027eb1d308d3b398a9c967f4b9c",
+    "reports/four_class_readiness_regression_20260924_v3.xml": "91a4b8084bf5e8d1c98fe8c277d1d4a1dccb841da12608c96297b5ebc1632540",
+    "reports/four_class_repeated_integration_20260924_v3/audit.json": "f315d472e55591f75e7452ec795685a496b6ec3f91f72513644f7332d8b65fa8",
+    "reports/four_class_repeated_integration_20260924_v3/plan.json": "a2a56bc47baaa9cac4d488923b69ecd4f400147a10eb4c96af9372579528edc1",
+    "reports/four_class_repeated_integration_20260924_v3/results.json": "0c0617875b4bf3b828c2bfd3b4e5d2f59a65c6a9516a8153465b927c952e33a1",
+    "reports/four_class_world_template_audit_20260924_v1.json": "f09bcfa05602b9cfd455480930c4edae4bba328477d996d6124e3b69e6285c52",
+    "reports/world_specific_method_approval_20260924.json": "2797d19309c21f539347a1803dbe8f5c481233d44522c9afc5db7da6ab9e0211",
+    "scripts/build_four_class_readiness_handoff.py": "56fcd173ae92fb5c0cc92f7d150eaa4cc5a1aa022cd62adbef27fe23329563f3",
+    "scripts/candidate_depth_support.py": "fdac2e9aba5825d9890546b88e9ce0c74e393bf936d452d8f361779714e0d886",
+    "scripts/candidate_instance_association.py": "513225dfa9bd0c67d783f973b6a355dffc2c03623293ce6b0b3f11d3c93daca5",
+    "scripts/candidate_portal_depth.py": "d2dbdb245be6958b8daed58a0a2f515565e3e506f7df725c973e97fc23c09325",
+    "scripts/candidate_rendering_transform.py": "2b7deaac7f2212acf8609bcfa8c2e0e59e75e099addd75a10b12a009d1bc5d83",
+    "scripts/chair_foreground_band_candidate.py": "3f826bb7141fa0476f64920c492d66b0ca0abc99817db8e77a36c6345f7cca52",
+    "scripts/deferred_physical_capture_candidate.py": "2b37015874a2ff9c6afb1d1d8dbe361ed6fd68e2cec1519349ac189faadae349",
+    "scripts/entrance_context_candidate.py": "44d629a93b7c906297da8a10cc5a9c0d2640436d357977901e0dde132f19b975",
+    "scripts/fixed_frame_delay.py": "4b495abc67f83108814858489a4b237ce26738971d6e370450dc2ff03e4efd14",
+    "scripts/four_class_candidate_runtime_v3.py": "cb4f6be9502eaab9a58fdf13ab490ebdb21ea712b2025abc6adf03f43747bc7a",
+    "scripts/four_class_perception_candidate.py": "0b780dada4be8f896e5a9190ab6bf89f10121991465f2d21210def5fefcf6438",
+    "scripts/four_class_perception_candidate_v3.py": "22a6254225e61377faf1770521520c54bcdb34bcfaa19895d7d981cb47ea364e",
+    "scripts/readable_sign_reference_candidate.py": "d13a14ac997915ecfdf61b5ca5fd38a8dbb78411e89a8e2d81f84a35e98365bf"
+  },
+  "panels": {
+    "broad": {
+      "hypotheses": 243,
+      "integrated_frames": 80,
+      "repeated": {},
+      "status_counts": {
+        "completed": 80
+      },
+      "support": {
+        "r3geo_base_r001": {
+          "chair": 2,
+          "doorway": 1,
+          "laboratory_entrance": 4,
+          "office_entrance": 1
+        },
+        "r3geo_base_r002": {
+          "chair": 2,
+          "doorway": 1,
+          "laboratory_entrance": 4,
+          "office_entrance": 2
+        },
+        "r3geo_base_r003": {
+          "chair": 2,
+          "doorway": 1,
+          "laboratory_entrance": 5,
+          "office_entrance": 2
+        },
+        "r3geo_base_r004": {
+          "chair": 2,
+          "doorway": 1,
+          "laboratory_entrance": 5,
+          "office_entrance": 1
+        },
+        "r3geo_base_r005": {
+          "chair": 2,
+          "doorway": 2,
+          "laboratory_entrance": 4,
+          "office_entrance": 2
+        },
+        "r3geo_base_r006": {
+          "chair": 2,
+          "doorway": 2,
+          "laboratory_entrance": 4,
+          "office_entrance": 2
+        },
+        "r3geo_base_r007": {
+          "chair": 2,
+          "doorway": 2,
+          "laboratory_entrance": 4,
+          "office_entrance": 2
+        },
+        "r3geo_base_r008": {
+          "chair": 2,
+          "doorway": 2,
+          "laboratory_entrance": 4,
+          "office_entrance": 2
+        },
+        "r3geo_base_r009": {
+          "chair": 2,
+          "doorway": 1,
+          "laboratory_entrance": 4,
+          "office_entrance": 2
+        },
+        "r3geo_base_r010": {
+          "chair": 2,
+          "doorway": 1,
+          "laboratory_entrance": 4,
+          "office_entrance": 1
+        }
+      }
+    },
+    "live": {
+      "hypotheses": 153,
+      "integrated_frames": 55,
+      "repeated": {},
+      "status_counts": {
+        "completed": 55,
+        "missing_localization_tf": 25
+      },
+      "support": {
+        "r3geo_base_r001": {
+          "chair": 15,
+          "doorway": 14,
+          "laboratory_entrance": 26,
+          "office_entrance": 14
+        }
+      }
+    },
+    "readiness": {
+      "hypotheses": 357,
+      "integrated_frames": 141,
+      "repeated": {},
+      "status_counts": {
+        "completed": 141,
+        "retained_source_failure": 3
+      },
+      "support": {
+        "r3geo_base_r001": {
+          "chair": 33,
+          "doorway": 3,
+          "laboratory_entrance": 23,
+          "office_entrance": 3
+        },
+        "r3geo_base_r006": {
+          "chair": 26,
+          "doorway": 3,
+          "laboratory_entrance": 10,
+          "office_entrance": 6
+        }
+      }
+    },
+    "repeated": {
+      "hypotheses": 96,
+      "integrated_frames": 24,
+      "repeated": {
+        "laboratory_entrance": 12,
+        "office_entrance": 12
+      },
+      "status_counts": {
+        "completed": 24,
+        "missing_localization_tf": 14,
+        "retained_source_failure": 2
+      },
+      "support": {
+        "r3geo_base_r001": {
+          "chair": 0,
+          "doorway": 0,
+          "laboratory_entrance": 12,
+          "office_entrance": 12
+        }
+      }
+    }
+  },
+  "primary_collection_authorized_by_this_manifest": false,
+  "protected_access_authorized": false,
+  "ready_for_next_reviewed_protocol_preparation": true,
+  "repeated_chair_live_validation": false,
+  "repeated_doorway_live_pass": false,
+  "schema_version": "research3-four-class-engineering-readiness/v1",
+  "tests_passed": 1227,
+  "tests_skipped": 1,
+  "validation_labels_accessed": false
+}

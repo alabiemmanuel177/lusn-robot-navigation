@@ -1,0 +1,18 @@
+{
+  "calibration_eligible": false,
+  "completed": 23,
+  "elapsed_s": 279.0258915424347,
+  "human_labels_generated": false,
+  "journal_sha256": "ebf2925ecd59aaf42aa10c4b4e1e8ca1ef2abb10037fe17d74cdd638f49e6e60",
+  "live_runtime_modified": false,
+  "model_asset_sha256": "4d5b96f427658ade700d6c098bd8a2837b759a289380c8611b5f0e90a59b3a67",
+  "plan_sha256": "6fdc364f3a531237c7763a7167059a6c28dffc358e938657858baa8e6c140621",
+  "protected_data_read": false,
+  "slots": 24,
+  "versions": {
+    "Pillow": "12.3.0",
+    "torch": "2.8.0+cpu",
+    "torchvision": "0.23.0+cpu",
+    "transformers": "4.57.1"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "approves_unseen_labels_or_models": false,
+  "authorizes_validation_release_or_protected_access": false,
+  "decisions": {
+    "class_specific_depth_features": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "duplicate_and_missingness_rules": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "fixed_learning_solver_and_failure_policy": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "fixed_three_wave_budget": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "joint_probability_as_p2_raw_input": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "staged_human_review_and_validation_custody": {
+      "decision": "pending",
+      "rationale": null
+    },
+    "unchanged_p2_gates": {
+      "decision": "pending",
+      "rationale": null
+    }
+  },
+  "grants_execution_by_itself": false,
+  "overall_decision": "pending",
+  "protocol_id": "R3-JSC-20260924-01",
+  "protocol_sha256": "179a20e5c3b8d94bfe195548ca97184dd9846a0716ad361adccdea90147c98be",
+  "reviewed_at": null,
+  "reviewer_name": null,
+  "reviewer_role": null,
+  "schedule_sha256": "1fb142087cc38822f8d74769cd92c1a5cd0bbd89effbdf8c55c729eadf410c96",
+  "schema_version": "research3-joint-score-protocol-review/v1"
+}

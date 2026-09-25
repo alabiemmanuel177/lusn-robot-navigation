@@ -1,0 +1,78 @@
+schema_version: research3-calibration-redesign-proposal/v2
+amendment_id: R3-CA-20260923-02
+status: candidate_requires_feasibility_and_exact_amendment_review
+preparation_authorized_by_user: true
+execution_authorized: false
+primary_collection_authorized: false
+calibration_freeze_authorized: false
+protected_access_authorized: false
+coverage:
+  schema_version: research3-physical-calibration-coverage/v2
+  outcome_coverage_scope: global_class
+  minimum_per_map_class_total: 1
+  minimum_per_class_outcome: 5
+  minimum_per_class_confidence_bin: 5
+  confidence_bin_edges: [0, 0.5, 0.8, 1]
+  unreviewable_exclusion_policy: allow_with_counts
+classes: [chair, doorway, laboratory_entrance, office_entrance]
+conditions:
+  source_view_indices: [0, 3]
+  view_position_interpretation: original_reference_and_original_plus_one_metre_offset
+  yaw_offsets_rad: [0.0, -0.95, 0.95]
+  lighting_scales: [1.0, 0.9, 0.8]
+  lighting_rule: scale_world_ambient_and_sun_diffuse_rgb_only_preserve_alpha
+  lighting_interpretation: hypothetical_simulator_conditions_not_measured_real_world_prevalence
+  reference_ambient_rgba: [0.4, 0.4, 0.4, 1.0]
+  noise_added: false
+  occluders_or_distractors_added: false
+  marker_materials_or_geometry_changed: false
+  provider_formula_palette_thresholds_or_association_changed: false
+  camera_fov_or_intrinsics_changed: false
+  horizontal_fov_rad: 2.0
+  target_orientation: face_target_then_apply_fixed_yaw_offset
+  camera_yaw_means_partial_framing_not_guaranteed_visibility: true
+sampling:
+  raw_frames_per_attempt: 1
+  selection: earliest_synchronized_frame_then_exact_assigned_entity_and_class
+  timeout_seconds: 90
+  nondetection_is_negative_label: false
+  infrastructure_failure_is_nondetection: false
+  outcome_conditioned_retries_or_replacements: false
+  unsafe_pose: retain_as_preflight_infeasible_no_substitution
+  order_seed: 20260923
+feasibility:
+  development_maps: [1, 6]
+  map_selection_reason: lowest_map_id_in_each_half_of_development_map_list_not_outcome_selection
+  simulator_seeds: [7]
+  fixed_attempts: 144
+  calibration_eligible: false
+  automatic_screen: at_least_two_emissions_per_class_per_raw_bin_before_requesting_pilot_labels
+  human_screen: at_least_two_correct_and_two_incorrect_joint_verdicts_per_class
+  pilot_labels_in_primary_fit_or_validation: false
+  failure_policy: stop_and_report_no_automatic_extension_or_primary_promotion
+primary_candidate:
+  development_maps: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  validation_maps: [11, 12, 13, 14]
+  simulator_seeds: [11, 12]
+  development_attempts: 1440
+  validation_attempts: 576
+  total_attempts: 2016
+  activation: only_after_feasibility_review_exact_amendment_approval_and_source_admission
+  old_primary_pilot_diagnostic_and_feasibility_rows_pooled: false
+  new_validation_required_for_changed_distribution: true
+  old_validation_return_remains_sequestered: true
+  validation_model_selection_allowed: false
+  development_fitting_method: unchanged_accepted_P2_classwise_temperature_grid
+  weighting: equal_map_then_condition_view_group_then_emission_within_class
+  scope: calibration_conditional_on_emission_in_declared_equal_condition_simulator_mixture
+  primary_negative_provenance: human_judged_rendered_sensor_observation_error_not_injected_label_or_pose
+  engineered_old_diagnostic_negatives_eligible: false
+  coverage_applied_independently_per_partition: true
+  stop_rule: exhaust_fixed_schedule_then_gate_no_outcome_chasing
+  unmet_coverage: blocked_no_threshold_relaxation_or_claim_of_validated_calibration
+preserve:
+  research1_and_research2_files: true
+  historical_sources_evidence_labels_and_approvals: true
+  physical_colliders_routes_landmark_ids_and_materials: true
+  raw_probabilities_and_unreviewable_verdicts: true
+  protected_worlds_15_to_20_unopened: true

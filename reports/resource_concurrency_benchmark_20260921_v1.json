@@ -1,0 +1,862 @@
+{
+  "baseline_end": 1790000669.293115,
+  "historical_capture_seconds": {
+    "failed_count": 14,
+    "failed_total_seconds": 460.854697,
+    "mean": 23.490686117794485,
+    "median": 23.055131,
+    "p90": 26.173796,
+    "success_count": 399,
+    "successful_total_seconds": 9372.783761
+  },
+  "input_frame_metadata_sha256": {
+    "reports/physical_live_episodes/expansion-v1-r001-chair-s1-view0/perception_capture/frame-000.json": "1e103873fed38a86137737e57f71e8f026bce1d39e97678944c81cfb6b09089a",
+    "reports/physical_live_episodes/expansion-v1-r001-chair-s1-view1/perception_capture/frame-000.json": "28ac306e96eb8e7b068fd7834ff95578510b454e9649a4e39d4f710c57bf8e30",
+    "reports/physical_live_episodes/expansion-v1-r001-chair-s1-view2-retry1/perception_capture/frame-000.json": "38fac66b13a1f98db800ee603719c996b57d4d4ee3ced019dd19f0b49fe5799c",
+    "reports/physical_live_episodes/expansion-v1-r001-chair-s1-view3-retry1/perception_capture/frame-000.json": "0ffd3bd2344c0dbf064ff5b36509001669d9eeb6232edfef44c84daa82b8e7e9",
+    "reports/physical_live_episodes/expansion-v1-r001-chair-s1-view4/perception_capture/frame-000.json": "e5fd81aa1b3637b923c763e4d48fd0becd93d4c8c53892f9f186b8b596d15c00",
+    "reports/physical_live_episodes/expansion-v1-r001-chair-s2-view0-retry1/perception_capture/frame-000.json": "85db5f00e9789af15e112dc9e8fa9458f73781f516890bbd843d5e802150b016",
+    "reports/physical_live_episodes/expansion-v1-r001-chair-s2-view2/perception_capture/frame-000.json": "27bdc6b4e5d7e64ce0a443313fa5f019fffad90a83fb2bf1fda04815a9e5eea9",
+    "reports/physical_live_episodes/expansion-v1-r001-chair-s2-view3-retry1/perception_capture/frame-000.json": "281ad34973d44beecd442360ecdc57f95e21db8f9da0485924c91adab74327c5",
+    "reports/physical_live_episodes/expansion-v1-r001-chair-s2-view4/perception_capture/frame-000.json": "d98fb4f95b255d81f0649580b497f9bf27dfc6fdb3ddf26c4956ad768ce41879",
+    "reports/physical_live_episodes/expansion-v1-r001-doorway-s1-view0-retry1/perception_capture/frame-000.json": "31bd80f8799fc1e122d92bc96c4fd03ae008cd6e3c30fd9b164408860367cd57",
+    "reports/physical_live_episodes/expansion-v1-r001-doorway-s1-view1-retry1/perception_capture/frame-000.json": "f1fc8eb1ea8c20ab69a009bdc789bdff590fce1d2f4537a75079fdd36d581fc8",
+    "reports/physical_live_episodes/expansion-v1-r001-doorway-s1-view2-retry1/perception_capture/frame-000.json": "afdc42dfec621a045c4492819c7f1f49b04fd66e57d30a13cb95ea749cadb9db",
+    "reports/physical_live_episodes/expansion-v1-r001-doorway-s1-view3/perception_capture/frame-000.json": "ed1d870c24f5d5c9d47bc44c92a6fa4845791a17ecac747900819fca6c13524e",
+    "reports/physical_live_episodes/expansion-v1-r001-doorway-s1-view4/perception_capture/frame-000.json": "be41dca5bef4e21036a2560d851002bfac481b125b421307d7b615e795766dba",
+    "reports/physical_live_episodes/expansion-v1-r001-doorway-s2-view0/perception_capture/frame-000.json": "36eac70ce92cdd9a6bdfca64d173686fa0fc17e07bc862b50d9ce7bb31f37818",
+    "reports/physical_live_episodes/expansion-v1-r001-doorway-s2-view1/perception_capture/frame-000.json": "619a3deb250923feeaebe0c69cea76555caa52b038fd6e49353e46a269c9ccb5",
+    "reports/physical_live_episodes/expansion-v1-r001-doorway-s2-view2/perception_capture/frame-000.json": "d510c9316cf8e4e1f8bb6c14295eb79b4797cdd8567881a3e4bbec9368e09445",
+    "reports/physical_live_episodes/expansion-v1-r001-laboratory_entrance-s1-view0/perception_capture/frame-000.json": "fb8b38b015c7115c76b52ba8ca7ec120d76d388e5ce726bb79cb9bd25dd1ac51",
+    "reports/physical_live_episodes/expansion-v1-r001-laboratory_entrance-s1-view1/perception_capture/frame-000.json": "6b6085a162d87c1d8299f8ae3a309f01c8d9543bbec259b411d2fb041f24ac19",
+    "reports/physical_live_episodes/expansion-v1-r001-laboratory_entrance-s1-view2/perception_capture/frame-000.json": "bc4a8bbb5751c19c1a9cd12b8bdaa744599c31a654956fba9562844cd1a0231a",
+    "reports/physical_live_episodes/expansion-v1-r001-laboratory_entrance-s1-view3/perception_capture/frame-000.json": "8972f8a14c4e91066111ca24c29a5e17cd3accae9b659bff721eae46ec0d6499",
+    "reports/physical_live_episodes/expansion-v1-r001-laboratory_entrance-s1-view4/perception_capture/frame-000.json": "9326209abef3be541b0ef8ecd4424955cc7db1af679ed5ee285c8147df824dee",
+    "reports/physical_live_episodes/expansion-v1-r001-laboratory_entrance-s2-view0/perception_capture/frame-000.json": "16f0a774f17572d9bd0ef83cb9c63c00afcfa469626dc4996a3a16111e69f932",
+    "reports/physical_live_episodes/expansion-v1-r001-laboratory_entrance-s2-view1/perception_capture/frame-000.json": "dcdf6f3161a13c783dfa3bef89b57623eb2fdb90845427bb202313a06377b73a"
+  },
+  "median_seconds": {
+    "1": 1.4923371090008004,
+    "2": 0.7566764900002454,
+    "4": 0.3969093099985912
+  },
+  "monitor_errors": [],
+  "priority_nice": 19,
+  "samples": [
+    {
+      "cpu_ticks": [
+        61743181,
+        61460987
+      ],
+      "gpu": {
+        "gpu_busy_percent": 80,
+        "mem_info_gtt_used": 136355840,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 4.20068359375,
+      "memory_available_kib": 26559432,
+      "pressure": {
+        "cpu": 0.04,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000664.2933402
+    },
+    {
+      "cpu_ticks": [
+        61744356,
+        61462052
+      ],
+      "gpu": {
+        "gpu_busy_percent": 87,
+        "mem_info_gtt_used": 136355840,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 4.20068359375,
+      "memory_available_kib": 26552476,
+      "pressure": {
+        "cpu": 0.04,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000664.7941244
+    },
+    {
+      "cpu_ticks": [
+        61745534,
+        61463118
+      ],
+      "gpu": {
+        "gpu_busy_percent": 87,
+        "mem_info_gtt_used": 144097280,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 4.20068359375,
+      "memory_available_kib": 26546076,
+      "pressure": {
+        "cpu": 0.04,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000665.2956543
+    },
+    {
+      "cpu_ticks": [
+        61746706,
+        61464185
+      ],
+      "gpu": {
+        "gpu_busy_percent": 87,
+        "mem_info_gtt_used": 144097280,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 4.20068359375,
+      "memory_available_kib": 26553804,
+      "pressure": {
+        "cpu": 0.03,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000665.796714
+    },
+    {
+      "cpu_ticks": [
+        61747876,
+        61465260
+      ],
+      "gpu": {
+        "gpu_busy_percent": 87,
+        "mem_info_gtt_used": 144097280,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 4.20068359375,
+      "memory_available_kib": 26553216,
+      "pressure": {
+        "cpu": 0.03,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000666.2975206
+    },
+    {
+      "cpu_ticks": [
+        61749045,
+        61466330
+      ],
+      "gpu": {
+        "gpu_busy_percent": 86,
+        "mem_info_gtt_used": 136355840,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 3.9443359375,
+      "memory_available_kib": 26577808,
+      "pressure": {
+        "cpu": 0.03,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000666.7981913
+    },
+    {
+      "cpu_ticks": [
+        61750220,
+        61467402
+      ],
+      "gpu": {
+        "gpu_busy_percent": 86,
+        "mem_info_gtt_used": 136355840,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 3.9443359375,
+      "memory_available_kib": 26571528,
+      "pressure": {
+        "cpu": 0.03,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000667.2992334
+    },
+    {
+      "cpu_ticks": [
+        61751394,
+        61468467
+      ],
+      "gpu": {
+        "gpu_busy_percent": 86,
+        "mem_info_gtt_used": 136355840,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 3.9443359375,
+      "memory_available_kib": 26537248,
+      "pressure": {
+        "cpu": 0.02,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000667.8003001
+    },
+    {
+      "cpu_ticks": [
+        61752570,
+        61469540
+      ],
+      "gpu": {
+        "gpu_busy_percent": 86,
+        "mem_info_gtt_used": 136355840,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 3.9443359375,
+      "memory_available_kib": 26508540,
+      "pressure": {
+        "cpu": 0.02,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000668.3026128
+    },
+    {
+      "cpu_ticks": [
+        61753741,
+        61470622
+      ],
+      "gpu": {
+        "gpu_busy_percent": 87,
+        "mem_info_gtt_used": 136355840,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 3.9443359375,
+      "memory_available_kib": 26493400,
+      "pressure": {
+        "cpu": 0.02,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000668.8032527
+    },
+    {
+      "cpu_ticks": [
+        61754918,
+        61471690
+      ],
+      "gpu": {
+        "gpu_busy_percent": 86,
+        "mem_info_gtt_used": 136355840,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 3.9443359375,
+      "memory_available_kib": 26504480,
+      "pressure": {
+        "cpu": 0.02,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000669.3057134
+    },
+    {
+      "cpu_ticks": [
+        61756091,
+        61472703
+      ],
+      "gpu": {
+        "gpu_busy_percent": 86,
+        "mem_info_gtt_used": 136355840,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 3.9443359375,
+      "memory_available_kib": 26461748,
+      "pressure": {
+        "cpu": 0.02,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000669.8076553
+    },
+    {
+      "cpu_ticks": [
+        61757258,
+        61473655
+      ],
+      "gpu": {
+        "gpu_busy_percent": 85,
+        "mem_info_gtt_used": 136355840,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 3.9443359375,
+      "memory_available_kib": 26696416,
+      "pressure": {
+        "cpu": 0.02,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000670.3085406
+    },
+    {
+      "cpu_ticks": [
+        61758440,
+        61474691
+      ],
+      "gpu": {
+        "gpu_busy_percent": 86,
+        "mem_info_gtt_used": 136355840,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 1037312000
+      },
+      "load1": 3.9443359375,
+      "memory_available_kib": 26708472,
+      "pressure": {
+        "cpu": 0.02,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000670.8093615
+    },
+    {
+      "cpu_ticks": [
+        61759633,
+        61475778
+      ],
+      "gpu": {
+        "gpu_busy_percent": 85,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.9443359375,
+      "memory_available_kib": 27007660,
+      "pressure": {
+        "cpu": 0.02,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000671.310688
+    },
+    {
+      "cpu_ticks": [
+        61760828,
+        61476860
+      ],
+      "gpu": {
+        "gpu_busy_percent": 82,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.86865234375,
+      "memory_available_kib": 27008260,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000671.811299
+    },
+    {
+      "cpu_ticks": [
+        61762028,
+        61477904
+      ],
+      "gpu": {
+        "gpu_busy_percent": 83,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.86865234375,
+      "memory_available_kib": 27010500,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000672.3125968
+    },
+    {
+      "cpu_ticks": [
+        61763225,
+        61478874
+      ],
+      "gpu": {
+        "gpu_busy_percent": 81,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.86865234375,
+      "memory_available_kib": 27038688,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000672.813241
+    },
+    {
+      "cpu_ticks": [
+        61764420,
+        61479967
+      ],
+      "gpu": {
+        "gpu_busy_percent": 82,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.86865234375,
+      "memory_available_kib": 27077456,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000673.3137956
+    },
+    {
+      "cpu_ticks": [
+        61765618,
+        61481093
+      ],
+      "gpu": {
+        "gpu_busy_percent": 84,
+        "mem_info_gtt_used": 129536000,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.86865234375,
+      "memory_available_kib": 27076012,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000673.8146274
+    },
+    {
+      "cpu_ticks": [
+        61766815,
+        61482221
+      ],
+      "gpu": {
+        "gpu_busy_percent": 83,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.86865234375,
+      "memory_available_kib": 27086084,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000674.3157713
+    },
+    {
+      "cpu_ticks": [
+        61768017,
+        61483310
+      ],
+      "gpu": {
+        "gpu_busy_percent": 83,
+        "mem_info_gtt_used": 129536000,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.86865234375,
+      "memory_available_kib": 27092616,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000674.817253
+    },
+    {
+      "cpu_ticks": [
+        61769215,
+        61484385
+      ],
+      "gpu": {
+        "gpu_busy_percent": 81,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.86865234375,
+      "memory_available_kib": 27111948,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000675.317857
+    },
+    {
+      "cpu_ticks": [
+        61770412,
+        61485462
+      ],
+      "gpu": {
+        "gpu_busy_percent": 83,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.86865234375,
+      "memory_available_kib": 27113672,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000675.818687
+    },
+    {
+      "cpu_ticks": [
+        61771610,
+        61486459
+      ],
+      "gpu": {
+        "gpu_busy_percent": 82,
+        "mem_info_gtt_used": 129536000,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.86865234375,
+      "memory_available_kib": 27105528,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000676.3200126
+    },
+    {
+      "cpu_ticks": [
+        61772808,
+        61487581
+      ],
+      "gpu": {
+        "gpu_busy_percent": 83,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.638671875,
+      "memory_available_kib": 27161256,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000676.8206408
+    },
+    {
+      "cpu_ticks": [
+        61774004,
+        61488699
+      ],
+      "gpu": {
+        "gpu_busy_percent": 83,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.638671875,
+      "memory_available_kib": 27169000,
+      "pressure": {
+        "cpu": 0.01,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000677.3217983
+    },
+    {
+      "cpu_ticks": [
+        61775201,
+        61489826
+      ],
+      "gpu": {
+        "gpu_busy_percent": 83,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.638671875,
+      "memory_available_kib": 27167060,
+      "pressure": {
+        "cpu": 0.0,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000677.8227646
+    },
+    {
+      "cpu_ticks": [
+        61776402,
+        61491006
+      ],
+      "gpu": {
+        "gpu_busy_percent": 84,
+        "mem_info_gtt_used": 129536000,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.638671875,
+      "memory_available_kib": 27176736,
+      "pressure": {
+        "cpu": 0.0,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000678.3235605
+    },
+    {
+      "cpu_ticks": [
+        61777599,
+        61492186
+      ],
+      "gpu": {
+        "gpu_busy_percent": 84,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.638671875,
+      "memory_available_kib": 27178496,
+      "pressure": {
+        "cpu": 0.0,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000678.823923
+    },
+    {
+      "cpu_ticks": [
+        61778798,
+        61493368
+      ],
+      "gpu": {
+        "gpu_busy_percent": 84,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.638671875,
+      "memory_available_kib": 27184804,
+      "pressure": {
+        "cpu": 0.0,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000679.325244
+    },
+    {
+      "cpu_ticks": [
+        61779996,
+        61494548
+      ],
+      "gpu": {
+        "gpu_busy_percent": 83,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.638671875,
+      "memory_available_kib": 27184504,
+      "pressure": {
+        "cpu": 0.0,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000679.8259022
+    },
+    {
+      "cpu_ticks": [
+        61781196,
+        61495728
+      ],
+      "gpu": {
+        "gpu_busy_percent": 85,
+        "mem_info_gtt_used": 129536000,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.638671875,
+      "memory_available_kib": 27188776,
+      "pressure": {
+        "cpu": 0.0,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000680.3266654
+    },
+    {
+      "cpu_ticks": [
+        61782395,
+        61496909
+      ],
+      "gpu": {
+        "gpu_busy_percent": 85,
+        "mem_info_gtt_used": 129536000,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.638671875,
+      "memory_available_kib": 27191040,
+      "pressure": {
+        "cpu": 0.0,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000680.8283236
+    },
+    {
+      "cpu_ticks": [
+        61783593,
+        61498089
+      ],
+      "gpu": {
+        "gpu_busy_percent": 84,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.638671875,
+      "memory_available_kib": 27196660,
+      "pressure": {
+        "cpu": 0.0,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000681.3289492
+    },
+    {
+      "cpu_ticks": [
+        61784792,
+        61499268
+      ],
+      "gpu": {
+        "gpu_busy_percent": 84,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.50732421875,
+      "memory_available_kib": 27198536,
+      "pressure": {
+        "cpu": 0.0,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000681.829994
+    },
+    {
+      "cpu_ticks": [
+        61785993,
+        61500449
+      ],
+      "gpu": {
+        "gpu_busy_percent": 84,
+        "mem_info_gtt_used": 121794560,
+        "mem_info_vram_total": 34208743424,
+        "mem_info_vram_used": 814211072
+      },
+      "load1": 3.50732421875,
+      "memory_available_kib": 27204764,
+      "pressure": {
+        "cpu": 0.0,
+        "io": 0.0,
+        "memory": 0.0
+      },
+      "time": 1790000682.3322937
+    }
+  ],
+  "schema_version": "research3-offline-concurrency-benchmark/v1",
+  "scope": "warm-cache checksum/decode/std/four-colour-mask proxy including process-pool startup; not full QA or simulator throughput",
+  "simulator_launched": false,
+  "skipped_input_candidates": [
+    {
+      "reason": "Expecting value: line 1 column 1 (char 0)",
+      "run_id": "expansion-v1-r001-doorway-s2-view3"
+    },
+    {
+      "reason": "Expecting value: line 1 column 1 (char 0)",
+      "run_id": "expansion-v1-r001-doorway-s2-view4"
+    }
+  ],
+  "speedup": {
+    "1": 1.0,
+    "2": 1.972226081717322,
+    "4": 3.7598944429045953
+  },
+  "timings": [
+    {
+      "result_sha256": "70f3233848d3d3dfc90dd2246996b1bada26a820e01c7b9f32888e5620a1fac3",
+      "seconds": 1.5262292219995288,
+      "tasks": 96,
+      "workers": 1
+    },
+    {
+      "result_sha256": "70f3233848d3d3dfc90dd2246996b1bada26a820e01c7b9f32888e5620a1fac3",
+      "seconds": 0.7530321960002766,
+      "tasks": 96,
+      "workers": 2
+    },
+    {
+      "result_sha256": "70f3233848d3d3dfc90dd2246996b1bada26a820e01c7b9f32888e5620a1fac3",
+      "seconds": 0.39638453400039,
+      "tasks": 96,
+      "workers": 4
+    },
+    {
+      "result_sha256": "70f3233848d3d3dfc90dd2246996b1bada26a820e01c7b9f32888e5620a1fac3",
+      "seconds": 0.3969093099985912,
+      "tasks": 96,
+      "workers": 4
+    },
+    {
+      "result_sha256": "70f3233848d3d3dfc90dd2246996b1bada26a820e01c7b9f32888e5620a1fac3",
+      "seconds": 1.485762832002365,
+      "tasks": 96,
+      "workers": 1
+    },
+    {
+      "result_sha256": "70f3233848d3d3dfc90dd2246996b1bada26a820e01c7b9f32888e5620a1fac3",
+      "seconds": 0.7594108220000635,
+      "tasks": 96,
+      "workers": 2
+    },
+    {
+      "result_sha256": "70f3233848d3d3dfc90dd2246996b1bada26a820e01c7b9f32888e5620a1fac3",
+      "seconds": 0.7566764900002454,
+      "tasks": 96,
+      "workers": 2
+    },
+    {
+      "result_sha256": "70f3233848d3d3dfc90dd2246996b1bada26a820e01c7b9f32888e5620a1fac3",
+      "seconds": 0.3997364529968763,
+      "tasks": 96,
+      "workers": 4
+    },
+    {
+      "result_sha256": "70f3233848d3d3dfc90dd2246996b1bada26a820e01c7b9f32888e5620a1fac3",
+      "seconds": 1.4923371090008004,
+      "tasks": 96,
+      "workers": 1
+    }
+  ],
+  "validation_labels_read": false
+}

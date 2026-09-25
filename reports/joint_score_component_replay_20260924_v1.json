@@ -1,0 +1,2360 @@
+{
+  "counts": {
+    "replayed": 159,
+    "retained_infrastructure_failure": 41
+  },
+  "diagnostic_emissions_by_class": {
+    "chair": 35,
+    "doorway": 7,
+    "laboratory_entrance": 57,
+    "office_entrance": 55
+  },
+  "human_labels_read": false,
+  "implementation_sha256": {
+    "/home/eao/lusn-robot-navigation/scripts/audit_joint_score_components.py": "7364d6e32296dc0a34374e32f5f7253764bb140830cdb2297bedb50c15c88e1f",
+    "/home/eao/lusn-robot-navigation/scripts/joint_score_components.py": "43af4b4a8d2a790e880940dc316db4ac99ab79a0bdf77871fe8f04ffb110490a"
+  },
+  "new_model_fitted": false,
+  "primary_eligible": false,
+  "readiness_manifest_sha256": "dea8ca64003fd390147e59d539d31a230b6c6c07ba9e40541fd9954bded622b5",
+  "rows": [
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 0,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 1
+      },
+      "source_index": 1,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 2,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 2,
+        "unassociated": 1
+      },
+      "source_index": 3,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 4,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 5,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 6,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "nondetection",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2
+      },
+      "source_index": 7,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 8,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 1
+      },
+      "source_index": 9,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 10,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 2
+      },
+      "source_index": 11,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 12,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 13,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 14,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 15,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 1
+      },
+      "source_index": 16,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 4,
+        "scoreable_emission": 1
+      },
+      "source_index": 17,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 2,
+        "unassociated": 1
+      },
+      "source_index": 18,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 2
+      },
+      "source_index": 19,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 1
+      },
+      "source_index": 20,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 21,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 22,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 23,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 4,
+        "scoreable_emission": 1
+      },
+      "source_index": 24,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 25,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 26,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 2,
+        "unassociated": 1
+      },
+      "source_index": 27,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 28,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 29,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 30,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "nondetection",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2
+      },
+      "source_index": 31,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 32,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 33,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 34,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 35,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 36,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 1
+      },
+      "source_index": 37,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 38,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 39,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 4,
+        "scoreable_emission": 1
+      },
+      "source_index": 40,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 41,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 42,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1
+      },
+      "source_index": 43,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 44,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "scoreable_emission": 1
+      },
+      "source_index": 45,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 46,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 47,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 1
+      },
+      "source_index": 48,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 4,
+        "scoreable_emission": 1
+      },
+      "source_index": 49,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 50,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 51,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 52,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 53,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 54,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 55,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 56,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 1
+      },
+      "source_index": 57,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 58,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 59,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 60,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "scoreable_emission": 1
+      },
+      "source_index": 61,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 62,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 63,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 1
+      },
+      "source_index": 64,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 1
+      },
+      "source_index": 65,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 2,
+        "unassociated": 1
+      },
+      "source_index": 66,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 2
+      },
+      "source_index": 67,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 1
+      },
+      "source_index": 68,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 69,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 70,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 71,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 72,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 73,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 74,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 2,
+        "unassociated": 1
+      },
+      "source_index": 75,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 76,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 77,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 78,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 0,
+      "panel": "four_class_broad_integration_20260924_v3",
+      "perception_status": "nondetection",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2
+      },
+      "source_index": 79,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 0,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 1,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 2,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 3,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 4,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 5,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 6,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 7,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 8,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 9,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 10,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 11,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 12,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 13,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 14,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 15,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 16,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 17,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 18,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "chair",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 19,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 20,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 21,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 22,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 23,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 24,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 25,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 26,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 27,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 28,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 29,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 30,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 31,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 32,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 33,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 34,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 35,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 36,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 37,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "doorway",
+      "emission_count": 0,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "abstentions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "depth_template_abstention": 1,
+        "other_class_diagnostic": 1,
+        "unassociated": 1
+      },
+      "source_index": 38,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 39,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 40,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 41,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 42,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 43,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 44,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 45,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 46,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 47,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 48,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 49,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 50,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 51,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 52,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 53,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 54,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 55,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 56,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 57,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 58,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 59,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 60,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 61,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 62,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 63,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 64,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 65,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 66,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 67,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 68,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 69,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 70,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 2,
+        "scoreable_emission": 1
+      },
+      "source_index": 71,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 72,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 73,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 74,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 75,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 76,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_live_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 77,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 78,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 1,
+      "panel": "four_class_live_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 1
+      },
+      "source_index": 79,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 0,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 1,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 2,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 3,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 4,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 5,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 6,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 7,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 8,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 9,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 10,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 11,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 12,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 13,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 14,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 15,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 16,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 17,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 18,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "laboratory_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 3,
+        "scoreable_emission": 2
+      },
+      "source_index": 19,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 20,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 21,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 22,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 23,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 24,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 25,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 26,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 27,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 28,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 29,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 30,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 31,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 32,
+      "status": "replayed"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 33,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 34,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "acquisition_class": "office_entrance",
+      "emission_count": 2,
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "perception_status": "scoreable_emissions",
+      "primary_eligible": false,
+      "proposal_status_counts": {
+        "other_class_diagnostic": 1,
+        "scoreable_emission": 2
+      },
+      "source_index": 35,
+      "status": "replayed"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 36,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 37,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 38,
+      "status": "retained_infrastructure_failure"
+    },
+    {
+      "panel": "four_class_repeated_integration_20260924_v3",
+      "primary_eligible": false,
+      "source_index": 39,
+      "status": "retained_infrastructure_failure"
+    }
+  ],
+  "schema_version": "research3-jsc-component-replay-audit/v1",
+  "sources": {
+    "/home/eao/lusn-robot-navigation/reports/four_class_broad_integration_20260924_v3/results.json": "0a84a781d920f6e1151fb344675470881b4dfc6317122acb335be76e59675f52",
+    "/home/eao/lusn-robot-navigation/reports/four_class_live_integration_20260924_v3/results.json": "94a8e7010350e7f45f2edf108e9206981c139cd28efead1778aabd45aa4db0cc",
+    "/home/eao/lusn-robot-navigation/reports/four_class_repeated_integration_20260924_v3/results.json": "0c0617875b4bf3b828c2bfd3b4e5d2f59a65c6a9516a8153465b927c952e33a1"
+  },
+  "validation_or_protected_read": false
+}

@@ -1,0 +1,120 @@
+{
+  "all_ten_development_worlds_match": true,
+  "input_sha256": {
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r001/landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r001/world.sdf": "92364fb39c02520b856b9226906a1827a367a70e915a432effda2d1d9657c320",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r002/landmark_scene.yaml": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r002/world.sdf": "c1836acd2866336472d17428cb470c7c21e223367b228bad1b6349e5e592e499",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r003/landmark_scene.yaml": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r003/world.sdf": "447b77e3b757dd54b80d221a49e2609d5e5b4099e6c2866b97df13b22f61e48f",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r004/landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r004/world.sdf": "3f2936cc6b46847b9822ed9fbfb578df189206f62720050bc41da045837fc5a3",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r005/landmark_scene.yaml": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r005/world.sdf": "04dd1721261cb8c9196290ba823a1a0047447e00114d0d673e625248882925e0",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r006/landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r006/world.sdf": "4d255a16e7c924ef0f4a06a4cba2aa5c491744ead2effc404d42df2bb6ebe70a",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r007/landmark_scene.yaml": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r007/world.sdf": "03268a89acc51c332cb94ca20c1bf2bba2c9f8eac2ca5a4a16710b0280e5ca8d",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r008/landmark_scene.yaml": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r008/world.sdf": "e32e90af6f89cbb360dd366f2332327f92ad6834b9443eaf5f5fb14512e19c6b",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r009/landmark_scene.yaml": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r009/world.sdf": "7c9e3de1da558198220c5ac721ecef3119d13c08059addc3721e585368cb67ce",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r010/landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+    "/home/eao/lusn-robot-navigation/data/physical_worlds_readable_v1/base-r010/world.sdf": "2e7be91bd8b90837bdb5d2814edbae419a20393a14d3aa451dc7d5d2ce659b29",
+    "/home/eao/lusn-robot-navigation/scripts/audit_readiness_world_templates.py": "26b5387a39b615f0a2770322037651a2da2bec36d04c48e8e16b42b41ef670b8"
+  },
+  "protected_or_validation_data_used": false,
+  "rows": [
+    {
+      "map_id": "r3geo_base_r001",
+      "verified_entrance_instances": [
+        "r3geo_base_r001_right_1_entrance",
+        "r3geo_base_r001_right_2_entrance",
+        "r3geo_base_r001_left_1_entrance",
+        "r3geo_base_r001_left_2_entrance"
+      ]
+    },
+    {
+      "map_id": "r3geo_base_r002",
+      "verified_entrance_instances": [
+        "r3geo_base_r002_right_1_entrance",
+        "r3geo_base_r002_right_2_entrance",
+        "r3geo_base_r002_left_1_entrance",
+        "r3geo_base_r002_left_2_entrance"
+      ]
+    },
+    {
+      "map_id": "r3geo_base_r003",
+      "verified_entrance_instances": [
+        "r3geo_base_r003_right_1_entrance",
+        "r3geo_base_r003_right_2_entrance",
+        "r3geo_base_r003_left_1_entrance",
+        "r3geo_base_r003_left_2_entrance"
+      ]
+    },
+    {
+      "map_id": "r3geo_base_r004",
+      "verified_entrance_instances": [
+        "r3geo_base_r004_right_1_entrance",
+        "r3geo_base_r004_right_2_entrance",
+        "r3geo_base_r004_left_1_entrance",
+        "r3geo_base_r004_left_2_entrance"
+      ]
+    },
+    {
+      "map_id": "r3geo_base_r005",
+      "verified_entrance_instances": [
+        "r3geo_base_r005_right_1_entrance",
+        "r3geo_base_r005_right_2_entrance",
+        "r3geo_base_r005_left_1_entrance",
+        "r3geo_base_r005_left_2_entrance"
+      ]
+    },
+    {
+      "map_id": "r3geo_base_r006",
+      "verified_entrance_instances": [
+        "r3geo_base_r006_right_1_entrance",
+        "r3geo_base_r006_right_2_entrance",
+        "r3geo_base_r006_left_1_entrance",
+        "r3geo_base_r006_left_2_entrance"
+      ]
+    },
+    {
+      "map_id": "r3geo_base_r007",
+      "verified_entrance_instances": [
+        "r3geo_base_r007_right_1_entrance",
+        "r3geo_base_r007_right_2_entrance",
+        "r3geo_base_r007_left_1_entrance",
+        "r3geo_base_r007_left_2_entrance"
+      ]
+    },
+    {
+      "map_id": "r3geo_base_r008",
+      "verified_entrance_instances": [
+        "r3geo_base_r008_right_1_entrance",
+        "r3geo_base_r008_right_2_entrance",
+        "r3geo_base_r008_left_1_entrance",
+        "r3geo_base_r008_left_2_entrance"
+      ]
+    },
+    {
+      "map_id": "r3geo_base_r009",
+      "verified_entrance_instances": [
+        "r3geo_base_r009_right_1_entrance",
+        "r3geo_base_r009_right_2_entrance",
+        "r3geo_base_r009_left_1_entrance",
+        "r3geo_base_r009_left_2_entrance"
+      ]
+    },
+    {
+      "map_id": "r3geo_base_r010",
+      "verified_entrance_instances": [
+        "r3geo_base_r010_right_1_entrance",
+        "r3geo_base_r010_right_2_entrance",
+        "r3geo_base_r010_left_1_entrance",
+        "r3geo_base_r010_left_2_entrance"
+      ]
+    }
+  ],
+  "scope": "construction-prior validation only; no visual accuracy or instance label"
+}

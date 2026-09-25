@@ -1,0 +1,13 @@
+{
+  "schema_version": "research3-stage1-feasibility-authorization/v1",
+  "source": "user conversation transcription; not independently authenticated signature",
+  "user_response": "Proceed keep going to complete the research",
+  "scope": "80 serial development-only design-feasibility captures proposed immediately before this response",
+  "manifest_sha256": "124d634d6656a86fa4a830b19e3a27a494cf28cef77ec183f78a4d33fe79c37f",
+  "authorized": true,
+  "automatic_retries": false,
+  "calibration_eligible": false,
+  "validation_access_authorized": false,
+  "protected_access_authorized": false,
+  "resource_checks_may_be_bypassed": false
+}

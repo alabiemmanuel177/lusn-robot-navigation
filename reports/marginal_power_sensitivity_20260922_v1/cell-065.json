@@ -1,0 +1,44 @@
+{
+  "alternative": {
+    "discordance_lower": 0.1,
+    "discordance_upper": 0.09999999999999998,
+    "feasible": false,
+    "reason": "requested discordance outside conditional-mixture feasibility interval",
+    "simulated": false
+  },
+  "baseline": 0.9,
+  "baseline_binary_icc": 0.1,
+  "discordance": 0.14,
+  "index": 65,
+  "null": {
+    "achieved_study_power": false,
+    "empirical_generator_baseline": 0.8999010416666666,
+    "empirical_generator_discordance": 0.1401453125,
+    "empirical_generator_effect": 9.072916666666667e-05,
+    "empirical_generator_target": 0.8999917708333334,
+    "model": {
+      "alpha": 2.5945396500244753,
+      "baseline": 0.9,
+      "beta": 2.5945396500244753,
+      "discordance": 0.14,
+      "discordance_lower": 0.0,
+      "discordance_upper": 0.19789518600844366,
+      "effect": 0.0,
+      "feasible": true,
+      "induced_baseline_icc": 0.10000000000000003,
+      "induced_paired_difference_icc": 0.0,
+      "induced_target_icc": 0.10000000000000003,
+      "mixture": 0.7074452028056235,
+      "quadrature_marginal_baseline": 0.8999999999999999,
+      "quadrature_marginal_target": 0.8999999999999999,
+      "sigma": 1.0441983028335153,
+      "target": 0.9
+    },
+    "monte_carlo_se": 0.00013515365699824774,
+    "random_seed": 20261052,
+    "rejection_rate": 0.00183,
+    "replications": 100000,
+    "simulated": true
+  },
+  "seeds": 2
+}

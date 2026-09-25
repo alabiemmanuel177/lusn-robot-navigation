@@ -1,0 +1,21 @@
+{
+  "alternative": {
+    "discordance_lower": 0.1,
+    "discordance_upper": 0.09999999999999998,
+    "feasible": false,
+    "reason": "requested discordance outside conditional-mixture feasibility interval",
+    "simulated": false
+  },
+  "baseline": 0.9,
+  "baseline_binary_icc": 0.05,
+  "discordance": 0.2,
+  "index": 139,
+  "null": {
+    "discordance_lower": 0.0,
+    "discordance_upper": 0.19990074504248592,
+    "feasible": false,
+    "reason": "requested discordance outside conditional-mixture feasibility interval",
+    "simulated": false
+  },
+  "seeds": 8
+}

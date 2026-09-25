@@ -65,7 +65,11 @@ def analyze(manifest, outcomes, baseline="B1"):
         if failed:
             row["instruction_completion"] = row["navigation_success"] = False
         else:
-            if (outcome["infrastructure_failure"] or outcome["terminal_identity_correct"] is None
+            # A measured ordered-gate failure remains false even when the robot
+            # never reached a terminal region. Unknown identity only prevents
+            # establishing completion; it cannot erase an established failure.
+            if (outcome["infrastructure_failure"] or (outcome["terminal_identity_correct"] is None
+                    and outcome["instruction_completion"] is not False)
                     or outcome["collision"] is None or outcome["timeout"] is None):
                 row["instruction_completion"] = None
             elif outcome["terminal_identity_correct"] is False:

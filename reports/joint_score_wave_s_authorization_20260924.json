@@ -1,0 +1,18 @@
+{
+  "schema_version": "research3-jsc-prospective-execution-authorization/v1",
+  "source": "explicit_user_message_in_current_conversation",
+  "user_statement": "connect the components to the Wave S driver, complete actual-world preflight checks, and obtain execution authorization. I give you the execution authorization straight away now",
+  "reviewer_name": "Emmnauel Alabi Olasubomi",
+  "reviewer_role": "Researcher conducting the research and review",
+  "recorded_at": "2026-09-24T15:41:01+01:00",
+  "timestamp_meaning": "Agent recording time after receipt of the user authorization, not a signature or claim the user inspected a future manifest.",
+  "protocol_id": "R3-JSC-20260924-01",
+  "protocol_sha256": "179a20e5c3b8d94bfe195548ca97184dd9846a0716ad361adccdea90147c98be",
+  "schedule_sha256": "1fb142087cc38822f8d74769cd92c1a5cd0bbd89effbdf8c55c729eadf410c96",
+  "authorized_scope": "Connect and test the driver, run bounded nonprotected development preflights, and execute the fixed 400-attempt Wave S schedule once the unchanged-method source/asset manifest and preflight gates pass.",
+  "agent_may_bind_exact_manifest_after_preflight": true,
+  "failed_preflight_may_be_bypassed": false,
+  "authorizes_wave_c_or_v": false,
+  "authorizes_validation_release_or_protected_access": false,
+  "approves_unseen_labels_or_models": false
+}

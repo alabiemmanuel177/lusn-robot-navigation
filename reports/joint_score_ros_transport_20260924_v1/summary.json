@@ -1,0 +1,15 @@
+{
+  "armed": true,
+  "attempt_id": "synthetic-transport-preflight-not-wave-s",
+  "capture_uuid": "95af2e4e-e21d-4354-8e1f-607ead780f1c",
+  "consumed": true,
+  "deadline_monotonic": 284178.280677318,
+  "detector_processing_completed": false,
+  "human_labels_generated": false,
+  "launch_monotonic": 284088.280677318,
+  "reason": null,
+  "schema_version": "research3-jsc-one-frame-attempt/v1",
+  "selected_frame_present": true,
+  "selected_stamp_ns": 1020000000,
+  "status": "captured"
+}

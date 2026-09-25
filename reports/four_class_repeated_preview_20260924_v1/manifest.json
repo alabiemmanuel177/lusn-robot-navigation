@@ -1,0 +1,22 @@
+{
+  "calibration_eligible": false,
+  "items": [
+    {
+      "frame": "/home/eao/lusn-robot-navigation/reports/four_class_repeated_capture_20260924_v1/view-00-laboratory_entrance/episode/context_capture/frame-000.json",
+      "frame_sha256": "deedc67451989024453e50cdca3421427cc305e7395a329ecfd50b690346b14b",
+      "human_verdict": null,
+      "image": "context-000.png",
+      "image_sha256": "762f0051d1f98b64d8b67e43621c86dac66f16ebb46eac1407457c6600118e6c",
+      "rgb_sha256": "5f67c9e3d5dad48daa5fe65772c5465495370281a77e62f788a7d4f0c28547e3"
+    },
+    {
+      "frame": "/home/eao/lusn-robot-navigation/reports/four_class_repeated_capture_20260924_v1/view-01-office_entrance/episode/context_capture/frame-000.json",
+      "frame_sha256": "735d02d08ca3542565727bbc2e3e925a162dc132896b5483cbab1dd4f03f6d9d",
+      "human_verdict": null,
+      "image": "context-001.png",
+      "image_sha256": "89e45f11eb0febe09b6613350284ce5812e98f058812d1f2b7a8af7dacf3b088",
+      "rgb_sha256": "7046e530595db4636b72930c4239368c0e22d113e5766c6741b5c520349334db"
+    }
+  ],
+  "source_sha256": "e6b4d47d85429ee3ea0c6b95587917482900995ef3a04f3f6e3185405ebfd2d4"
+}

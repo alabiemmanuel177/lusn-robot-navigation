@@ -1,0 +1,1801 @@
+{
+  "calibration_rows_generated": false,
+  "candidate_attempts": 60,
+  "execution_authorized": false,
+  "footprint_halfwidth_m": 0.3,
+  "grid_spacing_m": 0.25,
+  "limitations": [
+    "2-D occupancy ray is not 3-D rendered visibility or detection",
+    "target terminal 0.15m omitted from ray proxy",
+    "grid search not exhaustive continuous geometry",
+    "distance does not guarantee low confidence or incorrect association",
+    "design-only candidates excluded from calibration fitting and certification"
+  ],
+  "maps": [
+    {
+      "map_number": 1,
+      "source_sha256": {
+        "landmark_scene.yaml": "d43c1fd5df6cff2078c94022e03e33ceaeef01e2837021f4bc4f0978a154fb2a",
+        "map.pgm": "944b1d28d86c13db2f32fee9e12b6177f9a4cef4f16dc10e92ec389e43d8ef88",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "92364fb39c02520b856b9226906a1827a367a70e915a432effda2d1d9657c320"
+      },
+      "targets": [
+        {
+          "candidates": [],
+          "category": "chair",
+          "clear_ray_proxy_points": 0,
+          "entity_id": "dev_01-r001-red-chair",
+          "maximum_screened_camera_range_m": null,
+          "safe_grid_points": 466
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r001.yaml",
+              "candidate_id": "r3-recovery-feas-r001-doorway-v0",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r001_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.24415289948301216
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r001",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r001.yaml",
+              "candidate_id": "r3-recovery-feas-r001-doorway-v1",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r001_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.8941528994830121
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r001",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "doorway",
+          "clear_ray_proxy_points": 323,
+          "entity_id": "r3geo_base_r001_left_2_doorway",
+          "maximum_screened_camera_range_m": 7.210381305126467,
+          "safe_grid_points": 466
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r001.yaml",
+              "candidate_id": "r3-recovery-feas-r001-laboratory_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r001_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.3250000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.29192175625106925
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r001",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r001.yaml",
+              "candidate_id": "r3-recovery-feas-r001-laboratory_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r001_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.3250000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.9419217562510693
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": false,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r001",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "laboratory_entrance",
+          "clear_ray_proxy_points": 261,
+          "entity_id": "r3geo_base_r001_left_2_entrance",
+          "maximum_screened_camera_range_m": 7.077662386296465,
+          "safe_grid_points": 466
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r001.yaml",
+              "candidate_id": "r3-recovery-feas-r001-office_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r001_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.3158788964914624
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r001",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r001.yaml",
+              "candidate_id": "r3-recovery-feas-r001-office_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r001_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": 0.33412110350853763
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r001",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "office_entrance",
+          "clear_ray_proxy_points": 265,
+          "entity_id": "r3geo_base_r001_right_2_entrance",
+          "maximum_screened_camera_range_m": 6.8690466359912525,
+          "safe_grid_points": 466
+        }
+      ]
+    },
+    {
+      "map_number": 2,
+      "source_sha256": {
+        "landmark_scene.yaml": "c4d0326c24a3f00cb104ee0759fb91a1d754255b0ad877eb3d66bd6dab6522e3",
+        "map.pgm": "62efcc836cbd5f44da42741e05ae38c5f95dfca7ce46967fa17221fa2f4a6ed1",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "c1836acd2866336472d17428cb470c7c21e223367b228bad1b6349e5e592e499"
+      },
+      "targets": [
+        {
+          "candidates": [],
+          "category": "chair",
+          "clear_ray_proxy_points": 0,
+          "entity_id": "dev_01-r002-blue-chair",
+          "maximum_screened_camera_range_m": null,
+          "safe_grid_points": 481
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r002.yaml",
+              "candidate_id": "r3-recovery-feas-r002-doorway-v0",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r002_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.8250000000000002,
+                "yaw": 0.276044362873975
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r002",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r002.yaml",
+              "candidate_id": "r3-recovery-feas-r002-doorway-v1",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r002_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.8250000000000002,
+                "yaw": -0.37395563712602503
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r002",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "doorway",
+          "clear_ray_proxy_points": 354,
+          "entity_id": "r3geo_base_r002_left_2_doorway",
+          "maximum_screened_camera_range_m": 7.480819219005105,
+          "safe_grid_points": 481
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r002.yaml",
+              "candidate_id": "r3-recovery-feas-r002-laboratory_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r002_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.8250000000000002,
+                "yaw": 0.2936161141448542
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r002",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r002.yaml",
+              "candidate_id": "r3-recovery-feas-r002-laboratory_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r002_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.8250000000000002,
+                "yaw": -0.3563838858551458
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r002",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "laboratory_entrance",
+          "clear_ray_proxy_points": 292,
+          "entity_id": "r3geo_base_r002_left_2_entrance",
+          "maximum_screened_camera_range_m": 8.073743054446618,
+          "safe_grid_points": 481
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r002.yaml",
+              "candidate_id": "r3-recovery-feas-r002-office_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r002_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.27602827399903124
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r002",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r002.yaml",
+              "candidate_id": "r3-recovery-feas-r002-office_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r002_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.9260282739990313
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": false,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r002",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "office_entrance",
+          "clear_ray_proxy_points": 286,
+          "entity_id": "r3geo_base_r002_right_2_entrance",
+          "maximum_screened_camera_range_m": 8.031596274502052,
+          "safe_grid_points": 481
+        }
+      ]
+    },
+    {
+      "map_number": 3,
+      "source_sha256": {
+        "landmark_scene.yaml": "c7a1b875a488f432fd247067d023d8f7688ed8b528cc72dbc51cbfdde8cbf1c6",
+        "map.pgm": "a7643d0d78040cf5fc96a88fc8db1e5521d800999bb82745daa043b802b73342",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "447b77e3b757dd54b80d221a49e2609d5e5b4099e6c2866b97df13b22f61e48f"
+      },
+      "targets": [
+        {
+          "candidates": [],
+          "category": "chair",
+          "clear_ray_proxy_points": 0,
+          "entity_id": "dev_02-r003-green-chair",
+          "maximum_screened_camera_range_m": null,
+          "safe_grid_points": 466
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r003.yaml",
+              "candidate_id": "r3-recovery-feas-r003-doorway-v0",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r003_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.2253425384038073
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r003",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r003.yaml",
+              "candidate_id": "r3-recovery-feas-r003-doorway-v1",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r003_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.8753425384038074
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r003",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "doorway",
+          "clear_ray_proxy_points": 316,
+          "entity_id": "r3geo_base_r003_left_2_doorway",
+          "maximum_screened_camera_range_m": 7.587766858624877,
+          "safe_grid_points": 466
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r003.yaml",
+              "candidate_id": "r3-recovery-feas-r003-laboratory_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r003_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.8250000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.2892308285085038
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r003",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r003.yaml",
+              "candidate_id": "r3-recovery-feas-r003-laboratory_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r003_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.8250000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.9392308285085038
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": false,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r003",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "laboratory_entrance",
+          "clear_ray_proxy_points": 253,
+          "entity_id": "r3geo_base_r003_left_2_entrance",
+          "maximum_screened_camera_range_m": 6.967539041074811,
+          "safe_grid_points": 466
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r003.yaml",
+              "candidate_id": "r3-recovery-feas-r003-office_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r003_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.3250000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.28308431148846985
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r003",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r003.yaml",
+              "candidate_id": "r3-recovery-feas-r003-office_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r003_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.3250000000000002,
+                "y": 0.6750000000000007,
+                "yaw": 0.36691568851153017
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r003",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "office_entrance",
+          "clear_ray_proxy_points": 262,
+          "entity_id": "r3geo_base_r003_right_2_entrance",
+          "maximum_screened_camera_range_m": 7.4753929455396015,
+          "safe_grid_points": 466
+        }
+      ]
+    },
+    {
+      "map_number": 4,
+      "source_sha256": {
+        "landmark_scene.yaml": "c51fcf7f4a11eaf249def84512b14dbd3ac72f714f5a8b180cd934373480621f",
+        "map.pgm": "03d321d09a99b62a435ad95857e7ffcd894cdfb1bb3007492963a7aecf209996",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "3f2936cc6b46847b9822ed9fbfb578df189206f62720050bc41da045837fc5a3"
+      },
+      "targets": [
+        {
+          "candidates": [],
+          "category": "chair",
+          "clear_ray_proxy_points": 0,
+          "entity_id": "dev_02-r004-yellow-chair",
+          "maximum_screened_camera_range_m": null,
+          "safe_grid_points": 464
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r004.yaml",
+              "candidate_id": "r3-recovery-feas-r004-doorway-v0",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r004_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.22585322185820705
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r004",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r004.yaml",
+              "candidate_id": "r3-recovery-feas-r004-doorway-v1",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r004_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": -0.42414677814179297
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r004",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "doorway",
+          "clear_ray_proxy_points": 316,
+          "entity_id": "r3geo_base_r004_left_2_doorway",
+          "maximum_screened_camera_range_m": 7.793868031521055,
+          "safe_grid_points": 464
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r004.yaml",
+              "candidate_id": "r3-recovery-feas-r004-laboratory_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r004_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.8250000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.2879825377256524
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r004",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r004.yaml",
+              "candidate_id": "r3-recovery-feas-r004-laboratory_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r004_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.8250000000000002,
+                "y": -0.5750000000000002,
+                "yaw": -0.3620174622743476
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r004",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "laboratory_entrance",
+          "clear_ray_proxy_points": 244,
+          "entity_id": "r3geo_base_r004_left_2_entrance",
+          "maximum_screened_camera_range_m": 7.173479989092372,
+          "safe_grid_points": 464
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r004.yaml",
+              "candidate_id": "r3-recovery-feas-r004-office_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r004_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 3.075,
+                "y": 2.1750000000000007,
+                "yaw": -0.5683017198778179
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r004",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r004.yaml",
+              "candidate_id": "r3-recovery-feas-r004-office_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r004_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 3.075,
+                "y": 2.1750000000000007,
+                "yaw": -1.2183017198778179
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r004",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "office_entrance",
+          "clear_ray_proxy_points": 250,
+          "entity_id": "r3geo_base_r004_right_2_entrance",
+          "maximum_screened_camera_range_m": 6.695957571674731,
+          "safe_grid_points": 464
+        }
+      ]
+    },
+    {
+      "map_number": 5,
+      "source_sha256": {
+        "landmark_scene.yaml": "3581fff79d33fa0d1e4e3b4f3bd37fd66b3446661205b6e727c0bdd19bf2decf",
+        "map.pgm": "28124a30a6ef4729ddc2978cef7789f5adcad257c66acccddbebc8543316ae4b",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "04dd1721261cb8c9196290ba823a1a0047447e00114d0d673e625248882925e0"
+      },
+      "targets": [
+        {
+          "candidates": [],
+          "category": "chair",
+          "clear_ray_proxy_points": 0,
+          "entity_id": "dev_03-r005-red-chair",
+          "maximum_screened_camera_range_m": null,
+          "safe_grid_points": 493
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r005.yaml",
+              "candidate_id": "r3-recovery-feas-r005-doorway-v0",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r005_right_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.27113303540422684
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r005",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r005.yaml",
+              "candidate_id": "r3-recovery-feas-r005-doorway-v1",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r005_right_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": 0.3788669645957732
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r005",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "doorway",
+          "clear_ray_proxy_points": 358,
+          "entity_id": "r3geo_base_r005_right_2_doorway",
+          "maximum_screened_camera_range_m": 7.05520231892585,
+          "safe_grid_points": 493
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r005.yaml",
+              "candidate_id": "r3-recovery-feas-r005-laboratory_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r005_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.2900409751715068
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r005",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r005.yaml",
+              "candidate_id": "r3-recovery-feas-r005-laboratory_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r005_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": 0.35995902482849323
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r005",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "laboratory_entrance",
+          "clear_ray_proxy_points": 300,
+          "entity_id": "r3geo_base_r005_right_2_entrance",
+          "maximum_screened_camera_range_m": 7.647529524060465,
+          "safe_grid_points": 493
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r005.yaml",
+              "candidate_id": "r3-recovery-feas-r005-office_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r005_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.8250000000000002,
+                "yaw": 0.3084126226779103
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r005",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r005.yaml",
+              "candidate_id": "r3-recovery-feas-r005-office_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r005_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.8250000000000002,
+                "yaw": 0.9584126226779104
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r005",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "office_entrance",
+          "clear_ray_proxy_points": 297,
+          "entity_id": "r3geo_base_r005_left_2_entrance",
+          "maximum_screened_camera_range_m": 7.691745286034277,
+          "safe_grid_points": 493
+        }
+      ]
+    },
+    {
+      "map_number": 6,
+      "source_sha256": {
+        "landmark_scene.yaml": "f2e69fcf1b748176fa6017e73dff2a633aeafb0a0531e75d88bae64591cdd674",
+        "map.pgm": "96b00da7bc81cac0a1936181e7f52e90494ce57ca42341817feedc5b565610cb",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "4d255a16e7c924ef0f4a06a4cba2aa5c491744ead2effc404d42df2bb6ebe70a"
+      },
+      "targets": [
+        {
+          "candidates": [],
+          "category": "chair",
+          "clear_ray_proxy_points": 0,
+          "entity_id": "dev_03-r006-blue-chair",
+          "maximum_screened_camera_range_m": null,
+          "safe_grid_points": 454
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r006.yaml",
+              "candidate_id": "r3-recovery-feas-r006-doorway-v0",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r006_right_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.250749415225909
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r006",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r006.yaml",
+              "candidate_id": "r3-recovery-feas-r006-doorway-v1",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r006_right_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.900749415225909
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r006",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "doorway",
+          "clear_ray_proxy_points": 335,
+          "entity_id": "r3geo_base_r006_right_2_doorway",
+          "maximum_screened_camera_range_m": 7.22262701039888,
+          "safe_grid_points": 454
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r006.yaml",
+              "candidate_id": "r3-recovery-feas-r006-laboratory_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r006_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.8250000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.27945861364356833
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r006",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r006.yaml",
+              "candidate_id": "r3-recovery-feas-r006-laboratory_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r006_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.8250000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.9294586136435683
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": false,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r006",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "laboratory_entrance",
+          "clear_ray_proxy_points": 274,
+          "entity_id": "r3geo_base_r006_right_2_entrance",
+          "maximum_screened_camera_range_m": 7.571455932700886,
+          "safe_grid_points": 454
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r006.yaml",
+              "candidate_id": "r3-recovery-feas-r006-office_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r006_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.29538104283620936
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r006",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r006.yaml",
+              "candidate_id": "r3-recovery-feas-r006-office_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r006_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": -0.35461895716379066
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r006",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "office_entrance",
+          "clear_ray_proxy_points": 259,
+          "entity_id": "r3geo_base_r006_left_2_entrance",
+          "maximum_screened_camera_range_m": 6.823914418352506,
+          "safe_grid_points": 454
+        }
+      ]
+    },
+    {
+      "map_number": 7,
+      "source_sha256": {
+        "landmark_scene.yaml": "25c61ead3e18d12717cebac296ea9b0d04ea9dc07d21b752adbce8eb40c70d5e",
+        "map.pgm": "d5a28b6b2639d493e6b9f5aae49d4244e624c30bb1a314a061f3a22754ad1e28",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "03268a89acc51c332cb94ca20c1bf2bba2c9f8eac2ca5a4a16710b0280e5ca8d"
+      },
+      "targets": [
+        {
+          "candidates": [],
+          "category": "chair",
+          "clear_ray_proxy_points": 0,
+          "entity_id": "dev_04-r007-green-chair",
+          "maximum_screened_camera_range_m": null,
+          "safe_grid_points": 472
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r007.yaml",
+              "candidate_id": "r3-recovery-feas-r007-doorway-v0",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r007_right_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.25059207649940335
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r007",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r007.yaml",
+              "candidate_id": "r3-recovery-feas-r007-doorway-v1",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r007_right_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": 0.3994079235005967
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r007",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "doorway",
+          "clear_ray_proxy_points": 322,
+          "entity_id": "r3geo_base_r007_right_2_doorway",
+          "maximum_screened_camera_range_m": 7.428761977255004,
+          "safe_grid_points": 472
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r007.yaml",
+              "candidate_id": "r3-recovery-feas-r007-laboratory_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r007_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 3.575,
+                "y": 2.4250000000000007,
+                "yaw": -0.6798691023977872
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r007",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r007.yaml",
+              "candidate_id": "r3-recovery-feas-r007-laboratory_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r007_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 3.575,
+                "y": 2.4250000000000007,
+                "yaw": -0.029869102397787173
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": false,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r007",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "laboratory_entrance",
+          "clear_ray_proxy_points": 264,
+          "entity_id": "r3geo_base_r007_right_2_entrance",
+          "maximum_screened_camera_range_m": 6.1108512412649905,
+          "safe_grid_points": 472
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r007.yaml",
+              "candidate_id": "r3-recovery-feas-r007-office_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r007_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.2939308783632909
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r007",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r007.yaml",
+              "candidate_id": "r3-recovery-feas-r007-office_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r007_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.9439308783632909
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": false,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r007",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "office_entrance",
+          "clear_ray_proxy_points": 261,
+          "entity_id": "r3geo_base_r007_left_2_entrance",
+          "maximum_screened_camera_range_m": 7.0297964636642405,
+          "safe_grid_points": 472
+        }
+      ]
+    },
+    {
+      "map_number": 8,
+      "source_sha256": {
+        "landmark_scene.yaml": "ee2cae83afcdc47451435eefae3ea81188d4349d0f5dcaf589fa9262d550e776",
+        "map.pgm": "dcbeaa79f20d76c1bade6288e23b8ac5525dad714a9b42d9bfa6fb5651ff356f",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "e32e90af6f89cbb360dd366f2332327f92ad6834b9443eaf5f5fb14512e19c6b"
+      },
+      "targets": [
+        {
+          "candidates": [],
+          "category": "chair",
+          "clear_ray_proxy_points": 0,
+          "entity_id": "dev_04-r008-yellow-chair",
+          "maximum_screened_camera_range_m": null,
+          "safe_grid_points": 488
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r008.yaml",
+              "candidate_id": "r3-recovery-feas-r008-doorway-v0",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r008_right_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.250443089611352
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r008",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r008.yaml",
+              "candidate_id": "r3-recovery-feas-r008-doorway-v1",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r008_right_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.900443089611352
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r008",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "doorway",
+          "clear_ray_proxy_points": 354,
+          "entity_id": "r3geo_base_r008_right_2_doorway",
+          "maximum_screened_camera_range_m": 7.6348980380178535,
+          "safe_grid_points": 488
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r008.yaml",
+              "candidate_id": "r3-recovery-feas-r008-laboratory_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r008_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.8250000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.27770729214539774
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r008",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r008.yaml",
+              "candidate_id": "r3-recovery-feas-r008-laboratory_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r008_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.8250000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.9277072921453977
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": false,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r008",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "laboratory_entrance",
+          "clear_ray_proxy_points": 280,
+          "entity_id": "r3geo_base_r008_right_2_entrance",
+          "maximum_screened_camera_range_m": 7.983503755136027,
+          "safe_grid_points": 488
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r008.yaml",
+              "candidate_id": "r3-recovery-feas-r008-office_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r008_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.8250000000000002,
+                "y": -0.8250000000000002,
+                "yaw": 0.2953898531527374
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r008",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r008.yaml",
+              "candidate_id": "r3-recovery-feas-r008-office_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r008_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.8250000000000002,
+                "y": -0.8250000000000002,
+                "yaw": -0.3546101468472626
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r008",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "office_entrance",
+          "clear_ray_proxy_points": 282,
+          "entity_id": "r3geo_base_r008_left_2_entrance",
+          "maximum_screened_camera_range_m": 8.025898971643864,
+          "safe_grid_points": 488
+        }
+      ]
+    },
+    {
+      "map_number": 9,
+      "source_sha256": {
+        "landmark_scene.yaml": "879dd6d1bfee20baea0c5cf18fcf88fb76d0881b845c317b570f06b63d7c6bd5",
+        "map.pgm": "7f35575f48f7a68f77b8ca6011ddd99ee0ccc29a1ef8d49c83dd425468aae52e",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "7c9e3de1da558198220c5ac721ecef3119d13c08059addc3721e585368cb67ce"
+      },
+      "targets": [
+        {
+          "candidates": [],
+          "category": "chair",
+          "clear_ray_proxy_points": 0,
+          "entity_id": "dev_05-r009-red-chair",
+          "maximum_screened_camera_range_m": null,
+          "safe_grid_points": 472
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r009.yaml",
+              "candidate_id": "r3-recovery-feas-r009-doorway-v0",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r009_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.21969669474127057
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r009",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r009.yaml",
+              "candidate_id": "r3-recovery-feas-r009-doorway-v1",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r009_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.8696966947412705
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r009",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "doorway",
+          "clear_ray_proxy_points": 317,
+          "entity_id": "r3geo_base_r009_left_2_doorway",
+          "maximum_screened_camera_range_m": 7.782821941098713,
+          "safe_grid_points": 472
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r009.yaml",
+              "candidate_id": "r3-recovery-feas-r009-laboratory_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r009_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 2.075,
+                "y": -0.5750000000000002,
+                "yaw": 0.29125305933637363
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r009",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r009.yaml",
+              "candidate_id": "r3-recovery-feas-r009-laboratory_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r009_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 2.075,
+                "y": -0.5750000000000002,
+                "yaw": 0.9412530593363737
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": false,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r009",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "laboratory_entrance",
+          "clear_ray_proxy_points": 245,
+          "entity_id": "r3geo_base_r009_left_2_entrance",
+          "maximum_screened_camera_range_m": 6.919634673769617,
+          "safe_grid_points": 472
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r009.yaml",
+              "candidate_id": "r3-recovery-feas-r009-office_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r009_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.3250000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.2759222750892541
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r009",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r009.yaml",
+              "candidate_id": "r3-recovery-feas-r009-office_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r009_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.3250000000000002,
+                "y": 0.6750000000000007,
+                "yaw": 0.3740777249107459
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r009",
+              "yaw_offset_rad": 0.65
+            }
+          ],
+          "category": "office_entrance",
+          "clear_ray_proxy_points": 261,
+          "entity_id": "r3geo_base_r009_right_2_entrance",
+          "maximum_screened_camera_range_m": 7.667617877587293,
+          "safe_grid_points": 472
+        }
+      ]
+    },
+    {
+      "map_number": 10,
+      "source_sha256": {
+        "landmark_scene.yaml": "eed74ce558975613e3ca91ea2eefe52f3dcf93d8ce7d090f06b9480302aebabe",
+        "map.pgm": "48df93153c309d282dbbf7ccb41f155fd2c68614893f7b4a883580ab9aa75b34",
+        "map.yaml": "9132dbc0856bbcbec0b8d85e07f1deba144d93513ab42a720a12eeb339c50247",
+        "world.sdf": "2e7be91bd8b90837bdb5d2814edbae419a20393a14d3aa451dc7d5d2ce659b29"
+      },
+      "targets": [
+        {
+          "candidates": [],
+          "category": "chair",
+          "clear_ray_proxy_points": 0,
+          "entity_id": "dev_00-r010-blue-chair",
+          "maximum_screened_camera_range_m": null,
+          "safe_grid_points": 446
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r010.yaml",
+              "candidate_id": "r3-recovery-feas-r010-doorway-v0",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r010_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.2509158283091959
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r010",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r010.yaml",
+              "candidate_id": "r3-recovery-feas-r010-doorway-v1",
+              "capture_timeout_seconds": 90,
+              "category": "doorway",
+              "entity_id": "r3geo_base_r010_left_2_doorway",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 0.5750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": -0.3990841716908041
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r010",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "doorway",
+          "clear_ray_proxy_points": 324,
+          "entity_id": "r3geo_base_r010_left_2_doorway",
+          "maximum_screened_camera_range_m": 7.016493233571275,
+          "safe_grid_points": 446
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r010.yaml",
+              "candidate_id": "r3-recovery-feas-r010-laboratory_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r010_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.0750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": 0.2899391447027656
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r010",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r010.yaml",
+              "candidate_id": "r3-recovery-feas-r010-laboratory_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "laboratory_entrance",
+              "entity_id": "r3geo_base_r010_left_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.0750000000000002,
+                "y": -0.5750000000000002,
+                "yaw": -0.3600608552972344
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r010",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "laboratory_entrance",
+          "clear_ray_proxy_points": 262,
+          "entity_id": "r3geo_base_r010_left_2_entrance",
+          "maximum_screened_camera_range_m": 7.125557083398022,
+          "safe_grid_points": 446
+        },
+        {
+          "candidates": [
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r010.yaml",
+              "candidate_id": "r3-recovery-feas-r010-office_entrance-v0",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r010_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.32500031083018144
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r010",
+              "yaw_offset_rad": 0.0
+            },
+            {
+              "camera_profile": "reports/fresh_current_capture_20260911_v1/profiles/base-r010.yaml",
+              "candidate_id": "r3-recovery-feas-r010-office_entrance-v1",
+              "capture_timeout_seconds": 90,
+              "category": "office_entrance",
+              "entity_id": "r3geo_base_r010_right_2_entrance",
+              "execution_authorized": false,
+              "fit_or_validation_eligible": false,
+              "footprint_checked": true,
+              "horizontal_fov": 2.0,
+              "partition": "development",
+              "pose": {
+                "x": 1.5750000000000002,
+                "y": 0.6750000000000007,
+                "yaw": -0.9750003108301815
+              },
+              "raw_frames_per_attempt": 1,
+              "ray_proxy_clear": true,
+              "simulator_seed": 1,
+              "world_directory": "data/physical_worlds_readable_v1/base-r010",
+              "yaw_offset_rad": -0.65
+            }
+          ],
+          "category": "office_entrance",
+          "clear_ray_proxy_points": 263,
+          "entity_id": "r3geo_base_r010_right_2_entrance",
+          "maximum_screened_camera_range_m": 6.67924353315301,
+          "safe_grid_points": 446
+        }
+      ]
+    }
+  ],
+  "protected_accessed": false,
+  "schema_version": "research3-stage1-development-view-feasibility/v1",
+  "status": "offline_screened_proposal_not_rendered",
+  "validation_accessed": false,
+  "worker_count": 4
+}

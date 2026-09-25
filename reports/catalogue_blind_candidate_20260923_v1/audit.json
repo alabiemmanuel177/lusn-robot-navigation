@@ -1,0 +1,17 @@
+{
+  "calibration_eligible": false,
+  "class_agreement_or_accuracy_estimated": false,
+  "frames": 141,
+  "human_labels_generated": false,
+  "integrity_passed": true,
+  "observation_localization_established": false,
+  "report_sha256": "cff0ea24bfff1be3f06eb44d10c002f562c5a2ff600441e9bd480452a07916ea",
+  "top_prompt_counts": {
+    "background": 1005,
+    "chair": 13,
+    "laboratory_entrance": 86,
+    "office_entrance": 73,
+    "sign": 233
+  },
+  "vectors": 1410
+}

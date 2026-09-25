@@ -1,0 +1,169 @@
+{
+  "calibration_eligible": false,
+  "input_sha256": {
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/__init__.py": "25e7859135d306af5eb626086e2211a9b4da01cff1327beb0fb2298dcba33a51",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/cal_rec_boxes/__init__.py": "485d5bca0cd84c80ea4576ff4ed5e906828851b287c581c746a9a272a7ce945c",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/cal_rec_boxes/main.py": "d7cf9cb01f189a873cef9897150e379085608f9908a7288857ea2599ff7eee76",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_cls/__init__.py": "aeaf19b49fb6b5a361547544e7cb98972dd0b6756e9ad320d9fe7008891ae9b2",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_cls/text_cls.py": "ead555ddeb7a8a0da067f4d2f9e2760e93db9e46d906888e0522277dda6620c8",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_cls/utils.py": "a6d3debaaf21b092731b20a249b816512070b8e932db7b0f15d5536dcda2328a",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_det/__init__.py": "8f33f181e76809c609ead8f5d44afed1e83f74e752239c0f30ca961fdf152e63",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_det/text_detect.py": "fc9d63ba47940d3e5bfefe6738f310b583cd4de4708fefe114fce11236f2c199",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_det/utils.py": "0b3405390c37c7d6f0c9c7099eeec36b050b8e0dee7659fbd82a73bcbd265cd0",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_rec/__init__.py": "989f6e9e87508f91cdfc496c7c4ef7580bbb6cc1a0f87a90e139029d10970de0",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_rec/text_recognize.py": "48d8656d11403d09b2ed32b65a686906b9502ca1a4e16a3934d91b35129d032a",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/ch_ppocr_rec/utils.py": "4a1dc2e8602d12374b12124bbe99a1b42080d72a337799760beaf0d51a32ca90",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/config.yaml": "bf94a1da4cba828e67b1d61e27cee14d9e7da27c9f272e04048a17e41ae97332",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/main.py": "156c49e683fddd26f04280f391f882b857a74d2f020497870f7dd8d850ed5a2c",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/models/ch_PP-OCRv4_det_infer.onnx": "d2a7720d45a54257208b1e13e36a8479894cb74155a5efe29462512d42f49da9",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/models/ch_PP-OCRv4_rec_infer.onnx": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/models/ch_ppocr_mobile_v2.0_cls_infer.onnx": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/__init__.py": "2623808f8f540452cc02951858cb65ef5dacd615b5409ec6c970bc375b1f946d",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/infer_engine.py": "3e402c95026ab793533b0de296b0b7e897ad50618d089b2b2214bd90833c3f29",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/load_image.py": "2335171bf0574b56fc4d6d7261bd9bf0dc955db6cec3b5aaf060d345256e65a4",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/logger.py": "2efcad9f0f7afb77c6734d9ec2fcce60f3045b3e6ce7e4752f69ed9e1e647f17",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/parse_parameters.py": "a59078f844649e9b08638345a32cd3981a27fd731f4f844a1155f850cb7a6c9e",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/process_img.py": "c54bfd7cb592e40c7be9042fce4a40e5fa5359e8c11a26c3492534065f42f236",
+    "/home/eao/lusn-robot-navigation/.venv_ocr_probe/lib/python3.12/site-packages/rapidocr_onnxruntime/utils/vis_res.py": "5225cfd945fd99968cfe2883960949e043d760a8d0dab92ec912e98b01e42205",
+    "/home/eao/lusn-robot-navigation/reports/grounding_candidate_20260923_v3/plan.json": "64e7501f40224f89bc477fe666aa94718b93855360dffe639bb86368db188901",
+    "/home/eao/lusn-robot-navigation/reports/grounding_candidate_20260923_v3/results.jsonl": "915f128f9f1918cfe252ec7e796b369fa27a6eb1d6aa2ca696adcac74cd019c3",
+    "/home/eao/lusn-robot-navigation/scripts/entrance_context_candidate.py": "44d629a93b7c906297da8a10cc5a9c0d2640436d357977901e0dde132f19b975",
+    "/home/eao/lusn-robot-navigation/scripts/run_entrance_context_candidate.py": "0b79e6b69474f712f9d4dc5cbfe6384579d173e5e9e8f98bcca6d15647857dbd"
+  },
+  "protected_or_validation_data_used": false,
+  "settings": {
+    "cls_use_cuda": false,
+    "det_use_cuda": false,
+    "inter_op_num_threads": 1,
+    "intra_op_num_threads": 1,
+    "rec_use_cuda": false,
+    "text_score": 0.5
+  },
+  "slots": [
+    {
+      "source_index": 0,
+      "status": "retained_source_failure"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-doorway-view0-yaw0-light090-s7/perception_capture/frame-000.json",
+      "source_index": 6,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-doorway-view0-yaw0-light080-s7/perception_capture/frame-000.json",
+      "source_index": 12,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-office_entrance-view0-yaw1-light100-s7/perception_capture/frame-000.json",
+      "source_index": 18,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-laboratory_entrance-view0-yaw1-light090-s7/perception_capture/frame-000.json",
+      "source_index": 24,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-laboratory_entrance-view3-yaw2-light080-s7/perception_capture/frame-000.json",
+      "source_index": 30,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-doorway-view3-yaw0-light080-s7/perception_capture/frame-000.json",
+      "source_index": 36,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-laboratory_entrance-view3-yaw0-light100-s7/perception_capture/frame-000.json",
+      "source_index": 42,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-doorway-view3-yaw2-light080-s7/perception_capture/frame-000.json",
+      "source_index": 48,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-chair-view3-yaw2-light090-s7/perception_capture/frame-000.json",
+      "source_index": 54,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-office_entrance-view3-yaw1-light100-s7/perception_capture/frame-000.json",
+      "source_index": 60,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-laboratory_entrance-view0-yaw0-light090-s7/perception_capture/frame-000.json",
+      "source_index": 66,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-office_entrance-view3-yaw2-light100-s7/perception_capture/frame-000.json",
+      "source_index": 72,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-doorway-view3-yaw1-light100-s7/perception_capture/frame-000.json",
+      "source_index": 78,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-office_entrance-view3-yaw0-light090-s7/perception_capture/frame-000.json",
+      "source_index": 84,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-office_entrance-view0-yaw1-light100-s7/perception_capture/frame-000.json",
+      "source_index": 90,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-chair-view0-yaw2-light090-s7/perception_capture/frame-000.json",
+      "source_index": 96,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-laboratory_entrance-view0-yaw0-light080-s7/perception_capture/frame-000.json",
+      "source_index": 102,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-office_entrance-view0-yaw2-light090-s7/perception_capture/frame-000.json",
+      "source_index": 108,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-chair-view0-yaw2-light080-s7/perception_capture/frame-000.json",
+      "source_index": 114,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-laboratory_entrance-view3-yaw0-light080-s7/perception_capture/frame-000.json",
+      "source_index": 120,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-laboratory_entrance-view3-yaw0-light100-s7/perception_capture/frame-000.json",
+      "source_index": 126,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-laboratory_entrance-view3-yaw2-light080-s7/perception_capture/frame-000.json",
+      "source_index": 132,
+      "status": "ready"
+    },
+    {
+      "frame": "reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-doorway-view3-yaw2-light080-s7/perception_capture/frame-000.json",
+      "source_index": 138,
+      "status": "ready"
+    }
+  ],
+  "text_policy": "exact LAB, LABORATORY, OFFICE; no fuzzy matching; full RGB scene; no target/catalogue inputs",
+  "versions": {
+    "numpy": "2.5.3",
+    "onnxruntime": "1.30.0",
+    "rapidocr-onnxruntime": "1.4.4"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "achieved_study_power": false,
+  "alpha": 0.05,
+  "assumptions": [
+    "independent worlds; common normal world effect on both system logits",
+    "intercepts match marginal rates; variance matches B5 binary ICC",
+    "conditional joint mixture matches requested marginal discordance if feasible",
+    "conditions/seeds conditionally iid within world; no missing outcomes or infrastructure failures",
+    "all grid cells retained; infeasible cells reported rather than clipped or dropped"
+  ],
+  "baseline_binary_iccs": [
+    0.0,
+    0.05,
+    0.1
+  ],
+  "baselines": [
+    0.75,
+    0.85,
+    0.9
+  ],
+  "conditions": 8,
+  "discordances": [
+    0.1,
+    0.14,
+    0.2,
+    0.3
+  ],
+  "final_method_approved": false,
+  "monte_carlo_replications_per_hypothesis": 100000,
+  "monte_carlo_seed": 20260922,
+  "original_nuisance_estimates_sha256": "911d06a99e3419dec57e13ae198b030b8276945e2f942ce44f0f436c74b45d12",
+  "protected_data_read": false,
+  "schema_version": "research3-marginal-power-grid-proposal/v1",
+  "simulator_repetitions_per_condition": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "source_sha256": {
+    "scripts/marginal_power_sensitivity.py": "493627308e746a2103d89df9c294e981fe2e482254812af6f5237721f8f9da9d",
+    "scripts/run_marginal_power_sensitivity.py": "bb5aa129606c8cffc7034b100af22fdcca86cab0feb08fd96d233dba9f871f0d"
+  },
+  "target_marginal_effect": 0.1,
+  "workers": 4,
+  "worlds": 6
+}

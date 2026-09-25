@@ -1,0 +1,15 @@
+{
+  "agent_bound_at": "2026-09-24T15:00:52.728663+00:00",
+  "approves_unseen_labels_or_models": false,
+  "authority_source": "/home/eao/lusn-robot-navigation/reports/joint_score_wave_s_authorization_20260924.json",
+  "authority_source_sha256": "92731bb2b3f18400265054bb1690648778dba75c1dac7ddd124f6ea3c1d1a557",
+  "authorizes_validation_or_protected_access": false,
+  "decision": "authorize_wave_s_collection",
+  "execution_manifest_sha256": "707e1828780277f991e62f506e4081cdbbfa67e4c7004459e4ef592aed617028",
+  "provenance": "Agent-bound receipt of prospective conversational authorization, not a human signature or later evidence review.",
+  "reviewed_at": "2026-09-24T15:41:01+01:00",
+  "reviewer_name": "Emmnauel Alabi Olasubomi",
+  "reviewer_type": "human",
+  "schema_version": "research3-jsc-execution-approval/v1",
+  "user_statement": "connect the components to the Wave S driver, complete actual-world preflight checks, and obtain execution authorization. I give you the execution authorization straight away now"
+}

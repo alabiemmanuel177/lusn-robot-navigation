@@ -1,0 +1,16 @@
+{
+  "attempts": 144,
+  "authority": "User approval immediately following request for Stage A only",
+  "authorized": true,
+  "input_sha256": {
+    "configs/calibration_redesign_v2.yaml": "b0c9ea79650c7cdb53c19cffd3f8dee153af0477c422eb4d17f62bda993bcc57",
+    "docs/CALIBRATION_REDESIGN_AMENDMENT_20260923.md": "5535843cf83d55ca1cae275a402eae9dd6723e616f3b97c0a463c46db8cd4288"
+  },
+  "model_or_labels_approved": false,
+  "plan_sha256": "960b6251e526a5d17e200b8716f05c7c9ad1c8f0c75b000fdbb6b23f7d1212bc",
+  "primary_collection_authorized": false,
+  "protected_access_authorized": false,
+  "recorded_at": 1790142085.6964035,
+  "stage": "A",
+  "user_statement": "Approved"
+}

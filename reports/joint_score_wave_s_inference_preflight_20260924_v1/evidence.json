@@ -1,0 +1,862 @@
+{
+  "human_labels_generated": false,
+  "integration_completed": true,
+  "no_perception_success_quota": true,
+  "primary_eligible": false,
+  "rows": [
+    {
+      "attempt_id": "preflight-chair",
+      "capture_uuid": "a5d790e0-cabd-4eca-af54-e73715520590",
+      "content_sha256": "bdbac6741550b4c9a6fe448a906a91ae52296cab9575bde6232e422db4e31cb3",
+      "emissions": [
+        {
+          "box": [
+            260.76995849609375,
+            135.96839904785156,
+            350.8541564941406,
+            281.8928527832031
+          ],
+          "category": "chair",
+          "emission_id": "b6438e0cfbc69ddfe326d627fddb4452e067a8cf70d227fd2d910d0fc66be0fb",
+          "entity_id": "dev_01-r001-red-chair",
+          "feature_order": [
+            "intercept",
+            "raw_logit_scaled",
+            "valid_depth_fraction",
+            "relative_depth_iqr",
+            "reference_distance_scaled"
+          ],
+          "features": [
+            1.0,
+            0.14742797208051525,
+            1.0,
+            0.027914982483137864,
+            0.28101181173644874
+          ],
+          "frame_id": "17df4d63daa40575fd3a0256fa4984e3936a7630b7a737e2d9b5156e2a20b415",
+          "map_pose": [
+            2.021256680278337,
+            0.6210737227052595
+          ],
+          "observed_at_ns": 14502000000,
+          "raw_score": 0.8543501496315002,
+          "reference_distance_m": 0.2529106305628039,
+          "source": "grounding_dino",
+          "source_index": 1,
+          "support": {
+            "depth_iqr_m": 0.03196337819099426,
+            "median_depth_m": 1.145025908946991,
+            "relative_depth_iqr": 0.027914982483137864,
+            "selected_pixels": 710,
+            "valid_depth_fraction": 1.0
+          }
+        }
+      ],
+      "frame_sha256": "17df4d63daa40575fd3a0256fa4984e3936a7630b7a737e2d9b5156e2a20b415",
+      "human_labels_generated": false,
+      "hypotheses": [
+        {
+          "association": {
+            "calibration_eligible": false,
+            "candidates": [
+              {
+                "entity_id": "dev_01-r001-red-chair",
+                "reference_distance_m": 0.2529106305628039
+              }
+            ],
+            "entity_id": "dev_01-r001-red-chair",
+            "identity_verified": false,
+            "joint_correctness_probability": null,
+            "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+            "runtime_admitted": false,
+            "schema_version": "research3-instance-association-candidate/v1",
+            "status": "unique_geometric_candidate",
+            "visual_category": "chair"
+          },
+          "box": [
+            260.76995849609375,
+            135.96839904785156,
+            350.8541564941406,
+            281.8928527832031
+          ],
+          "calibration_eligible": false,
+          "entity_id": null,
+          "human_verdict": null,
+          "identity_verified": false,
+          "joint_probability": null,
+          "map_pose": [
+            2.021256680278337,
+            0.6210737227052595
+          ],
+          "primary_status": "scoreable_emission",
+          "raw_score": 0.8543501496315002,
+          "raw_score_meaning": "text_matching_not_joint_probability",
+          "runtime_admitted": false,
+          "source": "grounding_dino",
+          "source_index": 1,
+          "status": "unique_geometric_candidate",
+          "surface": {
+            "band_width_m": 0.1,
+            "calibration_eligible": false,
+            "covariance_calibrated": false,
+            "depth_iqr_m": 0.03196337819099426,
+            "discarded_depth_pixels": 1414,
+            "foreground_selection_verified": false,
+            "map_pose": [
+              2.021256680278337,
+              0.6210737227052595
+            ],
+            "median_depth_m": 1.145025908946991,
+            "minimum_support_pixels": 213,
+            "multiple_surfaces_possible": false,
+            "point_semantics": "nearest_supported_fixed_depth_band_inside_predicted_chair_box",
+            "point_xyz": [
+              2.021256680278337,
+              0.6210737227052595,
+              0.3642808682872143
+            ],
+            "selected_depth_range_m": [
+              1.0887339115142822,
+              1.1882820129394531
+            ],
+            "selected_pixels": 710,
+            "selected_support_fraction": 0.3342749529190207,
+            "status": "chair_foreground_band_candidate",
+            "valid_fraction": 1.0
+          },
+          "visual_category": "chair"
+        },
+        {
+          "association": null,
+          "box": [
+            365.23443603515625,
+            132.9290771484375,
+            416.56256103515625,
+            253.40855407714844
+          ],
+          "calibration_eligible": false,
+          "entity_id": null,
+          "human_verdict": null,
+          "identity_verified": false,
+          "joint_probability": null,
+          "map_pose": null,
+          "primary_status": "other_class_diagnostic",
+          "raw_score": 0.31095680594444275,
+          "raw_score_meaning": "text_matching_not_joint_probability",
+          "runtime_admitted": false,
+          "source": "grounding_dino",
+          "source_index": 3,
+          "status": "portal_sides_disagree",
+          "surface": {
+            "calibration_eligible": false,
+            "map_pose": null,
+            "side_depths_m": [
+              4.695181131362915,
+              3.523455500602722
+            ],
+            "status": "portal_sides_disagree"
+          },
+          "visual_category": "doorway"
+        },
+        {
+          "association": {
+            "calibration_eligible": false,
+            "candidates": [],
+            "entity_id": null,
+            "identity_verified": false,
+            "joint_correctness_probability": null,
+            "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+            "runtime_admitted": false,
+            "schema_version": "research3-instance-association-candidate/v1",
+            "status": "unassociated",
+            "visual_category": "doorway"
+          },
+          "box": [
+            450.1407165527344,
+            182.623046875,
+            466.8484191894531,
+            248.69178771972656
+          ],
+          "calibration_eligible": false,
+          "entity_id": null,
+          "human_verdict": null,
+          "identity_verified": false,
+          "joint_probability": null,
+          "map_pose": [
+            8.727808710451708,
+            1.3555614870061707
+          ],
+          "primary_status": "other_class_diagnostic",
+          "raw_score": 0.38374677300453186,
+          "raw_score_meaning": "text_matching_not_joint_probability",
+          "runtime_admitted": false,
+          "source": "grounding_dino",
+          "source_index": 5,
+          "status": "unassociated",
+          "surface": {
+            "calibration_eligible": false,
+            "central_depth_status": "visible_surface_estimate",
+            "covariance_calibrated": false,
+            "map_pose": [
+              8.727808710451708,
+              1.3555614870061707
+            ],
+            "object_identity_verified": false,
+            "point_semantics": "box_center_ray_at_mean_side_strip_depth_not_verified_reference",
+            "point_xyz": [
+              8.727808710451708,
+              1.3555614870061707,
+              0.9600063684914646
+            ],
+            "relative_side_disagreement": 0.09249550976358657,
+            "runtime_admitted": false,
+            "side_depths_m": [
+              6.588068008422852,
+              6.0056374073028564
+            ],
+            "side_support_pixels": [
+              92,
+              92
+            ],
+            "status": "portal_side_surface_candidate"
+          },
+          "visual_category": "doorway"
+        }
+      ],
+      "perception_status": "scoreable_emissions",
+      "processing_status": "completed",
+      "status": "completed",
+      "wave": "S"
+    },
+    {
+      "attempt_id": "preflight-doorway",
+      "capture_uuid": "1a9d0ca8-9ea2-4cb3-8050-5bc78f540583",
+      "content_sha256": "c4a1c6f794a7d536bc789ee2dbb83d0abff695fa1ecbf92ab3078adec669680d",
+      "emissions": [],
+      "frame_sha256": "6da4f632135121df5eb16b7671437c1be1b5cf92815df4d1b5357bc83acf5da0",
+      "human_labels_generated": false,
+      "hypotheses": [
+        {
+          "association": null,
+          "box": [
+            210.5532989501953,
+            2.4451589584350586,
+            406.6007995605469,
+            268.4094543457031
+          ],
+          "calibration_eligible": false,
+          "entity_id": null,
+          "human_verdict": null,
+          "identity_verified": false,
+          "joint_probability": null,
+          "map_pose": null,
+          "primary_status": "depth_template_abstention",
+          "raw_score": 0.3102248013019562,
+          "raw_score_meaning": "text_matching_not_joint_probability",
+          "runtime_admitted": false,
+          "source": "grounding_dino",
+          "source_index": 6,
+          "status": "portal_sides_disagree",
+          "surface": {
+            "calibration_eligible": false,
+            "map_pose": null,
+            "side_depths_m": [
+              2.758120059967041,
+              1.7483131289482117
+            ],
+            "status": "portal_sides_disagree"
+          },
+          "visual_category": "doorway"
+        },
+        {
+          "association": {
+            "calibration_eligible": false,
+            "candidates": [],
+            "entity_id": null,
+            "identity_verified": false,
+            "joint_correctness_probability": null,
+            "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+            "runtime_admitted": false,
+            "schema_version": "research3-instance-association-candidate/v1",
+            "status": "unassociated",
+            "visual_category": "doorway"
+          },
+          "box": [
+            250.00741577148438,
+            136.74624633789062,
+            384.1458740234375,
+            254.42791748046875
+          ],
+          "calibration_eligible": false,
+          "entity_id": null,
+          "human_verdict": null,
+          "identity_verified": false,
+          "joint_probability": null,
+          "map_pose": [
+            7.737196789068812,
+            3.525445230483972
+          ],
+          "primary_status": "unassociated",
+          "raw_score": 0.41785141825675964,
+          "raw_score_meaning": "text_matching_not_joint_probability",
+          "runtime_admitted": false,
+          "source": "grounding_dino",
+          "source_index": 10,
+          "status": "unassociated",
+          "surface": {
+            "calibration_eligible": false,
+            "central_depth_status": "visible_surface_estimate",
+            "covariance_calibrated": false,
+            "map_pose": [
+              7.737196789068812,
+              3.525445230483972
+            ],
+            "object_identity_verified": false,
+            "point_semantics": "box_center_ray_at_mean_side_strip_depth_not_verified_reference",
+            "point_xyz": [
+              7.737196789068812,
+              3.525445230483972,
+              1.0769797838118036
+            ],
+            "relative_side_disagreement": 0.003018895372012434,
+            "runtime_admitted": false,
+            "side_depths_m": [
+              3.9984716176986694,
+              3.986418843269348
+            ],
+            "side_support_pixels": [
+              1640,
+              1640
+            ],
+            "status": "portal_side_surface_candidate"
+          },
+          "visual_category": "doorway"
+        },
+        {
+          "association": {
+            "calibration_eligible": false,
+            "candidates": [
+              {
+                "entity_id": "r3geo_base_r001_left_2_entrance",
+                "reference_distance_m": 0.014759365213530273
+              }
+            ],
+            "entity_id": "r3geo_base_r001_left_2_entrance",
+            "identity_verified": false,
+            "joint_correctness_probability": null,
+            "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+            "runtime_admitted": false,
+            "schema_version": "research3-instance-association-candidate/v1",
+            "status": "unique_geometric_candidate",
+            "visual_category": "laboratory_entrance"
+          },
+          "box": [
+            276.0,
+            65.0,
+            343.0,
+            101.0
+          ],
+          "calibration_eligible": false,
+          "converted": {
+            "calibration_eligible": false,
+            "general_scene_method": false,
+            "identity_verified": false,
+            "map_pose": [
+              8.244114267427387,
+              1.495684178352319
+            ],
+            "reference_semantics": "authored offset from readable text centre to original sign reference",
+            "uses_authored_geometry_prior": true
+          },
+          "entity_id": null,
+          "human_verdict": null,
+          "identity_verified": false,
+          "joint_probability": null,
+          "map_pose": [
+            8.244114267427387,
+            1.495684178352319
+          ],
+          "primary_status": "other_class_diagnostic",
+          "raw_score": 0.978744367758433,
+          "raw_score_meaning": "text_recognition_not_joint_probability",
+          "runtime_admitted": false,
+          "source": "rapidocr",
+          "source_index": 0,
+          "status": "unique_geometric_candidate",
+          "surface": {
+            "calibration_eligible": false,
+            "covariance_calibrated": false,
+            "depth_iqr_m": 0.009722530841827393,
+            "descriptive_scatter_diagonal": [
+              0.005760013637023519,
+              0.00045133761393944974,
+              0.0021952779816042235
+            ],
+            "map_pose": [
+              7.714114267427386,
+              1.0956841783523188
+            ],
+            "multiple_surfaces_possible": false,
+            "object_identity_verified": false,
+            "point_semantics": "central_predicted_box_visible_depth_support_not_catalogue_reference",
+            "point_xyz": [
+              7.714114267427386,
+              1.0956841783523188,
+              1.4059660276430268
+            ],
+            "status": "visible_surface_estimate",
+            "systematic_reference_offset_estimated": false,
+            "valid_fraction": 1.0,
+            "valid_pixels": 390
+          },
+          "text": "LAB",
+          "visual_category": "laboratory_entrance"
+        }
+      ],
+      "perception_status": "abstentions",
+      "processing_status": "completed",
+      "status": "completed",
+      "wave": "S"
+    },
+    {
+      "attempt_id": "preflight-laboratory_entrance",
+      "capture_uuid": "bcc96baa-2631-4c7f-91ac-7345c8ce7767",
+      "content_sha256": "c4a1c6f794a7d536bc789ee2dbb83d0abff695fa1ecbf92ab3078adec669680d",
+      "emissions": [
+        {
+          "box": [
+            276.0,
+            65.0,
+            343.0,
+            101.0
+          ],
+          "category": "laboratory_entrance",
+          "emission_id": "cc65d2d71d8b70695b023c46a535006458e3638e72aea988c66a093616e89639",
+          "entity_id": "r3geo_base_r001_left_2_entrance",
+          "feature_order": [
+            "intercept",
+            "raw_logit_scaled",
+            "valid_depth_fraction",
+            "relative_depth_iqr",
+            "reference_distance_scaled"
+          ],
+          "features": [
+            1.0,
+            0.3191373821541238,
+            1.0,
+            0.006221686362805898,
+            0.016399294681700302
+          ],
+          "frame_id": "9647fb746ec8ef93f8c2dd1850cef5e3cb4311f61f1bf310b95117557a1246fc",
+          "map_pose": [
+            8.244114267427387,
+            1.495684178352319
+          ],
+          "observed_at_ns": 14502000000,
+          "raw_score": 0.978744367758433,
+          "reference_distance_m": 0.014759365213530273,
+          "source": "rapidocr",
+          "source_index": 0,
+          "support": {
+            "depth_iqr_m": 0.009722530841827393,
+            "median_depth_m": 1.562684178352356,
+            "relative_depth_iqr": 0.006221686362805898,
+            "selected_pixels": 390,
+            "valid_depth_fraction": 1.0
+          }
+        }
+      ],
+      "frame_sha256": "9647fb746ec8ef93f8c2dd1850cef5e3cb4311f61f1bf310b95117557a1246fc",
+      "human_labels_generated": false,
+      "hypotheses": [
+        {
+          "association": null,
+          "box": [
+            210.5532989501953,
+            2.4451589584350586,
+            406.6007995605469,
+            268.4094543457031
+          ],
+          "calibration_eligible": false,
+          "entity_id": null,
+          "human_verdict": null,
+          "identity_verified": false,
+          "joint_probability": null,
+          "map_pose": null,
+          "primary_status": "other_class_diagnostic",
+          "raw_score": 0.3102248013019562,
+          "raw_score_meaning": "text_matching_not_joint_probability",
+          "runtime_admitted": false,
+          "source": "grounding_dino",
+          "source_index": 6,
+          "status": "portal_sides_disagree",
+          "surface": {
+            "calibration_eligible": false,
+            "map_pose": null,
+            "side_depths_m": [
+              2.758120059967041,
+              1.7483131289482117
+            ],
+            "status": "portal_sides_disagree"
+          },
+          "visual_category": "doorway"
+        },
+        {
+          "association": {
+            "calibration_eligible": false,
+            "candidates": [],
+            "entity_id": null,
+            "identity_verified": false,
+            "joint_correctness_probability": null,
+            "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+            "runtime_admitted": false,
+            "schema_version": "research3-instance-association-candidate/v1",
+            "status": "unassociated",
+            "visual_category": "doorway"
+          },
+          "box": [
+            250.00741577148438,
+            136.74624633789062,
+            384.1458740234375,
+            254.42791748046875
+          ],
+          "calibration_eligible": false,
+          "entity_id": null,
+          "human_verdict": null,
+          "identity_verified": false,
+          "joint_probability": null,
+          "map_pose": [
+            7.737196789068812,
+            3.525445230483972
+          ],
+          "primary_status": "other_class_diagnostic",
+          "raw_score": 0.41785141825675964,
+          "raw_score_meaning": "text_matching_not_joint_probability",
+          "runtime_admitted": false,
+          "source": "grounding_dino",
+          "source_index": 10,
+          "status": "unassociated",
+          "surface": {
+            "calibration_eligible": false,
+            "central_depth_status": "visible_surface_estimate",
+            "covariance_calibrated": false,
+            "map_pose": [
+              7.737196789068812,
+              3.525445230483972
+            ],
+            "object_identity_verified": false,
+            "point_semantics": "box_center_ray_at_mean_side_strip_depth_not_verified_reference",
+            "point_xyz": [
+              7.737196789068812,
+              3.525445230483972,
+              1.0769797838118036
+            ],
+            "relative_side_disagreement": 0.003018895372012434,
+            "runtime_admitted": false,
+            "side_depths_m": [
+              3.9984716176986694,
+              3.986418843269348
+            ],
+            "side_support_pixels": [
+              1640,
+              1640
+            ],
+            "status": "portal_side_surface_candidate"
+          },
+          "visual_category": "doorway"
+        },
+        {
+          "association": {
+            "calibration_eligible": false,
+            "candidates": [
+              {
+                "entity_id": "r3geo_base_r001_left_2_entrance",
+                "reference_distance_m": 0.014759365213530273
+              }
+            ],
+            "entity_id": "r3geo_base_r001_left_2_entrance",
+            "identity_verified": false,
+            "joint_correctness_probability": null,
+            "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+            "runtime_admitted": false,
+            "schema_version": "research3-instance-association-candidate/v1",
+            "status": "unique_geometric_candidate",
+            "visual_category": "laboratory_entrance"
+          },
+          "box": [
+            276.0,
+            65.0,
+            343.0,
+            101.0
+          ],
+          "calibration_eligible": false,
+          "converted": {
+            "calibration_eligible": false,
+            "general_scene_method": false,
+            "identity_verified": false,
+            "map_pose": [
+              8.244114267427387,
+              1.495684178352319
+            ],
+            "reference_semantics": "authored offset from readable text centre to original sign reference",
+            "uses_authored_geometry_prior": true
+          },
+          "entity_id": null,
+          "human_verdict": null,
+          "identity_verified": false,
+          "joint_probability": null,
+          "map_pose": [
+            8.244114267427387,
+            1.495684178352319
+          ],
+          "primary_status": "scoreable_emission",
+          "raw_score": 0.978744367758433,
+          "raw_score_meaning": "text_recognition_not_joint_probability",
+          "runtime_admitted": false,
+          "source": "rapidocr",
+          "source_index": 0,
+          "status": "unique_geometric_candidate",
+          "surface": {
+            "calibration_eligible": false,
+            "covariance_calibrated": false,
+            "depth_iqr_m": 0.009722530841827393,
+            "descriptive_scatter_diagonal": [
+              0.005760013637023519,
+              0.00045133761393944974,
+              0.0021952779816042235
+            ],
+            "map_pose": [
+              7.714114267427386,
+              1.0956841783523188
+            ],
+            "multiple_surfaces_possible": false,
+            "object_identity_verified": false,
+            "point_semantics": "central_predicted_box_visible_depth_support_not_catalogue_reference",
+            "point_xyz": [
+              7.714114267427386,
+              1.0956841783523188,
+              1.4059660276430268
+            ],
+            "status": "visible_surface_estimate",
+            "systematic_reference_offset_estimated": false,
+            "valid_fraction": 1.0,
+            "valid_pixels": 390
+          },
+          "text": "LAB",
+          "visual_category": "laboratory_entrance"
+        }
+      ],
+      "perception_status": "scoreable_emissions",
+      "processing_status": "completed",
+      "status": "completed",
+      "wave": "S"
+    },
+    {
+      "attempt_id": "preflight-office_entrance",
+      "capture_uuid": "9e742211-efca-4461-a5aa-8e86b344f592",
+      "content_sha256": "609f8ab35379abeb68a00c17c1b18a60cdd8ff9b3e13c588ac9cdca436191a5a",
+      "emissions": [
+        {
+          "box": [
+            245.0,
+            67.0,
+            371.0,
+            98.0
+          ],
+          "category": "office_entrance",
+          "emission_id": "9c89f94b68362982d40b5654626fe2af18fcc152bd7fda058cacad0dc28ece9b",
+          "entity_id": "r3geo_base_r001_right_2_entrance",
+          "feature_order": [
+            "intercept",
+            "raw_logit_scaled",
+            "valid_depth_fraction",
+            "relative_depth_iqr",
+            "reference_distance_scaled"
+          ],
+          "features": [
+            1.0,
+            0.25264814445480793,
+            1.0,
+            0.005457908652508292,
+            0.003999070961489081
+          ],
+          "frame_id": "bbf0d32d6c95c8151faaaf8967ebb1daa8ed505a90597bbf762b21fc669f1ee4",
+          "map_pose": [
+            8.227247612538509,
+            -1.4976808743476484
+          ],
+          "observed_at_ns": 11001000000,
+          "raw_score": 0.9539892673492432,
+          "reference_distance_m": 0.0035991638653401726,
+          "source": "rapidocr",
+          "source_index": 0,
+          "support": {
+            "depth_iqr_m": 0.00853988528251648,
+            "median_depth_m": 1.5646808743476868,
+            "relative_depth_iqr": 0.005457908652508292,
+            "selected_pixels": 612,
+            "valid_depth_fraction": 1.0
+          }
+        }
+      ],
+      "frame_sha256": "bbf0d32d6c95c8151faaaf8967ebb1daa8ed505a90597bbf762b21fc669f1ee4",
+      "human_labels_generated": false,
+      "hypotheses": [
+        {
+          "association": {
+            "calibration_eligible": false,
+            "candidates": [
+              {
+                "entity_id": "r3geo_base_r001_right_2_doorway",
+                "reference_distance_m": 0.06862294969386097
+              }
+            ],
+            "entity_id": "r3geo_base_r001_right_2_doorway",
+            "identity_verified": false,
+            "joint_correctness_probability": null,
+            "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+            "runtime_admitted": false,
+            "schema_version": "research3-instance-association-candidate/v1",
+            "status": "unique_geometric_candidate",
+            "visual_category": "doorway"
+          },
+          "box": [
+            207.94985961914062,
+            2.2763729095458984,
+            407.3791809082031,
+            268.3079833984375
+          ],
+          "calibration_eligible": false,
+          "entity_id": null,
+          "human_verdict": null,
+          "identity_verified": false,
+          "joint_probability": null,
+          "map_pose": [
+            7.710153705915519,
+            -1.267867602586708
+          ],
+          "primary_status": "other_class_diagnostic",
+          "raw_score": 0.3532935678958893,
+          "raw_score_meaning": "text_matching_not_joint_probability",
+          "runtime_admitted": false,
+          "source": "grounding_dino",
+          "source_index": 9,
+          "status": "unique_geometric_candidate",
+          "surface": {
+            "calibration_eligible": false,
+            "central_depth_status": "visible_surface_estimate",
+            "covariance_calibrated": false,
+            "map_pose": [
+              7.710153705915519,
+              -1.267867602586708
+            ],
+            "object_identity_verified": false,
+            "point_semantics": "box_center_ray_at_mean_side_strip_depth_not_verified_reference",
+            "point_xyz": [
+              7.710153705915519,
+              -1.267867602586708,
+              1.0980927079194283
+            ],
+            "relative_side_disagreement": 0.005415847390982043,
+            "runtime_admitted": false,
+            "side_depths_m": [
+              1.7301697134971619,
+              1.7395654916763306
+            ],
+            "side_support_pixels": [
+              4700,
+              4262
+            ],
+            "status": "portal_side_surface_candidate"
+          },
+          "visual_category": "doorway"
+        },
+        {
+          "association": {
+            "calibration_eligible": false,
+            "candidates": [
+              {
+                "entity_id": "r3geo_base_r001_right_2_entrance",
+                "reference_distance_m": 0.0035991638653401726
+              }
+            ],
+            "entity_id": "r3geo_base_r001_right_2_entrance",
+            "identity_verified": false,
+            "joint_correctness_probability": null,
+            "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+            "runtime_admitted": false,
+            "schema_version": "research3-instance-association-candidate/v1",
+            "status": "unique_geometric_candidate",
+            "visual_category": "office_entrance"
+          },
+          "box": [
+            245.0,
+            67.0,
+            371.0,
+            98.0
+          ],
+          "calibration_eligible": false,
+          "converted": {
+            "calibration_eligible": false,
+            "general_scene_method": false,
+            "identity_verified": false,
+            "map_pose": [
+              8.227247612538509,
+              -1.4976808743476484
+            ],
+            "reference_semantics": "authored offset from readable text centre to original sign reference",
+            "uses_authored_geometry_prior": true
+          },
+          "entity_id": null,
+          "human_verdict": null,
+          "identity_verified": false,
+          "joint_probability": null,
+          "map_pose": [
+            8.227247612538509,
+            -1.4976808743476484
+          ],
+          "primary_status": "scoreable_emission",
+          "raw_score": 0.9539892673492432,
+          "raw_score_meaning": "text_recognition_not_joint_probability",
+          "runtime_admitted": false,
+          "source": "rapidocr",
+          "source_index": 0,
+          "status": "unique_geometric_candidate",
+          "surface": {
+            "calibration_eligible": false,
+            "covariance_calibrated": false,
+            "depth_iqr_m": 0.00853988528251648,
+            "descriptive_scatter_diagonal": [
+              0.021881793755526586,
+              0.00043968077427361047,
+              0.0015609425364438542
+            ],
+            "map_pose": [
+              7.697247612538509,
+              -1.0976808743476485
+            ],
+            "multiple_surfaces_possible": false,
+            "object_identity_verified": false,
+            "point_semantics": "central_predicted_box_visible_depth_support_not_catalogue_reference",
+            "point_xyz": [
+              7.697247612538509,
+              -1.0976808743476485,
+              1.4125947604604203
+            ],
+            "status": "visible_surface_estimate",
+            "systematic_reference_offset_estimated": false,
+            "valid_fraction": 1.0,
+            "valid_pixels": 612
+          },
+          "text": "OFFICE",
+          "visual_category": "office_entrance"
+        }
+      ],
+      "perception_status": "scoreable_emissions",
+      "processing_status": "completed",
+      "status": "completed",
+      "wave": "S"
+    }
+  ],
+  "schema_version": "research3-jsc-preflight-integration/v1"
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "research3-resource-guard-repair-approval/v1",
+  "authorized": true,
+  "user_response": "approved",
+  "record_type": "conversation_transcription_not_independent_signature",
+  "scope_document": "docs/RESOURCE_GUARD_REPAIR_APPROVAL_20260922.md",
+  "source_path": "src/language_nav/live_resources.py",
+  "before_sha256": "fc0ad9a3e249c2aeffbe2e64424d67230e9604bd588e48b12b9e88a2c3df4a0c",
+  "after_sha256": "a484706b8133c95a8c4f2ae90677a5246513d6d9e77eb7d8e6117cf1347df9aa",
+  "resume_unstarted_count": 56,
+  "retained_failure": "r3-recovery-feas-r003-laboratory_entrance-v0",
+  "replace_failed_attempt": false,
+  "protected_access": false,
+  "change_detector_or_scientific_schedule": false
+}

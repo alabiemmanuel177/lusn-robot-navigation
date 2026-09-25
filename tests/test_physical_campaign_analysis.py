@@ -86,6 +86,23 @@ def test_missing_collision_observation_prevents_success_claim():
     assert row["navigation_success"] is None
 
 
+def test_measured_ordered_failure_does_not_require_terminal_identity():
+    plan, outcomes = fixtures()
+    outcomes[0].update(instruction_completion=False,terminal_identity_correct=None,
+                       navigation_success=False)
+    row=MODULE["analyze"](plan,outcomes)["episodes"][0]["outcome"]
+    assert row["instruction_completion"] is False
+    assert row["terminal_identity_correct"] is None
+
+
+def test_infrastructure_failure_still_invalidates_unverified_ordered_failure():
+    plan, outcomes = fixtures()
+    outcomes[0].update(instruction_completion=False,terminal_identity_correct=None,
+                       infrastructure_failure=True)
+    row=MODULE["analyze"](plan,outcomes)["episodes"][0]["outcome"]
+    assert row["instruction_completion"] is None
+
+
 def test_scheduled_condition_cannot_be_changed_or_omitted():
     plan, outcomes = fixtures()
     plan["episodes"][0]["condition"] = "truthful_original"

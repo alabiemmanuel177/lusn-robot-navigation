@@ -2,6 +2,9 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
+.venv_semantic_probe/
+.venv_object_probe/
+.research_models/
 ros_ws/build/
 ros_ws/install/
 ros_ws/log/
@@ -10,6 +13,7 @@ reports/*.jsonl.sha256
 
 
 # Top-level colcon artefacts (the ros_ws/ copies were already ignored)
+/.venv_ocr_probe/
 /build/
 /install/
 /log/
@@ -30,3 +34,32 @@ reports/expansion_chain_20260914/chain.log
 
 # Review kit archives are hash-pinned in their packet metadata; keep the bytes out of git.
 reports/expansion_review_*/*.zip
+
+# Four-class development evidence: retain small provenance, not large raw media.
+reports/four_class_*/**/*.bin
+reports/four_class_*/*.npz
+reports/four_class_*/**/logs/
+reports/four_class_*_preview_*/*.png
+
+# Raw capture media, frames, logs and review kit contents stay out of version control
+**/*.bin
+**/*.npz
+**/ros_logs/
+reports/**/*.log
+reports/expansion_collection_*/*.log
+reports/joint_score_wave_s_primary_*/
+reports/joint_score_wave_s_human_review_*/
+reports/joint_score_wave_s_primary_inference_*/
+reports/joint_score_wave_s_gazebo_preflight_*/
+reports/stage1_frame_previews_*/
+reports/four_class_*_capture_*/
+reports/independent_pose_live_*/
+reports/redesign_stage_a_*/
+reports/class_aware_acquisition_pilot_*/
+reports/distance_lighting_pilot_*/
+reports/stage1_two_workers_*/
+reports/stage1_four_workers_*/
+reports/stage1_feasibility_execution_*/
+reports/two_worker_capture_trial_*/
+reports/four_worker_capture_trial_*/
+

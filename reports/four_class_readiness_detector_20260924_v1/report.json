@@ -1,0 +1,13 @@
+{
+  "accuracy_estimated": false,
+  "calibration_eligible": false,
+  "elapsed_s": 1459.1087055206299,
+  "journal_sha256": "db4b10a0bf1e769dcfdb7e2d934f326277399ab1af33e031a51d3302daf23be9",
+  "plan_sha256": "1acc407c309d94e795cee68541755de7d9a50b839caa668262eee63af603b600",
+  "versions": {
+    "Pillow": "12.3.0",
+    "numpy": "2.5.2",
+    "torch": "2.8.0+cpu",
+    "transformers": "4.57.1"
+  }
+}

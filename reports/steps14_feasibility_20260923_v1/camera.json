@@ -1,0 +1,671 @@
+{
+  "all_axis_consistency_passes": 20,
+  "all_axis_observed": 20,
+  "completed": 23,
+  "full_metric_validation_passed": false,
+  "plan_sha256": "e7af1f009da16d6dda12faf76eb1c381f9933ba1af399efb5f1d66def159921b",
+  "rows": [
+    {
+      "source_index": 0,
+      "status": "retained_source_failure"
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22641704406260166,
+        "depth_floor_height_std": 0.003860331838644115,
+        "depth_pitch_slope": 0.0036496801553689883,
+        "depth_x": 7.602586469807203,
+        "depth_y": 0.4730224385567675,
+        "floor_pixels": 121581,
+        "height_residual": 0.002417044062601653,
+        "max_abs_residual_m": 0.00602243855676754,
+        "model_centre": [
+          7.606,
+          0.46699999999999997,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 11,
+        "x_residual": -0.0034135301927964434,
+        "y_faces_used": 2,
+        "y_residual": 0.00602243855676754
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051342243,
+      "source_index": 6,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22641665008439968,
+        "depth_floor_height_std": 0.0038486782004235045,
+        "depth_pitch_slope": 0.0035927151335439214,
+        "depth_x": 7.602511329794957,
+        "depth_y": 0.47307000712108105,
+        "floor_pixels": 122226,
+        "height_residual": 0.002416650084399674,
+        "max_abs_residual_m": 0.006070007121081078,
+        "model_centre": [
+          7.606,
+          0.46699999999999997,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 11,
+        "x_residual": -0.00348867020504251,
+        "y_faces_used": 2,
+        "y_residual": 0.006070007121081078
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051342243,
+      "source_index": 12,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22614765485839025,
+        "depth_floor_height_std": 0.003977466041018188,
+        "depth_pitch_slope": 0.004447550194527023,
+        "depth_x": 7.853729325869605,
+        "depth_y": -0.6441377287665478,
+        "floor_pixels": 110888,
+        "height_residual": 0.0021476548583902466,
+        "max_abs_residual_m": 0.0042462479499809636,
+        "model_centre": [
+          7.857903989051136,
+          -0.6398914808165669,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 5,
+        "x_residual": -0.0041746631815318125,
+        "y_faces_used": 3,
+        "y_residual": -0.0042462479499809636
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.1370912105131267,
+      "source_index": 18,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22672535570236044,
+        "depth_floor_height_std": 0.0039886773032843615,
+        "depth_pitch_slope": 0.0033114591896825753,
+        "depth_x": 7.541649232493619,
+        "depth_y": 0.5675299595180204,
+        "floor_pixels": 133744,
+        "height_residual": 0.0027253557023604325,
+        "max_abs_residual_m": 0.009169549346693229,
+        "model_centre": [
+          7.5425479610837005,
+          0.5583604101713272,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 3,
+        "x_residual": -0.0008987285900818875,
+        "y_faces_used": 3,
+        "y_residual": 0.009169549346693229
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051346357,
+      "source_index": 24,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22616724803075916,
+        "depth_floor_height_std": 0.003934200399409585,
+        "depth_pitch_slope": 0.004157145055837204,
+        "depth_x": 8.713332232609941,
+        "depth_y": 0.439677924909793,
+        "floor_pixels": 113549,
+        "height_residual": 0.0021672480307591557,
+        "max_abs_residual_m": 0.004445397405518747,
+        "model_centre": [
+          8.71777763001546,
+          0.43810819702334103,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 5,
+        "x_residual": -0.004445397405518747,
+        "y_faces_used": 2,
+        "y_residual": 0.0015697278864519881
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.1370912105133165,
+      "source_index": 30,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.2267434661532679,
+        "depth_floor_height_std": 0.003974135023078405,
+        "depth_pitch_slope": 0.003337669337493907,
+        "depth_x": 8.717370166471468,
+        "depth_y": -0.4405620723886111,
+        "floor_pixels": 135885,
+        "height_residual": 0.0027434661532678983,
+        "max_abs_residual_m": 0.0027434661532678983,
+        "model_centre": [
+          8.717580274108666,
+          -0.43808664674504405,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 4,
+        "x_residual": -0.00021010763719786496,
+        "y_faces_used": 2,
+        "y_residual": -0.002475425643567064
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051328035,
+      "source_index": 36,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22663579453960575,
+        "depth_floor_height_std": 0.0038698705781217836,
+        "depth_pitch_slope": 0.0033670884784846584,
+        "depth_x": 8.765715138262447,
+        "depth_y": -0.4545316596687572,
+        "floor_pixels": 130584,
+        "height_residual": 0.002635794539605746,
+        "max_abs_residual_m": 0.004850955615693375,
+        "model_centre": [
+          8.762682607364543,
+          -0.4496807040530638,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 6,
+        "x_residual": 0.0030325308979044507,
+        "y_faces_used": 2,
+        "y_residual": -0.004850955615693375
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051322862,
+      "source_index": 42,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.2268479205260656,
+        "depth_floor_height_std": 0.003949548448603283,
+        "depth_pitch_slope": 0.0033127108707101957,
+        "depth_x": 8.577105920524968,
+        "depth_y": -0.4862287649558966,
+        "floor_pixels": 140711,
+        "height_residual": 0.0028479205260655838,
+        "max_abs_residual_m": 0.00528890795886694,
+        "model_centre": [
+          8.578523316187129,
+          -0.49151767291476356,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 1,
+        "x_residual": -0.0014173956621608141,
+        "y_faces_used": 3,
+        "y_residual": 0.00528890795886694
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051342577,
+      "source_index": 48,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": false,
+      "check": {
+        "depth_floor_height": 0.22650330980529232,
+        "depth_floor_height_std": 0.0037984632342415226,
+        "depth_pitch_slope": 0.003491714419835951,
+        "depth_y": -0.14455019929454282,
+        "floor_pixels": 128307,
+        "height_residual": 0.002503309805292314,
+        "max_abs_residual_m": 0.002503309805292314,
+        "model_centre": [
+          2.10353396689263,
+          -0.14390417120478588,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "y_faces_used": 1,
+        "y_residual": -0.0006460280897569448
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051331566,
+      "source_index": 54,
+      "status": "completed",
+      "translation_consistency_pass": false
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22672242129904552,
+        "depth_floor_height_std": 0.003975078774220698,
+        "depth_pitch_slope": 0.003323773888415564,
+        "depth_x": 8.540528560970953,
+        "depth_y": 0.6431882177573974,
+        "floor_pixels": 136631,
+        "height_residual": 0.0027224212990455132,
+        "max_abs_residual_m": 0.008499026278091182,
+        "model_centre": [
+          8.540872189751408,
+          0.6346891914793062,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 2,
+        "x_residual": -0.0003436287804543525,
+        "y_faces_used": 3,
+        "y_residual": 0.008499026278091182
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.1370912105134471,
+      "source_index": 60,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22646560654462822,
+        "depth_floor_height_std": 0.0038741726350066496,
+        "depth_pitch_slope": 0.0035007693212915072,
+        "depth_x": 7.825782911578471,
+        "depth_y": -0.5008050852620195,
+        "floor_pixels": 122773,
+        "height_residual": 0.0024656065446282127,
+        "max_abs_residual_m": 0.006758938115669022,
+        "model_centre": [
+          7.823688241419576,
+          -0.4940461471463505,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 9,
+        "x_residual": 0.0020946701588950845,
+        "y_faces_used": 2,
+        "y_residual": -0.006758938115669022
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051316647,
+      "source_index": 66,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22617759205264681,
+        "depth_floor_height_std": 0.003953038043623056,
+        "depth_pitch_slope": 0.004247913654474764,
+        "depth_x": 8.714152149930374,
+        "depth_y": 0.43979024205732675,
+        "floor_pixels": 112624,
+        "height_residual": 0.0021775920526468096,
+        "max_abs_residual_m": 0.004465825982157057,
+        "model_centre": [
+          8.718617975912531,
+          0.43820268552006064,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 4,
+        "x_residual": -0.004465825982157057,
+        "y_faces_used": 2,
+        "y_residual": 0.0015875565372661105
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051331716,
+      "source_index": 72,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22645449066632017,
+        "depth_floor_height_std": 0.003883944051956204,
+        "depth_pitch_slope": 0.0034490042170312483,
+        "depth_x": 8.842095098160272,
+        "depth_y": -0.5275044446798822,
+        "floor_pixels": 122054,
+        "height_residual": 0.0024544906663201693,
+        "max_abs_residual_m": 0.007386636688245574,
+        "model_centre": [
+          8.84192898012717,
+          -0.5201178079916366,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 6,
+        "x_residual": 0.00016611803310162543,
+        "y_faces_used": 2,
+        "y_residual": -0.007386636688245574
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051314488,
+      "source_index": 78,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22662391137379162,
+        "depth_floor_height_std": 0.0038764112184393384,
+        "depth_pitch_slope": 0.0033664658823148227,
+        "depth_x": 8.764955286797449,
+        "depth_y": -0.45413579948922045,
+        "floor_pixels": 130392,
+        "height_residual": 0.0026239113737916153,
+        "max_abs_residual_m": 0.004778534006843471,
+        "model_centre": [
+          8.761901264422084,
+          -0.449357265482377,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 6,
+        "x_residual": 0.0030540223753643403,
+        "y_faces_used": 2,
+        "y_residual": -0.004778534006843471
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051323064,
+      "source_index": 84,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.2267348504863751,
+        "depth_floor_height_std": 0.004009476850800038,
+        "depth_pitch_slope": 0.0033239253656469213,
+        "depth_x": 7.544064239151482,
+        "depth_y": 0.5686079032124872,
+        "floor_pixels": 134001,
+        "height_residual": 0.00273485048637509,
+        "max_abs_residual_m": 0.009336963488577599,
+        "model_centre": [
+          7.542309976063714,
+          0.5592709397239096,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 5,
+        "x_residual": 0.0017542630877684928,
+        "y_faces_used": 3,
+        "y_residual": 0.009336963488577599
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051346124,
+      "source_index": 90,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22634594530219737,
+        "depth_floor_height_std": 0.0038485677547135996,
+        "depth_pitch_slope": 0.0037323076535582473,
+        "depth_x": 1.2158928860888938,
+        "depth_y": -0.15646225489042642,
+        "floor_pixels": 121082,
+        "height_residual": 0.0023459453021973664,
+        "max_abs_residual_m": 0.004676986190474741,
+        "model_centre": [
+          1.217508469288338,
+          -0.15178526869995168,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 1,
+        "x_residual": -0.001615583199444215,
+        "y_faces_used": 1,
+        "y_residual": -0.004676986190474741
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051328688,
+      "source_index": 96,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22646231707140496,
+        "depth_floor_height_std": 0.0038789517469304123,
+        "depth_pitch_slope": 0.003462905993395933,
+        "depth_x": 7.8257997499358485,
+        "depth_y": -0.5008101088285238,
+        "floor_pixels": 123534,
+        "height_residual": 0.002462317071404957,
+        "max_abs_residual_m": 0.006763961682173358,
+        "model_centre": [
+          7.823688241419576,
+          -0.4940461471463505,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 9,
+        "x_residual": 0.002111508516272842,
+        "y_faces_used": 2,
+        "y_residual": -0.006763961682173358
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051316647,
+      "source_index": 102,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": false,
+      "check": {
+        "depth_floor_height": 0.22678768047936662,
+        "depth_floor_height_std": 0.003953032619638438,
+        "depth_pitch_slope": 0.003316502911590887,
+        "depth_y": -0.43836505617909133,
+        "floor_pixels": 137723,
+        "height_residual": 0.0027876804793666166,
+        "max_abs_residual_m": 0.0027876804793666166,
+        "model_centre": [
+          7.686700599568336,
+          -0.4376789417599852,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "y_faces_used": 3,
+        "y_residual": -0.0006861144191061541
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051331094,
+      "source_index": 108,
+      "status": "completed",
+      "translation_consistency_pass": false
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22633741064287968,
+        "depth_floor_height_std": 0.003849450890872766,
+        "depth_pitch_slope": 0.0037817385232004753,
+        "depth_x": 1.2205484717930177,
+        "depth_y": -0.15796232241412397,
+        "floor_pixels": 121087,
+        "height_residual": 0.002337410642879678,
+        "max_abs_residual_m": 0.004567450233978421,
+        "model_centre": [
+          1.220936143797955,
+          -0.15339487218014555,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 1,
+        "x_residual": -0.00038767200493716736,
+        "y_faces_used": 1,
+        "y_residual": -0.004567450233978421
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.1370912105132864,
+      "source_index": 114,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22661944290312158,
+        "depth_floor_height_std": 0.0038819524156380276,
+        "depth_pitch_slope": 0.003390196092841929,
+        "depth_x": 8.765685966938047,
+        "depth_y": -0.45454913746705317,
+        "floor_pixels": 130951,
+        "height_residual": 0.002619442903121577,
+        "max_abs_residual_m": 0.004868433413989348,
+        "model_centre": [
+          8.762682607364543,
+          -0.4496807040530638,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 6,
+        "x_residual": 0.003003359573504838,
+        "y_faces_used": 2,
+        "y_residual": -0.004868433413989348
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.1370912105132287,
+      "source_index": 120,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22656037496423678,
+        "depth_floor_height_std": 0.003874279591900063,
+        "depth_pitch_slope": 0.003438131070049926,
+        "depth_x": 8.577370173258497,
+        "depth_y": 0.49819059300596863,
+        "floor_pixels": 126566,
+        "height_residual": 0.002560374964236778,
+        "max_abs_residual_m": 0.006820917013295513,
+        "model_centre": [
+          8.578655644111217,
+          0.4913696759926731,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 4,
+        "x_residual": -0.0012854708527196834,
+        "y_faces_used": 2,
+        "y_residual": 0.006820917013295513
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051344397,
+      "source_index": 126,
+      "status": "completed",
+      "translation_consistency_pass": true
+    },
+    {
+      "all_translation_axes_observed": false,
+      "check": {
+        "depth_floor_height": 0.22684458333307114,
+        "depth_floor_height_std": 0.003980874825689623,
+        "depth_pitch_slope": 0.003302394661394676,
+        "depth_y": -0.4582791135967349,
+        "floor_pixels": 140631,
+        "height_residual": 0.002844583333071138,
+        "max_abs_residual_m": 0.003295689219871778,
+        "model_centre": [
+          8.614189366715198,
+          -0.4615748028166067,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "y_faces_used": 3,
+        "y_residual": 0.003295689219871778
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051338682,
+      "source_index": 132,
+      "status": "completed",
+      "translation_consistency_pass": false
+    },
+    {
+      "all_translation_axes_observed": true,
+      "check": {
+        "depth_floor_height": 0.22634301089888242,
+        "depth_floor_height_std": 0.0038841745836424163,
+        "depth_pitch_slope": 0.003755078908727145,
+        "depth_x": 8.666258502513049,
+        "depth_y": 0.443317995946655,
+        "floor_pixels": 118051,
+        "height_residual": 0.0023430108988824194,
+        "max_abs_residual_m": 0.003879233240347446,
+        "model_centre": [
+          8.670137735753396,
+          0.43989614253845716,
+          0.224
+        ],
+        "model_id": "research3-rendering-camera-model/v1",
+        "verified": true,
+        "x_faces_used": 4,
+        "x_residual": -0.003879233240347446,
+        "y_faces_used": 2,
+        "y_residual": 0.003421853408197839
+      },
+      "full_rigid_transform_independently_validated": false,
+      "nominal_tf_translation_difference_m": 0.13709121051336676,
+      "source_index": 138,
+      "status": "completed",
+      "translation_consistency_pass": true
+    }
+  ]
+}

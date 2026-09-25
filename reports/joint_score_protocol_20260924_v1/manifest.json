@@ -1,0 +1,32 @@
+{
+  "execution_armed": false,
+  "input_sha256": {
+    "docs/CALIBRATION_METHOD_PROPOSAL_20260912.md": "5532f4b9f3495fc5a8164cbfbdae6d612b58c906b6b222d5659c78e32a46780c",
+    "docs/JOINT_SCORE_METHOD_CANDIDATE_20260923.md": "d16d384b916781f3701bb1b92ad8bfd8f961f9e389f7fc7ca50b83b3ceaf69e0",
+    "docs/SCORE_LEARNING_COLLECTION_PROTOCOL_20260924.md": "179a20e5c3b8d94bfe195548ca97184dd9846a0716ad361adccdea90147c98be",
+    "docs/VALIDATION_DELAYED_RELEASE.md": "d099bed78105789d7f6859f9cdd5c41dcdccc6c9ae26fc54f304e492eee9aea3",
+    "reports/calibration_expansion_handoff_20260912_v1/plan.json": "d03ae270b491d21ee678a8349c4ff6e3f64772d3e70f09f577cbdc6166c2df7c",
+    "reports/four_class_perception_readiness_20260924_v1/manifest.json": "dea8ca64003fd390147e59d539d31a230b6c6c07ba9e40541fd9954bded622b5",
+    "scripts/joint_score_method_candidate.py": "77d6a42bcc73eaa50406259bf580995f8b5b9c9ded242994809b877f3e86ad91",
+    "scripts/prepare_joint_score_protocol.py": "59a3acfd19c3b79b8b5c849a8e8531fdc87bbd055a577441723c78f978661d35",
+    "tests/test_joint_score_protocol.py": "27e00022cb14186bd65a2850f5c3224bfbc3a7a8c7585034af19d8fcdc5979ca"
+  },
+  "limitations": [
+    "not a portable observation-review kit",
+    "execution asset/source manifest required per wave",
+    "one-frame production adapter and feature extractor require implementation",
+    "scientific approval and staged execution gates remain"
+  ],
+  "live_launches": 0,
+  "packet_sha256": {
+    "review_decision_TEMPLATE.json": "62ee434516a7b20cc5c2d910601d52cdf7cf033c6956ede4005c7d3c248f3f52",
+    "schedule.json": "1fb142087cc38822f8d74769cd92c1a5cd0bbd89effbdf8c55c729eadf410c96",
+    "schedule_audit.json": "f7d267d18ef1ac758208bef720ee63af6f96e4cb24197f00d541aafc5eeea300"
+  },
+  "protected_worlds_read": false,
+  "protocol_id": "R3-JSC-20260924-01",
+  "real_model_fits": 0,
+  "schema_version": "research3-joint-score-protocol-packet/v1",
+  "status": "final_proposal_pending_human_review",
+  "validation_labels_read": false
+}

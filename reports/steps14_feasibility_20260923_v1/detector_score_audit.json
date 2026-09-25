@@ -1,0 +1,124 @@
+{
+  "accuracy_estimated": false,
+  "calibration_eligible": false,
+  "candidate_selected": false,
+  "panels": {
+    "original": {
+      "all_query_scores_above_threshold": {
+        "background": 10,
+        "chair": 0,
+        "doorway": 51,
+        "laboratory_entrance": 65,
+        "office_entrance": 40,
+        "sign": 20
+      },
+      "display_counts": {
+        "background": 9,
+        "doorway": 31,
+        "laboratory_entrance": 43,
+        "office_entrance": 1,
+        "sign": 9
+      },
+      "per_query_max": {
+        "background": 0.3191142095812806,
+        "chair": 0.05405712140384454,
+        "doorway": 0.20648230128289002,
+        "laboratory_entrance": 0.24676617214955415,
+        "office_entrance": 0.16764026866060386,
+        "sign": 0.162528449265489
+      },
+      "raw_display_bins": {
+        "background": [
+          9,
+          0,
+          0
+        ],
+        "chair": [
+          0,
+          0,
+          0
+        ],
+        "doorway": [
+          31,
+          0,
+          0
+        ],
+        "laboratory_entrance": [
+          43,
+          0,
+          0
+        ],
+        "office_entrance": [
+          1,
+          0,
+          0
+        ],
+        "sign": [
+          9,
+          0,
+          0
+        ]
+      }
+    },
+    "short": {
+      "all_query_scores_above_threshold": {
+        "background": 14,
+        "chair": 7,
+        "doorway": 0,
+        "laboratory_entrance": 0,
+        "office_entrance": 7,
+        "sign": 17
+      },
+      "display_counts": {
+        "background": 14,
+        "chair": 7,
+        "office_entrance": 7,
+        "sign": 17
+      },
+      "per_query_max": {
+        "background": 0.17032253166894054,
+        "chair": 0.4102814867130423,
+        "doorway": 0.0629624932083464,
+        "laboratory_entrance": 0.07665814723450783,
+        "office_entrance": 0.13944638328611486,
+        "sign": 0.2785889622739662
+      },
+      "raw_display_bins": {
+        "background": [
+          14,
+          0,
+          0
+        ],
+        "chair": [
+          7,
+          0,
+          0
+        ],
+        "doorway": [
+          0,
+          0,
+          0
+        ],
+        "laboratory_entrance": [
+          0,
+          0,
+          0
+        ],
+        "office_entrance": [
+          7,
+          0,
+          0
+        ],
+        "sign": [
+          17,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "plan_sha256": "e7af1f009da16d6dda12faf76eb1c381f9933ba1af399efb5f1d66def159921b",
+  "primary_freeze_allowed": false,
+  "score_is_joint_probability": false,
+  "temperature_property": "positive temperature preserves which side of 0.5 a score lies on"
+}

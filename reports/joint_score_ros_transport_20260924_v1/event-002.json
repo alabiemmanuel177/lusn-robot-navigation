@@ -1,0 +1,64 @@
+{
+  "arm_stamp_ns": 1010000000,
+  "attempt_id": "synthetic-transport-preflight-not-wave-s",
+  "camera_info": {
+    "binning_x": 0,
+    "binning_y": 0,
+    "d": [],
+    "distortion_model": "plumb_bob",
+    "header": {
+      "frame_id": "jsc_test_camera",
+      "stamp": {
+        "nanosec": 10000000,
+        "sec": 1
+      }
+    },
+    "height": 32,
+    "k": [
+      100.0,
+      0.0,
+      16.0,
+      0.0,
+      100.0,
+      16.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "p": [
+      100.0,
+      0.0,
+      16.0,
+      0.0,
+      0.0,
+      100.0,
+      16.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "r": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "roi": {
+      "do_rectify": false,
+      "height": 0,
+      "width": 0,
+      "x_offset": 0,
+      "y_offset": 0
+    },
+    "width": 32
+  },
+  "kind": "arm",
+  "monotonic": 284088.512148149
+}

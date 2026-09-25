@@ -1,0 +1,617 @@
+{
+  "calibration_eligible": false,
+  "evaluated_contexts": [
+    {
+      "association": null,
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.9456654191017151,
+            "visual_category": "laboratory_entrance"
+          }
+        ],
+        "detector_score": 0.2664380967617035,
+        "doorway_index": 0,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          1.4387702941894531,
+          1.0388803482055664,
+          408.4120178222656,
+          274.1423645019531
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 6,
+      "status": "portal_sides_disagree",
+      "surface": {
+        "calibration_eligible": false,
+        "map_pose": null,
+        "side_depths_m": [
+          1.4435853958129883,
+          3.166065216064453
+        ],
+        "status": "portal_sides_disagree"
+      }
+    },
+    {
+      "association": {
+        "calibration_eligible": false,
+        "candidates": [
+          {
+            "entity_id": "r3geo_base_r006_right_2_entrance",
+            "reference_distance_m": 0.5651303540254273
+          }
+        ],
+        "entity_id": "r3geo_base_r006_right_2_entrance",
+        "identity_verified": false,
+        "joint_correctness_probability": null,
+        "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+        "runtime_admitted": false,
+        "schema_version": "research3-instance-association-candidate/v1",
+        "status": "unique_geometric_candidate",
+        "visual_category": "laboratory_entrance"
+      },
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.9456654191017151,
+            "visual_category": "laboratory_entrance"
+          }
+        ],
+        "detector_score": 0.3214276432991028,
+        "doorway_index": 1,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          203.5340576171875,
+          1.6868162155151367,
+          410.1004333496094,
+          266.4096984863281
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 6,
+      "status": "unique_geometric_candidate",
+      "surface": {
+        "calibration_eligible": false,
+        "central_depth_status": "visible_surface_estimate",
+        "covariance_calibrated": false,
+        "map_pose": [
+          7.714180431957649,
+          -1.2191266791820525
+        ],
+        "object_identity_verified": false,
+        "point_semantics": "box_center_ray_at_mean_side_strip_depth_not_verified_reference",
+        "point_xyz": [
+          7.714180431957649,
+          -1.2191266791820525,
+          1.0934620894296785
+        ],
+        "relative_side_disagreement": 0.008221535445581858,
+        "runtime_admitted": false,
+        "side_depths_m": [
+          1.6791954040527344,
+          1.6930579543113708
+        ],
+        "side_support_pixels": [
+          4847,
+          4388
+        ],
+        "status": "portal_side_surface_candidate"
+      }
+    },
+    {
+      "association": null,
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.9462438424428304,
+            "visual_category": "laboratory_entrance"
+          }
+        ],
+        "detector_score": 0.2578062117099762,
+        "doorway_index": 0,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          1.4990997314453125,
+          1.1112785339355469,
+          408.1988830566406,
+          274.1397705078125
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 12,
+      "status": "portal_sides_disagree",
+      "surface": {
+        "calibration_eligible": false,
+        "map_pose": null,
+        "side_depths_m": [
+          1.4431452751159668,
+          3.166037082672119
+        ],
+        "status": "portal_sides_disagree"
+      }
+    },
+    {
+      "association": {
+        "calibration_eligible": false,
+        "candidates": [
+          {
+            "entity_id": "r3geo_base_r006_right_2_entrance",
+            "reference_distance_m": 0.5658309296144246
+          }
+        ],
+        "entity_id": "r3geo_base_r006_right_2_entrance",
+        "identity_verified": false,
+        "joint_correctness_probability": null,
+        "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+        "runtime_admitted": false,
+        "schema_version": "research3-instance-association-candidate/v1",
+        "status": "unique_geometric_candidate",
+        "visual_category": "laboratory_entrance"
+      },
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.9462438424428304,
+            "visual_category": "laboratory_entrance"
+          }
+        ],
+        "detector_score": 0.3359481990337372,
+        "doorway_index": 1,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          203.75259399414062,
+          1.8516111373901367,
+          410.21832275390625,
+          267.2520446777344
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 12,
+      "status": "unique_geometric_candidate",
+      "surface": {
+        "calibration_eligible": false,
+        "central_depth_status": "visible_surface_estimate",
+        "covariance_calibrated": false,
+        "map_pose": [
+          7.7128763367894715,
+          -1.220331199645996
+        ],
+        "object_identity_verified": false,
+        "point_semantics": "box_center_ray_at_mean_side_strip_depth_not_verified_reference",
+        "point_xyz": [
+          7.7128763367894715,
+          -1.220331199645996,
+          1.0899478511245624
+        ],
+        "relative_side_disagreement": 0.008820038489906997,
+        "runtime_admitted": false,
+        "side_depths_m": [
+          1.6798900365829468,
+          1.6947723627090454
+        ],
+        "side_support_pixels": [
+          4878,
+          4419
+        ],
+        "status": "portal_side_surface_candidate"
+      }
+    },
+    {
+      "association": null,
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.9591538707415262,
+            "visual_category": "laboratory_entrance"
+          }
+        ],
+        "detector_score": 0.4702529013156891,
+        "doorway_index": 0,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          23.6142578125,
+          32.13501739501953,
+          172.2303924560547,
+          264.5005798339844
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 42,
+      "status": "portal_sides_disagree",
+      "surface": {
+        "calibration_eligible": false,
+        "map_pose": null,
+        "side_depths_m": [
+          2.3502190113067627,
+          1.9624236822128296
+        ],
+        "status": "portal_sides_disagree"
+      }
+    },
+    {
+      "association": {
+        "calibration_eligible": false,
+        "candidates": [],
+        "entity_id": null,
+        "identity_verified": false,
+        "joint_correctness_probability": null,
+        "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+        "runtime_admitted": false,
+        "schema_version": "research3-instance-association-candidate/v1",
+        "status": "unassociated",
+        "visual_category": "laboratory_entrance"
+      },
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.9941935737927755,
+            "visual_category": "laboratory_entrance"
+          }
+        ],
+        "detector_score": 0.47770392894744873,
+        "doorway_index": 0,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          186.18984985351562,
+          127.74707794189453,
+          329.28570556640625,
+          254.60154724121094
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 66,
+      "status": "unassociated",
+      "surface": {
+        "calibration_eligible": false,
+        "central_depth_status": "visible_surface_estimate",
+        "covariance_calibrated": false,
+        "map_pose": [
+          7.634608927195388,
+          3.5250602994620563
+        ],
+        "object_identity_verified": false,
+        "point_semantics": "box_center_ray_at_mean_side_strip_depth_not_verified_reference",
+        "point_xyz": [
+          7.634608927195388,
+          3.5250602994620563,
+          1.1390273331346759
+        ],
+        "relative_side_disagreement": 0.12571932324469215,
+        "runtime_admitted": false,
+        "side_depths_m": [
+          3.608593702316284,
+          4.092694044113159
+        ],
+        "side_support_pixels": [
+          1869,
+          1958
+        ],
+        "status": "portal_side_surface_candidate"
+      }
+    },
+    {
+      "association": null,
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.9941935737927755,
+            "visual_category": "laboratory_entrance"
+          }
+        ],
+        "detector_score": 0.31588873267173767,
+        "doorway_index": 1,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          131.30397033691406,
+          1.1716604232788086,
+          347.88287353515625,
+          273.5025329589844
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 66,
+      "status": "portal_sides_disagree",
+      "surface": {
+        "calibration_eligible": false,
+        "map_pose": null,
+        "side_depths_m": [
+          2.343133807182312,
+          1.87350994348526
+        ],
+        "status": "portal_sides_disagree"
+      }
+    },
+    {
+      "association": null,
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.9481484492619833,
+            "visual_category": "office_entrance"
+          }
+        ],
+        "detector_score": 0.45320308208465576,
+        "doorway_index": 0,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          28.380908966064453,
+          27.462923049926758,
+          169.58602905273438,
+          265.0557861328125
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 84,
+      "status": "portal_sides_disagree",
+      "surface": {
+        "calibration_eligible": false,
+        "map_pose": null,
+        "side_depths_m": [
+          2.287020444869995,
+          1.9183967113494873
+        ],
+        "status": "portal_sides_disagree"
+      }
+    },
+    {
+      "association": {
+        "calibration_eligible": false,
+        "candidates": [],
+        "entity_id": null,
+        "identity_verified": false,
+        "joint_correctness_probability": null,
+        "rule": "retain_all_same_visual_class_references_within_fixed_radius",
+        "runtime_admitted": false,
+        "schema_version": "research3-instance-association-candidate/v1",
+        "status": "unassociated",
+        "visual_category": "laboratory_entrance"
+      },
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.9941152930259705,
+            "visual_category": "laboratory_entrance"
+          }
+        ],
+        "detector_score": 0.4847721755504608,
+        "doorway_index": 0,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          186.14407348632812,
+          127.76335906982422,
+          329.2441101074219,
+          254.7078094482422
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 102,
+      "status": "unassociated",
+      "surface": {
+        "calibration_eligible": false,
+        "central_depth_status": "visible_surface_estimate",
+        "covariance_calibrated": false,
+        "map_pose": [
+          7.633816842152901,
+          3.5252240601418525
+        ],
+        "object_identity_verified": false,
+        "point_semantics": "box_center_ray_at_mean_side_strip_depth_not_verified_reference",
+        "point_xyz": [
+          7.633816842152901,
+          3.5252240601418525,
+          1.13787074159775
+        ],
+        "relative_side_disagreement": 0.12547168456153768,
+        "runtime_admitted": false,
+        "side_depths_m": [
+          3.6090376377105713,
+          4.092180013656616
+        ],
+        "side_support_pixels": [
+          1869,
+          1958
+        ],
+        "status": "portal_side_surface_candidate"
+      }
+    },
+    {
+      "association": null,
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.9941152930259705,
+            "visual_category": "laboratory_entrance"
+          }
+        ],
+        "detector_score": 0.31089210510253906,
+        "doorway_index": 1,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          131.4038848876953,
+          1.2126874923706055,
+          347.82525634765625,
+          273.30242919921875
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 102,
+      "status": "portal_sides_disagree",
+      "surface": {
+        "calibration_eligible": false,
+        "map_pose": null,
+        "side_depths_m": [
+          2.343539237976074,
+          1.875878393650055
+        ],
+        "status": "portal_sides_disagree"
+      }
+    },
+    {
+      "association": null,
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.9673954844474792,
+            "visual_category": "laboratory_entrance"
+          }
+        ],
+        "detector_score": 0.46565163135528564,
+        "doorway_index": 0,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          23.523731231689453,
+          32.16600036621094,
+          172.32728576660156,
+          264.65631103515625
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 120,
+      "status": "portal_sides_disagree",
+      "surface": {
+        "calibration_eligible": false,
+        "map_pose": null,
+        "side_depths_m": [
+          2.350759267807007,
+          1.9615764021873474
+        ],
+        "status": "portal_sides_disagree"
+      }
+    },
+    {
+      "association": null,
+      "calibration_eligible": false,
+      "context": {
+        "calibration_eligible": false,
+        "context": [
+          {
+            "text_index": 0,
+            "text_score": 0.985836406548818,
+            "visual_category": "laboratory_entrance"
+          }
+        ],
+        "detector_score": 0.43501773476600647,
+        "doorway_index": 0,
+        "human_verdict": null,
+        "joint_probability": null,
+        "status": "context_candidate",
+        "xyxy": [
+          451.9564208984375,
+          27.37112045288086,
+          595.6605224609375,
+          264.8668212890625
+        ]
+      },
+      "human_verdict": null,
+      "source_index": 126,
+      "status": "portal_sides_disagree",
+      "surface": {
+        "calibration_eligible": false,
+        "map_pose": null,
+        "side_depths_m": [
+          1.9204521775245667,
+          2.2932991981506348
+        ],
+        "status": "portal_sides_disagree"
+      }
+    }
+  ],
+  "human_labels_generated": false,
+  "input_sha256": {
+    "/home/eao/lusn-robot-navigation/reports/entrance_context_candidate_20260924_v1/plan.json": "087c6af375721a8c8c1b575d855ba8fc36d282fbace9b7132448325e8b9780c1",
+    "/home/eao/lusn-robot-navigation/reports/entrance_context_candidate_20260924_v1/results.jsonl": "c7c7dc57436f52cf23f3613d1b917fd6452bd7eab8d9925c7260011b6f4d12fd",
+    "/home/eao/lusn-robot-navigation/reports/grounding_candidate_20260923_v3/results.jsonl": "915f128f9f1918cfe252ec7e796b369fa27a6eb1d6aa2ca696adcac74cd019c3",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-chair-view0-yaw2-light090-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-chair-view3-yaw2-light090-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-doorway-view3-yaw0-light080-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-doorway-view3-yaw1-light100-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-doorway-view3-yaw2-light080-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-laboratory_entrance-view0-yaw0-light080-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-laboratory_entrance-view0-yaw0-light090-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-laboratory_entrance-view3-yaw0-light080-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-laboratory_entrance-view3-yaw0-light100-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-laboratory_entrance-view3-yaw2-light080-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-office_entrance-view0-yaw1-light100-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-office_entrance-view3-yaw1-light100-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r001-office_entrance-view3-yaw2-light100-s7/runtime_scene.yaml": "7ddf676d795a2e202a28f5d6b8e8ef5117634c42a3e2a35aa1734df101170580",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-chair-view0-yaw2-light080-s7/runtime_scene.yaml": "cb3bcb25ef29cd30aa00179739885ebb630521a48f645f82c02c53e457107f11",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-doorway-view0-yaw0-light080-s7/runtime_scene.yaml": "cb3bcb25ef29cd30aa00179739885ebb630521a48f645f82c02c53e457107f11",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-doorway-view0-yaw0-light090-s7/runtime_scene.yaml": "cb3bcb25ef29cd30aa00179739885ebb630521a48f645f82c02c53e457107f11",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-doorway-view3-yaw2-light080-s7/runtime_scene.yaml": "cb3bcb25ef29cd30aa00179739885ebb630521a48f645f82c02c53e457107f11",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-laboratory_entrance-view0-yaw1-light090-s7/runtime_scene.yaml": "cb3bcb25ef29cd30aa00179739885ebb630521a48f645f82c02c53e457107f11",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-laboratory_entrance-view3-yaw0-light100-s7/runtime_scene.yaml": "cb3bcb25ef29cd30aa00179739885ebb630521a48f645f82c02c53e457107f11",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-laboratory_entrance-view3-yaw2-light080-s7/runtime_scene.yaml": "cb3bcb25ef29cd30aa00179739885ebb630521a48f645f82c02c53e457107f11",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-office_entrance-view0-yaw1-light100-s7/runtime_scene.yaml": "cb3bcb25ef29cd30aa00179739885ebb630521a48f645f82c02c53e457107f11",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-office_entrance-view0-yaw2-light090-s7/runtime_scene.yaml": "cb3bcb25ef29cd30aa00179739885ebb630521a48f645f82c02c53e457107f11",
+    "/home/eao/lusn-robot-navigation/reports/physical_live_episodes/r3-redesign-v2-design_feasibility-r006-office_entrance-view3-yaw0-light090-s7/runtime_scene.yaml": "cb3bcb25ef29cd30aa00179739885ebb630521a48f645f82c02c53e457107f11",
+    "/home/eao/lusn-robot-navigation/reports/portal_depth_candidate_20260923_v1/plan.json": "12b2eb50bbe0979205bc83e483042cc7f374e536768a0ee55ee4f398a54729f7",
+    "/home/eao/lusn-robot-navigation/reports/portal_depth_candidate_20260923_v1/results.json": "4613f24a2ec94555c9e18c3c9f21bf696affc3ad05bd481a740dfcbf35ce6666",
+    "/home/eao/lusn-robot-navigation/scripts/audit_entrance_context_candidate.py": "f9abf3d5b52a75704bc0bea5caf364ef79d246e5c692810cf9cd35a08f7016a2"
+  },
+  "pairing_reconstruction_passed": true,
+  "slots": 24,
+  "status_counts": {
+    "no_context": 25,
+    "portal_sides_disagree": 8,
+    "unassociated": 2,
+    "unique_geometric_candidate": 2
+  },
+  "transform_limit": "historical commanded stationary rendering model; fresh live check does not certify historical frames",
+  "within_radius_candidate_counts": {}
+}

@@ -1,0 +1,12 @@
+{
+  "attempt_id": "synthetic-transport-preflight-not-wave-s",
+  "kind": "resource_check",
+  "monotonic": 284126.231071342,
+  "sample": {
+    "available_memory_kib": 26549496,
+    "cpu_pressure_avg10": 0.0,
+    "load1": 0.212890625,
+    "logical_cpus": 24,
+    "wall_time": 1790259042.7040312
+  }
+}

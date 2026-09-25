@@ -1,0 +1,24 @@
+{
+  "accuracy_estimated": false,
+  "all_display_outputs_reproduced": true,
+  "calibration_eligible": false,
+  "completed_frames": 23,
+  "display_box_count": 93,
+  "duplicates_suppressed": false,
+  "frames_without_display_boxes": 5,
+  "human_labels_generated": false,
+  "integrity_passed": true,
+  "mean_frame_elapsed_s": 12.131295577339504,
+  "metric_localization_established": false,
+  "query_counts": {
+    "background": 9,
+    "chair": 9,
+    "laboratory_entrance": 31,
+    "office_entrance": 43,
+    "sign": 1
+  },
+  "report_sha256": "ec57d0c587874c241f6f212cf7ea7aa9bb0d0138a2a8b9f7d865b3d66b7ef8dc",
+  "retained_source_failures": 1,
+  "scheduled_source_slots": 24,
+  "unclipped_boxes_extending_outside_image": 18
+}

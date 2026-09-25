@@ -1,0 +1,3351 @@
+{
+  "accounted": 400,
+  "attempts": [
+    {
+      "attempt_sha256": "727d06ee1316043fb89dc9ab3a9a61ed385f0e84649b9e33ce31b2dd2db4bc01",
+      "candidate_id": "expansion-v1-r001-chair-s1-view0",
+      "request_sha256": "9160c60945911a89672abd876bfdce3a5c23bbf4cdb7bd550746222c9a68a4a7",
+      "run_id": "expansion-v1-r001-chair-s1-view0",
+      "selected_entity": "dev_01-r001-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d3ae1f1fd07f94e6610a6516f52b9d386814fd99ff9883fc77b904e9067dccfc",
+      "candidate_id": "expansion-v1-r001-chair-s1-view1",
+      "request_sha256": "a9b7637d830e8427759073486e661b4d7ce3e858f688d664e984e888fe87b6f9",
+      "run_id": "expansion-v1-r001-chair-s1-view1",
+      "selected_entity": "dev_01-r001-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9e6e5553cda918ee7ea2112ce9fad6cb98af5d691c4d599d0a620f3f903c4e3d",
+      "candidate_id": "expansion-v1-r001-chair-s1-view2",
+      "request_sha256": "eca84e3facc2ecf29ab54b5a0bf4b4965d48bcf5ad235db6f41a3ad5aae5994a",
+      "run_id": "expansion-v1-r001-chair-s1-view2-retry1",
+      "selected_entity": "dev_01-r001-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "01a0f7dea8e774b1bd10b18e7e2b6ab12defe46101c6763628a41b4d8b366529",
+      "candidate_id": "expansion-v1-r001-chair-s1-view3",
+      "request_sha256": "59a1114ec23869e1b505a57329853119cd6093ebe55e4e7122e68343bbab1e6c",
+      "run_id": "expansion-v1-r001-chair-s1-view3-retry1",
+      "selected_entity": "dev_01-r001-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d4d42a8508a7d551e03aebe4896e07466e067ad001d35bc8b974b829a58963e3",
+      "candidate_id": "expansion-v1-r001-chair-s1-view4",
+      "request_sha256": "d5d3c99e80958ad5257c5e6fd998cf3cabb9c6d67bb1bec822ecd8d5bcd24e9a",
+      "run_id": "expansion-v1-r001-chair-s1-view4",
+      "selected_entity": "dev_01-r001-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9fd3d81abc5e442795e21df84a93b00d9fd101e7e0155c9c9dcf8d0969f50194",
+      "candidate_id": "expansion-v1-r001-chair-s2-view0",
+      "request_sha256": "dbec8c06178a0e7cebcd21c0bae723cb147331027b43e4226804c8c5dff3af1f",
+      "run_id": "expansion-v1-r001-chair-s2-view0-retry1",
+      "selected_entity": "dev_01-r001-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "73788729c85760d5e5626c7f9c04dc884361f20a1ff4c35aae8af2a84ee09990",
+      "candidate_id": "expansion-v1-r001-chair-s2-view1",
+      "request_sha256": "3064d82069a0a1b04e8370cad75dcf1557f4858f3758edc5523136afe4fee322",
+      "run_id": "expansion-v1-r001-chair-s2-view1-retry1",
+      "selected_entity": null,
+      "status": "infrastructure_failure"
+    },
+    {
+      "attempt_sha256": "ddb2a43711a78b8b924a38c9722bda30b7ba5c417e9d5f6d8b32fcd277cfd81c",
+      "candidate_id": "expansion-v1-r001-chair-s2-view2",
+      "request_sha256": "888ceb7aa801050232b96d20815bf61af7745d5c33f016eb6a2d0ecf1d73000b",
+      "run_id": "expansion-v1-r001-chair-s2-view2",
+      "selected_entity": "dev_01-r001-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a33c0c07179ffbdf0a247c62e62318984e29246781d6471e27757de5b476a6a9",
+      "candidate_id": "expansion-v1-r001-chair-s2-view3",
+      "request_sha256": "a1b9087f26a3ffe3fd3aa0cf768b9f2d945407ab185381989a32d988cc450220",
+      "run_id": "expansion-v1-r001-chair-s2-view3-retry1",
+      "selected_entity": "dev_01-r001-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f2e6a84e007e4ba6855a82b0a2e70b969af28961dcd69988904340858fa8b46e",
+      "candidate_id": "expansion-v1-r001-chair-s2-view4",
+      "request_sha256": "a8574c162ba3324469f16e2475f85843a32e319b77737783b9a53c988801f647",
+      "run_id": "expansion-v1-r001-chair-s2-view4",
+      "selected_entity": "dev_01-r001-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "881ae5a69b106a4e360fd2a0d9b3c6aa6b27d4a5abe5ffaa6016b8a6d7ec449c",
+      "candidate_id": "expansion-v1-r001-doorway-s1-view0",
+      "request_sha256": "013a900f9e39609f8b85a825b82940149162849d2170fb467cff52e0918bd7d8",
+      "run_id": "expansion-v1-r001-doorway-s1-view0-retry1",
+      "selected_entity": "r3geo_base_r001_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "cb2a64c18ad276a1e0d38c9836b846ee7f35fe61f2426843dee77eb345e9b372",
+      "candidate_id": "expansion-v1-r001-doorway-s1-view1",
+      "request_sha256": "40d7f4625c51ef3b12f14b8fb181dcd424de2dbf11a6e4e0ed599c1dc67992fc",
+      "run_id": "expansion-v1-r001-doorway-s1-view1-retry1",
+      "selected_entity": "r3geo_base_r001_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7ac56ba6ed6abac3897b094ba352f2ab699be841e29e9d0b5db5a8e0fb2008ba",
+      "candidate_id": "expansion-v1-r001-doorway-s1-view2",
+      "request_sha256": "f99cb3662fba0f756a0bef4a5f7dddff2771ff955fbdf0fcc6ffd683523b6748",
+      "run_id": "expansion-v1-r001-doorway-s1-view2-retry1",
+      "selected_entity": "r3geo_base_r001_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "aa127a4c9c74563a7c797005462fa6c68dede23688f49dd60e8902cbbc13bc1e",
+      "candidate_id": "expansion-v1-r001-doorway-s1-view3",
+      "request_sha256": "02966990933ffad3c19d5218872ec1b2b9704ec6429c2459cac58b0ffc787e2c",
+      "run_id": "expansion-v1-r001-doorway-s1-view3",
+      "selected_entity": "r3geo_base_r001_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5baec63b0135a3a90608eaba3079bac641a1e1e57218b27d178276cb65009b05",
+      "candidate_id": "expansion-v1-r001-doorway-s1-view4",
+      "request_sha256": "d5195db8dd4cf9e9bc63fd976e5471437e597b9015511ab748fd4de3dfb947f6",
+      "run_id": "expansion-v1-r001-doorway-s1-view4",
+      "selected_entity": "r3geo_base_r001_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "25cf3e853e8fe47d2ea4b3675fbf3c58ff30294f02d6201033b96c8beeaffdbd",
+      "candidate_id": "expansion-v1-r001-doorway-s2-view0",
+      "request_sha256": "25f99254a2082ddad6831c33b3f3153132b93b3b16d961ff60cb7996dcbb6de8",
+      "run_id": "expansion-v1-r001-doorway-s2-view0",
+      "selected_entity": "r3geo_base_r001_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e9e03b99ab7ebd7cda76a820e3d3e232aaac89d1fd473849eab8d851cab6bf4f",
+      "candidate_id": "expansion-v1-r001-doorway-s2-view1",
+      "request_sha256": "c82d7d8b54120e8fd321022f7addfbf6a814ddb8fc15f7a4b85a6f46e0f9c728",
+      "run_id": "expansion-v1-r001-doorway-s2-view1",
+      "selected_entity": "r3geo_base_r001_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d2bb5ec3b047b33a672c9fc3fb71a83a5d6d65f11b2192601971cb36c0dfbc04",
+      "candidate_id": "expansion-v1-r001-doorway-s2-view2",
+      "request_sha256": "66042b3318c6aece85de0316f9aa5baa2157bab5e1a42b2375cd709a12b70777",
+      "run_id": "expansion-v1-r001-doorway-s2-view2",
+      "selected_entity": "r3geo_base_r001_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c3f5141bf509f7b43c52769c64107b28f7bc799f8536d551e89025e722402199",
+      "candidate_id": "expansion-v1-r001-doorway-s2-view3",
+      "request_sha256": "82cf4ac23a16c948e5a8b0eacf1ca951bd688e18a875ae4ad19495098873fe3b",
+      "run_id": "expansion-v1-r001-doorway-s2-view3",
+      "selected_entity": "r3geo_base_r001_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d0d2c932beca7291daace3ecf092cbac15a3c6d76f926dae80f851265de36eb9",
+      "candidate_id": "expansion-v1-r001-doorway-s2-view4",
+      "request_sha256": "bd602c8749fd93a1208db43d423aea8839bce72f5083000460a48907e1a1c368",
+      "run_id": "expansion-v1-r001-doorway-s2-view4",
+      "selected_entity": "r3geo_base_r001_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a4bcf551c01abc9f6710858679fea50f8285c4b49c7c779e31dd7e155f5e6083",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s1-view0",
+      "request_sha256": "a57a38252be72ace8d13bc4392055355e133a736bf1560b0840a6fc4674e8f0a",
+      "run_id": "expansion-v1-r001-laboratory_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r001_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "18f8ddc32da0d2ff765bc1b38077a897a00db2f7980b24779aa07a0333f8c072",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s1-view1",
+      "request_sha256": "78a91ff5d334cbab6630e3d983f6da11a94ca4144365cd84f4a65fcbe9115771",
+      "run_id": "expansion-v1-r001-laboratory_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r001_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c7502d01bed5429435b950bec5c2c7f4b0b66b8b8e9154c73cdfa5d01e21c087",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s1-view2",
+      "request_sha256": "d5d44dd33226a6a377e98fa21c508a08e17aa54d9f451d06cef0942abb124604",
+      "run_id": "expansion-v1-r001-laboratory_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r001_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7a95e09d26bd76fae57338124c2a979c1ce32c2e4753c9c50b60e39513764dd4",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s1-view3",
+      "request_sha256": "af11658ce9f4a3a2fece97bde3eab6dd3fa602430977f19bda2622485cd15bec",
+      "run_id": "expansion-v1-r001-laboratory_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r001_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4c44c9316313c51ffd0be8a184ba2dc93b34edcbbb0cdd3c19740758480c3a51",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s1-view4",
+      "request_sha256": "8112c742f5de40c29574de69bfce9d421cfd9a406017fc89fb47200dc2af90a2",
+      "run_id": "expansion-v1-r001-laboratory_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r001_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0310b3c046a653e988c9a35568104ae01451454651efc68a60cd509acee00247",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s2-view0",
+      "request_sha256": "c980da07c64048a3d2e6b2fb2ab3ac5c9bfa354c44dfc2c9e76c6c559e74bad6",
+      "run_id": "expansion-v1-r001-laboratory_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r001_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0f3bdac3b021ae67b146474d8a7c7f0c9b65bc5777c6eb42f519c26be04f75ce",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s2-view1",
+      "request_sha256": "c788c5224881167937714fe73da36386151404433b29ea5d7110aca2834389ef",
+      "run_id": "expansion-v1-r001-laboratory_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r001_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e7c911412dd005b0d5f8c6a8d2d2ed48528c13c5ad30504bf54515489cf6a77b",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s2-view2",
+      "request_sha256": "e0d6f8245212e424f2afa768cf3127c64402e8a5b0b4940cae8c61be65720114",
+      "run_id": "expansion-v1-r001-laboratory_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r001_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "657dfebc16d7d4ba401e20ec748fd071439fd6107c26ebe1723b70db55410def",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s2-view3",
+      "request_sha256": "16f8da8d6f1c161f76f95c6caf770a149b293b7ea1e68a1c2e7d847fff02e7f6",
+      "run_id": "expansion-v1-r001-laboratory_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r001_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4b2807892ab1e3e0955b00fb5cac2e76044558cd7aa8afd90dcaa99af56d1a14",
+      "candidate_id": "expansion-v1-r001-laboratory_entrance-s2-view4",
+      "request_sha256": "a3089854574ec5e0b0fe6cc18f5730bfd753e4a85d3366ab8c950588a0b8fb9c",
+      "run_id": "expansion-v1-r001-laboratory_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r001_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c03db5eac94d872fbebc5226b52449864627a61b32117d25c807b6a7018a0417",
+      "candidate_id": "expansion-v1-r001-office_entrance-s1-view0",
+      "request_sha256": "d3600e63820bdec3d3b93f16f66c90abfe8b4437885e6b707aa7108bc8a406e1",
+      "run_id": "expansion-v1-r001-office_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r001_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "679910b74bea5f05ad5e794854c9bf3767139c322a179839480698cb72f8ef4b",
+      "candidate_id": "expansion-v1-r001-office_entrance-s1-view1",
+      "request_sha256": "b80d28e6e259bb951819670445deb784f6d521d8cc80603bd3143ebd0b6ac162",
+      "run_id": "expansion-v1-r001-office_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r001_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "46a69efc7585e0b0aa28b0509665313994beda3501841c643678cd125f5573f6",
+      "candidate_id": "expansion-v1-r001-office_entrance-s1-view2",
+      "request_sha256": "963c1b324e12f7b4f9c07ecea02d2d1dd24a26f81b03093ef0d6c59cf4dfcf3d",
+      "run_id": "expansion-v1-r001-office_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r001_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "544a8409f92040fe7345fd78c5597cfd1285d691e1858c4b85f3ff677da4ff46",
+      "candidate_id": "expansion-v1-r001-office_entrance-s1-view3",
+      "request_sha256": "28bdc29770c0fba3bdab12cb8394d4c7ca0bd10578d88e06e4832cb6977bf931",
+      "run_id": "expansion-v1-r001-office_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r001_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "92624f84992faae6e583d27fb6769938610cd7b3c9919be7993162643283f52b",
+      "candidate_id": "expansion-v1-r001-office_entrance-s1-view4",
+      "request_sha256": "8c9b7793740c1028184de469698facb0e86cf58411673109aacc329a4c7138c3",
+      "run_id": "expansion-v1-r001-office_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r001_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2a876ea3263c897f2dbcd5239f192ff5f487212a7fc53e7c2f80d08d5217579f",
+      "candidate_id": "expansion-v1-r001-office_entrance-s2-view0",
+      "request_sha256": "68fbc87d897329f068bc20dc2a42a549bb27694592d0e92f6728542b36127093",
+      "run_id": "expansion-v1-r001-office_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r001_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b1a8b5d4dd2e8ff3cbe6c630121209d2bf7126cfe0a3a77f69dc82f553b47184",
+      "candidate_id": "expansion-v1-r001-office_entrance-s2-view1",
+      "request_sha256": "d1832f83c8d71cf9d9fda385f38caf58992803493aa362c03cc8dac52ade1a3b",
+      "run_id": "expansion-v1-r001-office_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r001_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c3603eef632ad483deb5bcc8bdb1624b685290720a27fa56c8698fddb1660b06",
+      "candidate_id": "expansion-v1-r001-office_entrance-s2-view2",
+      "request_sha256": "1ebb25e95fa88d4bc0ab519b8ed5e1905b458db0796b6012274acaa05c21c75a",
+      "run_id": "expansion-v1-r001-office_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r001_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "3cd1df8e35d099990807af3adb803ccbc894aade1b33974ca91ff92036fe9bac",
+      "candidate_id": "expansion-v1-r001-office_entrance-s2-view3",
+      "request_sha256": "e4eb9b5a06b2619fbefc896699d047a66bc2cbbd1c0b85838aa58c91eb9d103e",
+      "run_id": "expansion-v1-r001-office_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r001_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a51f38201aab83e4cda45d4cb8bcca2223f3c85193158f8607f39a24aa1cb312",
+      "candidate_id": "expansion-v1-r001-office_entrance-s2-view4",
+      "request_sha256": "471efe11b1e7b8818be56d18c0b35a79cbacde66ae9c5cbfce38f0fa975ca511",
+      "run_id": "expansion-v1-r001-office_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r001_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b65340c9d387b6668bb803c5f7a896854554cb79166e39469f3dbcfd2a72fe6b",
+      "candidate_id": "expansion-v1-r002-chair-s1-view0",
+      "request_sha256": "fe1f0739927f374eb15c8883b0eaf1e0f1cf23d14ca4b8ddbc62d198959231af",
+      "run_id": "expansion-v1-r002-chair-s1-view0",
+      "selected_entity": "dev_01-r002-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0454dc78891a685cba58b319f58db45387507554171d895a7343f03659784da1",
+      "candidate_id": "expansion-v1-r002-chair-s1-view1",
+      "request_sha256": "904ac2bea3bc3d4932328aa334ad7fdec26fd09e9c2595efffd7baaf2fd2ac26",
+      "run_id": "expansion-v1-r002-chair-s1-view1",
+      "selected_entity": "dev_01-r002-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "8befd8ff77516485b92b2acfec0a13300b7c8a085976a4a05dd35c546a9e3f20",
+      "candidate_id": "expansion-v1-r002-chair-s1-view2",
+      "request_sha256": "465104bec61da071607c1dfe594b505723a19cd6a8fbe22e37ec4ea0b15a1c55",
+      "run_id": "expansion-v1-r002-chair-s1-view2",
+      "selected_entity": "dev_01-r002-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "faf7823196bc41e9deab2875a1238bb293583c12c6e4a0c159cba6ce7e10a87e",
+      "candidate_id": "expansion-v1-r002-chair-s1-view3",
+      "request_sha256": "c84ac85bd53e10df5d721870167f1847474a23f8dc944b09bf537443fd3a23ca",
+      "run_id": "expansion-v1-r002-chair-s1-view3",
+      "selected_entity": "dev_01-r002-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "877e681ad154aac2286f36291a293fdf34f7ae7b0f40dd92e1c2fdc40a53e77e",
+      "candidate_id": "expansion-v1-r002-chair-s1-view4",
+      "request_sha256": "01909b469d3b0f1bea6126e87cd3f220065e0915599f7cc20902dfaeb9d7bfe7",
+      "run_id": "expansion-v1-r002-chair-s1-view4",
+      "selected_entity": "dev_01-r002-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e9ac7280af875ef6a08f10776c9955328181e8ccbe4f7a5849b11d2751679c79",
+      "candidate_id": "expansion-v1-r002-chair-s2-view0",
+      "request_sha256": "1eebea5b68de4e8b425b8b0ea6ccd81ebb37b389933690cef817fd61d6f9af04",
+      "run_id": "expansion-v1-r002-chair-s2-view0",
+      "selected_entity": "dev_01-r002-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "89944fae4459b1ce27cd4449f4142476d72b8210a104d88b24d1cff87c8c5f2c",
+      "candidate_id": "expansion-v1-r002-chair-s2-view1",
+      "request_sha256": "a1ec40c0ac7f2f4c958ea1342841792861f60020c3d65d3398dd42f7ed109307",
+      "run_id": "expansion-v1-r002-chair-s2-view1",
+      "selected_entity": "dev_01-r002-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b6637f71abd5bbda99f601b18eae2d3476b92e954b5df2db7b5991e2e54c2482",
+      "candidate_id": "expansion-v1-r002-chair-s2-view2",
+      "request_sha256": "c29e0811b20df06145cfb3e090f51e683b248587dc79cebb933b37245772c401",
+      "run_id": "expansion-v1-r002-chair-s2-view2",
+      "selected_entity": "dev_01-r002-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "fd359cdaaeab4cbdd577f2527e31c7770421eea420ffab3b72489ab897875464",
+      "candidate_id": "expansion-v1-r002-chair-s2-view3",
+      "request_sha256": "c76cd365e7225c179ddb3ee230ca8f249351451e793ea29d5584ea6f7c5cad67",
+      "run_id": "expansion-v1-r002-chair-s2-view3",
+      "selected_entity": "dev_01-r002-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "791109bb9a828647501f3e071b48d821af6535c8c846356f2aeb5aa4612a36cc",
+      "candidate_id": "expansion-v1-r002-chair-s2-view4",
+      "request_sha256": "ab2003d13b9de229c135a2ba496e4572e46ae6e7dacde435d9041670bb6160d9",
+      "run_id": "expansion-v1-r002-chair-s2-view4",
+      "selected_entity": "dev_01-r002-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ff171c798185df149e7fa205ae6e8917995f87d75b6233b14086412f19845bf9",
+      "candidate_id": "expansion-v1-r002-doorway-s1-view0",
+      "request_sha256": "d3194852a5aaec5b457cdf515861edca0802c46a8b3811e6c0416cbc838eb83e",
+      "run_id": "expansion-v1-r002-doorway-s1-view0",
+      "selected_entity": "r3geo_base_r002_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "07022497a22fa92fe17dc9ec1339c5e6b2c5df7b218a6b1d003c51ba175e5be3",
+      "candidate_id": "expansion-v1-r002-doorway-s1-view1",
+      "request_sha256": "e59832b05aba2d23783e7a1f6296356ff5c06cb916ba360c7513acf44cffcb7e",
+      "run_id": "expansion-v1-r002-doorway-s1-view1",
+      "selected_entity": "r3geo_base_r002_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b43347f70df50974f2f1252df2330a815bd73cf72afe97141fba19abdb122a55",
+      "candidate_id": "expansion-v1-r002-doorway-s1-view2",
+      "request_sha256": "e60ae09f5e3c146518d647bd3e2a61693bc6931ba0bfe16e4cde5fdc562b72a2",
+      "run_id": "expansion-v1-r002-doorway-s1-view2",
+      "selected_entity": "r3geo_base_r002_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "acff66283908e1e7b159ada7017262a9d1da4dcd97f16068fdd3589b577b1ada",
+      "candidate_id": "expansion-v1-r002-doorway-s1-view3",
+      "request_sha256": "50b835a9b431c58b30e1c9fea381436573aa0bbc5f01b4ae8fc3dd23ae97f22e",
+      "run_id": "expansion-v1-r002-doorway-s1-view3",
+      "selected_entity": "r3geo_base_r002_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ce2e6ec943ff7e3406da6dad5ae0e6014b1be7490f46e94a69ee9e4c61e816cd",
+      "candidate_id": "expansion-v1-r002-doorway-s1-view4",
+      "request_sha256": "14caadb2fc20ad7c596de4370e4aa12bac45d06c9f40ad6b5df34bd3c4948f79",
+      "run_id": "expansion-v1-r002-doorway-s1-view4",
+      "selected_entity": "r3geo_base_r002_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d9e062d90988d3ad7d45a58cf5d4d0b4df2dc743ca9bdfe31b9e8ba675be9b3c",
+      "candidate_id": "expansion-v1-r002-doorway-s2-view0",
+      "request_sha256": "e1023b75e5e0168f0313b58f9baada6985981b61be7e12e08481c1b279378339",
+      "run_id": "expansion-v1-r002-doorway-s2-view0",
+      "selected_entity": "r3geo_base_r002_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "26f83dce484a4c9e0123df247fac428bb4c76b8c31ab49466647560b7cd34641",
+      "candidate_id": "expansion-v1-r002-doorway-s2-view1",
+      "request_sha256": "83456f25104caa7e78661513ac33d9ef83ee4d076680c78b809356b634e43478",
+      "run_id": "expansion-v1-r002-doorway-s2-view1",
+      "selected_entity": "r3geo_base_r002_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "29e993b347fde6772b6c698fb2a4e94dc9e315c00a307d6739a6723035c5a138",
+      "candidate_id": "expansion-v1-r002-doorway-s2-view2",
+      "request_sha256": "92b6b9284dbb8624641e22ee2b3cf2b3085f3af085a0ef85bb2ad8b7f9c4530e",
+      "run_id": "expansion-v1-r002-doorway-s2-view2",
+      "selected_entity": "r3geo_base_r002_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f67f0107dfd233604b136086bfe321e195551475cea7ef132e16b957daec3815",
+      "candidate_id": "expansion-v1-r002-doorway-s2-view3",
+      "request_sha256": "43b8b382f16a28462af397a464ea3b3a03eb0bd9797f61ffad9656357d9b013e",
+      "run_id": "expansion-v1-r002-doorway-s2-view3",
+      "selected_entity": "r3geo_base_r002_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0f214785cf1cf0dc61ca50884c043dafecec0f705f831eb54bf2030f88e0ad32",
+      "candidate_id": "expansion-v1-r002-doorway-s2-view4",
+      "request_sha256": "0901a19e0cf28d6f6c5441482a181d5a6f369dd0cd9e58d54a08efcced10a317",
+      "run_id": "expansion-v1-r002-doorway-s2-view4",
+      "selected_entity": "r3geo_base_r002_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d83703d4d17aeccdfdbcc641c5842242129dac87d00cb3ce3a9113064d500655",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s1-view0",
+      "request_sha256": "25227b28dc6ae4673cdb994df1d6104fabd14e161271e128eff044e4761bc8b1",
+      "run_id": "expansion-v1-r002-laboratory_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r002_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "131c0e03d657963f12b69c7fcca6cddca89142b887f20ab13c9592c1628b5e90",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s1-view1",
+      "request_sha256": "a786d3b162e58106501a8d5f9abe92dc7d24df46580edd2abfe043ac93486bbc",
+      "run_id": "expansion-v1-r002-laboratory_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r002_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d5ea6cb6e132de87c9c581f2403e29ef4572a466d38a3a689135c150eaf0bbb4",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s1-view2",
+      "request_sha256": "e24dc2b731faf58c9001be4f0c8803b83499e486a15bad503c1089c8108f238f",
+      "run_id": "expansion-v1-r002-laboratory_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r002_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c6b5ecd7383ab7ffe66a57d7478e23ae53d49b2fd40daa2965bf1358a5e62729",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s1-view3",
+      "request_sha256": "c95b16b66a59a40ca22b4660fe00cdc4f31ba068dbad29462a3404526bfc81e8",
+      "run_id": "expansion-v1-r002-laboratory_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r002_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "8b926f4103e513c3efa978c6a384aeb49916c10056967cb61dbb99ce2b62d570",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s1-view4",
+      "request_sha256": "d7c2539c4963efb84139d7cdbfa35ec62854aca66b60b535deefda22494411a5",
+      "run_id": "expansion-v1-r002-laboratory_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r002_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5e4cfd0fd20813330785d6f86f9c9eb814b58d53a9c3676221774cc8fcdd94ba",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s2-view0",
+      "request_sha256": "76436fc029992da6650cc7f5db4c80be8624e24f0a2d5c07a5437155085f798b",
+      "run_id": "expansion-v1-r002-laboratory_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r002_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "aee312494260bf1a80cda8dab58d9991ea76f932d31f04a986e384f6ef2a7faf",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s2-view1",
+      "request_sha256": "1773aed308d0c500ba271dbec147c1b8265397551fb848de54e5ea6f44209d67",
+      "run_id": "expansion-v1-r002-laboratory_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r002_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f81d05ca88143bc70aeaca574b5a4614c6b3ef476ee3a6a92b0dcb23b3ceab53",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s2-view2",
+      "request_sha256": "b1e68ff04f8c1484b3516bdafec2b9d3c61a24584d6e20f2a7569b9bb6fe1f2f",
+      "run_id": "expansion-v1-r002-laboratory_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r002_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "896e341cbceb082921a4ee9ac62f02cd7a1aa389a9991eb84c93f8c52d75695c",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s2-view3",
+      "request_sha256": "691bb04282c43d9b919091d74807cc16b66d5db2ad81ae3fc6dc89a613d7806f",
+      "run_id": "expansion-v1-r002-laboratory_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r002_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7a0b7ad4c79a9350d6a5a91a78a444d751c3030436551ae04cb3df7ffe5056a5",
+      "candidate_id": "expansion-v1-r002-laboratory_entrance-s2-view4",
+      "request_sha256": "c0e0e4c94efe1fc8521ae66482a1ca580c5884fc4d7430197ed1e66457c28389",
+      "run_id": "expansion-v1-r002-laboratory_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r002_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "66968b5b2ef316c2c8d55fd9dd34dabbffb1277eb1de3d6f8ffe2386adc1d4e8",
+      "candidate_id": "expansion-v1-r002-office_entrance-s1-view0",
+      "request_sha256": "9edf4c2a105635d6c53f3cec21b490e991315d64baabc2c9264d8c10fa52dda9",
+      "run_id": "expansion-v1-r002-office_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r002_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d370c91ef6f009fc5c513c36aec52e48dc2be75ecb98c93cc54f2897052482df",
+      "candidate_id": "expansion-v1-r002-office_entrance-s1-view1",
+      "request_sha256": "a92a3cd61780b86b811fb5d12d3a6f5d6efd67a1deb71c8f371f43f693478e65",
+      "run_id": "expansion-v1-r002-office_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r002_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0515a80ca5ace83596e51f0a53d0c7b82cb70959ced550f90c04cbaa5a7b5eb7",
+      "candidate_id": "expansion-v1-r002-office_entrance-s1-view2",
+      "request_sha256": "a329c68ef399ee0f2af2d1451eb69e7a79880054a5a91215e88c4f5c3c25a6b0",
+      "run_id": "expansion-v1-r002-office_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r002_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4f7fe00bb720bbfd8e2a99437ab3ad9e110b46816e762b78798da9f07879004f",
+      "candidate_id": "expansion-v1-r002-office_entrance-s1-view3",
+      "request_sha256": "48fc94c2f1f19cfcc534ad7583a5ad7269ecd5b31b8ff1515368d33747046336",
+      "run_id": "expansion-v1-r002-office_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r002_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e315fdf69ed7aa9cd9430aa39b9e08debf112289d2549f898a07791b39c4a4c3",
+      "candidate_id": "expansion-v1-r002-office_entrance-s1-view4",
+      "request_sha256": "74bb3b3bca2ae5cc5e9114ac296197b6ad445bc2db2bd0424a89e779fe242923",
+      "run_id": "expansion-v1-r002-office_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r002_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "811c631ce2f047d5ff1c1cca1e8d96bdc3c4cd04ec353659ac61d3194bd83575",
+      "candidate_id": "expansion-v1-r002-office_entrance-s2-view0",
+      "request_sha256": "c5e94f035269970ca15e8f345c800ed5d19c2d2f61375b7fcbe4620f2193c753",
+      "run_id": "expansion-v1-r002-office_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r002_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "088ef6d7b00560149c94097dc19b2fd15c3dee2a1189392ef04c5ca822d86cae",
+      "candidate_id": "expansion-v1-r002-office_entrance-s2-view1",
+      "request_sha256": "cda1eeb0d6e08781913d18a1b0bc3e3fc0efaad8cf863075986a3c168d3de56b",
+      "run_id": "expansion-v1-r002-office_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r002_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "01014d8062fa0c10622e204a5765fdadf61b2a330db95ae3cedaf032657f2b04",
+      "candidate_id": "expansion-v1-r002-office_entrance-s2-view2",
+      "request_sha256": "dde189f86200cd490177532104b63c0e893212488db3f609dc931abf85144262",
+      "run_id": "expansion-v1-r002-office_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r002_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "525a2761f773b06c4a2ae6ed98e298522be0f1345813b566ad2509f23cdb17ce",
+      "candidate_id": "expansion-v1-r002-office_entrance-s2-view3",
+      "request_sha256": "bb94b548a4a9f0415731207761cb3b51b8a0056ceb9973e7ff1f99418a73a537",
+      "run_id": "expansion-v1-r002-office_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r002_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5dc0bc2495e387b528a68345c8ae348dae8bfd23229b6ff2e288b4d44ba26a41",
+      "candidate_id": "expansion-v1-r002-office_entrance-s2-view4",
+      "request_sha256": "74b63d6a6a3cfa2a3893b440feab84dc2546d5b865c7eb6ced1f470fa1c871ef",
+      "run_id": "expansion-v1-r002-office_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r002_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a224b5b56d35e2fee44170b1d1ab0457974c540a2e9069eb24b3e8deb764a18e",
+      "candidate_id": "expansion-v1-r003-chair-s1-view0",
+      "request_sha256": "6f8b41e2b0c1895a67317d02bb2ad29c0bbcdb6769d0258e2e770e898fd5badf",
+      "run_id": "expansion-v1-r003-chair-s1-view0",
+      "selected_entity": "dev_02-r003-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "058b066d5e6f40648a513016c28807ca17843dfdbbaa596a75ae58016512e1a3",
+      "candidate_id": "expansion-v1-r003-chair-s1-view1",
+      "request_sha256": "1ac8a83dfb1aa5b31624e56e4ead0853a1e4cec83b51a649087a0e4a163ed90a",
+      "run_id": "expansion-v1-r003-chair-s1-view1",
+      "selected_entity": "dev_02-r003-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "bb5df41d8dffb1247825c4c9784cd72aef103515d553c2494e55d71aedf4d1d2",
+      "candidate_id": "expansion-v1-r003-chair-s1-view2",
+      "request_sha256": "2664111de2551a0a73ec4a4a4b35f40d7419bfa766e07489a8a6b5aba5683a82",
+      "run_id": "expansion-v1-r003-chair-s1-view2",
+      "selected_entity": "dev_02-r003-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ada9ee3103892fb85631330db4adf0785380eb9c20c41e2e541228134da42c94",
+      "candidate_id": "expansion-v1-r003-chair-s1-view3",
+      "request_sha256": "5fbe1d4336b870d6f27d3b458c9f3e1d0ca8b12cce658a8682c5e057c0d3aad1",
+      "run_id": "expansion-v1-r003-chair-s1-view3",
+      "selected_entity": "dev_02-r003-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4fec6d0b35013910bdd32585c00c5180b3a6049705785bfbba4be3e0864ba989",
+      "candidate_id": "expansion-v1-r003-chair-s1-view4",
+      "request_sha256": "1fc8866ed7786e98638e2e73ccaee14d125d674435325c3eb6dbc4bf65d51d3f",
+      "run_id": "expansion-v1-r003-chair-s1-view4",
+      "selected_entity": "dev_02-r003-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f9a554a15ee128b380532543fd949468dbf1882e8d664a539b46a03418ae9282",
+      "candidate_id": "expansion-v1-r003-chair-s2-view0",
+      "request_sha256": "fd8d6a1d24a33803a9cf05edc355e30e9b792958d8e9b45c6a0652b5af664c42",
+      "run_id": "expansion-v1-r003-chair-s2-view0",
+      "selected_entity": "dev_02-r003-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a1589de213f44455934e57a558e54b044b8d62e86bbf2bd4e9fad9c95069a220",
+      "candidate_id": "expansion-v1-r003-chair-s2-view1",
+      "request_sha256": "6b221aa08bb2fff0467c6ff628d30769985d8845bdfedd67c088ecd054a73bab",
+      "run_id": "expansion-v1-r003-chair-s2-view1",
+      "selected_entity": "dev_02-r003-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7494293f57463927c4d223e10d72a86a16a5b7d040d8d3ed8a4f3aa4cc414535",
+      "candidate_id": "expansion-v1-r003-chair-s2-view2",
+      "request_sha256": "aa5aca87789b4def3ab053d0057568aa561f75f9a946b5d2886326662b59459e",
+      "run_id": "expansion-v1-r003-chair-s2-view2",
+      "selected_entity": "dev_02-r003-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f840c4a94005a3cb5486dafbc3b52e6db2e93a45eb89a0bd5b807e8c9138a83e",
+      "candidate_id": "expansion-v1-r003-chair-s2-view3",
+      "request_sha256": "5e59e50b33954fdd1f4523485e9c797b003ba03e38ec5853f7f71651995f5e3c",
+      "run_id": "expansion-v1-r003-chair-s2-view3",
+      "selected_entity": "dev_02-r003-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c35e5a5e7379458ecb9e467c11bb8cb855ec87e0b93961331bafe1ae8949ad12",
+      "candidate_id": "expansion-v1-r003-chair-s2-view4",
+      "request_sha256": "b92dcb70d82745cf05f3165516039844eca16eb3e2a2715c17d71f94f3f0ccb1",
+      "run_id": "expansion-v1-r003-chair-s2-view4",
+      "selected_entity": "dev_02-r003-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b77ee5a88189482a8c5ff4a89663d51a6ea74e652caccfe86e345101ef6e2c6c",
+      "candidate_id": "expansion-v1-r003-doorway-s1-view0",
+      "request_sha256": "00183c770b9997951e7f322f306d3d2f88dc843c350566626ecfce93f0522495",
+      "run_id": "expansion-v1-r003-doorway-s1-view0",
+      "selected_entity": "r3geo_base_r003_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "3866dd59d107fc1503203c74ef8df419fa04ea0ffacd3456f09c9a0ea06366a2",
+      "candidate_id": "expansion-v1-r003-doorway-s1-view1",
+      "request_sha256": "28ecfbcab5097ae53028f204508c0f2cef9edc134b651d0410640aa726c1da51",
+      "run_id": "expansion-v1-r003-doorway-s1-view1",
+      "selected_entity": "r3geo_base_r003_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "50a1681b0ce61aa5d18bb44b69f59d30a7f063b7b0dd95188de2ee0fde600c09",
+      "candidate_id": "expansion-v1-r003-doorway-s1-view2",
+      "request_sha256": "565afc99b1d5351fdf38d1e3e4deff534845588582671724854d02ef7d93eb06",
+      "run_id": "expansion-v1-r003-doorway-s1-view2",
+      "selected_entity": "r3geo_base_r003_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0de4713f2032f21663989aa01dc701f685051811822e90f2d5b465b0e7fac4ae",
+      "candidate_id": "expansion-v1-r003-doorway-s1-view3",
+      "request_sha256": "20a4065036ef3acf58907415f47b77a3f3da69e89a26605f2467a811a0df0ecc",
+      "run_id": "expansion-v1-r003-doorway-s1-view3",
+      "selected_entity": "r3geo_base_r003_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5b5be63f77c5801cfbdb591aea1e55b3bbeb66870945c95d12461bd782bd437f",
+      "candidate_id": "expansion-v1-r003-doorway-s1-view4",
+      "request_sha256": "3e1aed65cdd84becc5ca839424493b3c9bf990a8f2b6d43e7ceb20dfabe773a1",
+      "run_id": "expansion-v1-r003-doorway-s1-view4",
+      "selected_entity": "r3geo_base_r003_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "8c453db20fcdee85ef0b66e54ec03accdf446b04b2c060337167487da663a9b2",
+      "candidate_id": "expansion-v1-r003-doorway-s2-view0",
+      "request_sha256": "a79f57e5629c0c6b315b6bffdf7e3df44e5e17f32e0edc165887611da719c99b",
+      "run_id": "expansion-v1-r003-doorway-s2-view0",
+      "selected_entity": "r3geo_base_r003_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "65d4b2f6d9e8c71844423ebf0bce3518780af272d8a70618d10219bef5aee95c",
+      "candidate_id": "expansion-v1-r003-doorway-s2-view1",
+      "request_sha256": "029968b1712e615da2a7e7c4d795715a00feefedf6aa31c4ce9e4c9ad53347a3",
+      "run_id": "expansion-v1-r003-doorway-s2-view1",
+      "selected_entity": "r3geo_base_r003_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5c5627856762362da6b8c9777ed39266e0d4d8afe927cee475c5c56b564c81f0",
+      "candidate_id": "expansion-v1-r003-doorway-s2-view2",
+      "request_sha256": "ae89cc7eee311a493b08eb9c3bba64212ff09a3c17e6d6b1c361f05ebb0efac1",
+      "run_id": "expansion-v1-r003-doorway-s2-view2",
+      "selected_entity": "r3geo_base_r003_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d1941b43673dd1f32b110a756c04e2f3dd35908a93d6d2e808ec23aa0966f245",
+      "candidate_id": "expansion-v1-r003-doorway-s2-view3",
+      "request_sha256": "58fce069950501842646c46e3e9a86f2b2fb126a0a8e6c58926e7ca9aca3061a",
+      "run_id": "expansion-v1-r003-doorway-s2-view3",
+      "selected_entity": "r3geo_base_r003_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "25844741f87058c0d68ede68fef99307e6c5b72da4df1a5fe59d49e9207d8b82",
+      "candidate_id": "expansion-v1-r003-doorway-s2-view4",
+      "request_sha256": "be435f9d827c86796b66f84e3c79e75bba7e1659120654b5d9aa29551091736b",
+      "run_id": "expansion-v1-r003-doorway-s2-view4",
+      "selected_entity": "r3geo_base_r003_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "dea0c198db4ef482594a7d91d13b59b539e6bedd6b8126d2fa58556fd24c3289",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s1-view0",
+      "request_sha256": "b13046757f469a733fba9838bfd7ca82a2f4ff741a34f5e0d8c9ebcc87a85480",
+      "run_id": "expansion-v1-r003-laboratory_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r003_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "6c60f4052a63c0309ae0a46bdb24381e5693a1ba871e7df817ce2b842dc86fc3",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s1-view1",
+      "request_sha256": "6c4cef20914606d7c9a77e5a8dffc8db1640d86c73c333eb6b160a74858a3658",
+      "run_id": "expansion-v1-r003-laboratory_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r003_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "08a4dd1cc1c7bfa04a7ccfba18ebe8ffa9e3b5b654faf65e50818918125dc850",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s1-view2",
+      "request_sha256": "0f49e300120ea9e4a0f948e440c3a9d5635582034af8158e38e7d28ad2f7551d",
+      "run_id": "expansion-v1-r003-laboratory_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r003_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "3bab698d924a6e6e90541d23ef5d299d1ad85b2f347b91a2d59845f3d876c7ce",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s1-view3",
+      "request_sha256": "09df8e1e57c6e5bd1d973c80d078099f9401649561b11f972ad51bb10554ad15",
+      "run_id": "expansion-v1-r003-laboratory_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r003_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "db63dc1b5ac4d8a015d9b53d7d7595ff8296ac9f7de2a2bd663f29ed9e5693a6",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s1-view4",
+      "request_sha256": "a2b6ef7de487c997c708b21cfbfb8c552f4d7d895a32c2b4ee0726f85da92b89",
+      "run_id": "expansion-v1-r003-laboratory_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r003_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "14b2bfa0a48e6f1d3b7131fe6536ea5b1bc57eba742e182953bd261e25bc3224",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s2-view0",
+      "request_sha256": "ff7e2248ccaa1e1de3d430692d46fc1845cc2d7db432a37a2e7fd608460c2482",
+      "run_id": "expansion-v1-r003-laboratory_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r003_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "74647a18c75018865a2553230481e6429602e4aac4c4e371bdce86cd7ff14129",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s2-view1",
+      "request_sha256": "d5b6117f74d6a4660db0a2ac30437e704a2827a78b99e76811c7a5f68345e480",
+      "run_id": "expansion-v1-r003-laboratory_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r003_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "88e431c6bc958829d1aaeff54686bcceb4eae386a8c136d0277d3aa9f1e7a383",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s2-view2",
+      "request_sha256": "cc2ae0701dc8d08c997892a8495965b72f173e77507046283aef6d759ef3cd79",
+      "run_id": "expansion-v1-r003-laboratory_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r003_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e731586c6074f5f38b93ca600c1ba45c6904e434e27174247daf0728f235d825",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s2-view3",
+      "request_sha256": "84d1207db7c9046637dbc07371bdec12738964b4cfa5ff3231b89a64485c5687",
+      "run_id": "expansion-v1-r003-laboratory_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r003_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "6612e1a95c713764bb2c1e262fbc7572e288dbecd87f6ddb7b8cc0ec6725c5d4",
+      "candidate_id": "expansion-v1-r003-laboratory_entrance-s2-view4",
+      "request_sha256": "18e48e1edd3fc796347062029fdc07510e8a664ce4e46c9bf8df87141a206f9a",
+      "run_id": "expansion-v1-r003-laboratory_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r003_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7d9acdaf079638d8253021230ed5b48456569ece737f191d8d09f80d7b37096c",
+      "candidate_id": "expansion-v1-r003-office_entrance-s1-view0",
+      "request_sha256": "79adb385130cd807939dbec9676c37320f1d7fc7b4c1de27777bfa558197444f",
+      "run_id": "expansion-v1-r003-office_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r003_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0452ba9bc07f152a9b0bbe49d4e703f1371f3f775c3d93f5a09b352737b719c5",
+      "candidate_id": "expansion-v1-r003-office_entrance-s1-view1",
+      "request_sha256": "44a383c5c1aafa9dc99e2f6407637758b7b84979c60e9bfddb557926d0132b06",
+      "run_id": "expansion-v1-r003-office_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r003_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "8be9554852079ff0661eece3dca46e2c275bbb6ab5a602c80d0df6993311810b",
+      "candidate_id": "expansion-v1-r003-office_entrance-s1-view2",
+      "request_sha256": "0d9cba9a15779dcf7c716474981036e0ba2442a9eb11ea1e81bf1cf8c889e695",
+      "run_id": "expansion-v1-r003-office_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r003_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7332d690ee7b4c44ce925ea28f41db231e06aea82a7f772274f60d6ea82485c7",
+      "candidate_id": "expansion-v1-r003-office_entrance-s1-view3",
+      "request_sha256": "956422dc10119b2a19047480a139d097a7ecef9ad807294cabad37f7360dccda",
+      "run_id": "expansion-v1-r003-office_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r003_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9b118c0e77e47fcb23a69ad3b6117bf0c615df3820500896b88c9ef04f238600",
+      "candidate_id": "expansion-v1-r003-office_entrance-s1-view4",
+      "request_sha256": "7bf0160edcf8e74a7010c78d05df0cc968502b42781b53028646f299eeaa7f79",
+      "run_id": "expansion-v1-r003-office_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r003_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "69ff05e72096b47f86946d45d6ff883292fda1391b37f3ee3a4014156381e08c",
+      "candidate_id": "expansion-v1-r003-office_entrance-s2-view0",
+      "request_sha256": "8a90550fbb742a4a27245d12ce857fd9b472d4c992f43c4a5ab924bb00f76b29",
+      "run_id": "expansion-v1-r003-office_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r003_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "167d7507dfd5f923b8960685ecef2a529cb550496bb44e597a4eedf8dfd440ed",
+      "candidate_id": "expansion-v1-r003-office_entrance-s2-view1",
+      "request_sha256": "48ad628ef77538a7e5e832a97cc930f15a7efbe40dde430fd5ae7aa5b337d1ea",
+      "run_id": "expansion-v1-r003-office_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r003_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "525d58b2c64a0054bb27857c9e8398644fe65479c6c676317e5ad467cb2ebed9",
+      "candidate_id": "expansion-v1-r003-office_entrance-s2-view2",
+      "request_sha256": "55800f6fc5c5a02e3e002b92b12e3e0c8a40c392d813a456a8219077cb96f1b1",
+      "run_id": "expansion-v1-r003-office_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r003_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c7bb5613b0fd7bb1417345b5af733802446489c30e34fb4c956f188c5a89b0b1",
+      "candidate_id": "expansion-v1-r003-office_entrance-s2-view3",
+      "request_sha256": "fbbc3f83279c4c9bdc047dc0297b6915059784b20e04cb6a8dd7897a55a4f846",
+      "run_id": "expansion-v1-r003-office_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r003_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "283b4695b211d07ef008a3e4051adb7e19e24f9faa761d169b4cea7933015fde",
+      "candidate_id": "expansion-v1-r003-office_entrance-s2-view4",
+      "request_sha256": "7e0bdb8a32b10bc475fe654d9d4688ebed984168585f8d595b2aeed463454d98",
+      "run_id": "expansion-v1-r003-office_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r003_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "70808e49618bb179874eed35574b12256d1df95ecfb76298e7de87b550190356",
+      "candidate_id": "expansion-v1-r004-chair-s1-view0",
+      "request_sha256": "54c58d6adb6e324c4b692a184dbb198a0a97ac4c75fc2307bd133295ca2f3076",
+      "run_id": "expansion-v1-r004-chair-s1-view0",
+      "selected_entity": "dev_02-r004-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c85b9d61f420ba04b7b513000c1dae80996812464a11b705ac355b0663fbd347",
+      "candidate_id": "expansion-v1-r004-chair-s1-view1",
+      "request_sha256": "a0c4b247b20962efd0fdea566bcb54836eedfccc74f75289d0d53763705603af",
+      "run_id": "expansion-v1-r004-chair-s1-view1",
+      "selected_entity": "dev_02-r004-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "86107361452d333ea4afbbe4c00ea3e1f3e28a83b76a0e973b63fb0716743458",
+      "candidate_id": "expansion-v1-r004-chair-s1-view2",
+      "request_sha256": "5f7434d1b6840e22ffafb87d0be92a326fdad5b2a44ac6615a81c3114ce35f77",
+      "run_id": "expansion-v1-r004-chair-s1-view2",
+      "selected_entity": "dev_02-r004-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "99a92915f05343fa0b01e247c12c6350bd540d411e4dd004f73af329b5b14650",
+      "candidate_id": "expansion-v1-r004-chair-s1-view3",
+      "request_sha256": "5baaf715d546129192d29c544be7e97d0362600034e0351115f5cac83f95d97c",
+      "run_id": "expansion-v1-r004-chair-s1-view3",
+      "selected_entity": "dev_02-r004-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "1428146b2eb664786bf90cb9b298bb2139ccdc9ac4bb6ad9bdcc7b25c1d41367",
+      "candidate_id": "expansion-v1-r004-chair-s1-view4",
+      "request_sha256": "a8d389647d748d0df2cc0074085e050f09328c1549946c0c3925e65890a92900",
+      "run_id": "expansion-v1-r004-chair-s1-view4",
+      "selected_entity": "dev_02-r004-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "269066a04da04434f666efee55c221a2e14e711e42cbf70f02b6c0612b8e0e22",
+      "candidate_id": "expansion-v1-r004-chair-s2-view0",
+      "request_sha256": "a2a5c14fea003367971552a1ba6e1af14ef8a56b1836dc0945bad6c378a04e91",
+      "run_id": "expansion-v1-r004-chair-s2-view0",
+      "selected_entity": "dev_02-r004-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e7ee2303ad0e0e5e46c8eb1018f616384c357f62dbc4ca430b94f9ac1e4a30ca",
+      "candidate_id": "expansion-v1-r004-chair-s2-view1",
+      "request_sha256": "de6c41bf90106dd5c347ccaf09e1914d636e208ebc46580a023531298170e0ea",
+      "run_id": "expansion-v1-r004-chair-s2-view1",
+      "selected_entity": "dev_02-r004-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "bde906f2f4cfa1ab89ae4b20c35c9b6afef9cedf383bb34679b3fb93c353b1ac",
+      "candidate_id": "expansion-v1-r004-chair-s2-view2",
+      "request_sha256": "62692f3ab9374934d720d3c3389a53ab4361bd469b8b442b753757d2ca801898",
+      "run_id": "expansion-v1-r004-chair-s2-view2",
+      "selected_entity": "dev_02-r004-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "8628fac04e7541d8780b056c03695187408384991c1905a4a42c231fcd762e0f",
+      "candidate_id": "expansion-v1-r004-chair-s2-view3",
+      "request_sha256": "42fd88213bb12e3d8e486bcaa063e6ecff07808afd9a4fa3ea4259e889b6c8e6",
+      "run_id": "expansion-v1-r004-chair-s2-view3",
+      "selected_entity": "dev_02-r004-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "cc9b236f47722847165483409e011bbe3162a7a23b625bae65d28a3bb4a6a8eb",
+      "candidate_id": "expansion-v1-r004-chair-s2-view4",
+      "request_sha256": "eab366cc8641692f17e17296d588a51c653300f53d0a4df53f1beead575d8cc3",
+      "run_id": "expansion-v1-r004-chair-s2-view4",
+      "selected_entity": "dev_02-r004-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c8bd1b18dc67bad7cb21f92d5c705ef6eb30e2b095b8c0058056d9fb145ee7b2",
+      "candidate_id": "expansion-v1-r004-doorway-s1-view0",
+      "request_sha256": "5d6dbbbbe4fb47b7524e65dbd7ffe514ae74d3fca7e02c4dc7c7c4664c6e6cac",
+      "run_id": "expansion-v1-r004-doorway-s1-view0",
+      "selected_entity": "r3geo_base_r004_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "620550c31f79a1d63f2dd30a6a322df7ca1d891af1641d8302971de6c826becd",
+      "candidate_id": "expansion-v1-r004-doorway-s1-view1",
+      "request_sha256": "2eecc9dcfbaf195497b2af682e08a55031a8d0f18ff0afa38079b5a1062661d6",
+      "run_id": "expansion-v1-r004-doorway-s1-view1",
+      "selected_entity": "r3geo_base_r004_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e158a02ca90364193038d3533ae3dc270784be0d224714fb3a9f6184ea8a25c2",
+      "candidate_id": "expansion-v1-r004-doorway-s1-view2",
+      "request_sha256": "4ab8b08a5c36e2cf9d98742019dd38ce229cdc16637bea045c316007f01980bc",
+      "run_id": "expansion-v1-r004-doorway-s1-view2",
+      "selected_entity": "r3geo_base_r004_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "68352f0d95aca775e8ff4e498d965dd86b103ba1cdc53e8da9cd39a6e3c44c90",
+      "candidate_id": "expansion-v1-r004-doorway-s1-view3",
+      "request_sha256": "eb7d708a842ff6f32c7559ed02629951146cad1f98d84a1956d81dcaeab1e8a4",
+      "run_id": "expansion-v1-r004-doorway-s1-view3",
+      "selected_entity": "r3geo_base_r004_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a0c2bdc59fad58626364def33dbc5235c76067e10fccbc546e91ee20113708ec",
+      "candidate_id": "expansion-v1-r004-doorway-s1-view4",
+      "request_sha256": "773decd1d85ccf253583f4441b496812caf458736dd9ae026af459fb351b783a",
+      "run_id": "expansion-v1-r004-doorway-s1-view4",
+      "selected_entity": "r3geo_base_r004_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "949d2b15757d5d0e9b98292ee1221fa547ae67ebbd9e8d8bb704190d34b94e69",
+      "candidate_id": "expansion-v1-r004-doorway-s2-view0",
+      "request_sha256": "a96f4d3903ab412a04ea66d2b5d1db7d42d6fa4d58b02441d87895d129524ac7",
+      "run_id": "expansion-v1-r004-doorway-s2-view0",
+      "selected_entity": "r3geo_base_r004_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "1b9eb2ec8eae04fc318f04d85bbfe03e2c336d75dc682193eaa0c94ad9e74c87",
+      "candidate_id": "expansion-v1-r004-doorway-s2-view1",
+      "request_sha256": "f5f358a39dec66c72204f7a46bd2826a8570aad1eae72900f1d7aad680a0d2cf",
+      "run_id": "expansion-v1-r004-doorway-s2-view1",
+      "selected_entity": "r3geo_base_r004_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "77c7fb03fee47e890db2a3a7e51347a14e9408c77cc1be37b2a3006b84054dfa",
+      "candidate_id": "expansion-v1-r004-doorway-s2-view2",
+      "request_sha256": "923b4bbb03d0abe7483958a73ef3963fd1d207e6d612e5171f49fc6dde2727cd",
+      "run_id": "expansion-v1-r004-doorway-s2-view2",
+      "selected_entity": "r3geo_base_r004_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "777a9e3f42503feafb002a88573f82e701eb91e9d5032ff7ef057fe5b5818bfe",
+      "candidate_id": "expansion-v1-r004-doorway-s2-view3",
+      "request_sha256": "7d312aa2b9bec8fff2456dd9e6ec6bf5fbd342a0fcf68de043bb0935d03978df",
+      "run_id": "expansion-v1-r004-doorway-s2-view3",
+      "selected_entity": "r3geo_base_r004_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "36db3464b68c387fc277f8a0f05ff6328534482fc15017a305f3f08bbcd0943c",
+      "candidate_id": "expansion-v1-r004-doorway-s2-view4",
+      "request_sha256": "d869c5734f23fb036382f7c9e9b2ea02871b5278583da2c1716f0c1844d2b6d0",
+      "run_id": "expansion-v1-r004-doorway-s2-view4",
+      "selected_entity": "r3geo_base_r004_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "261c339cf9542480ae9016d6ca0020b95fd820039fc348cfcf64f5c424d37b98",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s1-view0",
+      "request_sha256": "5fcc8efe02779c3067458d8af9dc3e1ce799a4edd215da0ca1821f47bb2873fc",
+      "run_id": "expansion-v1-r004-laboratory_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r004_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d86d20228718718eb29a3718dae66dd90d3344e16607dcd60fe8c77b46141547",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s1-view1",
+      "request_sha256": "2bbdf0ff3b08bd59fc889ae8cf8b68a8051b61026c15f5402312d32e5c71890b",
+      "run_id": "expansion-v1-r004-laboratory_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r004_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d96a9a8af5c8b800a33827b10d9c4b74b5992f184659b47ee7206ea98f7d270f",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s1-view2",
+      "request_sha256": "c958883aab4238677b54976cbfbdbcf1e0e562f519b72f3c896583499eb4206f",
+      "run_id": "expansion-v1-r004-laboratory_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r004_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "fb0ef5e0d6fc9a2badf840d017f5a8baa90385564596d90d2b8bc41c4ff23a2d",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s1-view3",
+      "request_sha256": "1047d9f84408e6a234c00c5ed04a9d3f07ade8ffed60097562ba26c8ecf33074",
+      "run_id": "expansion-v1-r004-laboratory_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r004_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a6d5bca859471972c3ce6a0a8c02d09755f672459eb46506d09838b93eadd4d3",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s1-view4",
+      "request_sha256": "60c9adf42a8cf429fb3975219b034fd39e1c578873e785f09ea11bef8dee6e1a",
+      "run_id": "expansion-v1-r004-laboratory_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r004_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ca78d538939cec4f7959d99e4b2848d64c29db5c4000864f229f9dd4fda970a5",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s2-view0",
+      "request_sha256": "4afbd7a9157d9f655a7e8c8d13ed55a4b51923d4bec267c25f39fd4c53be6791",
+      "run_id": "expansion-v1-r004-laboratory_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r004_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "26c0571dd7cec707e6ad918403007be1410df96f7b4f421fee015f115a809968",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s2-view1",
+      "request_sha256": "d7ac091999e50a13d47279a776503b68362e2ee3798c2bc918716cd509f785a6",
+      "run_id": "expansion-v1-r004-laboratory_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r004_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ee00ffa90e4ac9242c827a6d65996a9146a895cfc792120b9c4318f000d42905",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s2-view2",
+      "request_sha256": "f7c4deafeced36e40b8d65393e16498f24cc1095adf6647a41558277b590487b",
+      "run_id": "expansion-v1-r004-laboratory_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r004_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "70b857b27e3d4ecb5ef05ff80afc3c0b3bd9da44db41c1ab0410706947219ccc",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s2-view3",
+      "request_sha256": "f1abe0b87400c5ea5d89cf7fba29e334b639145cfb1d04bd085db0a5a5c809d6",
+      "run_id": "expansion-v1-r004-laboratory_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r004_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "211786dc6a5c027457563a513ebbe2f089c2a4e0037b925e4ad1fedd5f5880cb",
+      "candidate_id": "expansion-v1-r004-laboratory_entrance-s2-view4",
+      "request_sha256": "d2bc157d386639ce5634b24d6d03d5be7c2fa092f766ecd22d3bcec2e01be52f",
+      "run_id": "expansion-v1-r004-laboratory_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r004_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2f38fb693bdd977bb698eb0b403efdbc6250be63a0c06aa58890ae6bee74c886",
+      "candidate_id": "expansion-v1-r004-office_entrance-s1-view0",
+      "request_sha256": "ffd146e5869b5d8b4d76d034cdf1e705e2669562a99943499e978d91ad294051",
+      "run_id": "expansion-v1-r004-office_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r004_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9357d7f2c368eee9a74336a8d9c9183beba535b84a103838951fdd8869ede2f1",
+      "candidate_id": "expansion-v1-r004-office_entrance-s1-view1",
+      "request_sha256": "e202ca5958196dd564eb290bbcd2844dd3530964b09630559e8c815693ab6178",
+      "run_id": "expansion-v1-r004-office_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r004_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b1ac530d402c779d576eddfe7d1f00a7c074357a510aac170bb0122d30874151",
+      "candidate_id": "expansion-v1-r004-office_entrance-s1-view2",
+      "request_sha256": "480966151845876ed185bc19b4aceca82badb0d2045024c0394e1569761c4f8d",
+      "run_id": "expansion-v1-r004-office_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r004_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2c5cff7dc9d2c32b1f624aa3261693e274cc6cdd35d3dbcc0b4ea77727c31739",
+      "candidate_id": "expansion-v1-r004-office_entrance-s1-view3",
+      "request_sha256": "b720fa6cccbf05e2a2db8aa46acddab418270c560f5c781be630201a14d855ba",
+      "run_id": "expansion-v1-r004-office_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r004_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "29a4157842032632724ebad5813194f11a5597cb0f48a45707aeef9fa1f0efcb",
+      "candidate_id": "expansion-v1-r004-office_entrance-s1-view4",
+      "request_sha256": "87174273f3e0b947fb285f68ac1560d2eedb05949241a11addef96609d2abe71",
+      "run_id": "expansion-v1-r004-office_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r004_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "31102a4cf5d658661ef8cde18641b51c4d5ab3b7b33dac00b5f3ce2eeeb8fc51",
+      "candidate_id": "expansion-v1-r004-office_entrance-s2-view0",
+      "request_sha256": "a0889c3aee5be24d47bcaeaeb6b467f81824d8d8c5e036cd2b86be733f637ac2",
+      "run_id": "expansion-v1-r004-office_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r004_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c07e8b1d7857420bfc69e023075832517f1ddac14151ef9c936162bb1cab9183",
+      "candidate_id": "expansion-v1-r004-office_entrance-s2-view1",
+      "request_sha256": "e9c56a95246dd4181749ed548dde624d2cde6d0dd8737b789d3749e705736bde",
+      "run_id": "expansion-v1-r004-office_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r004_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "91cc5ed5113e26fb3e3dc4821491db23625b3291f5ad4b4becbc2e11c9921d70",
+      "candidate_id": "expansion-v1-r004-office_entrance-s2-view2",
+      "request_sha256": "df72f42c0c19a811e6ab2161ef1018f24f5d0154d476cbc571d679448be82342",
+      "run_id": "expansion-v1-r004-office_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r004_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "1ff2458327dba5b1f5ebaf2c213dff8cea719de98019a478ab7e7fadf363cfb6",
+      "candidate_id": "expansion-v1-r004-office_entrance-s2-view3",
+      "request_sha256": "98493060485430ebdafcdff1cc554d459ab6d5d3bf22ab95686e1f7c1e88e847",
+      "run_id": "expansion-v1-r004-office_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r004_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ac93f5ce3b2034bdf86e8aff6a66aa2653148ad5b4a9c5f3e4f31a3f1b1f2c5d",
+      "candidate_id": "expansion-v1-r004-office_entrance-s2-view4",
+      "request_sha256": "ca5d4ba0eb7117c8a015b7a37b7a08645dff4d2a0f9fb4ed40d2bb986d10fce4",
+      "run_id": "expansion-v1-r004-office_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r004_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9389225cc02dca8b1d49ff841e27e6b3bb9c29002a7a9752d66f91b9ebed6ea3",
+      "candidate_id": "expansion-v1-r005-chair-s1-view0",
+      "request_sha256": "d9826ec5f945ad31eb4e6374f7c7e4960fd9afd6d9ce148f419e0409ac730052",
+      "run_id": "expansion-v1-r005-chair-s1-view0",
+      "selected_entity": "dev_03-r005-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ccf9b26aff9fb4764a64e8bfa744395d9bd2c990b4cf3e15098d09eee329c4ae",
+      "candidate_id": "expansion-v1-r005-chair-s1-view1",
+      "request_sha256": "7fbe657da813eeedf98bb05ff413db14f40c032a8ab7fe8c74649a6cd6ca29a6",
+      "run_id": "expansion-v1-r005-chair-s1-view1",
+      "selected_entity": "dev_03-r005-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "21834b465a374c1b5d771cb26761dc6b127e5a87cd8037a6593f44841a8a083f",
+      "candidate_id": "expansion-v1-r005-chair-s1-view2",
+      "request_sha256": "fbed4c3ff4d75b7f80d76b7819afa8d40554bca1e5aa9d5032e183fb47eddd7d",
+      "run_id": "expansion-v1-r005-chair-s1-view2",
+      "selected_entity": "dev_03-r005-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e1edc73f8f26ce163a4d8693de362ffc62498268d8ba44f0a2c971bf51c55fe7",
+      "candidate_id": "expansion-v1-r005-chair-s1-view3",
+      "request_sha256": "e8e28f9572611c0921aa6e16f82c7b272c37053032225ff59d817f1e0ca2fe55",
+      "run_id": "expansion-v1-r005-chair-s1-view3",
+      "selected_entity": "dev_03-r005-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "3975b87767bd87805d5764213cea8b5dadcd2e4f0c8314801ea6a2a8524d3400",
+      "candidate_id": "expansion-v1-r005-chair-s1-view4",
+      "request_sha256": "e6597a444da0a47983d16cba77332ab1b73e3b9167f8095e05e8772a4e5b6739",
+      "run_id": "expansion-v1-r005-chair-s1-view4",
+      "selected_entity": "dev_03-r005-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b0ad6c005fe6de07519a4e93126c65da66af207f844d8a6cd5a77dd6dcec0ae4",
+      "candidate_id": "expansion-v1-r005-chair-s2-view0",
+      "request_sha256": "f10cbf41c80ff4120cbcc0e5abce9ffe7f20263a2de90324d8c732879c164e4b",
+      "run_id": "expansion-v1-r005-chair-s2-view0",
+      "selected_entity": "dev_03-r005-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9383ad80c4877f6b9a189f17bda32234f87c08a800570ac59a2ead999fff01d3",
+      "candidate_id": "expansion-v1-r005-chair-s2-view1",
+      "request_sha256": "45e32b003a7e99f7e65f1c3c130f5189f95cb4b75d8ce614bd404a08432bca9c",
+      "run_id": "expansion-v1-r005-chair-s2-view1",
+      "selected_entity": "dev_03-r005-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "edb0c622fd6f26c5ac1c7591eed0c835d49d436125de07b3ab622651492ce996",
+      "candidate_id": "expansion-v1-r005-chair-s2-view2",
+      "request_sha256": "85365a26cd2bf6b03f5ff75c224a3aa3505fc1c29594054e63d1a1749118b965",
+      "run_id": "expansion-v1-r005-chair-s2-view2",
+      "selected_entity": "dev_03-r005-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "1d11ce9dca0aab5531810b696aa46d7f8846e62765ce7a574f436a38ef58e6cb",
+      "candidate_id": "expansion-v1-r005-chair-s2-view3",
+      "request_sha256": "8d7fbfba7dece68588d82893f466455c7e58fd7354abb04d14c6e449752834b4",
+      "run_id": "expansion-v1-r005-chair-s2-view3",
+      "selected_entity": "dev_03-r005-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "cb1d485cda15d58ccab061ec8f01d1d6ed707e1bb8dbf95b2cb0929b82034fe7",
+      "candidate_id": "expansion-v1-r005-chair-s2-view4",
+      "request_sha256": "e6b3b7308cdd3f1914b6e23a4929626dfd848d637aac87c93eb0495b84d9a64b",
+      "run_id": "expansion-v1-r005-chair-s2-view4",
+      "selected_entity": "dev_03-r005-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b2497948f7a9fc35ee2652d4a909ebc46a3624ee0a098dadd3cdaaf7c41f60bd",
+      "candidate_id": "expansion-v1-r005-doorway-s1-view0",
+      "request_sha256": "576d8ef2d285244cc6050bf7497cb3e8a810a7bd0ba8d7533ff2410edaf0a586",
+      "run_id": "expansion-v1-r005-doorway-s1-view0",
+      "selected_entity": "r3geo_base_r005_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "924390508970b107045181103963c6c3869f0b1d1dec63b1fe168673a60f91b5",
+      "candidate_id": "expansion-v1-r005-doorway-s1-view1",
+      "request_sha256": "80830ec87f1da57a0c31540627a150d12166ca1107da327469c4b19dd5effce4",
+      "run_id": "expansion-v1-r005-doorway-s1-view1",
+      "selected_entity": "r3geo_base_r005_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "51b27856526b9fe2c1b682baac02b23f2d838b9e88e93bf14d4589447e0a8d71",
+      "candidate_id": "expansion-v1-r005-doorway-s1-view2",
+      "request_sha256": "bebc935e8512781eb075f4daec21921895331368a88296389cee5549ccef623a",
+      "run_id": "expansion-v1-r005-doorway-s1-view2",
+      "selected_entity": "r3geo_base_r005_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "bf667d20220a298305a58b64cad96dcd981a4edccf15f34d2f8e2b7f65987fcb",
+      "candidate_id": "expansion-v1-r005-doorway-s1-view3",
+      "request_sha256": "79e0d45fd84c239d0b15c52edbae5152aa3f9a5fd683201bd65bef18dd597a8f",
+      "run_id": "expansion-v1-r005-doorway-s1-view3",
+      "selected_entity": "r3geo_base_r005_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9700608207f16d761cc9064db7b92e642bde20f0d99c55630d9ba8e57fd6da45",
+      "candidate_id": "expansion-v1-r005-doorway-s1-view4",
+      "request_sha256": "20da036dcc4891d71740efd278dde53507e0c76ceb25d1576bb41ded4d1012ed",
+      "run_id": "expansion-v1-r005-doorway-s1-view4",
+      "selected_entity": "r3geo_base_r005_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9f9bd9824a28807cd37974c66d6eaaf772842ced4e02ab50f84b689c1d8c7e60",
+      "candidate_id": "expansion-v1-r005-doorway-s2-view0",
+      "request_sha256": "01d7cace666d2873232e6a0fc92d003e0321000df68b0ecbcc6a1754e99d9c2b",
+      "run_id": "expansion-v1-r005-doorway-s2-view0",
+      "selected_entity": "r3geo_base_r005_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7a446245ba816679c130eda8282310918c45cc1a34aaf517e866de925ca9a6c1",
+      "candidate_id": "expansion-v1-r005-doorway-s2-view1",
+      "request_sha256": "e150d78b333201313b8f772ed1e709d33611d841166174256907e8617f4c6b45",
+      "run_id": "expansion-v1-r005-doorway-s2-view1",
+      "selected_entity": "r3geo_base_r005_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "6618d13a58fbb6cfeb4c375d495baf9ea74d69980f89f149db7a40507abedeae",
+      "candidate_id": "expansion-v1-r005-doorway-s2-view2",
+      "request_sha256": "6b37b9bf634b752f6ea1fc7614ef5f9508ae772bb5ca95173c7687ec64933357",
+      "run_id": "expansion-v1-r005-doorway-s2-view2",
+      "selected_entity": "r3geo_base_r005_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "347c8022880fe0e42c3c18d47f9eef10e26c358d3ca7455fd4055682b6c3fb27",
+      "candidate_id": "expansion-v1-r005-doorway-s2-view3",
+      "request_sha256": "e43c121f7c9d21ac4e8e944637e95fc8f7cfb0523b0e278ebcbc6ae738c6f669",
+      "run_id": "expansion-v1-r005-doorway-s2-view3",
+      "selected_entity": "r3geo_base_r005_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f0ae9db35a7dd0aab72314c55c606a4c6d93a9fa1e9e2143575b3715436a5ce7",
+      "candidate_id": "expansion-v1-r005-doorway-s2-view4",
+      "request_sha256": "44cd91a2c2bf7bc27d206a1b232e6c3446f0be1cfe8e3ee59cc9fa155910b5d8",
+      "run_id": "expansion-v1-r005-doorway-s2-view4",
+      "selected_entity": "r3geo_base_r005_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c2921b27601fb2ffd02570474af93974396f966a27e0b228756292a122b90b57",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s1-view0",
+      "request_sha256": "58a92b80367e204f7b2af956b23e629439d6b4a253a4f6d1ff98b42ce31c36d6",
+      "run_id": "expansion-v1-r005-laboratory_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r005_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "3f3a024dd35a9debfbabb86616f245247063b80eb967f0a82fec55a6dce03811",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s1-view1",
+      "request_sha256": "d50d06b9528342f607fe93eed58797fa70e7713db2584c45f316be56b000eb04",
+      "run_id": "expansion-v1-r005-laboratory_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r005_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e16a27f4cff0ccdef0e9cff42af85e02056611e5aa1140936a92e87bf2194ae8",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s1-view2",
+      "request_sha256": "f795af4c5959a8c8815e3e0808612937448450900a4f8ff0c016a48fbff2fb2c",
+      "run_id": "expansion-v1-r005-laboratory_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r005_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c42191a192a711721922e18c12f2360c034cb8d394769b0a95357bf4569ba727",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s1-view3",
+      "request_sha256": "8715845d1add96f4fddfcb5e9cc1a69d579669ddd5f38f116138284077711b08",
+      "run_id": "expansion-v1-r005-laboratory_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r005_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "38b6b5741d3a4a1f47fc354b3dc89a2f74cb7c06b00bc62bfaf265176a5fe425",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s1-view4",
+      "request_sha256": "f8a4108c9d90b65e1be91190d2ec8862d18a657a1ce828d23315579e347dd333",
+      "run_id": "expansion-v1-r005-laboratory_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r005_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d782d7a9e144b3f19c60eb53b7ef7390abaad5aa4a53a234e66a255298acdb61",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s2-view0",
+      "request_sha256": "943d3c8f25e072754509bcd2bd50b0e755667c82af8486b3ed99f204d02e83dc",
+      "run_id": "expansion-v1-r005-laboratory_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r005_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b866d802cf8907e3eb66b08679350f9fa78c67d1e876b5bf39f151900c9310cd",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s2-view1",
+      "request_sha256": "138324deb8107d4e254e7128c03e53f5893ae1dfb987823f859e95a424bc611a",
+      "run_id": "expansion-v1-r005-laboratory_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r005_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7c6199d2450f987f66a5bb648b0d3576aa109916a71b03c54d9bf313b6d5f319",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s2-view2",
+      "request_sha256": "f6e9aadf54c929b6109d165229d989ceddca28f84bc9ad140b03f65a30bbed94",
+      "run_id": "expansion-v1-r005-laboratory_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r005_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "52d432f2fb9cbcbf246814423fdf094a100770a5d79ea0de2cc3076fdabd3273",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s2-view3",
+      "request_sha256": "59c8cd25607cafac9e8ff0d9d14579380b2d4e53bf36445e4e591e8e5bb8154f",
+      "run_id": "expansion-v1-r005-laboratory_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r005_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "cc59b9b29f3225c2a4c4bfcaf242220a36a8306eb68faa1de2dd896f1237f490",
+      "candidate_id": "expansion-v1-r005-laboratory_entrance-s2-view4",
+      "request_sha256": "3ac988b7400f35b77b1cc88ecd065e811898642618572b501dda2a09035aec64",
+      "run_id": "expansion-v1-r005-laboratory_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r005_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "99a02dad0a3bdb09af36b0b78fe46a3d623d84b69913a5fea5b314a95b82626e",
+      "candidate_id": "expansion-v1-r005-office_entrance-s1-view0",
+      "request_sha256": "6e5db7a46b72c826b7068e32384a885e74403cf6e9847527879bb45a4c5f5d87",
+      "run_id": "expansion-v1-r005-office_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r005_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "47799a7cbecf895160ca187c5cf48004ea25f25d064f872b24b5cc7c0987ffad",
+      "candidate_id": "expansion-v1-r005-office_entrance-s1-view1",
+      "request_sha256": "c6438d911e5a61b33169a86f1344ed797bb8a1e0d1556c3a3f148ab0dbeb8706",
+      "run_id": "expansion-v1-r005-office_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r005_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2db7808b7e6b3e3f358f7c417ab5856cbe9d2cd779d06b6fa7c8023e221334b4",
+      "candidate_id": "expansion-v1-r005-office_entrance-s1-view2",
+      "request_sha256": "6ce385c67cf83e12591e2602cc4f321e07b1d5a6309b7cba2b1fb4ea179290fe",
+      "run_id": "expansion-v1-r005-office_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r005_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c566c50db7f0cc3654a686d16856668ba9de1d2aa1825379ffdd4dbde6710af6",
+      "candidate_id": "expansion-v1-r005-office_entrance-s1-view3",
+      "request_sha256": "01a3dabdebdf61c870f6c7f36016e27dcf82c1a39b5e4c534d1beecd08ba787c",
+      "run_id": "expansion-v1-r005-office_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r005_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "6b7e913847115e14e9b761c95812ef44618e6d707b76f4f3adb6bde9eed233b1",
+      "candidate_id": "expansion-v1-r005-office_entrance-s1-view4",
+      "request_sha256": "2ff4278348eb57db0324e8da60bc2a1b7bcf462c00bdf5409b916ed201c193d3",
+      "run_id": "expansion-v1-r005-office_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r005_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5425bc7296294db9b16df0c2c089ff1ea693a28fb023a7674b383c4280dc379e",
+      "candidate_id": "expansion-v1-r005-office_entrance-s2-view0",
+      "request_sha256": "595a47279cddcc926ab8ffb9e0df5a62ecd71c848c2832b25dc361420af73a89",
+      "run_id": "expansion-v1-r005-office_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r005_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c2ff00f2003fbe7d74137e384d6dae946f922c418861fbce3645d062712dcaaa",
+      "candidate_id": "expansion-v1-r005-office_entrance-s2-view1",
+      "request_sha256": "57079be4f23f41d4a09670d20fe4973fc04953b7b54dd8a85b381b9796fbca65",
+      "run_id": "expansion-v1-r005-office_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r005_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "03a1dddd9b1056e3538f5574e750f0afd7eddde209a3fd4dc3c0385fd772336b",
+      "candidate_id": "expansion-v1-r005-office_entrance-s2-view2",
+      "request_sha256": "6c3ff0c806d2a7590fa81f9dc5ded17409089000d7aea65b66ac66a143ffddb5",
+      "run_id": "expansion-v1-r005-office_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r005_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0db747270c421ed13d37e2eb6cf74d413fbd97beb2296ffb50042bbb641a85f5",
+      "candidate_id": "expansion-v1-r005-office_entrance-s2-view3",
+      "request_sha256": "9d43489468d0b0276c0b002e45fa99a5ac6ba242827b17e888efbc0567ef6393",
+      "run_id": "expansion-v1-r005-office_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r005_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "57fd62dcf1aa9e9c9044b0429fba9bd4975638b78ca4916588f59f688ab37def",
+      "candidate_id": "expansion-v1-r005-office_entrance-s2-view4",
+      "request_sha256": "f3bb43c625461b5f8e34de57f1ada635f92db5345b5432c60a519c2404d9d542",
+      "run_id": "expansion-v1-r005-office_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r005_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9a6033f23925a0f13bd2ba3ce6b606b1e2bc28b9b1858714cd9a555bba5b9631",
+      "candidate_id": "expansion-v1-r006-chair-s1-view0",
+      "request_sha256": "dea441ddb0d2fce6879159aa8a16a51dd843189a4c161737b1f0f1043a9c07f1",
+      "run_id": "expansion-v1-r006-chair-s1-view0",
+      "selected_entity": "dev_03-r006-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5b237de4b59468f07b3df525d842687688ec875b5a9fb91a0e5f37e7f3730bc2",
+      "candidate_id": "expansion-v1-r006-chair-s1-view1",
+      "request_sha256": "03a735ddd09ce4f03752c2370b6d4cdad94b53c052c9692d57e5e2cbda00023b",
+      "run_id": "expansion-v1-r006-chair-s1-view1",
+      "selected_entity": "dev_03-r006-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b962d71c4d1cc5605b0e1f54e6524e61e70dc800876320aa7576fb1cceef00a5",
+      "candidate_id": "expansion-v1-r006-chair-s1-view2",
+      "request_sha256": "0fc6ac8a3789239293be4d700bfd2028ddc1600cf7e7ced14cc86ade6a0e8fc0",
+      "run_id": "expansion-v1-r006-chair-s1-view2",
+      "selected_entity": "dev_03-r006-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7fe595ed6f36e02dce747cb9caa5c5ae905d220d7709f8554ce70709c26125d7",
+      "candidate_id": "expansion-v1-r006-chair-s1-view3",
+      "request_sha256": "266e08ee02ff5a5cee07740629ecca4f91dab7c62e009b9d0e4c6598ff5a013c",
+      "run_id": "expansion-v1-r006-chair-s1-view3",
+      "selected_entity": "dev_03-r006-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4e5429aeab03d9b354362ba1d71b4d945cc4c9a94b27aace815bc39f83cab612",
+      "candidate_id": "expansion-v1-r006-chair-s1-view4",
+      "request_sha256": "065ba6a6579fad0348a75646fd967efe95c9477c89c82102fd9b1489a959ae3a",
+      "run_id": "expansion-v1-r006-chair-s1-view4",
+      "selected_entity": "dev_03-r006-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "482ddc6c97f17432409553d1edcbd4f7e1b4a4427e7e014eb1678e3ded731129",
+      "candidate_id": "expansion-v1-r006-chair-s2-view0",
+      "request_sha256": "d48bcd05ed0a751106cdafe0047610e347edf5b465b859d749d7a5d77f09876c",
+      "run_id": "expansion-v1-r006-chair-s2-view0",
+      "selected_entity": "dev_03-r006-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "be6bba6568b2119af4a589dc3a8707c764dcb2cde82189022403527d067fed1a",
+      "candidate_id": "expansion-v1-r006-chair-s2-view1",
+      "request_sha256": "9379eabaf9b22cc8d6b7512d03b73411f1a83d137f5852d8fb130ac0b9860323",
+      "run_id": "expansion-v1-r006-chair-s2-view1",
+      "selected_entity": "dev_03-r006-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "775e5f6748cec10820664576670122a5e51ef6b5b8a97d6d541610792e2727d8",
+      "candidate_id": "expansion-v1-r006-chair-s2-view2",
+      "request_sha256": "091cfa5e8a6245bb6e7cfb297ba2a21ead1b344cbbe26cda39bfaa3e4cdc574b",
+      "run_id": "expansion-v1-r006-chair-s2-view2",
+      "selected_entity": "dev_03-r006-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4290d54bce0ce899dfa5c1760726d9f41e5e3ec4ad9d669283bdb21d4f746236",
+      "candidate_id": "expansion-v1-r006-chair-s2-view3",
+      "request_sha256": "82eb8aaec544134749c3dbf78f56eeec54d643070931e3fb0feee10326cea822",
+      "run_id": "expansion-v1-r006-chair-s2-view3",
+      "selected_entity": "dev_03-r006-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ad72b68b02830ec185448030483a51fda350f3a6d695e4ff6f4094bf3f55ef80",
+      "candidate_id": "expansion-v1-r006-chair-s2-view4",
+      "request_sha256": "e40048a8ce3df64c009f2e39d0f7f09f6f623ee2214f7335ee490d2e9173e918",
+      "run_id": "expansion-v1-r006-chair-s2-view4",
+      "selected_entity": "dev_03-r006-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5f6474b18ffbf7b8853eba43b78d1f61b0992ba9827e0c07d8740a61fe1358d5",
+      "candidate_id": "expansion-v1-r006-doorway-s1-view0",
+      "request_sha256": "d7edd200759d95c8d6cf7c617f79fe5c01c972b35484ad9ff54518b4aea13ece",
+      "run_id": "expansion-v1-r006-doorway-s1-view0",
+      "selected_entity": "r3geo_base_r006_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b4c3aee5d4afdcfef1f0f747c1bd4dcea6adb1334310ce9ddfddc25ad058efab",
+      "candidate_id": "expansion-v1-r006-doorway-s1-view1",
+      "request_sha256": "d894f3f9928fb8a1f7a9c8fb8c048ed4bcaeee964893caa811732c4e65bf42d4",
+      "run_id": "expansion-v1-r006-doorway-s1-view1",
+      "selected_entity": "r3geo_base_r006_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f4a3aa13f99c447f5ac8cdc32672e677ce681e45e738bf282c6d18039698295e",
+      "candidate_id": "expansion-v1-r006-doorway-s1-view2",
+      "request_sha256": "0ca7f35c8cc517fd3650bf3cfdf67c687114a6a7e5111b7135edde60f60b33d8",
+      "run_id": "expansion-v1-r006-doorway-s1-view2",
+      "selected_entity": "r3geo_base_r006_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2ccfe36b21480cc95786c8fe20b43f0490bb95b82d50a1f624d785a21a6978dc",
+      "candidate_id": "expansion-v1-r006-doorway-s1-view3",
+      "request_sha256": "b8acd93d0972df5ab61afa83925438e9f710c283a6b902aa58882fb85675aa94",
+      "run_id": "expansion-v1-r006-doorway-s1-view3",
+      "selected_entity": "r3geo_base_r006_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9461b14252a3fcab87a0f7ae0950245fd4278efacc91bbb0ad59acda918f4e0b",
+      "candidate_id": "expansion-v1-r006-doorway-s1-view4",
+      "request_sha256": "0434c38051024c88fcfc4927ae6f6ff341fccccd4ef05ef6b6df9c9fb05827da",
+      "run_id": "expansion-v1-r006-doorway-s1-view4",
+      "selected_entity": "r3geo_base_r006_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "bd410ba59d44a51c509f3ebb8c2fdd084893b65fb1bdd97ad48ba80f5e4c01ae",
+      "candidate_id": "expansion-v1-r006-doorway-s2-view0",
+      "request_sha256": "f1f63637c0376c52cc0fe3fd2d2db1f50ffcbbdeacfd011d83b55e77448ca2bd",
+      "run_id": "expansion-v1-r006-doorway-s2-view0",
+      "selected_entity": "r3geo_base_r006_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "60c5d395a34b231f60a98dab070bfca2165dce7b807cbf13b32f3b996558ba07",
+      "candidate_id": "expansion-v1-r006-doorway-s2-view1",
+      "request_sha256": "3e079f32ad200ebb1058483d8468a2d85859efeb4be4195f96bd1da9e0f8afdf",
+      "run_id": "expansion-v1-r006-doorway-s2-view1",
+      "selected_entity": "r3geo_base_r006_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ba5737308cb48389416650e246fd4143c6f12611df2806f39831989224dfe8e9",
+      "candidate_id": "expansion-v1-r006-doorway-s2-view2",
+      "request_sha256": "be43ac80114b7baa62dfeee4a24ccaf2dbcbdc6045be6c6be22f2c03d6798636",
+      "run_id": "expansion-v1-r006-doorway-s2-view2",
+      "selected_entity": "r3geo_base_r006_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "33508496c443fe4722fc8592ca52a977db3ee9c9054316853e7f642e8b0f5843",
+      "candidate_id": "expansion-v1-r006-doorway-s2-view3",
+      "request_sha256": "bcbb59495682cba34ad21913d03d0ce55c6a390266142e4f642c4bc7bdc6c9dd",
+      "run_id": "expansion-v1-r006-doorway-s2-view3",
+      "selected_entity": "r3geo_base_r006_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "3792845c483d3577998319295b6ebf63394960f811a528aba2147d57c54f5ecb",
+      "candidate_id": "expansion-v1-r006-doorway-s2-view4",
+      "request_sha256": "039b762ee01a30377b4319391ebd557bef52462876cf1946c2ae94d59c4e937f",
+      "run_id": "expansion-v1-r006-doorway-s2-view4",
+      "selected_entity": "r3geo_base_r006_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b60e502ca584a11a5b20b826031b758621741ce20987b2da35aafc32f78acbfe",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s1-view0",
+      "request_sha256": "1c798a6e0be9b75c2248a6f4ce44ecbfcbe6a99094d61e283f996a911513c6a3",
+      "run_id": "expansion-v1-r006-laboratory_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r006_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "277bd3fdebf013a57c5be1e77d4b2a77976d00ec976d8918dd3038a68ce50d28",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s1-view1",
+      "request_sha256": "c3646a4f9af91c15c35769c9ebf459036a256a08a0dd41b0fc0b058abf489d43",
+      "run_id": "expansion-v1-r006-laboratory_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r006_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "fd2e77abf19e98a1a3b371d6411fe063a65a2b5f19b50944cefa0e45c0a0935b",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s1-view2",
+      "request_sha256": "e45634c32f0785a268b847c0e94ee95832d73d13b7aacbea78484773e5fe2acf",
+      "run_id": "expansion-v1-r006-laboratory_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r006_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b82814b6db3b773eb6d218d02610b279b03d79ee1bc6192eb606388de2a9b8f6",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s1-view3",
+      "request_sha256": "4a87326a362169bd7578dbf2558aef6651c9f69b21a240e818fcd0f184f8628c",
+      "run_id": "expansion-v1-r006-laboratory_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r006_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4a897d7c871f36068a0659500f24019333d3fd14889c40ba474c0ff158cb2248",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s1-view4",
+      "request_sha256": "df159c02509aba8ff36f0b016f1ea16344188f9e30a7f74fe650183f6a8acf06",
+      "run_id": "expansion-v1-r006-laboratory_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r006_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "80925999e1db3fe6da87ce418fcdd016680746c1de41f4d9c8fac9c3dca214e4",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s2-view0",
+      "request_sha256": "cee6de5412fc76809176bf89510a21b1077b450724f5beef854f339b8e9a1727",
+      "run_id": "expansion-v1-r006-laboratory_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r006_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e0cd0b1e3102975972258d741c4c046a26b3a1da717ca22cae1280bef7755953",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s2-view1",
+      "request_sha256": "5cf40c983e3ab4286e7cce0e045d5fb68b5ca88cdf14a76f1433e7a5d96a8bfa",
+      "run_id": "expansion-v1-r006-laboratory_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r006_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ded5b1ab7c4aa6d2147a029406890f3ac4e3f0cf14e814b6bc554197e36a24d9",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s2-view2",
+      "request_sha256": "22459bda99f1f5e2dbb4a6abed5174db3960b90ac060496474490405d9368cad",
+      "run_id": "expansion-v1-r006-laboratory_entrance-s2-view2-retry1",
+      "selected_entity": "r3geo_base_r006_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "8879b123f670fe2697146e3e0fedb3872ae0d445eaa4a23369d03d61a88210e9",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s2-view3",
+      "request_sha256": "ac53182b4be977644cde56a598026e23a1f96d7093c4bf946522f3219b025ce4",
+      "run_id": "expansion-v1-r006-laboratory_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r006_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c857b6247c6329b69a34131aad8ed4a200be992473e226523238fba8b145ddc4",
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s2-view4",
+      "request_sha256": "63b475a7585f9bf191487ed4ed79ba6b9cc32647bcec56599896d777a1a1c6a7",
+      "run_id": "expansion-v1-r006-laboratory_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r006_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "be1be6a449b7e7dadc4ab9f3ef17e70e92518347beb9b39106d5d05c87a65dcb",
+      "candidate_id": "expansion-v1-r006-office_entrance-s1-view0",
+      "request_sha256": "cfb78e55cf5e0fdb0b175368fc02d9312bfdd013c7ba630494049438d4242abd",
+      "run_id": "expansion-v1-r006-office_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r006_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4dbfec5982e80546a330f3ff814b87ed2e5f735d2a61955349dce35186329dd1",
+      "candidate_id": "expansion-v1-r006-office_entrance-s1-view1",
+      "request_sha256": "922b9814326d41700cc582fdc052c1aa2603f4064b398ca6d76c852d2dea0244",
+      "run_id": "expansion-v1-r006-office_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r006_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "dd58cde0c0a16202af0abaf9609b442ece09f1ecc55ed46711f85affa6965619",
+      "candidate_id": "expansion-v1-r006-office_entrance-s1-view2",
+      "request_sha256": "ca529d5562c95cbed36cdb2c44e4b267fae0bc5041c4e07ce53af7f9bd2a179e",
+      "run_id": "expansion-v1-r006-office_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r006_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "3a12c85e666d64b331639054579a20bf511b16dcbb1740a611098a531e95635f",
+      "candidate_id": "expansion-v1-r006-office_entrance-s1-view3",
+      "request_sha256": "890241e7877ae7ecc88ec1fe54e2410ff0f65b38d57608e37478b777f11797d4",
+      "run_id": "expansion-v1-r006-office_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r006_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "cb7933aa984c4794a8b819c0b3fc2ed4fb646f9dc3b634c0b670bb2dbbc54746",
+      "candidate_id": "expansion-v1-r006-office_entrance-s1-view4",
+      "request_sha256": "af65482ff7f0abe553c389edce8799615498877c43544bd4cfed84332ecf88d9",
+      "run_id": "expansion-v1-r006-office_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r006_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0cf87e38bdcf78a7540100767d9c269bbbf42a730ac86f01544a76307fd31074",
+      "candidate_id": "expansion-v1-r006-office_entrance-s2-view0",
+      "request_sha256": "db8ab65b97672b174f196823e4ef1ff556353e9625982b6e5abadfdd2dc16463",
+      "run_id": "expansion-v1-r006-office_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r006_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "bb541ef294a9b5cc46951ee0f3ebe1748667add8a87b0cf4dd2ae6de56ffbab7",
+      "candidate_id": "expansion-v1-r006-office_entrance-s2-view1",
+      "request_sha256": "6d56ab7e540080dcd338bfd234270d4631ab07f53a555e9400a60b5dafbad2fa",
+      "run_id": "expansion-v1-r006-office_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r006_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f64fa80651ea25008bf22036582a19acecde26d195f6354ec126f1ad29bfefb6",
+      "candidate_id": "expansion-v1-r006-office_entrance-s2-view2",
+      "request_sha256": "a316694a1205a370953da209529271e2e2610809e662ffba075097479777f163",
+      "run_id": "expansion-v1-r006-office_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r006_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "51fb2e3d36370d8e19b90653a5f6f4510bc8240f9ab06192abe23449fd0a756c",
+      "candidate_id": "expansion-v1-r006-office_entrance-s2-view3",
+      "request_sha256": "e11352426410d2758dbe743d1fb8f8946c10240c3ad34885082ff1373d1c6230",
+      "run_id": "expansion-v1-r006-office_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r006_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "73bf469fd26c891ac253098a3a757f29741c95658cc228ae9caf25db6a70311c",
+      "candidate_id": "expansion-v1-r006-office_entrance-s2-view4",
+      "request_sha256": "7d36ea94a89379581aeaee717d16b3f27440dc4da23743e0b58355b7e6761328",
+      "run_id": "expansion-v1-r006-office_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r006_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "47ede4d0a8ea01ec352f583ed28472e9661b9304e78ecd7c7441efea97123202",
+      "candidate_id": "expansion-v1-r007-chair-s1-view0",
+      "request_sha256": "3362b7dbd1e02ab612f0f0746890d3c631e78a8268ca856fef60c287d6273f7b",
+      "run_id": "expansion-v1-r007-chair-s1-view0",
+      "selected_entity": "dev_04-r007-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5672e2acecb26d99d13478b522f3608994c94be6d7845e2c6791e5858aa01580",
+      "candidate_id": "expansion-v1-r007-chair-s1-view1",
+      "request_sha256": "4705c6d24430d40cfbbcf5ac79a83bc163c91eff0ea1eafe24504b54a02af204",
+      "run_id": "expansion-v1-r007-chair-s1-view1",
+      "selected_entity": "dev_04-r007-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f1cddca012aa056cb745b646392625888738c1efbf598d2a3354249d0b7f0d2f",
+      "candidate_id": "expansion-v1-r007-chair-s1-view2",
+      "request_sha256": "0973edebfbc72c4bddb0472b0e97839ef23abd4077ca3efd17e59abaa66467cd",
+      "run_id": "expansion-v1-r007-chair-s1-view2",
+      "selected_entity": "dev_04-r007-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ec15d73403407ad139f27c1b92b44f634c51cc05a40541556fbd188a078a000d",
+      "candidate_id": "expansion-v1-r007-chair-s1-view3",
+      "request_sha256": "7d6c50f078301b40be358edf4437a0e1c693ef1021256a819cf4b4297c0f5dea",
+      "run_id": "expansion-v1-r007-chair-s1-view3",
+      "selected_entity": "dev_04-r007-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "aa63501d48d4d87fe20a014d46fe96de4cb7f39c0df6a07ddad2af45419810ce",
+      "candidate_id": "expansion-v1-r007-chair-s1-view4",
+      "request_sha256": "8ee3f896a33fc5bffc0675b78dea44398acd11311399cccb139e8f2bfef7802f",
+      "run_id": "expansion-v1-r007-chair-s1-view4",
+      "selected_entity": "dev_04-r007-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "37a4fd42457d0581e0203978c398c5764d4739248a092b82ae8f173bf4161b19",
+      "candidate_id": "expansion-v1-r007-chair-s2-view0",
+      "request_sha256": "297e697cd7e135a59b5a1570b81678d81c0ea13c3c73ae4941f427400f633a6e",
+      "run_id": "expansion-v1-r007-chair-s2-view0",
+      "selected_entity": "dev_04-r007-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5ff3d8778bfd28cd98268a1f7d0bd9c9e1a8a1297c3035d07823019038477972",
+      "candidate_id": "expansion-v1-r007-chair-s2-view1",
+      "request_sha256": "ae34c67fb58c2140b71de7a9a495168415fe957d1a8689656e199e293ea6af4d",
+      "run_id": "expansion-v1-r007-chair-s2-view1",
+      "selected_entity": "dev_04-r007-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "611a05ec38ba40324b9277533e8f28bfd3fefc2ca6c564f5f6f220077953c796",
+      "candidate_id": "expansion-v1-r007-chair-s2-view2",
+      "request_sha256": "dd19a48e2e06a3255beaaa5c610e6fe1a3fef2a584a29932661f847c048c8943",
+      "run_id": "expansion-v1-r007-chair-s2-view2",
+      "selected_entity": "dev_04-r007-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "79ee56afdc4dc71a38ea230e6521278b7eb3cd7c4fa8091c8af26c165b83265a",
+      "candidate_id": "expansion-v1-r007-chair-s2-view3",
+      "request_sha256": "f1380bd0beed49fac41764bc31600639f08aaec5ca15072396656743919b2a7b",
+      "run_id": "expansion-v1-r007-chair-s2-view3",
+      "selected_entity": "dev_04-r007-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c5fb275069019b24fcdf0307a9c8f5692d874aba170edb582fa582611c4a144e",
+      "candidate_id": "expansion-v1-r007-chair-s2-view4",
+      "request_sha256": "9e2312bab722d64eae143f2842de3f9a4bff957f804541a506591318d766aff5",
+      "run_id": "expansion-v1-r007-chair-s2-view4",
+      "selected_entity": "dev_04-r007-green-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f570417cbc90078b714027d600dad798d66c4ad445b73ef41244cc1e044e9236",
+      "candidate_id": "expansion-v1-r007-doorway-s1-view0",
+      "request_sha256": "7c91331d9b11b4489c2253f407c4a730e708e03256357862bd0f872a1f111ecd",
+      "run_id": "expansion-v1-r007-doorway-s1-view0",
+      "selected_entity": "r3geo_base_r007_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "51d69d3093d73abefe0d19c274cfb84be098da6a29d1c721241438994b6a3919",
+      "candidate_id": "expansion-v1-r007-doorway-s1-view1",
+      "request_sha256": "ea966534494610a3a91a8c491795a29f3c2b8863d80af077aa474b1c7674d151",
+      "run_id": "expansion-v1-r007-doorway-s1-view1",
+      "selected_entity": "r3geo_base_r007_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d146ca0b715212999c18d22920a4881d053069253d27e198c72eb7d67cbbbfc8",
+      "candidate_id": "expansion-v1-r007-doorway-s1-view2",
+      "request_sha256": "ffa9480117cc27e1f297e2b90d52fb8eb97b707959e31b9c17fb80aea2fe9d66",
+      "run_id": "expansion-v1-r007-doorway-s1-view2",
+      "selected_entity": "r3geo_base_r007_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e4c16c7038dd526b69e157e177c45cc676ae8992d41a32a72eab0edaadfbcd81",
+      "candidate_id": "expansion-v1-r007-doorway-s1-view3",
+      "request_sha256": "a65ac04d4a2ea1d016477b208be3f062358153dde789c2a8b80da116b274c81f",
+      "run_id": "expansion-v1-r007-doorway-s1-view3",
+      "selected_entity": "r3geo_base_r007_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a4d919b0ee67fce60395b65d85d70f3c665ad91bb486826d649b9e5d95767df8",
+      "candidate_id": "expansion-v1-r007-doorway-s1-view4",
+      "request_sha256": "ec917223602e9828255b041508612d60a248d4532395148420fa2cd8eed30c5f",
+      "run_id": "expansion-v1-r007-doorway-s1-view4",
+      "selected_entity": "r3geo_base_r007_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "10b2cb53335ef58a908433c507b999276c21e0bf67a1b3d99dbf4e7372630205",
+      "candidate_id": "expansion-v1-r007-doorway-s2-view0",
+      "request_sha256": "cfcec0e80fb23ae8ea6bf90dda18e55c1b9d7aed7ad8dfe423e17c563705fc25",
+      "run_id": "expansion-v1-r007-doorway-s2-view0",
+      "selected_entity": "r3geo_base_r007_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "24f1ce0cc975449281fef5a2962dbfaf8eade9a5f9e7e76593a4081c369bb41d",
+      "candidate_id": "expansion-v1-r007-doorway-s2-view1",
+      "request_sha256": "ee3fbfa22ee7650d22bdab4ca43b4eae68b25d447829377b6d1d67ec7c1a3f30",
+      "run_id": "expansion-v1-r007-doorway-s2-view1",
+      "selected_entity": "r3geo_base_r007_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "76a97abf7b33bc2c0d3014c2b457f8035a79acc5550c7b36657c4c92850ca00b",
+      "candidate_id": "expansion-v1-r007-doorway-s2-view2",
+      "request_sha256": "cf6d2021711eae6c1c0e688310b1828a0f3b2103fab375ed245c3a56cfbae3c1",
+      "run_id": "expansion-v1-r007-doorway-s2-view2",
+      "selected_entity": "r3geo_base_r007_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5b4f53d9c171b06ad02d28873a006db2c29af9e1ef1a45e445f261be5c0a1f3d",
+      "candidate_id": "expansion-v1-r007-doorway-s2-view3",
+      "request_sha256": "2cd55555208bf1746234b663e937976dba1d44137a461039da1b7633a6db0107",
+      "run_id": "expansion-v1-r007-doorway-s2-view3",
+      "selected_entity": "r3geo_base_r007_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "60a52201902500fd406ad2957d713c2a5e68e79745f6256b8656a7f593ec7df4",
+      "candidate_id": "expansion-v1-r007-doorway-s2-view4",
+      "request_sha256": "97b8b53ebd8f08dd8c1d166d6bf586a26a55959e98d91d137c1b9b43dab0938b",
+      "run_id": "expansion-v1-r007-doorway-s2-view4",
+      "selected_entity": "r3geo_base_r007_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4d1bab85567960c986d3dd821a69738d5cc6eb7f32c9482869ffbe957cadca3a",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s1-view0",
+      "request_sha256": "d769c6e92a965e1cf8296c8d223db3178e3a84045da8322532cc0e20813de496",
+      "run_id": "expansion-v1-r007-laboratory_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r007_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "83d577526236f79401e0ae8f6c42c230bb9d0e5f759a54d1082f7f79d2935231",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s1-view1",
+      "request_sha256": "b6d4255358a1b087ffa2b9b7aa5bcac76266273110008952bcb1fa74a0f2b2ef",
+      "run_id": "expansion-v1-r007-laboratory_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r007_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "386d46ce11785d3fecbdbb77ff06838898e02aac8d61bb5377e17df5ea7ccf7b",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s1-view2",
+      "request_sha256": "751c44c82ea86448fabf081f09633cb002252e686b148f4b786e53fef76f98d2",
+      "run_id": "expansion-v1-r007-laboratory_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r007_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "37d5ccca3ba81f84927475b3c2a337f6011c92e310f04d6c0e1daaf24b26357f",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s1-view3",
+      "request_sha256": "5cf4b978b8a6420590ab0c4ee8dc2047130ed3713b0ee1f9212552b6afb04d95",
+      "run_id": "expansion-v1-r007-laboratory_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r007_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a02f35c12c9711da33c08a1888bd3577e9c2dc26267d42f1fac5ac80598d0d31",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s1-view4",
+      "request_sha256": "4c1c92756e0f09e96705ad7969d6988f16d615b27e3cf0256acb0cac3220fbaa",
+      "run_id": "expansion-v1-r007-laboratory_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r007_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "317b6e55759b9236be125f8a85e843cddf611aa54659c3c459ed337921c8e9c9",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s2-view0",
+      "request_sha256": "b55e078233018c346d4eb17198b7342b666bbd9af0292fcef9e5947b67a58d63",
+      "run_id": "expansion-v1-r007-laboratory_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r007_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2e9956205f2cf99b8153c5bb1d9fbeaff14514fb16215e14942c51f80c9822ab",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s2-view1",
+      "request_sha256": "7b31208d6a51b4010778dcf82559b8815067be956d506873328db30d23afc237",
+      "run_id": "expansion-v1-r007-laboratory_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r007_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2e71a42bca466e56bb2606692e7d292ece8cb5a478a0e83fe5011f6499b1771f",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s2-view2",
+      "request_sha256": "35f6c8db93c86a833dd34c51635d67fa11dc337ec79157a6922e544d53a6efdb",
+      "run_id": "expansion-v1-r007-laboratory_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r007_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "78652c50ad6a32e1f18c4cc75575f4bd771e9c8022ea8e59ea789d403e9c4768",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s2-view3",
+      "request_sha256": "4c4d6970d667c091abe1014999489d56bd5e385271c0ae730ea774aa70aac97a",
+      "run_id": "expansion-v1-r007-laboratory_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r007_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "36bb4ed9462d056434171cab59c96296d2fbfc5f56253dc827e0c8cc6d6b8c02",
+      "candidate_id": "expansion-v1-r007-laboratory_entrance-s2-view4",
+      "request_sha256": "583099c3045702786c0d49ce02529d3bf8439fb44c4ad866fde2d203368d8395",
+      "run_id": "expansion-v1-r007-laboratory_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r007_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "13b822a54a5629a2a5f48a357202bdec34a39ff3e712cfd32abecb26bc8e778f",
+      "candidate_id": "expansion-v1-r007-office_entrance-s1-view0",
+      "request_sha256": "3e60c84f1dfc61c34ffb42d8703d5ba6fa2dc3d1aca4bacafe577c93fbecacdb",
+      "run_id": "expansion-v1-r007-office_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r007_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "653515f491c56e1036fafbc5cc1f72a3d494fe44f5bb0d7619bf01c59d87d543",
+      "candidate_id": "expansion-v1-r007-office_entrance-s1-view1",
+      "request_sha256": "d3f11cbb4fb4d2289ed6a6905c80d82579098f66b65952fb23bb007dd14e3908",
+      "run_id": "expansion-v1-r007-office_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r007_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "1fac61f2ccd169af6777f2ed37f041e21c58b64fb964dd461821bb8887c0107c",
+      "candidate_id": "expansion-v1-r007-office_entrance-s1-view2",
+      "request_sha256": "d95dd3eeb750893f7e4aa306d9e6f191fd23a1359b644780875a5cba6a88561c",
+      "run_id": "expansion-v1-r007-office_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r007_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d7af7abbe888a84a01f6e017a7ce5231791657708ec55c072c2098af61245144",
+      "candidate_id": "expansion-v1-r007-office_entrance-s1-view3",
+      "request_sha256": "56e4e904a6686032e43cc61e480b39c23ce878f7f24a4d01affe422329840628",
+      "run_id": "expansion-v1-r007-office_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r007_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "8b1f2ad7c62a0ca192a37c4ee4ee4c9b02b36c341ada35a6dd715c738cf6744c",
+      "candidate_id": "expansion-v1-r007-office_entrance-s1-view4",
+      "request_sha256": "739db2bef2b8a459f458b3457ed05ca3ac4f84567e6d034a6cd0e0c323dc4e2a",
+      "run_id": "expansion-v1-r007-office_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r007_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ab788e68c79fcdbc7fd7768a0438a50f3b891b4a4d839c852b2c28012432c7b4",
+      "candidate_id": "expansion-v1-r007-office_entrance-s2-view0",
+      "request_sha256": "0285b5330335af225dd3dcead78f3c4ec8931e14c6a32eee2474ab5bc27d56b5",
+      "run_id": "expansion-v1-r007-office_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r007_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4f572a33c27720ccedffde65eb50dfa80c5c8e85bfb1f5692a41190db2b43042",
+      "candidate_id": "expansion-v1-r007-office_entrance-s2-view1",
+      "request_sha256": "9a719bbedbd0030774db8ee3c5d882fd5b6f5a741df21b9563220b128dda9d89",
+      "run_id": "expansion-v1-r007-office_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r007_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9f2861b489cc6843aad5431b37d40e8f7840a99a70992e0c6a1247154a7f881b",
+      "candidate_id": "expansion-v1-r007-office_entrance-s2-view2",
+      "request_sha256": "d69dc9b3f272565f4c3a215e0fd8beca122d83fba621c1dce3f4b1cff0925761",
+      "run_id": "expansion-v1-r007-office_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r007_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "82889dc77f2a118a2435916eabb69684680b9a6ee4fdbac24ba5effcd2042fb6",
+      "candidate_id": "expansion-v1-r007-office_entrance-s2-view3",
+      "request_sha256": "d2fb0421a7c94bb8fa3f549fcb7370ef863213abc8ef2694f35d54ddd98b9197",
+      "run_id": "expansion-v1-r007-office_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r007_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "56345b922eeef70eee7317ef48d383efad77fc6ea34860bccefa0a4761ec694c",
+      "candidate_id": "expansion-v1-r007-office_entrance-s2-view4",
+      "request_sha256": "a6fde0eb6be1c52377bea1a1a3817fea44233d25265e6f282c5f978416e26452",
+      "run_id": "expansion-v1-r007-office_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r007_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5432976d32aff36af4045418478c3a3fc1d27f39954d89f68738b629930999d8",
+      "candidate_id": "expansion-v1-r008-chair-s1-view0",
+      "request_sha256": "3025057b97c4e4ce9f22e3b83e50eb5195ac5c3ed20cb1a9b4f28cf7d8b8a66a",
+      "run_id": "expansion-v1-r008-chair-s1-view0",
+      "selected_entity": "dev_04-r008-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7fd9efadd03c055fdc78222279232a74a27e701c308748c6bbbb11de581e85b3",
+      "candidate_id": "expansion-v1-r008-chair-s1-view1",
+      "request_sha256": "facbdfc3ce7a45057a360042ebdff9e154d5dc93aa0b15c55deb508a4d4e5391",
+      "run_id": "expansion-v1-r008-chair-s1-view1",
+      "selected_entity": "dev_04-r008-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d1290070b14c2e33b002bbe066d5f72facb707a8a8bb2b0360419de7fd343b8f",
+      "candidate_id": "expansion-v1-r008-chair-s1-view2",
+      "request_sha256": "db76e2ad5db430b306722693860439a6a223a6344008bb6311e39a3431f0f8ca",
+      "run_id": "expansion-v1-r008-chair-s1-view2",
+      "selected_entity": "dev_04-r008-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "16a4a70009d8643b699ab172e0a0f86182faa093bc54e0c9311c15c29c8a344a",
+      "candidate_id": "expansion-v1-r008-chair-s1-view3",
+      "request_sha256": "919e289977f9de8a53ff2c764898b163ec83d75a187495ed10fe8aeee0a25ff5",
+      "run_id": "expansion-v1-r008-chair-s1-view3",
+      "selected_entity": "dev_04-r008-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b9ca11a84529790ce6fb4e7f6070ef6790161a0c7ccd0e6d12a574b8d62a181a",
+      "candidate_id": "expansion-v1-r008-chair-s1-view4",
+      "request_sha256": "87ca04c4300d0378d0f8fe97a451331305f578aa6322aaca66e1f13b09d14621",
+      "run_id": "expansion-v1-r008-chair-s1-view4",
+      "selected_entity": "dev_04-r008-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "016b246ac405d0cbd3837984f1ea7de237b66fce16b6f4e941dcf194453e90ff",
+      "candidate_id": "expansion-v1-r008-chair-s2-view0",
+      "request_sha256": "f69c7d8f36e91be2ac231c5575faf36dce2bdcebe09b26e0e9c35818a52480f2",
+      "run_id": "expansion-v1-r008-chair-s2-view0",
+      "selected_entity": "dev_04-r008-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "6d58b49539d6e7604e85dd3f36cc1bd7e7705621cf75694c68fbdaa478ab5b6e",
+      "candidate_id": "expansion-v1-r008-chair-s2-view1",
+      "request_sha256": "107d50901f8eadff180ebd6b6a54411cedb06d1c118c24c3c98b71d77e68f33b",
+      "run_id": "expansion-v1-r008-chair-s2-view1",
+      "selected_entity": "dev_04-r008-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f6ac26e53d198fce138cde1e87189fccb4d848b18dc297fd259ddd971b3ac0ae",
+      "candidate_id": "expansion-v1-r008-chair-s2-view2",
+      "request_sha256": "32ef1e97e9bc0eed8b5746e285d96aa42b6fb2e76c789f82b830a860be699dea",
+      "run_id": "expansion-v1-r008-chair-s2-view2",
+      "selected_entity": "dev_04-r008-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "77895a0962e4dcafc60495e9c4f64ef60f00cfee2ab5e89da1776a774673f432",
+      "candidate_id": "expansion-v1-r008-chair-s2-view3",
+      "request_sha256": "f049f5210b4720e9e7ed24ebea390ca09a36ada37020790e62c2a273d22677b2",
+      "run_id": "expansion-v1-r008-chair-s2-view3",
+      "selected_entity": "dev_04-r008-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2bcd8a8274a7a5398442c3ca178d31bb49004bddd0caccb90c3feeeb4353cf5d",
+      "candidate_id": "expansion-v1-r008-chair-s2-view4",
+      "request_sha256": "25cc6a7ecd315f94a9d622b4f51fe95ed9d006bbebcc9337dc58c32579ca6bf4",
+      "run_id": "expansion-v1-r008-chair-s2-view4",
+      "selected_entity": "dev_04-r008-yellow-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "3a9f88f71e53f03873d9a35d75b5bf6c6cd02f0286360c4a5a9ea64e4cd52843",
+      "candidate_id": "expansion-v1-r008-doorway-s1-view0",
+      "request_sha256": "32b04bf56f28da7c0b35f5bc2bb5eed53c6d4f7b02b122cb7b7f5637645adeda",
+      "run_id": "expansion-v1-r008-doorway-s1-view0",
+      "selected_entity": "r3geo_base_r008_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b63e91a0d8da2e5460d8245ada4fe6cf699a3adc526907cfc7a7ccbdca8646b5",
+      "candidate_id": "expansion-v1-r008-doorway-s1-view1",
+      "request_sha256": "fe6eb28542e698bcb8cab33f5f0d24d5cb825ba780153dc4a9568591690d029c",
+      "run_id": "expansion-v1-r008-doorway-s1-view1",
+      "selected_entity": "r3geo_base_r008_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "1a4fd43d73fecfd27e754fa365603858e271a1fcdd1c5191d0b702cead7ff359",
+      "candidate_id": "expansion-v1-r008-doorway-s1-view2",
+      "request_sha256": "5484d6e99008ce00d0afc3fcba0c94037aba07ecdceac7b9d4ac3ad896b34949",
+      "run_id": "expansion-v1-r008-doorway-s1-view2",
+      "selected_entity": "r3geo_base_r008_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "cd7f4288713abdf848821838b1de305b93e5083c414ec7e5e46b443cbd48a7de",
+      "candidate_id": "expansion-v1-r008-doorway-s1-view3",
+      "request_sha256": "60c543b515bf4b26f13cd38cb9708501bde6d70dec0bda84bfe4be3a492eb054",
+      "run_id": "expansion-v1-r008-doorway-s1-view3",
+      "selected_entity": "r3geo_base_r008_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "92512cc203387461a650a318631b36436ee66a82ea79c6b0b02b2e45f78f2df9",
+      "candidate_id": "expansion-v1-r008-doorway-s1-view4",
+      "request_sha256": "88716c78897e06a6d84fe650e008ac8839efe324c83e3da2e26cadeaedc9b49d",
+      "run_id": "expansion-v1-r008-doorway-s1-view4",
+      "selected_entity": "r3geo_base_r008_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "996ca0e041680801cc1f23dac2b4de15fb171149f090640784c8f516b06b5c37",
+      "candidate_id": "expansion-v1-r008-doorway-s2-view0",
+      "request_sha256": "e3853e81d72e1a190c52a3b1240f7cf9915e3e8d42919156ce112f834aa92316",
+      "run_id": "expansion-v1-r008-doorway-s2-view0",
+      "selected_entity": "r3geo_base_r008_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9ab5a6d3ab5b521bf8ff9da22e4577f3d77cc8610e3cb67aee4150549ed93f6a",
+      "candidate_id": "expansion-v1-r008-doorway-s2-view1",
+      "request_sha256": "91b5f18964d1fcd152af2352c01a53792468de294bae48359c295368096cae39",
+      "run_id": "expansion-v1-r008-doorway-s2-view1",
+      "selected_entity": "r3geo_base_r008_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5e1f1bf4127e56916ba13372b9655d115ccf68ac132a0b6214a069e121daac46",
+      "candidate_id": "expansion-v1-r008-doorway-s2-view2",
+      "request_sha256": "825a5cee5d9e3f7c9a485842f7825ecd82b296ccec49f74d2557f5e7e674add8",
+      "run_id": "expansion-v1-r008-doorway-s2-view2",
+      "selected_entity": "r3geo_base_r008_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0bc195b232528c8b1d5e3d1b4ffdf52513308e3daaf45d159ebae50d8d9301dd",
+      "candidate_id": "expansion-v1-r008-doorway-s2-view3",
+      "request_sha256": "63f6a0a29662cd33f616e36bc7a81fbc816867cb99bc30259517920f3f9ec09d",
+      "run_id": "expansion-v1-r008-doorway-s2-view3-retry1",
+      "selected_entity": "r3geo_base_r008_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a57175983631ff5ee614f75df7bc058388b490b8960b5d55ece34e85f98178b5",
+      "candidate_id": "expansion-v1-r008-doorway-s2-view4",
+      "request_sha256": "9c4ac79bd2c0f69c0a6e40a0c0134acfbf1be634b01e9aa3fe58a0a4f915bc24",
+      "run_id": "expansion-v1-r008-doorway-s2-view4",
+      "selected_entity": "r3geo_base_r008_right_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e6981b22f89bc5d1007f3f8eabbfe6ad1bfab863ffa2ff5c650e6201b861f573",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s1-view0",
+      "request_sha256": "d0ad1c4cd40ea31cd01426a54d73f057bad8f3d62947831322b902f51f96dfdc",
+      "run_id": "expansion-v1-r008-laboratory_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r008_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "76329120eeac593ff034d9ae03ede83c2b68f47ed2cc13f570a7ed022ce4042e",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s1-view1",
+      "request_sha256": "ad9790f5d385f941320e7f55833e3d2b9a72d94440d107924039fa2d107abf2d",
+      "run_id": "expansion-v1-r008-laboratory_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r008_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f9f0236b259622d1568d2c580464d1dea08e42df9b159ad7bb91fd6993d0fd57",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s1-view2",
+      "request_sha256": "d6de30165b5f889965ba4ae52f388807b7a66161549661172d19c3968d4e436c",
+      "run_id": "expansion-v1-r008-laboratory_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r008_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "835932e8d06f2f3802413dd93599c868b5854265b43d9d5b79850ea719d8b8af",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s1-view3",
+      "request_sha256": "b4d9558c31fa8295ec13d34c6a4b5126e7e66d6941a7ef8cc5e991140191a1cf",
+      "run_id": "expansion-v1-r008-laboratory_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r008_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "11d7ca77b59054196eea8670ee70cd5e663f2e308ee95bbd10f4b10c1d24fa5a",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s1-view4",
+      "request_sha256": "14def53f9bbf650da31558d77646eee90d553bdb70bc495e70faf494f4f9883e",
+      "run_id": "expansion-v1-r008-laboratory_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r008_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "777613876561eab7cf5b18312dfe35f0c1d32767f7b840fce447f1b6c608d309",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s2-view0",
+      "request_sha256": "9e34f8c0c67b31b51b2e7c57f172df781f4e31e116ce3382194c734280dd283d",
+      "run_id": "expansion-v1-r008-laboratory_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r008_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ef00594c450f7e4bbea4760dc62307705304bff965e22721ff3011629217ae78",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s2-view1",
+      "request_sha256": "9329c081affef10cc8e95b98f77c72a3d475aca82791b9d885189ed409bc3dd2",
+      "run_id": "expansion-v1-r008-laboratory_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r008_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "80cd66681b053fe56d6fde73471220727b5d98f11c7c5b7c29dec7d821c5cf6b",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s2-view2",
+      "request_sha256": "0b8aad7dc4d3979f38729e13b67ed401a68f69fbf1e2eca617d94ae159b49746",
+      "run_id": "expansion-v1-r008-laboratory_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r008_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9e9b648ecb7af31cc7a7e6fe3c8f332e8197a0a309f38d0dcdc5c2cf8affe51a",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s2-view3",
+      "request_sha256": "ffdbc252f60b48accf35fc780bc487760f0a7e0e3b975bee396c6e60309a9767",
+      "run_id": "expansion-v1-r008-laboratory_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r008_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "6ac278d55283a614c9f7da7d5345a4d9cb865a36e96345cf3e0d5f741502bdfb",
+      "candidate_id": "expansion-v1-r008-laboratory_entrance-s2-view4",
+      "request_sha256": "4c902883c712f20c0ed08f935bb6b7f95aedfc2dd944fc097c4ca6a936f4a954",
+      "run_id": "expansion-v1-r008-laboratory_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r008_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0dce58f892ccaefe6a0c7ac44d1ffb4c19879cfc65da31e22b61a16a91f455f2",
+      "candidate_id": "expansion-v1-r008-office_entrance-s1-view0",
+      "request_sha256": "360999e1dbff838825d8ad8b44fe8ee4791e3f494120e7b9fd15143cce11fea1",
+      "run_id": "expansion-v1-r008-office_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r008_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d764fb35357a9de860319ac2d922e3f82b0c7c79bd727f50d5837aa6953896ac",
+      "candidate_id": "expansion-v1-r008-office_entrance-s1-view1",
+      "request_sha256": "352738522221cbb911d86d66d43b66787631afa283b5536b54694d110e80951e",
+      "run_id": "expansion-v1-r008-office_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r008_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b3c496c9eccc5767a6a06a41aacedc3a734d424042863dfb1d0004e49fceb43e",
+      "candidate_id": "expansion-v1-r008-office_entrance-s1-view2",
+      "request_sha256": "56980af3fc2ee54ab833c54c9ef9257592fe39fd962d64b46f6784f0745ff935",
+      "run_id": "expansion-v1-r008-office_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r008_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "458f5e4edf6e5378b0cb77872d523ff4ee10f47a38a1cf85647666afa93fd312",
+      "candidate_id": "expansion-v1-r008-office_entrance-s1-view3",
+      "request_sha256": "e2f13c05618d92a58d7b51a4825f25a5dcc66e4e763ae3194e25010c2657a8b7",
+      "run_id": "expansion-v1-r008-office_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r008_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c2481312312d938eca58776c31d7f64c9001cd10c6baa626ded35b2eacec3d9d",
+      "candidate_id": "expansion-v1-r008-office_entrance-s1-view4",
+      "request_sha256": "c3613668f3bbbfc70ffef37e5d3e2ff7dc9ece7d74b96e0d98de2a305b07f375",
+      "run_id": "expansion-v1-r008-office_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r008_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "07976d607d3d87d4d4d8bc49a67b8b5dba781e69a4663474be146e807cfdf027",
+      "candidate_id": "expansion-v1-r008-office_entrance-s2-view0",
+      "request_sha256": "945aac7fe36d642504c27fd837c59c3cef33730c6b0f33b410009a4a11609725",
+      "run_id": "expansion-v1-r008-office_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r008_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "dfb8f7473615f85949c84b5409ca5eb08ea1fc8c554d14be89238e2f4f02553f",
+      "candidate_id": "expansion-v1-r008-office_entrance-s2-view1",
+      "request_sha256": "9b3d52add2911ae27d8df642c9390b8488307c6da9c87cbfec65bee87ac77961",
+      "run_id": "expansion-v1-r008-office_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r008_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4f6bdbeec4ccf1b9fe6b3d3454ffa28c2db0b24e4459a5e2bc48eb2a0d17e9fb",
+      "candidate_id": "expansion-v1-r008-office_entrance-s2-view2",
+      "request_sha256": "97b72c3be7fef591a69389fade3f95ddc50a250330888fc4b4c4e3df278dc2fe",
+      "run_id": "expansion-v1-r008-office_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r008_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "294695a2b545ab6f4989b0fc8522536b7eba29e5149e1c7ef8deb66f54e6e575",
+      "candidate_id": "expansion-v1-r008-office_entrance-s2-view3",
+      "request_sha256": "ed2767f64d2b8eed65bec1095fbab84b526cceabe7fc76d7b301842cd388cb19",
+      "run_id": "expansion-v1-r008-office_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r008_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0cf9af9237075bf125c8a71acef862c5ecd50d9b22fdbea99a2f8196686e221c",
+      "candidate_id": "expansion-v1-r008-office_entrance-s2-view4",
+      "request_sha256": "e28517bac80b989c1d9a0212fa46ca082ff772992196be6f3da676462fada65f",
+      "run_id": "expansion-v1-r008-office_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r008_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "bf6e2b8f18d8dce866b7fc6631c24693bf07e96b3adfd6a3f06f68a3b5d84cb2",
+      "candidate_id": "expansion-v1-r009-chair-s1-view0",
+      "request_sha256": "f612d777167811d7fefff153e77c61a36be556696d574bbfe50bf16541917c01",
+      "run_id": "expansion-v1-r009-chair-s1-view0",
+      "selected_entity": "dev_05-r009-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "993a25dbdd0f11d3e8105f6e24ad7752d3cb8428dd7908e8c893852cc011a065",
+      "candidate_id": "expansion-v1-r009-chair-s1-view1",
+      "request_sha256": "196e13979ba374e0105aae5ae9e50124c3357175930909a3c5be014391401d9d",
+      "run_id": "expansion-v1-r009-chair-s1-view1",
+      "selected_entity": "dev_05-r009-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9951573c9a46c27f10a7f56fc5f238c7f32f11252c98bb3712ed0afb564a8809",
+      "candidate_id": "expansion-v1-r009-chair-s1-view2",
+      "request_sha256": "15aead059229009927aacbd15314a00a9763255620a15f51573198f8611a11da",
+      "run_id": "expansion-v1-r009-chair-s1-view2",
+      "selected_entity": "dev_05-r009-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "922992cec92daf26489b43076fc9987e07daf4390f68f033865ac43ffbf95a4e",
+      "candidate_id": "expansion-v1-r009-chair-s1-view3",
+      "request_sha256": "fc22d8eaf2f0195c14cda3e2c96394fe324210a17bef009095bdb4bffd86572f",
+      "run_id": "expansion-v1-r009-chair-s1-view3",
+      "selected_entity": "dev_05-r009-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "441a9cdd73e3a0935465df1dce1265fc00c7d336cdddbd6b6e3e2b2e46ef941f",
+      "candidate_id": "expansion-v1-r009-chair-s1-view4",
+      "request_sha256": "74816c0499066561428e949502dacfd56cd81f720b6b8126369bfe1e5fcdddaf",
+      "run_id": "expansion-v1-r009-chair-s1-view4",
+      "selected_entity": "dev_05-r009-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "63b3216ecd98a43d34d281d2fc9a41d0c3c02a6fcb12d1b0d5fc8a7d5d990ec1",
+      "candidate_id": "expansion-v1-r009-chair-s2-view0",
+      "request_sha256": "a37fd787de9e38ddfd9a504787a96554325d57cb365ebd4c63788e857622ca6b",
+      "run_id": "expansion-v1-r009-chair-s2-view0",
+      "selected_entity": "dev_05-r009-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "03d528af6dfc0df62b31ba09953043a3f1ded2d14023b9f855359f515d4a2607",
+      "candidate_id": "expansion-v1-r009-chair-s2-view1",
+      "request_sha256": "54ab36a9ca1f18e63a4a4c5a51cd76c9dc3eb8b6b563b765fa17a6188d0bf9a7",
+      "run_id": "expansion-v1-r009-chair-s2-view1",
+      "selected_entity": "dev_05-r009-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9d4ee35cbef752d7815f91bb44cdcb3a4109166713be7e9fc2e44c6666064c05",
+      "candidate_id": "expansion-v1-r009-chair-s2-view2",
+      "request_sha256": "c93890b9b8b136bca1843588738f9276992d2c9ea56e1ef2489faeabb48ccc79",
+      "run_id": "expansion-v1-r009-chair-s2-view2",
+      "selected_entity": "dev_05-r009-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "4a65c6e57f343186559e00508ef30cddd8c754c2bacc43a93a2853003c039405",
+      "candidate_id": "expansion-v1-r009-chair-s2-view3",
+      "request_sha256": "0e4615d8650ac91f48f82e3faa1176b5db9a2dd4f3d0de4b66e2e39b7d344549",
+      "run_id": "expansion-v1-r009-chair-s2-view3",
+      "selected_entity": "dev_05-r009-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2539fc89e4be06214b34dff3c1f6cbb2185e384fcf38250840b0538ba30bd78e",
+      "candidate_id": "expansion-v1-r009-chair-s2-view4",
+      "request_sha256": "d69c26d4f347b722df8eb5ef844f77d4ceb979bcbaabb03684d661a66a7427b9",
+      "run_id": "expansion-v1-r009-chair-s2-view4",
+      "selected_entity": "dev_05-r009-red-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c6619acbf57cb6c8e5b333c6f97125a0f6bfdc4bc620f651a50c03013fa78283",
+      "candidate_id": "expansion-v1-r009-doorway-s1-view0",
+      "request_sha256": "89e2b0c4fe79a18b2513f75ae61b4fc99205a99e8ea2082698bd0388dde9d0e6",
+      "run_id": "expansion-v1-r009-doorway-s1-view0",
+      "selected_entity": "r3geo_base_r009_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "fee3311df7770f3c79b969db3c11338457139c4df6f6a61d859b4b644d774202",
+      "candidate_id": "expansion-v1-r009-doorway-s1-view1",
+      "request_sha256": "be36f787b81a7fd04b3630f715db9efda32e086726d1e1324f31bfb820a09e55",
+      "run_id": "expansion-v1-r009-doorway-s1-view1",
+      "selected_entity": "r3geo_base_r009_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "102571dbce6a05291ecf394b0326a41dee5bf46328e22617e39a6a5f610a65e5",
+      "candidate_id": "expansion-v1-r009-doorway-s1-view2",
+      "request_sha256": "a821134de7f72ed6831871e616a533e9344f6ec6ce7382266e0ee35118187f18",
+      "run_id": "expansion-v1-r009-doorway-s1-view2",
+      "selected_entity": "r3geo_base_r009_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "718d1c848f0bc736332a79a514722680f80e02b8071d8ab2e0fca35bc2ab5e72",
+      "candidate_id": "expansion-v1-r009-doorway-s1-view3",
+      "request_sha256": "78a8f629ebb4d88a4864c638f56fd8fe8388fa0f54a158b4c727e4628ec21794",
+      "run_id": "expansion-v1-r009-doorway-s1-view3",
+      "selected_entity": "r3geo_base_r009_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a773e079454e9551f8a6fb46b5f61d4627be45d0cd09aba0df4740c42607ff27",
+      "candidate_id": "expansion-v1-r009-doorway-s1-view4",
+      "request_sha256": "90003a4749ef223158f824738a5ef518de8ff365379e0187cf359f8d2f01c485",
+      "run_id": "expansion-v1-r009-doorway-s1-view4",
+      "selected_entity": "r3geo_base_r009_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2384e5200729bd50a63ae09ce5dad4d73b48ba7ecb1509abc8360f93572be7a1",
+      "candidate_id": "expansion-v1-r009-doorway-s2-view0",
+      "request_sha256": "bcfb35167755879b9a497c77e3ae0ca52e981cc5b9529887a695feb27ce2e33e",
+      "run_id": "expansion-v1-r009-doorway-s2-view0",
+      "selected_entity": "r3geo_base_r009_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f6c385307be8059327359ba40d9c22820733aad6d68f11fbf4f1ad5efe98583f",
+      "candidate_id": "expansion-v1-r009-doorway-s2-view1",
+      "request_sha256": "99b6161f094942c4e9280f10586e05b2a3b8383f78181499f9060a1231c1f263",
+      "run_id": "expansion-v1-r009-doorway-s2-view1",
+      "selected_entity": "r3geo_base_r009_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "3802c7169d4c3826191344ab273fe717485ab50c291958010cff88b401216c5b",
+      "candidate_id": "expansion-v1-r009-doorway-s2-view2",
+      "request_sha256": "99da486608c0a7d519386a3a63e256faa06e4fb1ea4e4537a4fdd0c301ee259f",
+      "run_id": "expansion-v1-r009-doorway-s2-view2",
+      "selected_entity": "r3geo_base_r009_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c94aed3bb9a68691d90ed41dd104fe740ef0571f80cef637c6843d015496bf81",
+      "candidate_id": "expansion-v1-r009-doorway-s2-view3",
+      "request_sha256": "5f3993b4bce94ca96f6cd95596e80d68672209cb17b15a43af835d92872210ec",
+      "run_id": "expansion-v1-r009-doorway-s2-view3",
+      "selected_entity": "r3geo_base_r009_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7461ee2717f44da8eb53d9e5c7ee3315cc0e356f3d9a8206f5529c86fb2296da",
+      "candidate_id": "expansion-v1-r009-doorway-s2-view4",
+      "request_sha256": "5f8c75c64e8bf762defc51a3856e8d5acf77989a1493600e4174c5d253f6fc69",
+      "run_id": "expansion-v1-r009-doorway-s2-view4",
+      "selected_entity": "r3geo_base_r009_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2f8e46d52e1bdfd49ab028a5dbc3d74fa2efb2030fbd978fe54db02cc17f9be1",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s1-view0",
+      "request_sha256": "4a1abeace8c2826dc202320949061db29629f48098e90d61577a5c90412b82fc",
+      "run_id": "expansion-v1-r009-laboratory_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r009_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7da530d885d15477fbca11ae25c7ce54350325d99ef90bfbdd65db7798f4da0e",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s1-view1",
+      "request_sha256": "517f311a52c1c55d8359fc9c37d7b14caf23e2accebe7dbcabe5c02c333c7366",
+      "run_id": "expansion-v1-r009-laboratory_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r009_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "61eaee743a15a8c08670ee93d95a80870f3a06d17cca35b357cb9907fbfc429c",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s1-view2",
+      "request_sha256": "bb5baa6a1d3094f4e204bbdd2dc9b1c392da44de0d379042dcdc51f4a37e13b1",
+      "run_id": "expansion-v1-r009-laboratory_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r009_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "240c9b0ff093af1df61e8d9bcf3787dffad9945a2616f780f48b71f702c658e8",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s1-view3",
+      "request_sha256": "0e386ec9a2e047af4636f7c95b9c8ffcd365406b371bd51090c84538c89a3c52",
+      "run_id": "expansion-v1-r009-laboratory_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r009_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "1165ef8c10546c689844260d84b4246503fa87a4a8249cad2e50ef275d31db92",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s1-view4",
+      "request_sha256": "025d41935766bfeff9d55f155da1dc3e9c947567e87848ad5f2d5c3c07aeab26",
+      "run_id": "expansion-v1-r009-laboratory_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r009_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "267b4654e6729c3c86ff7dc71d4ac60ae84bfc12c320ea89e78f84dd5a19f1ee",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s2-view0",
+      "request_sha256": "f3be8b7d576671f810f73ab3da99d510cdf77ea74d9403eb48ba922f16522fa4",
+      "run_id": "expansion-v1-r009-laboratory_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r009_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "3eb9f7d1ca02299d2c6460a131cff75ca1dc22d30b33e7b9bfcefdb801227d06",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s2-view1",
+      "request_sha256": "dc6284dba753dd28186d06b289e1745d954d8c68d23f97d40d4ad7685f10f280",
+      "run_id": "expansion-v1-r009-laboratory_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r009_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "47f720cf5da08848faaa7d335589566162a9a199b6959274a16b73bcd5291603",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s2-view2",
+      "request_sha256": "524eb38b2d60c0a7edc51c757e8a86f577f66083f76490fc618de777b0d02b5e",
+      "run_id": "expansion-v1-r009-laboratory_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r009_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2587f40e80ce1092f67fc79552b020ecbe733e3d2adb10dbe30c4bbf4591c5fa",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s2-view3",
+      "request_sha256": "74b29f8dacdf790d7f89e486f3484055d91afd6beb592d273816c6c1c88cb8c9",
+      "run_id": "expansion-v1-r009-laboratory_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r009_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "31bee933a2d1e6b26a4d538b286d56da676d7c4f1f2a685ca314c0ba1e0895e7",
+      "candidate_id": "expansion-v1-r009-laboratory_entrance-s2-view4",
+      "request_sha256": "26e1b11844036964aeeadc64cb1b1533628249ef8de68784f6d1812681e118c1",
+      "run_id": "expansion-v1-r009-laboratory_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r009_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "a8a712871fde4375b61b3380cb1efaf562c6ee5d41c4bfb99fcf611d2c0e7c8e",
+      "candidate_id": "expansion-v1-r009-office_entrance-s1-view0",
+      "request_sha256": "54d52d8dc6919764ba484d3b9df0a10d0f444d9534f21e73dc150630c6b5e725",
+      "run_id": "expansion-v1-r009-office_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r009_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7852a5496196636ac78e15a9b198a717b7715aafb08b7740014389d3f2502acc",
+      "candidate_id": "expansion-v1-r009-office_entrance-s1-view1",
+      "request_sha256": "75efc993d38d2620b10eb8ff7bc6d8eb0ee801932c4fd360064719134f0ebff4",
+      "run_id": "expansion-v1-r009-office_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r009_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "cb6a2b479a4843eab784f378e7d7b427a99f604fef48a7d356d5d8a075e20fb8",
+      "candidate_id": "expansion-v1-r009-office_entrance-s1-view2",
+      "request_sha256": "91166f92eb3aa397787d6717fd6332e0428fad0abff6ffcb3151016f3a69ad64",
+      "run_id": "expansion-v1-r009-office_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r009_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "de556d903f05a6e82032ee1dc73658769a39cd88a9e7def51cfc8f61961d495f",
+      "candidate_id": "expansion-v1-r009-office_entrance-s1-view3",
+      "request_sha256": "da9d690c80be72942d8acc09c81e4e972dfd9f594af22384d35da50e846b8aad",
+      "run_id": "expansion-v1-r009-office_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r009_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "1a5a419ff4a802e53accfb235bca06172b54d8b8a54a74c2363e652f5bd29759",
+      "candidate_id": "expansion-v1-r009-office_entrance-s1-view4",
+      "request_sha256": "af3127f1bc0250629123d926f1c7e8295a3145f7f8db00554bc39750fac38aa6",
+      "run_id": "expansion-v1-r009-office_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r009_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "37fcb90b46f18314189852070dfb70bb9bfdc778c8e225881e6a828ea244cc49",
+      "candidate_id": "expansion-v1-r009-office_entrance-s2-view0",
+      "request_sha256": "a88605b9572715c30fc70a7432222b237ee15add2153d97f16d1ab6c42b46a98",
+      "run_id": "expansion-v1-r009-office_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r009_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d96a5b0a22e44a67149f5d3c54d72e288f92019e27fbaa8b2db99eb8fa646e9e",
+      "candidate_id": "expansion-v1-r009-office_entrance-s2-view1",
+      "request_sha256": "73bb00c45d1dcbad4dde774e94eb428885035ccf7cca5db64de5f3ae5c87d29d",
+      "run_id": "expansion-v1-r009-office_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r009_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2d30588a957df9852aeb88b77f28df77db8a934ace93ed29ab46a42707f8d9d2",
+      "candidate_id": "expansion-v1-r009-office_entrance-s2-view2",
+      "request_sha256": "bc9e416c6fd9a4c5a8ea934a88e4e44dcd3f0b2ec0ce6b1897b8a87ae2e4321c",
+      "run_id": "expansion-v1-r009-office_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r009_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "fbca4d8c20df2b6bfd360ece88aaaf79a39fbf54146fc90eb200529efa58f3e2",
+      "candidate_id": "expansion-v1-r009-office_entrance-s2-view3",
+      "request_sha256": "10149866ff22709c46a37f2c2a111c1438a9753e489fc027b5585f9db9613e63",
+      "run_id": "expansion-v1-r009-office_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r009_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "6a6561698a58575ef1188b221892419860c53b4b81d539894f14f86d37338eb9",
+      "candidate_id": "expansion-v1-r009-office_entrance-s2-view4",
+      "request_sha256": "436d0aebc3914ab1fd0db9f9965d94dc871275ffd9d4f6c5386ab26a4d6e6820",
+      "run_id": "expansion-v1-r009-office_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r009_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "8e9c94b98b28588a4e54652f0bb6abdaec518be9b686e296af33f33f5f86c585",
+      "candidate_id": "expansion-v1-r010-chair-s1-view0",
+      "request_sha256": "6ce895c04b3f7d5c0b383c355aedadc35c3e0bfe44f587982d9cc1b4b5fb9029",
+      "run_id": "expansion-v1-r010-chair-s1-view0",
+      "selected_entity": "dev_00-r010-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "32296be1a8050fbb0a318c065cd56d5c5b541535178175236806e08c2652a713",
+      "candidate_id": "expansion-v1-r010-chair-s1-view1",
+      "request_sha256": "a997fde48de762f84052f654b0fad1dc60980209ee0b784b0e9f4d2f52b0de1c",
+      "run_id": "expansion-v1-r010-chair-s1-view1",
+      "selected_entity": "dev_00-r010-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "0d8a258d20c91947858c9ae71dc7d0ce2b4e9c6edbc2bc118e52ed637264b025",
+      "candidate_id": "expansion-v1-r010-chair-s1-view2",
+      "request_sha256": "f884eb813d9d88cd265f58a8a6e144e37948436dd1200d75998bb85494e7312e",
+      "run_id": "expansion-v1-r010-chair-s1-view2",
+      "selected_entity": "dev_00-r010-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "9bba2c7cf213c2b8f409674b03de853acb223e1fbe31e80d8dcfa5c78f4f66db",
+      "candidate_id": "expansion-v1-r010-chair-s1-view3",
+      "request_sha256": "6864d78ad6fb6ada189ac4888f6d4cdd82c3c29f1bd0035aa211f205aa53e21f",
+      "run_id": "expansion-v1-r010-chair-s1-view3",
+      "selected_entity": "dev_00-r010-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "d904ae3eeef8c3ed75ab1c3256a57dfa6860bf7dff4b38422d05c0a0e618e491",
+      "candidate_id": "expansion-v1-r010-chair-s1-view4",
+      "request_sha256": "9bff75f140e68db4fb469711222b2367186e3988f5ca9233d98aec34936c0f4a",
+      "run_id": "expansion-v1-r010-chair-s1-view4",
+      "selected_entity": "dev_00-r010-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "e68660cceb083398e74f29d0198981bc3435eafbbac73c69da77c2eb4e22bbd2",
+      "candidate_id": "expansion-v1-r010-chair-s2-view0",
+      "request_sha256": "b6d4d39e6d59788fe313ce379a5502e73ced9528845a59575604f8199625e40c",
+      "run_id": "expansion-v1-r010-chair-s2-view0",
+      "selected_entity": "dev_00-r010-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "46a84dbd1513e26f49b8ed4c6c0eb083e110e4f9020ddc81a9ac7d9dfb45d68a",
+      "candidate_id": "expansion-v1-r010-chair-s2-view1",
+      "request_sha256": "20257d89b1edc5a83dddd4a3fd052d665cd206ac21c2e44ee5fab9ba7a521868",
+      "run_id": "expansion-v1-r010-chair-s2-view1",
+      "selected_entity": "dev_00-r010-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "27324ddde3fc63ec350f0efb5231a2572cb22f259b38e4f4a0ba435a69d888d3",
+      "candidate_id": "expansion-v1-r010-chair-s2-view2",
+      "request_sha256": "dd5cbc88d2a41581c7dd9d4a2bd205b0675e608ebf9d3b9166bb25e24c497426",
+      "run_id": "expansion-v1-r010-chair-s2-view2",
+      "selected_entity": "dev_00-r010-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "2e0fc5408d4d78d5c555cd28561f27b2183453dd0a61246556b1d537c6e41637",
+      "candidate_id": "expansion-v1-r010-chair-s2-view3",
+      "request_sha256": "376d7c5ad40428c835c0e8c48c16c0324165b962f821987297d30a7750989886",
+      "run_id": "expansion-v1-r010-chair-s2-view3",
+      "selected_entity": "dev_00-r010-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "ac29815b05b74127b92bea730180037f4e348bd71ec204966bf4d2265b0568b5",
+      "candidate_id": "expansion-v1-r010-chair-s2-view4",
+      "request_sha256": "975afb2b33050d4ebd53e661e0fb16b5e866f761221b9f18a0d821a13a92cdb5",
+      "run_id": "expansion-v1-r010-chair-s2-view4",
+      "selected_entity": "dev_00-r010-blue-chair",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "f37832a0c424ece5527b70251572fcc8b88467381ee0ea93a176e6dc6902c87b",
+      "candidate_id": "expansion-v1-r010-doorway-s1-view0",
+      "request_sha256": "3b961eb2a90414217045d3de464d5f7f237af4eb757fbe87d533e0bc45212d86",
+      "run_id": "expansion-v1-r010-doorway-s1-view0",
+      "selected_entity": "r3geo_base_r010_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7b55c75f5528f9125c2a37a866877628e88ee9e60ea5cca2608e00f26998ab5e",
+      "candidate_id": "expansion-v1-r010-doorway-s1-view1",
+      "request_sha256": "351fce3b1c115079c800c0517422419d9e3adc85ebce73c35d92a55fb1558b9a",
+      "run_id": "expansion-v1-r010-doorway-s1-view1",
+      "selected_entity": "r3geo_base_r010_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5d59dc3406c733136e3ab6af35781e66bd1a0dfb0a93b67ebbefdbeb5116c8a1",
+      "candidate_id": "expansion-v1-r010-doorway-s1-view2",
+      "request_sha256": "fb9ff173b11013de8ef32c2bcd82f0b9701e59658eabaf6cf6db798745c806ed",
+      "run_id": "expansion-v1-r010-doorway-s1-view2",
+      "selected_entity": "r3geo_base_r010_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b7cdc36739bccfdd910da9cbf17e442d15193b46b90d6790d2f0a0d41d0f9912",
+      "candidate_id": "expansion-v1-r010-doorway-s1-view3",
+      "request_sha256": "347260f6f7bcc6e1954d45e5b5e83618642cbb17ec6935352739543dbb5cab77",
+      "run_id": "expansion-v1-r010-doorway-s1-view3",
+      "selected_entity": "r3geo_base_r010_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "edda363fb19a8230e42c4bc0f0705663549fd084ea60270c7c9d15fd429e9953",
+      "candidate_id": "expansion-v1-r010-doorway-s1-view4",
+      "request_sha256": "4e3976a7727f1c7b9ce943d6888a2e2ce6430da808259ed78c7e79b484fdab1d",
+      "run_id": "expansion-v1-r010-doorway-s1-view4",
+      "selected_entity": "r3geo_base_r010_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "6c9453d1c147d4e91df2f8b702044572aef2662482e13b026d5d8136ee1477d4",
+      "candidate_id": "expansion-v1-r010-doorway-s2-view0",
+      "request_sha256": "2e52d1cad870382320185c32ef0a21bf5ff5f0c2b852bbf7e262a8a9b2f87ce0",
+      "run_id": "expansion-v1-r010-doorway-s2-view0",
+      "selected_entity": "r3geo_base_r010_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "11354e6df95a885dfa164590fabecfd5765ee83ed16a6e20a32e8684cd4f6bf4",
+      "candidate_id": "expansion-v1-r010-doorway-s2-view1",
+      "request_sha256": "06ff3763045e9af07c3485aa7fc0db7e6d8b45fbbcb585a14e52e24fb56e178d",
+      "run_id": "expansion-v1-r010-doorway-s2-view1",
+      "selected_entity": "r3geo_base_r010_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "55bbe55cc5d8fc0cf10a9a8a84664e67bd11b7e13ed26cd5f127c2cd213f3f63",
+      "candidate_id": "expansion-v1-r010-doorway-s2-view2",
+      "request_sha256": "dc09fd5bf45865fb5df8a69859d474f83e9f3294620061e37ad797eb5e8e524e",
+      "run_id": "expansion-v1-r010-doorway-s2-view2",
+      "selected_entity": "r3geo_base_r010_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "00ba581fb26bdeb86bb8c25a8e074683bcd95c23f6c2f06e5fd32050acdc8b6e",
+      "candidate_id": "expansion-v1-r010-doorway-s2-view3",
+      "request_sha256": "22695a0e35bbbd1f344e70508b1779bc589ddc8fb364354e7ca160abc434514a",
+      "run_id": "expansion-v1-r010-doorway-s2-view3",
+      "selected_entity": "r3geo_base_r010_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "294fbaf39e0c9563096c4c8672ce4c805fbe65a91acbab48077ab3fb292c6240",
+      "candidate_id": "expansion-v1-r010-doorway-s2-view4",
+      "request_sha256": "9c75e069f209120dda287ebe3f288db48af13deb61f68ef1550b14fcc95dd29c",
+      "run_id": "expansion-v1-r010-doorway-s2-view4",
+      "selected_entity": "r3geo_base_r010_left_2_doorway",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "99ddfd9ab8e806228c9fcfa4ad2b9fa658cc74853c00bbe24d9df96e2bce20a0",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s1-view0",
+      "request_sha256": "19e2fc3d53574b2cf0fb5b1449bc660c038f9ee0277fee04db2068bdd97ad608",
+      "run_id": "expansion-v1-r010-laboratory_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r010_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "1e961bbbeb8352c1a47a1bd7ae8a543e625b2ea39701a28d8998dae1f35d3e8d",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s1-view1",
+      "request_sha256": "953980643f0d08d11d17bb8346cef1e8e5f740960fe38e6e5c90c36f6a3e9166",
+      "run_id": "expansion-v1-r010-laboratory_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r010_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "de1470901136e3360efde46474da9d585d0b159fdbeaa984fb235cd737378b2f",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s1-view2",
+      "request_sha256": "4c96faaa4d0637f8332d7ea25345c714af5b1792493f3d71f562998933449038",
+      "run_id": "expansion-v1-r010-laboratory_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r010_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "70e51052b1d1773bc3d33d65fe2dae4ead39a841b190f14c39694a09ba1e25b8",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s1-view3",
+      "request_sha256": "ab1578ec6d6f1a7ae1beff0f9646feaa74f49bd0ab936af4cdacd0a47b583ce2",
+      "run_id": "expansion-v1-r010-laboratory_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r010_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b4aeef24dbe8137850745c0f9f79bca6153e5df1bb3b4dcd8083b2d25f1409ca",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s1-view4",
+      "request_sha256": "80f8c1e40d2e10505d6392c2a29fd3642046ddfc1516a2702682c2ece6095175",
+      "run_id": "expansion-v1-r010-laboratory_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r010_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "32e9b877d1f0cc5938f68d991c5cfd7be68e34eac1d8c6604881b3fe2111db4d",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s2-view0",
+      "request_sha256": "d46d5c41b5ddf7ba8db910c55fd4801ae56d2a0ff51a8ce137426791f30929ce",
+      "run_id": "expansion-v1-r010-laboratory_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r010_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "3ba385de244e315696728e6369aba68d8d8a5cdb1492ebe9865edce3b52f63cd",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s2-view1",
+      "request_sha256": "386ec6832232669c2934a3e5f1e3a4f2578337ee487d1729683718694e7deb3d",
+      "run_id": "expansion-v1-r010-laboratory_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r010_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b9baa4fc271df35175f972da57079968ba4e9e0e068305babda7b0067fc143f0",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s2-view2",
+      "request_sha256": "315b29c4cd26c2ec59631797ddce56222de1f0856aa5cdc94619fcf5b835d9c9",
+      "run_id": "expansion-v1-r010-laboratory_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r010_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "81dc01905131fa01d4ea4a532cda5dae29a21d23155c3db8e87e5e04630bc45e",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s2-view3",
+      "request_sha256": "8a039a5b6d8c5a3e8109224f383b37e953a821f98c5ef3fe6ab2e04f7596c50c",
+      "run_id": "expansion-v1-r010-laboratory_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r010_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "78b6fcf1a8225b094ac389dccbc7c6d88fb279d38e1ed21c89d198997b5ed861",
+      "candidate_id": "expansion-v1-r010-laboratory_entrance-s2-view4",
+      "request_sha256": "149a91c156ffd42bd4979a4766765b7751416ea1c2d30c090a5aab4f04dc683c",
+      "run_id": "expansion-v1-r010-laboratory_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r010_left_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "85304168a3e6f78475e649119584d8614d13043a3d0ab440f609b9c66adcaf97",
+      "candidate_id": "expansion-v1-r010-office_entrance-s1-view0",
+      "request_sha256": "0411e1f5b181305b5c4cd6dde402e77c07a996014fbe63a4a5820d99a49e7f32",
+      "run_id": "expansion-v1-r010-office_entrance-s1-view0",
+      "selected_entity": "r3geo_base_r010_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5a269a4bdf50ccd8e1526643b7fbaea9a2659220e4a0d68c234df3ebf3ca660c",
+      "candidate_id": "expansion-v1-r010-office_entrance-s1-view1",
+      "request_sha256": "91411d9f863092edd4c433fd1e0166d1965bb23d58f85508093d8feaf7a8b850",
+      "run_id": "expansion-v1-r010-office_entrance-s1-view1",
+      "selected_entity": "r3geo_base_r010_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "5ce0924fb8b0db7e3b8440ebdfb074e623e767a051b47fcdc5fed81e6ac43668",
+      "candidate_id": "expansion-v1-r010-office_entrance-s1-view2",
+      "request_sha256": "9c15e35cc4a1679a715ae81ff7ac580abc9c02b63d7bc61fd47e6608efc3888d",
+      "run_id": "expansion-v1-r010-office_entrance-s1-view2",
+      "selected_entity": "r3geo_base_r010_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "398117eadb1069a6c9786333ba5a5d511e56b991633f93c0a9829c6b1d1ce197",
+      "candidate_id": "expansion-v1-r010-office_entrance-s1-view3",
+      "request_sha256": "ecf5fb9be5812944465d2a48bf002d4a37e7c64ccb397743c9ff7e36225837e1",
+      "run_id": "expansion-v1-r010-office_entrance-s1-view3",
+      "selected_entity": "r3geo_base_r010_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "6836f90367f9f6b4f297c2fbe03ccce9e66dfad5cf47843f810c2d9768ba27ee",
+      "candidate_id": "expansion-v1-r010-office_entrance-s1-view4",
+      "request_sha256": "5dbe1a3da00e8354251c413c44ba1347112b5b1825c8054c1e992e3588b988c8",
+      "run_id": "expansion-v1-r010-office_entrance-s1-view4",
+      "selected_entity": "r3geo_base_r010_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "b7c9205869328f3af9bb084cb93e51d261176d5a614dc255efbec66b6e0eca4d",
+      "candidate_id": "expansion-v1-r010-office_entrance-s2-view0",
+      "request_sha256": "d093f72ffa4e965de200f2a0061314fdb5a3671e7c11331717c20b403ed9e76e",
+      "run_id": "expansion-v1-r010-office_entrance-s2-view0",
+      "selected_entity": "r3geo_base_r010_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "80bc01b0695f4f9239f1cc2486c7b3b36e5b87f3aba18ae8993a95f52c7e07c4",
+      "candidate_id": "expansion-v1-r010-office_entrance-s2-view1",
+      "request_sha256": "226cd9c93891907e89117f0a26c76a8dfc617f3c9c4c506b02972ffeb59376f1",
+      "run_id": "expansion-v1-r010-office_entrance-s2-view1",
+      "selected_entity": "r3geo_base_r010_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "7507739efa38c30bade8dd19427bba7e08b7f861d83e8703d9542f18ab31e303",
+      "candidate_id": "expansion-v1-r010-office_entrance-s2-view2",
+      "request_sha256": "8974c3609c7392d6c63e8c404add38f32b668219eaa7c3188da361d8dca6f378",
+      "run_id": "expansion-v1-r010-office_entrance-s2-view2",
+      "selected_entity": "r3geo_base_r010_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "c8cbb9380372eba7f5254d679d9a83acf921ab6aa4c08b891a8bdf419bc7ed27",
+      "candidate_id": "expansion-v1-r010-office_entrance-s2-view3",
+      "request_sha256": "69aefacdfdc89399add421521e52006b5e251d0096fdda799757eeaa0c7a4381",
+      "run_id": "expansion-v1-r010-office_entrance-s2-view3",
+      "selected_entity": "r3geo_base_r010_right_2_entrance",
+      "status": "emitted"
+    },
+    {
+      "attempt_sha256": "87b8d90447f2d3170535560b13f23816304438ffb484ee0df2a400d551bc80f1",
+      "candidate_id": "expansion-v1-r010-office_entrance-s2-view4",
+      "request_sha256": "ab64c1588b934f654120856d6919140a5af4690e09e25810169546fcd52c0625",
+      "run_id": "expansion-v1-r010-office_entrance-s2-view4",
+      "selected_entity": "r3geo_base_r010_right_2_entrance",
+      "status": "emitted"
+    }
+  ],
+  "attempts_including_retries": 412,
+  "calibration_fitted": false,
+  "complete": true,
+  "execution_scope": "nonprotected_expansion_collection",
+  "human_labels_generated": false,
+  "launch_rejections": [
+    {
+      "reasons": [
+        "no attempt or failure record"
+      ],
+      "run_id": "expansion-v1-r001-chair-s2-view2-retry1",
+      "started_at_utc": "2026-09-12T11:26:29.254747+00:00"
+    }
+  ],
+  "partition": "development",
+  "plan_sha256": "d03ae270b491d21ee678a8349c4ff6e3f64772d3e70f09f577cbdc6166c2df7c",
+  "retries": [
+    {
+      "candidate_id": "expansion-v1-r001-chair-s1-view2",
+      "reasons": [
+        "transform_invalid"
+      ],
+      "run_id": "expansion-v1-r001-chair-s1-view2"
+    },
+    {
+      "candidate_id": "expansion-v1-r001-chair-s1-view3",
+      "reasons": [
+        "observation_window_incomplete",
+        "provider_frame_completion_invalid"
+      ],
+      "run_id": "expansion-v1-r001-chair-s1-view3"
+    },
+    {
+      "candidate_id": "expansion-v1-r001-chair-s2-view0",
+      "reasons": [
+        "transform_invalid"
+      ],
+      "run_id": "expansion-v1-r001-chair-s2-view0"
+    },
+    {
+      "candidate_id": "expansion-v1-r001-chair-s2-view1",
+      "reasons": [
+        "instrumentation changed"
+      ],
+      "run_id": "expansion-v1-r001-chair-s2-view1"
+    },
+    {
+      "candidate_id": "expansion-v1-r001-chair-s2-view3",
+      "reasons": [
+        "provider_frame_completion_invalid"
+      ],
+      "run_id": "expansion-v1-r001-chair-s2-view3"
+    },
+    {
+      "candidate_id": "expansion-v1-r001-doorway-s1-view0",
+      "reasons": [
+        "provider_frame_completion_invalid"
+      ],
+      "run_id": "expansion-v1-r001-doorway-s1-view0"
+    },
+    {
+      "candidate_id": "expansion-v1-r001-doorway-s1-view1",
+      "reasons": [
+        "provider_frame_completion_invalid"
+      ],
+      "run_id": "expansion-v1-r001-doorway-s1-view1"
+    },
+    {
+      "candidate_id": "expansion-v1-r001-doorway-s1-view2",
+      "reasons": [
+        "provider_frame_completion_invalid"
+      ],
+      "run_id": "expansion-v1-r001-doorway-s1-view2"
+    },
+    {
+      "candidate_id": "expansion-v1-r006-laboratory_entrance-s2-view2",
+      "reasons": [
+        "  FAIL /clock                        0.0 Hz (>= 10.0, n=0)\n  FAIL /ground_truth_pose            0.0 Hz (>= 4.0, n=0)\n  FAIL /imu                          0.0 Hz (>= 20.0, n=0)\n  FAIL /odom                         0.0 Hz (>= 10.0, n=0)\n  FAIL /scan                         0.0 Hz (>= 4.0, n=0)"
+      ],
+      "run_id": "expansion-v1-r006-laboratory_entrance-s2-view2"
+    },
+    {
+      "candidate_id": "expansion-v1-r008-doorway-s2-view3",
+      "reasons": [
+        "[Errno 3] No such process"
+      ],
+      "run_id": "expansion-v1-r008-doorway-s2-view3"
+    }
+  ],
+  "retryable_reasons": [
+    "transform_invalid"
+  ],
+  "scheduled": 400,
+  "schema_version": "research3-expansion-collection-report/v1",
+  "snapshot_changes": [
+    {
+      "at_utc": "2026-09-14T07:24:51.518209+00:00",
+      "new_path": "/home/eao/lusn-robot-navigation/reports/expansion_instrumentation_snapshot_20260912_v6/snapshot.json",
+      "new_sha256": "fb131490034fc183141a77d04a76000f3ae1579d19c1598960e0b50235d31dc0",
+      "previous_sha256": "17f359d3319ea43ca01f1a0a16a86dc2adb3832fa6a385a8cc092bc60030839b",
+      "reason": "v6: bounded exact-stamp transform waits in collector and wrapper after transform races caused infrastructure failures under v4"
+    },
+    {
+      "at_utc": "2026-09-14T07:27:17.930105+00:00",
+      "new_path": "/home/eao/lusn-robot-navigation/reports/expansion_instrumentation_snapshot_20260912_v6/snapshot.json",
+      "new_sha256": "fb131490034fc183141a77d04a76000f3ae1579d19c1598960e0b50235d31dc0",
+      "previous_sha256": "17f359d3319ea43ca01f1a0a16a86dc2adb3832fa6a385a8cc092bc60030839b",
+      "reason": "v6: bounded exact-stamp transform waits in collector and wrapper after transform races caused infrastructure failures under v4"
+    },
+    {
+      "at_utc": "2026-09-14T07:32:03.314165+00:00",
+      "new_path": "/home/eao/lusn-robot-navigation/reports/expansion_instrumentation_snapshot_20260914_v7/snapshot.json",
+      "new_sha256": "1e727ad75f0cd093d9422e26d23484506f2050895033cfc390f962c8e09dd496",
+      "previous_sha256": "17f359d3319ea43ca01f1a0a16a86dc2adb3832fa6a385a8cc092bc60030839b",
+      "reason": "v7: provider transform-readiness file gates arming; provider-failed frames are retryable; after v4/v6 transform races"
+    },
+    {
+      "at_utc": "2026-09-14T07:41:25.023287+00:00",
+      "new_path": "/home/eao/lusn-robot-navigation/reports/expansion_instrumentation_snapshot_20260914_v7/snapshot.json",
+      "new_sha256": "1e727ad75f0cd093d9422e26d23484506f2050895033cfc390f962c8e09dd496",
+      "previous_sha256": "17f359d3319ea43ca01f1a0a16a86dc2adb3832fa6a385a8cc092bc60030839b",
+      "reason": "v7: provider transform-readiness file gates arming; provider-failed frames are retryable; after v4/v6 transform races"
+    },
+    {
+      "at_utc": "2026-09-14T10:14:49.256920+00:00",
+      "new_path": "/home/eao/lusn-robot-navigation/reports/expansion_instrumentation_snapshot_20260914_v7/snapshot.json",
+      "new_sha256": "1e727ad75f0cd093d9422e26d23484506f2050895033cfc390f962c8e09dd496",
+      "previous_sha256": "17f359d3319ea43ca01f1a0a16a86dc2adb3832fa6a385a8cc092bc60030839b",
+      "reason": "v7: provider transform-readiness file gates arming; provider-failed frames are retryable; after v4/v6 transform races"
+    },
+    {
+      "at_utc": "2026-09-14T10:15:14.280937+00:00",
+      "new_path": "/home/eao/lusn-robot-navigation/reports/expansion_instrumentation_snapshot_20260914_v7/snapshot.json",
+      "new_sha256": "1e727ad75f0cd093d9422e26d23484506f2050895033cfc390f962c8e09dd496",
+      "previous_sha256": "17f359d3319ea43ca01f1a0a16a86dc2adb3832fa6a385a8cc092bc60030839b",
+      "reason": "v7: provider transform-readiness file gates arming; provider-failed frames are retryable; after v4/v6 transform races"
+    }
+  ],
+  "snapshot_sha256": "1e727ad75f0cd093d9422e26d23484506f2050895033cfc390f962c8e09dd496",
+  "status_counts": {
+    "ambiguous_emissions": 0,
+    "emitted": 399,
+    "infrastructure_failure": 1,
+    "nondetection": 0
+  },
+  "written_at_utc": "2026-09-14T10:15:14.314400+00:00"
+}

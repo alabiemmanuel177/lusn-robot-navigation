@@ -1,0 +1,17 @@
+{
+  "schema_version": "research3-user-followup-authorization/v1",
+  "user_statement": "Yes ai authorise every and anything you suggest that is necessary for thi sresearch",
+  "recorded_date": "2026-09-23",
+  "timestamp_note": "Conversation authorization recorded by the agent; not a reviewer-supplied timestamp or signature.",
+  "scope": [
+    "Recommended separately versioned R3-only observation-method redesign preparation and development feasibility",
+    "Publish research3_method_decision_20260923_v1.zip and research3_offline_candidates_20260923_v1.zip to the existing private alabiemmanuel177/lusn-robot-navigation repository"
+  ],
+  "preserve_research_1_and_2": true,
+  "preserve_frozen_baseline": true,
+  "human_observation_labels_supplied": false,
+  "unseen_model_or_results_approved": false,
+  "validation_key_release_granted": false,
+  "protected_campaign_gate_waived": false,
+  "narrow_descriptive_completion_selected": false
+}

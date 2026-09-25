@@ -20,6 +20,21 @@ QA_CHECKS = ('full_frame_visible', 'context_sufficient',
              'pixel_marker_verified', 'identity_decidable')
 
 
+def valid_visual_check(qa, *, design_only=False):
+    if (not isinstance(qa.get('attested_by'), str) or not qa['attested_by'].strip()
+            or qa.get('correct') is not None):
+        return False
+    if qa.get('schema_version') == 'research3-machine-visual-qa/v1':
+        return all(qa.get(name) is True for name in QA_CHECKS)
+    # This additive path is restricted to the explicit new design pilot. Render
+    # integrity is enough to present evidence, not to assert human decidability.
+    return (design_only and qa.get('schema_version') == 'research3-render-integrity-qa/v1'
+            and all(qa.get(name) is True for name in ('full_frame_visible', 'pixel_inside_frame', 'frame_integrity_verified'))
+            and qa.get('identity_decidable') is None and qa.get('context_sufficient') is None
+            and qa.get('human_reviewability_established') is False
+            and qa.get('human_labels_generated') is False)
+
+
 def task_digest(task):
     """Canonical per-task binding, separate from the exact source file digest."""
     return hashlib.sha256(json.dumps(task, sort_keys=True, separators=(',', ':'),
@@ -130,10 +145,10 @@ def consolidate(directories, qa_rows=(), *, required_maps=DEFAULT_MAPS,
                     reasons.append('duplicate_visual_qa')
                 elif any(qa.get(name) != value for name, value in binding.items()):
                     reasons.append('stale_or_mismatched_visual_qa')
-                elif (qa.get('schema_version') != 'research3-machine-visual-qa/v1'
-                      or not isinstance(qa.get('attested_by'), str) or not qa['attested_by'].strip()
-                      or qa.get('correct') is not None
-                      or any(qa.get(name) is not True for name in QA_CHECKS)):
+                elif not valid_visual_check(qa, design_only=bool(
+                        sampling_policy and sampling_policy['policy_id'] == 'class-aware-design-all-emissions-v1'
+                        and run_id.startswith('r3-ca-v1-') and expected_partition == 'development'
+                        and request.get('distance_lighting_pilot'))):
                     reasons.append('invalid_or_failed_visual_qa')
                 else:
                     qa_valid = True

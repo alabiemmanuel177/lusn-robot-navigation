@@ -1,0 +1,20 @@
+{
+  "calibration_eligible": false,
+  "hypotheses": 243,
+  "identity_accuracy_verified": false,
+  "independent_association_arithmetic_passed": true,
+  "input_sha256": {
+    "/home/eao/lusn-robot-navigation/reports/four_class_broad_integration_20260924_v2/plan.json": "1fbf35579d7f456c6edf32a841af4d7839ec4b4f6a541aca547c44c48c2a9eaf",
+    "/home/eao/lusn-robot-navigation/reports/four_class_broad_integration_20260924_v2/results.json": "28753f100ae1de918cfc7c02fb5f97a5dd8f79affdeb1b7480602b7b487694ad",
+    "/home/eao/lusn-robot-navigation/scripts/audit_four_class_readiness.py": "a7b8014bc0dbfeabed9d9ab0c69fe284e6ce29f86cde1df46142c1ae6d3ad4c0",
+    "/home/eao/lusn-robot-navigation/scripts/four_class_candidate_runtime.py": "9083b4952e7e17742a64d374e9ab54804b1cdea753777d1967f22a0db236c831"
+  },
+  "maximum_in_radius_distance_m": 0.2580622040968576,
+  "replayed_frames": 80,
+  "runtime_replay_passed": true,
+  "same_frame_two_distinct_in_radius_instances": {},
+  "source_pins_unchanged": true,
+  "status_counts": {
+    "completed": 80
+  }
+}

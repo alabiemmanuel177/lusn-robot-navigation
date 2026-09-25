@@ -1,0 +1,34 @@
+{
+  "approvals_generated": false,
+  "blockers": [
+    "missing_input:calibration",
+    "missing_input:calibration_validation",
+    "missing_input:design",
+    "missing_input:design_approval",
+    "missing_input:schedule",
+    "missing_input:outcomes",
+    "missing_input:heldout_authorization",
+    "missing_input:heldout_report",
+    "missing_input:inference",
+    "missing_input:inventory",
+    "nonprotected_schedule_not_verified_before:outcomes",
+    "nonprotected_schedule_not_verified_before:inference",
+    "calibration:'calibration_validation'",
+    "design:'design'",
+    "comparative_outcomes:'schedule'",
+    "inference:'inference'",
+    "protected_report_access_not_enabled"
+  ],
+  "byte_integrity_passed": false,
+  "human_labels_generated": false,
+  "inference_generated": false,
+  "limitations": [
+    "Machine checks attestations and consistency, not human identity authenticity or scientific validity of the approved method.",
+    "Engineering captures, graph-only outcomes and archive checksums alone do not satisfy scientific completion."
+  ],
+  "protected_report_read": false,
+  "schema_version": "research3-scientific-release-readiness/v1",
+  "scientific_release_complete": false,
+  "status": "blocked",
+  "verified_inputs": {}
+}
