@@ -27,16 +27,23 @@ Core scientific & engineering findings:
    Unchanged collection waves cannot overcome this upstream threshold.
    Audit: `reports/hybrid_score_candidate_20260925_v1/ocr_support_audit.json`.
 2. Clean-view saturation in Wave S:
-   Grounding DINO and RapidOCR achieved 100% precision on chairs and signage across
-   261 views evaluated by human review (99 chair, 84 laboratory entrance, 78 office
-   entrance; 0 incorrect). Geometric localization error was strictly isolated to
-   doorway portal void penetration (20 correct, 6 incorrect out of 26 doorway emissions),
-   where depth rays traverse the open portal void rather than striking jamb boundaries.
+   Human review found 261/261 jointly correct emitted chair/entrance observations
+   (99 chair, 84 laboratory entrance, 78 office entrance; 0 incorrect). This is
+   observed sample precision, not population certainty, recall or independent-view
+   generalization. The 26 doorway emissions had 20 correct and 6 reference-point
+   errors; category and instance judgments were correct in those six cases.
+   Portal-void penetration is a proposed mechanism, not independently established
+   as the cause of all six errors by these labels.
    Zero negative samples for three classes prevented four-class logistic fitting under
    the pre-registered outcome floor (>= 5 incorrect per class).
 
 All dangling lock files and background tasks have been cleaned up. Research 3 is
 terminated and archived.
+
+Final authoritative archive: `reports/research3_final_closure_20260926_v2.zip`.
+Version 2 supersedes version 1's overly strong causal/precision wording. The
+original failed calibration gates remain failed; B03/B09 are administratively
+resolved by the expressly authorized scope change, not by passing those gates.
 
 ## Latest — exact hybrid candidate frozen; OCR support impossibility verified, 25 September 2026
 

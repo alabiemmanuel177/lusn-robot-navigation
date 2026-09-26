@@ -12,11 +12,11 @@ Closure determinations:
   The structural OCR support limitation (frozen RapidOCR `text_score >= 0.5`
   mathematically truncates input support to $[0.5, 1.0]$, preventing three-bin
   $[0, 0.5)$ calibration for entrance classes) and the Wave S clean-view saturation
-  finding (Grounding DINO and RapidOCR achieve 100% precision across 261 views, with
-  geometric error isolated to doorway portal void penetration: 20 correct, 6 incorrect)
-  have been mathematically proved and empirically documented. The research question is
-  definitively answered for this perception architecture. No further unviable collection
-  waves will be scheduled or launched.
+  finding (261/261 reviewed chair/entrance emissions jointly correct; doorways
+  20 correct and 6 reference-point incorrect) are documented. The support mismatch
+  is proved; universal precision and portal-void causation are not. B03 is resolved
+  by the authorized scope change, not a successful calibration gate. The original
+  downstream navigation-benefit question remains unanswered. No more waves will run.
 - **B09 is RESOLVED (final research closure deliverable)**:
   Research 3 is formally concluded. The frozen hybrid candidate
   (`reports/hybrid_score_candidate_20260925_v1/candidate.json`) is retained as an
@@ -195,4 +195,3 @@ Research 3 is formally completed and terminated under the descriptive and
 exploratory feasibility deliverable authorized by Emmanuel Alabi Olasubomi on
 26 September 2026. All blockers are closed, audit reports packaged, and dangling
 locks/tasks cleared. No runtime calibration is deployed.
-

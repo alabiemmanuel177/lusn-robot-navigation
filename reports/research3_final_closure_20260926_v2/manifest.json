@@ -1,0 +1,175 @@
+{
+  "entrypoint": "docs/RESEARCH3_RESULTS.md",
+  "files": [
+    {
+      "bytes": 5424,
+      "path": "docs/AMENDMENT_WAVE_S_SATURATED_CLASSES_20260924.md",
+      "sha256": "1e90329362471366441588e591ad81a7141bbf40bdc7a13d6a6eb37c05fbe581"
+    },
+    {
+      "bytes": 3415,
+      "path": "docs/HYBRID_SCORE_SUPPORT_BLOCKER_20260925.md",
+      "sha256": "a7d599247bdd22a45d3c6f2f5e8f11d46866ad29f51b08d7402d3864e3070de1"
+    },
+    {
+      "bytes": 14435,
+      "path": "docs/RESEARCH3_BLOCKER_LEDGER_20260922.md",
+      "sha256": "9babe6ce08f64ebdf1d12421c8f9a00e5654fbbce7968462a0ac9648af86f972"
+    },
+    {
+      "bytes": 11340,
+      "path": "docs/RESEARCH3_RESULTS.md",
+      "sha256": "a23d7e65df627a9f4ead83e8933d5478f45ba68cf0dc02848040e85d012c76a5"
+    },
+    {
+      "bytes": 89978,
+      "path": "docs/STATUS.md",
+      "sha256": "7bada618a7166562b930ebdf468c0b29873ce33be3f4cebfc3581fb43d1efec4"
+    },
+    {
+      "bytes": 41896,
+      "path": "reports/hybrid_score_candidate_20260925_v1/candidate.json",
+      "sha256": "b9de70b9c8a829d3177bc4b709fc4e53966f9e5df8e75b3d2c8882730a559b45"
+    },
+    {
+      "bytes": 2000,
+      "path": "reports/hybrid_score_candidate_20260925_v1/ocr_support_audit.json",
+      "sha256": "7d712ff84d82d48099d22da62e61a1ab6b78d4d9e1b5c69ebedb878036d0da42"
+    },
+    {
+      "bytes": 148963,
+      "path": "reports/hybrid_score_candidate_20260925_v1/wave_s_replay_audit.json",
+      "sha256": "54b6deaf080ac8b8b8aa48372a9106d25f306eaa1b649e609fef52ac821dd292"
+    },
+    {
+      "bytes": 9231,
+      "path": "reports/joint_score_protocol_20260924_v1/review_decision_CONVERSATION_FINAL.json",
+      "sha256": "d5b27015888531fcb528f72efbf0d749761443497f1112f04d83c0b38e160cf1"
+    },
+    {
+      "bytes": 628569,
+      "path": "reports/joint_score_protocol_20260924_v1/schedule.json",
+      "sha256": "1fb142087cc38822f8d74769cd92c1a5cd0bbd89effbdf8c55c729eadf410c96"
+    },
+    {
+      "bytes": 93885,
+      "path": "reports/joint_score_wave_s_assets_20260924_v3/static_clearance_audit.json",
+      "sha256": "fe7986ccd574f283ca6fe32e95a0d1c86866a133b6fd7213ec30ba66e244bad6"
+    },
+    {
+      "bytes": 1024,
+      "path": "reports/joint_score_wave_s_execution_20260924_v1/execution_approval.json",
+      "sha256": "f34093fe5dd0b2c2098bdf78b1586431c77562ab99854a860b5df50972e69bb9"
+    },
+    {
+      "bytes": 48089,
+      "path": "reports/joint_score_wave_s_execution_20260924_v1/execution_manifest.json",
+      "sha256": "fb3453168633c0cee87447b47dd7b1a42909cc0bb38801d1f9608ba05f297c4e"
+    },
+    {
+      "bytes": 2325,
+      "path": "reports/joint_score_wave_s_gazebo_preflight_20260924_v2/capture_audit.json",
+      "sha256": "04f530d825a19cebe41949aaf6099b9adeffb80e5d4ebf6e498d0a639ade66aa"
+    },
+    {
+      "bytes": 875,
+      "path": "reports/joint_score_wave_s_primary_inference_20260924_v1/detector/audit.json",
+      "sha256": "75609d0387f08774d67eeee094936808ef3f1fce3804a855e243fb0cd5cd8fd6"
+    },
+    {
+      "bytes": 397,
+      "path": "reports/joint_score_wave_s_primary_inference_20260924_v1/detector/report.json",
+      "sha256": "eca7c7af807c00b89d683d44428a1dfd19f8fd3154b5d72ddd6fe554bf89b1e4"
+    },
+    {
+      "bytes": 2957248,
+      "path": "reports/joint_score_wave_s_primary_inference_20260924_v1/evidence.json",
+      "sha256": "f75cef6883e16a02137f21c33cbcdd44b6683abd5a6a4beb8ae6d9f08cf46f71"
+    },
+    {
+      "bytes": 332,
+      "path": "reports/joint_score_wave_s_primary_inference_20260924_v1/ocr/report.json",
+      "sha256": "f7f302cc20898572e843f1eedc3734db457c10e52e68c66da07e3474d0aafb06"
+    },
+    {
+      "bytes": 256,
+      "path": "reports/joint_score_wave_s_supervisor_20260924_v1/complete.json",
+      "sha256": "04e7d068d2df8655c464f715a0772aaee46fe2558295d3f02c7537c3152357d5"
+    },
+    {
+      "bytes": 3056,
+      "path": "reports/research3_closure_authority_20260926.json",
+      "sha256": "85e709a1555aa55ff48d610902d67a576804d13a26153cb355d1f7b8531d4b3e"
+    },
+    {
+      "bytes": 1154,
+      "path": "reports/research3_closure_interpretation_20260926.json",
+      "sha256": "ab66dc17f02a6f0b328710362f059d36367e08f843a25becfc318d1b7f8f2490"
+    },
+    {
+      "bytes": 181487,
+      "path": "reports/research3_closure_regression_20260926.xml",
+      "sha256": "0b5a99e99232f70cdd9d1f801d7a9454037077859bf5dd814e34cd06d4dc2c18"
+    },
+    {
+      "bytes": 8459,
+      "path": "reports/review_decision.json",
+      "sha256": "b3f5b5c4644bc70ddbc8120d44828e9f63638891e51119b8e613766a3d38cd18"
+    },
+    {
+      "bytes": 120393,
+      "path": "reports/wave-s-review-return.json",
+      "sha256": "2277fd0fb84720ac3a6453ca8d4bcf14b86ea13c90d9b28150ec10b081209dcc"
+    },
+    {
+      "bytes": 41890,
+      "path": "reports/wave_s_doorway_amendment_candidate_20260924_v1.json",
+      "sha256": "26ff0cd6449b49cbacbd471979d97b48ad0abce6043c97ccdbea8753386173d4"
+    },
+    {
+      "bytes": 1823,
+      "path": "reports/wave_s_review_receipt_20260924_v1.json",
+      "sha256": "a668afd01f7b4cb2bc2d64fde85681c7f66f98511a068bc982a227e4272ce68e"
+    },
+    {
+      "bytes": 1394,
+      "path": "reports/wave_s_saturation_amendment_authority_20260924.json",
+      "sha256": "73c7d96b4e278e611fe9da067faeabb7348dd51209313013b2cd777167f5f5e9"
+    },
+    {
+      "bytes": 2525,
+      "path": "scripts/audit_hybrid_ocr_support.py",
+      "sha256": "445d765cf52afd0475a414dc8582b17391f08d3d6a56f082fb20cfe9b1f2bd0e"
+    },
+    {
+      "bytes": 3633,
+      "path": "scripts/fit_wave_s_doorway_amendment.py",
+      "sha256": "43335216d4320876e3c5f2a06ad340ab74954f4cde0efcabc95197c1657742e4"
+    },
+    {
+      "bytes": 1365,
+      "path": "scripts/hybrid_score_candidate.py",
+      "sha256": "b78489e0a7c70da7a9fc867b7a2fe181badd7961ee04a6654c8a6e46fea74427"
+    },
+    {
+      "bytes": 5868,
+      "path": "scripts/package_research3_closure.py",
+      "sha256": "bd4ae6d28f2ee7d6ca4d886a6f65fa7fa7c79f27774fbe2bd1dfe5afd523e333"
+    },
+    {
+      "bytes": 3356,
+      "path": "scripts/package_research3_final_v2.py",
+      "sha256": "45a5997b612aa8bf6c0278dd2dfa38190309ec7889c7afbc307006e4c1d040ce"
+    },
+    {
+      "bytes": 1181,
+      "path": "tests/test_hybrid_score_candidate.py",
+      "sha256": "da70e086f887729774cc9b0bbf1bba27552784321f383c96093171b0521154d4"
+    }
+  ],
+  "runtime_calibration_validated": false,
+  "schema_version": "research3-descriptive-final-archive/v2",
+  "scope": "Final reports, human return, full Wave S evidence ledger, key audit and authority records. Raw binary captures/model dependencies remain in the original workspace, referenced by hashes; this is not a self-contained simulator distribution.",
+  "status": "closed_descriptive_exploratory",
+  "wave_c_v_cancelled": true
+}

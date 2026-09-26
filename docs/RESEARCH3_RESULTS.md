@@ -34,7 +34,7 @@ low-confidence bins under frozen upstream OCR filtering:
 - **Localizer Propagation**: The entrance localizer copies the retained text score
   directly to `raw_score` without transformation.
 - **Pass-through Score Support**: Under identity pass-through, entrance input scores
-  are mathematically truncated to the half-open interval $[0.5, 1.0]$.
+  are mathematically truncated to the closed interval $[0.5, 1.0]$.
 - **Coverage v2 Incompatibility**: Pre-registered Coverage v2 admission requires at
   least 5 scoreable emissions in the $[0, 0.5)$ bin for each class. For both
   `laboratory_entrance` and `office_entrance`, the maximum attainable emissions in
@@ -55,17 +55,22 @@ development environments (`r3geo_base_r001` through `r010`):
   physical instance identity, and planar reference localization ($\le 0.35\text{ m}$):
   281 correct, 6 incorrect, 0 unreviewable
   (`reports/wave_s_review_receipt_20260924_v1.json`).
-- **Clean-View Precision Saturation**: Grounding DINO and RapidOCR achieved **100% precision**
-  across all 261 views of chairs and signage:
+- **Observed Clean-View Result**: Human review found **261/261 jointly correct
+  emitted observations** of chairs and entrance signage:
   - `chair`: 99 correct, 0 incorrect (100.0% precision across 99 views).
   - `laboratory_entrance`: 84 correct, 0 incorrect (100.0% precision across 84 views).
   - `office_entrance`: 78 correct, 0 incorrect (100.0% precision across 78 views).
 - **Geometric Localization Error Isolation**: All 6 incorrect outcomes occurred
   exclusively in the `doorway` class:
   - `doorway`: 20 correct, 6 incorrect (76.9% precision across 26 views).
-  - **Error Mechanism**: Geometric failure occurred exclusively when depth rays traversed
-    the open doorway portal void rather than reflecting off the door jamb boundaries,
-    displacing the inferred planar reference point beyond the $0.35\text{ m}$ tolerance.
+  - **Confirmed error dimension**: All six were labeled reference-point incorrect,
+    with category and instance correct. The labels do not establish the physical
+    cause. Portal-void penetration is a proposed explanation, not a demonstrated
+    mechanism for every case; the implemented estimator uses side-jamb support.
+- **Scope of precision figures**: These are empirical joint-correctness proportions
+  conditional on emitted observations in the scheduled development scenes. Repeated
+  views share worlds. Zero observed errors does not imply probability one, population
+  saturation, recall, calibrated uncertainty or generalization to other scenes.
 - **Calibration Impact**: Zero negative outcomes across 261 emissions for three classes
   prohibited fitting multi-class supervised logistic models under the pre-registered
   outcome floor ($\ge 5$ incorrect required per class).
@@ -84,6 +89,12 @@ provides a benchmark exploratory baseline:
   matching scores, explicitly designated as uncalibrated matching scores.
 - **Validation Status**: Retained as an exploratory feasibility artifact; not admitted
   for runtime robot navigation.
+- **Fit diagnostics**: The doorway solver converged after 578 updates. Seven
+  leave-one-map-out folds fitted; three failed the unchanged negative-outcome floor
+  and remain reported as unfit, not silently excluded.
+- **Final archive**: `reports/research3_final_closure_20260926_v2.zip` supersedes
+  version 1. Historical claims below remain historical, not validation of this
+  hybrid candidate. Original four-class calibration success is not claimed.
 
 ---
 
@@ -180,4 +191,3 @@ feasibility scope. Consequently:
 - The hybrid candidate is preserved as an exploratory candidate only, without runtime
   admission.
 - Research 3 reaches final termination.
-

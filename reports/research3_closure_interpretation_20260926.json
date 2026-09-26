@@ -1,0 +1,22 @@
+{
+  "schema_version": "research3-closure-interpretation/v1",
+  "supersedes_scientific_interpretation_in": "research3_final_closure_20260926_v1.zip",
+  "preserves_authority_record": "reports/research3_closure_authority_20260926.json",
+  "status": "closed_under_user_authorized_descriptive_exploratory_scope",
+  "reviewer": "Emmanuel Alabi Olasubomi",
+  "role": "Researcher",
+  "timezone": "Africa/Lagos",
+  "observed_chair_and_entrance_joint_correct": 261,
+  "observed_chair_and_entrance_emissions": 261,
+  "population_precision_one_established": false,
+  "doorway_correct": 20,
+  "doorway_reference_point_incorrect": 6,
+  "portal_void_causation_independently_established": false,
+  "original_calibration_gate_passed": false,
+  "B03": "resolved_by_scope_change_not_gate_success",
+  "B09": "resolved_by_descriptive_final_report_not_confirmatory_campaign",
+  "wave_c_and_v": "cancelled_do_not_launch",
+  "runtime_admitted": false,
+  "human_labels_modified": false,
+  "operational_check": "No Wave S host processes found; no live child agents; both collection lock files already absent. No processes killed or evidence removed in this final verification."
+}
